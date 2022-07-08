@@ -6,6 +6,7 @@ Questions should be written in the following format
 uuid: 1b8fbe3c-aeb2-4b7d-a3ef-3082bf07efcc
 # Types can be MultipleChoice or SingleChoice
 type: MultipleChoice
+# Content should be in Markdown format
 content: What does SW DAO offer?
 answerKeys:
 - e0kl
@@ -18,9 +19,12 @@ sub_topics:
 # Difficulty level should be one option from "Low" , "Medium", "High"  
 diffculty_level: "Low"
 choices:
+  # Content should be in Markdown format  
 - content: It offers crypto based mining applications for effective utilization
     of resources.
+  # four character random string
   key: rtte
+  # order in which the choice should appear
   order: 0
 - content: It offers strategic DeFi investment products which allocate capital
     based on Machine Learning
