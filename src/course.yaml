@@ -1,7 +1,10 @@
-title:
-summary:
-description:
-duration:
+title: Dummy Course
+summary: This is a Solidity Course
+description:  |
+  "Line1" 
+  "Line2" 
+  "Line3"
+duration: 45 - 60 mins
 topics:
   - title: Blockchain Basics
     summary: This chapter explains the basics of blockchian
@@ -14,4 +17,4 @@ topics:
     readings: first_smart_contract.yaml
     summaries: first_smart_contract.yaml
     questions: first_smart_contract.yaml
-    order:
+    order: 1
