@@ -1,0 +1,17 @@
+title:
+summary:
+description:
+duration:
+topics:
+  - title: Blockchain Basics
+    summary: This chapter explains the basics of blockchian
+    readings: blockchian_basics.yaml
+    summaries: blockchian_basics.yaml
+    questions: blockchian_basics.yaml
+    order: 0
+  - title: First Smart Contract
+    summary: A minimal smart contract that gives a peek into what smart contracts are and how are they written and deployed
+    readings: first_smart_contract.yaml
+    summaries: first_smart_contract.yaml
+    questions: first_smart_contract.yaml
+    order:
