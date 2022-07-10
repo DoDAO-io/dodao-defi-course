@@ -14,10 +14,10 @@ commander@*, commander@^9.3.0:
   resolved "https://registry.yarnpkg.com/commander/-/commander-9.3.0.tgz#f619114a5a2d2054e0d9ff1b31d5ccf89255e26b"
   integrity sha512-hv95iU5uXPbK83mjrJKuZyFM/LBAoCV/XhVGkS5Je6tl7sxr6A0ITMw5WoRV46/UaJ46Nllm3Xt7IaJhXTIkzw==
 
-dodao-course-processor@0.1.6:
-  version "0.1.6"
-  resolved "https://registry.yarnpkg.com/dodao-course-processor/-/dodao-course-processor-0.1.6.tgz#1448db13db737727f6ade24f3eefbaba8c0d852c"
-  integrity sha512-NfDL8mg8XWaZXQZ750gKZHAJtVEYnDxpXro+5r3GJawx+N2c7AsBNnPxrJL0nsHCotjVIsu2pHCT4MY7QnFHfw==
+dodao-course-processor@0.1.8:
+  version "0.1.8"
+  resolved "https://registry.yarnpkg.com/dodao-course-processor/-/dodao-course-processor-0.1.8.tgz#e3914cd944b88fb99bc202e050281abe556cf562"
+  integrity sha512-lXbZUqL3z4bcIRCfKlc4dQhe7yQRxeF9lYnKy2EPOSZFN6r1GQ22K+5Vjddzx0ufN+UfSH4aw1SvxZpRjLGi3A==
   dependencies:
     "@types/commander" "^2.12.2"
     commander "^9.3.0"
