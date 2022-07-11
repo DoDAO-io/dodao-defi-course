@@ -1,19 +1,19 @@
 {
-  "name": "dodao-solidity-course",
+  "name": "dodao-defi-course",
   "version": "1.0.0",
-  "description": "This course consists of summaries of various topics of solidity course and the questions",
+  "description": "This course consists of summaries of various topics of defi course and the questions",
   "scripts": {
     "test": "dodao-course-processor gen-all src"
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/DoDAO-io/dodao-solidity-course.git"
+    "url": "git+https://github.com/DoDAO-io/dodao-defi-course.git"
   },
   "author": "robin",
   "bugs": {
-    "url": "https://github.com/DoDAO-io/dodao-solidity-course/issues"
+    "url": "https://github.com/DoDAO-io/dodao-defi-course/issues"
   },
-  "homepage": "https://github.com/DoDAO-io/dodao-solidity-course#readme",
+  "homepage": "https://github.com/DoDAO-io/dodao-defi-course#readme",
   "dependencies": {
     "dodao-course-processor": "0.1.8"
   }
