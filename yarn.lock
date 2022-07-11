@@ -14,20 +14,32 @@ commander@*, commander@^9.3.0:
   resolved "https://registry.yarnpkg.com/commander/-/commander-9.3.0.tgz#f619114a5a2d2054e0d9ff1b31d5ccf89255e26b"
   integrity sha512-hv95iU5uXPbK83mjrJKuZyFM/LBAoCV/XhVGkS5Je6tl7sxr6A0ITMw5WoRV46/UaJ46Nllm3Xt7IaJhXTIkzw==
 
-dodao-course-processor@0.1.8:
-  version "0.1.8"
-  resolved "https://registry.yarnpkg.com/dodao-course-processor/-/dodao-course-processor-0.1.8.tgz#e3914cd944b88fb99bc202e050281abe556cf562"
-  integrity sha512-lXbZUqL3z4bcIRCfKlc4dQhe7yQRxeF9lYnKy2EPOSZFN6r1GQ22K+5Vjddzx0ufN+UfSH4aw1SvxZpRjLGi3A==
+dedent-js@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/dedent-js/-/dedent-js-1.0.1.tgz#bee5fb7c9e727d85dffa24590d10ec1ab1255305"
+  integrity sha512-OUepMozQULMLUmhxS95Vudo0jb0UchLimi3+pQ2plj61Fcy8axbP9hbiD4Sz6DPqn6XG3kfmziVfQ1rSys5AJQ==
+
+dodao-course-processor@0.1.10:
+  version "0.1.10"
+  resolved "https://registry.yarnpkg.com/dodao-course-processor/-/dodao-course-processor-0.1.10.tgz#88e3f4a38cefeae430a44d4765770df2661989d0"
+  integrity sha512-gH3+5lP++Lk7fER+k1iKNwgUnEK9lAAq3Jbilr9xyfWuC3ujrNpNU6gCp9ZpeOmfXhYQLHCituy0ZUSZy3Ae0Q==
   dependencies:
     "@types/commander" "^2.12.2"
     commander "^9.3.0"
+    dedent-js "^1.0.1"
     jsonschema "^1.4.1"
+    lodash "^4.17.21"
     yaml "^2.1.1"
 
 jsonschema@^1.4.1:
   version "1.4.1"
   resolved "https://registry.yarnpkg.com/jsonschema/-/jsonschema-1.4.1.tgz#cc4c3f0077fb4542982973d8a083b6b34f482dab"
   integrity sha512-S6cATIPVv1z0IlxdN+zUk5EPjkGCdnhN4wVSBlvoUO1tOLJootbo9CquNJmbIh4yikWHiUedhRYrNPn1arpEmQ==
+
+lodash@^4.17.21:
+  version "4.17.21"
+  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
+  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
 
 yaml@^2.1.1:
   version "2.1.1"
