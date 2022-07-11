@@ -1,20 +1,32 @@
-title: DeFi Course
-summary: This is a DeFi Course
-description:  |
+title: Dummy Course
+summary: This is a Dummy Course that is used for validation
+description:  | 
   "Line1" 
   "Line2" 
   "Line3"
 duration: 45 - 60 mins
 topics:
   - title: Blockchain Basics
+    key: blockchain-basics
     summary: This chapter explains the basics of blockchian
-    readings: blockchian_basics.yaml
-    summaries: blockchian_basics.yaml
-    questions: blockchian_basics.yaml
-    order: 0
-  - title: First Smart Contract
-    summary: A minimal smart contract that gives a peek into what smart contracts are and how are they written and deployed
-    readings: first_smart_contract.yaml
-    summaries: first_smart_contract.yaml
-    questions: first_smart_contract.yaml
-    order: 1
+    description: |
+      This chapter explains about
+        * What is blockchian
+        * Its uses
+        * History
+    readings: blockchain_basics.yaml
+    summaries: blockchain_basics.yaml
+    questions: blockchain_basics.yaml
+    status: In Progress
+    completionWeek:  July 18
+  - title: Decentralized Finance
+    key: decentralized-finance
+    summary: Explain on a high level what is decentralized finance
+    description: |
+      This chapter explains 
+      * How is decentralized finance different from centralized finance
+    readings: cfi_vs_defi.yaml
+    summaries: cfi_vs_defi.yaml
+    questions: cfi_vs_defi.yaml
+    status: In Progress
+    completionWeek: July 18

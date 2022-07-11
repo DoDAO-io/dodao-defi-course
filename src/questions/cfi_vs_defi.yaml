@@ -1,5 +1,5 @@
 - # uuid Needs to be a random UUID - You can generate it from https://www.uuidgenerator.net/version4.  Use version 4
-  uuid: 1b8fbe3c-aeb2-4b7d-a3ef-3082bf07efcc
+  uuid: f1563920-af3d-409b-b42f-fdd63f49fc3d
   # Types can be MultipleChoice or SingleChoice
   type: MultipleChoice
   # Content should be in Markdown format
@@ -12,8 +12,7 @@
   topic: "01_data_types"
   # should be from one of the predefined list of sub-topics, or can be a new one
   sub_topics:
-    - "string"
-    - "variables"
+    - "consensus-layer"
   # Difficulty level should be one option from "Low" , "Medium", "High"
   difficulty_level: "Low"
   choices:

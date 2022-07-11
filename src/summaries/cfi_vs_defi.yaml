@@ -1,0 +1,15 @@
+- title: Traditional Finance (CeFi)
+  key: traditional-finance
+  summary: (Centralized) financial institutions provide financial services like securities/insurance/trust investment/fund management
+  details: |
+    - Banks provide services like securities/insurance/trust investment/fund management 
+    - Hold custodies of customers’ funds/assets
+      * Can freeze accounts
+    - Serves as intermediaries for transactions
+- title: Birth of (Public) Blockchain
+  key: public-blockchain-birth
+  summary: Bitcoin maked the birth of first public blockchain
+  details: |
+    - Bitcoin white paper was published in ....
+    - Bitcoin ....
+    

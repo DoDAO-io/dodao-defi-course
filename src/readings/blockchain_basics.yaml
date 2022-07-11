@@ -1,0 +1,25 @@
+- uuid: 20dc6f70-3ac9-4920-a3cb-ceb65b78a0e4
+  title: Introduction to Blockchain Technology
+  summary: Blockchain is a ledger
+  type: YoutubeVideo
+  url: https://www.youtube.com/watch?v=u70_rafPs-0
+  sub_topics:
+    - "consensus-layer"
+    - "cryptographic-primitives"
+  description: |
+    This video explains about
+    * Point 1
+    * Point 2
+- uuid: 8c65828a-2451-431f-8764-842bf37cf1d2
+  title: Cryptographic Hash Functions
+  summary: Cryptography is used
+  type: YoutubeVideo
+  url: https://www.youtube.com/watch?v=WSejk1E6fRo
+  sub_topics:
+    - "consensus-layer"
+    - "cryptographic-primitives"
+  description: |
+    This video explains about
+    * Point 1
+    * Point 2
+    

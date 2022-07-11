@@ -1,0 +1,24 @@
+- title: Consensus layer
+  key: consensus-layer
+  summary: Blockchain is an public append-only data which allows persistence,consensus, liveness and is open
+  details: |
+    - Persistence: once added, data can never be removed*
+    - Consensus: all honest participants have the same data**
+    - Liveness: honest participants can add new transactions
+    - Open(?): anyone can add data
+- title: Cryptographic Primitives
+  key: cryptographic-primitives
+  summary: Cryptographic Primitives.....
+  details: |
+    - Collision resistant hashing: commit to data on a blockchain 
+       ⟹ Merkle trees: commit to a list; later open one cell
+    - "Digital signatures: authorizing actions"
+    - "SNARK proofs: prove that a certain statement is true
+       1. short proof
+       2. fast verification"
+- title: Scaling the blockchain
+  key: scaling-blockchain
+  summary: Ethereum L1 has a limit on number of transactions it can process
+  details: |
+    - Scaling the blockchain: Payment channels and Rollups (L2 scaling)
+    
