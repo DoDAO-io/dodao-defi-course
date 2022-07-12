@@ -15,6 +15,6 @@
   },
   "homepage": "https://github.com/DoDAO-io/dodao-defi-course#readme",
   "dependencies": {
-    "dodao-course-processor": "0.1.10"
+    "dodao-course-processor": "0.1.11"
   }
 }
