@@ -3,45 +3,45 @@
 
 
 "@types/commander@^2.12.2":
-  version "2.12.2"
-  resolved "https://registry.yarnpkg.com/@types/commander/-/commander-2.12.2.tgz#183041a23842d4281478fa5d23c5ca78e6fd08ae"
-  integrity sha512-0QEFiR8ljcHp9bAbWxecjVRuAMr16ivPiGOw6KFQBVrVd0RQIcM3xKdRisH2EDWgVWujiYtHwhSkSUoAAGzH7Q==
+  "integrity" "sha512-0QEFiR8ljcHp9bAbWxecjVRuAMr16ivPiGOw6KFQBVrVd0RQIcM3xKdRisH2EDWgVWujiYtHwhSkSUoAAGzH7Q=="
+  "resolved" "https://registry.npmjs.org/@types/commander/-/commander-2.12.2.tgz"
+  "version" "2.12.2"
   dependencies:
-    commander "*"
+    "commander" "*"
 
-commander@*, commander@^9.3.0:
-  version "9.3.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-9.3.0.tgz#f619114a5a2d2054e0d9ff1b31d5ccf89255e26b"
-  integrity sha512-hv95iU5uXPbK83mjrJKuZyFM/LBAoCV/XhVGkS5Je6tl7sxr6A0ITMw5WoRV46/UaJ46Nllm3Xt7IaJhXTIkzw==
+"commander@*", "commander@^9.3.0":
+  "integrity" "sha512-hv95iU5uXPbK83mjrJKuZyFM/LBAoCV/XhVGkS5Je6tl7sxr6A0ITMw5WoRV46/UaJ46Nllm3Xt7IaJhXTIkzw=="
+  "resolved" "https://registry.npmjs.org/commander/-/commander-9.3.0.tgz"
+  "version" "9.3.0"
 
-dedent-js@^1.0.1:
-  version "1.0.1"
-  resolved "https://registry.yarnpkg.com/dedent-js/-/dedent-js-1.0.1.tgz#bee5fb7c9e727d85dffa24590d10ec1ab1255305"
-  integrity sha512-OUepMozQULMLUmhxS95Vudo0jb0UchLimi3+pQ2plj61Fcy8axbP9hbiD4Sz6DPqn6XG3kfmziVfQ1rSys5AJQ==
+"dedent-js@^1.0.1":
+  "integrity" "sha512-OUepMozQULMLUmhxS95Vudo0jb0UchLimi3+pQ2plj61Fcy8axbP9hbiD4Sz6DPqn6XG3kfmziVfQ1rSys5AJQ=="
+  "resolved" "https://registry.npmjs.org/dedent-js/-/dedent-js-1.0.1.tgz"
+  "version" "1.0.1"
 
-dodao-course-processor@0.1.11:
-  version "0.1.11"
-  resolved "https://registry.yarnpkg.com/dodao-course-processor/-/dodao-course-processor-0.1.11.tgz#dabb2f77d9e9083c82ce76368f561124ce2fcd9b"
-  integrity sha512-kPYfUTInQrkU26a1FrmWlwpNGB+dZcnDEvxfxAHb4H1+WDQjmDIoE/vuTJ1rf0whBMmqDvVg31NTNxYLKUp6Og==
+"dodao-course-processor@0.1.11":
+  "integrity" "sha512-kPYfUTInQrkU26a1FrmWlwpNGB+dZcnDEvxfxAHb4H1+WDQjmDIoE/vuTJ1rf0whBMmqDvVg31NTNxYLKUp6Og=="
+  "resolved" "https://registry.npmjs.org/dodao-course-processor/-/dodao-course-processor-0.1.11.tgz"
+  "version" "0.1.11"
   dependencies:
     "@types/commander" "^2.12.2"
-    commander "^9.3.0"
-    dedent-js "^1.0.1"
-    jsonschema "^1.4.1"
-    lodash "^4.17.21"
-    yaml "^2.1.1"
+    "commander" "^9.3.0"
+    "dedent-js" "^1.0.1"
+    "jsonschema" "^1.4.1"
+    "lodash" "^4.17.21"
+    "yaml" "^2.1.1"
 
-jsonschema@^1.4.1:
-  version "1.4.1"
-  resolved "https://registry.yarnpkg.com/jsonschema/-/jsonschema-1.4.1.tgz#cc4c3f0077fb4542982973d8a083b6b34f482dab"
-  integrity sha512-S6cATIPVv1z0IlxdN+zUk5EPjkGCdnhN4wVSBlvoUO1tOLJootbo9CquNJmbIh4yikWHiUedhRYrNPn1arpEmQ==
+"jsonschema@^1.4.1":
+  "integrity" "sha512-S6cATIPVv1z0IlxdN+zUk5EPjkGCdnhN4wVSBlvoUO1tOLJootbo9CquNJmbIh4yikWHiUedhRYrNPn1arpEmQ=="
+  "resolved" "https://registry.npmjs.org/jsonschema/-/jsonschema-1.4.1.tgz"
+  "version" "1.4.1"
 
-lodash@^4.17.21:
-  version "4.17.21"
-  resolved "https://registry.yarnpkg.com/lodash/-/lodash-4.17.21.tgz#679591c564c3bffaae8454cf0b3df370c3d6911c"
-  integrity sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg==
+"lodash@^4.17.21":
+  "integrity" "sha512-v2kDEe57lecTulaDIuNTPy3Ry4gLGJ6Z1O3vE1krgXZNrsQ+LFTGHVxVjcXPs17LhbZVGedAJv8XZ1tvj5FvSg=="
+  "resolved" "https://registry.npmjs.org/lodash/-/lodash-4.17.21.tgz"
+  "version" "4.17.21"
 
-yaml@^2.1.1:
-  version "2.1.1"
-  resolved "https://registry.yarnpkg.com/yaml/-/yaml-2.1.1.tgz#1e06fb4ca46e60d9da07e4f786ea370ed3c3cfec"
-  integrity sha512-o96x3OPo8GjWeSLF+wOAbrPfhFOGY0W00GNaxCDv+9hkcDJEnev1yh8S7pgHF0ik6zc8sQLuL8hjHjJULZp8bw==
+"yaml@^2.1.1":
+  "integrity" "sha512-o96x3OPo8GjWeSLF+wOAbrPfhFOGY0W00GNaxCDv+9hkcDJEnev1yh8S7pgHF0ik6zc8sQLuL8hjHjJULZp8bw=="
+  "resolved" "https://registry.npmjs.org/yaml/-/yaml-2.1.1.tgz"
+  "version" "2.1.1"
