@@ -29,9 +29,9 @@ topics:
       * Smart contracts / Gas / Oracles
       * Stable Coins 
       * dApps
-    readings: defi_foundations.yaml
-    summaries: defi_foundations.yaml
-    questions: defi_foundations.yaml
+    readings: blockchain_basics.yaml
+    summaries: blockchain_basics.yaml
+    questions: blockchain_basics.yaml
     status: In Progress
     completionWeek: July 18
   - title: DeFi Transaction Mechanics
@@ -42,9 +42,9 @@ topics:
       * How transactions are carried in Ethereum Network
       * Fungible Tokens
       * Non Fungible Tokens 
-    readings: defi_transaction_mechanics.yaml
-    summaries: defi_transaction_mechanics.yaml
-    questions: defi_transaction_mechanics.yaml
+    readings: blockchain_basics.yaml
+    summaries: blockchain_basics.yaml
+    questions: blockchain_basics.yaml
     status: In Progress
     completionWeek: July 18
   - title: Supply and Custody
@@ -55,9 +55,9 @@ topics:
       * Supply Adjustments (Minting and Burning)
       * Custody
       * Incentives
-    readings: supply_and_custody.yaml
-    summaries: supply_and_custody.yaml
-    questions: supply_and_custody.yaml
+    readings: blockchain_basics.yaml
+    summaries: blockchain_basics.yaml
+    questions: blockchain_basics.yaml
     status: In Progress
     completionWeek: July 18
   - title: Decentralised Exchanges
@@ -69,9 +69,9 @@ topics:
       * Swaps
       * Automated Market Makers
       * Loans 
-    readings: decentralised_exchanges.yaml
-    summaries: decentralised_exchanges.yaml
-    questions: decentralised_exchanges.yaml
+    readings: blockchain_basics.yaml
+    summaries: blockchain_basics.yaml
+    questions: blockchain_basics.yaml
     status: In Progress
     completionWeek: July 18
   - title: Lending and Credit
@@ -82,9 +82,9 @@ topics:
       * MakerDAO stablecoin
       * Compound
       * Aave
-    readings: lending_and_credit.yaml
-    summaries: lending_and_credit.yaml
-    questions: lending_and_credit.yaml
+    readings: blockchain_basics.yaml
+    summaries: blockchain_basics.yaml
+    questions: blockchain_basics.yaml
     status: In Progress
     completionWeek: July 18
   - title: Uniswap
@@ -96,9 +96,9 @@ topics:
       * Governance and flash swaps
       * Impermanent loss
       * Balancer
-    readings: uniswap.yaml
-    summaries: uniswap.yaml
-    questions: uniswap.yaml
+    readings: blockchain_basics.yaml
+    summaries: blockchain_basics.yaml
+    questions: blockchain_basics.yaml
     status: In Progress
     completionWeek: July 18
   - title: Derivatives
@@ -109,9 +109,9 @@ topics:
       * Yield Protocol
       * dYdX
       * Synthetix
-    readings: derivatives.yaml
-    summaries: derivatives.yaml
-    questions: derivatives.yaml
+    readings: blockchain_basics.yaml
+    summaries: blockchain_basics.yaml
+    questions: blockchain_basics.yaml
     status: In Progress
     completionWeek: July 18
   - title: Tokenization
@@ -121,9 +121,9 @@ topics:
       This chapter explains 
       * Set Protocol
       * Wrapped bitcoin
-    readings: tokenization.yaml
-    summaries: tokenization.yaml
-    questions: tokenization.yaml
+    readings: blockchain_basics.yaml
+    summaries: blockchain_basics.yaml
+    questions: blockchain_basics.yaml
     status: In Progress
     completionWeek: July 18
   
