@@ -47,7 +47,7 @@ topics:
     questions: defi_transaction_mechanics.yaml
     status: In Progress
     completionWeek: July 18
-  - title: : Supply and Custody
+  - title: Supply and Custody
     key: supply-and-custody
     summary: Explains the supply adjustments and atomic nature of Ethereum transactions.
     description: |
