@@ -3,7 +3,7 @@
   summary: Decentralized Finance means you maintain the custody for your assets
   type: YoutubeVideo
   url: https://www.youtube.com/watch?v=aQHcvrPe1GQ
-  sub_topics:
+  subTopics:
     - "consensus-layer"
     - "cryptographic-primitives"
   description: |
@@ -15,7 +15,7 @@
   summary: DeFi Stack consists of Settlement, Asset, Protocol, Aplication, and Aggregation Layers
   type: YoutubeVideo
   url: https://www.youtube.com/watch?v=kIF4fs_YFIE
-  sub_topics:
+  subTopics:
     - "consensus-layer"
     - "cryptographic-primitives"
   description: |

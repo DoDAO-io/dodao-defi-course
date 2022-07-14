@@ -9,11 +9,11 @@
   answerKeys:
     - e0kl
   # should be from one of the predefined list of topics
-  sub_topics:
+  subTopics:
     - "consensus-layer"
     - "cryptographic-primitives"
   # Difficulty level should be one option from "Low" , "Medium", "High"
-  difficulty_level: "Low"
+  difficultyLevel: "Low"
   choices:
     # Content should be in Markdown format
     - content: It offers crypto based mining applications for effective utilization

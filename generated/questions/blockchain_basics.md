@@ -3,11 +3,20 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 
  ---
  
- ## Blockchain Basics
+ ## Tokenization
  
- **What does SW DAO offer?**
+ 
+---
+
+##### What does SW DAO offer?  
+
 - [ ]  It offers crypto based mining applications for effective utilization of resources.
 - [x]  It offers strategic DeFi investment products which allocate capital based on Machine Learning
 - [ ]  It offers coding and machine learning solutions to develop Defi applications.
-- [ ]  All of the about options         
+- [ ]  All of the about options
+  
+Hint: This is shown if user needs some help
+         
+Explanation: This is shown when the user answers the choice incorrectly
+
  
