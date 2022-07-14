@@ -1,32 +1,129 @@
 title: DeFi 101 Course
 summary: This is a DeFi 101 Course
 description:  | 
-  "Line1" 
-  "Line2" 
-  "Line3"
+  "Decentralised Finance (DeFi) is the upcoming revolution in the world which would result in the complete transformation in the functioning of the finance sector using blockchain technology as its core." 
+  "This course, DeFi 101 , will introduce the learners to the world of blockchain and how it can be incorporated into the current financial system making it more efficient and secure than before. " 
+  "During the course, learners will be upskilled in the fields of Cryptography, Smart Contracts, Decentralised Protocols, Ethereum networks, Consensus Mechanisms (PoW & PoS), Flash loans, Digital signatures, Tokenization and many more! So, fasten your seat belts to know the future of finance."
+
 duration: 45 - 60 mins
 topics:
   - title: Blockchain Basics
     key: blockchain-basics
-    summary: This chapter explains the basics of blockchian
+    summary: This chapter explains the basics of blockchain and cryptocurrency.
     description: |
       This chapter explains about
-        * What is blockchian
-        * Its uses
-        * History
+        * What is Blockchain 
+        * Crypto Origins
+        * Hashing
     readings: blockchain_basics.yaml
     summaries: blockchain_basics.yaml
     questions: blockchain_basics.yaml
     status: In Progress
     completionWeek:  July 18
-  - title: Decentralized Finance
-    key: decentralized-finance
-    summary: Explain on a high level what is decentralized finance
+  - title: DeFi-Foundations
+    key: defi-foundations
+    summary: Explain on a high level what is decentralized finance and its core fundamentals.
     description: |
       This chapter explains 
       * How is decentralized finance different from centralized finance
-    readings: cfi_vs_defi.yaml
-    summaries: cfi_vs_defi.yaml
-    questions: cfi_vs_defi.yaml
+      * Smart contracts / Gas / Oracles
+      * Stable Coins 
+      * dApps
+    readings: defi_foundations.yaml
+    summaries: defi_foundations.yaml
+    questions: defi_foundations.yaml
     status: In Progress
     completionWeek: July 18
+  - title: : DeFi Transaction Mechanics
+    key: defi-transaction-mechanics
+    summary: This chapter focusses on transactions using Ethereum accounts and tokens in the network.
+    description: |
+      This chapter explains 
+      * How transactions are carried in Ethereum Network
+      * Fungible Tokens
+      * Non Fungible Tokens 
+    readings: defi_transaction_mechanics.yaml
+    summaries: defi_transaction_mechanics.yaml
+    questions: defi_transaction_mechanics.yaml
+    status: In Progress
+    completionWeek: July 18
+  - title: : Supply and Custody
+    key: supply-and-custody
+    summary: Explains the supply adjustments and atomic nature of Ethereum transactions.
+    description: |
+      This chapter explains 
+      * Supply Adjustments (Minting and Burning)
+      * Custody
+      * Incentives
+    readings: supply_and_custody.yaml
+    summaries: supply_and_custody.yaml
+    questions: supply_and_custody.yaml
+    status: In Progress
+    completionWeek: July 18
+  - title: : Decentralised Exchanges
+    key: decentralised-exchanges
+    summary: Focusses on one of the pillars of DeFi - Decentralised Exchanges and their Functioning.
+    description: |
+      This chapter explains 
+      * Working of Decentralised Exchanges
+      * Swaps
+      * Automated Market Makers
+      * Loans 
+    readings: decentralised_exchanges.yaml
+    summaries: decentralised_exchanges.yaml
+    questions: decentralised_exchanges.yaml
+    status: In Progress
+    completionWeek: July 18
+  - title: : Lending and Credit
+    key: lending-and-credit
+    summary: Functioning of the MakerDAO stablecoin and examining Compound and Aave.
+    description: |
+      This chapter explains 
+      * MakerDAO stablecoin
+      * Compound
+      * Aave
+    readings: lending_and_credit.yaml
+    summaries: lending_and_credit.yaml
+    questions: lending_and_credit.yaml
+    status: In Progress
+    completionWeek: July 18
+  - title: : Uniswap
+    key: uniswap
+    summary: Advanced explaination of most popular DEX - Uniswap and its UNI-token.
+    description: |
+      This chapter explains 
+      * What is Uniswap ?
+      * Governance and flash swaps
+      * Impermanent loss
+      * Balancer
+    readings: uniswap.yaml
+    summaries: uniswap.yaml
+    questions: uniswap.yaml
+    status: In Progress
+    completionWeek: July 18
+  - title: : Derivatives
+    key: derivatives
+    summary: This chapter explains the popular derivatives protocols and provides insights into Yield Protocol and Synthetix.
+    description: |
+      This chapter explains 
+      * Yield Protocol
+      * dYdX
+      * Synthetix
+    readings: derivatives.yaml
+    summaries: derivatives.yaml
+    questions: derivatives.yaml
+    status: In Progress
+    completionWeek: July 18
+  - title: : Tokenization
+    key: tokenization
+    summary: This chapter deals with tokenization and benefits of set protocol.
+    description: |
+      This chapter explains 
+      * Set Protocol
+      * Wrapped bitcoin
+    readings: tokenization.yaml
+    summaries: tokenization.yaml
+    questions: tokenization.yaml
+    status: In Progress
+    completionWeek: July 18
+  
