@@ -34,7 +34,7 @@ topics:
     questions: defi_foundations.yaml
     status: In Progress
     completionWeek: July 18
-  - title: : DeFi Transaction Mechanics
+  - title: DeFi Transaction Mechanics
     key: defi-transaction-mechanics
     summary: This chapter focusses on transactions using Ethereum accounts and tokens in the network.
     description: |
@@ -60,7 +60,7 @@ topics:
     questions: supply_and_custody.yaml
     status: In Progress
     completionWeek: July 18
-  - title: : Decentralised Exchanges
+  - title: Decentralised Exchanges
     key: decentralised-exchanges
     summary: Focusses on one of the pillars of DeFi - Decentralised Exchanges and their Functioning.
     description: |
@@ -74,7 +74,7 @@ topics:
     questions: decentralised_exchanges.yaml
     status: In Progress
     completionWeek: July 18
-  - title: : Lending and Credit
+  - title: Lending and Credit
     key: lending-and-credit
     summary: Functioning of the MakerDAO stablecoin and examining Compound and Aave.
     description: |
@@ -87,7 +87,7 @@ topics:
     questions: lending_and_credit.yaml
     status: In Progress
     completionWeek: July 18
-  - title: : Uniswap
+  - title: Uniswap
     key: uniswap
     summary: Advanced explaination of most popular DEX - Uniswap and its UNI-token.
     description: |
@@ -101,7 +101,7 @@ topics:
     questions: uniswap.yaml
     status: In Progress
     completionWeek: July 18
-  - title: : Derivatives
+  - title: Derivatives
     key: derivatives
     summary: This chapter explains the popular derivatives protocols and provides insights into Yield Protocol and Synthetix.
     description: |
@@ -114,7 +114,7 @@ topics:
     questions: derivatives.yaml
     status: In Progress
     completionWeek: July 18
-  - title: : Tokenization
+  - title: Tokenization
     key: tokenization
     summary: This chapter deals with tokenization and benefits of set protocol.
     description: |
