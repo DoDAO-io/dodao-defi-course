@@ -3,7 +3,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 
  ---
  
- ## Blockchain Basics
+ ## Tokenization
  
  **Consensus layer**        
 Blockchain is an public append-only data which allows persistence,consensus, liveness and is open   

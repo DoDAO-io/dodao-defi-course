@@ -3,7 +3,7 @@
   summary: Blockchain is a ledger
   type: YoutubeVideo
   url: https://www.youtube.com/watch?v=u70_rafPs-0
-  sub_topics:
+  subTopics:
     - "consensus-layer"
     - "cryptographic-primitives"
   description: |
@@ -15,7 +15,7 @@
   summary: Cryptography is used
   type: YoutubeVideo
   url: https://www.youtube.com/watch?v=WSejk1E6fRo
-  sub_topics:
+  subTopics:
     - "consensus-layer"
     - "cryptographic-primitives"
   description: |
