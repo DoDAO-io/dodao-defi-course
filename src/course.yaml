@@ -7,6 +7,19 @@ description:  |
 
 duration: 45 - 60 mins
 topics:
+  - title: What is DeFi and Use Cases
+    key: hwat-is-defi
+    summary: This chapter explains basics of DeFi, How its different from Traditional Finance, and Use Cases
+    description: |
+      This chapter explains about
+        * What is DeFi 
+        * CeFi vs DeFi
+        * Use cases of DeFi
+    readings: blockchain_basics.yaml
+    summaries: blockchain_basics.yaml
+    questions: blockchain_basics.yaml
+    status: In Progress
+    completionWeek:  July 18
   - title: Blockchain Basics
     key: blockchain-basics
     summary: This chapter explains the basics of blockchain and cryptocurrency.
@@ -20,55 +33,16 @@ topics:
     questions: blockchain_basics.yaml
     status: In Progress
     completionWeek:  July 18
-  - title: DeFi-Foundations
+  - title: Smart Contratcs
     key: defi-foundations
-    summary: Explain on a high level what is decentralized finance and its core fundamentals.
+    summary: Explain on a high level what are smart contract, and where do they run
     description: |
       This chapter explains 
-      * How is decentralized finance different from centralized finance
+      * How Ethereum transactions
+      * miner extractable value.
       * Smart contracts / Gas / Oracles
-      * Stable Coins 
+      * Fungible and non-fungible (NFT) tokens 
       * dApps
-    readings: blockchain_basics.yaml
-    summaries: blockchain_basics.yaml
-    questions: blockchain_basics.yaml
-    status: In Progress
-    completionWeek: July 18
-  - title: DeFi Transaction Mechanics
-    key: defi-transaction-mechanics
-    summary: This chapter focusses on transactions using Ethereum accounts and tokens in the network.
-    description: |
-      This chapter explains 
-      * How transactions are carried in Ethereum Network
-      * Fungible Tokens
-      * Non Fungible Tokens 
-    readings: blockchain_basics.yaml
-    summaries: blockchain_basics.yaml
-    questions: blockchain_basics.yaml
-    status: In Progress
-    completionWeek: July 18
-  - title: Supply and Custody
-    key: supply-and-custody
-    summary: Explains the supply adjustments and atomic nature of Ethereum transactions.
-    description: |
-      This chapter explains 
-      * Supply Adjustments (Minting and Burning)
-      * Custody
-      * Incentives
-    readings: blockchain_basics.yaml
-    summaries: blockchain_basics.yaml
-    questions: blockchain_basics.yaml
-    status: In Progress
-    completionWeek: July 18
-  - title: Decentralised Exchanges
-    key: decentralised-exchanges
-    summary: Focusses on one of the pillars of DeFi - Decentralised Exchanges and their Functioning.
-    description: |
-      This chapter explains 
-      * Working of Decentralised Exchanges
-      * Swaps
-      * Automated Market Makers
-      * Loans 
     readings: blockchain_basics.yaml
     summaries: blockchain_basics.yaml
     questions: blockchain_basics.yaml
@@ -87,15 +61,15 @@ topics:
     questions: blockchain_basics.yaml
     status: In Progress
     completionWeek: July 18
-  - title: Uniswap
-    key: uniswap
-    summary: Advanced explaination of most popular DEX - Uniswap and its UNI-token.
+  - title: Decentralised Exchanges
+    key: decentralised-exchanges
+    summary: Focusses on one of the pillars of DeFi - Decentralised Exchanges and their Functioning.
     description: |
       This chapter explains 
-      * What is Uniswap ?
-      * Governance and flash swaps
-      * Impermanent loss
-      * Balancer
+      * Working of Decentralised Exchanges
+      * Swaps
+      * Automated Market Makers
+      * Loans
     readings: blockchain_basics.yaml
     summaries: blockchain_basics.yaml
     questions: blockchain_basics.yaml
@@ -116,14 +90,27 @@ topics:
     completionWeek: July 18
   - title: Tokenization
     key: tokenization
-    summary: This chapter deals with tokenization and benefits of set protocol.
+    summary: Set protocol and Index Coop
     description: |
       This chapter explains 
-      * Set Protocol
+      * Index Coop
+      * Set Protocol provides a way to combine portfolios much like an ETF holds many traditional stocks. The Sets can be active or passive. The module ends with a discussion of the use in DeFi of both wrapped bitcoin and wrapped ethereum.
       * Wrapped bitcoin
+      * Balancer
     readings: blockchain_basics.yaml
     summaries: blockchain_basics.yaml
     questions: blockchain_basics.yaml
     status: In Progress
     completionWeek: July 18
-  
+  - title: Stable Coins
+    key: tokenization
+    summary: Why Stable Coings, Different Type of stabe coins
+    description: |
+      This chapter explains 
+      * Why Stable Coings 
+      * Different Type of stabe coins
+    readings: blockchain_basics.yaml
+    summaries: blockchain_basics.yaml
+    questions: blockchain_basics.yaml
+    status: In Progress
+    completionWeek: July 18
