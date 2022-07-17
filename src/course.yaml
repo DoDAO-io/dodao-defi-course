@@ -8,7 +8,7 @@ description:  |
 duration: 45 - 60 mins
 topics:
   - title: What is DeFi and Use Cases
-    key: hwat-is-defi
+    key: what-is-defi
     summary: This chapter explains basics of DeFi, How its different from Traditional Finance, and Use Cases
     description: |
       This chapter explains about
@@ -104,6 +104,18 @@ topics:
     completionWeek: July 18
   - title: Stable Coins
     key: tokenization
+    summary: Why Stable Coings, Different Type of stabe coins
+    description: |
+      This chapter explains 
+      * Why Stable Coings 
+      * Different Type of stabe coins
+    readings: blockchain_basics.yaml
+    summaries: blockchain_basics.yaml
+    questions: blockchain_basics.yaml
+    status: In Progress
+    completionWeek: July 18
+  - title: Security and Risks
+    key: security-and-risks
     summary: Why Stable Coings, Different Type of stabe coins
     description: |
       This chapter explains 
