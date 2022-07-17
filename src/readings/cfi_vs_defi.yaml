@@ -4,17 +4,6 @@
   url: https://www.youtube.com/watch?v=aQHcvrPe1GQ
   subTopics:
     - "hashing"
-  description: |
-    This video explains about
-    * Point 1
-    * Point 2
-- uuid: 77ba8bbd-8464-4e88-849a-c097ced63da5
-  title: How DeFi
-  type: YoutubeVideo
-  url: https://www.youtube.com/watch?v=kIF4fs_YFIE
-  subTopics:
-    - "hashing"
-  description: |
-    This video explains about
-    * Point 1
-    * Point 2
+  details: |
+    - Value 1
+    - Value 2

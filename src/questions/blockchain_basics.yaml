@@ -360,7 +360,7 @@
   answerKeys:
     - A
   subTopics:
-    -"introduction-to-blockchain"
+    - "introduction-to-blockchain"
   difficultyLevel: "Low"
   choices:
     - content: Wallet

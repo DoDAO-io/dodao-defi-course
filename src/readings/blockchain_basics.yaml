@@ -4,18 +4,7 @@
   url: https://www.youtube.com/watch?v=u70_rafPs-0
   subTopics:
     - "hashing"
-  description: |
-    This video explains about
-    * Point 1
-    * Point 2
-- uuid: 8c65828a-2451-431f-8764-842bf37cf1d2
-  title: Cryptographic Hash Functions
-  type: YoutubeVideo
-  url: https://www.youtube.com/watch?v=WSejk1E6fRo
-  subTopics:
-    - "hashing"
-  description: |
-    This video explains about
-    * Point 1
-    * Point 2
-    
+  details: |
+    * Value 1
+    * Value 2
+
