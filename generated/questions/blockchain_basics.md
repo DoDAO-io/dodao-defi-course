@@ -17,7 +17,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
   
 Hint: Properties of Blockchain
          
-Explanation: Blockchain allows peer to peer transaction , it is decentrlised and permits efficient barter system.
+Explanation: Blockchain allows peer to peer transaction, it is decentrlised and permits efficient barter system.
 
  
 
@@ -30,9 +30,9 @@ Explanation: Blockchain allows peer to peer transaction , it is decentrlised and
 - [ ]  Timestamp
 - [x]  All of the above
   
-Hint: Blockchain Basics
+Hint: Consider the information that a transaction block needs to have so that it can give proper details about the transaction.
          
-Explanation: Each Block contains a hash pointer to the next node , current transaction details , Timestamp.
+Explanation: Each Block contains a hash pointer to the next node, current transaction details, Timestamp.
 
  
 
@@ -60,13 +60,13 @@ Explanation: Blockchain details can be stored as a flat file and a database.
   
 Hint: NoHint
          
-Explanation: A block in blockchain cannot have more than one parent because they have unique hash pointer attached to it. Hence , two blocks cannot point to the same block.
+Explanation: A block in blockchain cannot have more than one parent because they have unique hash pointer attached to it. Hence, two blocks cannot point to the same block.
 
  
 
 ---
 
-##### Blocks in Blockchain as linked to each to each other .......  
+##### Blocks in Blockchain as linked to each other .......  
 
 - [x]  Backward direction
 - [ ]  Forward direction
@@ -87,9 +87,9 @@ Explanation: The blocks in Blockchain are attached to each other in the backward
 - [x]  Tamper Proof
 - [ ]  Mutable
   
-Hint: Characteristics of Blockchain
+Hint: NoHint
          
-Explanation: Blockchain provides scalability , improved security to its users and they are immutable i.e. tamper proof.
+Explanation: Blockchain provides scalability, improved security to its users and they are immutable i.e. tamper proof.
 
  
 
@@ -110,20 +110,20 @@ Explanation: P2P stands for peer-to-peer transaction which does not involve any 
 
 ---
 
-##### In Blockchain nodes are not in a distributed system.  
+##### Hashes can be used to make sure messages and files transmitted from sender to receiver are not tampered with during transit.  
 
-- [ ]  true
-- [x]  false
+- [x]  true
+- [ ]  false
   
 Hint: NoHint
          
-Explanation: Blockchain nodes are distributed across the systems present in the network.
+Explanation: Cryptographic hashes are used to provide security for the transaction between sender and the receiver.They are used to convert private key to public key and ensure proper security.
 
  
 
 ---
 
-##### The term used for Blockchain splits?  
+##### The term used for Blockchain splits? A split in Blockchain is when two versions have the same history upto a certain time frame and after which they start to differ.  
 
 - [ ]  A Merger
 - [x]  A fork
@@ -205,7 +205,7 @@ Explanation: Bitcoin was created by Satoshi Nakamoto.
   
 Hint: Double Spend means copying and reselling the same digital asset many number of times.
          
-Explanation: Every bitcoin has a unique hash pointer attached to it hence it becomes impossible to create a copy with a hash present in the system.
+Explanation: The first transaction would be approved via the confirmation mechanism and then verified into the subsequent block. However, the second transaction would be recognized as invalid by the confirmation process and would not be verified. If both transactions are pulled from the pool for confirmation simultaneously, the transaction with the highest number of confirmations will be included in the blockchain, while the other one will be discarded.
 
  
 
@@ -220,7 +220,7 @@ Explanation: Every bitcoin has a unique hash pointer attached to it hence it bec
   
 Hint: Benefits of blockchain
          
-Explanation: Bitcoin has an immutable ledger , allows users ownership and is portable to carry.
+Explanation: Bitcoin has an immutable ledger, allows users ownership and is portable to carry.
 
  
 
@@ -235,7 +235,7 @@ Explanation: Bitcoin has an immutable ledger , allows users ownership and is por
   
 Hint: Benefits of centralised system
          
-Explanation: Fiat currency has low transaction fees , they are backed by gold and thus possess a high tangible value.
+Explanation: Fiat currency has low transaction fees, most of them are backed by gold and thus possess a high tangible value.
 
  
 
@@ -280,7 +280,7 @@ Explanation: Proof of Work consensus mechanism is used to mine Bitcoin.
   
 Hint: NoHint
          
-Explanation: Bitcoin works on Proof of work mechanism.
+Explanation: Bitcoin works on Proof of work mechanism.The total supply of Bitcoin is considered to be 21 Million, which is assumed to be mined till the year 2140.
 
  
 
@@ -301,7 +301,7 @@ Explanation: Vitalik Buterin is the founder of Ethereum.
 
 ---
 
-##### Ethereum mining works on the principle of ......  
+##### In future, the Ethereum mining will work on the principle of .......  
 
 - [ ]  Proof of Authority
 - [x]  Proof of stake
@@ -310,7 +310,7 @@ Explanation: Vitalik Buterin is the founder of Ethereum.
   
 Hint: NoHint
          
-Explanation: Ethereum works on proof of stake consensus mechanism.
+Explanation: Ethereum will work on proof of stake consensus mechanism. Currently it uses Proof of work mechanism.
 
  
 
@@ -321,11 +321,11 @@ Explanation: Ethereum works on proof of stake consensus mechanism.
 - [ ]  Open source
 - [x]  Smart contracts
 - [x]  Oracles
-- [x]  Consensus Mechanism
+- [ ]  Consensus Mechanism
   
 Hint: Basics of Ethereum Blockchain
          
-Explanation: Ethereum offers more than Bitcoin in the terms of Smart contracts , Oracles and consensus mechanism.
+Explanation: Ethereum offers more than Bitcoin in the terms of Smart contracts, Oracles. Currently, they have the same consensus mechanism but in future Ethereum will migrate from Proof of work to proof of stake.
 
  
 
@@ -340,7 +340,7 @@ Explanation: Ethereum offers more than Bitcoin in the terms of Smart contracts ,
   
 Hint: Properties of Ethereum Network
          
-Explanation: Ethereum is also known for the functions it provides to its user . Thus Ethrereum Protocol , Network Protocol and Ethereum Project funding Development are all the functions and Properties of Ethereum.
+Explanation: Ethereum is also known for the functions it provides to its user . Thus Ethrereum Protocol, Network Protocol and Ethereum Project funding Development are all the functions and Properties of Ethereum.
 
  
 
@@ -434,7 +434,7 @@ Explanation: Hashing is only one-way process that is private key can be converte
 
 ---
 
-##### What is most common problem with simple hashes?  
+##### What is most common problem with simple hashes? Hashed which may provide same output for two different inputs are considered to be simple hashes.  
 
 - [x]  Can be easily cracked
 - [x]  Collison
@@ -443,7 +443,7 @@ Explanation: Hashing is only one-way process that is private key can be converte
   
 Hint: Properties of Hashes
          
-Explanation: Simple hashes are not efficient enough to provde unique output for every input. Hence they can collide and can be cracked easily.
+Explanation: Simple hashes are not efficient enough to provide unique output for every input. Hence they can collide and can be cracked easily.
 
  
 
@@ -516,7 +516,7 @@ Explanation: Ethereum uses Keccak-256 hashing algorithm.
   
 Hint: Properties of hash functions
          
-Explanation: Hash functions offers authentication , non-repudiation and data-integrity.
+Explanation: Hash functions offers authentication, non-repudiation and data-integrity.
 
  
 
@@ -613,7 +613,7 @@ Explanation: User based
   
 Hint: Front Running
          
-Explanation: Miners get themselves an earning other than mining by "front-running" , where they put their buy orders before a big order.
+Explanation: Miners get themselves an earning other than mining by "front-running", where they put their buy before a big order.
 
  
 

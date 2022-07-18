@@ -906,7 +906,8 @@
   type: SingleChoice
   content: Miners on the Ethereum blockchain can choose any transactions to add to their block. Thus, inevitably, they end up choosing those transactions that bid the highest fees.
   hint: Front Running
-  explanation: Miners get themselves an earning other than mining by "front-running", where they put their buy efore a big  answerKeys:
+  explanation: Miners get themselves an earning other than mining by "front-running", where they put their buy before a big order.
+  answerKeys:
     - A
   subTopics:
     - "introduction-to-blockchain"
