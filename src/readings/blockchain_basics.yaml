@@ -6,7 +6,7 @@
   subTopics:
     - "consensus-layer"
     - "cryptographic-primitives"
-  description: |
+  details: |
     This video explains about
     * Point 1
     * Point 2
@@ -18,7 +18,7 @@
   subTopics:
     - "consensus-layer"
     - "cryptographic-primitives"
-  description: |
+  details: |
     This video explains about
     * Point 1
     * Point 2
