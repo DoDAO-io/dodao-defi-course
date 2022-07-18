@@ -1,0 +1,745 @@
+{
+  "key": "defi-course",
+  "title": "DeFi 101 Course",
+  "summary": "This is a DeFi 101 Course",
+  "description": "\"Decentralised Finance (DeFi) is the upcoming revolution in the world which would result in the complete transformation in the functioning of the finance sector using blockchain technology as its core.\" \n\"This course, DeFi 101 , will introduce the learners to the world of blockchain and how it can be incorporated into the current financial system making it more efficient and secure than before. \" \n\"During the course, learners will be upskilled in the fields of Cryptography, Smart Contracts, Decentralised Protocols, Ethereum networks, Consensus Mechanisms (PoW & PoS), Flash loans, Digital signatures, Tokenization and many more! So, fasten your seat belts to know the future of finance.\"\n",
+  "duration": "45 - 60 mins",
+  "topics": [
+    {
+      "title": "What is DeFi and Use Cases",
+      "key": "hwat-is-defi",
+      "summary": "This chapter explains basics of DeFi, How its different from Traditional Finance, and Use Cases",
+      "description": "This chapter explains about\n  * What is DeFi \n  * CeFi vs DeFi\n  * Use cases of DeFi\n",
+      "order": 0,
+      "questions": [
+        {
+          "uuid": "1b8fbe3c-aeb2-4b7d-a3ef-3082bf07efcc",
+          "type": "MultipleChoice",
+          "content": "What does SW DAO offer?",
+          "hint": "This is shown if user needs some help",
+          "explanation": "This is shown when the user answers the choice incorrectly",
+          "answerKeys": [
+            "e0kl"
+          ],
+          "subTopics": [
+            "consensus-layer",
+            "cryptographic-primitives"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "It offers crypto based mining applications for effective utilization of resources.",
+              "key": "rtte",
+              "order": 0
+            },
+            {
+              "content": "It offers strategic DeFi investment products which allocate capital based on Machine Learning",
+              "key": "e0kl",
+              "order": 1
+            },
+            {
+              "content": "It offers coding and machine learning solutions to develop Defi applications.",
+              "key": "fklo",
+              "order": 2
+            },
+            {
+              "content": "All of the about options",
+              "key": "pwlp",
+              "order": 3
+            }
+          ]
+        }
+      ],
+      "readings": [
+        {
+          "uuid": "20dc6f70-3ac9-4920-a3cb-ceb65b78a0e4",
+          "title": "Introduction to Blockchain Technology",
+          "summary": "Blockchain is a ledger",
+          "type": "YoutubeVideo",
+          "url": "https://www.youtube.com/watch?v=u70_rafPs-0",
+          "subTopics": [
+            "consensus-layer",
+            "cryptographic-primitives"
+          ],
+          "details": "This video explains about\n* Point 1\n* Point 2\n"
+        },
+        {
+          "uuid": "8c65828a-2451-431f-8764-842bf37cf1d2",
+          "title": "Cryptographic Hash Functions",
+          "summary": "Cryptography is used",
+          "type": "YoutubeVideo",
+          "url": "https://www.youtube.com/watch?v=WSejk1E6fRo",
+          "subTopics": [
+            "consensus-layer",
+            "cryptographic-primitives"
+          ],
+          "details": "This video explains about\n* Point 1\n* Point 2\n"
+        }
+      ],
+      "summaries": [
+        {
+          "title": "Consensus layer",
+          "key": "consensus-layer",
+          "summary": "Blockchain is an public append-only data which allows persistence,consensus, liveness and is open",
+          "details": "- Persistence: once added, data can never be removed*\n- Consensus: all honest participants have the same data**\n- Liveness: honest participants can add new transactions\n- Open(?): anyone can add data\n"
+        },
+        {
+          "title": "Cryptographic Primitives",
+          "key": "cryptographic-primitives",
+          "summary": "Cryptographic Primitives.....",
+          "details": "- Collision resistant hashing: commit to data on a blockchain \n   ⟹ Merkle trees: commit to a list; later open one cell\n- \"Digital signatures: authorizing actions\"\n- \"SNARK proofs: prove that a certain statement is true\n   1. short proof\n   2. fast verification\"\n"
+        },
+        {
+          "title": "Scaling the blockchain",
+          "key": "scaling-blockchain",
+          "summary": "Ethereum L1 has a limit on number of transactions it can process",
+          "details": "- Scaling the blockchain: Payment channels and Rollups (L2 scaling)\n"
+        }
+      ]
+    },
+    {
+      "title": "Blockchain Basics",
+      "key": "blockchain-basics",
+      "summary": "This chapter explains the basics of blockchain and cryptocurrency.",
+      "description": "This chapter explains about\n  * What is Blockchain \n  * Crypto Origins\n  * Hashing\n",
+      "order": 1,
+      "questions": [
+        {
+          "uuid": "1b8fbe3c-aeb2-4b7d-a3ef-3082bf07efcc",
+          "type": "MultipleChoice",
+          "content": "What does SW DAO offer?",
+          "hint": "This is shown if user needs some help",
+          "explanation": "This is shown when the user answers the choice incorrectly",
+          "answerKeys": [
+            "e0kl"
+          ],
+          "subTopics": [
+            "consensus-layer",
+            "cryptographic-primitives"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "It offers crypto based mining applications for effective utilization of resources.",
+              "key": "rtte",
+              "order": 0
+            },
+            {
+              "content": "It offers strategic DeFi investment products which allocate capital based on Machine Learning",
+              "key": "e0kl",
+              "order": 1
+            },
+            {
+              "content": "It offers coding and machine learning solutions to develop Defi applications.",
+              "key": "fklo",
+              "order": 2
+            },
+            {
+              "content": "All of the about options",
+              "key": "pwlp",
+              "order": 3
+            }
+          ]
+        }
+      ],
+      "readings": [
+        {
+          "uuid": "20dc6f70-3ac9-4920-a3cb-ceb65b78a0e4",
+          "title": "Introduction to Blockchain Technology",
+          "summary": "Blockchain is a ledger",
+          "type": "YoutubeVideo",
+          "url": "https://www.youtube.com/watch?v=u70_rafPs-0",
+          "subTopics": [
+            "consensus-layer",
+            "cryptographic-primitives"
+          ],
+          "details": "This video explains about\n* Point 1\n* Point 2\n"
+        },
+        {
+          "uuid": "8c65828a-2451-431f-8764-842bf37cf1d2",
+          "title": "Cryptographic Hash Functions",
+          "summary": "Cryptography is used",
+          "type": "YoutubeVideo",
+          "url": "https://www.youtube.com/watch?v=WSejk1E6fRo",
+          "subTopics": [
+            "consensus-layer",
+            "cryptographic-primitives"
+          ],
+          "details": "This video explains about\n* Point 1\n* Point 2\n"
+        }
+      ],
+      "summaries": [
+        {
+          "title": "Consensus layer",
+          "key": "consensus-layer",
+          "summary": "Blockchain is an public append-only data which allows persistence,consensus, liveness and is open",
+          "details": "- Persistence: once added, data can never be removed*\n- Consensus: all honest participants have the same data**\n- Liveness: honest participants can add new transactions\n- Open(?): anyone can add data\n"
+        },
+        {
+          "title": "Cryptographic Primitives",
+          "key": "cryptographic-primitives",
+          "summary": "Cryptographic Primitives.....",
+          "details": "- Collision resistant hashing: commit to data on a blockchain \n   ⟹ Merkle trees: commit to a list; later open one cell\n- \"Digital signatures: authorizing actions\"\n- \"SNARK proofs: prove that a certain statement is true\n   1. short proof\n   2. fast verification\"\n"
+        },
+        {
+          "title": "Scaling the blockchain",
+          "key": "scaling-blockchain",
+          "summary": "Ethereum L1 has a limit on number of transactions it can process",
+          "details": "- Scaling the blockchain: Payment channels and Rollups (L2 scaling)\n"
+        }
+      ]
+    },
+    {
+      "title": "Smart Contratcs",
+      "key": "defi-foundations",
+      "summary": "Explain on a high level what are smart contract, and where do they run",
+      "description": "This chapter explains \n* How Ethereum transactions\n* miner extractable value.\n* Smart contracts / Gas / Oracles\n* Fungible and non-fungible (NFT) tokens \n* dApps\n",
+      "order": 2,
+      "questions": [
+        {
+          "uuid": "1b8fbe3c-aeb2-4b7d-a3ef-3082bf07efcc",
+          "type": "MultipleChoice",
+          "content": "What does SW DAO offer?",
+          "hint": "This is shown if user needs some help",
+          "explanation": "This is shown when the user answers the choice incorrectly",
+          "answerKeys": [
+            "e0kl"
+          ],
+          "subTopics": [
+            "consensus-layer",
+            "cryptographic-primitives"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "It offers crypto based mining applications for effective utilization of resources.",
+              "key": "rtte",
+              "order": 0
+            },
+            {
+              "content": "It offers strategic DeFi investment products which allocate capital based on Machine Learning",
+              "key": "e0kl",
+              "order": 1
+            },
+            {
+              "content": "It offers coding and machine learning solutions to develop Defi applications.",
+              "key": "fklo",
+              "order": 2
+            },
+            {
+              "content": "All of the about options",
+              "key": "pwlp",
+              "order": 3
+            }
+          ]
+        }
+      ],
+      "readings": [
+        {
+          "uuid": "20dc6f70-3ac9-4920-a3cb-ceb65b78a0e4",
+          "title": "Introduction to Blockchain Technology",
+          "summary": "Blockchain is a ledger",
+          "type": "YoutubeVideo",
+          "url": "https://www.youtube.com/watch?v=u70_rafPs-0",
+          "subTopics": [
+            "consensus-layer",
+            "cryptographic-primitives"
+          ],
+          "details": "This video explains about\n* Point 1\n* Point 2\n"
+        },
+        {
+          "uuid": "8c65828a-2451-431f-8764-842bf37cf1d2",
+          "title": "Cryptographic Hash Functions",
+          "summary": "Cryptography is used",
+          "type": "YoutubeVideo",
+          "url": "https://www.youtube.com/watch?v=WSejk1E6fRo",
+          "subTopics": [
+            "consensus-layer",
+            "cryptographic-primitives"
+          ],
+          "details": "This video explains about\n* Point 1\n* Point 2\n"
+        }
+      ],
+      "summaries": [
+        {
+          "title": "Consensus layer",
+          "key": "consensus-layer",
+          "summary": "Blockchain is an public append-only data which allows persistence,consensus, liveness and is open",
+          "details": "- Persistence: once added, data can never be removed*\n- Consensus: all honest participants have the same data**\n- Liveness: honest participants can add new transactions\n- Open(?): anyone can add data\n"
+        },
+        {
+          "title": "Cryptographic Primitives",
+          "key": "cryptographic-primitives",
+          "summary": "Cryptographic Primitives.....",
+          "details": "- Collision resistant hashing: commit to data on a blockchain \n   ⟹ Merkle trees: commit to a list; later open one cell\n- \"Digital signatures: authorizing actions\"\n- \"SNARK proofs: prove that a certain statement is true\n   1. short proof\n   2. fast verification\"\n"
+        },
+        {
+          "title": "Scaling the blockchain",
+          "key": "scaling-blockchain",
+          "summary": "Ethereum L1 has a limit on number of transactions it can process",
+          "details": "- Scaling the blockchain: Payment channels and Rollups (L2 scaling)\n"
+        }
+      ]
+    },
+    {
+      "title": "Lending and Credit",
+      "key": "lending-and-credit",
+      "summary": "Functioning of the MakerDAO stablecoin and examining Compound and Aave.",
+      "description": "This chapter explains \n* MakerDAO stablecoin\n* Compound\n* Aave\n",
+      "order": 3,
+      "questions": [
+        {
+          "uuid": "1b8fbe3c-aeb2-4b7d-a3ef-3082bf07efcc",
+          "type": "MultipleChoice",
+          "content": "What does SW DAO offer?",
+          "hint": "This is shown if user needs some help",
+          "explanation": "This is shown when the user answers the choice incorrectly",
+          "answerKeys": [
+            "e0kl"
+          ],
+          "subTopics": [
+            "consensus-layer",
+            "cryptographic-primitives"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "It offers crypto based mining applications for effective utilization of resources.",
+              "key": "rtte",
+              "order": 0
+            },
+            {
+              "content": "It offers strategic DeFi investment products which allocate capital based on Machine Learning",
+              "key": "e0kl",
+              "order": 1
+            },
+            {
+              "content": "It offers coding and machine learning solutions to develop Defi applications.",
+              "key": "fklo",
+              "order": 2
+            },
+            {
+              "content": "All of the about options",
+              "key": "pwlp",
+              "order": 3
+            }
+          ]
+        }
+      ],
+      "readings": [
+        {
+          "uuid": "20dc6f70-3ac9-4920-a3cb-ceb65b78a0e4",
+          "title": "Introduction to Blockchain Technology",
+          "summary": "Blockchain is a ledger",
+          "type": "YoutubeVideo",
+          "url": "https://www.youtube.com/watch?v=u70_rafPs-0",
+          "subTopics": [
+            "consensus-layer",
+            "cryptographic-primitives"
+          ],
+          "details": "This video explains about\n* Point 1\n* Point 2\n"
+        },
+        {
+          "uuid": "8c65828a-2451-431f-8764-842bf37cf1d2",
+          "title": "Cryptographic Hash Functions",
+          "summary": "Cryptography is used",
+          "type": "YoutubeVideo",
+          "url": "https://www.youtube.com/watch?v=WSejk1E6fRo",
+          "subTopics": [
+            "consensus-layer",
+            "cryptographic-primitives"
+          ],
+          "details": "This video explains about\n* Point 1\n* Point 2\n"
+        }
+      ],
+      "summaries": [
+        {
+          "title": "Consensus layer",
+          "key": "consensus-layer",
+          "summary": "Blockchain is an public append-only data which allows persistence,consensus, liveness and is open",
+          "details": "- Persistence: once added, data can never be removed*\n- Consensus: all honest participants have the same data**\n- Liveness: honest participants can add new transactions\n- Open(?): anyone can add data\n"
+        },
+        {
+          "title": "Cryptographic Primitives",
+          "key": "cryptographic-primitives",
+          "summary": "Cryptographic Primitives.....",
+          "details": "- Collision resistant hashing: commit to data on a blockchain \n   ⟹ Merkle trees: commit to a list; later open one cell\n- \"Digital signatures: authorizing actions\"\n- \"SNARK proofs: prove that a certain statement is true\n   1. short proof\n   2. fast verification\"\n"
+        },
+        {
+          "title": "Scaling the blockchain",
+          "key": "scaling-blockchain",
+          "summary": "Ethereum L1 has a limit on number of transactions it can process",
+          "details": "- Scaling the blockchain: Payment channels and Rollups (L2 scaling)\n"
+        }
+      ]
+    },
+    {
+      "title": "Decentralised Exchanges",
+      "key": "decentralised-exchanges",
+      "summary": "Focusses on one of the pillars of DeFi - Decentralised Exchanges and their Functioning.",
+      "description": "This chapter explains \n* Working of Decentralised Exchanges\n* Swaps\n* Automated Market Makers\n* Loans\n",
+      "order": 4,
+      "questions": [
+        {
+          "uuid": "1b8fbe3c-aeb2-4b7d-a3ef-3082bf07efcc",
+          "type": "MultipleChoice",
+          "content": "What does SW DAO offer?",
+          "hint": "This is shown if user needs some help",
+          "explanation": "This is shown when the user answers the choice incorrectly",
+          "answerKeys": [
+            "e0kl"
+          ],
+          "subTopics": [
+            "consensus-layer",
+            "cryptographic-primitives"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "It offers crypto based mining applications for effective utilization of resources.",
+              "key": "rtte",
+              "order": 0
+            },
+            {
+              "content": "It offers strategic DeFi investment products which allocate capital based on Machine Learning",
+              "key": "e0kl",
+              "order": 1
+            },
+            {
+              "content": "It offers coding and machine learning solutions to develop Defi applications.",
+              "key": "fklo",
+              "order": 2
+            },
+            {
+              "content": "All of the about options",
+              "key": "pwlp",
+              "order": 3
+            }
+          ]
+        }
+      ],
+      "readings": [
+        {
+          "uuid": "20dc6f70-3ac9-4920-a3cb-ceb65b78a0e4",
+          "title": "Introduction to Blockchain Technology",
+          "summary": "Blockchain is a ledger",
+          "type": "YoutubeVideo",
+          "url": "https://www.youtube.com/watch?v=u70_rafPs-0",
+          "subTopics": [
+            "consensus-layer",
+            "cryptographic-primitives"
+          ],
+          "details": "This video explains about\n* Point 1\n* Point 2\n"
+        },
+        {
+          "uuid": "8c65828a-2451-431f-8764-842bf37cf1d2",
+          "title": "Cryptographic Hash Functions",
+          "summary": "Cryptography is used",
+          "type": "YoutubeVideo",
+          "url": "https://www.youtube.com/watch?v=WSejk1E6fRo",
+          "subTopics": [
+            "consensus-layer",
+            "cryptographic-primitives"
+          ],
+          "details": "This video explains about\n* Point 1\n* Point 2\n"
+        }
+      ],
+      "summaries": [
+        {
+          "title": "Consensus layer",
+          "key": "consensus-layer",
+          "summary": "Blockchain is an public append-only data which allows persistence,consensus, liveness and is open",
+          "details": "- Persistence: once added, data can never be removed*\n- Consensus: all honest participants have the same data**\n- Liveness: honest participants can add new transactions\n- Open(?): anyone can add data\n"
+        },
+        {
+          "title": "Cryptographic Primitives",
+          "key": "cryptographic-primitives",
+          "summary": "Cryptographic Primitives.....",
+          "details": "- Collision resistant hashing: commit to data on a blockchain \n   ⟹ Merkle trees: commit to a list; later open one cell\n- \"Digital signatures: authorizing actions\"\n- \"SNARK proofs: prove that a certain statement is true\n   1. short proof\n   2. fast verification\"\n"
+        },
+        {
+          "title": "Scaling the blockchain",
+          "key": "scaling-blockchain",
+          "summary": "Ethereum L1 has a limit on number of transactions it can process",
+          "details": "- Scaling the blockchain: Payment channels and Rollups (L2 scaling)\n"
+        }
+      ]
+    },
+    {
+      "title": "Derivatives",
+      "key": "derivatives",
+      "summary": "This chapter explains the popular derivatives protocols and provides insights into Yield Protocol and Synthetix.",
+      "description": "This chapter explains \n* Yield Protocol\n* dYdX\n* Synthetix\n",
+      "order": 5,
+      "questions": [
+        {
+          "uuid": "1b8fbe3c-aeb2-4b7d-a3ef-3082bf07efcc",
+          "type": "MultipleChoice",
+          "content": "What does SW DAO offer?",
+          "hint": "This is shown if user needs some help",
+          "explanation": "This is shown when the user answers the choice incorrectly",
+          "answerKeys": [
+            "e0kl"
+          ],
+          "subTopics": [
+            "consensus-layer",
+            "cryptographic-primitives"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "It offers crypto based mining applications for effective utilization of resources.",
+              "key": "rtte",
+              "order": 0
+            },
+            {
+              "content": "It offers strategic DeFi investment products which allocate capital based on Machine Learning",
+              "key": "e0kl",
+              "order": 1
+            },
+            {
+              "content": "It offers coding and machine learning solutions to develop Defi applications.",
+              "key": "fklo",
+              "order": 2
+            },
+            {
+              "content": "All of the about options",
+              "key": "pwlp",
+              "order": 3
+            }
+          ]
+        }
+      ],
+      "readings": [
+        {
+          "uuid": "20dc6f70-3ac9-4920-a3cb-ceb65b78a0e4",
+          "title": "Introduction to Blockchain Technology",
+          "summary": "Blockchain is a ledger",
+          "type": "YoutubeVideo",
+          "url": "https://www.youtube.com/watch?v=u70_rafPs-0",
+          "subTopics": [
+            "consensus-layer",
+            "cryptographic-primitives"
+          ],
+          "details": "This video explains about\n* Point 1\n* Point 2\n"
+        },
+        {
+          "uuid": "8c65828a-2451-431f-8764-842bf37cf1d2",
+          "title": "Cryptographic Hash Functions",
+          "summary": "Cryptography is used",
+          "type": "YoutubeVideo",
+          "url": "https://www.youtube.com/watch?v=WSejk1E6fRo",
+          "subTopics": [
+            "consensus-layer",
+            "cryptographic-primitives"
+          ],
+          "details": "This video explains about\n* Point 1\n* Point 2\n"
+        }
+      ],
+      "summaries": [
+        {
+          "title": "Consensus layer",
+          "key": "consensus-layer",
+          "summary": "Blockchain is an public append-only data which allows persistence,consensus, liveness and is open",
+          "details": "- Persistence: once added, data can never be removed*\n- Consensus: all honest participants have the same data**\n- Liveness: honest participants can add new transactions\n- Open(?): anyone can add data\n"
+        },
+        {
+          "title": "Cryptographic Primitives",
+          "key": "cryptographic-primitives",
+          "summary": "Cryptographic Primitives.....",
+          "details": "- Collision resistant hashing: commit to data on a blockchain \n   ⟹ Merkle trees: commit to a list; later open one cell\n- \"Digital signatures: authorizing actions\"\n- \"SNARK proofs: prove that a certain statement is true\n   1. short proof\n   2. fast verification\"\n"
+        },
+        {
+          "title": "Scaling the blockchain",
+          "key": "scaling-blockchain",
+          "summary": "Ethereum L1 has a limit on number of transactions it can process",
+          "details": "- Scaling the blockchain: Payment channels and Rollups (L2 scaling)\n"
+        }
+      ]
+    },
+    {
+      "title": "Tokenization",
+      "key": "tokenization",
+      "summary": "Set protocol and Index Coop",
+      "description": "This chapter explains \n* Index Coop\n* Set Protocol provides a way to combine portfolios much like an ETF holds many traditional stocks. The Sets can be active or passive. The module ends with a discussion of the use in DeFi of both wrapped bitcoin and wrapped ethereum.\n* Wrapped bitcoin\n* Balancer\n",
+      "order": 6,
+      "questions": [
+        {
+          "uuid": "1b8fbe3c-aeb2-4b7d-a3ef-3082bf07efcc",
+          "type": "MultipleChoice",
+          "content": "What does SW DAO offer?",
+          "hint": "This is shown if user needs some help",
+          "explanation": "This is shown when the user answers the choice incorrectly",
+          "answerKeys": [
+            "e0kl"
+          ],
+          "subTopics": [
+            "consensus-layer",
+            "cryptographic-primitives"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "It offers crypto based mining applications for effective utilization of resources.",
+              "key": "rtte",
+              "order": 0
+            },
+            {
+              "content": "It offers strategic DeFi investment products which allocate capital based on Machine Learning",
+              "key": "e0kl",
+              "order": 1
+            },
+            {
+              "content": "It offers coding and machine learning solutions to develop Defi applications.",
+              "key": "fklo",
+              "order": 2
+            },
+            {
+              "content": "All of the about options",
+              "key": "pwlp",
+              "order": 3
+            }
+          ]
+        }
+      ],
+      "readings": [
+        {
+          "uuid": "20dc6f70-3ac9-4920-a3cb-ceb65b78a0e4",
+          "title": "Introduction to Blockchain Technology",
+          "summary": "Blockchain is a ledger",
+          "type": "YoutubeVideo",
+          "url": "https://www.youtube.com/watch?v=u70_rafPs-0",
+          "subTopics": [
+            "consensus-layer",
+            "cryptographic-primitives"
+          ],
+          "details": "This video explains about\n* Point 1\n* Point 2\n"
+        },
+        {
+          "uuid": "8c65828a-2451-431f-8764-842bf37cf1d2",
+          "title": "Cryptographic Hash Functions",
+          "summary": "Cryptography is used",
+          "type": "YoutubeVideo",
+          "url": "https://www.youtube.com/watch?v=WSejk1E6fRo",
+          "subTopics": [
+            "consensus-layer",
+            "cryptographic-primitives"
+          ],
+          "details": "This video explains about\n* Point 1\n* Point 2\n"
+        }
+      ],
+      "summaries": [
+        {
+          "title": "Consensus layer",
+          "key": "consensus-layer",
+          "summary": "Blockchain is an public append-only data which allows persistence,consensus, liveness and is open",
+          "details": "- Persistence: once added, data can never be removed*\n- Consensus: all honest participants have the same data**\n- Liveness: honest participants can add new transactions\n- Open(?): anyone can add data\n"
+        },
+        {
+          "title": "Cryptographic Primitives",
+          "key": "cryptographic-primitives",
+          "summary": "Cryptographic Primitives.....",
+          "details": "- Collision resistant hashing: commit to data on a blockchain \n   ⟹ Merkle trees: commit to a list; later open one cell\n- \"Digital signatures: authorizing actions\"\n- \"SNARK proofs: prove that a certain statement is true\n   1. short proof\n   2. fast verification\"\n"
+        },
+        {
+          "title": "Scaling the blockchain",
+          "key": "scaling-blockchain",
+          "summary": "Ethereum L1 has a limit on number of transactions it can process",
+          "details": "- Scaling the blockchain: Payment channels and Rollups (L2 scaling)\n"
+        }
+      ]
+    },
+    {
+      "title": "Stable Coins",
+      "key": "tokenization",
+      "summary": "Why Stable Coings, Different Type of stabe coins",
+      "description": "This chapter explains \n* Why Stable Coings \n* Different Type of stabe coins\n",
+      "order": 7,
+      "questions": [
+        {
+          "uuid": "1b8fbe3c-aeb2-4b7d-a3ef-3082bf07efcc",
+          "type": "MultipleChoice",
+          "content": "What does SW DAO offer?",
+          "hint": "This is shown if user needs some help",
+          "explanation": "This is shown when the user answers the choice incorrectly",
+          "answerKeys": [
+            "e0kl"
+          ],
+          "subTopics": [
+            "consensus-layer",
+            "cryptographic-primitives"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "It offers crypto based mining applications for effective utilization of resources.",
+              "key": "rtte",
+              "order": 0
+            },
+            {
+              "content": "It offers strategic DeFi investment products which allocate capital based on Machine Learning",
+              "key": "e0kl",
+              "order": 1
+            },
+            {
+              "content": "It offers coding and machine learning solutions to develop Defi applications.",
+              "key": "fklo",
+              "order": 2
+            },
+            {
+              "content": "All of the about options",
+              "key": "pwlp",
+              "order": 3
+            }
+          ]
+        }
+      ],
+      "readings": [
+        {
+          "uuid": "20dc6f70-3ac9-4920-a3cb-ceb65b78a0e4",
+          "title": "Introduction to Blockchain Technology",
+          "summary": "Blockchain is a ledger",
+          "type": "YoutubeVideo",
+          "url": "https://www.youtube.com/watch?v=u70_rafPs-0",
+          "subTopics": [
+            "consensus-layer",
+            "cryptographic-primitives"
+          ],
+          "details": "This video explains about\n* Point 1\n* Point 2\n"
+        },
+        {
+          "uuid": "8c65828a-2451-431f-8764-842bf37cf1d2",
+          "title": "Cryptographic Hash Functions",
+          "summary": "Cryptography is used",
+          "type": "YoutubeVideo",
+          "url": "https://www.youtube.com/watch?v=WSejk1E6fRo",
+          "subTopics": [
+            "consensus-layer",
+            "cryptographic-primitives"
+          ],
+          "details": "This video explains about\n* Point 1\n* Point 2\n"
+        }
+      ],
+      "summaries": [
+        {
+          "title": "Consensus layer",
+          "key": "consensus-layer",
+          "summary": "Blockchain is an public append-only data which allows persistence,consensus, liveness and is open",
+          "details": "- Persistence: once added, data can never be removed*\n- Consensus: all honest participants have the same data**\n- Liveness: honest participants can add new transactions\n- Open(?): anyone can add data\n"
+        },
+        {
+          "title": "Cryptographic Primitives",
+          "key": "cryptographic-primitives",
+          "summary": "Cryptographic Primitives.....",
+          "details": "- Collision resistant hashing: commit to data on a blockchain \n   ⟹ Merkle trees: commit to a list; later open one cell\n- \"Digital signatures: authorizing actions\"\n- \"SNARK proofs: prove that a certain statement is true\n   1. short proof\n   2. fast verification\"\n"
+        },
+        {
+          "title": "Scaling the blockchain",
+          "key": "scaling-blockchain",
+          "summary": "Ethereum L1 has a limit on number of transactions it can process",
+          "details": "- Scaling the blockchain: Payment channels and Rollups (L2 scaling)\n"
+        }
+      ]
+    }
+  ]
+}
