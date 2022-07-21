@@ -1,24 +1,9 @@
 - uuid: 468d0fa9-063b-466f-b2be-8135958e0f2a
   title: What is DeFi
-  summary: Decentralized Finance means you maintain the custody for your assets
   type: YoutubeVideo
   url: https://www.youtube.com/watch?v=aQHcvrPe1GQ
   subTopics:
-    - "consensus-layer"
-    - "cryptographic-primitives"
+    - "hashing"
   details: |
-    This video explains about
-    * Point 1
-    * Point 2
-- uuid: 77ba8bbd-8464-4e88-849a-c097ced63da5
-  title: How DeFi
-  summary: DeFi Stack consists of Settlement, Asset, Protocol, Aplication, and Aggregation Layers
-  type: YoutubeVideo
-  url: https://www.youtube.com/watch?v=kIF4fs_YFIE
-  subTopics:
-    - "consensus-layer"
-    - "cryptographic-primitives"
-  details: |
-    This video explains about
-    * Point 1
-    * Point 2
+    - Value 1
+    - Value 2

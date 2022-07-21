@@ -3,13 +3,13 @@ key: defi-course
 summary: This is a DeFi 101 Course
 description:  | 
   "Decentralised Finance (DeFi) is the upcoming revolution in the world which would result in the complete transformation in the functioning of the finance sector using blockchain technology as its core." 
-  "This course, DeFi 101 , will introduce the learners to the world of blockchain and how it can be incorporated into the current financial system making it more efficient and secure than before. " 
+  "This course, DeFi 101, will introduce the learners to the world of blockchain and how it can be incorporated into the current financial system making it more efficient and secure than before. " 
   "During the course, learners will be upskilled in the fields of Cryptography, Smart Contracts, Decentralised Protocols, Ethereum networks, Consensus Mechanisms (PoW & PoS), Flash loans, Digital signatures, Tokenization and many more! So, fasten your seat belts to know the future of finance."
 
 duration: 45 - 60 mins
 topics:
   - title: What is DeFi and Use Cases
-    key: hwat-is-defi
+    key: what-is-defi
     summary: This chapter explains basics of DeFi, How its different from Traditional Finance, and Use Cases
     description: |
       This chapter explains about
@@ -105,6 +105,18 @@ topics:
     completionWeek: July 18
   - title: Stable Coins
     key: tokenization
+    summary: Why Stable Coings, Different Type of stabe coins
+    description: |
+      This chapter explains 
+      * Why Stable Coings 
+      * Different Type of stabe coins
+    readings: blockchain_basics.yaml
+    summaries: blockchain_basics.yaml
+    questions: blockchain_basics.yaml
+    status: In Progress
+    completionWeek: July 18
+  - title: Security and Risks
+    key: security-and-risks
     summary: Why Stable Coings, Different Type of stabe coins
     description: |
       This chapter explains 
