@@ -19,6 +19,7 @@ Hint: Properties of Blockchain
          
 Explanation: Blockchain allows peer to peer transaction, it is decentrlised and permits efficient barter system.
 
+Sub Topics: introduction-to-blockchain
  
 
 ---
@@ -34,6 +35,7 @@ Hint: Consider the information that a transaction block needs to have so that it
          
 Explanation: Each Block contains a hash pointer to the next node, current transaction details, Timestamp.
 
+Sub Topics: introduction-to-blockchain
  
 
 ---
@@ -49,6 +51,7 @@ Hint: NoHint
          
 Explanation: Blockchain details can be stored as a flat file and a database.
 
+Sub Topics: introduction-to-blockchain
  
 
 ---
@@ -62,6 +65,7 @@ Hint: NoHint
          
 Explanation: A block in blockchain cannot have more than one parent because they have unique hash pointer attached to it. Hence, two blocks cannot point to the same block.
 
+Sub Topics: introduction-to-blockchain
  
 
 ---
@@ -76,6 +80,7 @@ Hint: Linking of the blockchain nodes
          
 Explanation: The blocks in Blockchain are attached to each other in the backward fashion joining to the previous node and so on.
 
+Sub Topics: introduction-to-blockchain
  
 
 ---
@@ -91,6 +96,7 @@ Hint: NoHint
          
 Explanation: Blockchain provides scalability, improved security to its users and they are immutable i.e. tamper proof.
 
+Sub Topics: introduction-to-blockchain
  
 
 ---
@@ -106,6 +112,7 @@ Hint: NoHint
          
 Explanation: P2P stands for peer-to-peer transaction which does not involve any centralised party.
 
+Sub Topics: introduction-to-blockchain
  
 
 ---
@@ -119,6 +126,7 @@ Hint: NoHint
          
 Explanation: Cryptographic hashes are used to provide security for the transaction between sender and the receiver.They are used to convert private key to public key and ensure proper security.
 
+Sub Topics: hashing
  
 
 ---
@@ -134,6 +142,7 @@ Hint: NoHint
          
 Explanation: A fork is the term used for creating a branch / split in the regular blockchain branch.
 
+Sub Topics: introduction-to-blockchain
  
 
 ---
@@ -149,6 +158,7 @@ Hint: NoHint
          
 Explanation: Merkle trees are used to store transactions in a block by producing a digital fingerprint.
 
+Sub Topics: introduction-to-blockchain
  
 
 ---
@@ -164,6 +174,7 @@ Hint: NoHint
          
 Explanation: Stuart Haber and Scoot Storneta introduced blockchain to timestamp their documents.
 
+Sub Topics: introduction-to-blockchain
  
 
 ---
@@ -179,6 +190,7 @@ Hint: NoHint
          
 Explanation: Bitcoin does not have a tangible value and hence is not backed by any valueable asset.
 
+Sub Topics: introduction-to-blockchain
  
 
 ---
@@ -194,6 +206,7 @@ Hint: NoHint
          
 Explanation: Bitcoin was created by Satoshi Nakamoto.
 
+Sub Topics: introduction-to-blockchain
  
 
 ---
@@ -207,6 +220,7 @@ Hint: Double Spend means copying and reselling the same digital asset many numbe
          
 Explanation: The first transaction would be approved via the confirmation mechanism and then verified into the subsequent block. However, the second transaction would be recognized as invalid by the confirmation process and would not be verified. If both transactions are pulled from the pool for confirmation simultaneously, the transaction with the highest number of confirmations will be included in the blockchain, while the other one will be discarded.
 
+Sub Topics: introduction-to-blockchain
  
 
 ---
@@ -222,6 +236,7 @@ Hint: Benefits of blockchain
          
 Explanation: Bitcoin has an immutable ledger, allows users ownership and is portable to carry.
 
+Sub Topics: introduction-to-blockchain
  
 
 ---
@@ -237,6 +252,7 @@ Hint: Benefits of centralised system
          
 Explanation: Fiat currency has low transaction fees, most of them are backed by gold and thus possess a high tangible value.
 
+Sub Topics: introduction-to-blockchain
  
 
 ---
@@ -252,6 +268,7 @@ Hint: NoHint
          
 Explanation: Cryptocurrency private key must be kept away from the internet.
 
+Sub Topics: introduction-to-blockchain
  
 
 ---
@@ -267,6 +284,7 @@ Hint: NoHint
          
 Explanation: Proof of Work consensus mechanism is used to mine Bitcoin.
 
+Sub Topics: introduction-to-blockchain
  
 
 ---
@@ -282,6 +300,7 @@ Hint: NoHint
          
 Explanation: Bitcoin works on Proof of work mechanism.The total supply of Bitcoin is considered to be 21 Million, which is assumed to be mined till the year 2140.
 
+Sub Topics: introduction-to-blockchain
  
 
 ---
@@ -297,6 +316,7 @@ Hint: NoHint
          
 Explanation: Vitalik Buterin is the founder of Ethereum.
 
+Sub Topics: introduction-to-blockchain
  
 
 ---
@@ -312,6 +332,7 @@ Hint: NoHint
          
 Explanation: Ethereum will work on proof of stake consensus mechanism. Currently it uses Proof of work mechanism.
 
+Sub Topics: introduction-to-blockchain
  
 
 ---
@@ -327,6 +348,7 @@ Hint: Basics of Ethereum Blockchain
          
 Explanation: Ethereum offers more than Bitcoin in the terms of Smart contracts, Oracles. Currently, they have the same consensus mechanism but in future Ethereum will migrate from Proof of work to proof of stake.
 
+Sub Topics: introduction-to-blockchain
  
 
 ---
@@ -342,6 +364,7 @@ Hint: Properties of Ethereum Network
          
 Explanation: Ethereum is also known for the functions it provides to its user . Thus Ethrereum Protocol, Network Protocol and Ethereum Project funding Development are all the functions and Properties of Ethereum.
 
+Sub Topics: introduction-to-blockchain
  
 
 ---
@@ -357,6 +380,7 @@ Hint: NoHint
          
 Explanation: Block time of Bitcoin is 10 minute.
 
+Sub Topics: introduction-to-blockchain
  
 
 ---
@@ -372,6 +396,7 @@ Hint: NoHint
          
 Explanation: Solidity is used to write Ethereum Smart Contracts.
 
+Sub Topics: introduction-to-blockchain
  
 
 ---
@@ -387,6 +412,7 @@ Hint: Properties of Bitcoin
          
 Explanation: Bitcoin works on the principle of Proof of work and blockchain.
 
+Sub Topics: introduction-to-blockchain
  
 
 ---
@@ -402,6 +428,7 @@ Hint: Properties of Bitcoin and blockchain
          
 Explanation: Mistakes cannot be edited on Bitcoin because these documents are immutable.
 
+Sub Topics: introduction-to-blockchain
  
 
 ---
@@ -417,6 +444,7 @@ Hint: Properties of Blockchain
          
 Explanation: Blockchain system is decentralised and Distributed network.
 
+Sub Topics: introduction-to-blockchain
  
 
 ---
@@ -430,6 +458,7 @@ Hint: NoHint
          
 Explanation: Hashing is only one-way process that is private key can be converted to public key but vice versa not possible.
 
+Sub Topics: hashing
  
 
 ---
@@ -445,6 +474,7 @@ Hint: Properties of Hashes
          
 Explanation: Simple hashes are not efficient enough to provide unique output for every input. Hence they can collide and can be cracked easily.
 
+Sub Topics: hashing
  
 
 ---
@@ -460,6 +490,7 @@ Hint: NoHint
          
 Explanation: Cryptographic hashes are hexadecimal numbers.
 
+Sub Topics: hashing
  
 
 ---
@@ -473,6 +504,7 @@ Hint: NoHint
          
 Explanation: Identical data set should always result in the same hash output.
 
+Sub Topics: hashing
  
 
 ---
@@ -488,6 +520,7 @@ Hint: NoHint
          
 Explanation: Bitcoin uses SHA-256 hashing algorithm.
 
+Sub Topics: hashing
  
 
 ---
@@ -503,6 +536,7 @@ Hint: NoHint
          
 Explanation: Ethereum uses Keccak-256 hashing algorithm.
 
+Sub Topics: hashing
  
 
 ---
@@ -518,6 +552,7 @@ Hint: Properties of hash functions
          
 Explanation: Hash functions offers authentication, non-repudiation and data-integrity.
 
+Sub Topics: hashing
  
 
 ---
@@ -531,6 +566,7 @@ Hint: Basics of Blockchain
          
 Explanation: Definition which clearly defines the blockchain and its structure.
 
+Sub Topics: introduction-to-blockchain
  
 
 ---
@@ -546,6 +582,7 @@ Hint: Properties of Hash Functions
          
 Explanation: All the first three options are the properties of the Hash function. None of the mentioned characteristic fall apart form them. Therefore, the correct answer is none of the above.
 
+Sub Topics: hashing
  
 
 ---
@@ -559,6 +596,7 @@ Hint: NoHint
          
 Explanation: This explains the functioning of blockchain mining.
 
+Sub Topics: introduction-to-blockchain
  
 
 ---
@@ -572,6 +610,7 @@ Hint: NoHint
          
 Explanation: No its not possible to get the private key fro public key because the process the hashing is irreversible given any amount of computational power.
 
+Sub Topics: hashing
  
 
 ---
@@ -587,6 +626,7 @@ Hint: Properties of Hash functions
          
 Explanation: Hash functions are one way process and cannot be used to get the data back in the original form.
 
+Sub Topics: hashing
  
 
 ---
@@ -602,6 +642,7 @@ Hint: Proper hash functions output
          
 Explanation: User based
 
+Sub Topics: hashing
  
 
 ---
@@ -615,6 +656,7 @@ Hint: Front Running
          
 Explanation: Miners get themselves an earning other than mining by "front-running", where they put their buy before a big order.
 
+Sub Topics: introduction-to-blockchain
  
 
 ---
@@ -630,6 +672,7 @@ Hint: Properties of Hash Functions
          
 Explanation: A cryptographic hash is used to verify validity and authenticity of data.
 
+Sub Topics: hashing
  
 
 ---
@@ -645,6 +688,7 @@ Hint: Uses of Hashes
          
 Explanation: Cryptographic hashes provide security against attackers.
 
+Sub Topics: hashing
  
 
 ---
@@ -660,6 +704,7 @@ Hint: NoHint
          
 Explanation: The message is divided into blocks of size 1024 bits, and the output produced is a 512-bit message digest and uses the 512-bit buffer till 80 rounds.
 
+Sub Topics: hashing
  
 
 ---
@@ -673,6 +718,7 @@ Hint: NoHint
          
 Explanation: Deterministic means one input one output without collision.
 
+Sub Topics: hashing
  
 
 ---
@@ -688,6 +734,7 @@ Hint: NoHint
          
 Explanation: The hash functions with maximum number of zeros in the starting is the best because this combination is near to impossible to crack and provides the best security.
 
+Sub Topics: hashing
  
 
 ---
@@ -703,6 +750,7 @@ Hint: NoHint
          
 Explanation: Proof of work mechanism requires hash funtions.
 
+Sub Topics: hashing
  
 
 ---
@@ -718,6 +766,7 @@ Hint: Properties of hash fucntions
          
 Explanation: Key wrapping is a separate algorithm and not an application of hash fuctions.
 
+Sub Topics: hashing
  
 
 ---
@@ -733,4 +782,5 @@ Hint: NoHint
          
 Explanation: SHA-256 gives output of length 64 hexadecimal number.
 
+Sub Topics: hashing
  

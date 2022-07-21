@@ -2,14 +2,13 @@
   "key": "defi-course",
   "title": "DeFi 101 Course",
   "summary": "This is a DeFi 101 Course",
-  "description": "\"Decentralised Finance (DeFi) is the upcoming revolution in the world which would result in the complete transformation in the functioning of the finance sector using blockchain technology as its core.\" \n\"This course, DeFi 101, will introduce the learners to the world of blockchain and how it can be incorporated into the current financial system making it more efficient and secure than before. \" \n\"During the course, learners will be upskilled in the fields of Cryptography, Smart Contracts, Decentralised Protocols, Ethereum networks, Consensus Mechanisms (PoW & PoS), Flash loans, Digital signatures, Tokenization and many more! So, fasten your seat belts to know the future of finance.\"\n",
+  "details": "Decentralised Finance (DeFi) is the upcoming revolution in the world which would result in the complete transformation in the functioning of the finance sector using blockchain technology as its core.  \nThis course, DeFi 101, will introduce the learners to the world of blockchain and how it can be incorporated into the current financial system making it more efficient and secure than before. \nDuring the course, learners will be upskilled in the fields of Cryptography, Smart Contracts, Decentralised Protocols, Ethereum networks, Consensus Mechanisms (PoW & PoS), Flash loans, Digital signatures, Tokenization and many more! So, fasten your seat belts to know the future of finance.\n",
   "duration": "45 - 60 mins",
   "topics": [
     {
       "title": "What is DeFi and Use Cases",
       "key": "what-is-defi",
-      "summary": "This chapter explains basics of DeFi, How its different from Traditional Finance, and Use Cases",
-      "description": "This chapter explains about\n  * What is DeFi \n  * CeFi vs DeFi\n  * Use cases of DeFi\n",
+      "details": "This chapter explains basics of DeFi, How its different from Traditional Finance, and Use Cases\n\nDetails\n  * What is DeFi \n  * CeFi vs DeFi\n  * Use cases of DeFi\n",
       "order": 0,
       "questions": [
         {
@@ -1556,11 +1555,13 @@
       "summaries": [
         {
           "title": "Introduction to Blockchain",
+          "shortTitle": "Blockchain Into",
           "key": "introduction-to-blockchain",
           "details": "- Persistence: once added, data can never be removed*\n- Consensus: all honest participants have the same data**\n- Liveness: honest participants can add new transactions\n- Open(?): anyone can add data\n"
         },
         {
           "title": "Hashing",
+          "shortTitle": "Hashing",
           "key": "hashing",
           "details": "- Scaling the blockchain: Payment channels and Rollups (L2 scaling)\n"
         }
@@ -1569,8 +1570,7 @@
     {
       "title": "Blockchain Basics",
       "key": "blockchain-basics",
-      "summary": "This chapter explains the basics of blockchain and cryptocurrency.",
-      "description": "This chapter explains about\n  * What is Blockchain \n  * Crypto Origins\n  * Hashing\n",
+      "details": "This chapter explains the basics of blockchain and cryptocurrency.\n\nDetials\n  * What is Blockchain \n  * Crypto Origins\n  * Hashing\n",
       "order": 1,
       "questions": [
         {
@@ -3117,11 +3117,13 @@
       "summaries": [
         {
           "title": "Introduction to Blockchain",
+          "shortTitle": "Blockchain Into",
           "key": "introduction-to-blockchain",
           "details": "- Persistence: once added, data can never be removed*\n- Consensus: all honest participants have the same data**\n- Liveness: honest participants can add new transactions\n- Open(?): anyone can add data\n"
         },
         {
           "title": "Hashing",
+          "shortTitle": "Hashing",
           "key": "hashing",
           "details": "- Scaling the blockchain: Payment channels and Rollups (L2 scaling)\n"
         }
@@ -3130,8 +3132,7 @@
     {
       "title": "Smart Contratcs",
       "key": "defi-foundations",
-      "summary": "Explain on a high level what are smart contract, and where do they run",
-      "description": "This chapter explains \n* How Ethereum transactions\n* miner extractable value.\n* Smart contracts / Gas / Oracles\n* Fungible and non-fungible (NFT) tokens \n* dApps\n",
+      "details": "Explain on a high level what are smart contract, and where do they run\n\nDetails \n* How Ethereum transactions\n* miner extractable value.\n* Smart contracts / Gas / Oracles\n* Fungible and non-fungible (NFT) tokens \n* dApps\n",
       "order": 2,
       "questions": [
         {
@@ -4678,11 +4679,13 @@
       "summaries": [
         {
           "title": "Introduction to Blockchain",
+          "shortTitle": "Blockchain Into",
           "key": "introduction-to-blockchain",
           "details": "- Persistence: once added, data can never be removed*\n- Consensus: all honest participants have the same data**\n- Liveness: honest participants can add new transactions\n- Open(?): anyone can add data\n"
         },
         {
           "title": "Hashing",
+          "shortTitle": "Hashing",
           "key": "hashing",
           "details": "- Scaling the blockchain: Payment channels and Rollups (L2 scaling)\n"
         }
@@ -4691,8 +4694,7 @@
     {
       "title": "Lending and Credit",
       "key": "lending-and-credit",
-      "summary": "Functioning of the MakerDAO stablecoin and examining Compound and Aave.",
-      "description": "This chapter explains \n* MakerDAO stablecoin\n* Compound\n* Aave\n",
+      "details": "Functioning of the MakerDAO stablecoin and examining Compound and Aave.\n\nDetails \n* MakerDAO stablecoin\n* Compound\n* Aave\n",
       "order": 3,
       "questions": [
         {
@@ -6239,11 +6241,13 @@
       "summaries": [
         {
           "title": "Introduction to Blockchain",
+          "shortTitle": "Blockchain Into",
           "key": "introduction-to-blockchain",
           "details": "- Persistence: once added, data can never be removed*\n- Consensus: all honest participants have the same data**\n- Liveness: honest participants can add new transactions\n- Open(?): anyone can add data\n"
         },
         {
           "title": "Hashing",
+          "shortTitle": "Hashing",
           "key": "hashing",
           "details": "- Scaling the blockchain: Payment channels and Rollups (L2 scaling)\n"
         }
@@ -6252,8 +6256,7 @@
     {
       "title": "Decentralised Exchanges",
       "key": "decentralised-exchanges",
-      "summary": "Focusses on one of the pillars of DeFi - Decentralised Exchanges and their Functioning.",
-      "description": "This chapter explains \n* Working of Decentralised Exchanges\n* Swaps\n* Automated Market Makers\n* Loans\n",
+      "details": "Focusses on one of the pillars of DeFi - Decentralised Exchanges and their Functioning.\n\nDetails \n* Working of Decentralised Exchanges\n* Swaps\n* Automated Market Makers\n* Loans\n",
       "order": 4,
       "questions": [
         {
@@ -7800,11 +7803,13 @@
       "summaries": [
         {
           "title": "Introduction to Blockchain",
+          "shortTitle": "Blockchain Into",
           "key": "introduction-to-blockchain",
           "details": "- Persistence: once added, data can never be removed*\n- Consensus: all honest participants have the same data**\n- Liveness: honest participants can add new transactions\n- Open(?): anyone can add data\n"
         },
         {
           "title": "Hashing",
+          "shortTitle": "Hashing",
           "key": "hashing",
           "details": "- Scaling the blockchain: Payment channels and Rollups (L2 scaling)\n"
         }
@@ -7813,8 +7818,7 @@
     {
       "title": "Derivatives",
       "key": "derivatives",
-      "summary": "This chapter explains the popular derivatives protocols and provides insights into Yield Protocol and Synthetix.",
-      "description": "This chapter explains \n* Yield Protocol\n* dYdX\n* Synthetix\n",
+      "details": "This chapter explains the popular derivatives protocols and provides insights into Yield Protocol and Synthetix.\n\nDetails \n* Yield Protocol\n* dYdX\n* Synthetix\n",
       "order": 5,
       "questions": [
         {
@@ -9361,11 +9365,13 @@
       "summaries": [
         {
           "title": "Introduction to Blockchain",
+          "shortTitle": "Blockchain Into",
           "key": "introduction-to-blockchain",
           "details": "- Persistence: once added, data can never be removed*\n- Consensus: all honest participants have the same data**\n- Liveness: honest participants can add new transactions\n- Open(?): anyone can add data\n"
         },
         {
           "title": "Hashing",
+          "shortTitle": "Hashing",
           "key": "hashing",
           "details": "- Scaling the blockchain: Payment channels and Rollups (L2 scaling)\n"
         }
@@ -9374,8 +9380,7 @@
     {
       "title": "Tokenization",
       "key": "tokenization",
-      "summary": "Set protocol and Index Coop",
-      "description": "This chapter explains \n* Index Coop\n* Set Protocol provides a way to combine portfolios much like an ETF holds many traditional stocks. The Sets can be active or passive. The module ends with a discussion of the use in DeFi of both wrapped bitcoin and wrapped ethereum.\n* Wrapped bitcoin\n* Balancer\n",
+      "details": "Set protocol and Index Coop\n\nDetails \n* Index Coop\n* Set Protocol provides a way to combine portfolios much like an ETF holds many traditional stocks. The Sets can be active or passive. The module ends with a discussion of the use in DeFi of both wrapped bitcoin and wrapped ethereum.\n* Wrapped bitcoin\n* Balancer\n",
       "order": 6,
       "questions": [
         {
@@ -10922,11 +10927,13 @@
       "summaries": [
         {
           "title": "Introduction to Blockchain",
+          "shortTitle": "Blockchain Into",
           "key": "introduction-to-blockchain",
           "details": "- Persistence: once added, data can never be removed*\n- Consensus: all honest participants have the same data**\n- Liveness: honest participants can add new transactions\n- Open(?): anyone can add data\n"
         },
         {
           "title": "Hashing",
+          "shortTitle": "Hashing",
           "key": "hashing",
           "details": "- Scaling the blockchain: Payment channels and Rollups (L2 scaling)\n"
         }
@@ -10935,8 +10942,7 @@
     {
       "title": "Stable Coins",
       "key": "tokenization",
-      "summary": "Why Stable Coings, Different Type of stabe coins",
-      "description": "This chapter explains \n* Why Stable Coings \n* Different Type of stabe coins\n",
+      "details": "Why Stable Coins, Different Type of stabe coins\n\nDetails \n* Why Stable Coins \n* Different Type of stabe coins\n",
       "order": 7,
       "questions": [
         {
@@ -12483,11 +12489,13 @@
       "summaries": [
         {
           "title": "Introduction to Blockchain",
+          "shortTitle": "Blockchain Into",
           "key": "introduction-to-blockchain",
           "details": "- Persistence: once added, data can never be removed*\n- Consensus: all honest participants have the same data**\n- Liveness: honest participants can add new transactions\n- Open(?): anyone can add data\n"
         },
         {
           "title": "Hashing",
+          "shortTitle": "Hashing",
           "key": "hashing",
           "details": "- Scaling the blockchain: Payment channels and Rollups (L2 scaling)\n"
         }
@@ -12496,8 +12504,7 @@
     {
       "title": "Security and Risks",
       "key": "security-and-risks",
-      "summary": "Why Stable Coings, Different Type of stabe coins",
-      "description": "This chapter explains \n* Why Stable Coings \n* Different Type of stabe coins\n",
+      "details": "This chapter explains \n* Security Considerations \n* Protocol and Smart Contract Risks\n",
       "order": 8,
       "questions": [
         {
@@ -14044,11 +14051,13 @@
       "summaries": [
         {
           "title": "Introduction to Blockchain",
+          "shortTitle": "Blockchain Into",
           "key": "introduction-to-blockchain",
           "details": "- Persistence: once added, data can never be removed*\n- Consensus: all honest participants have the same data**\n- Liveness: honest participants can add new transactions\n- Open(?): anyone can add data\n"
         },
         {
           "title": "Hashing",
+          "shortTitle": "Hashing",
           "key": "hashing",
           "details": "- Scaling the blockchain: Payment channels and Rollups (L2 scaling)\n"
         }
