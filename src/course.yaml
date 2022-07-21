@@ -1,18 +1,19 @@
 title: DeFi 101 Course
 key: defi-course
 summary: This is a DeFi 101 Course
-description:  | 
-  "Decentralised Finance (DeFi) is the upcoming revolution in the world which would result in the complete transformation in the functioning of the finance sector using blockchain technology as its core." 
-  "This course, DeFi 101, will introduce the learners to the world of blockchain and how it can be incorporated into the current financial system making it more efficient and secure than before. " 
-  "During the course, learners will be upskilled in the fields of Cryptography, Smart Contracts, Decentralised Protocols, Ethereum networks, Consensus Mechanisms (PoW & PoS), Flash loans, Digital signatures, Tokenization and many more! So, fasten your seat belts to know the future of finance."
+details:  | 
+  Decentralised Finance (DeFi) is the upcoming revolution in the world which would result in the complete transformation in the functioning of the finance sector using blockchain technology as its core.  
+  This course, DeFi 101, will introduce the learners to the world of blockchain and how it can be incorporated into the current financial system making it more efficient and secure than before. 
+  During the course, learners will be upskilled in the fields of Cryptography, Smart Contracts, Decentralised Protocols, Ethereum networks, Consensus Mechanisms (PoW & PoS), Flash loans, Digital signatures, Tokenization and many more! So, fasten your seat belts to know the future of finance.
 
 duration: 45 - 60 mins
 topics:
   - title: What is DeFi and Use Cases
     key: what-is-defi
-    summary: This chapter explains basics of DeFi, How its different from Traditional Finance, and Use Cases
-    description: |
-      This chapter explains about
+    details: |
+      This chapter explains basics of DeFi, How its different from Traditional Finance, and Use Cases
+      
+      Details
         * What is DeFi 
         * CeFi vs DeFi
         * Use cases of DeFi
@@ -23,9 +24,10 @@ topics:
     completionWeek:  July 18
   - title: Blockchain Basics
     key: blockchain-basics
-    summary: This chapter explains the basics of blockchain and cryptocurrency.
-    description: |
-      This chapter explains about
+    details: |
+      This chapter explains the basics of blockchain and cryptocurrency.
+      
+      Detials
         * What is Blockchain 
         * Crypto Origins
         * Hashing
@@ -36,9 +38,10 @@ topics:
     completionWeek:  July 18
   - title: Smart Contratcs
     key: defi-foundations
-    summary: Explain on a high level what are smart contract, and where do they run
-    description: |
-      This chapter explains 
+    details: |
+      Explain on a high level what are smart contract, and where do they run
+      
+      Details 
       * How Ethereum transactions
       * miner extractable value.
       * Smart contracts / Gas / Oracles
@@ -51,9 +54,10 @@ topics:
     completionWeek: July 18
   - title: Lending and Credit
     key: lending-and-credit
-    summary: Functioning of the MakerDAO stablecoin and examining Compound and Aave.
-    description: |
-      This chapter explains 
+    details: |
+      Functioning of the MakerDAO stablecoin and examining Compound and Aave.
+      
+      Details 
       * MakerDAO stablecoin
       * Compound
       * Aave
@@ -64,9 +68,10 @@ topics:
     completionWeek: July 18
   - title: Decentralised Exchanges
     key: decentralised-exchanges
-    summary: Focusses on one of the pillars of DeFi - Decentralised Exchanges and their Functioning.
-    description: |
-      This chapter explains 
+    details: |
+      Focusses on one of the pillars of DeFi - Decentralised Exchanges and their Functioning.
+      
+      Details 
       * Working of Decentralised Exchanges
       * Swaps
       * Automated Market Makers
@@ -78,9 +83,10 @@ topics:
     completionWeek: July 18
   - title: Derivatives
     key: derivatives
-    summary: This chapter explains the popular derivatives protocols and provides insights into Yield Protocol and Synthetix.
-    description: |
-      This chapter explains 
+    details: |
+      This chapter explains the popular derivatives protocols and provides insights into Yield Protocol and Synthetix.
+
+      Details 
       * Yield Protocol
       * dYdX
       * Synthetix
@@ -91,9 +97,10 @@ topics:
     completionWeek: July 18
   - title: Tokenization
     key: tokenization
-    summary: Set protocol and Index Coop
-    description: |
-      This chapter explains 
+    details: |
+      Set protocol and Index Coop
+      
+      Details 
       * Index Coop
       * Set Protocol provides a way to combine portfolios much like an ETF holds many traditional stocks. The Sets can be active or passive. The module ends with a discussion of the use in DeFi of both wrapped bitcoin and wrapped ethereum.
       * Wrapped bitcoin
@@ -105,10 +112,11 @@ topics:
     completionWeek: July 18
   - title: Stable Coins
     key: tokenization
-    summary: Why Stable Coings, Different Type of stabe coins
-    description: |
-      This chapter explains 
-      * Why Stable Coings 
+    details: |
+      Why Stable Coins, Different Type of stabe coins
+      
+      Details 
+      * Why Stable Coins 
       * Different Type of stabe coins
     readings: blockchain_basics.yaml
     summaries: blockchain_basics.yaml
@@ -117,11 +125,10 @@ topics:
     completionWeek: July 18
   - title: Security and Risks
     key: security-and-risks
-    summary: Why Stable Coings, Different Type of stabe coins
-    description: |
+    details: |
       This chapter explains 
-      * Why Stable Coings 
-      * Different Type of stabe coins
+      * Security Considerations 
+      * Protocol and Smart Contract Risks
     readings: blockchain_basics.yaml
     summaries: blockchain_basics.yaml
     questions: blockchain_basics.yaml

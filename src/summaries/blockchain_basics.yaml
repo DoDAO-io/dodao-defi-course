@@ -1,4 +1,5 @@
 - title: Introduction to Blockchain
+  shortTitle: Blockchain Into
   key: introduction-to-blockchain
   details: |
     - Persistence: once added, data can never be removed*
@@ -6,6 +7,7 @@
     - Liveness: honest participants can add new transactions
     - Open(?): anyone can add data
 - title: Hashing
+  shortTitle: Hashing
   key: hashing
   details: |
     - Scaling the blockchain: Payment channels and Rollups (L2 scaling)
