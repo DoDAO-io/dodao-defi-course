@@ -1,10 +1,12 @@
 - title: Traditional Finance (CeFi)
+  shortTitle: Traditional Finance
   key: traditional-finance
   details: |
     - Banks provide services like securities/insurance/trust investment/fund management 
     - Hold custodies of customers funds/assets
     - Serves as intermediaries for transactions
 - title: Birth of (Public) Blockchain
+  shortTitle: Birth of Blockchain
   key: public-blockchain-birth  
   details: |
     - Bitcoin white paper was published in ....
