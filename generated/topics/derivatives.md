@@ -6,7 +6,6 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 ## Derivatives
  
 This chapter explains the popular derivatives protocols and provides insights into Yield Protocol and Synthetix.
-
 Details 
 * Yield Protocol
 * dYdX

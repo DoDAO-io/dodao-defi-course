@@ -5,7 +5,6 @@ details:  |
   Decentralised Finance (DeFi) is the upcoming revolution in the world which would result in the complete transformation in the functioning of the finance sector using blockchain technology as its core.  
   This course, DeFi 101, will introduce the learners to the world of blockchain and how it can be incorporated into the current financial system making it more efficient and secure than before. 
   During the course, learners will be upskilled in the fields of Cryptography, Smart Contracts, Decentralised Protocols, Ethereum networks, Consensus Mechanisms (PoW & PoS), Flash loans, Digital signatures, Tokenization and many more! So, fasten your seat belts to know the future of finance.
-
 duration: 45 - 60 mins
 topics:
   - title: What is DeFi and Use Cases
@@ -85,7 +84,6 @@ topics:
     key: derivatives
     details: |
       This chapter explains the popular derivatives protocols and provides insights into Yield Protocol and Synthetix.
-
       Details 
       * Yield Protocol
       * dYdX
