@@ -1,10 +1,45 @@
-- uuid: 20dc6f70-3ac9-4920-a3cb-ceb65b78a0e4
+- uuid: 020f238c-96f2-4613-aca1-4ebba06395c5
   title: Introduction to Blockchain Technology
   type: YoutubeVideo
-  url: https://www.youtube.com/watch?v=u70_rafPs-0
+  url: https://www.youtube.com/watch?v=2yJqjTiwpxM
+  subTopics:
+    - "introduction-to-blockchain"
+  details: |
+    This video enables learners to know about
+      * Decentralised opportunities
+      * Bascis of Cryptocurrency      
+      * Blockchain network types
+
+- uuid: 0c7eaedf-b949-4da3-bdc5-fb21f3633311
+  title: Working of Blockchain Technology
+  type: YoutubeVideo
+  url: https://www.youtube.com/watch?v=bBC-nXj3Ng4
+  subTopics:
+    - "working-of-blockchain"
+  details: |
+    This video illustrates 
+      * Blockchain ledger
+      * Working of Blockchain Technology  
+
+- uuid: e5747299-9764-4598-ac7b-ca3933bc96ba
+  title: Types of Blockchain Networks
+  type: WebArticle
+  url: https://www.techtarget.com/searchcio/feature/What-are-the-4-different-types-of-blockchain-technology
+  subTopics:
+    - "blockchain-networks"
+  details: |
+    This video illustrates 
+      * 4 different types of Blockchain Networks
+      * Each network has been explained with examples from real life
+
+- uuid: 0f2ca5cf-12f4-42a7-8c7b-d42212964991
+  title: Cryptographic Hashing
+  type: YoutubeVideo
+  url: https://www.youtube.com/watch?v=gTfNtop9vzM
   subTopics:
     - "hashing"
   details: |
-    * Value 1
-    * Value 2
-
+    This video explains
+      * Blockchain Hashing in detail
+      * Funtioning of a hash function
+      * Examples such as SHA-256
