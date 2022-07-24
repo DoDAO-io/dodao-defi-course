@@ -1,5 +1,11 @@
 ## Course Files
-We add the files in yaml format. The reason we use YAML format is because it is easier to write a YAML as compared to JSON.
+Our basic courses will consist of 6-10 chapters and in each chapter we will cover
+
+1. Readings - we call it readings, but this is the list of videos one can watch on Youtube to know about the topic. We should capture max of 3-4 videos for each chapter.
+2. Summaries - This is a list of sub-topics in a chapter which we will summarize. Intent is the user can revise each and every concept in the chapter by going through the bullet points. Please look at "Two Minute Drill" sections in SCJP book ([https://firozstar.tripod.com/_darksiderg.pdf](https://firozstar.tripod.com/_darksiderg.pdf))
+3. Questions - About 50 high quality single or multiple choice questions for each chapter. We want to write max 2-3 true/false questions. Almost in all cases the question should have at least 4 choices.
+
+We add course files in yaml format. The reason we use YAML format is because it is easier to write a YAML as compared to JSON.
 Also, YAML provides easy way to work with multi-line strings.
 
 With-in the course YAML files, we have `content`, `details` or `summary` fields. These fields can contain multi-line strings. The
@@ -7,7 +13,7 @@ contents of these multi-line strings can be in Markdown format.
 
 So the outer structure of the files are in YAML format, but `content`, `details` or `summary` fields are read and rendered as markdown content.
 
-If you are willing to contribute, it is very important that you understand the basics of YAML and markdown format
+If you are willing to contribute, it is very important that you understand the basics of YAML and Markdown format
 
 ## Learn YAML
 You can go through these tutorials or watch any of the youtube videos on YAML
@@ -57,9 +63,23 @@ topics:  # Topics field is an array/list field that consists of all the chapters
 ```
 
 ## Summaries file
+These files are present in the `src/summaries` folder.
+
 This is a list of sub-topics in a chapter which we will summarize. Intent is that the user can revise each and every concept
 in the chapter by going through the bullet points. Please look at "Two Minute Drill" sections in SCJP
 book ([https://firozstar.tripod.com/_darksiderg.pdf](https://firozstar.tripod.com/_darksiderg.pdf))
+
+Wrap the content with ` ```[lang] ` (three backticks with language name) if you are writing a multiline code string. Do add the lang
+as our UI and github has syntax highlighting.
+
+So for rust code wrap with ` ```rust `
+
+So for solidity code wrap with ` ```solidity `
+
+You don't need to add lang when closing the code snippet.
+
+Wrap the content with ` (single backtick) if you are writing some single line keyword or code
+
 
 ```yaml
 - title: Value Types # Title of the Sub Topic
@@ -82,6 +102,8 @@ book ([https://firozstar.tripod.com/_darksiderg.pdf](https://firozstar.tripod.co
 ```
 
 ## Readings File
+These files are present in the `src/readings` folder.
+
 We refer to Youtube video or an Article/Link as reading. Reading file consist of list of readings.
 
 Each reading is represented in the following format
@@ -96,7 +118,7 @@ Each reading is represented in the following format
     - "value-types"
     - "reference-types"
     - "mapping-type"
-  details: | # Here we share in our own words what this video is all about
+  details: | # Here we share in our own words what this video or article is all about
     In this video we're looking at the data types available in Solidity.
     This video explains about the use of -
     * Value Types - Integers , Booleans etc 
@@ -107,7 +129,14 @@ Each reading is represented in the following format
 ## Questions
 Questions should be written in the following format
 
-Wrap the content with ``` (three backticks) if you are writing a multiline code string
+Wrap the content with ` ```[lang] ` (three backticks with language name) if you are writing a multiline code string. Do add the lang
+as our UI and github has syntax highlighting.
+
+So for rust code wrap with ` ```rust `
+
+So for solidity code wrap with ` ```solidity `
+
+You don't need to add lang when closing the code snippet.
 
 Wrap the content with ` (single backtick) if you are writing some single line keyword or code
 ```yaml
@@ -162,5 +191,7 @@ Run `yarn test` in the course folder to see if the changes you have done are cor
 Also check the generated markdown format in the view format.
 
 ## commit
-
 Create a new branch in the same main repository and create a pull request.
+
+You can create a pull request as soon as you start on the task with whatever you have. This
+allows other person to do an early review of in-progress work which can save your time.
