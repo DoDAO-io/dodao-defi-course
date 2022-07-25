@@ -4,6 +4,13 @@
   "summary": "This is a DeFi 101 Course",
   "details": "Decentralised Finance (DeFi) is the upcoming revolution in the world which would result in the complete transformation in the functioning of the finance sector using blockchain technology as its core.  \nThis course, DeFi 101, will introduce the learners to the world of blockchain and how it can be incorporated into the current financial system making it more efficient and secure than before. \nDuring the course, learners will be upskilled in the fields of Cryptography, Smart Contracts, Decentralised Protocols, Ethereum networks, Consensus Mechanisms (PoW & PoS), Flash loans, Digital signatures, Tokenization and many more! So, fasten your seat belts to know the future of finance.\n",
   "duration": "45 - 60 mins",
+  "highlights": [
+    "Explains in Detail",
+    "Summaries for each chapter",
+    "MCQ for each chapter"
+  ],
+  "publishStatus": "Live",
+  "thumbnail": "https://cdn-dfnhb.nitrocdn.com/ncvMSDTJqBfzbhjurpWfVBRIBTRVNXNa/assets/static/optimized/rev-ac80957/wp-content/uploads/2021/08/Services-Page-DeFi-Development.jpg",
   "topics": [
     {
       "title": "What is DeFi and Use Cases",
@@ -122,11 +129,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -240,11 +247,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -425,11 +432,11 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -904,11 +911,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -994,11 +1001,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -1114,11 +1121,11 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -1170,11 +1177,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -1194,11 +1201,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -1282,11 +1289,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -1370,19 +1377,19 @@
           "difficultyLevel": "High",
           "choices": [
             {
-              "content": 256,
+              "content": "256",
               "key": "A"
             },
             {
-              "content": 512,
+              "content": "512",
               "key": "B"
             },
             {
-              "content": 1024,
+              "content": "1024",
               "key": "C"
             },
             {
-              "content": 1248,
+              "content": "1248",
               "key": "D"
             }
           ]
@@ -1402,11 +1409,11 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -1522,19 +1529,19 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": 1024,
+              "content": "1024",
               "key": "A"
             },
             {
-              "content": 256,
+              "content": "256",
               "key": "B"
             },
             {
-              "content": 64,
+              "content": "64",
               "key": "C"
             },
             {
-              "content": 512,
+              "content": "512",
               "key": "D"
             }
           ]
@@ -1748,11 +1755,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -1866,11 +1873,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -2051,11 +2058,11 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -2530,11 +2537,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -2620,11 +2627,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -2740,11 +2747,11 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -2796,11 +2803,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -2820,11 +2827,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -2908,11 +2915,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -2996,19 +3003,19 @@
           "difficultyLevel": "High",
           "choices": [
             {
-              "content": 256,
+              "content": "256",
               "key": "A"
             },
             {
-              "content": 512,
+              "content": "512",
               "key": "B"
             },
             {
-              "content": 1024,
+              "content": "1024",
               "key": "C"
             },
             {
-              "content": 1248,
+              "content": "1248",
               "key": "D"
             }
           ]
@@ -3028,11 +3035,11 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -3148,19 +3155,19 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": 1024,
+              "content": "1024",
               "key": "A"
             },
             {
-              "content": 256,
+              "content": "256",
               "key": "B"
             },
             {
-              "content": 64,
+              "content": "64",
               "key": "C"
             },
             {
-              "content": 512,
+              "content": "512",
               "key": "D"
             }
           ]
@@ -3374,11 +3381,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -3492,11 +3499,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -3677,11 +3684,11 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -4156,11 +4163,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -4246,11 +4253,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -4366,11 +4373,11 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -4422,11 +4429,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -4446,11 +4453,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -4534,11 +4541,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -4622,19 +4629,19 @@
           "difficultyLevel": "High",
           "choices": [
             {
-              "content": 256,
+              "content": "256",
               "key": "A"
             },
             {
-              "content": 512,
+              "content": "512",
               "key": "B"
             },
             {
-              "content": 1024,
+              "content": "1024",
               "key": "C"
             },
             {
-              "content": 1248,
+              "content": "1248",
               "key": "D"
             }
           ]
@@ -4654,11 +4661,11 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -4774,19 +4781,19 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": 1024,
+              "content": "1024",
               "key": "A"
             },
             {
-              "content": 256,
+              "content": "256",
               "key": "B"
             },
             {
-              "content": 64,
+              "content": "64",
               "key": "C"
             },
             {
-              "content": 512,
+              "content": "512",
               "key": "D"
             }
           ]
@@ -5000,11 +5007,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -5118,11 +5125,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -5303,11 +5310,11 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -5782,11 +5789,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -5872,11 +5879,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -5992,11 +5999,11 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -6048,11 +6055,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -6072,11 +6079,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -6160,11 +6167,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -6248,19 +6255,19 @@
           "difficultyLevel": "High",
           "choices": [
             {
-              "content": 256,
+              "content": "256",
               "key": "A"
             },
             {
-              "content": 512,
+              "content": "512",
               "key": "B"
             },
             {
-              "content": 1024,
+              "content": "1024",
               "key": "C"
             },
             {
-              "content": 1248,
+              "content": "1248",
               "key": "D"
             }
           ]
@@ -6280,11 +6287,11 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -6400,19 +6407,19 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": 1024,
+              "content": "1024",
               "key": "A"
             },
             {
-              "content": 256,
+              "content": "256",
               "key": "B"
             },
             {
-              "content": 64,
+              "content": "64",
               "key": "C"
             },
             {
-              "content": 512,
+              "content": "512",
               "key": "D"
             }
           ]
@@ -6626,11 +6633,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -6744,11 +6751,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -6929,11 +6936,11 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -7408,11 +7415,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -7498,11 +7505,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -7618,11 +7625,11 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -7674,11 +7681,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -7698,11 +7705,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -7786,11 +7793,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -7874,19 +7881,19 @@
           "difficultyLevel": "High",
           "choices": [
             {
-              "content": 256,
+              "content": "256",
               "key": "A"
             },
             {
-              "content": 512,
+              "content": "512",
               "key": "B"
             },
             {
-              "content": 1024,
+              "content": "1024",
               "key": "C"
             },
             {
-              "content": 1248,
+              "content": "1248",
               "key": "D"
             }
           ]
@@ -7906,11 +7913,11 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -8026,19 +8033,19 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": 1024,
+              "content": "1024",
               "key": "A"
             },
             {
-              "content": 256,
+              "content": "256",
               "key": "B"
             },
             {
-              "content": 64,
+              "content": "64",
               "key": "C"
             },
             {
-              "content": 512,
+              "content": "512",
               "key": "D"
             }
           ]
@@ -8252,11 +8259,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -8370,11 +8377,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -8555,11 +8562,11 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -9034,11 +9041,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -9124,11 +9131,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -9244,11 +9251,11 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -9300,11 +9307,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -9324,11 +9331,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -9412,11 +9419,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -9500,19 +9507,19 @@
           "difficultyLevel": "High",
           "choices": [
             {
-              "content": 256,
+              "content": "256",
               "key": "A"
             },
             {
-              "content": 512,
+              "content": "512",
               "key": "B"
             },
             {
-              "content": 1024,
+              "content": "1024",
               "key": "C"
             },
             {
-              "content": 1248,
+              "content": "1248",
               "key": "D"
             }
           ]
@@ -9532,11 +9539,11 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -9652,19 +9659,19 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": 1024,
+              "content": "1024",
               "key": "A"
             },
             {
-              "content": 256,
+              "content": "256",
               "key": "B"
             },
             {
-              "content": 64,
+              "content": "64",
               "key": "C"
             },
             {
-              "content": 512,
+              "content": "512",
               "key": "D"
             }
           ]
@@ -9878,11 +9885,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -9996,11 +10003,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -10181,11 +10188,11 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -10660,11 +10667,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -10750,11 +10757,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -10870,11 +10877,11 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -10926,11 +10933,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -10950,11 +10957,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -11038,11 +11045,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -11126,19 +11133,19 @@
           "difficultyLevel": "High",
           "choices": [
             {
-              "content": 256,
+              "content": "256",
               "key": "A"
             },
             {
-              "content": 512,
+              "content": "512",
               "key": "B"
             },
             {
-              "content": 1024,
+              "content": "1024",
               "key": "C"
             },
             {
-              "content": 1248,
+              "content": "1248",
               "key": "D"
             }
           ]
@@ -11158,11 +11165,11 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -11278,19 +11285,19 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": 1024,
+              "content": "1024",
               "key": "A"
             },
             {
-              "content": 256,
+              "content": "256",
               "key": "B"
             },
             {
-              "content": 64,
+              "content": "64",
               "key": "C"
             },
             {
-              "content": 512,
+              "content": "512",
               "key": "D"
             }
           ]
@@ -11504,11 +11511,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -11622,11 +11629,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -11807,11 +11814,11 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -12286,11 +12293,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -12376,11 +12383,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -12496,11 +12503,11 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -12552,11 +12559,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -12576,11 +12583,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -12664,11 +12671,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -12752,19 +12759,19 @@
           "difficultyLevel": "High",
           "choices": [
             {
-              "content": 256,
+              "content": "256",
               "key": "A"
             },
             {
-              "content": 512,
+              "content": "512",
               "key": "B"
             },
             {
-              "content": 1024,
+              "content": "1024",
               "key": "C"
             },
             {
-              "content": 1248,
+              "content": "1248",
               "key": "D"
             }
           ]
@@ -12784,11 +12791,11 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -12904,19 +12911,19 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": 1024,
+              "content": "1024",
               "key": "A"
             },
             {
-              "content": 256,
+              "content": "256",
               "key": "B"
             },
             {
-              "content": 64,
+              "content": "64",
               "key": "C"
             },
             {
-              "content": 512,
+              "content": "512",
               "key": "D"
             }
           ]
@@ -13130,11 +13137,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -13248,11 +13255,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -13433,11 +13440,11 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -13912,11 +13919,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -14002,11 +14009,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -14122,11 +14129,11 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -14178,11 +14185,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -14202,11 +14209,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -14290,11 +14297,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -14378,19 +14385,19 @@
           "difficultyLevel": "High",
           "choices": [
             {
-              "content": 256,
+              "content": "256",
               "key": "A"
             },
             {
-              "content": 512,
+              "content": "512",
               "key": "B"
             },
             {
-              "content": 1024,
+              "content": "1024",
               "key": "C"
             },
             {
-              "content": 1248,
+              "content": "1248",
               "key": "D"
             }
           ]
@@ -14410,11 +14417,11 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": true,
+              "content": "true",
               "key": "A"
             },
             {
-              "content": false,
+              "content": "false",
               "key": "B"
             }
           ]
@@ -14530,19 +14537,19 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": 1024,
+              "content": "1024",
               "key": "A"
             },
             {
-              "content": 256,
+              "content": "256",
               "key": "B"
             },
             {
-              "content": 64,
+              "content": "64",
               "key": "C"
             },
             {
-              "content": 512,
+              "content": "512",
               "key": "D"
             }
           ]
