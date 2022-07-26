@@ -1,17 +1,20 @@
 title: DeFi 101 Course
 key: defi-course
-summary: This is a DeFi 101 Course
+summary: |
+  Decentralised Finance (DeFi) is the upcoming revolution in the world which would result in the complete transformation in the functioning of the finance sector using blockchain technology as its core.  
+  This course, DeFi 101, will introduce the learners to the world of blockchain and how it can be incorporated into the current financial system making it more efficient and secure than before
 highlights:
-  - Explains in Detail
-  - Summaries for each chapter
-  - MCQ for each chapter
+  - Intro to DeFi
+  - Blockchain history and basics
+  - All DeFi building blocks
+  - Summaries and questions for each chapter
 publishStatus: Live
-thumbnail: https://cdn-dfnhb.nitrocdn.com/ncvMSDTJqBfzbhjurpWfVBRIBTRVNXNa/assets/static/optimized/rev-ac80957/wp-content/uploads/2021/08/Services-Page-DeFi-Development.jpg
+thumbnail: ipfs://Qmep98TUiat2nGs2TTRiMPiBtKxYPrVaFYkrJGqPDwkF7p
 details:  | 
   Decentralised Finance (DeFi) is the upcoming revolution in the world which would result in the complete transformation in the functioning of the finance sector using blockchain technology as its core.  
   This course, DeFi 101, will introduce the learners to the world of blockchain and how it can be incorporated into the current financial system making it more efficient and secure than before. 
   During the course, learners will be upskilled in the fields of Cryptography, Smart Contracts, Decentralised Protocols, Ethereum networks, Consensus Mechanisms (PoW & PoS), Flash loans, Digital signatures, Tokenization and many more! So, fasten your seat belts to know the future of finance.
-duration: 45 - 60 mins
+duration: 4 - 8 hours
 topics:
   - title: What is DeFi and Use Cases
     key: what-is-defi
