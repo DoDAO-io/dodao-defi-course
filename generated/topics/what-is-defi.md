@@ -16,6 +16,6 @@ Details
 ## Links
 [Reading List](./../../generated/readings/blockchain_basics.md)
 
-[Summary](./../../generated/summaries/blockchain_basics.md)
+[Summary](./../../generated/summaries/introduction_to_defi.md)
 
 [Questions](./../../generated/questions/blockchain_basics.md)
