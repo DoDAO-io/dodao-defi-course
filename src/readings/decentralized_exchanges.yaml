@@ -1,0 +1,10 @@
+- uuid: b7377a6d-ddf8-49d2-bc47-305d1b3aa3a7
+  title: What is AMM
+  shortTitle: AMM
+  type: YoutubeVideo
+  url: https://www.youtube.com/watch?v=NwtyFM61K_k
+  subTopics:
+    - "amm"
+  details: |
+    - Value 1
+    - Value 2

@@ -84,9 +84,9 @@ topics:
       * Swaps
       * Automated Market Makers
       * Loans
-    readings: blockchain_basics.yaml
-    summaries: blockchain_basics.yaml
-    questions: blockchain_basics.yaml
+    readings: decentralized_exchanges.yaml
+    summaries: decentralized_exchanges.yaml
+    questions: decentralized_exchanges.yaml
     status: In Progress
     completionWeek: July 18
   - title: Derivatives
