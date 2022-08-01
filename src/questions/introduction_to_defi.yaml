@@ -147,7 +147,7 @@
   answerKeys:
     - B
   subTopics:
-    - "introduction-to-decentralised-financ"
+    - "introduction-to-decentralised-finance"
   difficultyLevel: "Medium"
   choices:
     - content: Computer to computer
@@ -469,7 +469,7 @@
   answerKeys:
     - A
   subTopics:
-    - "uses-of-decentralised-financ"
+    - "uses-of-decentralised-finance"
   difficultyLevel: "Low"
   choices:
     - content: Bitcoin
@@ -495,7 +495,7 @@
     - C
     - D
   subTopics:
-    - "uses-of-decentralised-financ"
+    - "uses-of-decentralised-finance"
   difficultyLevel: "Medium"
   choices:
     - content: Money Transfers
@@ -1058,12 +1058,13 @@
   content: What is the most popular use of DeFi? 
   hint: NoHint
   explanation: Decentralised Exchanges are the most popular use of DeFi
+  answerKeys:
     - A
   subTopics:
     - "uses-of-decentralised-finance"
   difficultyLevel: "Low"
   choices:
-    - content: Decentralised Exchhanges
+    - content: Decentralised Exchanges
       key: A
       order: 0
     - content: Sending NFTs

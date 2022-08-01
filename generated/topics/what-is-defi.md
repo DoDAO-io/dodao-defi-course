@@ -18,4 +18,4 @@ Details
 
 [Summary](./../../generated/summaries/introduction_to_defi.md)
 
-[Questions](./../../generated/questions/blockchain_basics.md)
+[Questions](./../../generated/questions/introduction_to_defi.md)

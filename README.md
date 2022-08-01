@@ -4,7 +4,8 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  ---
 
  ## DeFi 101 Course
- This is a DeFi 101 Course
+ Decentralised Finance (DeFi) is the upcoming revolution in the world which would result in the complete transformation in the functioning of the finance sector using blockchain technology as its core.
+
  
  ## Description
  Decentralised Finance (DeFi) is the upcoming revolution in the world which would result in the complete transformation in the functioning of the finance sector using blockchain technology as its core.  
@@ -16,7 +17,7 @@ During the course, learners will be upskilled in the fields of Cryptography, Sma
  
  | S.No        | Title       | Contents   | Links      | Status      | Completion Week |
  | ----------- | ----------- |----------- |----------- | ----------- | ----------- |
- | 1      | What is DeFi and Use Cases | * Introduction to Decentralised Finance<br/> * Centralised vs Decentralised Finance<br/> * Decentralised Finance Usage| [Details](generated/topics/what-is-defi.md) <br/> [Summary](generated/summaries/introduction_to_defi.md) <br/> [Reading List](generated/readings/blockchain_basics.md) <br/> [Questions](generated/questions/blockchain_basics.md) | In Progress | July 18 |
+ | 1      | What is DeFi and Use Cases | * Introduction to Decentralised Finance<br/> * Centralised vs Decentralised Finance<br/> * Decentralised Finance Usage| [Details](generated/topics/what-is-defi.md) <br/> [Summary](generated/summaries/introduction_to_defi.md) <br/> [Reading List](generated/readings/blockchain_basics.md) <br/> [Questions](generated/questions/introduction_to_defi.md) | In Progress | July 18 |
  | 2      | Blockchain Basics | * Introduction to Blockchain<br/> * Working of Blockchain<br/> * Types of Blockchain Networks<br/> * Hashing<br/> * Properties of Hashing<br/> * Merits and Demerits of Hashing<br/> * Popular Hashing Algorithms| [Details](generated/topics/blockchain-basics.md) <br/> [Summary](generated/summaries/blockchain_basics.md) <br/> [Reading List](generated/readings/blockchain_basics.md) <br/> [Questions](generated/questions/blockchain_basics.md) | In Progress | July 18 |
  | 3      | Smart Contratcs | * Introduction to Blockchain<br/> * Working of Blockchain<br/> * Types of Blockchain Networks<br/> * Hashing<br/> * Properties of Hashing<br/> * Merits and Demerits of Hashing<br/> * Popular Hashing Algorithms| [Details](generated/topics/defi-foundations.md) <br/> [Summary](generated/summaries/blockchain_basics.md) <br/> [Reading List](generated/readings/blockchain_basics.md) <br/> [Questions](generated/questions/blockchain_basics.md) | In Progress | July 18 |
  | 4      | Lending and Credit | * Introduction to Blockchain<br/> * Working of Blockchain<br/> * Types of Blockchain Networks<br/> * Hashing<br/> * Properties of Hashing<br/> * Merits and Demerits of Hashing<br/> * Popular Hashing Algorithms| [Details](generated/topics/lending-and-credit.md) <br/> [Summary](generated/summaries/blockchain_basics.md) <br/> [Reading List](generated/readings/blockchain_basics.md) <br/> [Questions](generated/questions/blockchain_basics.md) | In Progress | July 18 |

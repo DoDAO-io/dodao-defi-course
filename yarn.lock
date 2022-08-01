@@ -19,10 +19,10 @@
   "resolved" "https://registry.npmjs.org/dedent-js/-/dedent-js-1.0.1.tgz"
   "version" "1.0.1"
 
-"dodao-course-processor@^0.1.21":
-  "integrity" "sha512-ppMpdLxLGkdMiyHJ6M44wfjXwnuDe6v/AzkVN7GD3Zc75Jf6B3B8RjS3B3PMQdhJOwfEZ4G6VtyrD2Gq+T18Bw=="
-  "resolved" "https://registry.npmjs.org/dodao-course-processor/-/dodao-course-processor-0.1.21.tgz"
-  "version" "0.1.21"
+"dodao-course-processor@^0.1.24":
+  "integrity" "sha512-PMUWf3Fxuu8wBqey7jUY0t5dty8xw20wlQTSktCHsFI52vDQKMjho+Uy8VxOJjKxgiFHeiIycGf1BZHis+e2Vw=="
+  "resolved" "https://registry.npmjs.org/dodao-course-processor/-/dodao-course-processor-0.1.24.tgz"
+  "version" "0.1.24"
   dependencies:
     "@types/commander" "^2.12.2"
     "commander" "^9.3.0"
