@@ -15,8 +15,8 @@ Details
 
 
 ## Links
-[Reading List](./../../generated/readings/blockchain_basics.md)
+[Reading List](./../../generated/readings/decentralized_exchanges.md)
 
-[Summary](./../../generated/summaries/blockchain_basics.md)
+[Summary](./../../generated/summaries/decentralized_exchanges.md)
 
-[Questions](./../../generated/questions/blockchain_basics.md)
+[Questions](./../../generated/questions/decentralized_exchanges.md)
