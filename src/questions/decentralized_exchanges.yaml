@@ -10,261 +10,261 @@
     - amm
   difficultyLevel: Low
   choices:
-    - content: A marketplace or platform where securities, commodities, derivatives, and other financial instruments are traded
+    - content: A marketplace where securities, commodities, derivatives, and other financial instruments can not be traded
+      key: A
+      order: 0
+    - content: A marketplace for crypto traders without any intermediary intervention
+      key: B
+      order: 1
+    - content: A marketplace or platform which allows customers to trade cryptocurrencies for other assets
+      key: C
+      order: 2
+    - content: A marketplace where securities, commodities, derivatives, and other financial instruments are traded
+      key: D
+      order: 3
+- uuid: e7765f9d-6a7b-44c7-99fb-e0f67cea00eb
+  type: MultipleChoice
+  content: What is a Crypto Exchange?
+  hint: hint
+  explanation: explanation
+  answerKeys:
+    - B,D
+  topic: 01_data_types
+  subTopics:
+    - amm
+  difficultyLevel: Low
+  choices:
+    - content: A marketplace for crypto traders without any intermediary intervention
+      key: A
+      order: 0
+    - content: A marketplace which allows customers to trade cryptocurrencies for digital currencies
+      key: B
+      order: 1
+    - content: A marketplace where securities, commodities, derivatives, and other financial instruments are traded
+      key: C
+      order: 2
+    - content: A marketplace which allows customers to trade cryptocurrencies for fiat money
+      key: D
+      order: 3
+- uuid: 10e96ed7-229f-4a44-9c48-01ec2a8f4896
+  type: MultipleChoice
+  content: Types of Crypto Exchange
+  hint: hint
+  explanation: explanation
+  answerKeys:
+    - A
+  topic: 01_data_types
+  subTopics:
+    - amm
+  difficultyLevel: Low
+  choices:
+    - content: Traditional or Centralized Exchange
+      key: A
+      order: 0
+    - content: Decentralized Exchange
+      key: B
+      order: 1
+    - content: Both of these
+      key: C
+      order: 2
+    - content: None of these
+      key: D
+      order: 3
+- uuid: 6cb19075-8295-424d-893b-e1900b42ed1b
+  type: MultipleChoice
+  content: What is a Centralized Exchange ?
+  hint: hint
+  explanation: explanation
+  answerKeys:
+    - A
+  topic: 01_data_types
+  subTopics:
+    - amm
+  difficultyLevel: Low
+  choices:
+    - content: A peer-exchange-peer marketplace for crypto traders without any intermediary intervention
+      key: A
+      order: 0
+    - content: A peer-to-exchange-to-peer marketplace where transactions between crypto traders are done using traditional “Order Book” models that are officiated by banks, brokers, or any other intermediary.
+      key: B
+      order: 1
+    - content: A marketplace where securities, commodities, derivatives, and other financial instruments are traded
+      key: C
+      order: 2
+    - content: A peer-to-peer marketplace for crypto traders without any intermediary intervention
+      key: D
+      order: 3
+- uuid: 1ed8c43c-ca15-4a4d-9260-4a004db1b663
+  type: MultipleChoice
+  content: What is an Order Book?
+  hint: hint
+  explanation: explanation
+  answerKeys:
+    - A
+  topic: 01_data_types
+  subTopics:
+    - amm
+  difficultyLevel: Low
+  choices:
+    - content: A list of orders that presents different offers from buyers and sellers for a specific security.
       key: A
       order: 0
     - content: A peer-to-peer marketplace for crypto traders without any intermediary intervention
       key: B
       order: 1
-    - content: A peer-exchange-peer marketplace for crypto traders with some intermediary intervention
+    - content: It also shows the prices and volumes that people in the market are willing to buy and sell the security for.
+      key: C
+      order: 2
+    - content: It does not show the prices and volumes that people in the market are willing to buy and sell the security for.
+      key: D
+      order: 3
+- uuid: ad432625-2565-4976-ad0c-20c24a1aeae9
+  type: MultipleChoice
+  content: What are the types of CEX based on the order book model?
+  hint: hint
+  explanation: explanation
+  answerKeys:
+    - A
+  topic: 01_data_types
+  subTopics:
+    - amm
+  difficultyLevel: Low
+  choices:
+    - content: CEX with Server Order Book Model
+      key: A
+      order: 0
+    - content: CEX with Onchain Order Book Model
+      key: B
+      order: 1
+    - content: Both of these
+      key: C
+      order: 2
+    - content: None of these
+      key: D
+      order: 3
+- uuid: ce272bb4-0b0a-404d-a816-f64706893a04
+  type: MultipleChoice
+  content: CEX with Server Order Book Model has
+  hint: hint
+  explanation: explanation
+  answerKeys:
+    - A
+  topic: 01_data_types
+  subTopics:
+    - amm
+  difficultyLevel: Low
+  choices:
+    - content: Faster trade matching and settlement
+      key: A
+      order: 0
+    - content: Slow trade matching and settlement
+      key: B
+      order: 1
+    - content: No fees for cancelled orders
+      key: C
+      order: 2
+    - content: No censorship resistance
+      key: D
+      order: 3
+- uuid: 4985ad13-5ce6-4d04-8d66-96b378c13438
+  type: MultipleChoice
+  content: CEX with Onchain Order Book Model has
+  hint: hint
+  explanation: explanation
+  answerKeys:
+    - A
+  topic: 01_data_types
+  subTopics:
+    - amm
+  difficultyLevel: Low
+  choices:
+    - content: Slow trade matching and settlement
+      key: A
+      order: 0
+    - content: No fees for cancelled orders
+      key: B
+      order: 1
+    - content: No Censorship resistance
+      key: C
+      order: 2
+    - content: Censorship resistance
+      key: D
+      order: 3
+- uuid: 39cd2b05-81f4-4b0a-a540-e1d21fa275b7
+  type: MultipleChoice
+  content: ____ are basic sets of rules that allow data and cryptocurrencies to be shared securely between different nodes (i.e computers) in the blockchain network.
+  hint: hint
+  explanation: explanation
+  answerKeys:
+    - A
+  topic: 01_data_types
+  subTopics:
+    - amm
+  difficultyLevel: Low
+  choices:
+    - content: Liquidity Pools
+      key: A
+      order: 0
+    - content: Protocol
+      key: B
+      order: 1
+    - content: Order Book
+      key: C
+      order: 2
+    - content: Exchanges
+      key: D
+      order: 3
+- uuid: 4f6e29dd-b146-4601-85b9-92c648310b15
+  type: MultipleChoice
+  content: DEX stands for
+  hint: hint
+  explanation: explanation
+  answerKeys:
+    - A
+  topic: 01_data_types
+  subTopics:
+    - amm
+  difficultyLevel: Low
+  choices:
+    - content: Deterministic Expansion
+      key: A
+      order: 0
+    - content: Deterministic Exchange
+      key: B
+      order: 1
+    - content: Decentralized Expansion
+      key: C
+      order: 2
+    - content: Decentralized Exchange
+      key: D
+      order: 3
+- uuid: 4b669837-4d58-4ca9-abfc-4dc7378116d8
+  type: MultipleChoice
+  content: What is a Decentralized Exchange?
+  hint: hint
+  explanation: explanation
+  answerKeys:
+    - A
+  topic: 01_data_types
+  subTopics:
+    - amm
+  difficultyLevel: Low
+  choices:
+    - content: A peer-exchange-peer marketplace for crypto traders without any intermediary intervention
+      key: A
+      order: 0
+    - content: A peer-to-peer marketplace for crypto traders without any intermediary intervention
+      key: B
+      order: 1
+    - content: A peer-exchange-peer marketplace for crypto traders with intermediary interventions
       key: C
       order: 2
     - content: A peer-to-peer marketplace for crypto traders with some intermediary intervention
       key: D
       order: 3
-- uuid: e7765f9d-6a7b-44c7-99fb-e0f67cea00eb
-  type: MultipleChoice
-  content: question
-  hint: hint
-  explanation: explanation
-  answerKeys:
-    - A
-  topic: 01_data_types
-  subTopics:
-    - amm
-  difficultyLevel: Low
-  choices:
-    - content: option 1
-      key: A
-      order: 0
-    - content: option 2
-      key: B
-      order: 1
-    - content: option 3
-      key: C
-      order: 2
-    - content: option 4
-      key: D
-      order: 3
-- uuid: 10e96ed7-229f-4a44-9c48-01ec2a8f4896
-  type: MultipleChoice
-  content: question
-  hint: hint
-  explanation: explanation
-  answerKeys:
-    - A
-  topic: 01_data_types
-  subTopics:
-    - amm
-  difficultyLevel: Low
-  choices:
-    - content: option 1
-      key: A
-      order: 0
-    - content: option 2
-      key: B
-      order: 1
-    - content: option 3
-      key: C
-      order: 2
-    - content: option 4
-      key: D
-      order: 3
-- uuid: 6cb19075-8295-424d-893b-e1900b42ed1b
-  type: MultipleChoice
-  content: question
-  hint: hint
-  explanation: explanation
-  answerKeys:
-    - A
-  topic: 01_data_types
-  subTopics:
-    - amm
-  difficultyLevel: Low
-  choices:
-    - content: option 1
-      key: A
-      order: 0
-    - content: option 2
-      key: B
-      order: 1
-    - content: option 3
-      key: C
-      order: 2
-    - content: option 4
-      key: D
-      order: 3
-- uuid: 1ed8c43c-ca15-4a4d-9260-4a004db1b663
-  type: MultipleChoice
-  content: question
-  hint: hint
-  explanation: explanation
-  answerKeys:
-    - A
-  topic: 01_data_types
-  subTopics:
-    - amm
-  difficultyLevel: Low
-  choices:
-    - content: option 1
-      key: A
-      order: 0
-    - content: option 2
-      key: B
-      order: 1
-    - content: option 3
-      key: C
-      order: 2
-    - content: option 4
-      key: D
-      order: 3
-- uuid: ad432625-2565-4976-ad0c-20c24a1aeae9
-  type: MultipleChoice
-  content: question
-  hint: hint
-  explanation: explanation
-  answerKeys:
-    - A
-  topic: 01_data_types
-  subTopics:
-    - amm
-  difficultyLevel: Low
-  choices:
-    - content: option 1
-      key: A
-      order: 0
-    - content: option 2
-      key: B
-      order: 1
-    - content: option 3
-      key: C
-      order: 2
-    - content: option 4
-      key: D
-      order: 3
-- uuid: ce272bb4-0b0a-404d-a816-f64706893a04
-  type: MultipleChoice
-  content: question
-  hint: hint
-  explanation: explanation
-  answerKeys:
-    - A
-  topic: 01_data_types
-  subTopics:
-    - amm
-  difficultyLevel: Low
-  choices:
-    - content: option 1
-      key: A
-      order: 0
-    - content: option 2
-      key: B
-      order: 1
-    - content: option 3
-      key: C
-      order: 2
-    - content: option 4
-      key: D
-      order: 3
-- uuid: 4985ad13-5ce6-4d04-8d66-96b378c13438
-  type: MultipleChoice
-  content: question
-  hint: hint
-  explanation: explanation
-  answerKeys:
-    - A
-  topic: 01_data_types
-  subTopics:
-    - amm
-  difficultyLevel: Low
-  choices:
-    - content: option 1
-      key: A
-      order: 0
-    - content: option 2
-      key: B
-      order: 1
-    - content: option 3
-      key: C
-      order: 2
-    - content: option 4
-      key: D
-      order: 3
-- uuid: 39cd2b05-81f4-4b0a-a540-e1d21fa275b7
-  type: MultipleChoice
-  content: question
-  hint: hint
-  explanation: explanation
-  answerKeys:
-    - A
-  topic: 01_data_types
-  subTopics:
-    - amm
-  difficultyLevel: Low
-  choices:
-    - content: option 1
-      key: A
-      order: 0
-    - content: option 2
-      key: B
-      order: 1
-    - content: option 3
-      key: C
-      order: 2
-    - content: option 4
-      key: D
-      order: 3
-- uuid: 4f6e29dd-b146-4601-85b9-92c648310b15
-  type: MultipleChoice
-  content: question
-  hint: hint
-  explanation: explanation
-  answerKeys:
-    - A
-  topic: 01_data_types
-  subTopics:
-    - amm
-  difficultyLevel: Low
-  choices:
-    - content: option 1
-      key: A
-      order: 0
-    - content: option 2
-      key: B
-      order: 1
-    - content: option 3
-      key: C
-      order: 2
-    - content: option 4
-      key: D
-      order: 3
-- uuid: 4b669837-4d58-4ca9-abfc-4dc7378116d8
-  type: MultipleChoice
-  content: question
-  hint: hint
-  explanation: explanation
-  answerKeys:
-    - A
-  topic: 01_data_types
-  subTopics:
-    - amm
-  difficultyLevel: Low
-  choices:
-    - content: option 1
-      key: A
-      order: 0
-    - content: option 2
-      key: B
-      order: 1
-    - content: option 3
-      key: C
-      order: 2
-    - content: option 4
-      key: D
-      order: 3
 - uuid: 6c0e0592-9318-4ba8-863a-a83327b3ee5b
   type: MultipleChoice
-  content: question
+  content: The main advantage of a decentralized exchange is
   hint: hint
   explanation: explanation
   answerKeys:
@@ -274,21 +274,21 @@
     - amm
   difficultyLevel: Low
   choices:
-    - content: option 1
+    - content: Users own their private keys
       key: A
       order: 0
-    - content: option 2
+    - content: Increased privacy due to the lack of knowing your customer (KYC) controls
       key: B
       order: 1
-    - content: option 3
+    - content: Large range of low-cap altcoins
       key: C
       order: 2
-    - content: option 4
+    - content: All of the above
       key: D
       order: 3
 - uuid: bc4b0aef-bf74-4b0b-bdab-0bbbb744a3ca
   type: MultipleChoice
-  content: question
+  content: What are the benefits of Decentralised exchanges over Centralised exchanges?
   hint: hint
   explanation: explanation
   answerKeys:
@@ -298,21 +298,21 @@
     - amm
   difficultyLevel: Low
   choices:
-    - content: option 1
+    - content: No KYC required
       key: A
       order: 0
-    - content: option 2
+    - content: KYC
       key: B
       order: 1
-    - content: option 3
+    - content: No fees are paid to the exchange
       key: C
       order: 2
-    - content: option 4
+    - content: Fast matching
       key: D
       order: 3
 - uuid: 6f9f9889-ad81-4272-a8d8-d58d5aa5a64b
   type: MultipleChoice
-  content: question
+  content: Some examples of decentralized cryptocurrency exchanges are
   hint: hint
   explanation: explanation
   answerKeys:
@@ -322,21 +322,21 @@
     - amm
   difficultyLevel: Low
   choices:
-    - content: option 1
+    - content: Uniswap
       key: A
       order: 0
-    - content: option 2
+    - content: Coinbase
       key: B
       order: 1
-    - content: option 3
+    - content: FTX
       key: C
       order: 2
-    - content: option 4
+    - content: Crypto.com
       key: D
       order: 3
 - uuid: 222ff36d-0766-421f-847e-f1d975f94efe
   type: MultipleChoice
-  content: question
+  content: Sushiswap is a type of
   hint: hint
   explanation: explanation
   answerKeys:
@@ -346,21 +346,21 @@
     - amm
   difficultyLevel: Low
   choices:
-    - content: option 1
+    - content: Decentralized Exchange
       key: A
       order: 0
-    - content: option 2
+    - content: Centralized Exchange
       key: B
       order: 1
-    - content: option 3
+    - content: Traditional Exchange
       key: C
       order: 2
-    - content: option 4
+    - content: None of the above
       key: D
       order: 3
 - uuid: d69cf7c6-1ce4-4a10-bc5c-08392fc6c31e
   type: MultipleChoice
-  content: question
+  content: What are the major downsides of decentralized exchanges?
   hint: hint
   explanation: explanation
   answerKeys:
@@ -370,21 +370,21 @@
     - amm
   difficultyLevel: Low
   choices:
-    - content: option 1
+    - content: No KYC/AML
       key: A
       order: 0
-    - content: option 2
+    - content: Fees for a deposit, withdrawal, trade creation/cancel
       key: B
       order: 1
-    - content: option 3
+    - content: Slow execution
       key: C
       order: 2
-    - content: option 4
+    - content: No fees are paid to the exchange
       key: D
       order: 3
 - uuid: 80e8d2a0-2f76-48ba-a0cc-8c46501795db
   type: MultipleChoice
-  content: question
+  content: The server book model has
   hint: hint
   explanation: explanation
   answerKeys:
@@ -394,21 +394,21 @@
     - amm
   difficultyLevel: Low
   choices:
-    - content: option 1
+    - content: Fast matching
       key: A
       order: 0
-    - content: option 2
+    - content: Slow matching
       key: B
       order: 1
-    - content: option 3
+    - content: Censorship resistance
       key: C
       order: 2
-    - content: option 4
+    - content: No fees for cancelled orders
       key: D
       order: 3
 - uuid: e5ee8053-d3cf-4b6f-97bf-0534f9874cc5
   type: MultipleChoice
-  content: question
+  content: Advantages of the on-chain order book model include
   hint: hint
   explanation: explanation
   answerKeys:
@@ -418,21 +418,21 @@
     - amm
   difficultyLevel: Low
   choices:
-    - content: option 1
+    - content: Censorship resistance
       key: A
       order: 0
-    - content: option 2
+    - content: Fast matching
       key: B
       order: 1
-    - content: option 3
+    - content: Gas or Blockchain fees for orders
       key: C
       order: 2
-    - content: option 4
+    - content: No fees for cancelled orders
       key: D
       order: 3
 - uuid: c55b4cf0-fcf9-4a33-8fae-4722ad825e1d
   type: MultipleChoice
-  content: question
+  content: Centralized exchanges do the market making by creating liquidity pools.
   hint: hint
   explanation: explanation
   answerKeys:
@@ -456,7 +456,7 @@
       order: 3
 - uuid: 8d588484-6241-4f3f-b72c-1fc53bf11cd3
   type: MultipleChoice
-  content: question
+  content: ____ is a collection of funds, funded by Liquidity Providers(LP) that are locked in a smart contract, to facilitate trading, borrowing, lending, yielding, etc.
   hint: hint
   explanation: explanation
   answerKeys:
@@ -466,21 +466,21 @@
     - amm
   difficultyLevel: Low
   choices:
-    - content: option 1
+    - content: Liquidity Pools
       key: A
       order: 0
-    - content: option 2
+    - content: Protocol
       key: B
       order: 1
-    - content: option 3
+    - content: Order Book
       key: C
       order: 2
-    - content: option 4
+    - content: Exchange
       key: D
       order: 3
 - uuid: 379a8445-faee-411c-a8bd-fe429268323a
   type: MultipleChoice
-  content: question
+  content: What does AMM stand for?
   hint: hint
   explanation: explanation
   answerKeys:
@@ -490,21 +490,21 @@
     - amm
   difficultyLevel: Low
   choices:
-    - content: option 1
+    - content: Automated Market Mover
       key: A
       order: 0
-    - content: option 2
+    - content: Automated Market Maker
       key: B
       order: 1
-    - content: option 3
+    - content: Automated Maker Market
       key: C
       order: 2
-    - content: option 4
+    - content: None of the above
       key: D
       order: 3
 - uuid: 70181494-66fe-41c7-b483-f6d6c0a66990
   type: MultipleChoice
-  content: question
+  content: What is an Automated Market Maker?
   hint: hint
   explanation: explanation
   answerKeys:
@@ -514,21 +514,21 @@
     - amm
   difficultyLevel: Low
   choices:
-    - content: option 1
+    - content: A protocol that automatically makes trades for a user
       key: A
       order: 0
-    - content: option 2
+    - content: A system that ensures there is always enough liquidity to make trades
       key: B
       order: 1
-    - content: option 3
+    - content: A code function that automatically lists new markets on an exchange
       key: C
       order: 2
-    - content: option 4
+    - content: All of the above
       key: D
       order: 3
 - uuid: 02a5fbb6-3005-482b-bd7e-96e83bf4711a
   type: MultipleChoice
-  content: question
+  content: Let's say, Asset X quantity * Asset Y quantity = K (a constant) in AMM then
   hint: hint
   explanation: explanation
   answerKeys:
@@ -538,21 +538,21 @@
     - amm
   difficultyLevel: Low
   choices:
-    - content: option 1
+    - content: Purchase of asset X increases the price of X and decreases the price of Y
       key: A
       order: 0
-    - content: option 2
+    - content: Purchase of asset X increases the price of X and increases the price of Y
       key: B
       order: 1
-    - content: option 3
+    - content: Purchase of asset X decreases the price of X and decreases the price of Y
       key: C
       order: 2
-    - content: option 4
+    - content: Purchase of asset X does not affect the price of X and Y
       key: D
       order: 3
 - uuid: 08d54716-41cc-4c8f-b3bb-d63526d86070
   type: MultipleChoice
-  content: question
+  content: Properties of AMM are
   hint: hint
   explanation: explanation
   answerKeys:
@@ -562,21 +562,21 @@
     - amm
   difficultyLevel: Low
   choices:
-    - content: option 1
+    - content: Instant liquidity, irrespective of the trade size
       key: A
       order: 0
-    - content: option 2
+    - content: The ratio of assets X and Y sets the price
       key: B
       order: 1
-    - content: option 3
+    - content: Purchase of asset X increases the price of X and decreases the price of Y
       key: C
       order: 2
-    - content: option 4
+    - content: All of the above
       key: D
       order: 3
 - uuid: de92eb6e-19cd-4ccb-937d-b2ad9968af78
   type: MultipleChoice
-  content: question
+  content: Cons of AMM are
   hint: hint
   explanation: explanation
   answerKeys:
@@ -586,21 +586,21 @@
     - amm
   difficultyLevel: Low
   choices:
-    - content: option 1
+    - content: High slippage for low liquidity markets
       key: A
       order: 0
-    - content: option 2
+    - content: No Order Book maintenance
       key: B
       order: 1
-    - content: option 3
+    - content: The danger of impermanent loss/coin de-peg
       key: C
       order: 2
-    - content: option 4
+    - content: Total loss of funds possible
       key: D
       order: 3
 - uuid: 54e56af9-79d0-4581-83e3-feca21084c5f
   type: MultipleChoice
-  content: question
+  content: Advantages of AMM are
   hint: hint
   explanation: explanation
   answerKeys:
@@ -610,21 +610,21 @@
     - amm
   difficultyLevel: Low
   choices:
-    - content: option 1
+    - content: No Order Book Maintenance
       key: A
       order: 0
-    - content: option 2
+    - content: High slippage for low liquidity markets
       key: B
       order: 1
-    - content: option 3
+    - content: Order Book Maintenance
       key: C
       order: 2
-    - content: option 4
+    - content: Simple implementation for CP AMM
       key: D
       order: 3
 - uuid: 2b52089f-3e36-43a8-8244-a1f6547c8ef4
   type: MultipleChoice
-  content: question
+  content: AMM is also known as
   hint: hint
   explanation: explanation
   answerKeys:
@@ -634,21 +634,21 @@
     - amm
   difficultyLevel: Low
   choices:
-    - content: option 1
+    - content: Positive Product
       key: A
       order: 0
-    - content: option 2
+    - content: Constant Product AMM
       key: B
       order: 1
-    - content: option 3
+    - content: Exponential Product
       key: C
       order: 2
-    - content: option 4
+    - content: Linear Product
       key: D
       order: 3
 - uuid: b86129d0-4d05-4995-8f82-3d5b6639b5bf
   type: MultipleChoice
-  content: question
+  content: How do Arbitrageurs make a profit?
   hint: hint
   explanation: explanation
   answerKeys:
@@ -658,21 +658,21 @@
     - amm
   difficultyLevel: Low
   choices:
-    - content: option 1
+    - content: from the price difference of the same assets, let's say X and Y on different markets
       key: A
       order: 0
-    - content: option 2
+    - content: from the price difference of different assets, let's say X and Y on different markets
       key: B
       order: 1
-    - content: option 3
+    - content: from the price difference of the same assets, let's say X and Y on the same markets
       key: C
       order: 2
-    - content: option 4
+    - content: from the price difference of the different assets, let's say X and Y on different markets
       key: D
       order: 3
 - uuid: 7e81c416-cd46-4424-b609-024c2d71ec9a
   type: MultipleChoice
-  content: question
+  content: What do you understand by slippage?
   hint: hint
   explanation: explanation
   answerKeys:
@@ -682,21 +682,21 @@
     - amm
   difficultyLevel: Low
   choices:
-    - content: option 1
+    - content: The expected decrease in price is based on the trading volume and available liquidity.
       key: A
       order: 0
-    - content: option 2
+    - content: The expected increase in price is based on the trading volume and available liquidity.
       key: B
       order: 1
-    - content: option 3
+    - content: The expected increase or decrease in price is based on the trading volume and available liquidity.
       key: C
       order: 2
-    - content: option 4
+    - content: None of the above
       key: D
       order: 3
 - uuid: a7b04dbe-1492-42d1-aab7-eacada0deb3e
   type: MultipleChoice
-  content: question
+  content:  ___ refers to the phenomenon of a stablecoin deviating or any asset deviating from its intended peg.
   hint: hint
   explanation: explanation
   answerKeys:
@@ -706,21 +706,21 @@
     - amm
   difficultyLevel: Low
   choices:
-    - content: option 1
+    - content: De-viating
       key: A
       order: 0
-    - content: option 2
+    - content: Pegging
       key: B
       order: 1
-    - content: option 3
+    - content: De-pegging
       key: C
       order: 2
-    - content: option 4
+    - content: De-stablizing
       key: D
       order: 3
 - uuid: ae7e6de1-c8ed-47ad-b2f4-f18ace5342f0
   type: MultipleChoice
-  content: question
+  content: What are the types of rewards in DeFi?
   hint: hint
   explanation: explanation
   answerKeys:
@@ -730,21 +730,21 @@
     - amm
   difficultyLevel: Low
   choices:
-    - content: option 1
+    - content: Trading Fees
       key: A
       order: 0
-    - content: option 2
+    - content: Liquidity Mining
       key: B
       order: 1
-    - content: option 3
+    - content: Both of these
       key: C
       order: 2
-    - content: option 4
+    - content: There are no rewards
       key: D
       order: 3
 - uuid: c35a91f1-92b4-4945-bac1-b23ec32d54c7
   type: MultipleChoice
-  content: question
+  content: Flash swap requires that
   hint: hint
   explanation: explanation
   answerKeys:
@@ -754,21 +754,21 @@
     - amm
   difficultyLevel: Low
   choices:
-    - content: option 1
+    - content: Repayment occurs with different asset
       key: A
       order: 0
-    - content: option 2
+    - content: Repayment occurs with the same asset
       key: B
       order: 1
-    - content: option 3
+    - content: Repayment does not necessarily occur
       key: C
       order: 2
-    - content: option 4
+    - content: Repayment occurs in multiple transactions
       key: D
       order: 3
 - uuid: 39723041-e29c-4e3e-a7c1-46d40ade7d84
   type: MultipleChoice
-  content: question
+  content: Flash loan and flash swap are the same
   hint: hint
   explanation: explanation
   answerKeys:
@@ -792,7 +792,7 @@
       order: 3
 - uuid: a7535235-ca11-4311-9a03-551c8d3dddf3
   type: MultipleChoice
-  content: question
+  content: Impermanent loss is realized upon
   hint: hint
   explanation: explanation
   answerKeys:
@@ -802,21 +802,21 @@
     - amm
   difficultyLevel: Low
   choices:
-    - content: option 1
+    - content: Deposit
       key: A
       order: 0
-    - content: option 2
+    - content: Deposit as well as withdrawal
       key: B
       order: 1
-    - content: option 3
+    - content: Holding
       key: C
       order: 2
-    - content: option 4
+    - content: Withdrawal
       key: D
       order: 3
 - uuid: 196f587a-37c1-4a6d-9ba5-3909c0bd9819
   type: MultipleChoice
-  content: question
+  content:  ___the difference between the expected price of an order and the price when the order executes.
   hint: hint
   explanation: explanation
   answerKeys:
@@ -826,21 +826,21 @@
     - amm
   difficultyLevel: Low
   choices:
-    - content: option 1
+    - content: De-peg
       key: A
       order: 0
-    - content: option 2
+    - content: Arbitrageous
       key: B
       order: 1
-    - content: option 3
+    - content: Slippage
       key: C
       order: 2
-    - content: option 4
+    - content: AMM
       key: D
       order: 3
 - uuid: 2ddc6bd5-b036-48a2-b8af-6a1d5dbd5c57
   type: MultipleChoice
-  content: question
+  content: How traders make profit using AMM?
   hint: hint
   explanation: explanation
   answerKeys:
@@ -850,21 +850,21 @@
     - amm
   difficultyLevel: Low
   choices:
-    - content: option 1
+    - content: Flash swap
       key: A
       order: 0
-    - content: option 2
+    - content: Arbitrageous
       key: B
       order: 1
-    - content: option 3
+    - content: None of these
       key: C
       order: 2
-    - content: option 4
+    - content: Both of these
       key: D
       order: 3
 - uuid: 33af5875-1049-4656-b9ba-803a5e55bd0a
   type: MultipleChoice
-  content: question
+  content: Two types of dex aggregators
   hint: hint
   explanation: explanation
   answerKeys:
@@ -874,21 +874,21 @@
     - amm
   difficultyLevel: Low
   choices:
-    - content: option 1
+    - content: On-Chain
       key: A
       order: 0
-    - content: option 2
+    - content: On-Server
       key: B
       order: 1
-    - content: option 3
+    - content: Off-Server
       key: C
       order: 2
-    - content: option 4
+    - content: Off-Chain
       key: D
       order: 3
 - uuid: b031bea3-af82-47fb-ae55-8d1ae58dd907
   type: MultipleChoice
-  content: question
+  content: Off-chain aggregator
   hint: hint
   explanation: explanation
   answerKeys:
@@ -898,21 +898,21 @@
     - amm
   difficultyLevel: Low
   choices:
-    - content: option 1
+    - content: Can swap multiple chains flexibly present over 4+ exchanges
       key: A
       order: 0
-    - content: option 2
+    - content: used for arbitrage findings
       key: B
       order: 1
-    - content: option 3
+    - content: unlikely to efficiently cover 4+ exchanges
       key: C
       order: 2
-    - content: option 4
+    - content: An operator can front-run users
       key: D
       order: 3
 - uuid: 9f836728-9391-4d01-a804-798a00841399
   type: MultipleChoice
-  content: question
+  content: On-chain aggregator
   hint: hint
   explanation: explanation
   answerKeys:
@@ -922,21 +922,21 @@
     - amm
   difficultyLevel: Low
   choices:
-    - content: option 1
+    - content: Can swap multiple chains flexibly present over 4+ exchanges
       key: A
       order: 0
-    - content: option 2
+    - content: used for arbitrage findings
       key: B
       order: 1
-    - content: option 3
+    - content: unlikely to efficiently cover 4+ exchanges
       key: C
       order: 2
-    - content: option 4
+    - content: An operator can front-run users
       key: D
       order: 3
 - uuid: a0f6871a-ca6f-45cb-9313-39fee2f1fca2
   type: MultipleChoice
-  content: question
+  content: Swapswap is an example of
   hint: hint
   explanation: explanation
   answerKeys:
@@ -946,21 +946,21 @@
     - amm
   difficultyLevel: Low
   choices:
-    - content: option 1
+    - content: On chain aggregator
       key: A
       order: 0
-    - content: option 2
+    - content: Off chain aggregator
       key: B
       order: 1
-    - content: option 3
+    - content: Centralized exchange
       key: C
       order: 2
-    - content: option 4
+    - content: On chain order book
       key: D
       order: 3
 - uuid: b5f7ed30-1416-4202-bb13-b70387bb98c9
   type: MultipleChoice
-  content: question
+  content: Pick the off chain aggregator
   hint: hint
   explanation: explanation
   answerKeys:
@@ -970,16 +970,16 @@
     - amm
   difficultyLevel: Low
   choices:
-    - content: option 1
+    - content: Paraswap
       key: A
       order: 0
-    - content: option 2
+    - content: Swapswap
       key: B
       order: 1
-    - content: option 3
+    - content: 1inch
       key: C
       order: 2
-    - content: option 4
+    - content: Uniswap
       key: D
       order: 3
 - uuid: 6ffda0b2-f56c-4dca-a793-a946cbdbb484

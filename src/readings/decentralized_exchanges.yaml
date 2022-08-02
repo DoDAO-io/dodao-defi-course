@@ -1,10 +1,28 @@
-- uuid: b7377a6d-ddf8-49d2-bc47-305d1b3aa3a7
-  title: What is AMM
+- uuid: 64188fd9-e9e2-48fc-8933-30fee4a9acb1
+  title: What Are Automated Market Makers (AMM) ?
   shortTitle: AMM
   type: YoutubeVideo
-  url: https://www.youtube.com/watch?v=NwtyFM61K_k
+  url: https://www.youtube.com/watch?v=htXEEVkiIJ0
   subTopics:
     - "amm"
   details: |
-    - Value 1
-    - Value 2
+    This video explains
+      - Market Making (or Process Of Providing Liquidity)
+      - Order Book and Order matching
+      - Slippage
+      - Market Makers (or Liquidity Providers)
+      - Uniswap (Constant Product AMM)
+      - Rewards earned by Liquidity Providers (Trading Fees and Liquidity Mining)
+      - Loss incur by Liquidity Providers (Impermanent Loss)
+
+- uuid: afa2871c-ad91-44de-b9f0-0db15a17ee7f
+  title: DEX Aggregators
+  shortTitle: Aggregators
+  type: YoutubeVideo
+  url: https://www.youtube.com/watch?v=hSxf4jAN7YQ
+  subTopics:
+    - "dex-aggregators"
+  details: |
+    This video explains 
+      * Functionalities offered by DEX
+      * Popular Examples
