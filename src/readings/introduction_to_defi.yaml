@@ -1,0 +1,59 @@
+- uuid: ccde44af-f5ac-45e8-b41e-d2ba87af7809
+  title: Introduction to Decentralised Finance
+  shortTitle: Intro to DeFi
+  type: YoutubeVideo
+  url: https://www.youtube.com/watch?v=btB__oHQ0sU
+  subTopics:
+    - "introduction-to-decentralised-finance"
+  details: |
+    This video enables learners to know about
+      * Centralised banking system
+      * DeFi components    
+      * DEXs
+      * DeFi advantages
+
+- uuid: bfc47690-5abc-4019-b430-c6055221a391
+  title: Functioning of Decentralised Finance
+  shortTitle: DeFi applications
+  type: YoutubeVideo
+  url: https://www.youtube.com/watch?v=17QRFlml4pA
+  subTopics:
+    - "uses-of-decentralised-finance"
+  details: |
+    This video explains learners to know about
+      * Stablecoins
+      * Lending and borrowing    
+      * Margin trading
+
+- uuid: 87931a07-b0ec-4526-83f1-382881187ca5
+  title: Flash loans and it applications
+  shortTitle: Flash Loans
+  type: YoutubeVideo
+  url: https://www.youtube.com/watch?v=YiF6x193fRk
+  subTopics:
+    - "uses-of-decentralised-finance"
+  details: |
+      This video helps learners to know about flash loans and its functioning.
+        * Flash loans procedures
+        * Advantages of flash loans
+      
+- uuid: 2c3a33ff-60bf-4b88-8671-e408b9fca6f4
+  title: Stablecoins Explained
+  shortTitle: Stablecoins
+  type: YoutubeVideo
+  url: https://www.youtube.com/watch?v=GsSSLDzKCOE
+  subTopics:
+    - "uses-of-decentralised-finance"
+  details: |
+      This video helps learners understand the concept of stablecoins.
+        * Usage of Stablecoins
+        * Stability of stablecoins
+        * Risks related to stablecoins
+      
+
+
+
+
+      
+
+

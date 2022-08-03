@@ -35,7 +35,7 @@ Centralised Finance consist of many problems. Some of them are as listed below.
   * 5-7% is charged for a wire transfer
   * It takes 2 days to settle a stock transaction
   * Fund transfer is slow
-  * Banks are prone to fauds, chargebanks and lack security as well.
+  * Banks are prone to frauds, chargebanks and lack security as well.
   * Banks do not allow micro-transitions.
   * It is difficult to get paid using banks.
 
@@ -48,6 +48,9 @@ Centralised Finance consist of many problems. Some of them are as listed below.
   * Banking institutions have very little transparency.
   * Bank customers do not know the health of the bank.
   * Individuals are forced to rely on costly regulation and promise of bailouts.
+
+- High operating cost
+  * Banking institutions have high running cost due to accomodate large number of workers.
 
 These problems when not tackled lead to following destructive effects.
 
@@ -63,7 +66,7 @@ These problems when not tackled lead to following destructive effects.
  **Decentralised Finance Usage**        
 Centralised Finance opens up a wide range of advancement in the current centralised system.
 
-- Transfer for Money 
+- Transfer of Money 
   * Using DeFi sending money would be as easy as sending an email.
   * You just need to enter other persons account address and your payment will directly go into their account.
 
@@ -87,10 +90,13 @@ Centralised Finance opens up a wide range of advancement in the current centrali
   * If the borrower is not able to pay the loan, the transaction is reversed as if it never occured.
 
 - Tokenization
-  * DeFi intriduces the concepts of crypto tokens.
+  * DeFi introduces the concepts of crypto tokens.
   * Ethereum enables robust smart contract capabilities, thereby opening up the roads for issuing crypto tokens. 
   * Crypto tokens basically worked as digital assets present on a blockchain alongside having different features and uses.
   
-  
+- Constant Updation 
+  * Developers can build upon existing code because DeFi is open source.
+  * Easy to build applications/products (Cloud simplified creation of applications. Blockchain simplifies creation of financial apps)
+  * This helps in removing bugs and bring about great innovations in the existing system. 
  
  
