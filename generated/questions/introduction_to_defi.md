@@ -10,10 +10,10 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 
 ##### What is the main purpose of DeFi?  
 
-- [ ]  Technological playground for developers.
-- [x]  Providing financial solutions on blockchain.
-- [ ]  No dedicated purpose
-- [ ]  Foster and encourage money laundering.
+- [ ]  Provide banking facilties only to high worth individuals
+- [x]  Providing financial solutions on blockchain
+- [ ]  Trade and earn more using cryptocurrency
+- [ ]  Encourage money laundering.
   
 Hint: Purpose of DeFi in the current scenario
          
@@ -29,7 +29,7 @@ Sub Topics: introduction-to-decentralised-finance
 - [x]  For storing value on blockchain
 - [x]  For customised transactions
 - [x]  For yield farming and liquidity mining
-- [ ]  For traditional banking
+- [ ]  For Securing money in vaults
   
 Hint: The features that DeFi enables its users.
          
@@ -45,7 +45,7 @@ Sub Topics: uses-of-decentralised-finance
 - [x]  Lending and borrowing assets to and from users.
 - [x]  Decentralised exchanges
 - [x]  Executing smart contracts
-- [x]  Interaction with dapps
+- [ ]  An authority monitoring all transactions to avoid mishappenings
   
 Hint: Features of Decentralised finance
          
@@ -105,7 +105,7 @@ Sub Topics: introduction-to-decentralised-finance
 
 ##### In what form does DeFi transfer take place?  
 
-- [ ]  Computer to computer
+- [ ]  Person to Person
 - [x]  Peer to Peer
 - [ ]  Product to Product
 - [ ]  None of these
@@ -121,8 +121,8 @@ Sub Topics: introduction-to-decentralised-finance
 
 ##### What are the inefficiencies of a centralised finance system?  
 
-- [x]  Bank charges 3 % for credit card swipes.
-- [x]  It takes 2 days to settle a stock transaction
+- [x]  Bank charges upto 3 % for credit card swipes.
+- [x]  It can take around 2 days to settle a stock transaction
 - [ ]  Banks provide safe vaults for keeping valuable assets.
 - [ ]  Banks provide control over the printing of currency to prevent inflation.
   
@@ -140,7 +140,7 @@ Sub Topics: centralised-vs-decentralised-finance
 - [ ]  5%
 - [x]  30%
 - [ ]  10%
-- [ ]  25%
+- [ ]  20%
   
 Hint: NoHint
          
@@ -167,7 +167,7 @@ Sub Topics: uses-of-decentralised-finance
 
 ---
 
-##### What is the Total value locked in DeFi as of November 2021?  
+##### What is the maximum Total value locked in DeFi as of November 2021?  
 
 - [ ]  $20 Billion
 - [ ]  $60 Billion
@@ -229,7 +229,7 @@ Sub Topics: centralised-vs-decentralised-finance
 
 ---
 
-##### How does DeFi help young entrepreneurs?  
+##### How does DeFi help small scale businesses?  
 
 - [x]  No credit card swipe charges
 - [x]  Fast and affordable money transfer
@@ -247,7 +247,7 @@ Sub Topics: uses-of-decentralised-finance
 
 ##### Which of the following problems related to bank loans does DeFi solve?  
 
-- [x]  Centralised loans require a lot of collateral
+- [x]  Unpaid Centralised loans lead to loss for banks
 - [ ]  Bank loans are easy to get
 - [x]  Banks differentiate between potential borrowers
 - [ ]  Banks charge low-interest rates
@@ -261,16 +261,16 @@ Sub Topics: centralised-vs-decentralised-finance
 
 ---
 
-##### We can access the world of DeFi using......  
+##### How can someone access the world of DeFi?  
 
-- [ ]  Bank account
-- [x]  Decentralised Applications
-- [ ]  Email Address
+- [ ]  Using Bank accounts
+- [x]  Using Decentralised Applications
+- [ ]  Using Email accounts
 - [ ]  Currently it is inaccessible
   
 Hint: NoHint
          
-Explanation: Decentrlaised Finance can be accessed using dapps or decentralised applications.
+Explanation: Decentralised Finance can be accessed using dapps or decentralised applications.
 
 Sub Topics: introduction-to-decentralised-finance
  
@@ -279,9 +279,9 @@ Sub Topics: introduction-to-decentralised-finance
 
 ##### Money transfer using banks is cumbersome because.....  
 
-- [x]  Fund transfer takes more than 2 days
+- [x]  Fund transfer can take more than 2 days
 - [x]  Banks do not allow micro-transactions
-- [x]  Bank charges on fund transfer are high
+- [x]  Bank charges on fund transfer can be high
 - [ ]  None of these
   
 Hint: Diadvantages of CeFi
@@ -346,7 +346,7 @@ Sub Topics: uses-of-decentralised-finance
 - [x]  Money Transfers
 - [x]  Lending and Borrowing
 - [x]  Trading insurances
-- [x]  Selling of real estate
+- [ ]  None of the above
   
 Hint: Features of DeFi
          
@@ -362,11 +362,11 @@ Sub Topics: uses-of-decentralised-finance
 - [ ]  Not Enough banks available
 - [ ]  Bank activities are time-consuming.
 - [x]  Lack of financial knowledge
-- [x]  Banks are disliked due to various frauds.
+- [x]  People have a lack of money
   
 Hint: Disadvantages of CeFi
          
-Explanation: People are unbanked due to lack of financial knowledge and they unlike banks because they are prone to many frauds and scams.
+Explanation: People are unbanked due to lack of financial knowledge and they dont have enough money to put into banks.
 
 Sub Topics: centralised-vs-decentralised-finance
  
@@ -425,7 +425,7 @@ Sub Topics: uses-of-decentralised-finance
 
 - [ ]  Loan not repaid
 - [ ]  Loan not sent to correct borrower
-- [x]  Loan amount used for trading in different markets.
+- [x]  Borrower uses the loan amount to stake in different liquidity pools to earn a profit.
 - [ ]  Insufficient balance to grant loan.
   
 Hint: NoHint
@@ -441,12 +441,12 @@ Sub Topics: uses-of-decentralised-finance
 
 - [ ]  No body buys stablecoins hence they are stable.
 - [ ]  They are not valuable assets.
-- [x]  Backed by a stable asset such as gold or USD
+- [x]  Backed by a stable asset such as gold, USd or an algorithm.
 - [ ]  None of the above
   
 Hint: Coin gains stability by the asset which backs it.
          
-Explanation: Stablecoins are backed by stable valuable assets like gold or USD.
+Explanation: Stablecoins are backed by stable valuable assets like gold, USD or some algorithm which helps in maintaining a constant value.
 
 Sub Topics: uses-of-decentralised-finance
  
@@ -469,9 +469,9 @@ Sub Topics: uses-of-decentralised-finance
 
 ##### What makes DeFi technology stay up to date?  
 
-- [x]  DeFi is not easy to understand.
+- [ ]  DeFi is not easy to understand.
 - [ ]  Not many people know about it.
-- [ ]  It is open source and developers can fork it.
+- [x]  It is open source and developers can fork it.
 - [ ]  It is a new technology.
   
 Hint: DeFi is available for all
@@ -499,23 +499,23 @@ Sub Topics: uses-of-decentralised-finance
 
 ---
 
-##### High bank interest rates mostly hamper.....  
+##### What is an Automated Market Maker?  
 
-- [x]  Entrepreneurs
-- [x]  Small scale businesses
-- [ ]  High net worth individuals
-- [ ]  Everyone is benefited with high interest rates.
+- [ ]  A protocol that automatically makes trades for a user
+- [ ]  A system that ensures there is always enough liquidity to make trades
+- [ ]  A code function that automatically lists new markets on an exchange
+- [x]  All of the above
   
-Hint: Disadvantages of CeFi
+Hint: Working of Decentralised Exchanges
          
-Explanation: High bank interest rates mostly hamper entrepreneurs and small scale businesses because they might not be able to pay back the loan and hence are not granted loans.
+Explanation: Automated market makers (AMMs) enable instant trading between one asset and another in a decentralized trading environment. AMMs always ensure that there is enough liquidity for any users trade to be performed successfully by utilising assets that have been provided in liquidity pools.
 
-Sub Topics: centralised-vs-decentralised-finance
+Sub Topics: uses-of-decentralised-finance
  
 
 ---
 
-##### Which DeFi component is used for lending and borrowing?  
+##### Which DeFi component is used for swaps and buying tokens?  
 
 - [ ]  Smart contracts
 - [x]  Decentralised Exchanges
@@ -648,32 +648,34 @@ Sub Topics: uses-of-decentralised-finance
 - [ ]  1000
 - [ ]  110
 - [ ]  10,000
-- [x]  13
+- [x]  15
   
 Hint: NoHint
          
-Explanation: Ethereum can currently process 13 transactions per second. This number is bound to increase in future with advancements in the technology.
+Explanation: Ethereum can currently process 15 transactions per second. This number is bound to increase in future with advancements in the technology.
 
 Sub Topics: uses-of-decentralised-finance
  
 
 ---
 
-##### As Decentralised finance is a new technology it is quite uncertain.  
+##### Which of the following applications are used for lending and borrowing in DeFi?  
 
-- [x]  true
-- [ ]  false
+- [ ]  Uniswap
+- [x]  Aave
+- [ ]  Kraken
+- [x]  Compoud
   
 Hint: NoHint
          
-Explanation: DeFi is a net technology thus its future is not much certain. Moreover currently it is difficult to understand and use as well.
+Explanation: Aave and compound are the platforms which are used for lending and borrowing in DeFi.
 
 Sub Topics: uses-of-decentralised-finance
  
 
 ---
 
-##### What are the problems regarding the scalability of DeFi?  
+##### What are the problems regarding the scalability of DeFi currently in Ethereum?  
 
 - [x]  Transactions take a long time to execute.
 - [ ]  Lack of trust towards DeFi.
@@ -788,7 +790,7 @@ Sub Topics: uses-of-decentralised-finance
 - [ ]  Farming
 - [ ]  Swapping
 - [ ]  Staking
-- [x]  None of the above
+- [x]  All of the above
   
 Hint: NoHint
          

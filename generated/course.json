@@ -35,22 +35,22 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Technological playground for developers.",
+              "content": "Provide banking facilties only to high worth individuals",
               "key": "A",
               "order": 0
             },
             {
-              "content": "Providing financial solutions on blockchain.",
+              "content": "Providing financial solutions on blockchain",
               "key": "B",
               "order": 1
             },
             {
-              "content": "No dedicated purpose",
+              "content": "Trade and earn more using cryptocurrency",
               "key": "C",
               "order": 2
             },
             {
-              "content": "Foster and encourage money laundering.",
+              "content": "Encourage money laundering.",
               "key": "D",
               "order": 3
             }
@@ -88,7 +88,7 @@
               "order": 2
             },
             {
-              "content": "For traditional banking",
+              "content": "For Securing money in vaults",
               "key": "D",
               "order": 3
             }
@@ -103,8 +103,7 @@
           "answerKeys": [
             "A",
             "B",
-            "C",
-            "D"
+            "C"
           ],
           "subTopics": [
             "introduction-to-decentralised-finance"
@@ -127,7 +126,7 @@
               "order": 2
             },
             {
-              "content": "Interaction with dapps",
+              "content": "An authority monitoring all transactions to avoid mishappenings",
               "key": "D",
               "order": 3
             }
@@ -252,7 +251,7 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "Computer to computer",
+              "content": "Person to Person",
               "key": "A",
               "order": 0
             },
@@ -289,12 +288,12 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "Bank charges 3 % for credit card swipes.",
+              "content": "Bank charges upto 3 % for credit card swipes.",
               "key": "A",
               "order": 0
             },
             {
-              "content": "It takes 2 days to settle a stock transaction",
+              "content": "It can take around 2 days to settle a stock transaction",
               "key": "B",
               "order": 1
             },
@@ -340,7 +339,7 @@
               "order": 2
             },
             {
-              "content": "25%",
+              "content": "20%",
               "key": "D",
               "order": 3
             }
@@ -385,7 +384,7 @@
         {
           "uuid": "93e24b6c-9a74-4bae-8c93-c439620fe67e",
           "type": "SingleChoice",
-          "content": "What is the Total value locked in DeFi as of November 2021?",
+          "content": "What is the maximum Total value locked in DeFi as of November 2021?",
           "hint": "NoHint",
           "explanation": "TVL or Total value locked refers to total stored value in the blockchain. Currently, DeFi accomodates more than $40 Billion of worth in it.",
           "answerKeys": [
@@ -519,7 +518,7 @@
         {
           "uuid": "2c93b4b7-d351-4a32-aaaa-5170524b04dc",
           "type": "MultipleChoice",
-          "content": "How does DeFi help young entrepreneurs?",
+          "content": "How does DeFi help small scale businesses?",
           "hint": "DeFi has no hidden charges and it is fast technology.",
           "explanation": "In DeFi there are no charges on a credit card swipe, the fund transfer is fast and affordable and allows flash loans to its users as well.",
           "answerKeys": [
@@ -570,7 +569,7 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "Centralised loans require a lot of collateral",
+              "content": "Unpaid Centralised loans lead to loss for banks",
               "key": "A",
               "order": 0
             },
@@ -594,9 +593,9 @@
         {
           "uuid": "8225cb91-1898-4dec-9c3c-ad1395cb2568",
           "type": "SingleChoice",
-          "content": "We can access the world of DeFi using......",
+          "content": "How can someone access the world of DeFi?",
           "hint": "NoHint",
-          "explanation": "Decentrlaised Finance can be accessed using dapps or decentralised applications.",
+          "explanation": "Decentralised Finance can be accessed using dapps or decentralised applications.",
           "answerKeys": [
             "B"
           ],
@@ -606,17 +605,17 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Bank account",
+              "content": "Using Bank accounts",
               "key": "A",
               "order": 0
             },
             {
-              "content": "Decentralised Applications",
+              "content": "Using Decentralised Applications",
               "key": "B",
               "order": 1
             },
             {
-              "content": "Email Address",
+              "content": "Using Email accounts",
               "key": "C",
               "order": 2
             },
@@ -644,7 +643,7 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Fund transfer takes more than 2 days",
+              "content": "Fund transfer can take more than 2 days",
               "key": "A",
               "order": 0
             },
@@ -654,7 +653,7 @@
               "order": 1
             },
             {
-              "content": "Bank charges on fund transfer are high",
+              "content": "Bank charges on fund transfer can be high",
               "key": "C",
               "order": 2
             },
@@ -782,8 +781,7 @@
           "answerKeys": [
             "A",
             "B",
-            "C",
-            "D"
+            "C"
           ],
           "subTopics": [
             "uses-of-decentralised-finance"
@@ -806,7 +804,7 @@
               "order": 2
             },
             {
-              "content": "Selling of real estate",
+              "content": "None of the above",
               "key": "D",
               "order": 3
             }
@@ -817,7 +815,7 @@
           "type": "MultipleChoice",
           "content": "Why many people around the globe are unbanked?",
           "hint": "Disadvantages of CeFi",
-          "explanation": "People are unbanked due to lack of financial knowledge and they unlike banks because they are prone to many frauds and scams.",
+          "explanation": "People are unbanked due to lack of financial knowledge and they dont have enough money to put into banks.",
           "answerKeys": [
             "C",
             "D"
@@ -843,7 +841,7 @@
               "order": 2
             },
             {
-              "content": "Banks are disliked due to various frauds.",
+              "content": "People have a lack of money",
               "key": "D",
               "order": 3
             }
@@ -982,7 +980,7 @@
               "order": 1
             },
             {
-              "content": "Loan amount used for trading in different markets.",
+              "content": "Borrower uses the loan amount to stake in different liquidity pools to earn a profit.",
               "key": "C",
               "order": 2
             },
@@ -998,7 +996,7 @@
           "type": "SingleChoice",
           "content": "What provides stability to stablecoins?",
           "hint": "Coin gains stability by the asset which backs it.",
-          "explanation": "Stablecoins are backed by stable valuable assets like gold or USD.",
+          "explanation": "Stablecoins are backed by stable valuable assets like gold, USD or some algorithm which helps in maintaining a constant value.",
           "answerKeys": [
             "C"
           ],
@@ -1018,7 +1016,7 @@
               "order": 1
             },
             {
-              "content": "Backed by a stable asset such as gold or USD",
+              "content": "Backed by a stable asset such as gold, USd or an algorithm.",
               "key": "C",
               "order": 2
             },
@@ -1062,7 +1060,7 @@
           "hint": "DeFi is available for all",
           "explanation": "DeFi is open source and any developer can fork and build layer above the current version which makes this technology stay up to date.",
           "answerKeys": [
-            "A"
+            "C"
           ],
           "subTopics": [
             "uses-of-decentralised-finance"
@@ -1130,36 +1128,35 @@
         },
         {
           "uuid": "d1fd9e89-a269-47ce-aa53-effbc2f8551d",
-          "type": "MultipleChoice",
-          "content": "High bank interest rates mostly hamper.....",
-          "hint": "Disadvantages of CeFi",
-          "explanation": "High bank interest rates mostly hamper entrepreneurs and small scale businesses because they might not be able to pay back the loan and hence are not granted loans.",
+          "type": "SingleChoice",
+          "content": "What is an Automated Market Maker?",
+          "hint": "Working of Decentralised Exchanges",
+          "explanation": "Automated market makers (AMMs) enable instant trading between one asset and another in a decentralized trading environment. AMMs always ensure that there is enough liquidity for any users trade to be performed successfully by utilising assets that have been provided in liquidity pools.",
           "answerKeys": [
-            "A",
-            "B"
+            "D"
           ],
           "subTopics": [
-            "centralised-vs-decentralised-finance"
+            "uses-of-decentralised-finance"
           ],
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "Entrepreneurs",
+              "content": "A protocol that automatically makes trades for a user",
               "key": "A",
               "order": 0
             },
             {
-              "content": "Small scale businesses",
+              "content": "A system that ensures there is always enough liquidity to make trades",
               "key": "B",
               "order": 1
             },
             {
-              "content": "High net worth individuals",
+              "content": "A code function that automatically lists new markets on an exchange",
               "key": "C",
               "order": 2
             },
             {
-              "content": "Everyone is benefited with high interest rates.",
+              "content": "All of the above",
               "key": "D",
               "order": 3
             }
@@ -1168,7 +1165,7 @@
         {
           "uuid": "b051f367-1e09-433e-870e-875c0c9c8ab8",
           "type": "SingleChoice",
-          "content": "Which DeFi component is used for lending and borrowing?",
+          "content": "Which DeFi component is used for swaps and buying tokens?",
           "hint": "NoHint",
           "explanation": "Decentralised Exchanges or DEXs are used for lending and borrowing purposes in DeFi.",
           "answerKeys": [
@@ -1461,7 +1458,7 @@
           "type": "SingleChoice",
           "content": "What is the current number of transactions that Ethereum can process per second?",
           "hint": "NoHint",
-          "explanation": "Ethereum can currently process 13 transactions per second. This number is bound to increase in future with advancements in the technology.",
+          "explanation": "Ethereum can currently process 15 transactions per second. This number is bound to increase in future with advancements in the technology.",
           "answerKeys": [
             "D"
           ],
@@ -1486,7 +1483,7 @@
               "order": 2
             },
             {
-              "content": "13",
+              "content": "15",
               "key": "D",
               "order": 3
             }
@@ -1494,12 +1491,13 @@
         },
         {
           "uuid": "163f7e64-856c-4238-890a-93afe3e3481a",
-          "type": "SingleChoice",
-          "content": "As Decentralised finance is a new technology it is quite uncertain.",
+          "type": "MultipleChoice",
+          "content": "Which of the following applications are used for lending and borrowing in DeFi?",
           "hint": "NoHint",
-          "explanation": "DeFi is a net technology thus its future is not much certain. Moreover currently it is difficult to understand and use as well.",
+          "explanation": "Aave and compound are the platforms which are used for lending and borrowing in DeFi.",
           "answerKeys": [
-            "A"
+            "B",
+            "D"
           ],
           "subTopics": [
             "uses-of-decentralised-finance"
@@ -1507,13 +1505,23 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "true",
+              "content": "Uniswap",
               "key": "A",
               "order": 0
             },
             {
-              "content": "false",
+              "content": "Aave",
               "key": "B",
+              "order": 1
+            },
+            {
+              "content": "Kraken",
+              "key": "C",
+              "order": 1
+            },
+            {
+              "content": "Compoud",
+              "key": "D",
               "order": 1
             }
           ]
@@ -1521,7 +1529,7 @@
         {
           "uuid": "6459ff5b-03ad-421a-9ebe-9e85a230a7b2",
           "type": "MultipleChoice",
-          "content": "What are the problems regarding the scalability of DeFi?",
+          "content": "What are the problems regarding the scalability of DeFi currently in Ethereum?",
           "hint": "DeFi is developing thus it has some technological issues",
           "explanation": "DeFi transactions take a long time to execute and these are expensive during time of congestion. These issues are temporary and can be resolved with the growing interest and technology in the space of DeFi.",
           "answerKeys": [
@@ -1793,7 +1801,7 @@
               "order": 2
             },
             {
-              "content": "None of the above",
+              "content": "All of the above",
               "key": "D",
               "order": 3
             }
@@ -3496,7 +3504,7 @@
     {
       "title": "Smart Contratcs",
       "key": "defi-foundations",
-      "details": "Explain on a high level what are smart contract, and where do they run\n\nDetails \n* How Ethereum transactions\n* miner extractable value.\n* Smart contracts / Gas / Oracles\n* Fungible and non-fungible (NFT) tokens \n* dApps\n",
+      "details": "Explain on a high level what are smart contract, and where do they run\n\nDetails \n* How Ethereum transactions work\n* Miner extractable value (MEV)\n* Smart contracts / Gas / Oracles\n* Fungible and non-fungible (NFT) tokens \n* dApps\n",
       "order": 2,
       "questions": [
         {

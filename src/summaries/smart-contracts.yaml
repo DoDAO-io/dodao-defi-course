@@ -1,5 +1,5 @@
 - title: Working of Ethereum Transactions
-  shortTitle: Ethereum Transaction Mechanism
+  shortTitle: Ethereum Working
   key: ethereum-transactions-working
   details: |
     - DeFi Origin
@@ -13,7 +13,7 @@
       * DeFi is an open and global financial system built for the rise of next revolution in the internet space.
 
 - title: Smart Contracts, Gas and Oracles  
-  shortTitle: Smart Contracts, Gas, Oracles
+  shortTitle: Ethereum Components
   key: smartcontracts-gas-oracles
   details: |
     - DeFi Origin
