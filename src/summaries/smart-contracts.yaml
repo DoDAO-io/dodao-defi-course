@@ -2,28 +2,110 @@
   shortTitle: Ethereum Working
   key: ethereum-transactions-working
   details: |
-    - DeFi Origin
-      * DeFi is an open and global financial system built for the rise of next revolution in the internet space.
+    - How Ethereum Transaction work?
+      * Transactions involve sending data and/or ETH (or other tokens)
+      from one address to another.
+      * An Ethereum user can control addresses through an externally
+      owned account (EOA) or by using smart contract code (contract
+      account).
+      * When sending data to a contract account, the data are used to
+      execute code in that contract.
+      * Transactions sent to an EOA can only transfer ETH.
+      * A single transaction starts with an end user from an EOA, but it can pass through many dApps (decentralised Applications) before completing.
+      * Transaction begins with a single smart contract and continues to carry on all the intermediate steps within the contract body.
+    
+    - Atomicity
+      * This is one of the most important property of Ethereum Transaction Mechanism which makes DeFi different from CeFi.
+      * The transactions in Ethereum are atomic which means the clauses in a smart contract can lead to failure of transaction and thus all the steps of the transaction are reversed.
+      * Atomicity is a critical feature of transactions because funds can
+      move between many contracts (i.e., “exchange hands”) with the
+      knowledge and security that if one of the conditions is not met,
+      the contract terms reset as if the money never left the starting
+      point.
 
 - title: Miner Extractable Value 
   shortTitle: MEV
   key: miner-extractable-value
   details: |
-    - DeFi Origin
-      * DeFi is an open and global financial system built for the rise of next revolution in the internet space.
+    - Mempool
+      * Transactions are posted to a memory pool, or mempool, before
+      they are added to a block. 
+      * Miners monitor these posted transactions, add them to their own
+      mempool, and share the transaction with other miners to be
+      included in the next available block.
+    
+    - Miner Extractable Value
+      * Any actor can see transactions in the mempool by running or
+      communicating with mining nodes.
+      * This observation allows for front-running (legal in the DeFi space) to miners. If miner encounters a large order, they can plave their order before that, hence the miners are incentivised to do so.
+      * Miner extractable value (MEV) is a measure of the profit that the
+      miner could make by including, excluding or re-ordering
+      transactions. 
+      * This is one of the drawback of the Proof of work consensus mechanism. Obfuscating transactions can mitigate MEV, thus hiding from miners how they might profit from transactions.
 
 - title: Smart Contracts, Gas and Oracles  
   shortTitle: Ethereum Components
   key: smartcontracts-gas-oracles
   details: |
-    - DeFi Origin
-      * DeFi is an open and global financial system built for the rise of next revolution in the internet space.
+    - Smart Contracts
+      * Ethereum is the example of most popular smart contract platform.
+      * A smart contract is code that can create and transform arbitrary data or
+      tokens on top of the blockchain of which it is a part.
+      * These are extremely powerful because it allows users to trustlessly encode
+      rules for any type of transaction and even create scarce assets with
+      specialized functionality.
+      * Many standard business contracts can be algorithmically encoded and
+      algorithmically enforced. These contracts run on the Ethereum blockchain and are run on every node.
+      * This is not just useful for finance. For example, supply chains are another
+      good example.
+
+    - Gas 
+      * Transactions have a gas fee that is the fee received by the miners for conducting transactions.
+      * Transactions have a gas fee, which varies based on the complexity
+      of the transaction. E.g., low gas fee is used to compensate a miner
+      for including and executing a transaction, and high gas fee for
+      more data-intensive transactions.
+      * If a transaction reverts due to any failure or runs out of gas the
+      miner forfeits all gas used until that point. This helps miners earn even if large volumes of failed transactions occur.
+
+      - Gas fees
+        * The gas price is determined by the market and effectively creates
+        an auction for inclusion in the next Ethereum block.
+        * Higher gas fees signal higher demand and therefore generally
+        receive higher priority for inclusion.
+      
+      - Gas Price 
+        * Every operation on the Ethereum blockchain requires gas.
+        * Each unit of gas has a gas price, which is denoted in gwei. 1 gwei = 1
+          billionth of an ETH. Gas prices increase as users outbid one another
+          during times of higher network congestion.
+      
+      - Gas Limit
+        * The gas limit is the maximum amount of gas a user is willing to use for a
+        transaction. A transaction can include multiple operations.
+        * If there is residual amount of gas after the transaction is complete, then the user gets back the remaining gas.
+
+      - Turing Complete
+        * Gas plays a very important role. If a malicious attack is planned then it would be extremely expensive to carry out.
+        * Ethereum is turing complete whereas Bitcoin is not.
+
+    - Oracles
+      * Ethereum blockchain nows only of what happens inside the Blockchain. But how does it get the information needed from the outside world? Here Oracles come into play.
+      * An oracle, in the context of smart contract platforms, is any data source for reporting information external to the blockchain. 
+
+      - Oracle Problem
+        * This refers to the correctness of the off-chain information that is provided by the oracle.
+        * One Ethereum-based platform known as Chainlink is designed to solve the
+        oracle problem by using an aggregation of data sources. The Chainlink
+        whitepaper includes a reputation-based system that is decentralized.
+
+      
     
 - title: Fungible and Non fungible Tokens
   shortTitle: FT and NFTs
   key: fungible-non-fungible-tokens
   details: |
-    - DeFi Origin
+    - Fungible Tokens
       * DeFi is an open and global financial system built for the rise of next revolution in the internet space.
 
 - title: Decentralised Applications  
