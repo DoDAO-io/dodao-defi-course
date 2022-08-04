@@ -21,1530 +21,1789 @@
       "order": 0,
       "questions": [
         {
-          "uuid": "617bfecc-f141-49c5-abdf-9716e8ea80d5",
+          "uuid": "4d404192-3ea7-4994-a080-2f0457a97753",
           "type": "SingleChoice",
-          "content": "Which of the following is not a characteristic of Blockchain Technology?",
-          "hint": "Properties of Blockchain",
-          "explanation": "Blockchain allows peer to peer transaction, it is decentrlised and permits efficient barter system.",
+          "content": "What is the main purpose of DeFi?",
+          "hint": "Purpose of DeFi in the current scenario",
+          "explanation": "Decentralised Finance is responsible for providing financial solutions for existing problems in the centralised system using blockchain.",
           "answerKeys": [
-            "D"
+            "B"
           ],
           "subTopics": [
-            "introduction-to-blockchain"
+            "introduction-to-decentralised-finance"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Allows Peer to Peer transactions",
-              "key": "A"
+              "content": "Provide banking facilties only to high worth individuals",
+              "key": "A",
+              "order": 0
             },
             {
-              "content": "Does not have a centralised authority",
-              "key": "B"
+              "content": "Providing financial solutions on blockchain",
+              "key": "B",
+              "order": 1
             },
             {
-              "content": "Allows for an efficient barter mechanism",
-              "key": "C"
+              "content": "Trade and earn more using cryptocurrency",
+              "key": "C",
+              "order": 2
             },
             {
-              "content": "None of the above",
-              "key": "D"
+              "content": "Encourage money laundering.",
+              "key": "D",
+              "order": 3
             }
           ]
         },
         {
-          "uuid": "922879d6-4e38-4173-880e-94487624c4d0",
-          "type": "SingleChoice",
-          "content": "Each Block of the Blockchain consists of which the following?",
-          "hint": "Consider the information that a transaction block needs to have so that it can give proper details about the transaction.",
-          "explanation": "Each Block contains a hash pointer to the next node, current transaction details, Timestamp.",
-          "answerKeys": [
-            "D"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "A hash Pointer",
-              "key": "A"
-            },
-            {
-              "content": "Transaction Details",
-              "key": "B"
-            },
-            {
-              "content": "Timestamp",
-              "key": "C"
-            },
-            {
-              "content": "All of the above",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "6d73bcc0-02da-4c65-9ff7-9b6571895fe2",
-          "type": "SingleChoice",
-          "content": "Blockchain can be stored as which of the following?",
-          "hint": "NoHint",
-          "explanation": "Blockchain details can be stored as a flat file and a database.",
-          "answerKeys": [
-            "C"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "A flat file",
-              "key": "A"
-            },
-            {
-              "content": "A database",
-              "key": "B"
-            },
-            {
-              "content": "Both of the above",
-              "key": "C"
-            },
-            {
-              "content": "None of the above",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "f807265d-3208-4a67-8d77-a25bc4bd2596",
-          "type": "SingleChoice",
-          "content": "A block in Blockchain cannot have more than one parent block?",
-          "hint": "NoHint",
-          "explanation": "A block in blockchain cannot have more than one parent because they have unique hash pointer attached to it. Hence, two blocks cannot point to the same block.",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "true",
-              "key": "A"
-            },
-            {
-              "content": "false",
-              "key": "B"
-            }
-          ]
-        },
-        {
-          "uuid": "505ebda8-92ba-4922-bd0f-32ebd145b922",
-          "type": "SingleChoice",
-          "content": "Blocks in Blockchain as linked to each other .......",
-          "hint": "Linking of the blockchain nodes",
-          "explanation": "The blocks in Blockchain are attached to each other in the backward fashion joining to the previous node and so on.",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "Backward direction",
-              "key": "A"
-            },
-            {
-              "content": "Forward direction",
-              "key": "B"
-            },
-            {
-              "content": "Not connected",
-              "key": "C"
-            }
-          ]
-        },
-        {
-          "uuid": "a6ce806e-02dd-4195-b254-dfb5aa0092f3",
+          "uuid": "3677cbd2-5d77-4a56-b0b2-95c051df9a6d",
           "type": "MultipleChoice",
-          "content": "Identify Features of Blockchain?",
-          "hint": "NoHint",
-          "explanation": "Blockchain provides scalability, improved security to its users and they are immutable i.e. tamper proof.",
+          "content": "What can DeFi be used for?",
+          "hint": "The features that DeFi enables its users.",
+          "explanation": "DeFi is used for storing asset on blockchain, for conducting customised transactions and for yield farming and liquidity mining.",
           "answerKeys": [
             "A",
             "B",
             "C"
           ],
           "subTopics": [
-            "introduction-to-blockchain"
+            "uses-of-decentralised-finance"
           ],
-          "difficultyLevel": "Low",
+          "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "Scalability",
-              "key": "A"
+              "content": "For storing value on blockchain",
+              "key": "A",
+              "order": 0
             },
             {
-              "content": "Improved Security",
-              "key": "B"
+              "content": "For customised transactions",
+              "key": "B",
+              "order": 1
             },
             {
-              "content": "Tamper Proof",
-              "key": "C"
+              "content": "For yield farming and liquidity mining",
+              "key": "C",
+              "order": 2
             },
             {
-              "content": "Mutable",
-              "key": "D"
+              "content": "For Securing money in vaults",
+              "key": "D",
+              "order": 3
             }
           ]
         },
         {
-          "uuid": "1f0ba670-bec3-4c83-aa0c-1ffb26177263",
-          "type": "SingleChoice",
-          "content": "What does P2P stand for?",
-          "hint": "NoHint",
-          "explanation": "P2P stands for peer-to-peer transaction which does not involve any centralised party.",
+          "uuid": "8ea2424d-3067-44d7-8233-2b3b40559781",
+          "type": "MultipleChoice",
+          "content": "What does decentralised finance involve?",
+          "hint": "Features of Decentralised finance",
+          "explanation": "DeFi alows lending and borrowing of assets using Decentralised Exchanges. It involves executing smart contracts through decentralised applications.",
           "answerKeys": [
-            "B"
+            "A",
+            "B",
+            "C"
           ],
           "subTopics": [
-            "introduction-to-blockchain"
+            "introduction-to-decentralised-finance"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Password to Password",
-              "key": "A"
+              "content": "Lending and borrowing assets to and from users.",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "Decentralised exchanges",
+              "key": "B",
+              "order": 1
+            },
+            {
+              "content": "Executing smart contracts",
+              "key": "C",
+              "order": 2
+            },
+            {
+              "content": "An authority monitoring all transactions to avoid mishappenings",
+              "key": "D",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "uuid": "de547cb2-82cd-46e1-bae3-01253f9a41e2",
+          "type": "SingleChoice",
+          "content": "Which of the following is the earliest form of DeFi?",
+          "hint": "NoHint",
+          "explanation": "Barter system can be reffered earliest form of Decentralised Finance.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [
+            "introduction-to-decentralised-finance"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Credit Cards",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "Bank Loans",
+              "key": "B",
+              "order": 1
+            },
+            {
+              "content": "Barter system",
+              "key": "C",
+              "order": 2
+            },
+            {
+              "content": "Bitcoin",
+              "key": "D",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "uuid": "0c1e32f3-9d3b-43d8-b32f-ef3a46a514e9",
+          "type": "SingleChoice",
+          "content": "A centralised banking system is......",
+          "hint": "Problems associated with centralised system",
+          "explanation": "Centralised system is controlled by an central party which is reponsible for its functioning, rules and regulations.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "centralised-vs-decentralised-finance"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Controlled by an authority",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "Open source",
+              "key": "B",
+              "order": 1
+            },
+            {
+              "content": "Transparent system",
+              "key": "C",
+              "order": 2
+            }
+          ]
+        },
+        {
+          "uuid": "1476e0b4-0a62-4aed-95e1-89f6f23d568b",
+          "type": "MultipleChoice",
+          "content": "What are the properties of  DeFi?",
+          "hint": "Features of DeFi",
+          "explanation": "DeFi ledger is immutable and dapps are interoperable that is, they are interconnected.",
+          "answerKeys": [
+            "B",
+            "C"
+          ],
+          "subTopics": [
+            "introduction-to-decentralised-finance"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Limited Access",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "Immutable",
+              "key": "B",
+              "order": 1
+            },
+            {
+              "content": "Highly interoperable",
+              "key": "C",
+              "order": 2
+            },
+            {
+              "content": "Opaque",
+              "key": "D",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "uuid": "8f3f5fc2-869b-4040-9363-c95b49ed8a92",
+          "type": "SingleChoice",
+          "content": "In what form does DeFi transfer take place?",
+          "hint": "NoHint",
+          "explanation": "DeFi transfer takes place in the peer to peer form.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "introduction-to-decentralised-finance"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Person to Person",
+              "key": "A",
+              "order": 0
             },
             {
               "content": "Peer to Peer",
-              "key": "B"
+              "key": "B",
+              "order": 1
             },
             {
               "content": "Product to Product",
-              "key": "C"
+              "key": "C",
+              "order": 2
             },
             {
-              "content": "Public key to Private Key",
-              "key": "D"
+              "content": "None of these",
+              "key": "D",
+              "order": 3
             }
           ]
         },
         {
-          "uuid": "284d96ab-0336-4c2f-81cf-d6afe087d987",
-          "type": "SingleChoice",
-          "content": "Hashes can be used to make sure messages and files transmitted from sender to receiver are not tampered with during transit.",
-          "hint": "NoHint",
-          "explanation": "Cryptographic hashes are used to provide security for the transaction between sender and the receiver.They are used to convert private key to public key and ensure proper security.",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [
-            "hashing"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "true",
-              "key": "A"
-            },
-            {
-              "content": "false",
-              "key": "B"
-            }
-          ]
-        },
-        {
-          "uuid": "120f4e3b-7bb6-4ea0-b860-7e7bfdcf5baa",
-          "type": "SingleChoice",
-          "content": "The term used for Blockchain splits? A split in Blockchain is when two versions have the same history upto a certain time frame and after which they start to differ.",
-          "hint": "NoHint",
-          "explanation": "A fork is the term used for creating a branch / split in the regular blockchain branch.",
-          "answerKeys": [
-            "B"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "High",
-          "choices": [
-            {
-              "content": "A Merger",
-              "key": "A"
-            },
-            {
-              "content": "A fork",
-              "key": "B"
-            },
-            {
-              "content": "A Division",
-              "key": "C"
-            },
-            {
-              "content": "None of the above",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "14443750-e46b-4c03-9c91-8434e55530dc",
-          "type": "SingleChoice",
-          "content": "Which of the following trees are used to store transactions in a block by producing a digital fingerprint?",
-          "hint": "NoHint",
-          "explanation": "Merkle trees are used to store transactions in a block by producing a digital fingerprint.",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "High",
-          "choices": [
-            {
-              "content": "Merkle",
-              "key": "A"
-            },
-            {
-              "content": "Binary",
-              "key": "B"
-            },
-            {
-              "content": "AVL",
-              "key": "C"
-            },
-            {
-              "content": "Red Black",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "b76d8440-cf60-4069-9931-4855bc39c960",
+          "uuid": "33f9f434-48ae-4940-9ee7-5dae700e3fc1",
           "type": "MultipleChoice",
-          "content": "Who introduced the idea of Blockchain?",
-          "hint": "NoHint",
-          "explanation": "Stuart Haber and Scoot Storneta introduced blockchain to timestamp their documents.",
+          "content": "What are the inefficiencies of a centralised finance system?",
+          "hint": "Disadvantages of CeFi",
+          "explanation": "Banks charge 3% interest from their users on each credit card swipe and it can take upto 2 days to settle a stock transaction.",
           "answerKeys": [
             "A",
             "B"
           ],
           "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "Stuart Haber",
-              "key": "A"
-            },
-            {
-              "content": "Scoot Storneta",
-              "key": "B"
-            },
-            {
-              "content": "Satoshi Nakamoto",
-              "key": "C"
-            },
-            {
-              "content": "Adam Back",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "7e6aa6ff-d657-4d21-982e-fea86321c613",
-          "type": "SingleChoice",
-          "content": "Bitcoin is backed by which of the following assets?",
-          "hint": "NoHint",
-          "explanation": "Bitcoin does not have a tangible value and hence is not backed by any valueable asset.",
-          "answerKeys": [
-            "D"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
+            "centralised-vs-decentralised-finance"
           ],
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "Gold",
-              "key": "A"
+              "content": "Bank charges upto 3 % for credit card swipes.",
+              "key": "A",
+              "order": 0
             },
             {
-              "content": "USD",
-              "key": "B"
+              "content": "It can take around 2 days to settle a stock transaction",
+              "key": "B",
+              "order": 1
             },
             {
-              "content": "Silver",
-              "key": "C"
+              "content": "Banks provide safe vaults for keeping valuable assets.",
+              "key": "C",
+              "order": 2
             },
             {
-              "content": "None of the above",
-              "key": "D"
+              "content": "Banks provide control over the printing of currency to prevent inflation.",
+              "key": "D",
+              "order": 3
             }
           ]
         },
         {
-          "uuid": "1c490831-d92a-449f-b5a2-08b453cc357f",
+          "uuid": "c01bebee-a35c-4435-b622-7688f80ce807",
           "type": "SingleChoice",
-          "content": "Who is the creator of Bitcoin?",
+          "content": "What percentage of the world population is unbanked?",
           "hint": "NoHint",
-          "explanation": "Bitcoin was created by Satoshi Nakamoto.",
-          "answerKeys": [
-            "D"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "Adam Back",
-              "key": "A"
-            },
-            {
-              "content": "Cynthia Dwork",
-              "key": "B"
-            },
-            {
-              "content": "Moni Naor",
-              "key": "C"
-            },
-            {
-              "content": "Satoshi Nakamoto",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "3110ead9-fde0-43c0-8007-b1ba3a6781fd",
-          "type": "SingleChoice",
-          "content": "Like every digital asset Bitcoin has the problem of “double spend”?",
-          "hint": "Double Spend means copying and reselling the same digital asset many number of times.",
-          "explanation": "The first transaction would be approved via the confirmation mechanism and then verified into the subsequent block. However, the second transaction would be recognized as invalid by the confirmation process and would not be verified. If both transactions are pulled from the pool for confirmation simultaneously, the transaction with the highest number of confirmations will be included in the blockchain, while the other one will be discarded.",
+          "explanation": "Around 30% of the world poupulation is underbanked and do not have access to necessary bank facilities.",
           "answerKeys": [
             "B"
           ],
           "subTopics": [
-            "introduction-to-blockchain"
+            "centralised-vs-decentralised-finance"
           ],
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "true",
-              "key": "A"
+              "content": "5%",
+              "key": "A",
+              "order": 0
             },
             {
-              "content": "false",
-              "key": "B"
+              "content": "30%",
+              "key": "B",
+              "order": 1
+            },
+            {
+              "content": "10%",
+              "key": "C",
+              "order": 2
+            },
+            {
+              "content": "20%",
+              "key": "D",
+              "order": 3
             }
           ]
         },
         {
-          "uuid": "552462b9-be2a-4d45-b3fd-665c86c799bc",
+          "uuid": "9f864936-5494-4771-bf6e-c744a9f18618",
+          "type": "SingleChoice",
+          "content": "What do you understand by Peer-to-peer lending?",
+          "hint": "NoHint",
+          "explanation": "P2P or Peer to Peer lending refers to transfer of funds from one wallet to another without a third party observation.",
+          "answerKeys": [
+            "D"
+          ],
+          "subTopics": [
+            "uses-of-decentralised-finance"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "One bank account to another transaction.",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "One crypto wallet to another under a third party observation.",
+              "key": "B",
+              "order": 1
+            },
+            {
+              "content": "One email address to another.",
+              "key": "C",
+              "order": 2
+            },
+            {
+              "content": "One crypto wallet to another without a third party observation.",
+              "key": "D",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "uuid": "93e24b6c-9a74-4bae-8c93-c439620fe67e",
+          "type": "SingleChoice",
+          "content": "What is the maximum Total value locked in DeFi as of November 2021?",
+          "hint": "NoHint",
+          "explanation": "TVL or Total value locked refers to total stored value in the blockchain. Currently, DeFi accomodates more than $40 Billion of worth in it.",
+          "answerKeys": [
+            "D"
+          ],
+          "subTopics": [
+            "introduction-to-decentralised-finance"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "$20 Billion",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "$60 Billion",
+              "key": "B",
+              "order": 1
+            },
+            {
+              "content": "$30 Billion",
+              "key": "C",
+              "order": 2
+            },
+            {
+              "content": "$40 Billion",
+              "key": "D",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "uuid": "cd6b29cb-ad5a-4f1a-8d44-a780ae9c8bd9",
+          "type": "SingleChoice",
+          "content": "What do you understand by interoperability of DeFi?",
+          "hint": "Features of Decentralised Finance",
+          "explanation": "Interoperability of DeFi refers to interconnection between various dapps for fast and easy transfer of assets.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [
+            "uses-of-decentralised-finance"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "DeFi is accessible from anywhere.",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "DeFi is free to use for everyone.",
+              "key": "B",
+              "order": 1
+            },
+            {
+              "content": "DeFi applications are interconnected.",
+              "key": "C",
+              "order": 2
+            },
+            {
+              "content": "None of the above",
+              "key": "D",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "uuid": "b7ffffa0-4478-40fb-8fbf-32463792876a",
+          "type": "SingleChoice",
+          "content": "How does DeFi solve the volatility of cryptocurrency?",
+          "hint": "Uses of DeFi",
+          "explanation": "Stablecoins do not fluctuate because they are backed by a highly stable asset such as gold or USD.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "uses-of-decentralised-finance"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Using smart contracts",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "Using Stablecoins",
+              "key": "B",
+              "order": 1
+            },
+            {
+              "content": "Using Flash Loans",
+              "key": "C",
+              "order": 2
+            },
+            {
+              "content": "None of these",
+              "key": "D",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "uuid": "a63ed714-02dc-4f2c-956b-8dac94e583f9",
+          "type": "SingleChoice",
+          "content": "Centralised Finance provides a transparent system to its customers.",
+          "hint": "Disadvantages of Centralised system",
+          "explanation": "Centralised finance hides its functioning and procedures from its users which creates confusion and many times hidden charges for them also.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "centralised-vs-decentralised-finance"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "true",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "false",
+              "key": "B",
+              "order": 1
+            }
+          ]
+        },
+        {
+          "uuid": "2c93b4b7-d351-4a32-aaaa-5170524b04dc",
           "type": "MultipleChoice",
-          "content": "What are the benefits of Bitcoin over fiat currency?",
-          "hint": "Benefits of blockchain",
-          "explanation": "Bitcoin has an immutable ledger, allows users ownership and is portable to carry.",
+          "content": "How does DeFi help small scale businesses?",
+          "hint": "DeFi has no hidden charges and it is fast technology.",
+          "explanation": "In DeFi there are no charges on a credit card swipe, the fund transfer is fast and affordable and allows flash loans to its users as well.",
           "answerKeys": [
             "A",
             "B",
-            "D"
+            "C"
           ],
           "subTopics": [
-            "introduction-to-blockchain"
+            "uses-of-decentralised-finance"
           ],
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "Immutable ledger",
-              "key": "A"
+              "content": "No credit card swipe charges",
+              "key": "A",
+              "order": 0
             },
             {
-              "content": "User sovereignty",
-              "key": "B"
+              "content": "Fast and affordable money transfer",
+              "key": "B",
+              "order": 1
             },
             {
-              "content": "High tangible value",
-              "key": "C"
+              "content": "Flash Loans",
+              "key": "C",
+              "order": 2
             },
             {
-              "content": "Portability",
-              "key": "D"
+              "content": "Easy money-making opportunity",
+              "key": "D",
+              "order": 3
             }
           ]
         },
         {
-          "uuid": "99349427-2e10-4649-9962-6b26fac55f05",
+          "uuid": "590b7500-5f8f-4f3b-8b4c-74a34ae88b95",
           "type": "MultipleChoice",
-          "content": "What are the benefits of Fiat currency over Bitcoin?",
-          "hint": "Benefits of centralised system",
-          "explanation": "Fiat currency has low transaction fees, most of them are backed by gold and thus possess a high tangible value.",
+          "content": "Which of the following problems related to bank loans does DeFi solve?",
+          "hint": "Benefits of DeFi over CeFi",
+          "explanation": "CeFi requires a lot of collateral before the loan is granted and loans are granted only to potential borrowers with high net worth.",
           "answerKeys": [
             "A",
+            "C"
+          ],
+          "subTopics": [
+            "centralised-vs-decentralised-finance"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Unpaid Centralised loans lead to loss for banks",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "Bank loans are easy to get",
+              "key": "B",
+              "order": 1
+            },
+            {
+              "content": "Banks differentiate between potential borrowers",
+              "key": "C",
+              "order": 2
+            },
+            {
+              "content": "Banks charge low-interest rates",
+              "key": "D",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "uuid": "8225cb91-1898-4dec-9c3c-ad1395cb2568",
+          "type": "SingleChoice",
+          "content": "How can someone access the world of DeFi?",
+          "hint": "NoHint",
+          "explanation": "Decentralised Finance can be accessed using dapps or decentralised applications.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "introduction-to-decentralised-finance"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Using Bank accounts",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "Using Decentralised Applications",
+              "key": "B",
+              "order": 1
+            },
+            {
+              "content": "Using Email accounts",
+              "key": "C",
+              "order": 2
+            },
+            {
+              "content": "Currently it is inaccessible",
+              "key": "D",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "uuid": "999e2228-4d0c-415a-b6e5-190b80318a12",
+          "type": "MultipleChoice",
+          "content": "Money transfer using banks is cumbersome because.....",
+          "hint": "Diadvantages of CeFi",
+          "explanation": "In CeFi funds transfer can take upto 2 days and these transactions need to be significant, micro ones are not allowed. Transfer charges are quite high.",
+          "answerKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "subTopics": [
+            "centralised-vs-decentralised-finance"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Fund transfer can take more than 2 days",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "Banks do not allow micro-transactions",
+              "key": "B",
+              "order": 1
+            },
+            {
+              "content": "Bank charges on fund transfer can be high",
+              "key": "C",
+              "order": 2
+            },
+            {
+              "content": "None of these",
+              "key": "D",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "uuid": "ea3013cc-512f-4e74-a748-18960bb4aedf",
+          "type": "SingleChoice",
+          "content": "What is the current market penetration DeFi?",
+          "hint": "NoHint",
+          "explanation": "The current market penetration of DeFi is near about 5%.",
+          "answerKeys": [
+            "D"
+          ],
+          "subTopics": [
+            "introduction-to-decentralised-finance"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "50 %",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "10 %",
+              "key": "B",
+              "order": 1
+            },
+            {
+              "content": "20 %",
+              "key": "C",
+              "order": 2
+            },
+            {
+              "content": "5%",
+              "key": "D",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "uuid": "f6cd8990-9043-4554-9098-f2fab7ab1468",
+          "type": "SingleChoice",
+          "content": "When Decentralised finance came into existence?",
+          "hint": "NoHint",
+          "explanation": "DeFi came into existence with the emergence of Bitcoin in 2008.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "introduction-to-decentralised-finance"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "2004",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "2008",
+              "key": "B",
+              "order": 1
+            },
+            {
+              "content": "2010",
+              "key": "C",
+              "order": 2
+            },
+            {
+              "content": "2015",
+              "key": "D",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "uuid": "7fcf3dfb-b72b-4c8c-b8fc-c629064c4827",
+          "type": "SingleChoice",
+          "content": "Majority of DeFi runs of which of the following?",
+          "hint": "NoHint",
+          "explanation": "DeFi majorly runs on the Ethereum due to its smart contracts ability.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "uses-of-decentralised-finance"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Bitcoin",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "DAOs",
+              "key": "B",
+              "order": 1
+            },
+            {
+              "content": "Ethereum",
+              "key": "C",
+              "order": 2
+            },
+            {
+              "content": "DogeCoin",
+              "key": "D",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "uuid": "2ea36958-b3c0-42ed-b3a2-bbc90f430731",
+          "type": "MultipleChoice",
+          "content": "DeFi can replace which of the following traditional processes?",
+          "hint": "Features of DeFi",
+          "explanation": "DeFi can be used to conduct each of these listed processes efficiently and at cheaper rate compared to the traditional ways.",
+          "answerKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "subTopics": [
+            "uses-of-decentralised-finance"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Money Transfers",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "Lending and Borrowing",
+              "key": "B",
+              "order": 1
+            },
+            {
+              "content": "Trading insurances",
+              "key": "C",
+              "order": 2
+            },
+            {
+              "content": "None of the above",
+              "key": "D",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "uuid": "180372da-370f-43f5-bf0e-900c45cc247f",
+          "type": "MultipleChoice",
+          "content": "Why many people around the globe are unbanked?",
+          "hint": "Disadvantages of CeFi",
+          "explanation": "People are unbanked due to lack of financial knowledge and they dont have enough money to put into banks.",
+          "answerKeys": [
             "C",
             "D"
           ],
           "subTopics": [
-            "introduction-to-blockchain"
+            "centralised-vs-decentralised-finance"
           ],
-          "difficultyLevel": "Medium",
+          "difficultyLevel": "High",
           "choices": [
             {
-              "content": "Very less transaction Fess",
-              "key": "A"
+              "content": "Not Enough banks available",
+              "key": "A",
+              "order": 0
             },
             {
-              "content": "Extremely volatile nature",
-              "key": "B"
+              "content": "Bank activities are time-consuming.",
+              "key": "B",
+              "order": 1
             },
             {
-              "content": "Strong backing asset",
-              "key": "C"
+              "content": "Lack of financial knowledge",
+              "key": "C",
+              "order": 2
             },
             {
-              "content": "High tangible value",
-              "key": "D"
+              "content": "People have a lack of money",
+              "key": "D",
+              "order": 3
             }
           ]
         },
         {
-          "uuid": "c12ae1b5-3940-496a-88fa-41be29142f44",
+          "uuid": "06436ae9-003c-4ead-b27b-3b31d914b61a",
           "type": "SingleChoice",
-          "content": "Where do you keep your cryptocurrency private key?",
+          "content": "Who made the world of DeFi efficient by employing smart contracts?",
           "hint": "NoHint",
-          "explanation": "Cryptocurrency private key must be kept away from the internet.",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "Wallet",
-              "key": "A"
-            },
-            {
-              "content": "Bank Account",
-              "key": "B"
-            },
-            {
-              "content": "Floppy disk",
-              "key": "C"
-            },
-            {
-              "content": "Drive Storages",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "948746c7-237e-4e73-bc50-3b714ecb1ccf",
-          "type": "SingleChoice",
-          "content": "Bitcoin mining works on which of the principle?",
-          "hint": "NoHint",
-          "explanation": "Proof of Work consensus mechanism is used to mine Bitcoin.",
-          "answerKeys": [
-            "C"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "Proof of Authority",
-              "key": "A"
-            },
-            {
-              "content": "Proof of stake",
-              "key": "B"
-            },
-            {
-              "content": "Proof of work",
-              "key": "C"
-            },
-            {
-              "content": "Proof of History",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "e9b6538b-a132-468e-8728-0818b9b3acba",
-          "type": "SingleChoice",
-          "content": "Bitcoin has got unlimited supply.",
-          "hint": "NoHint",
-          "explanation": "Bitcoin works on Proof of work mechanism.The total supply of Bitcoin is considered to be 21 Million, which is assumed to be mined till the year 2140.",
+          "explanation": "Vitalik Buterin is the founder of Ethereum and he introduced the concept of smart contracts.",
           "answerKeys": [
             "B"
           ],
           "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "True because it can be mined easily using a mathematical algorithm",
-              "key": "A"
-            },
-            {
-              "content": "False because returns of solving mathematical algorithms are decreasing",
-              "key": "B"
-            },
-            {
-              "content": "True because miners mine Bitcoin every 10 minutes.",
-              "key": "C"
-            },
-            {
-              "content": "False because bitcoin is a volatile asset.",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "46a8b293-9028-4240-adf7-5a31b39f5415",
-          "type": "SingleChoice",
-          "content": "Who is the Founder of Ethereum?",
-          "hint": "NoHint",
-          "explanation": "Vitalik Buterin is the founder of Ethereum.",
-          "answerKeys": [
-            "B"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
+            "introduction-to-decentralised-finance"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
               "content": "Pavel Durov",
-              "key": "A"
+              "key": "A",
+              "order": 0
             },
             {
               "content": "Vitalik Buterin",
-              "key": "B"
+              "key": "B",
+              "order": 1
             },
             {
               "content": "Changpen Zhao",
-              "key": "C"
+              "key": "C",
+              "order": 2
             },
             {
               "content": "Brian Armstrong",
-              "key": "D"
+              "key": "D",
+              "order": 3
             }
           ]
         },
         {
-          "uuid": "6c7083e5-ae8f-407d-bdbd-14f8b5327d95",
+          "uuid": "7a8c2e54-9345-498a-97d0-ab40cc5b6ba3",
           "type": "SingleChoice",
-          "content": "In future, the Ethereum mining will work on the principle of .......",
-          "hint": "NoHint",
-          "explanation": "Ethereum will work on proof of stake consensus mechanism. Currently it uses Proof of work mechanism.",
+          "content": "What do Flash loans mean?",
+          "hint": "Applications of Flash Loans",
+          "explanation": "Flash loans are instant loan using smart contracts which is granted to anyone without any collateral.",
           "answerKeys": [
-            "B"
+            "D"
           ],
           "subTopics": [
-            "introduction-to-blockchain"
+            "uses-of-decentralised-finance"
+          ],
+          "difficultyLevel": "High",
+          "choices": [
+            {
+              "content": "Slow loan processing without collateral.",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "Instant loan processing with collateral",
+              "key": "B",
+              "order": 1
+            },
+            {
+              "content": "Slow loan processing with collateral.",
+              "key": "C",
+              "order": 2
+            },
+            {
+              "content": "Instant loan processing without collateral.",
+              "key": "D",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "uuid": "ea19d2c8-e65e-42a6-bf28-695b63850d0d",
+          "type": "SingleChoice",
+          "content": "Which of the following is a stablecoin?",
+          "hint": "NoHint",
+          "explanation": "USDC is a stablecoin backed by USD.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [
+            "uses-of-decentralised-finance"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Proof of Authority",
-              "key": "A"
+              "content": "Bitcoin",
+              "key": "A",
+              "order": 0
             },
             {
-              "content": "Proof of stake",
-              "key": "B"
+              "content": "Ethereum",
+              "key": "B",
+              "order": 1
             },
             {
-              "content": "Proof of work",
-              "key": "C"
+              "content": "USDC",
+              "key": "C",
+              "order": 2
             },
             {
-              "content": "Proof of History",
-              "key": "D"
+              "content": "DogeCoin",
+              "key": "D",
+              "order": 3
             }
           ]
         },
         {
-          "uuid": "84213ce3-d8b3-4012-a29d-70803f397db0",
+          "uuid": "ad2d08f3-db8d-476d-bfd4-871d89b9a091",
+          "type": "SingleChoice",
+          "content": "What are flash loans attacks?",
+          "hint": "NoHint",
+          "explanation": "Flash loan attacks means when the loan amount is used by borrower to trade in different market and thus gain unethical profits.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [
+            "uses-of-decentralised-finance"
+          ],
+          "difficultyLevel": "High",
+          "choices": [
+            {
+              "content": "Loan not repaid",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "Loan not sent to correct borrower",
+              "key": "B",
+              "order": 1
+            },
+            {
+              "content": "Borrower uses the loan amount to stake in different liquidity pools to earn a profit.",
+              "key": "C",
+              "order": 2
+            },
+            {
+              "content": "Insufficient balance to grant loan.",
+              "key": "D",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "uuid": "128f147b-ae14-4259-9ad7-ba9c0730c276",
+          "type": "SingleChoice",
+          "content": "What provides stability to stablecoins?",
+          "hint": "Coin gains stability by the asset which backs it.",
+          "explanation": "Stablecoins are backed by stable valuable assets like gold, USD or some algorithm which helps in maintaining a constant value.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [
+            "uses-of-decentralised-finance"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "No body buys stablecoins hence they are stable.",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "They are not valuable assets.",
+              "key": "B",
+              "order": 1
+            },
+            {
+              "content": "Backed by a stable asset such as gold, USd or an algorithm.",
+              "key": "C",
+              "order": 2
+            },
+            {
+              "content": "None of the above",
+              "key": "D",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "uuid": "5f6bf697-94eb-49fe-afcd-2df022fdf887",
+          "type": "SingleChoice",
+          "content": "Using DeFi, collateral is automatically received by the lender if the loan is not repaid.",
+          "hint": "NoHint",
+          "explanation": "If the borrower fails to repay the loan, the transaction is reversed and the granted loan is reversed as if it never occurred.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "uses-of-decentralised-finance"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "true",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "false",
+              "key": "B",
+              "order": 1
+            }
+          ]
+        },
+        {
+          "uuid": "6fdee867-4639-4719-9118-a61ed38b5f67",
+          "type": "SingleChoice",
+          "content": "What makes DeFi technology stay up to date?",
+          "hint": "DeFi is available for all",
+          "explanation": "DeFi is open source and any developer can fork and build layer above the current version which makes this technology stay up to date.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [
+            "uses-of-decentralised-finance"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "DeFi is not easy to understand.",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "Not many people know about it.",
+              "key": "B",
+              "order": 1
+            },
+            {
+              "content": "It is open source and developers can fork it.",
+              "key": "C",
+              "order": 2
+            },
+            {
+              "content": "It is a new technology.",
+              "key": "D",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "uuid": "fb0840cf-d345-4d26-b6fd-221e6c32348c",
           "type": "MultipleChoice",
-          "content": "Which of the following differs Ethereum from Bitcoin?",
-          "hint": "Basics of Ethereum Blockchain",
-          "explanation": "Ethereum offers more than Bitcoin in the terms of Smart contracts, Oracles. Currently, they have the same consensus mechanism but in future Ethereum will migrate from Proof of work to proof of stake.",
+          "content": "DeFi transactions are....",
+          "hint": "Features of DeFI",
+          "explanation": "In DeFi, transactions are realtime and Transparent.",
+          "answerKeys": [
+            "A",
+            "B"
+          ],
+          "subTopics": [
+            "uses-of-decentralised-finance"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Realtime",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "Transparent",
+              "key": "B",
+              "order": 1
+            },
+            {
+              "content": "Hidden",
+              "key": "C",
+              "order": 2
+            },
+            {
+              "content": "None of the above",
+              "key": "D",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "uuid": "d1fd9e89-a269-47ce-aa53-effbc2f8551d",
+          "type": "SingleChoice",
+          "content": "What is an Automated Market Maker?",
+          "hint": "Working of Decentralised Exchanges",
+          "explanation": "Automated market makers (AMMs) enable instant trading between one asset and another in a decentralized trading environment. AMMs always ensure that there is enough liquidity for any users trade to be performed successfully by utilising assets that have been provided in liquidity pools.",
+          "answerKeys": [
+            "D"
+          ],
+          "subTopics": [
+            "uses-of-decentralised-finance"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "A protocol that automatically makes trades for a user",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "A system that ensures there is always enough liquidity to make trades",
+              "key": "B",
+              "order": 1
+            },
+            {
+              "content": "A code function that automatically lists new markets on an exchange",
+              "key": "C",
+              "order": 2
+            },
+            {
+              "content": "All of the above",
+              "key": "D",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "uuid": "b051f367-1e09-433e-870e-875c0c9c8ab8",
+          "type": "SingleChoice",
+          "content": "Which DeFi component is used for swapping and buying tokens?",
+          "hint": "NoHint",
+          "explanation": "In DeFi, swapping and buying tokens are the features offered by applications known as decentralised exchanges. A DEX is a peer-to-peer marketplace where the transactions are carried out in the cryptocurrencies.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "uses-of-decentralised-finance"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Smart contracts",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "Decentralised Exchanges",
+              "key": "B",
+              "order": 1
+            },
+            {
+              "content": "Stablecoins",
+              "key": "C",
+              "order": 2
+            },
+            {
+              "content": "One cannot lend or borrow using DeFi",
+              "key": "D",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "uuid": "b9c8e61d-6b3c-4235-8b4c-3b67e28c10a2",
+          "type": "SingleChoice",
+          "content": "Which one of the following is most popular Decentralised Exchanges?",
+          "hint": "NoHint",
+          "explanation": "Uniswap is the most popular DEXs.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "uses-of-decentralised-finance"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Paraswap",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "Uniswap",
+              "key": "B",
+              "order": 1
+            },
+            {
+              "content": "QuickSwap",
+              "key": "C",
+              "order": 2
+            },
+            {
+              "content": "Aave",
+              "key": "D",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "uuid": "3472f3c4-5ddb-4a61-8025-65d67ee4a771",
+          "type": "SingleChoice",
+          "content": "How does the transparency of DeFi helps its consumers?",
+          "hint": "Properties of DeFi",
+          "explanation": "Transparency of DeFi provides better understanding of internal systems. It prevents any hidden charges and thus their are less chances of a fraud.",
+          "answerKeys": [
+            "D"
+          ],
+          "subTopics": [
+            "uses-of-decentralised-finance"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Better understanding of internal systems.",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "No hidden charges.",
+              "key": "B",
+              "order": 1
+            },
+            {
+              "content": "No space for frauds.",
+              "key": "C",
+              "order": 2
+            },
+            {
+              "content": "All of the above",
+              "key": "D",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "uuid": "44ccbfeb-cea7-4db4-99dc-373d562b3008",
+          "type": "SingleChoice",
+          "content": "Why is the running cost of DeFi lower compared to centralised systems?",
+          "hint": "DeFi is internet based",
+          "explanation": "The running and functional cost of DeFi is low compared to centralised institutions because DeFi is internet based and does not need any institutional Setup.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "introduction-to-decentralised-finance"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "DeFi employs less number of workers.",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "DeFi is internet based thus no institutional setup.",
+              "key": "B",
+              "order": 1
+            },
+            {
+              "content": "Not large machines are used to run DeFi technology.",
+              "key": "C",
+              "order": 2
+            },
+            {
+              "content": "All of the above",
+              "key": "D",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "uuid": "47267ec4-ad3a-440d-b1ba-5353003a1d5e",
+          "type": "MultipleChoice",
+          "content": "Why centralised systems will get outdated?",
+          "hint": "Disadvantges of centralised",
+          "explanation": "CeFi is not open source thus developers cannot access it. Complete control lies on the hans of few authorites thus no one can interfere with the code.",
           "answerKeys": [
             "B",
             "C"
           ],
           "subTopics": [
-            "introduction-to-blockchain"
+            "centralised-vs-decentralised-finance"
           ],
-          "difficultyLevel": "Low",
+          "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "Open source",
-              "key": "A"
+              "content": "People do not trust centralised finance.",
+              "key": "A",
+              "order": 0
             },
             {
-              "content": "Smart contracts",
-              "key": "B"
+              "content": "Developers are not allowed to build on top of them.",
+              "key": "B",
+              "order": 1
             },
             {
-              "content": "Oracles",
-              "key": "C"
+              "content": "Complete control lies in the hand of a few authorities.",
+              "key": "C",
+              "order": 2
+            },
+            {
+              "content": "They will never get outdated.",
+              "key": "D",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "uuid": "db6081e9-bc7a-4430-af57-cccd291dec2d",
+          "type": "SingleChoice",
+          "content": "Conversion of material assets into digital assets using DeFi is known as.....",
+          "hint": "NoHint",
+          "explanation": "Tokenization means conversion of material assets into digital tokens using DeFi and smart contracts.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "uses-of-decentralised-finance"
+          ],
+          "difficultyLevel": "High",
+          "choices": [
+            {
+              "content": "Digitization",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "Tokenization",
+              "key": "B",
+              "order": 1
             },
             {
               "content": "Consensus Mechanism",
-              "key": "D"
+              "key": "C",
+              "order": 2
+            },
+            {
+              "content": "None of the these",
+              "key": "D",
+              "order": 3
             }
           ]
         },
         {
-          "uuid": "f3341f2e-c404-4e6d-915f-748a3c145efc",
-          "type": "SingleChoice",
-          "content": "What does the term Ethereum refer to?",
-          "hint": "Properties of Ethereum Network",
-          "explanation": "Ethereum is also known for the functions it provides to its user . Thus Ethrereum Protocol, Network Protocol and Ethereum Project funding Development are all the functions and Properties of Ethereum.",
-          "answerKeys": [
-            "D"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "Ethereum Protocol",
-              "key": "A"
-            },
-            {
-              "content": "Ethereum Network created using Protocols",
-              "key": "B"
-            },
-            {
-              "content": "Ethereum Project funding development",
-              "key": "C"
-            },
-            {
-              "content": "All of the above",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "6ca4dad2-87aa-4c7e-befc-7efc9a2ec7cd",
-          "type": "SingleChoice",
-          "content": "What is the block time in Bitcoin?",
-          "hint": "NoHint",
-          "explanation": "Block time of Bitcoin is 10 minute.",
-          "answerKeys": [
-            "B"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "1 minute",
-              "key": "A"
-            },
-            {
-              "content": "10 minute",
-              "key": "B"
-            },
-            {
-              "content": "10 seconds",
-              "key": "C"
-            },
-            {
-              "content": "1 hour",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "127c9b9f-9c84-45bc-b4f9-79c25dae3dd9",
-          "type": "SingleChoice",
-          "content": "In which programming language is Ethereum Smart contracts written?",
-          "hint": "NoHint",
-          "explanation": "Solidity is used to write Ethereum Smart Contracts.",
-          "answerKeys": [
-            "D"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "Kotlin",
-              "key": "A"
-            },
-            {
-              "content": "tcl/tk",
-              "key": "B"
-            },
-            {
-              "content": "Python",
-              "key": "C"
-            },
-            {
-              "content": "Solidity",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "e599a418-f347-498a-bfed-ba546766a739",
+          "uuid": "66f8098a-3b77-458f-a7f8-6c951bd19343",
           "type": "MultipleChoice",
-          "content": "Which ideas were combined by Satoshi Nakamoto to introduce Bitcoin?",
-          "hint": "Properties of Bitcoin",
-          "explanation": "Bitcoin works on the principle of Proof of work and blockchain.",
-          "answerKeys": [
-            "A",
-            "B"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "Proof of work",
-              "key": "A"
-            },
-            {
-              "content": "Blockchain",
-              "key": "B"
-            },
-            {
-              "content": "Mining pools",
-              "key": "C"
-            },
-            {
-              "content": "Proof of stake",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "29994d40-0576-4bc1-ba4c-59cd4934a715",
-          "type": "SingleChoice",
-          "content": "Which of the following statements are false regarding Bitcoin blockchain?",
-          "hint": "Properties of Bitcoin and blockchain",
-          "explanation": "Mistakes cannot be edited on Bitcoin because these documents are immutable.",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "Mistakes can be edited and fixed",
-              "key": "A"
-            },
-            {
-              "content": "Censorship Resistant",
-              "key": "B"
-            },
-            {
-              "content": "Computational platform for smart contracts",
-              "key": "C"
-            },
-            {
-              "content": "Allows for portability of bitcoin",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "09516d24-7580-45e9-babd-58a9cf2bbc1a",
-          "type": "MultipleChoice",
-          "content": "Blockchain is a ...... system",
-          "hint": "Properties of Blockchain",
-          "explanation": "Blockchain system is decentralised and Distributed network.",
-          "answerKeys": [
-            "B",
-            "C"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "Centralised",
-              "key": "A"
-            },
-            {
-              "content": "Decentralised",
-              "key": "B"
-            },
-            {
-              "content": "Distributed",
-              "key": "C"
-            },
-            {
-              "content": "None of the above",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "72878ee1-93f4-4b5f-a72f-92410db73b80",
-          "type": "SingleChoice",
-          "content": "Cryptographic hashing can also be termed as encryption.",
-          "hint": "NoHint",
-          "explanation": "Hashing is only one-way process that is private key can be converted to public key but vice versa not possible.",
-          "answerKeys": [
-            "B"
-          ],
-          "subTopics": [
-            "hashing"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "true",
-              "key": "A"
-            },
-            {
-              "content": "false",
-              "key": "B"
-            }
-          ]
-        },
-        {
-          "uuid": "8bc6e329-f119-430c-84a0-01aaf01433fe",
-          "type": "MultipleChoice",
-          "content": "What is most common problem with simple hashes? Hashed which may provide same output for two different inputs are considered to be simple hashes.",
-          "hint": "Properties of Hashes",
-          "explanation": "Simple hashes are not efficient enough to provide unique output for every input. Hence they can collide and can be cracked easily.",
+          "content": "How does tokenization empower DeFi?",
+          "hint": "Benefits of Tokenization",
+          "explanation": "Tokens make it easy to trade material assets in the form of tokens. These tokens are extremely secured and cannot be stolen or hacked.",
           "answerKeys": [
             "A",
             "B",
+            "D"
+          ],
+          "subTopics": [
+            "uses-of-decentralised-finance"
+          ],
+          "difficultyLevel": "High",
+          "choices": [
+            {
+              "content": "Material assets could be converted.",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "Lending and borrowing become easy.",
+              "key": "B",
+              "order": 1
+            },
+            {
+              "content": "Forgery of assets increases.",
+              "key": "C",
+              "order": 2
+            },
+            {
+              "content": "Assets become more secured.",
+              "key": "D",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "uuid": "945a2feb-81db-46bb-8e33-9dcf95ce7307",
+          "type": "SingleChoice",
+          "content": "What is the major issue involved in Smart Contracts?",
+          "hint": "NoHint",
+          "explanation": "Smart contracts are complicated currently. The tiniest flaw in their code can lead to loss funds.",
+          "answerKeys": [
             "C"
           ],
           "subTopics": [
-            "hashing"
+            "uses-of-decentralised-finance"
           ],
-          "difficultyLevel": "Low",
+          "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "Can be easily cracked",
-              "key": "A"
+              "content": "Smart contracts are not trustworthy.",
+              "key": "A",
+              "order": 0
             },
             {
-              "content": "Collison",
-              "key": "B"
+              "content": "It is difficult to code smart contracts.",
+              "key": "B",
+              "order": 1
             },
             {
-              "content": "Two way processing becomes easy",
-              "key": "C"
+              "content": "The slightest flaw in code can lead to a loss of funds.",
+              "key": "C",
+              "order": 2
             },
             {
-              "content": "Large in size",
-              "key": "D"
+              "content": "They are easy to hack.",
+              "key": "D",
+              "order": 3
             }
           ]
         },
         {
-          "uuid": "36d5b35c-2064-44ea-9d81-a3f3dfd22e3f",
+          "uuid": "df4273d6-ea88-45b0-90f1-c28d496dbb6e",
           "type": "SingleChoice",
-          "content": "Cryptographic hashes are .....",
+          "content": "What is the current number of transactions that Ethereum can process per second?",
           "hint": "NoHint",
-          "explanation": "Cryptographic hashes are hexadecimal numbers.",
+          "explanation": "Ethereum can currently process 15 transactions per second. This number is bound to increase in future with advancements in the technology.",
           "answerKeys": [
-            "A"
+            "D"
           ],
           "subTopics": [
-            "hashing"
+            "uses-of-decentralised-finance"
           ],
-          "difficultyLevel": "Low",
+          "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "Hexadecimal",
-              "key": "A"
+              "content": "1000",
+              "key": "A",
+              "order": 0
             },
             {
-              "content": "Binary",
-              "key": "B"
+              "content": "110",
+              "key": "B",
+              "order": 1
             },
             {
-              "content": "Numeric address",
-              "key": "C"
+              "content": "10,000",
+              "key": "C",
+              "order": 2
             },
             {
-              "content": "None of the above",
-              "key": "D"
+              "content": "15",
+              "key": "D",
+              "order": 3
             }
           ]
         },
         {
-          "uuid": "c6cf372e-8cca-44f5-a837-0bc37c49d5a6",
-          "type": "SingleChoice",
-          "content": "No matter how many times a data set (identical) is hashed the output remains the same.",
+          "uuid": "163f7e64-856c-4238-890a-93afe3e3481a",
+          "type": "MultipleChoice",
+          "content": "Which of the following applications are used for lending and borrowing in DeFi?",
           "hint": "NoHint",
-          "explanation": "Identical data set should always result in the same hash output.",
+          "explanation": "Aave and compound are the platforms which are used for lending and borrowing in DeFi.",
+          "answerKeys": [
+            "B",
+            "D"
+          ],
+          "subTopics": [
+            "uses-of-decentralised-finance"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Uniswap",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "Aave",
+              "key": "B",
+              "order": 1
+            },
+            {
+              "content": "Kraken",
+              "key": "C",
+              "order": 1
+            },
+            {
+              "content": "Compoud",
+              "key": "D",
+              "order": 1
+            }
+          ]
+        },
+        {
+          "uuid": "6459ff5b-03ad-421a-9ebe-9e85a230a7b2",
+          "type": "MultipleChoice",
+          "content": "What are the problems regarding the scalability of DeFi currently in Ethereum?",
+          "hint": "DeFi is developing thus it has some technological issues",
+          "explanation": "DeFi transactions take a long time to execute and these are expensive during time of congestion. These issues are temporary and can be resolved with the growing interest and technology in the space of DeFi.",
+          "answerKeys": [
+            "A",
+            "C"
+          ],
+          "subTopics": [
+            "uses-of-decentralised-finance"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Transactions take a long time to execute.",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "Lack of trust towards DeFi.",
+              "key": "B",
+              "order": 1
+            },
+            {
+              "content": "Transactions are expensive during congestion.",
+              "key": "C",
+              "order": 2
+            },
+            {
+              "content": "Inaccesibilty to internet.",
+              "key": "D",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "uuid": "dc3f705a-6d05-4344-86a1-75a597d09589",
+          "type": "MultipleChoice",
+          "content": "How does DeFi enhance liquidity of an asset?",
+          "hint": "Advantages of DeFi",
+          "explanation": "DeFi enhances the liquidity of asset by converting it into tokens. This creates options for efficient lending and borrowing  without the interferecne of any intermediary.",
+          "answerKeys": [
+            "A",
+            "B",
+            "c"
+          ],
+          "subTopics": [
+            "uses-of-decentralised-finance"
+          ],
+          "difficultyLevel": "High",
+          "choices": [
+            {
+              "content": "Tokenization",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "Efficient lending and borrowing",
+              "key": "B",
+              "order": 1
+            },
+            {
+              "content": "Transfer without intermediaries",
+              "key": "C",
+              "order": 2
+            },
+            {
+              "content": "Makes asset more valuable",
+              "key": "D",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "uuid": "61a66b4e-6864-4c63-90b6-5e457f8d0c95",
+          "type": "SingleChoice",
+          "content": "Why there is lack of trust on DeFi in the current scenario?",
+          "hint": "DeFi losses are not backed by any guarantee",
+          "explanation": "People hesitate investing in the DeFi space because there is uncertainity and no insurance schemes are available to protect investors from loss.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [
+            "uses-of-decentralised-finance"
+          ],
+          "difficultyLevel": "High",
+          "choices": [
+            {
+              "content": "High transaction fees",
+              "key": "A",
+              "order": 0
+            },
+            {
+              "content": "Lack of clarity",
+              "key": "B",
+              "order": 1
+            },
+            {
+              "content": "Lack of insurance schemes",
+              "key": "C",
+              "order": 2
+            },
+            {
+              "content": "Lack of popularity",
+              "key": "D",
+              "order": 3
+            }
+          ]
+        },
+        {
+          "uuid": "6da20796-863f-49e1-af0e-332ce62d41fa",
+          "type": "SingleChoice",
+          "content": "Centralised finance favours the high net-worth individuals and has a biased approach which creates an inequality in the system.",
+          "hint": "NoHint",
+          "explanation": "CeFi favours only high net worth individuals because they are their potential customers who are bound to produce better returns than low worth individuals.",
           "answerKeys": [
             "A"
           ],
           "subTopics": [
-            "hashing"
+            "centralised-vs-decentralised-finance"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
               "content": "true",
-              "key": "A"
+              "key": "A",
+              "order": 0
             },
             {
               "content": "false",
-              "key": "B"
+              "key": "B",
+              "order": 1
             }
           ]
         },
         {
-          "uuid": "62931245-5ab0-4884-8693-bd7a940ad89a",
+          "uuid": "12d93c50-1c61-4f80-9ada-97f76b8eab1a",
           "type": "SingleChoice",
-          "content": "Bitcoin uses which type of hashing algorithm?",
+          "content": "What is the most popular use of DeFi?",
           "hint": "NoHint",
-          "explanation": "Bitcoin uses SHA-256 hashing algorithm.",
+          "explanation": "Decentralised Exchanges are the most popular use of DeFi",
           "answerKeys": [
-            "D"
+            "A"
           ],
           "subTopics": [
-            "hashing"
+            "uses-of-decentralised-finance"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "MD5",
-              "key": "A"
+              "content": "Decentralised Exchanges",
+              "key": "A",
+              "order": 0
             },
             {
-              "content": "SHA-1",
-              "key": "B"
+              "content": "Sending NFTs",
+              "key": "B",
+              "order": 1
             },
             {
-              "content": "SHA-2",
-              "key": "C"
+              "content": "Submitting job applications and rentals",
+              "key": "C",
+              "order": 2
             },
             {
-              "content": "SHA-256",
-              "key": "D"
+              "content": "None of the above",
+              "key": "D",
+              "order": 3
             }
           ]
         },
         {
-          "uuid": "e017fb94-7138-4309-bd63-aa0aa86c4ad8",
+          "uuid": "cd152168-7ad7-4d34-b6f0-0797682ee35c",
           "type": "SingleChoice",
-          "content": "Ethereum uses which type of hashing algorithm?",
+          "content": "In DeFi, staking rewards are generally paid in?",
           "hint": "NoHint",
-          "explanation": "Ethereum uses Keccak-256 hashing algorithm.",
+          "explanation": "Staking rewards are generally paid out in the same cryptocurrency that you are staking. For instance, if you are staking ADA, you will get rewarded in ADA.",
           "answerKeys": [
-            "B"
+            "C"
           ],
           "subTopics": [
-            "hashing"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "MD5",
-              "key": "A"
-            },
-            {
-              "content": "Keccak 256",
-              "key": "B"
-            },
-            {
-              "content": "NTLM",
-              "key": "C"
-            },
-            {
-              "content": "SHA-256",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "18674636-602b-4993-ac9e-2d7ef579d2cd",
-          "type": "SingleChoice",
-          "content": "Which of the following is/are offered by hash functions?",
-          "hint": "Properties of hash functions",
-          "explanation": "Hash functions offers authentication, non-repudiation and data-integrity.",
-          "answerKeys": [
-            "D"
-          ],
-          "subTopics": [
-            "hashing"
+            "uses-of-decentralised-finance"
           ],
           "difficultyLevel": "High",
           "choices": [
             {
-              "content": "Authentication",
-              "key": "A"
+              "content": "USDC",
+              "key": "A",
+              "order": 0
             },
             {
-              "content": "Non-repudiation",
-              "key": "B"
+              "content": "USDT",
+              "key": "B",
+              "order": 1
             },
             {
-              "content": "Data-integrity",
-              "key": "C"
+              "content": "The cryptocurrency you are staking",
+              "key": "C",
+              "order": 2
             },
             {
               "content": "All of the above",
-              "key": "D"
+              "key": "D",
+              "order": 3
             }
           ]
         },
         {
-          "uuid": "51167a51-66d0-41ab-93e4-a17b693d1f8f",
+          "uuid": "85139b5a-282f-4f88-b4f8-e9f80544019b",
           "type": "SingleChoice",
-          "content": "Blockchains are called blockchains because the ledger is broken into smaller datasets or blocks. The last line of the block contains a cryptographic hash that is repeated as the first line of the next block thus serving as the “chain\".",
-          "hint": "Basics of Blockchain",
-          "explanation": "Definition which clearly defines the blockchain and its structure.",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "true",
-              "key": "A"
-            },
-            {
-              "content": "false",
-              "key": "B"
-            }
-          ]
-        },
-        {
-          "uuid": "e4a7d15b-48c8-43ae-b539-44238e7b2bec",
-          "type": "SingleChoice",
-          "content": "Which of the following is not a property of hash functions?",
-          "hint": "Properties of Hash Functions",
-          "explanation": "All the first three options are the properties of the Hash function. None of the mentioned characteristic fall apart form them. Therefore, the correct answer is none of the above.",
+          "content": "The main advantage of Decentralised Exchanges are?",
+          "hint": "Properties of DEXs",
+          "explanation": "Decentralized exchanges (DEXs) operate by connecting to a user’s external software wallet, which the user owns the private keys to. DEXs also boast greater privacy and anonymity due to the lack of KYC protocols, which makes them very popular with those who are concerned about privacy. DEXs also feature a large number of low cap altcoins, which can be diamonds in the rough or very risky investments.",
           "answerKeys": [
             "D"
           ],
           "subTopics": [
-            "hashing"
+            "uses-of-decentralised-finance"
           ],
           "difficultyLevel": "High",
           "choices": [
             {
-              "content": "Pre-Image Resistance",
-              "key": "A"
+              "content": "Users own their private keys",
+              "key": "A",
+              "order": 0
             },
             {
-              "content": "Compression",
-              "key": "B"
+              "content": "Increased privacy due to lack of KYC",
+              "key": "B",
+              "order": 1
             },
             {
-              "content": "Fixed length output",
-              "key": "C"
+              "content": "Large range of low cap alt coins",
+              "key": "C",
+              "order": 2
             },
             {
-              "content": "None of the above",
-              "key": "D"
+              "content": "All of the above",
+              "key": "D",
+              "order": 3
             }
           ]
         },
         {
-          "uuid": "6d55c009-b9f7-4083-938f-67f0fcdc73c9",
-          "type": "SingleChoice",
-          "content": "Miners gather transactions, verify that the transactions are valid, hash the transactions (which happens very quickly) and post a new block.",
+          "uuid": "360586a5-8a95-4566-a31e-caa447f78545",
+          "type": "MultipleChoice",
+          "content": "Which of the following are ways to earn returns on crypto assets?",
           "hint": "NoHint",
-          "explanation": "This explains the functioning of blockchain mining.",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "true",
-              "key": "A"
-            },
-            {
-              "content": "false",
-              "key": "B"
-            }
-          ]
-        },
-        {
-          "uuid": "38ec68b2-1939-4bbd-9edb-d946fa429184",
-          "type": "SingleeChoice",
-          "content": "It is possible today, albeit very computationally challenging, to derive the private key associated with a public key.",
-          "hint": "NoHint",
-          "explanation": "No its not possible to get the private key fro public key because the process the hashing is irreversible given any amount of computational power.",
-          "answerKeys": [
-            "B"
-          ],
-          "subTopics": [
-            "hashing"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "true",
-              "key": "A"
-            },
-            {
-              "content": "false",
-              "key": "B"
-            }
-          ]
-        },
-        {
-          "uuid": "f87a42d7-c154-4aea-814f-ca2237609723",
-          "type": "SingleChoice",
-          "content": "Which of the following is not possible using hash functions?",
-          "hint": "Properties of Hash functions",
-          "explanation": "Hash functions are one way process and cannot be used to get the data back in the original form.",
+          "explanation": "Farming, Swapping and Staking are ways to earn interest and heavy returns on crypto assets.",
           "answerKeys": [
             "D"
           ],
           "subTopics": [
-            "hashing"
+            "uses-of-decentralised-finance"
           ],
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "Password check",
-              "key": "A"
+              "content": "Farming",
+              "key": "A",
+              "order": 0
             },
             {
-              "content": "Data integrity check",
-              "key": "B"
+              "content": "Swapping",
+              "key": "B",
+              "order": 1
             },
             {
-              "content": "Digital Signatures",
-              "key": "C"
+              "content": "Staking",
+              "key": "C",
+              "order": 2
             },
             {
-              "content": "Data retrieval in its original form.",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "36ca7a17-f474-48b8-b8d1-894808a21b25",
-          "type": "SingleChoice",
-          "content": "Go to https://emn178.github.io/online-tools/sha256.html and enter the word DeFi (be careful of capitalization and no spaces). Which is the correct SHA-256 output (first six characters) ?",
-          "hint": "Proper hash functions output",
-          "explanation": "User based",
-          "answerKeys": [
-            "D"
-          ],
-          "subTopics": [
-            "hashing"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "340a4d",
-              "key": "A"
-            },
-            {
-              "content": "da9fa3",
-              "key": "B"
-            },
-            {
-              "content": "0000sn",
-              "key": "C"
-            },
-            {
-              "content": "3871f9",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "0381664e-3b18-4770-8b34-ed139e2b0a64",
-          "type": "SingleChoice",
-          "content": "Miners on the Ethereum blockchain can choose any transactions to add to their block. Thus, inevitably, they end up choosing those transactions that bid the highest fees.",
-          "hint": "Front Running",
-          "explanation": "Miners get themselves an earning other than mining by \"front-running\", where they put their buy before a big order.",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "true",
-              "key": "A"
-            },
-            {
-              "content": "false",
-              "key": "B"
-            }
-          ]
-        },
-        {
-          "uuid": "60398304-0ecc-4ae2-b56d-55396e29f5ff",
-          "type": "SingleChoice",
-          "content": "A cryptographic hash is used to verify ....... of data.",
-          "hint": "Properties of Hash Functions",
-          "explanation": "A cryptographic hash is used to verify validity and authenticity of data.",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [
-            "hashing"
-          ],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "Validity",
-              "key": "A"
-            },
-            {
-              "content": "Veracity",
-              "key": "B"
-            },
-            {
-              "content": "Variety",
-              "key": "C"
-            },
-            {
-              "content": "None of the above",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "be30b978-625c-4642-bfaa-812eed97cf3b",
-          "type": "SingleChoice",
-          "content": "Cryptographic hashes provide security against .....",
-          "hint": "Uses of Hashes",
-          "explanation": "Cryptographic hashes provide security against attackers.",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [
-            "hashing"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "Attackers",
-              "key": "A"
-            },
-            {
-              "content": "Sender",
-              "key": "B"
-            },
-            {
-              "content": "Receiver",
-              "key": "C"
-            },
-            {
-              "content": "None of the above",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "c6a3e417-f8df-4276-9fe3-215e84d97dc0",
-          "type": "SingleChoice",
-          "content": "Basically, in SHA-512, the message is divided into blocks of size ___ bits for the hash computation.",
-          "hint": "NoHint",
-          "explanation": "The message is divided into blocks of size 1024 bits, and the output produced is a 512-bit message digest and uses the 512-bit buffer till 80 rounds.",
-          "answerKeys": [
-            "C"
-          ],
-          "subTopics": [
-            "hashing"
-          ],
-          "difficultyLevel": "High",
-          "choices": [
-            {
-              "content": "256",
-              "key": "A"
-            },
-            {
-              "content": "512",
-              "key": "B"
-            },
-            {
-              "content": "1024",
-              "key": "C"
-            },
-            {
-              "content": "1248",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "4bb51750-3bca-4669-a88b-03ad26e72b16",
-          "type": "SingleChoice",
-          "content": "A cryptographic hash function must be deterministic.",
-          "hint": "NoHint",
-          "explanation": "Deterministic means one input one output without collision.",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [
-            "hashing"
-          ],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "true",
-              "key": "A"
-            },
-            {
-              "content": "false",
-              "key": "B"
-            }
-          ]
-        },
-        {
-          "uuid": "3b2f90b4-32f7-4b8d-a338-09997e5ee46c",
-          "type": "SingleChoice",
-          "content": "Which of the following hash values will be accepted?",
-          "hint": "NoHint",
-          "explanation": "The hash functions with maximum number of zeros in the starting is the best because this combination is near to impossible to crack and provides the best security.",
-          "answerKeys": [
-            "C"
-          ],
-          "subTopics": [
-            "hashing"
-          ],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "354604d",
-              "key": "A"
-            },
-            {
-              "content": "ef9f8a3g",
-              "key": "B"
-            },
-            {
-              "content": "00000sn",
-              "key": "C"
-            },
-            {
-              "content": "3e8t71f9",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "025f78df-6f2c-4130-9c00-fefb3a6155b8",
-          "type": "SingleChoice",
-          "content": "Which of the following consensus mechanisms require hash functions?",
-          "hint": "NoHint",
-          "explanation": "Proof of work mechanism requires hash funtions.",
-          "answerKeys": [
-            "C"
-          ],
-          "subTopics": [
-            "hashing"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "Proof of stake",
-              "key": "A"
-            },
-            {
-              "content": "Proof of Authority",
-              "key": "B"
-            },
-            {
-              "content": "Proof of work",
-              "key": "C"
-            },
-            {
-              "content": "Proof of history",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "d9735064-39cf-48e5-a7be-1c9c8ffa5e74",
-          "type": "SingleChoice",
-          "content": "Which of the following is not an application of hash-functions?",
-          "hint": "Properties of hash fucntions",
-          "explanation": "Key wrapping is a separate algorithm and not an application of hash fuctions.",
-          "answerKeys": [
-            "C"
-          ],
-          "subTopics": [
-            "hashing"
-          ],
-          "difficultyLevel": "High",
-          "choices": [
-            {
-              "content": "One way password file",
-              "key": "A"
-            },
-            {
-              "content": "Virus detection",
-              "key": "B"
-            },
-            {
-              "content": "Key wrapping",
-              "key": "C"
-            },
-            {
-              "content": "Intrusion detection",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "1c8044ac-3357-4ec5-8e80-8004448b6fc9",
-          "type": "SingleChoice",
-          "content": "What is the length of SHA-256 output ?",
-          "hint": "NoHint",
-          "explanation": "SHA-256 gives output of length 64 hexadecimal number.",
-          "answerKeys": [
-            "C"
-          ],
-          "subTopics": [
-            "hashing"
-          ],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "1024",
-              "key": "A"
-            },
-            {
-              "content": "256",
-              "key": "B"
-            },
-            {
-              "content": "64",
-              "key": "C"
-            },
-            {
-              "content": "512",
-              "key": "D"
+              "content": "All of the above",
+              "key": "D",
+              "order": 3
             }
           ]
         }
@@ -1559,7 +1818,7 @@
           "subTopics": [
             "introduction-to-blockchain"
           ],
-          "details": "This video enables learners to know about\n  * Decentralised opportunities\n  * Bascis of Cryptocurrency      \n  * Blockchain network types\n"
+          "details": "This video enables learners to know about\n  * Decentralised opportunities\n  * Basics of Cryptocurrency      \n  * Blockchain network types\n"
         },
         {
           "uuid": "0c7eaedf-b949-4da3-bdc5-fb21f3633311",
@@ -1606,13 +1865,13 @@
           "title": "Centralised vs Decentralised Finance",
           "shortTitle": "CeFi vs DeFi",
           "key": "centralised-vs-decentralised-finance",
-          "details": "Centralised Finance consist of many problems. Some of them are as listed below.\n\n- Centralized Control\n  * Centralised banking system is highly concentrated.\n  * National central banks controls currency\n  * Big Tech giants like Amazon, Facebook, Goolge provide non-financial centralization in the system.\n\n- Limited Access\n  * Around the globe there are more than 1.7 billion individuals who are unbanked.\n  * Billions of people are underbanked\n  * Many Entrepreneurs use credit cards to to finance their business, but banks won't lend them because they are small. This puts a negative impact on growth.\n\n- Inefficiency\n  * Banks charge 3% for a credit card swipe\n  * 5-7% is charged for a wire transfer\n  * It takes 2 days to settle a stock transaction\n  * Fund transfer is slow\n  * Banks are prone to fauds, chargebanks and lack security as well.\n  * Banks do not allow micro-transitions.\n  * It is difficult to get paid using banks.\n\n- Lack of Interoperability\n  * Institutions are isolated from each other and have no interlinking.\n  * It is difficult to move funds from one bank to another.\n  * Difficult to move money from a bank to non bank.\n  \n- Opacity\n  * Banking institutions have very little transparency.\n  * Bank customers do not know the health of the bank.\n  * Individuals are forced to rely on costly regulation and promise of bailouts.\n\nThese problems when not tackled lead to following destructive effects.\n\n- Missed Growth Opportunities\n  * Entrepreneurs who have suppose 25% ROI on their great idea, but their project is not executed due to high cost of credit card borrowing.\n  * High ROI project fuels high CAPEX, strong real GDP growth, and robust employment growth.\n\n- Inequality of opportunities\n  * Projects should be financed based on the quality of the idea and the soundness of the execution plan.\n  * Many have no access to internet commerce (to buy or sell).\n  * Given the number of unbanked and underbanked, this creates unequal opportunities and perpetuates or even exacerbates inequality.\n"
+          "details": "Centralised Finance consist of many problems. Some of them are as listed below.\n\n- Centralized Control\n  * Centralised banking system is highly concentrated.\n  * National central banks controls currency\n  * Big Tech giants like Amazon, Facebook, Goolge provide non-financial centralization in the system.\n\n- Limited Access\n  * Around the globe there are more than 1.7 billion individuals who are unbanked.\n  * Billions of people are underbanked\n  * Many Entrepreneurs use credit cards to to finance their business, but banks won't lend them because they are small. This puts a negative impact on growth.\n\n- Inefficiency\n  * Banks charge 3% for a credit card swipe\n  * 5-7% is charged for a wire transfer\n  * It takes 2 days to settle a stock transaction\n  * Fund transfer is slow\n  * Banks are prone to frauds, chargebanks and lack security as well.\n  * Banks do not allow micro-transitions.\n  * It is difficult to get paid using banks.\n\n- Lack of Interoperability\n  * Institutions are isolated from each other and have no interlinking.\n  * It is difficult to move funds from one bank to another.\n  * Difficult to move money from a bank to non bank.\n  \n- Opacity\n  * Banking institutions have very little transparency.\n  * Bank customers do not know the health of the bank.\n  * Individuals are forced to rely on costly regulation and promise of bailouts.\n\n- High operating cost\n  * Banking institutions have high running cost due to accomodate large number of workers.\n\nThese problems when not tackled lead to following destructive effects.\n\n- Missed Growth Opportunities\n  * Entrepreneurs who have suppose 25% ROI on their great idea, but their project is not executed due to high cost of credit card borrowing.\n  * High ROI project fuels high CAPEX, strong real GDP growth, and robust employment growth.\n\n- Inequality of opportunities\n  * Projects should be financed based on the quality of the idea and the soundness of the execution plan.\n  * Many have no access to internet commerce (to buy or sell).\n  * Given the number of unbanked and underbanked, this creates unequal opportunities and perpetuates or even exacerbates inequality.\n"
         },
         {
           "title": "Decentralised Finance Usage",
           "shortTitle": "Uses of DeFi",
           "key": "uses-of-decentralised-finance",
-          "details": "Centralised Finance opens up a wide range of advancement in the current centralised system.\n\n- Transfer for Money \n  * Using DeFi sending money would be as easy as sending an email.\n  * You just need to enter other persons account address and your payment will directly go into their account.\n\n- Stream money around the globe\n  * One can stream money over ethereum\n  * This lets you pay someone their salary by the second, giving them access to their money whenever they need it. Or rent something by the second like a storage locker or electric scooter.\n\n- Access to stablecoins\n  * Volatility in the cryptocurrency is of huge concern which hinders its growth as well.\n  * DeFi community has introduced stablecoins.\n  * Their value remains peggged to another asset, usually a popular currency like dollar.\n  * Coins like Dai or USDC have a value that stays within a few cents of a dollar.\n\n- Borrowing \n  * DeFi helps in borrowing money with privacy. \n  * The borrower must put up collateral that the lender will automatically receive if their loan is not repaid. \n  * This allows you to borrow money without credit checks or handing over private information.\n\n- Flash loans\n  * DeFi introduced the concept of flash loans where the borrower gets loans without handling any collateral to lender.\n  * If the borrower is not able to pay the loan, the transaction is reversed as if it never occured.\n\n- Tokenization\n  * DeFi intriduces the concepts of crypto tokens.\n  * Ethereum enables robust smart contract capabilities, thereby opening up the roads for issuing crypto tokens. \n  * Crypto tokens basically worked as digital assets present on a blockchain alongside having different features and uses.\n  \n  \n"
+          "details": "Centralised Finance opens up a wide range of advancement in the current centralised system.\n\n- Transfer of Money \n  * Using DeFi sending money would be as easy as sending an email.\n  * You just need to enter other persons account address and your payment will directly go into their account.\n\n- Stream money around the globe\n  * One can stream money over ethereum\n  * This lets you pay someone their salary by the second, giving them access to their money whenever they need it. Or rent something by the second like a storage locker or electric scooter.\n\n- Access to stablecoins\n  * Volatility in the cryptocurrency is of huge concern which hinders its growth as well.\n  * DeFi community has introduced stablecoins.\n  * Their value remains peggged to another asset, usually a popular currency like dollar.\n  * Coins like Dai or USDC have a value that stays within a few cents of a dollar.\n\n- Borrowing \n  * DeFi helps in borrowing money with privacy. \n  * The borrower must put up collateral that the lender will automatically receive if their loan is not repaid. \n  * This allows you to borrow money without credit checks or handing over private information.\n\n- Flash loans\n  * DeFi introduced the concept of flash loans where the borrower gets loans without handling any collateral to lender.\n  * If the borrower is not able to pay the loan, the transaction is reversed as if it never occured.\n\n- Tokenization\n  * DeFi introduces the concepts of crypto tokens.\n  * Ethereum enables robust smart contract capabilities, thereby opening up the roads for issuing crypto tokens. \n  * Crypto tokens basically worked as digital assets present on a blockchain alongside having different features and uses.\n  \n- Constant Updation \n  * Developers can build upon existing code because DeFi is open source.\n  * Easy to build applications/products (Cloud simplified creation of applications. Blockchain simplifies creation of financial apps)\n  * This helps in removing bugs and bring about great innovations in the existing system. \n"
         }
       ]
     },
@@ -3161,7 +3420,7 @@
           "subTopics": [
             "introduction-to-blockchain"
           ],
-          "details": "This video enables learners to know about\n  * Decentralised opportunities\n  * Bascis of Cryptocurrency      \n  * Blockchain network types\n"
+          "details": "This video enables learners to know about\n  * Decentralised opportunities\n  * Basics of Cryptocurrency      \n  * Blockchain network types\n"
         },
         {
           "uuid": "0c7eaedf-b949-4da3-bdc5-fb21f3633311",
@@ -3245,7 +3504,7 @@
     {
       "title": "Smart Contratcs",
       "key": "defi-foundations",
-      "details": "Explain on a high level what are smart contract, and where do they run\n\nDetails \n* How Ethereum transactions\n* miner extractable value.\n* Smart contracts / Gas / Oracles\n* Fungible and non-fungible (NFT) tokens \n* dApps\n",
+      "details": "Explain on a high level what are smart contract, and where do they run\n\nDetails \n* How Ethereum transactions work\n* Miner extractable value (MEV)\n* Smart contracts / Gas / Oracles\n* Fungible and non-fungible (NFT) tokens \n* dApps\n",
       "order": 2,
       "questions": [
         {
@@ -4787,7 +5046,7 @@
           "subTopics": [
             "introduction-to-blockchain"
           ],
-          "details": "This video enables learners to know about\n  * Decentralised opportunities\n  * Bascis of Cryptocurrency      \n  * Blockchain network types\n"
+          "details": "This video enables learners to know about\n  * Decentralised opportunities\n  * Basics of Cryptocurrency      \n  * Blockchain network types\n"
         },
         {
           "uuid": "0c7eaedf-b949-4da3-bdc5-fb21f3633311",
@@ -6413,7 +6672,7 @@
           "subTopics": [
             "introduction-to-blockchain"
           ],
-          "details": "This video enables learners to know about\n  * Decentralised opportunities\n  * Bascis of Cryptocurrency      \n  * Blockchain network types\n"
+          "details": "This video enables learners to know about\n  * Decentralised opportunities\n  * Basics of Cryptocurrency      \n  * Blockchain network types\n"
         },
         {
           "uuid": "0c7eaedf-b949-4da3-bdc5-fb21f3633311",
@@ -8039,7 +8298,7 @@
           "subTopics": [
             "introduction-to-blockchain"
           ],
-          "details": "This video enables learners to know about\n  * Decentralised opportunities\n  * Bascis of Cryptocurrency      \n  * Blockchain network types\n"
+          "details": "This video enables learners to know about\n  * Decentralised opportunities\n  * Basics of Cryptocurrency      \n  * Blockchain network types\n"
         },
         {
           "uuid": "0c7eaedf-b949-4da3-bdc5-fb21f3633311",
@@ -9665,7 +9924,7 @@
           "subTopics": [
             "introduction-to-blockchain"
           ],
-          "details": "This video enables learners to know about\n  * Decentralised opportunities\n  * Bascis of Cryptocurrency      \n  * Blockchain network types\n"
+          "details": "This video enables learners to know about\n  * Decentralised opportunities\n  * Basics of Cryptocurrency      \n  * Blockchain network types\n"
         },
         {
           "uuid": "0c7eaedf-b949-4da3-bdc5-fb21f3633311",
@@ -11291,7 +11550,7 @@
           "subTopics": [
             "introduction-to-blockchain"
           ],
-          "details": "This video enables learners to know about\n  * Decentralised opportunities\n  * Bascis of Cryptocurrency      \n  * Blockchain network types\n"
+          "details": "This video enables learners to know about\n  * Decentralised opportunities\n  * Basics of Cryptocurrency      \n  * Blockchain network types\n"
         },
         {
           "uuid": "0c7eaedf-b949-4da3-bdc5-fb21f3633311",
@@ -12917,7 +13176,7 @@
           "subTopics": [
             "introduction-to-blockchain"
           ],
-          "details": "This video enables learners to know about\n  * Decentralised opportunities\n  * Bascis of Cryptocurrency      \n  * Blockchain network types\n"
+          "details": "This video enables learners to know about\n  * Decentralised opportunities\n  * Basics of Cryptocurrency      \n  * Blockchain network types\n"
         },
         {
           "uuid": "0c7eaedf-b949-4da3-bdc5-fb21f3633311",
@@ -14543,7 +14802,7 @@
           "subTopics": [
             "introduction-to-blockchain"
           ],
-          "details": "This video enables learners to know about\n  * Decentralised opportunities\n  * Bascis of Cryptocurrency      \n  * Blockchain network types\n"
+          "details": "This video enables learners to know about\n  * Decentralised opportunities\n  * Basics of Cryptocurrency      \n  * Blockchain network types\n"
         },
         {
           "uuid": "0c7eaedf-b949-4da3-bdc5-fb21f3633311",
