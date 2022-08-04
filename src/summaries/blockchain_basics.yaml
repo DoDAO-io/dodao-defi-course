@@ -17,7 +17,7 @@
 
 - title: Working of Blockchain
   shortTitle: Blockchain Working
-  key: working-of-blockchain  
+  key: working-of-blockchain
   details: |
     - Blockchain ledger
       * The ledger which is present in blockchain is more than a simple ledger. This ledger is quickly and easily accessbile by anyone and further shared by many which explains its distributive nature.
@@ -75,7 +75,7 @@
       * The process of creating this hash value is known as Hashing. 
       * That enciphered text can then be stored instead of the password itself, and later used to verify the user.
 
-- title: Properties of Hashing 
+- title: Properties of Hashing
   shortTitle: Hashing Properties
   key: properties-of-hashing
   details: |
@@ -131,4 +131,4 @@
     
     
 
-
+    
