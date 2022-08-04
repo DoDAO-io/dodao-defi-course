@@ -515,7 +515,7 @@ Sub Topics: uses-of-decentralised-finance
 
 ---
 
-##### Which DeFi component is used for swaps and buying tokens?  
+##### Which DeFi component is used for swapping and buying tokens?  
 
 - [ ]  Smart contracts
 - [x]  Decentralised Exchanges
@@ -524,7 +524,7 @@ Sub Topics: uses-of-decentralised-finance
   
 Hint: NoHint
          
-Explanation: Decentralised Exchanges or DEXs are used for lending and borrowing purposes in DeFi.
+Explanation: In DeFi, swapping and buying tokens are the features offered by applications known as decentralised exchanges. A DEX is a peer-to-peer marketplace where the transactions are carried out in the cryptocurrencies.
 
 Sub Topics: uses-of-decentralised-finance
  
