@@ -1810,48 +1810,48 @@
       ],
       "readings": [
         {
-          "uuid": "020f238c-96f2-4613-aca1-4ebba06395c5",
-          "title": "Introduction to Blockchain Technology",
-          "shortTitle": "Intro to Blockchain",
+          "uuid": "ccde44af-f5ac-45e8-b41e-d2ba87af7809",
+          "title": "Introduction to Decentralised Finance",
+          "shortTitle": "Intro to DeFi",
           "type": "YoutubeVideo",
-          "url": "https://www.youtube.com/watch?v=2yJqjTiwpxM",
+          "url": "https://www.youtube.com/watch?v=btB__oHQ0sU",
           "subTopics": [
-            "introduction-to-blockchain"
+            "introduction-to-decentralised-finance"
           ],
-          "details": "This video enables learners to know about\n  * Decentralised opportunities\n  * Basics of Cryptocurrency      \n  * Blockchain network types\n"
+          "details": "This video enables learners to know about\n  * Centralised banking system\n  * DeFi components    \n  * DEXs\n  * DeFi advantages\n"
         },
         {
-          "uuid": "0c7eaedf-b949-4da3-bdc5-fb21f3633311",
-          "title": "Working of Blockchain Technology",
-          "shortTitle": "Blockchain Working",
+          "uuid": "bfc47690-5abc-4019-b430-c6055221a391",
+          "title": "Functioning of Decentralised Finance",
+          "shortTitle": "DeFi applications",
           "type": "YoutubeVideo",
-          "url": "https://www.youtube.com/watch?v=bBC-nXj3Ng4",
+          "url": "https://www.youtube.com/watch?v=17QRFlml4pA",
           "subTopics": [
-            "working-of-blockchain"
+            "uses-of-decentralised-finance"
           ],
-          "details": "This video illustrates \n  * Blockchain ledger\n  * Working of Blockchain Technology  \n"
+          "details": "This video explains learners to know about\n  * Stablecoins\n  * Lending and borrowing    \n  * Margin trading\n"
         },
         {
-          "uuid": "e5747299-9764-4598-ac7b-ca3933bc96ba",
-          "title": "Types of Blockchain Networks",
-          "shortTitle": "Blockchain Networks",
-          "type": "WebArticle",
-          "url": "https://www.techtarget.com/searchcio/feature/What-are-the-4-different-types-of-blockchain-technology",
+          "uuid": "87931a07-b0ec-4526-83f1-382881187ca5",
+          "title": "Flash loans and it applications",
+          "shortTitle": "Flash Loans",
+          "type": "YoutubeVideo",
+          "url": "https://www.youtube.com/watch?v=YiF6x193fRk",
           "subTopics": [
-            "blockchain-networks"
+            "uses-of-decentralised-finance"
           ],
-          "details": "This video illustrates \n  * 4 different types of Blockchain Networks\n  * Each network has been explained with examples from real life\n"
+          "details": "This video helps learners to know about flash loans and its functioning.\n  * Flash loans procedures\n  * Advantages of flash loans\n"
         },
         {
-          "uuid": "0f2ca5cf-12f4-42a7-8c7b-d42212964991",
-          "title": "Cryptographic Hashing",
-          "shortTitle": "Hashing",
+          "uuid": "2c3a33ff-60bf-4b88-8671-e408b9fca6f4",
+          "title": "Stablecoins Explained",
+          "shortTitle": "Stablecoins",
           "type": "YoutubeVideo",
-          "url": "https://www.youtube.com/watch?v=gTfNtop9vzM",
+          "url": "https://www.youtube.com/watch?v=GsSSLDzKCOE",
           "subTopics": [
-            "hashing"
+            "uses-of-decentralised-finance"
           ],
-          "details": "This video explains\n  * Blockchain Hashing in detail\n  * Funtioning of a hash function\n  * Examples such as SHA-256\n"
+          "details": "This video helps learners understand the concept of stablecoins.\n  * Usage of Stablecoins\n  * Stability of stablecoins\n  * Risks related to stablecoins\n"
         }
       ],
       "summaries": [
@@ -5084,46 +5084,34 @@
       ],
       "summaries": [
         {
-          "title": "Introduction to Blockchain",
-          "shortTitle": "Blockchain Intro",
-          "key": "introduction-to-blockchain",
-          "details": "- What is Blockhain ?\n  * Blockchain are basically software protocols that help multiple parties to work under a set of shared data without trusting each other.\n  * These data can be of any form that one can consider.For examples, location destination account information, transaction history of a particular token.\n  * The term blockchain emerges from the \"chaining\" of \"blocks\" of data crytographically and allowing the audit of prior history.\n\n- Early days of blockchain\n  * Blockchain was born 20 years before the world was introduced to Bitcoin.\n  * The blockchain technology was introduced by Haber and Stornetta in the year 1991. They invented this technique for efficient time-stamping of digital documents.\n  * Adam Back in 2002 invents the idea of Proof of Work idea.\n  * Proof of Work was based on the paper work by Cynthia Dwork and Moni Naor (1992) that was aimed at eliminating junk mail.\n  * The sender needs to do some computational task before sending the mail. This was easy to do when done once but becomes infeasible to do for millions of recipients.\n  * Moreover, Blockchain is not Bitcoin rather Bitcoin employs the technology of Blockchain.  \n"
+          "title": "Working of Ethereum Transactions",
+          "shortTitle": "Ethereum Working",
+          "key": "ethereum-transactions-working",
+          "details": "- How Ethereum Transaction work?\n  * Transactions involve sending data and/or ETH (or other tokens)\n  from one address to another.\n  * An Ethereum user can control addresses through an externally\n  owned account (EOA) or by using smart contract code (contract\n  account).\n  * When sending data to a contract account, the data are used to\n  execute code in that contract.\n  * Transactions sent to an EOA can only transfer ETH.\n  * A single transaction starts with an end user from an EOA, but it can pass through many dApps (decentralised Applications) before completing.\n  * Transaction begins with a single smart contract and continues to carry on all the intermediate steps within the contract body.\n\n- Atomicity\n  * This is one of the most important property of Ethereum Transaction Mechanism which makes DeFi different from CeFi.\n  * The transactions in Ethereum are atomic which means the clauses in a smart contract can lead to failure of transaction and thus all the steps of the transaction are reversed.\n  * Atomicity is a critical feature of transactions because funds can\n  move between many contracts (i.e., “exchange hands”) with the\n  knowledge and security that if one of the conditions is not met,\n  the contract terms reset as if the money never left the starting\n  point.\n"
         },
         {
-          "title": "Working of Blockchain",
-          "shortTitle": "Blockchain Working",
-          "key": "working-of-blockchain",
-          "details": "- Blockchain ledger\n  * The ledger which is present in blockchain is more than a simple ledger. This ledger is quickly and easily accessbile by anyone and further shared by many which explains its distributive nature.\n  * These ledgers are responsible for process of recording transactions and tracking assets in a business network.\n  * These are responsible for storing data and assets such as tangible (a house, car, cash, land) or intangible (intellectual property, patents, copyrights, branding).\n  * Blockchain ledger is distributed. All network participants have access to the distributed ledger and its immutable record of transactions.\n  * Due to this distributed mechanism the transactions are recorded only for once, eliminating the duplication of data something which is very frequent in traditional business mechanisms.\n  * Tampering or changing these transactions in the ledger is impossible for a particiapnt to do so.\n  * Thus, these records ensure proper immutability.\n\n- Blockchain Transactions and Blocks\n  * Whenever a transaction occurs it is stored as a \"block\" of data.\n  * These transactions show the movement of assets tangible (a product) or intangible (intellectual).\n  * These data blocks store a variety of information such as who, what, when, where and also conditions such as temperature.\n  * Each block is connected to one before and after it. The blocks represent the flow of ownership of some data.\n  * Each of these blocks have a hashed reference to the block before it so you can trace every transaction all the way back to genesis block.\n  * These block are securely linked to each other to prevent any block from being altered or a block being inserted between two existing blocks.\n  * Blockchain hashes are highly secure. They strengthen the verification of the previous block and hence the entire blockchain.\n"
+          "title": "Miner Extractable Value",
+          "shortTitle": "MEV",
+          "key": "miner-extractable-value",
+          "details": "- Mempool\n  * Transactions are posted to a memory pool, or mempool, before\n  they are added to a block. \n  * Miners monitor these posted transactions, add them to their own\n  mempool, and share the transaction with other miners to be\n  included in the next available block.\n\n- Miner Extractable Value\n  * Any actor can see transactions in the mempool by running or\n  communicating with mining nodes.\n  * This observation allows for front-running (legal in the DeFi space) to miners. If miner encounters a large order, they can plave their order before that, hence the miners are incentivised to do so.\n  * Miner extractable value (MEV) is a measure of the profit that the\n  miner could make by including, excluding or re-ordering\n  transactions. \n  * This is one of the drawback of the Proof of work consensus mechanism. Obfuscating transactions can mitigate MEV, thus hiding from miners how they might profit from transactions.\n"
         },
         {
-          "title": "Types of Blockchain Networks",
-          "shortTitle": "Blockchain Networks",
-          "key": "blockchain-networks",
-          "details": "These blockhain networks can be primarily of `four` types : `Public`, `Private` , `Permissioned` and `Consortium`.\n\n- Public Blockchain Network\n  * A network where anyone can join and participate in such as Bitcoin.\n  * This network needs a lot of computational power.\n  * Little or no privacy for transactions and weak security.\n  * Generally used by enterprise blockchain.\n\n- Private Blockchain Network\n  * Similar to Private, it is a decentralised peer-to-peer to network.\n  * One organisation governs the network and controls who is permitted to participate in the network.\n  * This organisation provides consensus protocol and maintain the shared ledger.\n  * A private blockchain can be run behind a corporate firewall and even be hosted on premises.\n\n- Permissioned (Hybrid) Blockchain Network\n  * Businesses who setup private Network also setup a permissioned blockchain network.\n  * Public blockchain can be permissioned.\n  * Sets up restrictions on who is allowed to participate in the network and in what transactions.\n  * Participants need to obtain an invitation or permission to join.\n\n- Consortium Blockchain Network\n  * Multiple organisations can share the responsibilities to share the blockchain.\n  * These pre-selected organizations determine who may submit transactions or access the data.\n  * A consortium blockchain is ideal for business when all participants need to be permissioned.\n"
+          "title": "Smart Contracts, Gas and Oracles",
+          "shortTitle": "Ethereum Components",
+          "key": "smartcontracts-gas-oracles",
+          "details": "- Smart Contracts\n  * Ethereum is the example of most popular smart contract platform.\n  * A smart contract is code that can create and transform arbitrary data or\n  tokens on top of the blockchain of which it is a part.\n  * These are extremely powerful because it allows users to trustlessly encode\n  rules for any type of transaction and even create scarce assets with\n  specialized functionality.\n  * Many standard business contracts can be algorithmically encoded and\n  algorithmically enforced. These contracts run on the Ethereum blockchain and are run on every node.\n  * This is not just useful for finance. For example, supply chains are another\n  good example.\n\n- Gas \n  * Transactions have a gas fee that is the fee received by the miners for conducting transactions.\n  * Transactions have a gas fee, which varies based on the complexity\n  of the transaction. E.g., low gas fee is used to compensate a miner\n  for including and executing a transaction, and high gas fee for\n  more data-intensive transactions.\n  * If a transaction reverts due to any failure or runs out of gas the\n  miner forfeits all gas used until that point. This helps miners earn even if large volumes of failed transactions occur.\n\n  - Gas fees\n    * The gas price is determined by the market and effectively creates\n    an auction for inclusion in the next Ethereum block.\n    * Higher gas fees signal higher demand and therefore generally\n    receive higher priority for inclusion.\n  \n  - Gas Price \n    * Every operation on the Ethereum blockchain requires gas.\n    * Each unit of gas has a gas price, which is denoted in gwei. 1 gwei = 1\n      billionth of an ETH. Gas prices increase as users outbid one another\n      during times of higher network congestion.\n  \n  - Gas Limit\n    * The gas limit is the maximum amount of gas a user is willing to use for a\n    transaction. A transaction can include multiple operations.\n    * If there is residual amount of gas after the transaction is complete, then the user gets back the remaining gas.\n\n  - Turing Complete\n    * Gas plays a very important role. If a malicious attack is planned then it would be extremely expensive to carry out.\n    * Ethereum is turing complete whereas Bitcoin is not.\n\n- Oracles\n  * Ethereum blockchain nows only of what happens inside the Blockchain. But how does it get the information needed from the outside world? Here Oracles come into play.\n  * An oracle, in the context of smart contract platforms, is any data source for reporting information external to the blockchain. \n\n  - Oracle Problem\n    * This refers to the correctness of the off-chain information that is provided by the oracle.\n    * One Ethereum-based platform known as Chainlink is designed to solve the\n    oracle problem by using an aggregation of data sources. The Chainlink\n    whitepaper includes a reputation-based system that is decentralized.\n\n  \n"
         },
         {
-          "title": "Hashing",
-          "shortTitle": "Hashing",
-          "key": "hashing",
-          "details": "- What is Hashing ?\n  * A cryptographic hash function is an computational algorithm that takes an arbitrary amount of data input—a credential—and produces a fixed-size output of enciphered text called a hash value, or just hash.\n  * The process of creating this hash value is known as Hashing. \n  * That enciphered text can then be stored instead of the password itself, and later used to verify the user.\n"
+          "title": "Fungible and Non fungible Tokens",
+          "shortTitle": "FT and NFTs",
+          "key": "fungible-non-fungible-tokens",
+          "details": "- ERC 20 (Ethereum Request for Comment 20)\n  * ERC 20 is implemented standard for fungible tokens created using the Ethereum blockchain network.\n  * When a token implements the ERC-20 interface, any application\n  that generically handles the defined functionality can instantly\n  and seamlessly integrate with the token.\n  * Hence, fungible tokens can be of many types as discussed below.\n\n- Types of Fungible Tokens\n  - Equity Tokens\n    * An equity token (not traditional stocks) is simply a token that\n    represents ownership of an underlying asset or pool of assets. \n    * The units must be fungible so that each corresponds to an\n    identical share in the pool.\n\n  - Utility Tokens\n    * Utility tokens are fungible tokens that are required to utilize some\n    functionality of a smart contract system or that have an intrinsic\n    value proposition defined by its respective smart contract system.\n    * Some example of utility tokens include:\n      - To be collateral (e.g., SNX)\n      - To represent reputation or stake (e.g., REP, LINK)\n      - To maintain stable value relative to underlying or peg (e.g., DAI, Synthetix Synth)\n      - To pay application-specific fees (e.g., ZRX, DAI, LINK)\n\n  - Governance Tokens \n    * Governance tokens are similar to equity tokens in the sense they\n    represent percentage ownership. Instead of asset ownership,\n    governance token ownership applies to voting rights.\n    * Any platform with admin-controlled functionality is not truly DeFi\n    because of the admins’ centralized control. For this reason, many platforms strive for a decentralized upgrade process, often mediated by a governance token.\n    * UNI token introduced by Uniswap DEX, is a type of governance token which used, as voting rights whenever there is a need to incorporate an upgrade in the existing mechanism of exchange.\n  \n"
         },
         {
-          "title": "Properties of Hashing",
-          "shortTitle": "Hashing Properties",
-          "key": "properties-of-hashing",
-          "details": "- Non Reversibility - One way functions\n  * A good hash makes it impossible to crack the original password from the output or hash.\n\n- Diffusion or Avalanche Effect\n  * If there is a change in one bit of the original password then it should result change in half of the bits of its hash.\n  * This means even the smallest change in the original text brings about significant and unpredictable changes.\n\n- Deterministic \n  * A given password must generate the same hash value or enciphered text whenever the same input is being passed to it.\n\n- Collision Resistance\n  * When two different inputs give the same hash value it is known as collision.\n  * It should be hard to find two different passwords that hash to the same enciphered text. \n  * A good hash is considered to have a lot of zeros as the starting of the hash.\n\n- Non-predictable\n  * It should not be obvious enough to derive original text from the hash value. \n  * Hence the original text must be unpredictable. \n"
-        },
-        {
-          "title": "Merits and Demerits of Hashing",
-          "shortTitle": "Hashing Effects",
-          "key": "merits-and-demerits-of-hashing",
-          "details": "- The Good Effects\n  * Cryptographic hashes take in clear and simple text passwords and convert them into enciphered text for storage.\n  * It becomes difficult for Attackers to decipher original text from the hash value if they wish to exploit that information. Thus hashing creates great deal of security. \n\n- The Bad Effects\n  * Attackers who have fast hardware can easily \"crack\" hash values to original text.\n  * Good hash alogrithms are made to be collission resistant. But it is impossible to eliminate collissions completely. Algorithms like MD5 , SHA-1 are known to contain collsions-produce same hash value for two different input credentials.\n  * Rainbow tables are “optimized lookup tables” that can be used to reverse-engineer one-way hash functions. A rainbow table is basically a pre-computed set of plaintext strings and their corresponding hashes.\n  *  Large rainbow tables are publicly available, and attackers can use one of these tables to retrieve cleartext data that has been hashed.\n"
-        },
-        {
-          "title": "Popular Hashing Algorithms",
-          "shortTitle": "Popular Hashes",
-          "key": "Popular Hashing Algorithms",
-          "details": "- SHA-256 \n  * SHA stands for Secure Hashing Algorithm. It is one of the most secured hashing algorithm currently available.\n  * SHA-256 is a successor SHA-2, which was created by National Security Agency in 2001.\n  * SHA-256 is a patented cryptographic hash function that outputs a value that is 256 bits long.\n  * It is built with a Merkle-Damgard structure.\n  * Bitcoin employs SHA-256 as its hashing algorithm.\n\n- Keccak-256 (SHA-3 Family)\n  * Keccak has arbitrary input and infinite input space.\n  * Employed to create hashes for very big files.\n  * Results in 32 bytes data type as the result.\n  * Ethereum uses Keccak-256 as its hashing algorithm.\n"
+          "title": "Decentralised Applications",
+          "shortTitle": "Decentralised Apps",
+          "key": "dapps",
+          "details": "- Decentralised Applications\n  * dApps are similar to traditional software applications except they live on a\n  decentralized smart contract platform.\n  * The primary benefit of these applications is their permissionlessness and\n  censorship-resistance. Anyone can use them, and no single body controls\n  them.\n  * A decentralized autonomous organization (DAO) has its rules of operation\n  encoded in smart contracts that determine who can execute what behavior\n  or upgrade. \n  * It is common for a DAO to have some kind of governance token, which gives\n  an owner some percentage of the vote on future outcomes.\n"
         }
       ]
     },

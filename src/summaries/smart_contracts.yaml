@@ -105,15 +105,54 @@
   shortTitle: FT and NFTs
   key: fungible-non-fungible-tokens
   details: |
-    - Fungible Tokens
-      * DeFi is an open and global financial system built for the rise of next revolution in the internet space.
+    - ERC 20 (Ethereum Request for Comment 20)
+      * ERC 20 is implemented standard for fungible tokens created using the Ethereum blockchain network.
+      * When a token implements the ERC-20 interface, any application
+      that generically handles the defined functionality can instantly
+      and seamlessly integrate with the token.
+      * Hence, fungible tokens can be of many types as discussed below.
+
+    - Types of Fungible Tokens
+      - Equity Tokens
+        * An equity token (not traditional stocks) is simply a token that
+        represents ownership of an underlying asset or pool of assets. 
+        * The units must be fungible so that each corresponds to an
+        identical share in the pool.
+
+      - Utility Tokens
+        * Utility tokens are fungible tokens that are required to utilize some
+        functionality of a smart contract system or that have an intrinsic
+        value proposition defined by its respective smart contract system.
+        * Some example of utility tokens include:
+          - To be collateral (e.g., SNX)
+          - To represent reputation or stake (e.g., REP, LINK)
+          - To maintain stable value relative to underlying or peg (e.g., DAI, Synthetix Synth)
+          - To pay application-specific fees (e.g., ZRX, DAI, LINK)
+
+      - Governance Tokens 
+        * Governance tokens are similar to equity tokens in the sense they
+        represent percentage ownership. Instead of asset ownership,
+        governance token ownership applies to voting rights.
+        * Any platform with admin-controlled functionality is not truly DeFi
+        because of the admins’ centralized control. For this reason, many platforms strive for a decentralized upgrade process, often mediated by a governance token.
+        * UNI token introduced by Uniswap DEX, is a type of governance token which used, as voting rights whenever there is a need to incorporate an upgrade in the existing mechanism of exchange.
+      
 
 - title: Decentralised Applications  
   shortTitle: Decentralised Apps
   key: dapps
   details: |
-    - DeFi Origin
-      * DeFi is an open and global financial system built for the rise of next revolution in the internet space.
+    - Decentralised Applications
+      * dApps are similar to traditional software applications except they live on a
+      decentralized smart contract platform.
+      * The primary benefit of these applications is their permissionlessness and
+      censorship-resistance. Anyone can use them, and no single body controls
+      them.
+      * A decentralized autonomous organization (DAO) has its rules of operation
+      encoded in smart contracts that determine who can execute what behavior
+      or upgrade. 
+      * It is common for a DAO to have some kind of governance token, which gives
+      an owner some percentage of the vote on future outcomes.
 
     
 
