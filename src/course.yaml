@@ -25,7 +25,7 @@ topics:
         * What is DeFi 
         * CeFi vs DeFi
         * Use cases of DeFi
-    readings: blockchain_basics.yaml
+    readings: introduction_to_defi.yaml
     summaries: introduction_to_defi.yaml
     questions: introduction_to_defi.yaml
     status: In Progress
