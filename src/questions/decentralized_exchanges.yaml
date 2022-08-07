@@ -2,7 +2,7 @@
   type: SingleChoice
   content: What is an Exchange?
   hint: NoHint
-  explanation: DEX is a smart contract that acts as a platform for settling the trade among any two addresses instantly without intervening.
+  explanation: A marketplace to trade different types of assets for fiat currencies only.
   answerKeys:
     - D
   subTopics:
@@ -21,7 +21,7 @@
   type: MultipleChoice
   content: What is a Crypto Exchange?
   hint: NoHint
-  explanation: explanation
+  explanation: A marketplace to trade crypto / digital currencies for fiat or other crypto / digital currencies.
   answerKeys:
     - B
     - D
@@ -41,7 +41,7 @@
   type: SingleChoice
   content: Types of Crypto Exchange
   hint: There are 2 types of crypto exchange
-  explanation: explanation
+  explanation: There are 2 types of crypto-exchange in which one uses the Order-Book Model & governed by a central authority (known as Traditional or Centralized Exchange) and the other uses Automated Market Maker i.e not governed by any central authority (known as Decentralized Exchange)
   answerKeys:
     - C
   subTopics:
@@ -59,8 +59,8 @@
 - uuid: 6cb19075-8295-424d-893b-e1900b42ed1b
   type: SingleChoice
   content: What is a Centralized Exchange ?
-  hint: NoHint
-  explanation: explanation
+  hint: Buyer-Exchange platform/marketplace-Seller
+  explanation: A centralized exchange is a platform/marketplace where buyer and seller come together to buy and sell an asset.
   answerKeys:
     - B
   subTopics:
@@ -78,8 +78,8 @@
 - uuid: 1ed8c43c-ca15-4a4d-9260-4a004db1b663
   type: MultipleChoice
   content: What is an Order Book?
-  hint: NoHint
-  explanation: explanation
+  hint: Dashboard that consists of list of buying and selling prices of an asset.
+  explanation: It's like a dynamic dashboard that shows different buying and selling prices of an asset, set by different buyers and sellers in one place along with the current trading volume of that asset. 
   answerKeys:
     - A
     - C
@@ -97,9 +97,9 @@
       key: D
 - uuid: ad432625-2565-4976-ad0c-20c24a1aeae9
   type: SingleChoice
-  content: What are the types of CEX based on the order book model?
-  hint: NoHint
-  explanation: explanation
+  content: What are the types of CEX based on the order book model storage?
+  hint: Centralized Database and Blockchain Database
+  explanation: There are two types of Order Book Model:- 1) Stores all data on a centralized database & 2) Stores all data on distributed, decentralized, and immutable data blocks of a Blockchain database.
   answerKeys:
     - C
   subTopics:
@@ -117,8 +117,8 @@
 - uuid: ce272bb4-0b0a-404d-a816-f64706893a04
   type: MultipleChoice
   content: CEX with Server Order Book Model has
-  hint: NoHint
-  explanation: explanation
+  hint: Faster, Uncensored, Free cancelation
+  explanation: Due to centralized governance they are faster as no validator/miner action is required in trade execution, and not to pay any gas fees for transactions hence, no fees are required for canceled orders, also all types of traders’ data are in the hand of a central authority so no censorship resistance.
   answerKeys:
     - A
     - C
@@ -138,8 +138,8 @@
 - uuid: 4985ad13-5ce6-4d04-8d66-96b378c13438
   type: MultipleChoice
   content: CEX with Onchain Order Book Model has
-  hint: NoHint
-  explanation: explanation
+  hint: Slower, Censored
+  explanation: Due to the Decentralized and Distributed Ledger storage system they are slower as the validator/miner action is required in trade execution and have to pay gas fees for transactions hence, fees are required for canceled orders, also all types of traders’ data are censorship resistance.
   answerKeys:
     - A
     - D
@@ -159,7 +159,7 @@
   type: SingleChoice
   content: ____ are basic sets of rules that allow data and cryptocurrencies to be shared securely between different nodes (i.e computers) in the blockchain network.
   hint: NoHint
-  explanation: explanation
+  explanation: A protocol is a set of rules and instructions that needs to be followed by each entity of a blockchain system for secure transfer.
   answerKeys:
     - B
   subTopics:
@@ -178,7 +178,7 @@
   type: SingleChoice
   content: DEX stands for
   hint: NoHint
-  explanation: explanation
+  explanation: Decentralized Exchange is a marketplace for trading crypto assets governed by protocols & nodes on the blockchain, and not by any centralized authority.
   answerKeys:
     - D
   subTopics:
@@ -196,8 +196,8 @@
 - uuid: 4b669837-4d58-4ca9-abfc-4dc7378116d8
   type: SingleChoice
   content: What is a Decentralized Exchange?
-  hint: NoHint
-  explanation: explanation
+  hint: Buyer-Seller
+  explanation: A platform/marketplace where buyer and seller trade crypto assets without the involvement of exchange as well as any third-party intermediary.
   answerKeys:
     - B
   subTopics:
@@ -215,8 +215,8 @@
 - uuid: 6c0e0592-9318-4ba8-863a-a83327b3ee5b
   type: SingleChoice
   content: The main advantage(s) of a decentralized exchange is(/are)
-  hint: NoHint
-  explanation: explanation
+  hint: Ownership of account and data with no fees to be paid. 
+  explanation: In DEX all the customer-related data are stored by the customer itself and for any trade transactions they will not have to pay any fee to the platform/marketplace. 
   answerKeys:
     - D
   subTopics:
@@ -233,9 +233,9 @@
       key: D
 - uuid: bc4b0aef-bf74-4b0b-bdab-0bbbb744a3ca
   type: MultipleChoice
-  content: What are the benefits of Decentralised exchanges over Centralised exchanges?
+  content: What are the benefits of Decentralized exchanges over Centralized exchanges?
   hint: NoHint
-  explanation: explanation
+  explanation: In DEX we don't need to do any KYC nor have to pay any fees as it is governed by protocol and not by any centralized authority. But requires validation by the miners which takes time hence, the transaction little slower than CEX.
   answerKeys:
     - A
     - C
@@ -255,7 +255,7 @@
   type: SingleChoice
   content: Some examples of decentralized cryptocurrency exchanges is/are
   hint: NoHint
-  explanation: explanation
+  explanation: Popular DEXs are Uniswap, dYdX, SushiSwap, PancakeSwap 
   answerKeys:
     - A
   subTopics:
@@ -274,7 +274,7 @@
   type: SingleChoice
   content: dYdX is a type of
   hint: NoHint
-  explanation: explanation
+  explanation: dYdX is an example of DEX as it is governed by protocols and not by any centralized authority.
   answerKeys:
     - B
   subTopics:
@@ -292,8 +292,8 @@
 - uuid: d69cf7c6-1ce4-4a10-bc5c-08392fc6c31e
   type: MultipleChoice
   content: What are the major downsides of decentralized exchanges?
-  hint: NoHint
-  explanation: explanation
+  hint: Gas Fees and Slow transaction
+  explanation: Due to security and validation by the miners of a transaction, we have to pay Gas fees even if the transaction gets failed which makes it slower than the CEX.
   answerKeys:
     - B
     - C
@@ -312,8 +312,8 @@
 - uuid: 80e8d2a0-2f76-48ba-a0cc-8c46501795db
   type: MultipleChoice
   content: The server book model has
-  hint: NoHint
-  explanation: explanation
+  hint: Faster and No fees for cancelled orders
+  explanation: As Server Book Model is governed by a central authority and not by any protocol it doesn't need any validation by any miners. Hence, are faster and don't need any fees for the failed transaction.
   answerKeys:
     - A
     - D
@@ -332,8 +332,8 @@
 - uuid: e5ee8053-d3cf-4b6f-97bf-0534f9874cc5
   type: SingleChoice
   content: Advantages of the on-chain order book model include
-  hint: NoHint
-  explanation: explanation
+  hint: Censored personal data
+  explanation: All the customers’ trading data, prices, and volumes of securities are stored on a Blockchain. Provide censorship resistance, as all data are stored on a distributed, and decentralized ledger in the form of immutable data blocks on the blockchain which are publicly shared among all its network nodes. Trade matching and settlement might be slow due to blockchain scalability issues.Fees are deducted in the form of Gas Fees for both successful and canceled orders. Miner/Trader/Exchange Operator can front-run users.
   answerKeys:
     - A
   subTopics:
@@ -351,8 +351,8 @@
 - uuid: c55b4cf0-fcf9-4a33-8fae-4722ad825e1d
   type: SingleChoice
   content: Centralized exchanges do the market making by creating liquidity pools.
-  hint: NoHint
-  explanation: explanation
+  hint: Order Book Model
+  explanation: CEX follows Order Book Model whereas the DEX follows protocols(such as AMM) for creating the liquidity pools.
   answerKeys:
     - B
   subTopics:
@@ -367,7 +367,7 @@
   type: SingleChoice
   content: ____ is a collection of funds, funded by Liquidity Providers(LP) that are locked in a smart contract, to facilitate trading, borrowing, lending, yielding, etc.
   hint: NoHint
-  explanation: explanation
+  explanation: Liquidity Pools are created using a protocol(such as AMM) in DEX where liquidity providers come to fund the pools.
   answerKeys:
     - A
   subTopics:
@@ -386,7 +386,7 @@
   type: SingleChoice
   content: What does AMM stand for?
   hint: NoHint
-  explanation: explanation
+  explanation: Automated Market Maker(AMM) is a protocol that creates the marketplace for buyers and sellers on its own.
   answerKeys:
     - B
   subTopics:
@@ -404,8 +404,8 @@
 - uuid: 70181494-66fe-41c7-b483-f6d6c0a66990
   type: SingleChoice
   content: What is an Automated Market Maker?
-  hint: NoHint
-  explanation: explanation
+  hint: Protocol, Liquidity and Automated
+  explanation: AMM is a type of DEX protocol that relies on a mathematical formula that allows digital assets to be traded without permission, automatically by using liquidity pools instead of the traditional order book pricing model.
   answerKeys:
     - D
   subTopics:
@@ -416,15 +416,15 @@
       key: A
     - content: A system that ensures there is always enough liquidity to make trades
       key: B
-    - content: A code function that automatically lists new markets on an exchange
+    - content: A code that automatically lists new markets on an exchange
       key: C
     - content: All of the above
       key: D
 - uuid: 02a5fbb6-3005-482b-bd7e-96e83bf4711a
   type: SingleChoice
   content: Let's say, Asset X quantity * Asset Y quantity = K (a constant) in AMM then
-  hint: NoHint
-  explanation: explanation
+  hint: X = K/Y
+  explanation: The ratio of assets X and Y set the price of the pool as the purchase of asset X increases the price of X and decreases the price of Y and vice-versa.
   answerKeys:
     - A
   subTopics:
@@ -441,18 +441,18 @@
       key: D
 - uuid: 08d54716-41cc-4c8f-b3bb-d63526d86070
   type: SingleChoice
-  content: Properties of AMM are
-  hint: NoHint
-  explanation: explanation
+  content: Properties of a Constant Product AMM are
+  hint: Quick Liquidity, Ratio of X and Y set price and purchase of one affect other's price. 
+  explanation: Asset X quantity * Asset Y quantity = K (a constant) or simply  X*Y=K. Hence, provides:- 1) Instant liquidity, irrespective of the trade size. 2) Purchase of asset X increases the price of X and decreases the price of Y. 3) The ratio of assets X and Y sets the price
   answerKeys:
     - D
   subTopics:
     - amm
   difficultyLevel: Low
   choices:
-    - content: Instant liquidity, irrespective of the trade size
+    - content: Instant liquidity, irrespective of the trade size.
       key: A
-    - content: The ratio of assets X and Y sets the price
+    - content: The ratio of assets X and Y sets the price of the pool.
       key: B
     - content: Purchase of asset X increases the price of X and decreases the price of Y
       key: C
@@ -461,8 +461,8 @@
 - uuid: de92eb6e-19cd-4ccb-937d-b2ad9968af78
   type: MultipleChoice
   content: Cons of AMM are
-  hint: NoHint
-  explanation: explanation
+  hint: Impermanent Loss, High Slippage, Total fund loss
+  explanation: Cons as are:- 1) The danger of impermanent loss/coin De-Pegg may cause a total possible loss of funds in Liquidity Pools. 2) High slippage for low liquidity markets. So, please do observe and set your slippage tolerance threshold level while trading.
   answerKeys:
     - A
     - C
@@ -482,8 +482,8 @@
 - uuid: 54e56af9-79d0-4581-83e3-feca21084c5f
   type: MultipleChoice
   content: Advantages of AMM are
-  hint: NoHint
-  explanation: explanation
+  hint: No Order-Book, Less Gas fees
+  explanation: Pros of an AMM:-1) No Order Book Maintenance for traders but arbitrage is required for them. 2)A simple implementation of Constant Product AMM causes less computation which results in Low gas costs.
   answerKeys:
     - A
     - D
@@ -501,28 +501,28 @@
       key: D
 - uuid: 2b52089f-3e36-43a8-8244-a1f6547c8ef4
   type: SingleChoice
-  content: Uniswap uses which of the folowing protocol?
-  hint: NoHint
-  explanation: explanation
+  content: Uniswap uses which of the following protocol?
+  hint: CP
+  explanation: Uniswap uses the Constant Product AMM protocol which is as follows:- Asset `X` quantity * Asset `Y` quantity = `K` (a constant)  or simply as `X*Y=K`. 
   answerKeys:
     - B
   subTopics:
     - amm
   difficultyLevel: Low
   choices:
-    - content: Positive Product
+    - content: Positive Product AMM
       key: A
     - content: Constant Product AMM
       key: B
-    - content: Exponential Product
+    - content: Exponential Product AMM
       key: C
-    - content: Linear Product
+    - content: Linear Product AMM
       key: D
 - uuid: b86129d0-4d05-4995-8f82-3d5b6639b5bf
   type: SingleChoice
   content: How do Arbitrageurs make a profit?
-  hint: NoHint
-  explanation: explanation
+  hint: Arbitrage
+  explanation: Arbitrage is an investment strategy in which an investor (a.k.a. Arbitrageurs) simultaneously buys and sells the same asset in different markets(either AMM or some other market) to profit from tiny differences in the asset's listed price
   answerKeys:
     - A
   subTopics:
@@ -540,8 +540,8 @@
 - uuid: 7e81c416-cd46-4424-b609-024c2d71ec9a
   type: SingleChoice
   content: What do you understand by slippage?
-  hint: NoHint
-  explanation: explanation
+  hint: Price change
+  explanation: Slippage is the difference between the expected price of an order and the price when the order executes. ( due to the volatility of cryptocurrency prices )
   answerKeys:
     - C
   subTopics:
@@ -560,14 +560,14 @@
   type: SingleChoice
   content:  ___ refers to the phenomenon of a stablecoin deviating or any asset deviating from its intended peg.
   hint: NoHint
-  explanation: explanation
+  explanation: De-pegging refers to the phenomenon of a stablecoin deviating or any asset deviating from its intended peg. For example:- In the case of a stablecoin pegged to USD, if its value reduces below $1, then the coin is said to be “de-pegged” which indirectly reduces the valuation of investment to a Liquidity Pool by a Liquidity Provider.
   answerKeys:
     - D
   subTopics:
     - amm
   difficultyLevel: Low
   choices:
-    - content: De-viating
+    - content: Deviating
       key: A
     - content: Pegging
       key: B
@@ -577,9 +577,9 @@
       key: D
 - uuid: ae7e6de1-c8ed-47ad-b2f4-f18ace5342f0
   type: SingleChoice
-  content: What are the types of rewards in DeFi?
-  hint: NoHint
-  explanation: explanation
+  content: What are the types of rewards Liquidity Providers?
+  hint: Two types
+  explanation: Types of rewards that Liquidity Providers get on funding Liquidity Pools are:- 1) Trading Fees-that are paid by traders on each trade( eg, 0.03% in Curve.fi ) 2) Liquidity Mining-an incentive/reward given to the Liquidity Providers(LP) proportional to the amount of liquidity provided by the LP. Rewards can also be provided to the LPs in terms of “Airdrops”.
   answerKeys:
     - C
   subTopics:
@@ -596,30 +596,30 @@
       key: D
 - uuid: c35a91f1-92b4-4945-bac1-b23ec32d54c7
   type: SingleChoice
-  content: Flash swap requires that
-  hint: NoHint
-  explanation: explanation
+  content: Arbitrage requires that
+  hint: Same Asset
+  explanation: Arbitrage is an investment strategy in which an investor (a.k.a. Arbitrageurs) simultaneously buys and sells the same asset in different markets(either AMM or some other market) to profit from tiny differences in the asset's listed price.
   answerKeys:
     - B
   subTopics:
     - amm
   difficultyLevel: Medium
   choices:
-    - content: Repayment occurs with different asset
+    - content: Repayment to be paid with different asset
       key: A
-    - content: Repayment occurs with the same asset
+    - content: Repayment to be paid with the same asset
       key: B
-    - content: Repayment does not necessarily occur
+    - content: Repayment does not necessarily to be paid
       key: C
     - content: Repayment occurs in multiple transactions
       key: D
 - uuid: 39723041-e29c-4e3e-a7c1-46d40ade7d84
   type: SingleChoice
   content: Flash loan and flash swap are the same
-  hint: NoHint
-  explanation: explanation
+  hint: One is Loan and other is Exchanged value
+  explanation: Flash Swaps allows us to withdraw up to the full reserves of any ERC20 token on Uniswap and execute arbitrary logic at no upfront cost, provided that by the end of the transaction you either- 1) Pay for the withdrawn ERC20 tokens with the corresponding pair tokens, 2) Return the withdrawn ERC20 tokens along with a small fee. Whereas th Flash Loan is a loan which we have to take and repay back in one transaction.
   answerKeys:
-    - A
+    - B
   subTopics:
     - amm
   difficultyLevel: Low
@@ -632,7 +632,7 @@
   type: SingleChoice
   content: Impermanent loss is realized upon
   hint: NoHint
-  explanation: explanation
+  explanation: Impermanent loss == Not Permanent Loss. Loss generated due to price change of the asset which is realized upon withdrawal only. So, it can result in a total loss of value but- Trading fees taken from the traders may compensate for it and Liquidity mining reward may compensate for it.
   answerKeys:
     - D
   subTopics:
@@ -649,9 +649,9 @@
       key: D
 - uuid: 196f587a-37c1-4a6d-9ba5-3909c0bd9819
   type: SingleChoice
-  content:  ___the difference between the expected price of an order and the price when the order executes.
+  content:  ___ is the difference between the expected price of an order and the price when the order executes.
   hint: NoHint
-  explanation: explanation
+  explanation: Arbitrage is an investment strategy in which an investor (a.k.a. Arbitrageurs) simultaneously buys and sells the same asset in different markets(either AMM or some other market) to profit from tiny differences in the asset's listed price.
   answerKeys:
     - C
   subTopics:
@@ -660,7 +660,7 @@
   choices:
     - content: De-peg
       key: A
-    - content: Arbitrageous
+    - content: Arbitrage
       key: B
     - content: Slippage
       key: C
@@ -669,8 +669,8 @@
 - uuid: 2ddc6bd5-b036-48a2-b8af-6a1d5dbd5c57
   type: SingeChoice
   content: How traders make profit using AMM?
-  hint: NoHint
-  explanation: explanation
+  hint: Two ways
+  explanation: Traders use Arbitrage and Flash Swaps or Capital Free Arbitrage to make profits.
   answerKeys:
     - D
   subTopics:
@@ -679,7 +679,7 @@
   choices:
     - content: Flash swap
       key: A
-    - content: Arbitrageous
+    - content: Arbitrage
       key: B
     - content: None of these
       key: C
@@ -689,7 +689,7 @@
   type: MultipleChoice
   content: Two types of dex aggregators
   hint: NoHint
-  explanation: explanation
+  explanation: Types of DEX Aggregators are 1) Off-chain Aggregator ( like 1inch, paraswap ) and 2) On-chain Aggregator ( like swapswap )
   answerKeys:
     - A
     - D
@@ -708,8 +708,8 @@
 - uuid: b031bea3-af82-47fb-ae55-8d1ae58dd907
   type: MultipleChoice
   content: Off-chain aggregator
-  hint: NoHint
-  explanation: explanation
+  hint: swap multiple chains, Operator front runs
+  explanation: Off-chain DEX Aggregator ( like 1inch, paraswap ) 1) Can swap multiple chains flexibly present over 4+ exchanges and 2) An operator can front-run users.
   answerKeys:
     - A
     - D
@@ -728,8 +728,8 @@
 - uuid: 9f836728-9391-4d01-a804-798a00841399
   type: MultipleChoice
   content: On-chain aggregator
-  hint: NoHint
-  explanation: explanation
+  hint: Arbitrage, less efficient
+  explanation: On-chain Aggregator ( like swapswap ) used for arbitrage findings but less efficiently cover 4+ exchanges
   answerKeys:
     - B
     - C
@@ -749,7 +749,7 @@
   type: SingleChoice
   content: Swapswap is an example of
   hint: NoHint
-  explanation: explanation
+  explanation: On-Chain DEX Aggregator
   answerKeys:
     - A
   subTopics:
@@ -768,7 +768,7 @@
   type: MultipleChoice
   content: Pick the off chain aggregator
   hint: NoHint
-  explanation: explanation
+  explanation: 1inch and paraswap are popular On-chain DEX Aggregators.
   answerKeys:
     - A
     - C
@@ -783,175 +783,4 @@
     - content: 1inch
       key: C
     - content: Uniswap
-      key: D
-- uuid: 6ffda0b2-f56c-4dca-a793-a946cbdbb484
-  type: MultipleChoice
-  content: question
-  hint: NoHint
-  explanation: explanation
-  answerKeys:
-    - A
-  subTopics:
-    - intro
-  difficultyLevel: Low
-  choices:
-    - content: option 1
-      key: A
-    - content: option 2
-      key: B
-    - content: option 3
-      key: C
-    - content: option 4
-      key: D
-- uuid: e4fc4bed-8e12-43e9-b434-68312e8a45ac
-  type: MultipleChoice
-  content: question
-  hint: NoHint
-  explanation: explanation
-  answerKeys:
-    - A
-  subTopics:
-    - intro
-  difficultyLevel: Low
-  choices:
-    - content: option 1
-      key: A
-    - content: option 2
-      key: B
-    - content: option 3
-      key: C
-    - content: option 4
-      key: D
-- uuid: aafb3ee2-666d-4369-b288-ff695d08e452
-  type: MultipleChoice
-  content: question
-  hint: NoHint
-  explanation: explanation
-  answerKeys:
-    - A
-  subTopics:
-    - intro
-  difficultyLevel: Low
-  choices:
-    - content: option 1
-      key: A
-    - content: option 2
-      key: B
-    - content: option 3
-      key: C
-    - content: option 4
-      key: D
-- uuid: eeb4a5af-5d4c-4aba-85f7-92f0dff6815c
-  type: MultipleChoice
-  content: question
-  hint: NoHint
-  explanation: explanation
-  answerKeys:
-    - A
-  subTopics:
-    - intro
-  difficultyLevel: Low
-  choices:
-    - content: option 1
-      key: A
-    - content: option 2
-      key: B
-    - content: option 3
-      key: C
-    - content: option 4
-      key: D
-- uuid: 2e9e17a0-70aa-415d-be68-1cfd3c80be82
-  type: MultipleChoice
-  content: question
-  hint: NoHint
-  explanation: explanation
-  answerKeys:
-    - A
-  subTopics:
-    - intro
-  difficultyLevel: Low
-  choices:
-    - content: option 1
-      key: A
-    - content: option 2
-      key: B
-    - content: option 3
-      key: C
-    - content: option 4
-      key: D
-- uuid: cc927450-b21a-4aca-b4c2-a585e623b456
-  type: MultipleChoice
-  content: question
-  hint: NoHint
-  explanation: explanation
-  answerKeys:
-    - A
-  subTopics:
-    - intro
-  difficultyLevel: Low
-  choices:
-    - content: option 1
-      key: A
-    - content: option 2
-      key: B
-    - content: option 3
-      key: C
-    - content: option 4
-      key: D
-- uuid: 991ef8c9-a742-49d5-a88b-4be7f69b1602
-  type: MultipleChoice
-  content: question
-  hint: NoHint
-  explanation: explanation
-  answerKeys:
-    - A
-  subTopics:
-    - intro
-  difficultyLevel: Low
-  choices:
-    - content: option 1
-      key: A
-    - content: option 2
-      key: B
-    - content: option 3
-      key: C
-    - content: option 4
-      key: D
-- uuid: 44d051f2-628a-4247-8592-e61c0be94847
-  type: MultipleChoice
-  content: question
-  hint: NoHint
-  explanation: explanation
-  answerKeys:
-    - A
-  subTopics:
-    - intro
-  difficultyLevel: Low
-  choices:
-    - content: option 1
-      key: A
-    - content: option 2
-      key: B
-    - content: option 3
-      key: C
-    - content: option 4
-      key: D
-- uuid: 4f92a61e-2e70-48f7-94f3-31a9e4075704
-  type: MultipleChoice
-  content: question
-  hint: NoHint
-  explanation: explanation
-  answerKeys:
-    - A
-  subTopics:
-    - intro
-  difficultyLevel: Low
-  choices:
-    - content: option 1
-      key: A
-    - content: option 2
-      key: B
-    - content: option 3
-      key: C
-    - content: option 4
       key: D
