@@ -142,7 +142,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
   them.
   * A decentralized autonomous organization (DAO) has its rules of operation
   encoded in smart contracts that determine who can execute what behavior
-  or upgrade. 
+  or upgrade.   
   * It is common for a DAO to have some kind of governance token, which gives
   an owner some percentage of the vote on future outcomes.
  
