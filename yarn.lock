@@ -7,22 +7,22 @@
   "resolved" "https://registry.npmjs.org/@types/commander/-/commander-2.12.2.tgz"
   "version" "2.12.2"
   dependencies:
-    "commander" "*"
+    commander "*"
 
-"commander@*", "commander@^9.3.0":
-  "integrity" "sha512-sRPT+umqkz90UA8M1yqYfnHlZA7fF6nSphDtxeywPZ49ysjxDQybzk13CL+mXekDRG92skbcqCLVovuCusNmFw=="
-  "resolved" "https://registry.npmjs.org/commander/-/commander-9.4.0.tgz"
-  "version" "9.4.0"
+commander@*, commander@^9.3.0:
+  version "9.4.0"
+  resolved "https://registry.npmjs.org/commander/-/commander-9.4.0.tgz"
+  integrity sha512-sRPT+umqkz90UA8M1yqYfnHlZA7fF6nSphDtxeywPZ49ysjxDQybzk13CL+mXekDRG92skbcqCLVovuCusNmFw==
 
-"dedent-js@^1.0.1":
-  "integrity" "sha512-OUepMozQULMLUmhxS95Vudo0jb0UchLimi3+pQ2plj61Fcy8axbP9hbiD4Sz6DPqn6XG3kfmziVfQ1rSys5AJQ=="
-  "resolved" "https://registry.npmjs.org/dedent-js/-/dedent-js-1.0.1.tgz"
-  "version" "1.0.1"
+dedent-js@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.npmjs.org/dedent-js/-/dedent-js-1.0.1.tgz"
+  integrity sha512-OUepMozQULMLUmhxS95Vudo0jb0UchLimi3+pQ2plj61Fcy8axbP9hbiD4Sz6DPqn6XG3kfmziVfQ1rSys5AJQ==
 
-"dodao-course-processor@^0.1.23":
-  "integrity" "sha512-/3iRTr7wDub3+iz2jR6BTDUMDzuXhMs3Ebl8UldQCls7pEZ2i3h2euqmj9d1IdX+ZfS62cUgTQsPFfmAwK9p7w=="
-  "resolved" "https://registry.npmjs.org/dodao-course-processor/-/dodao-course-processor-0.1.23.tgz"
-  "version" "0.1.23"
+dodao-course-processor@^0.1.24:
+  version "0.1.24"
+  resolved "https://registry.yarnpkg.com/dodao-course-processor/-/dodao-course-processor-0.1.24.tgz#28e5b29e1dd28b6e963442479a1c7e4d23b16815"
+  integrity sha512-PMUWf3Fxuu8wBqey7jUY0t5dty8xw20wlQTSktCHsFI52vDQKMjho+Uy8VxOJjKxgiFHeiIycGf1BZHis+e2Vw==
   dependencies:
     "@types/commander" "^2.12.2"
     "commander" "^9.3.0"
