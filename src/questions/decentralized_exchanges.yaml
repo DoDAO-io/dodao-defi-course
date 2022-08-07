@@ -58,7 +58,7 @@
       key: D
 - uuid: 6cb19075-8295-424d-893b-e1900b42ed1b
   type: SingleChoice
-  content: What is a Centralized Exchange ?
+  content: What is a Centralized Exchange?
   hint: Buyer-Exchange platform/marketplace-Seller
   explanation: A centralized exchange is a platform/marketplace where buyer and seller come together to buy and sell an asset.
   answerKeys:
@@ -541,7 +541,7 @@
   type: SingleChoice
   content: What do you understand by slippage?
   hint: Price change
-  explanation: Slippage is the difference between the expected price of an order and the price when the order executes. ( due to the volatility of cryptocurrency prices )
+  explanation: Slippage is the difference between the expected price of an order and the price when the order executes. (due to the volatility of cryptocurrency prices)
   answerKeys:
     - C
   subTopics:
@@ -579,7 +579,7 @@
   type: SingleChoice
   content: What are the types of rewards Liquidity Providers?
   hint: Two types
-  explanation: Types of rewards that Liquidity Providers get on funding Liquidity Pools are:- 1) Trading Fees-that are paid by traders on each trade( eg, 0.03% in Curve.fi ) 2) Liquidity Mining-an incentive/reward given to the Liquidity Providers(LP) proportional to the amount of liquidity provided by the LP. Rewards can also be provided to the LPs in terms of “Airdrops”.
+  explanation: Types of rewards that Liquidity Providers get on funding Liquidity Pools are:- 1) Trading Fees-that are paid by traders on each trade(eg, 0.03% in Curve.fi) 2) Liquidity Mining-an incentive/reward given to the Liquidity Providers(LP) proportional to the amount of liquidity provided by the LP. Rewards can also be provided to the LPs in terms of “Airdrops”.
   answerKeys:
     - C
   subTopics:
@@ -689,7 +689,7 @@
   type: MultipleChoice
   content: Two types of dex aggregators
   hint: NoHint
-  explanation: Types of DEX Aggregators are 1) Off-chain Aggregator ( like 1inch, paraswap ) and 2) On-chain Aggregator ( like swapswap )
+  explanation: Types of DEX Aggregators are 1) Off-chain Aggregator (like 1inch, paraswap) and 2) On-chain Aggregator (like swapswap)
   answerKeys:
     - A
     - D
@@ -709,7 +709,7 @@
   type: MultipleChoice
   content: Off-chain aggregator
   hint: swap multiple chains, Operator front runs
-  explanation: Off-chain DEX Aggregator ( like 1inch, paraswap ) 1) Can swap multiple chains flexibly present over 4+ exchanges and 2) An operator can front-run users.
+  explanation: Off-chain DEX Aggregator (like 1inch, paraswap) 1) Can swap multiple chains flexibly present over 4+ exchanges and 2) An operator can front-run users.
   answerKeys:
     - A
     - D
@@ -729,7 +729,7 @@
   type: MultipleChoice
   content: On-chain aggregator
   hint: Arbitrage, less efficient
-  explanation: On-chain Aggregator ( like swapswap ) used for arbitrage findings but less efficiently cover 4+ exchanges
+  explanation: On-chain Aggregator (like swapswap) used for arbitrage findings but less efficiently cover 4+ exchanges
   answerKeys:
     - B
     - C
