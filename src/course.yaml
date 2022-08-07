@@ -70,7 +70,7 @@ topics:
       * Compound
       * Aave
     readings: blockchain_basics.yaml
-    summaries: blockchain_basics.yaml
+    summaries: lending_and_credit.yaml
     questions: blockchain_basics.yaml
     status: In Progress
     completionWeek: July 18
