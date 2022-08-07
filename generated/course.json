@@ -6502,38 +6502,33 @@
       "questions": [
         {
           "uuid": "3778f972-3042-43af-92ed-1c08cfb4139a",
-          "type": "MultipleChoice",
+          "type": "SingleChoice",
           "content": "What is an Exchange?",
-          "hint": "Just two people required",
-          "explanation": "DEX is a smart contract that acts as a platform for settling the trade among any two addresses instantly without intervening.",
+          "hint": "NoHint",
+          "explanation": "A marketplace to trade different types of assets for fiat currencies only.",
           "answerKeys": [
-            "A"
+            "D"
           ],
-          "topic": "01_data_types",
           "subTopics": [
-            "amm"
+            "intro"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
               "content": "A marketplace where securities, commodities, derivatives, and other financial instruments can not be traded",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
               "content": "A marketplace for crypto traders without any intermediary intervention",
-              "key": "B",
-              "order": 1
+              "key": "B"
             },
             {
               "content": "A marketplace or platform which allows customers to trade cryptocurrencies for other assets",
-              "key": "C",
-              "order": 2
+              "key": "C"
             },
             {
               "content": "A marketplace where securities, commodities, derivatives, and other financial instruments are traded",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
@@ -6541,110 +6536,96 @@
           "uuid": "e7765f9d-6a7b-44c7-99fb-e0f67cea00eb",
           "type": "MultipleChoice",
           "content": "What is a Crypto Exchange?",
-          "hint": "hint",
-          "explanation": "explanation",
+          "hint": "NoHint",
+          "explanation": "A marketplace to trade crypto / digital currencies for fiat or other crypto / digital currencies.",
           "answerKeys": [
-            "B,D"
+            "B",
+            "D"
           ],
-          "topic": "01_data_types",
           "subTopics": [
-            "amm"
+            "intro"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
               "content": "A marketplace for crypto traders without any intermediary intervention",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
               "content": "A marketplace which allows customers to trade cryptocurrencies for digital currencies",
-              "key": "B",
-              "order": 1
+              "key": "B"
             },
             {
               "content": "A marketplace where securities, commodities, derivatives, and other financial instruments are traded",
-              "key": "C",
-              "order": 2
+              "key": "C"
             },
             {
               "content": "A marketplace which allows customers to trade cryptocurrencies for fiat money",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
         {
           "uuid": "10e96ed7-229f-4a44-9c48-01ec2a8f4896",
-          "type": "MultipleChoice",
+          "type": "SingleChoice",
           "content": "Types of Crypto Exchange",
-          "hint": "hint",
-          "explanation": "explanation",
+          "hint": "There are 2 types of crypto exchange",
+          "explanation": "There are 2 types of crypto-exchange in which one uses the Order-Book Model & governed by a central authority (known as Traditional or Centralized Exchange) and the other uses Automated Market Maker i.e not governed by any central authority (known as Decentralized Exchange)",
           "answerKeys": [
-            "A"
+            "C"
           ],
-          "topic": "01_data_types",
           "subTopics": [
-            "amm"
+            "intro"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
               "content": "Traditional or Centralized Exchange",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
               "content": "Decentralized Exchange",
-              "key": "B",
-              "order": 1
+              "key": "B"
             },
             {
               "content": "Both of these",
-              "key": "C",
-              "order": 2
+              "key": "C"
             },
             {
               "content": "None of these",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
         {
           "uuid": "6cb19075-8295-424d-893b-e1900b42ed1b",
-          "type": "MultipleChoice",
-          "content": "What is a Centralized Exchange ?",
-          "hint": "hint",
-          "explanation": "explanation",
+          "type": "SingleChoice",
+          "content": "What is a Centralized Exchange?",
+          "hint": "Buyer-Exchange platform/marketplace-Seller",
+          "explanation": "A centralized exchange is a platform/marketplace where buyer and seller come together to buy and sell an asset.",
           "answerKeys": [
-            "A"
+            "B"
           ],
-          "topic": "01_data_types",
           "subTopics": [
-            "amm"
+            "intro"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
               "content": "A peer-exchange-peer marketplace for crypto traders without any intermediary intervention",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
               "content": "A peer-to-exchange-to-peer marketplace where transactions between crypto traders are done using traditional “Order Book” models that are officiated by banks, brokers, or any other intermediary.",
-              "key": "B",
-              "order": 1
+              "key": "B"
             },
             {
               "content": "A marketplace where securities, commodities, derivatives, and other financial instruments are traded",
-              "key": "C",
-              "order": 2
+              "key": "C"
             },
             {
               "content": "A peer-to-peer marketplace for crypto traders without any intermediary intervention",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
@@ -6652,73 +6633,64 @@
           "uuid": "1ed8c43c-ca15-4a4d-9260-4a004db1b663",
           "type": "MultipleChoice",
           "content": "What is an Order Book?",
-          "hint": "hint",
-          "explanation": "explanation",
+          "hint": "Dashboard that consists of list of buying and selling prices of an asset.",
+          "explanation": "It's like a dynamic dashboard that shows different buying and selling prices of an asset, set by different buyers and sellers in one place along with the current trading volume of that asset.",
           "answerKeys": [
-            "A"
+            "A",
+            "C"
           ],
-          "topic": "01_data_types",
           "subTopics": [
-            "amm"
+            "crypto-exchange"
           ],
-          "difficultyLevel": "Low",
+          "difficultyLevel": "Medium",
           "choices": [
             {
               "content": "A list of orders that presents different offers from buyers and sellers for a specific security.",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
-              "content": "A peer-to-peer marketplace for crypto traders without any intermediary intervention",
-              "key": "B",
-              "order": 1
+              "content": "A list of orders that presents different offers from buyers and sellers for all securities simultaneously.",
+              "key": "B"
             },
             {
               "content": "It also shows the prices and volumes that people in the market are willing to buy and sell the security for.",
-              "key": "C",
-              "order": 2
+              "key": "C"
             },
             {
               "content": "It does not show the prices and volumes that people in the market are willing to buy and sell the security for.",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
         {
           "uuid": "ad432625-2565-4976-ad0c-20c24a1aeae9",
-          "type": "MultipleChoice",
-          "content": "What are the types of CEX based on the order book model?",
-          "hint": "hint",
-          "explanation": "explanation",
+          "type": "SingleChoice",
+          "content": "What are the types of CEX based on the order book model storage?",
+          "hint": "Centralized Database and Blockchain Database",
+          "explanation": "There are two types of Order Book Model:- 1) Stores all data on a centralized database & 2) Stores all data on distributed, decentralized, and immutable data blocks of a Blockchain database.",
           "answerKeys": [
-            "A"
+            "C"
           ],
-          "topic": "01_data_types",
           "subTopics": [
-            "amm"
+            "crypto-exchange"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
               "content": "CEX with Server Order Book Model",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
               "content": "CEX with Onchain Order Book Model",
-              "key": "B",
-              "order": 1
+              "key": "B"
             },
             {
               "content": "Both of these",
-              "key": "C",
-              "order": 2
+              "key": "C"
             },
             {
               "content": "None of these",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
@@ -6726,36 +6698,33 @@
           "uuid": "ce272bb4-0b0a-404d-a816-f64706893a04",
           "type": "MultipleChoice",
           "content": "CEX with Server Order Book Model has",
-          "hint": "hint",
-          "explanation": "explanation",
+          "hint": "Faster, Uncensored, Free cancelation",
+          "explanation": "Due to centralized governance they are faster as no validator/miner action is required in trade execution, and not to pay any gas fees for transactions hence, no fees are required for canceled orders, also all types of traders’ data are in the hand of a central authority so no censorship resistance.",
           "answerKeys": [
-            "A"
+            "A",
+            "C",
+            "D"
           ],
-          "topic": "01_data_types",
           "subTopics": [
-            "amm"
+            "crypto-exchange"
           ],
-          "difficultyLevel": "Low",
+          "difficultyLevel": "Medium",
           "choices": [
             {
               "content": "Faster trade matching and settlement",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
               "content": "Slow trade matching and settlement",
-              "key": "B",
-              "order": 1
+              "key": "B"
             },
             {
               "content": "No fees for cancelled orders",
-              "key": "C",
-              "order": 2
+              "key": "C"
             },
             {
               "content": "No censorship resistance",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
@@ -6763,295 +6732,257 @@
           "uuid": "4985ad13-5ce6-4d04-8d66-96b378c13438",
           "type": "MultipleChoice",
           "content": "CEX with Onchain Order Book Model has",
-          "hint": "hint",
-          "explanation": "explanation",
+          "hint": "Slower, Censored",
+          "explanation": "Due to the Decentralized and Distributed Ledger storage system they are slower as the validator/miner action is required in trade execution and have to pay gas fees for transactions hence, fees are required for canceled orders, also all types of traders’ data are censorship resistance.",
           "answerKeys": [
-            "A"
+            "A",
+            "D"
           ],
-          "topic": "01_data_types",
           "subTopics": [
-            "amm"
+            "crypto-exchange"
           ],
-          "difficultyLevel": "Low",
+          "difficultyLevel": "Medium",
           "choices": [
             {
               "content": "Slow trade matching and settlement",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
               "content": "No fees for cancelled orders",
-              "key": "B",
-              "order": 1
+              "key": "B"
             },
             {
               "content": "No Censorship resistance",
-              "key": "C",
-              "order": 2
+              "key": "C"
             },
             {
               "content": "Censorship resistance",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
         {
           "uuid": "39cd2b05-81f4-4b0a-a540-e1d21fa275b7",
-          "type": "MultipleChoice",
+          "type": "SingleChoice",
           "content": "____ are basic sets of rules that allow data and cryptocurrencies to be shared securely between different nodes (i.e computers) in the blockchain network.",
-          "hint": "hint",
-          "explanation": "explanation",
+          "hint": "NoHint",
+          "explanation": "A protocol is a set of rules and instructions that needs to be followed by each entity of a blockchain system for secure transfer.",
           "answerKeys": [
-            "A"
+            "B"
           ],
-          "topic": "01_data_types",
           "subTopics": [
-            "amm"
+            "crypto-exchange"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
               "content": "Liquidity Pools",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
               "content": "Protocol",
-              "key": "B",
-              "order": 1
+              "key": "B"
             },
             {
               "content": "Order Book",
-              "key": "C",
-              "order": 2
+              "key": "C"
             },
             {
               "content": "Exchanges",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
         {
           "uuid": "4f6e29dd-b146-4601-85b9-92c648310b15",
-          "type": "MultipleChoice",
+          "type": "SingleChoice",
           "content": "DEX stands for",
-          "hint": "hint",
-          "explanation": "explanation",
+          "hint": "NoHint",
+          "explanation": "Decentralized Exchange is a marketplace for trading crypto assets governed by protocols & nodes on the blockchain, and not by any centralized authority.",
           "answerKeys": [
-            "A"
+            "D"
           ],
-          "topic": "01_data_types",
           "subTopics": [
-            "amm"
+            "dex-definition"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
               "content": "Deterministic Expansion",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
               "content": "Deterministic Exchange",
-              "key": "B",
-              "order": 1
+              "key": "B"
             },
             {
               "content": "Decentralized Expansion",
-              "key": "C",
-              "order": 2
+              "key": "C"
             },
             {
               "content": "Decentralized Exchange",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
         {
           "uuid": "4b669837-4d58-4ca9-abfc-4dc7378116d8",
-          "type": "MultipleChoice",
+          "type": "SingleChoice",
           "content": "What is a Decentralized Exchange?",
-          "hint": "hint",
-          "explanation": "explanation",
+          "hint": "Buyer-Seller",
+          "explanation": "A platform/marketplace where buyer and seller trade crypto assets without the involvement of exchange as well as any third-party intermediary.",
           "answerKeys": [
-            "A"
+            "B"
           ],
-          "topic": "01_data_types",
           "subTopics": [
-            "amm"
+            "dex-definition"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
               "content": "A peer-exchange-peer marketplace for crypto traders without any intermediary intervention",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
               "content": "A peer-to-peer marketplace for crypto traders without any intermediary intervention",
-              "key": "B",
-              "order": 1
+              "key": "B"
             },
             {
               "content": "A peer-exchange-peer marketplace for crypto traders with intermediary interventions",
-              "key": "C",
-              "order": 2
+              "key": "C"
             },
             {
               "content": "A peer-to-peer marketplace for crypto traders with some intermediary intervention",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
         {
           "uuid": "6c0e0592-9318-4ba8-863a-a83327b3ee5b",
-          "type": "MultipleChoice",
-          "content": "The main advantage of a decentralized exchange is",
-          "hint": "hint",
-          "explanation": "explanation",
+          "type": "SingleChoice",
+          "content": "The main advantage(s) of a decentralized exchange is(/are)",
+          "hint": "Ownership of account and data with no fees to be paid.",
+          "explanation": "In DEX all the customer-related data are stored by the customer itself and for any trade transactions they will not have to pay any fee to the platform/marketplace.",
           "answerKeys": [
-            "A"
+            "D"
           ],
-          "topic": "01_data_types",
           "subTopics": [
-            "amm"
+            "dex-definition"
           ],
-          "difficultyLevel": "Low",
+          "difficultyLevel": "Medium",
           "choices": [
             {
               "content": "Users own their private keys",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
               "content": "Increased privacy due to the lack of knowing your customer (KYC) controls",
-              "key": "B",
-              "order": 1
+              "key": "B"
             },
             {
-              "content": "Large range of low-cap altcoins",
-              "key": "C",
-              "order": 2
+              "content": "No fees paid to the exchange",
+              "key": "C"
             },
             {
               "content": "All of the above",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
         {
           "uuid": "bc4b0aef-bf74-4b0b-bdab-0bbbb744a3ca",
           "type": "MultipleChoice",
-          "content": "What are the benefits of Decentralised exchanges over Centralised exchanges?",
-          "hint": "hint",
-          "explanation": "explanation",
+          "content": "What are the benefits of Decentralized exchanges over Centralized exchanges?",
+          "hint": "NoHint",
+          "explanation": "In DEX we don't need to do any KYC nor have to pay any fees as it is governed by protocol and not by any centralized authority. But requires validation by the miners which takes time hence, the transaction little slower than CEX.",
           "answerKeys": [
-            "A"
+            "A",
+            "C"
           ],
-          "topic": "01_data_types",
           "subTopics": [
-            "amm"
+            "dex-definition"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
               "content": "No KYC required",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
               "content": "KYC",
-              "key": "B",
-              "order": 1
+              "key": "B"
             },
             {
               "content": "No fees are paid to the exchange",
-              "key": "C",
-              "order": 2
+              "key": "C"
             },
             {
               "content": "Fast matching",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
         {
           "uuid": "6f9f9889-ad81-4272-a8d8-d58d5aa5a64b",
-          "type": "MultipleChoice",
-          "content": "Some examples of decentralized cryptocurrency exchanges are",
-          "hint": "hint",
-          "explanation": "explanation",
+          "type": "SingleChoice",
+          "content": "Some examples of decentralized cryptocurrency exchanges is/are",
+          "hint": "NoHint",
+          "explanation": "Popular DEXs are Uniswap, dYdX, SushiSwap, PancakeSwap",
           "answerKeys": [
             "A"
           ],
-          "topic": "01_data_types",
           "subTopics": [
-            "amm"
+            "dex-definition"
           ],
-          "difficultyLevel": "Low",
+          "difficultyLevel": "Medium",
           "choices": [
             {
               "content": "Uniswap",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
               "content": "Coinbase",
-              "key": "B",
-              "order": 1
+              "key": "B"
             },
             {
               "content": "FTX",
-              "key": "C",
-              "order": 2
+              "key": "C"
             },
             {
               "content": "Crypto.com",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
         {
           "uuid": "222ff36d-0766-421f-847e-f1d975f94efe",
-          "type": "MultipleChoice",
-          "content": "Sushiswap is a type of",
-          "hint": "hint",
-          "explanation": "explanation",
+          "type": "SingleChoice",
+          "content": "dYdX is a type of",
+          "hint": "NoHint",
+          "explanation": "dYdX is an example of DEX as it is governed by protocols and not by any centralized authority.",
           "answerKeys": [
-            "A"
+            "B"
           ],
-          "topic": "01_data_types",
           "subTopics": [
-            "amm"
+            "dex-definition"
           ],
-          "difficultyLevel": "Low",
+          "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "Decentralized Exchange",
-              "key": "A",
-              "order": 0
+              "content": "Centralized Exchange",
+              "key": "A"
             },
             {
-              "content": "Centralized Exchange",
-              "key": "B",
-              "order": 1
+              "content": "Decentralized Exchange",
+              "key": "B"
             },
             {
               "content": "Traditional Exchange",
-              "key": "C",
-              "order": 2
+              "key": "C"
             },
             {
               "content": "None of the above",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
@@ -7059,36 +6990,32 @@
           "uuid": "d69cf7c6-1ce4-4a10-bc5c-08392fc6c31e",
           "type": "MultipleChoice",
           "content": "What are the major downsides of decentralized exchanges?",
-          "hint": "hint",
-          "explanation": "explanation",
+          "hint": "Gas Fees and Slow transaction",
+          "explanation": "Due to security and validation by the miners of a transaction, we have to pay Gas fees even if the transaction gets failed which makes it slower than the CEX.",
           "answerKeys": [
-            "A"
+            "B",
+            "C"
           ],
-          "topic": "01_data_types",
           "subTopics": [
-            "amm"
+            "dex-definition"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
               "content": "No KYC/AML",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
               "content": "Fees for a deposit, withdrawal, trade creation/cancel",
-              "key": "B",
-              "order": 1
+              "key": "B"
             },
             {
               "content": "Slow execution",
-              "key": "C",
-              "order": 2
+              "key": "C"
             },
             {
               "content": "No fees are paid to the exchange",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
@@ -7096,123 +7023,100 @@
           "uuid": "80e8d2a0-2f76-48ba-a0cc-8c46501795db",
           "type": "MultipleChoice",
           "content": "The server book model has",
-          "hint": "hint",
-          "explanation": "explanation",
+          "hint": "Faster and No fees for cancelled orders",
+          "explanation": "As Server Book Model is governed by a central authority and not by any protocol it doesn't need any validation by any miners. Hence, are faster and don't need any fees for the failed transaction.",
           "answerKeys": [
-            "A"
+            "A",
+            "D"
           ],
-          "topic": "01_data_types",
           "subTopics": [
-            "amm"
+            "crypto-exchange"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
               "content": "Fast matching",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
               "content": "Slow matching",
-              "key": "B",
-              "order": 1
+              "key": "B"
             },
             {
               "content": "Censorship resistance",
-              "key": "C",
-              "order": 2
+              "key": "C"
             },
             {
               "content": "No fees for cancelled orders",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
         {
           "uuid": "e5ee8053-d3cf-4b6f-97bf-0534f9874cc5",
-          "type": "MultipleChoice",
+          "type": "SingleChoice",
           "content": "Advantages of the on-chain order book model include",
-          "hint": "hint",
-          "explanation": "explanation",
+          "hint": "Censored personal data",
+          "explanation": "All the customers’ trading data, prices, and volumes of securities are stored on a Blockchain. Provide censorship resistance, as all data are stored on a distributed, and decentralized ledger in the form of immutable data blocks on the blockchain which are publicly shared among all its network nodes. Trade matching and settlement might be slow due to blockchain scalability issues.Fees are deducted in the form of Gas Fees for both successful and canceled orders. Miner/Trader/Exchange Operator can front-run users.",
           "answerKeys": [
             "A"
           ],
-          "topic": "01_data_types",
           "subTopics": [
-            "amm"
+            "crypto-exchange"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
               "content": "Censorship resistance",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
               "content": "Fast matching",
-              "key": "B",
-              "order": 1
+              "key": "B"
             },
             {
               "content": "Gas or Blockchain fees for orders",
-              "key": "C",
-              "order": 2
+              "key": "C"
             },
             {
               "content": "No fees for cancelled orders",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
         {
           "uuid": "c55b4cf0-fcf9-4a33-8fae-4722ad825e1d",
-          "type": "MultipleChoice",
+          "type": "SingleChoice",
           "content": "Centralized exchanges do the market making by creating liquidity pools.",
-          "hint": "hint",
-          "explanation": "explanation",
+          "hint": "Order Book Model",
+          "explanation": "CEX follows Order Book Model whereas the DEX follows protocols(such as AMM) for creating the liquidity pools.",
           "answerKeys": [
-            "A"
+            "B"
           ],
-          "topic": "01_data_types",
           "subTopics": [
             "amm"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "option 1",
-              "key": "A",
-              "order": 0
+              "content": "true",
+              "key": "A"
             },
             {
-              "content": "option 2",
-              "key": "B",
-              "order": 1
-            },
-            {
-              "content": "option 3",
-              "key": "C",
-              "order": 2
-            },
-            {
-              "content": "option 4",
-              "key": "D",
-              "order": 3
+              "content": "false",
+              "key": "B"
             }
           ]
         },
         {
           "uuid": "8d588484-6241-4f3f-b72c-1fc53bf11cd3",
-          "type": "MultipleChoice",
+          "type": "SingleChoice",
           "content": "____ is a collection of funds, funded by Liquidity Providers(LP) that are locked in a smart contract, to facilitate trading, borrowing, lending, yielding, etc.",
-          "hint": "hint",
-          "explanation": "explanation",
+          "hint": "NoHint",
+          "explanation": "Liquidity Pools are created using a protocol(such as AMM) in DEX where liquidity providers come to fund the pools.",
           "answerKeys": [
             "A"
           ],
-          "topic": "01_data_types",
           "subTopics": [
             "amm"
           ],
@@ -7220,36 +7124,31 @@
           "choices": [
             {
               "content": "Liquidity Pools",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
               "content": "Protocol",
-              "key": "B",
-              "order": 1
+              "key": "B"
             },
             {
               "content": "Order Book",
-              "key": "C",
-              "order": 2
+              "key": "C"
             },
             {
               "content": "Exchange",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
         {
           "uuid": "379a8445-faee-411c-a8bd-fe429268323a",
-          "type": "MultipleChoice",
+          "type": "SingleChoice",
           "content": "What does AMM stand for?",
-          "hint": "hint",
-          "explanation": "explanation",
+          "hint": "NoHint",
+          "explanation": "Automated Market Maker(AMM) is a protocol that creates the marketplace for buyers and sellers on its own.",
           "answerKeys": [
-            "A"
+            "B"
           ],
-          "topic": "01_data_types",
           "subTopics": [
             "amm"
           ],
@@ -7257,73 +7156,63 @@
           "choices": [
             {
               "content": "Automated Market Mover",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
               "content": "Automated Market Maker",
-              "key": "B",
-              "order": 1
+              "key": "B"
             },
             {
               "content": "Automated Maker Market",
-              "key": "C",
-              "order": 2
+              "key": "C"
             },
             {
               "content": "None of the above",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
         {
           "uuid": "70181494-66fe-41c7-b483-f6d6c0a66990",
-          "type": "MultipleChoice",
+          "type": "SingleChoice",
           "content": "What is an Automated Market Maker?",
-          "hint": "hint",
-          "explanation": "explanation",
+          "hint": "Protocol, Liquidity and Automated",
+          "explanation": "AMM is a type of DEX protocol that relies on a mathematical formula that allows digital assets to be traded without permission, automatically by using liquidity pools instead of the traditional order book pricing model.",
           "answerKeys": [
-            "A"
+            "D"
           ],
-          "topic": "01_data_types",
           "subTopics": [
             "amm"
           ],
-          "difficultyLevel": "Low",
+          "difficultyLevel": "Medium",
           "choices": [
             {
               "content": "A protocol that automatically makes trades for a user",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
               "content": "A system that ensures there is always enough liquidity to make trades",
-              "key": "B",
-              "order": 1
+              "key": "B"
             },
             {
-              "content": "A code function that automatically lists new markets on an exchange",
-              "key": "C",
-              "order": 2
+              "content": "A code that automatically lists new markets on an exchange",
+              "key": "C"
             },
             {
               "content": "All of the above",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
         {
           "uuid": "02a5fbb6-3005-482b-bd7e-96e83bf4711a",
-          "type": "MultipleChoice",
+          "type": "SingleChoice",
           "content": "Let's say, Asset X quantity * Asset Y quantity = K (a constant) in AMM then",
-          "hint": "hint",
-          "explanation": "explanation",
+          "hint": "X = K/Y",
+          "explanation": "The ratio of assets X and Y set the price of the pool as the purchase of asset X increases the price of X and decreases the price of Y and vice-versa.",
           "answerKeys": [
             "A"
           ],
-          "topic": "01_data_types",
           "subTopics": [
             "amm"
           ],
@@ -7331,60 +7220,51 @@
           "choices": [
             {
               "content": "Purchase of asset X increases the price of X and decreases the price of Y",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
               "content": "Purchase of asset X increases the price of X and increases the price of Y",
-              "key": "B",
-              "order": 1
+              "key": "B"
             },
             {
               "content": "Purchase of asset X decreases the price of X and decreases the price of Y",
-              "key": "C",
-              "order": 2
+              "key": "C"
             },
             {
               "content": "Purchase of asset X does not affect the price of X and Y",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
         {
           "uuid": "08d54716-41cc-4c8f-b3bb-d63526d86070",
-          "type": "MultipleChoice",
-          "content": "Properties of AMM are",
-          "hint": "hint",
-          "explanation": "explanation",
+          "type": "SingleChoice",
+          "content": "Properties of a Constant Product AMM are",
+          "hint": "Quick Liquidity, Ratio of X and Y set price and purchase of one affect other's price.",
+          "explanation": "Asset X quantity * Asset Y quantity = K (a constant) or simply  X*Y=K. Hence, provides:- 1) Instant liquidity, irrespective of the trade size. 2) Purchase of asset X increases the price of X and decreases the price of Y. 3) The ratio of assets X and Y sets the price",
           "answerKeys": [
-            "A"
+            "D"
           ],
-          "topic": "01_data_types",
           "subTopics": [
             "amm"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Instant liquidity, irrespective of the trade size",
-              "key": "A",
-              "order": 0
+              "content": "Instant liquidity, irrespective of the trade size.",
+              "key": "A"
             },
             {
-              "content": "The ratio of assets X and Y sets the price",
-              "key": "B",
-              "order": 1
+              "content": "The ratio of assets X and Y sets the price of the pool.",
+              "key": "B"
             },
             {
               "content": "Purchase of asset X increases the price of X and decreases the price of Y",
-              "key": "C",
-              "order": 2
+              "key": "C"
             },
             {
               "content": "All of the above",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
@@ -7392,12 +7272,13 @@
           "uuid": "de92eb6e-19cd-4ccb-937d-b2ad9968af78",
           "type": "MultipleChoice",
           "content": "Cons of AMM are",
-          "hint": "hint",
-          "explanation": "explanation",
+          "hint": "Impermanent Loss, High Slippage, Total fund loss",
+          "explanation": "Cons as are:- 1) The danger of impermanent loss/coin De-Pegg may cause a total possible loss of funds in Liquidity Pools. 2) High slippage for low liquidity markets. So, please do observe and set your slippage tolerance threshold level while trading.",
           "answerKeys": [
-            "A"
+            "A",
+            "C",
+            "D"
           ],
-          "topic": "01_data_types",
           "subTopics": [
             "amm"
           ],
@@ -7405,23 +7286,19 @@
           "choices": [
             {
               "content": "High slippage for low liquidity markets",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
               "content": "No Order Book maintenance",
-              "key": "B",
-              "order": 1
+              "key": "B"
             },
             {
               "content": "The danger of impermanent loss/coin de-peg",
-              "key": "C",
-              "order": 2
+              "key": "C"
             },
             {
               "content": "Total loss of funds possible",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
@@ -7429,12 +7306,12 @@
           "uuid": "54e56af9-79d0-4581-83e3-feca21084c5f",
           "type": "MultipleChoice",
           "content": "Advantages of AMM are",
-          "hint": "hint",
-          "explanation": "explanation",
+          "hint": "No Order-Book, Less Gas fees",
+          "explanation": "Pros of an AMM:-1) No Order Book Maintenance for traders but arbitrage is required for them. 2)A simple implementation of Constant Product AMM causes less computation which results in Low gas costs.",
           "answerKeys": [
-            "A"
+            "A",
+            "D"
           ],
-          "topic": "01_data_types",
           "subTopics": [
             "amm"
           ],
@@ -7442,110 +7319,95 @@
           "choices": [
             {
               "content": "No Order Book Maintenance",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
               "content": "High slippage for low liquidity markets",
-              "key": "B",
-              "order": 1
+              "key": "B"
             },
             {
               "content": "Order Book Maintenance",
-              "key": "C",
-              "order": 2
+              "key": "C"
             },
             {
-              "content": "Simple implementation for CP AMM",
-              "key": "D",
-              "order": 3
+              "content": "Simple implementation for Constant Product AMM",
+              "key": "D"
             }
           ]
         },
         {
           "uuid": "2b52089f-3e36-43a8-8244-a1f6547c8ef4",
-          "type": "MultipleChoice",
-          "content": "AMM is also known as",
-          "hint": "hint",
-          "explanation": "explanation",
+          "type": "SingleChoice",
+          "content": "Uniswap uses which of the following protocol?",
+          "hint": "CP",
+          "explanation": "Uniswap uses the Constant Product AMM protocol which is as follows:- Asset `X` quantity * Asset `Y` quantity = `K` (a constant)  or simply as `X*Y=K`.",
           "answerKeys": [
-            "A"
+            "B"
           ],
-          "topic": "01_data_types",
           "subTopics": [
             "amm"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Positive Product",
-              "key": "A",
-              "order": 0
+              "content": "Positive Product AMM",
+              "key": "A"
             },
             {
               "content": "Constant Product AMM",
-              "key": "B",
-              "order": 1
+              "key": "B"
             },
             {
-              "content": "Exponential Product",
-              "key": "C",
-              "order": 2
+              "content": "Exponential Product AMM",
+              "key": "C"
             },
             {
-              "content": "Linear Product",
-              "key": "D",
-              "order": 3
+              "content": "Linear Product AMM",
+              "key": "D"
             }
           ]
         },
         {
           "uuid": "b86129d0-4d05-4995-8f82-3d5b6639b5bf",
-          "type": "MultipleChoice",
+          "type": "SingleChoice",
           "content": "How do Arbitrageurs make a profit?",
-          "hint": "hint",
-          "explanation": "explanation",
+          "hint": "Arbitrage",
+          "explanation": "Arbitrage is an investment strategy in which an investor (a.k.a. Arbitrageurs) simultaneously buys and sells the same asset in different markets(either AMM or some other market) to profit from tiny differences in the asset's listed price",
           "answerKeys": [
             "A"
           ],
-          "topic": "01_data_types",
           "subTopics": [
             "amm"
           ],
-          "difficultyLevel": "Low",
+          "difficultyLevel": "Medium",
           "choices": [
             {
               "content": "from the price difference of the same assets, let's say X and Y on different markets",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
               "content": "from the price difference of different assets, let's say X and Y on different markets",
-              "key": "B",
-              "order": 1
+              "key": "B"
             },
             {
               "content": "from the price difference of the same assets, let's say X and Y on the same markets",
-              "key": "C",
-              "order": 2
+              "key": "C"
             },
             {
               "content": "from the price difference of the different assets, let's say X and Y on different markets",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
         {
           "uuid": "7e81c416-cd46-4424-b609-024c2d71ec9a",
-          "type": "MultipleChoice",
+          "type": "SingleChoice",
           "content": "What do you understand by slippage?",
-          "hint": "hint",
-          "explanation": "explanation",
+          "hint": "Price change",
+          "explanation": "Slippage is the difference between the expected price of an order and the price when the order executes. (due to the volatility of cryptocurrency prices)",
           "answerKeys": [
-            "A"
+            "C"
           ],
-          "topic": "01_data_types",
           "subTopics": [
             "amm"
           ],
@@ -7553,73 +7415,63 @@
           "choices": [
             {
               "content": "The expected decrease in price is based on the trading volume and available liquidity.",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
               "content": "The expected increase in price is based on the trading volume and available liquidity.",
-              "key": "B",
-              "order": 1
+              "key": "B"
             },
             {
               "content": "The expected increase or decrease in price is based on the trading volume and available liquidity.",
-              "key": "C",
-              "order": 2
+              "key": "C"
             },
             {
               "content": "None of the above",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
         {
           "uuid": "a7b04dbe-1492-42d1-aab7-eacada0deb3e",
-          "type": "MultipleChoice",
+          "type": "SingleChoice",
           "content": "___ refers to the phenomenon of a stablecoin deviating or any asset deviating from its intended peg.",
-          "hint": "hint",
-          "explanation": "explanation",
+          "hint": "NoHint",
+          "explanation": "De-pegging refers to the phenomenon of a stablecoin deviating or any asset deviating from its intended peg. For example:- In the case of a stablecoin pegged to USD, if its value reduces below $1, then the coin is said to be “de-pegged” which indirectly reduces the valuation of investment to a Liquidity Pool by a Liquidity Provider.",
           "answerKeys": [
-            "A"
+            "D"
           ],
-          "topic": "01_data_types",
           "subTopics": [
             "amm"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "De-viating",
-              "key": "A",
-              "order": 0
+              "content": "Deviating",
+              "key": "A"
             },
             {
               "content": "Pegging",
-              "key": "B",
-              "order": 1
-            },
-            {
-              "content": "De-pegging",
-              "key": "C",
-              "order": 2
+              "key": "B"
             },
             {
               "content": "De-stablizing",
-              "key": "D",
-              "order": 3
+              "key": "C"
+            },
+            {
+              "content": "De-pegging",
+              "key": "D"
             }
           ]
         },
         {
           "uuid": "ae7e6de1-c8ed-47ad-b2f4-f18ace5342f0",
-          "type": "MultipleChoice",
-          "content": "What are the types of rewards in DeFi?",
-          "hint": "hint",
-          "explanation": "explanation",
+          "type": "SingleChoice",
+          "content": "What are the types of rewards Liquidity Providers?",
+          "hint": "Two types",
+          "explanation": "Types of rewards that Liquidity Providers get on funding Liquidity Pools are:- 1) Trading Fees-that are paid by traders on each trade(eg, 0.03% in Curve.fi) 2) Liquidity Mining-an incentive/reward given to the Liquidity Providers(LP) proportional to the amount of liquidity provided by the LP. Rewards can also be provided to the LPs in terms of “Airdrops”.",
           "answerKeys": [
-            "A"
+            "C"
           ],
-          "topic": "01_data_types",
           "subTopics": [
             "amm"
           ],
@@ -7627,147 +7479,119 @@
           "choices": [
             {
               "content": "Trading Fees",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
               "content": "Liquidity Mining",
-              "key": "B",
-              "order": 1
+              "key": "B"
             },
             {
               "content": "Both of these",
-              "key": "C",
-              "order": 2
+              "key": "C"
             },
             {
               "content": "There are no rewards",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
         {
           "uuid": "c35a91f1-92b4-4945-bac1-b23ec32d54c7",
-          "type": "MultipleChoice",
-          "content": "Flash swap requires that",
-          "hint": "hint",
-          "explanation": "explanation",
+          "type": "SingleChoice",
+          "content": "Arbitrage requires that",
+          "hint": "Same Asset",
+          "explanation": "Arbitrage is an investment strategy in which an investor (a.k.a. Arbitrageurs) simultaneously buys and sells the same asset in different markets(either AMM or some other market) to profit from tiny differences in the asset's listed price.",
           "answerKeys": [
-            "A"
+            "B"
           ],
-          "topic": "01_data_types",
           "subTopics": [
             "amm"
           ],
-          "difficultyLevel": "Low",
+          "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "Repayment occurs with different asset",
-              "key": "A",
-              "order": 0
+              "content": "Repayment to be paid with different asset",
+              "key": "A"
             },
             {
-              "content": "Repayment occurs with the same asset",
-              "key": "B",
-              "order": 1
+              "content": "Repayment to be paid with the same asset",
+              "key": "B"
             },
             {
-              "content": "Repayment does not necessarily occur",
-              "key": "C",
-              "order": 2
+              "content": "Repayment does not necessarily to be paid",
+              "key": "C"
             },
             {
               "content": "Repayment occurs in multiple transactions",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
         {
           "uuid": "39723041-e29c-4e3e-a7c1-46d40ade7d84",
-          "type": "MultipleChoice",
+          "type": "SingleChoice",
           "content": "Flash loan and flash swap are the same",
-          "hint": "hint",
-          "explanation": "explanation",
+          "hint": "One is Loan and other is Exchanged value",
+          "explanation": "Flash Swaps allows us to withdraw up to the full reserves of any ERC20 token on Uniswap and execute arbitrary logic at no upfront cost, provided that by the end of the transaction you either- 1) Pay for the withdrawn ERC20 tokens with the corresponding pair tokens, 2) Return the withdrawn ERC20 tokens along with a small fee. Whereas th Flash Loan is a loan which we have to take and repay back in one transaction.",
           "answerKeys": [
-            "A"
+            "B"
           ],
-          "topic": "01_data_types",
           "subTopics": [
             "amm"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "option 1",
-              "key": "A",
-              "order": 0
+              "content": "true",
+              "key": "A"
             },
             {
-              "content": "option 2",
-              "key": "B",
-              "order": 1
-            },
-            {
-              "content": "option 3",
-              "key": "C",
-              "order": 2
-            },
-            {
-              "content": "option 4",
-              "key": "D",
-              "order": 3
+              "content": "false",
+              "key": "B"
             }
           ]
         },
         {
           "uuid": "a7535235-ca11-4311-9a03-551c8d3dddf3",
-          "type": "MultipleChoice",
+          "type": "SingleChoice",
           "content": "Impermanent loss is realized upon",
-          "hint": "hint",
-          "explanation": "explanation",
+          "hint": "NoHint",
+          "explanation": "Impermanent loss == Not Permanent Loss. Loss generated due to price change of the asset which is realized upon withdrawal only. So, it can result in a total loss of value but- Trading fees taken from the traders may compensate for it and Liquidity mining reward may compensate for it.",
           "answerKeys": [
-            "A"
+            "D"
           ],
-          "topic": "01_data_types",
           "subTopics": [
             "amm"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Deposit",
-              "key": "A",
-              "order": 0
+              "content": "Deposit only",
+              "key": "A"
             },
             {
               "content": "Deposit as well as withdrawal",
-              "key": "B",
-              "order": 1
+              "key": "B"
             },
             {
-              "content": "Holding",
-              "key": "C",
-              "order": 2
+              "content": "Holding only",
+              "key": "C"
             },
             {
-              "content": "Withdrawal",
-              "key": "D",
-              "order": 3
+              "content": "Withdrawal only",
+              "key": "D"
             }
           ]
         },
         {
           "uuid": "196f587a-37c1-4a6d-9ba5-3909c0bd9819",
-          "type": "MultipleChoice",
-          "content": "___the difference between the expected price of an order and the price when the order executes.",
-          "hint": "hint",
-          "explanation": "explanation",
+          "type": "SingleChoice",
+          "content": "___ is the difference between the expected price of an order and the price when the order executes.",
+          "hint": "NoHint",
+          "explanation": "Arbitrage is an investment strategy in which an investor (a.k.a. Arbitrageurs) simultaneously buys and sells the same asset in different markets(either AMM or some other market) to profit from tiny differences in the asset's listed price.",
           "answerKeys": [
-            "A"
+            "C"
           ],
-          "topic": "01_data_types",
           "subTopics": [
             "amm"
           ],
@@ -7775,36 +7599,31 @@
           "choices": [
             {
               "content": "De-peg",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
-              "content": "Arbitrageous",
-              "key": "B",
-              "order": 1
+              "content": "Arbitrage",
+              "key": "B"
             },
             {
               "content": "Slippage",
-              "key": "C",
-              "order": 2
+              "key": "C"
             },
             {
               "content": "AMM",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
         {
           "uuid": "2ddc6bd5-b036-48a2-b8af-6a1d5dbd5c57",
-          "type": "MultipleChoice",
+          "type": "SingeChoice",
           "content": "How traders make profit using AMM?",
-          "hint": "hint",
-          "explanation": "explanation",
+          "hint": "Two ways",
+          "explanation": "Traders use Arbitrage and Flash Swaps or Capital Free Arbitrage to make profits.",
           "answerKeys": [
-            "A"
+            "D"
           ],
-          "topic": "01_data_types",
           "subTopics": [
             "amm"
           ],
@@ -7812,23 +7631,19 @@
           "choices": [
             {
               "content": "Flash swap",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
-              "content": "Arbitrageous",
-              "key": "B",
-              "order": 1
+              "content": "Arbitrage",
+              "key": "B"
             },
             {
               "content": "None of these",
-              "key": "C",
-              "order": 2
+              "key": "C"
             },
             {
               "content": "Both of these",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
@@ -7836,36 +7651,32 @@
           "uuid": "33af5875-1049-4656-b9ba-803a5e55bd0a",
           "type": "MultipleChoice",
           "content": "Two types of dex aggregators",
-          "hint": "hint",
-          "explanation": "explanation",
+          "hint": "NoHint",
+          "explanation": "Types of DEX Aggregators are 1) Off-chain Aggregator (like 1inch, paraswap) and 2) On-chain Aggregator (like swapswap)",
           "answerKeys": [
-            "A"
+            "A",
+            "D"
           ],
-          "topic": "01_data_types",
           "subTopics": [
-            "amm"
+            "dex-aggregators"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
               "content": "On-Chain",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
               "content": "On-Server",
-              "key": "B",
-              "order": 1
+              "key": "B"
             },
             {
               "content": "Off-Server",
-              "key": "C",
-              "order": 2
+              "key": "C"
             },
             {
               "content": "Off-Chain",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
@@ -7873,36 +7684,32 @@
           "uuid": "b031bea3-af82-47fb-ae55-8d1ae58dd907",
           "type": "MultipleChoice",
           "content": "Off-chain aggregator",
-          "hint": "hint",
-          "explanation": "explanation",
+          "hint": "swap multiple chains, Operator front runs",
+          "explanation": "Off-chain DEX Aggregator (like 1inch, paraswap) 1) Can swap multiple chains flexibly present over 4+ exchanges and 2) An operator can front-run users.",
           "answerKeys": [
-            "A"
+            "A",
+            "D"
           ],
-          "topic": "01_data_types",
           "subTopics": [
-            "amm"
+            "dex-aggregators"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
               "content": "Can swap multiple chains flexibly present over 4+ exchanges",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
-              "content": "used for arbitrage findings",
-              "key": "B",
-              "order": 1
+              "content": "Used for arbitrage findings",
+              "key": "B"
             },
             {
-              "content": "unlikely to efficiently cover 4+ exchanges",
-              "key": "C",
-              "order": 2
+              "content": "Unlikely to efficiently cover 4+ exchanges",
+              "key": "C"
             },
             {
               "content": "An operator can front-run users",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
@@ -7910,73 +7717,64 @@
           "uuid": "9f836728-9391-4d01-a804-798a00841399",
           "type": "MultipleChoice",
           "content": "On-chain aggregator",
-          "hint": "hint",
-          "explanation": "explanation",
+          "hint": "Arbitrage, less efficient",
+          "explanation": "On-chain Aggregator (like swapswap) used for arbitrage findings but less efficiently cover 4+ exchanges",
           "answerKeys": [
-            "A"
+            "B",
+            "C"
           ],
-          "topic": "01_data_types",
           "subTopics": [
-            "amm"
+            "dex-aggregators"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
               "content": "Can swap multiple chains flexibly present over 4+ exchanges",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
-              "content": "used for arbitrage findings",
-              "key": "B",
-              "order": 1
+              "content": "Used for arbitrage findings",
+              "key": "B"
             },
             {
-              "content": "unlikely to efficiently cover 4+ exchanges",
-              "key": "C",
-              "order": 2
+              "content": "Unlikely to efficiently cover 4+ exchanges",
+              "key": "C"
             },
             {
               "content": "An operator can front-run users",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         },
         {
           "uuid": "a0f6871a-ca6f-45cb-9313-39fee2f1fca2",
-          "type": "MultipleChoice",
+          "type": "SingleChoice",
           "content": "Swapswap is an example of",
-          "hint": "hint",
-          "explanation": "explanation",
+          "hint": "NoHint",
+          "explanation": "On-Chain DEX Aggregator",
           "answerKeys": [
             "A"
           ],
-          "topic": "01_data_types",
           "subTopics": [
-            "amm"
+            "dex-aggregators"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
               "content": "On chain aggregator",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
               "content": "Off chain aggregator",
-              "key": "B",
-              "order": 1
+              "key": "B"
             },
             {
-              "content": "Centralized exchange",
-              "key": "C",
-              "order": 2
+              "content": "Both of these",
+              "key": "C"
             },
             {
-              "content": "On chain order book",
-              "key": "D",
-              "order": 3
+              "content": "None of these",
+              "key": "D"
             }
           ]
         },
@@ -7984,369 +7782,32 @@
           "uuid": "b5f7ed30-1416-4202-bb13-b70387bb98c9",
           "type": "MultipleChoice",
           "content": "Pick the off chain aggregator",
-          "hint": "hint",
-          "explanation": "explanation",
+          "hint": "NoHint",
+          "explanation": "1inch and paraswap are popular On-chain DEX Aggregators.",
           "answerKeys": [
-            "A"
+            "A",
+            "C"
           ],
-          "topic": "01_data_types",
           "subTopics": [
-            "amm"
+            "dex-aggregators"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
               "content": "Paraswap",
-              "key": "A",
-              "order": 0
+              "key": "A"
             },
             {
               "content": "Swapswap",
-              "key": "B",
-              "order": 1
+              "key": "B"
             },
             {
               "content": "1inch",
-              "key": "C",
-              "order": 2
+              "key": "C"
             },
             {
               "content": "Uniswap",
-              "key": "D",
-              "order": 3
-            }
-          ]
-        },
-        {
-          "uuid": "6ffda0b2-f56c-4dca-a793-a946cbdbb484",
-          "type": "MultipleChoice",
-          "content": "question",
-          "hint": "hint",
-          "explanation": "explanation",
-          "answerKeys": [
-            "A"
-          ],
-          "topic": "01_data_types",
-          "subTopics": [
-            "amm"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "option 1",
-              "key": "A",
-              "order": 0
-            },
-            {
-              "content": "option 2",
-              "key": "B",
-              "order": 1
-            },
-            {
-              "content": "option 3",
-              "key": "C",
-              "order": 2
-            },
-            {
-              "content": "option 4",
-              "key": "D",
-              "order": 3
-            }
-          ]
-        },
-        {
-          "uuid": "e4fc4bed-8e12-43e9-b434-68312e8a45ac",
-          "type": "MultipleChoice",
-          "content": "question",
-          "hint": "hint",
-          "explanation": "explanation",
-          "answerKeys": [
-            "A"
-          ],
-          "topic": "01_data_types",
-          "subTopics": [
-            "amm"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "option 1",
-              "key": "A",
-              "order": 0
-            },
-            {
-              "content": "option 2",
-              "key": "B",
-              "order": 1
-            },
-            {
-              "content": "option 3",
-              "key": "C",
-              "order": 2
-            },
-            {
-              "content": "option 4",
-              "key": "D",
-              "order": 3
-            }
-          ]
-        },
-        {
-          "uuid": "aafb3ee2-666d-4369-b288-ff695d08e452",
-          "type": "MultipleChoice",
-          "content": "question",
-          "hint": "hint",
-          "explanation": "explanation",
-          "answerKeys": [
-            "A"
-          ],
-          "topic": "01_data_types",
-          "subTopics": [
-            "amm"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "option 1",
-              "key": "A",
-              "order": 0
-            },
-            {
-              "content": "option 2",
-              "key": "B",
-              "order": 1
-            },
-            {
-              "content": "option 3",
-              "key": "C",
-              "order": 2
-            },
-            {
-              "content": "option 4",
-              "key": "D",
-              "order": 3
-            }
-          ]
-        },
-        {
-          "uuid": "eeb4a5af-5d4c-4aba-85f7-92f0dff6815c",
-          "type": "MultipleChoice",
-          "content": "question",
-          "hint": "hint",
-          "explanation": "explanation",
-          "answerKeys": [
-            "A"
-          ],
-          "topic": "01_data_types",
-          "subTopics": [
-            "amm"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "option 1",
-              "key": "A",
-              "order": 0
-            },
-            {
-              "content": "option 2",
-              "key": "B",
-              "order": 1
-            },
-            {
-              "content": "option 3",
-              "key": "C",
-              "order": 2
-            },
-            {
-              "content": "option 4",
-              "key": "D",
-              "order": 3
-            }
-          ]
-        },
-        {
-          "uuid": "2e9e17a0-70aa-415d-be68-1cfd3c80be82",
-          "type": "MultipleChoice",
-          "content": "question",
-          "hint": "hint",
-          "explanation": "explanation",
-          "answerKeys": [
-            "A"
-          ],
-          "topic": "01_data_types",
-          "subTopics": [
-            "amm"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "option 1",
-              "key": "A",
-              "order": 0
-            },
-            {
-              "content": "option 2",
-              "key": "B",
-              "order": 1
-            },
-            {
-              "content": "option 3",
-              "key": "C",
-              "order": 2
-            },
-            {
-              "content": "option 4",
-              "key": "D",
-              "order": 3
-            }
-          ]
-        },
-        {
-          "uuid": "cc927450-b21a-4aca-b4c2-a585e623b456",
-          "type": "MultipleChoice",
-          "content": "question",
-          "hint": "hint",
-          "explanation": "explanation",
-          "answerKeys": [
-            "A"
-          ],
-          "topic": "01_data_types",
-          "subTopics": [
-            "amm"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "option 1",
-              "key": "A",
-              "order": 0
-            },
-            {
-              "content": "option 2",
-              "key": "B",
-              "order": 1
-            },
-            {
-              "content": "option 3",
-              "key": "C",
-              "order": 2
-            },
-            {
-              "content": "option 4",
-              "key": "D",
-              "order": 3
-            }
-          ]
-        },
-        {
-          "uuid": "991ef8c9-a742-49d5-a88b-4be7f69b1602",
-          "type": "MultipleChoice",
-          "content": "question",
-          "hint": "hint",
-          "explanation": "explanation",
-          "answerKeys": [
-            "A"
-          ],
-          "topic": "01_data_types",
-          "subTopics": [
-            "amm"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "option 1",
-              "key": "A",
-              "order": 0
-            },
-            {
-              "content": "option 2",
-              "key": "B",
-              "order": 1
-            },
-            {
-              "content": "option 3",
-              "key": "C",
-              "order": 2
-            },
-            {
-              "content": "option 4",
-              "key": "D",
-              "order": 3
-            }
-          ]
-        },
-        {
-          "uuid": "44d051f2-628a-4247-8592-e61c0be94847",
-          "type": "MultipleChoice",
-          "content": "question",
-          "hint": "hint",
-          "explanation": "explanation",
-          "answerKeys": [
-            "A"
-          ],
-          "topic": "01_data_types",
-          "subTopics": [
-            "amm"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "option 1",
-              "key": "A",
-              "order": 0
-            },
-            {
-              "content": "option 2",
-              "key": "B",
-              "order": 1
-            },
-            {
-              "content": "option 3",
-              "key": "C",
-              "order": 2
-            },
-            {
-              "content": "option 4",
-              "key": "D",
-              "order": 3
-            }
-          ]
-        },
-        {
-          "uuid": "4f92a61e-2e70-48f7-94f3-31a9e4075704",
-          "type": "MultipleChoice",
-          "content": "question",
-          "hint": "hint",
-          "explanation": "explanation",
-          "answerKeys": [
-            "A"
-          ],
-          "topic": "01_data_types",
-          "subTopics": [
-            "amm"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "option 1",
-              "key": "A",
-              "order": 0
-            },
-            {
-              "content": "option 2",
-              "key": "B",
-              "order": 1
-            },
-            {
-              "content": "option 3",
-              "key": "C",
-              "order": 2
-            },
-            {
-              "content": "option 4",
-              "key": "D",
-              "order": 3
+              "key": "D"
             }
           ]
         }
@@ -8354,7 +7815,7 @@
       "readings": [
         {
           "uuid": "64188fd9-e9e2-48fc-8933-30fee4a9acb1",
-          "title": "What Are Automated Market Makers (AMM) ?",
+          "title": "What Are Automated Market Makers (AMM)?",
           "shortTitle": "AMM",
           "type": "YoutubeVideo",
           "url": "https://www.youtube.com/watch?v=htXEEVkiIJ0",

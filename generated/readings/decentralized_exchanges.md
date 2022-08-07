@@ -5,9 +5,9 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  
  ## Decentralised Exchanges
  
-  **What Are Automated Market Makers (AMM) ?**
+  **What Are Automated Market Makers (AMM)?**
  
- [![What Are Automated Market Makers (AMM) ?](https://img.youtube.com/vi/htXEEVkiIJ0/0.jpg)](https://www.youtube.com/watch?v=htXEEVkiIJ0)     
+ [![What Are Automated Market Makers (AMM)?](https://img.youtube.com/vi/htXEEVkiIJ0/0.jpg)](https://www.youtube.com/watch?v=htXEEVkiIJ0)     
  
  This video explains
   - Market Making (or Process Of Providing Liquidity)

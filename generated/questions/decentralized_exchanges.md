@@ -10,16 +10,16 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 
 ##### What is an Exchange?  
 
-- [x]  A marketplace where securities, commodities, derivatives, and other financial instruments can not be traded
+- [ ]  A marketplace where securities, commodities, derivatives, and other financial instruments can not be traded
 - [ ]  A marketplace for crypto traders without any intermediary intervention
 - [ ]  A marketplace or platform which allows customers to trade cryptocurrencies for other assets
-- [ ]  A marketplace where securities, commodities, derivatives, and other financial instruments are traded
+- [x]  A marketplace where securities, commodities, derivatives, and other financial instruments are traded
   
-Hint: Just two people required
+Hint: NoHint
          
-Explanation: DEX is a smart contract that acts as a platform for settling the trade among any two addresses instantly without intervening.
+Explanation: A marketplace to trade different types of assets for fiat currencies only.
 
-Sub Topics: amm
+Sub Topics: intro
  
 
 ---
@@ -27,47 +27,47 @@ Sub Topics: amm
 ##### What is a Crypto Exchange?  
 
 - [ ]  A marketplace for crypto traders without any intermediary intervention
-- [ ]  A marketplace which allows customers to trade cryptocurrencies for digital currencies
+- [x]  A marketplace which allows customers to trade cryptocurrencies for digital currencies
 - [ ]  A marketplace where securities, commodities, derivatives, and other financial instruments are traded
-- [ ]  A marketplace which allows customers to trade cryptocurrencies for fiat money
+- [x]  A marketplace which allows customers to trade cryptocurrencies for fiat money
   
-Hint: hint
+Hint: NoHint
          
-Explanation: explanation
+Explanation: A marketplace to trade crypto / digital currencies for fiat or other crypto / digital currencies.
 
-Sub Topics: amm
+Sub Topics: intro
  
 
 ---
 
 ##### Types of Crypto Exchange  
 
-- [x]  Traditional or Centralized Exchange
+- [ ]  Traditional or Centralized Exchange
 - [ ]  Decentralized Exchange
-- [ ]  Both of these
+- [x]  Both of these
 - [ ]  None of these
   
-Hint: hint
+Hint: There are 2 types of crypto exchange
          
-Explanation: explanation
+Explanation: There are 2 types of crypto-exchange in which one uses the Order-Book Model & governed by a central authority (known as Traditional or Centralized Exchange) and the other uses Automated Market Maker i.e not governed by any central authority (known as Decentralized Exchange)
 
-Sub Topics: amm
+Sub Topics: intro
  
 
 ---
 
-##### What is a Centralized Exchange ?  
+##### What is a Centralized Exchange?  
 
-- [x]  A peer-exchange-peer marketplace for crypto traders without any intermediary intervention
-- [ ]  A peer-to-exchange-to-peer marketplace where transactions between crypto traders are done using traditional “Order Book” models that are officiated by banks, brokers, or any other intermediary.
+- [ ]  A peer-exchange-peer marketplace for crypto traders without any intermediary intervention
+- [x]  A peer-to-exchange-to-peer marketplace where transactions between crypto traders are done using traditional “Order Book” models that are officiated by banks, brokers, or any other intermediary.
 - [ ]  A marketplace where securities, commodities, derivatives, and other financial instruments are traded
 - [ ]  A peer-to-peer marketplace for crypto traders without any intermediary intervention
   
-Hint: hint
+Hint: Buyer-Exchange platform/marketplace-Seller
          
-Explanation: explanation
+Explanation: A centralized exchange is a platform/marketplace where buyer and seller come together to buy and sell an asset.
 
-Sub Topics: amm
+Sub Topics: intro
  
 
 ---
@@ -75,31 +75,31 @@ Sub Topics: amm
 ##### What is an Order Book?  
 
 - [x]  A list of orders that presents different offers from buyers and sellers for a specific security.
-- [ ]  A peer-to-peer marketplace for crypto traders without any intermediary intervention
-- [ ]  It also shows the prices and volumes that people in the market are willing to buy and sell the security for.
+- [ ]  A list of orders that presents different offers from buyers and sellers for all securities simultaneously.
+- [x]  It also shows the prices and volumes that people in the market are willing to buy and sell the security for.
 - [ ]  It does not show the prices and volumes that people in the market are willing to buy and sell the security for.
   
-Hint: hint
+Hint: Dashboard that consists of list of buying and selling prices of an asset.
          
-Explanation: explanation
+Explanation: It's like a dynamic dashboard that shows different buying and selling prices of an asset, set by different buyers and sellers in one place along with the current trading volume of that asset.
 
-Sub Topics: amm
+Sub Topics: crypto-exchange
  
 
 ---
 
-##### What are the types of CEX based on the order book model?  
+##### What are the types of CEX based on the order book model storage?  
 
-- [x]  CEX with Server Order Book Model
+- [ ]  CEX with Server Order Book Model
 - [ ]  CEX with Onchain Order Book Model
-- [ ]  Both of these
+- [x]  Both of these
 - [ ]  None of these
   
-Hint: hint
+Hint: Centralized Database and Blockchain Database
          
-Explanation: explanation
+Explanation: There are two types of Order Book Model:- 1) Stores all data on a centralized database & 2) Stores all data on distributed, decentralized, and immutable data blocks of a Blockchain database.
 
-Sub Topics: amm
+Sub Topics: crypto-exchange
  
 
 ---
@@ -108,14 +108,14 @@ Sub Topics: amm
 
 - [x]  Faster trade matching and settlement
 - [ ]  Slow trade matching and settlement
-- [ ]  No fees for cancelled orders
-- [ ]  No censorship resistance
+- [x]  No fees for cancelled orders
+- [x]  No censorship resistance
   
-Hint: hint
+Hint: Faster, Uncensored, Free cancelation
          
-Explanation: explanation
+Explanation: Due to centralized governance they are faster as no validator/miner action is required in trade execution, and not to pay any gas fees for transactions hence, no fees are required for canceled orders, also all types of traders’ data are in the hand of a central authority so no censorship resistance.
 
-Sub Topics: amm
+Sub Topics: crypto-exchange
  
 
 ---
@@ -125,141 +125,141 @@ Sub Topics: amm
 - [x]  Slow trade matching and settlement
 - [ ]  No fees for cancelled orders
 - [ ]  No Censorship resistance
-- [ ]  Censorship resistance
+- [x]  Censorship resistance
   
-Hint: hint
+Hint: Slower, Censored
          
-Explanation: explanation
+Explanation: Due to the Decentralized and Distributed Ledger storage system they are slower as the validator/miner action is required in trade execution and have to pay gas fees for transactions hence, fees are required for canceled orders, also all types of traders’ data are censorship resistance.
 
-Sub Topics: amm
+Sub Topics: crypto-exchange
  
 
 ---
 
 ##### ____ are basic sets of rules that allow data and cryptocurrencies to be shared securely between different nodes (i.e computers) in the blockchain network.  
 
-- [x]  Liquidity Pools
-- [ ]  Protocol
+- [ ]  Liquidity Pools
+- [x]  Protocol
 - [ ]  Order Book
 - [ ]  Exchanges
   
-Hint: hint
+Hint: NoHint
          
-Explanation: explanation
+Explanation: A protocol is a set of rules and instructions that needs to be followed by each entity of a blockchain system for secure transfer.
 
-Sub Topics: amm
+Sub Topics: crypto-exchange
  
 
 ---
 
 ##### DEX stands for  
 
-- [x]  Deterministic Expansion
+- [ ]  Deterministic Expansion
 - [ ]  Deterministic Exchange
 - [ ]  Decentralized Expansion
-- [ ]  Decentralized Exchange
+- [x]  Decentralized Exchange
   
-Hint: hint
+Hint: NoHint
          
-Explanation: explanation
+Explanation: Decentralized Exchange is a marketplace for trading crypto assets governed by protocols & nodes on the blockchain, and not by any centralized authority.
 
-Sub Topics: amm
+Sub Topics: dex-definition
  
 
 ---
 
 ##### What is a Decentralized Exchange?  
 
-- [x]  A peer-exchange-peer marketplace for crypto traders without any intermediary intervention
-- [ ]  A peer-to-peer marketplace for crypto traders without any intermediary intervention
+- [ ]  A peer-exchange-peer marketplace for crypto traders without any intermediary intervention
+- [x]  A peer-to-peer marketplace for crypto traders without any intermediary intervention
 - [ ]  A peer-exchange-peer marketplace for crypto traders with intermediary interventions
 - [ ]  A peer-to-peer marketplace for crypto traders with some intermediary intervention
   
-Hint: hint
+Hint: Buyer-Seller
          
-Explanation: explanation
+Explanation: A platform/marketplace where buyer and seller trade crypto assets without the involvement of exchange as well as any third-party intermediary.
 
-Sub Topics: amm
+Sub Topics: dex-definition
  
 
 ---
 
-##### The main advantage of a decentralized exchange is  
+##### The main advantage(s) of a decentralized exchange is(/are)  
 
-- [x]  Users own their private keys
+- [ ]  Users own their private keys
 - [ ]  Increased privacy due to the lack of knowing your customer (KYC) controls
-- [ ]  Large range of low-cap altcoins
-- [ ]  All of the above
+- [ ]  No fees paid to the exchange
+- [x]  All of the above
   
-Hint: hint
+Hint: Ownership of account and data with no fees to be paid.
          
-Explanation: explanation
+Explanation: In DEX all the customer-related data are stored by the customer itself and for any trade transactions they will not have to pay any fee to the platform/marketplace.
 
-Sub Topics: amm
+Sub Topics: dex-definition
  
 
 ---
 
-##### What are the benefits of Decentralised exchanges over Centralised exchanges?  
+##### What are the benefits of Decentralized exchanges over Centralized exchanges?  
 
 - [x]  No KYC required
 - [ ]  KYC
-- [ ]  No fees are paid to the exchange
+- [x]  No fees are paid to the exchange
 - [ ]  Fast matching
   
-Hint: hint
+Hint: NoHint
          
-Explanation: explanation
+Explanation: In DEX we don't need to do any KYC nor have to pay any fees as it is governed by protocol and not by any centralized authority. But requires validation by the miners which takes time hence, the transaction little slower than CEX.
 
-Sub Topics: amm
+Sub Topics: dex-definition
  
 
 ---
 
-##### Some examples of decentralized cryptocurrency exchanges are  
+##### Some examples of decentralized cryptocurrency exchanges is/are  
 
 - [x]  Uniswap
 - [ ]  Coinbase
 - [ ]  FTX
 - [ ]  Crypto.com
   
-Hint: hint
+Hint: NoHint
          
-Explanation: explanation
+Explanation: Popular DEXs are Uniswap, dYdX, SushiSwap, PancakeSwap
 
-Sub Topics: amm
+Sub Topics: dex-definition
  
 
 ---
 
-##### Sushiswap is a type of  
+##### dYdX is a type of  
 
-- [x]  Decentralized Exchange
 - [ ]  Centralized Exchange
+- [x]  Decentralized Exchange
 - [ ]  Traditional Exchange
 - [ ]  None of the above
   
-Hint: hint
+Hint: NoHint
          
-Explanation: explanation
+Explanation: dYdX is an example of DEX as it is governed by protocols and not by any centralized authority.
 
-Sub Topics: amm
+Sub Topics: dex-definition
  
 
 ---
 
 ##### What are the major downsides of decentralized exchanges?  
 
-- [x]  No KYC/AML
-- [ ]  Fees for a deposit, withdrawal, trade creation/cancel
-- [ ]  Slow execution
+- [ ]  No KYC/AML
+- [x]  Fees for a deposit, withdrawal, trade creation/cancel
+- [x]  Slow execution
 - [ ]  No fees are paid to the exchange
   
-Hint: hint
+Hint: Gas Fees and Slow transaction
          
-Explanation: explanation
+Explanation: Due to security and validation by the miners of a transaction, we have to pay Gas fees even if the transaction gets failed which makes it slower than the CEX.
 
-Sub Topics: amm
+Sub Topics: dex-definition
  
 
 ---
@@ -269,13 +269,13 @@ Sub Topics: amm
 - [x]  Fast matching
 - [ ]  Slow matching
 - [ ]  Censorship resistance
-- [ ]  No fees for cancelled orders
+- [x]  No fees for cancelled orders
   
-Hint: hint
+Hint: Faster and No fees for cancelled orders
          
-Explanation: explanation
+Explanation: As Server Book Model is governed by a central authority and not by any protocol it doesn't need any validation by any miners. Hence, are faster and don't need any fees for the failed transaction.
 
-Sub Topics: amm
+Sub Topics: crypto-exchange
  
 
 ---
@@ -287,25 +287,23 @@ Sub Topics: amm
 - [ ]  Gas or Blockchain fees for orders
 - [ ]  No fees for cancelled orders
   
-Hint: hint
+Hint: Censored personal data
          
-Explanation: explanation
+Explanation: All the customers’ trading data, prices, and volumes of securities are stored on a Blockchain. Provide censorship resistance, as all data are stored on a distributed, and decentralized ledger in the form of immutable data blocks on the blockchain which are publicly shared among all its network nodes. Trade matching and settlement might be slow due to blockchain scalability issues.Fees are deducted in the form of Gas Fees for both successful and canceled orders. Miner/Trader/Exchange Operator can front-run users.
 
-Sub Topics: amm
+Sub Topics: crypto-exchange
  
 
 ---
 
 ##### Centralized exchanges do the market making by creating liquidity pools.  
 
-- [x]  option 1
-- [ ]  option 2
-- [ ]  option 3
-- [ ]  option 4
+- [ ]  true
+- [x]  false
   
-Hint: hint
+Hint: Order Book Model
          
-Explanation: explanation
+Explanation: CEX follows Order Book Model whereas the DEX follows protocols(such as AMM) for creating the liquidity pools.
 
 Sub Topics: amm
  
@@ -319,9 +317,9 @@ Sub Topics: amm
 - [ ]  Order Book
 - [ ]  Exchange
   
-Hint: hint
+Hint: NoHint
          
-Explanation: explanation
+Explanation: Liquidity Pools are created using a protocol(such as AMM) in DEX where liquidity providers come to fund the pools.
 
 Sub Topics: amm
  
@@ -330,14 +328,14 @@ Sub Topics: amm
 
 ##### What does AMM stand for?  
 
-- [x]  Automated Market Mover
-- [ ]  Automated Market Maker
+- [ ]  Automated Market Mover
+- [x]  Automated Market Maker
 - [ ]  Automated Maker Market
 - [ ]  None of the above
   
-Hint: hint
+Hint: NoHint
          
-Explanation: explanation
+Explanation: Automated Market Maker(AMM) is a protocol that creates the marketplace for buyers and sellers on its own.
 
 Sub Topics: amm
  
@@ -346,14 +344,14 @@ Sub Topics: amm
 
 ##### What is an Automated Market Maker?  
 
-- [x]  A protocol that automatically makes trades for a user
+- [ ]  A protocol that automatically makes trades for a user
 - [ ]  A system that ensures there is always enough liquidity to make trades
-- [ ]  A code function that automatically lists new markets on an exchange
-- [ ]  All of the above
+- [ ]  A code that automatically lists new markets on an exchange
+- [x]  All of the above
   
-Hint: hint
+Hint: Protocol, Liquidity and Automated
          
-Explanation: explanation
+Explanation: AMM is a type of DEX protocol that relies on a mathematical formula that allows digital assets to be traded without permission, automatically by using liquidity pools instead of the traditional order book pricing model.
 
 Sub Topics: amm
  
@@ -367,25 +365,25 @@ Sub Topics: amm
 - [ ]  Purchase of asset X decreases the price of X and decreases the price of Y
 - [ ]  Purchase of asset X does not affect the price of X and Y
   
-Hint: hint
+Hint: X = K/Y
          
-Explanation: explanation
+Explanation: The ratio of assets X and Y set the price of the pool as the purchase of asset X increases the price of X and decreases the price of Y and vice-versa.
 
 Sub Topics: amm
  
 
 ---
 
-##### Properties of AMM are  
+##### Properties of a Constant Product AMM are  
 
-- [x]  Instant liquidity, irrespective of the trade size
-- [ ]  The ratio of assets X and Y sets the price
+- [ ]  Instant liquidity, irrespective of the trade size.
+- [ ]  The ratio of assets X and Y sets the price of the pool.
 - [ ]  Purchase of asset X increases the price of X and decreases the price of Y
-- [ ]  All of the above
+- [x]  All of the above
   
-Hint: hint
+Hint: Quick Liquidity, Ratio of X and Y set price and purchase of one affect other's price.
          
-Explanation: explanation
+Explanation: Asset X quantity * Asset Y quantity = K (a constant) or simply  X*Y=K. Hence, provides:- 1) Instant liquidity, irrespective of the trade size. 2) Purchase of asset X increases the price of X and decreases the price of Y. 3) The ratio of assets X and Y sets the price
 
 Sub Topics: amm
  
@@ -396,12 +394,12 @@ Sub Topics: amm
 
 - [x]  High slippage for low liquidity markets
 - [ ]  No Order Book maintenance
-- [ ]  The danger of impermanent loss/coin de-peg
-- [ ]  Total loss of funds possible
+- [x]  The danger of impermanent loss/coin de-peg
+- [x]  Total loss of funds possible
   
-Hint: hint
+Hint: Impermanent Loss, High Slippage, Total fund loss
          
-Explanation: explanation
+Explanation: Cons as are:- 1) The danger of impermanent loss/coin De-Pegg may cause a total possible loss of funds in Liquidity Pools. 2) High slippage for low liquidity markets. So, please do observe and set your slippage tolerance threshold level while trading.
 
 Sub Topics: amm
  
@@ -413,27 +411,27 @@ Sub Topics: amm
 - [x]  No Order Book Maintenance
 - [ ]  High slippage for low liquidity markets
 - [ ]  Order Book Maintenance
-- [ ]  Simple implementation for CP AMM
+- [x]  Simple implementation for Constant Product AMM
   
-Hint: hint
+Hint: No Order-Book, Less Gas fees
          
-Explanation: explanation
+Explanation: Pros of an AMM:-1) No Order Book Maintenance for traders but arbitrage is required for them. 2)A simple implementation of Constant Product AMM causes less computation which results in Low gas costs.
 
 Sub Topics: amm
  
 
 ---
 
-##### AMM is also known as  
+##### Uniswap uses which of the following protocol?  
 
-- [x]  Positive Product
-- [ ]  Constant Product AMM
-- [ ]  Exponential Product
-- [ ]  Linear Product
+- [ ]  Positive Product AMM
+- [x]  Constant Product AMM
+- [ ]  Exponential Product AMM
+- [ ]  Linear Product AMM
   
-Hint: hint
+Hint: CP
          
-Explanation: explanation
+Explanation: Uniswap uses the Constant Product AMM protocol which is as follows:- Asset `X` quantity * Asset `Y` quantity = `K` (a constant)  or simply as `X*Y=K`.
 
 Sub Topics: amm
  
@@ -447,9 +445,9 @@ Sub Topics: amm
 - [ ]  from the price difference of the same assets, let's say X and Y on the same markets
 - [ ]  from the price difference of the different assets, let's say X and Y on different markets
   
-Hint: hint
+Hint: Arbitrage
          
-Explanation: explanation
+Explanation: Arbitrage is an investment strategy in which an investor (a.k.a. Arbitrageurs) simultaneously buys and sells the same asset in different markets(either AMM or some other market) to profit from tiny differences in the asset's listed price
 
 Sub Topics: amm
  
@@ -458,14 +456,14 @@ Sub Topics: amm
 
 ##### What do you understand by slippage?  
 
-- [x]  The expected decrease in price is based on the trading volume and available liquidity.
+- [ ]  The expected decrease in price is based on the trading volume and available liquidity.
 - [ ]  The expected increase in price is based on the trading volume and available liquidity.
-- [ ]  The expected increase or decrease in price is based on the trading volume and available liquidity.
+- [x]  The expected increase or decrease in price is based on the trading volume and available liquidity.
 - [ ]  None of the above
   
-Hint: hint
+Hint: Price change
          
-Explanation: explanation
+Explanation: Slippage is the difference between the expected price of an order and the price when the order executes. (due to the volatility of cryptocurrency prices)
 
 Sub Topics: amm
  
@@ -474,46 +472,46 @@ Sub Topics: amm
 
 ##### ___ refers to the phenomenon of a stablecoin deviating or any asset deviating from its intended peg.  
 
-- [x]  De-viating
+- [ ]  Deviating
 - [ ]  Pegging
-- [ ]  De-pegging
 - [ ]  De-stablizing
+- [x]  De-pegging
   
-Hint: hint
+Hint: NoHint
          
-Explanation: explanation
+Explanation: De-pegging refers to the phenomenon of a stablecoin deviating or any asset deviating from its intended peg. For example:- In the case of a stablecoin pegged to USD, if its value reduces below $1, then the coin is said to be “de-pegged” which indirectly reduces the valuation of investment to a Liquidity Pool by a Liquidity Provider.
 
 Sub Topics: amm
  
 
 ---
 
-##### What are the types of rewards in DeFi?  
+##### What are the types of rewards Liquidity Providers?  
 
-- [x]  Trading Fees
+- [ ]  Trading Fees
 - [ ]  Liquidity Mining
-- [ ]  Both of these
+- [x]  Both of these
 - [ ]  There are no rewards
   
-Hint: hint
+Hint: Two types
          
-Explanation: explanation
+Explanation: Types of rewards that Liquidity Providers get on funding Liquidity Pools are:- 1) Trading Fees-that are paid by traders on each trade(eg, 0.03% in Curve.fi) 2) Liquidity Mining-an incentive/reward given to the Liquidity Providers(LP) proportional to the amount of liquidity provided by the LP. Rewards can also be provided to the LPs in terms of “Airdrops”.
 
 Sub Topics: amm
  
 
 ---
 
-##### Flash swap requires that  
+##### Arbitrage requires that  
 
-- [x]  Repayment occurs with different asset
-- [ ]  Repayment occurs with the same asset
-- [ ]  Repayment does not necessarily occur
+- [ ]  Repayment to be paid with different asset
+- [x]  Repayment to be paid with the same asset
+- [ ]  Repayment does not necessarily to be paid
 - [ ]  Repayment occurs in multiple transactions
   
-Hint: hint
+Hint: Same Asset
          
-Explanation: explanation
+Explanation: Arbitrage is an investment strategy in which an investor (a.k.a. Arbitrageurs) simultaneously buys and sells the same asset in different markets(either AMM or some other market) to profit from tiny differences in the asset's listed price.
 
 Sub Topics: amm
  
@@ -522,14 +520,12 @@ Sub Topics: amm
 
 ##### Flash loan and flash swap are the same  
 
-- [x]  option 1
-- [ ]  option 2
-- [ ]  option 3
-- [ ]  option 4
+- [ ]  true
+- [x]  false
   
-Hint: hint
+Hint: One is Loan and other is Exchanged value
          
-Explanation: explanation
+Explanation: Flash Swaps allows us to withdraw up to the full reserves of any ERC20 token on Uniswap and execute arbitrary logic at no upfront cost, provided that by the end of the transaction you either- 1) Pay for the withdrawn ERC20 tokens with the corresponding pair tokens, 2) Return the withdrawn ERC20 tokens along with a small fee. Whereas th Flash Loan is a loan which we have to take and repay back in one transaction.
 
 Sub Topics: amm
  
@@ -538,30 +534,30 @@ Sub Topics: amm
 
 ##### Impermanent loss is realized upon  
 
-- [x]  Deposit
+- [ ]  Deposit only
 - [ ]  Deposit as well as withdrawal
-- [ ]  Holding
-- [ ]  Withdrawal
+- [ ]  Holding only
+- [x]  Withdrawal only
   
-Hint: hint
+Hint: NoHint
          
-Explanation: explanation
+Explanation: Impermanent loss == Not Permanent Loss. Loss generated due to price change of the asset which is realized upon withdrawal only. So, it can result in a total loss of value but- Trading fees taken from the traders may compensate for it and Liquidity mining reward may compensate for it.
 
 Sub Topics: amm
  
 
 ---
 
-##### ___the difference between the expected price of an order and the price when the order executes.  
+##### ___ is the difference between the expected price of an order and the price when the order executes.  
 
-- [x]  De-peg
-- [ ]  Arbitrageous
-- [ ]  Slippage
+- [ ]  De-peg
+- [ ]  Arbitrage
+- [x]  Slippage
 - [ ]  AMM
   
-Hint: hint
+Hint: NoHint
          
-Explanation: explanation
+Explanation: Arbitrage is an investment strategy in which an investor (a.k.a. Arbitrageurs) simultaneously buys and sells the same asset in different markets(either AMM or some other market) to profit from tiny differences in the asset's listed price.
 
 Sub Topics: amm
  
@@ -570,14 +566,14 @@ Sub Topics: amm
 
 ##### How traders make profit using AMM?  
 
-- [x]  Flash swap
-- [ ]  Arbitrageous
+- [ ]  Flash swap
+- [ ]  Arbitrage
 - [ ]  None of these
-- [ ]  Both of these
+- [x]  Both of these
   
-Hint: hint
+Hint: Two ways
          
-Explanation: explanation
+Explanation: Traders use Arbitrage and Flash Swaps or Capital Free Arbitrage to make profits.
 
 Sub Topics: amm
  
@@ -589,13 +585,13 @@ Sub Topics: amm
 - [x]  On-Chain
 - [ ]  On-Server
 - [ ]  Off-Server
-- [ ]  Off-Chain
+- [x]  Off-Chain
   
-Hint: hint
+Hint: NoHint
          
-Explanation: explanation
+Explanation: Types of DEX Aggregators are 1) Off-chain Aggregator (like 1inch, paraswap) and 2) On-chain Aggregator (like swapswap)
 
-Sub Topics: amm
+Sub Topics: dex-aggregators
  
 
 ---
@@ -603,31 +599,31 @@ Sub Topics: amm
 ##### Off-chain aggregator  
 
 - [x]  Can swap multiple chains flexibly present over 4+ exchanges
-- [ ]  used for arbitrage findings
-- [ ]  unlikely to efficiently cover 4+ exchanges
-- [ ]  An operator can front-run users
+- [ ]  Used for arbitrage findings
+- [ ]  Unlikely to efficiently cover 4+ exchanges
+- [x]  An operator can front-run users
   
-Hint: hint
+Hint: swap multiple chains, Operator front runs
          
-Explanation: explanation
+Explanation: Off-chain DEX Aggregator (like 1inch, paraswap) 1) Can swap multiple chains flexibly present over 4+ exchanges and 2) An operator can front-run users.
 
-Sub Topics: amm
+Sub Topics: dex-aggregators
  
 
 ---
 
 ##### On-chain aggregator  
 
-- [x]  Can swap multiple chains flexibly present over 4+ exchanges
-- [ ]  used for arbitrage findings
-- [ ]  unlikely to efficiently cover 4+ exchanges
+- [ ]  Can swap multiple chains flexibly present over 4+ exchanges
+- [x]  Used for arbitrage findings
+- [x]  Unlikely to efficiently cover 4+ exchanges
 - [ ]  An operator can front-run users
   
-Hint: hint
+Hint: Arbitrage, less efficient
          
-Explanation: explanation
+Explanation: On-chain Aggregator (like swapswap) used for arbitrage findings but less efficiently cover 4+ exchanges
 
-Sub Topics: amm
+Sub Topics: dex-aggregators
  
 
 ---
@@ -636,14 +632,14 @@ Sub Topics: amm
 
 - [x]  On chain aggregator
 - [ ]  Off chain aggregator
-- [ ]  Centralized exchange
-- [ ]  On chain order book
+- [ ]  Both of these
+- [ ]  None of these
   
-Hint: hint
+Hint: NoHint
          
-Explanation: explanation
+Explanation: On-Chain DEX Aggregator
 
-Sub Topics: amm
+Sub Topics: dex-aggregators
  
 
 ---
@@ -652,156 +648,12 @@ Sub Topics: amm
 
 - [x]  Paraswap
 - [ ]  Swapswap
-- [ ]  1inch
+- [x]  1inch
 - [ ]  Uniswap
   
-Hint: hint
+Hint: NoHint
          
-Explanation: explanation
+Explanation: 1inch and paraswap are popular On-chain DEX Aggregators.
 
-Sub Topics: amm
- 
-
----
-
-##### question  
-
-- [x]  option 1
-- [ ]  option 2
-- [ ]  option 3
-- [ ]  option 4
-  
-Hint: hint
-         
-Explanation: explanation
-
-Sub Topics: amm
- 
-
----
-
-##### question  
-
-- [x]  option 1
-- [ ]  option 2
-- [ ]  option 3
-- [ ]  option 4
-  
-Hint: hint
-         
-Explanation: explanation
-
-Sub Topics: amm
- 
-
----
-
-##### question  
-
-- [x]  option 1
-- [ ]  option 2
-- [ ]  option 3
-- [ ]  option 4
-  
-Hint: hint
-         
-Explanation: explanation
-
-Sub Topics: amm
- 
-
----
-
-##### question  
-
-- [x]  option 1
-- [ ]  option 2
-- [ ]  option 3
-- [ ]  option 4
-  
-Hint: hint
-         
-Explanation: explanation
-
-Sub Topics: amm
- 
-
----
-
-##### question  
-
-- [x]  option 1
-- [ ]  option 2
-- [ ]  option 3
-- [ ]  option 4
-  
-Hint: hint
-         
-Explanation: explanation
-
-Sub Topics: amm
- 
-
----
-
-##### question  
-
-- [x]  option 1
-- [ ]  option 2
-- [ ]  option 3
-- [ ]  option 4
-  
-Hint: hint
-         
-Explanation: explanation
-
-Sub Topics: amm
- 
-
----
-
-##### question  
-
-- [x]  option 1
-- [ ]  option 2
-- [ ]  option 3
-- [ ]  option 4
-  
-Hint: hint
-         
-Explanation: explanation
-
-Sub Topics: amm
- 
-
----
-
-##### question  
-
-- [x]  option 1
-- [ ]  option 2
-- [ ]  option 3
-- [ ]  option 4
-  
-Hint: hint
-         
-Explanation: explanation
-
-Sub Topics: amm
- 
-
----
-
-##### question  
-
-- [x]  option 1
-- [ ]  option 2
-- [ ]  option 3
-- [ ]  option 4
-  
-Hint: hint
-         
-Explanation: explanation
-
-Sub Topics: amm
+Sub Topics: dex-aggregators
  
