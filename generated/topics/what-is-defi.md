@@ -14,7 +14,7 @@ Details
 
 
 ## Links
-[Reading List](./../../generated/readings/blockchain_basics.md)
+[Reading List](./../../generated/readings/introduction_to_defi.md)
 
 [Summary](./../../generated/summaries/introduction_to_defi.md)
 
