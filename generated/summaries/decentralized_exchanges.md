@@ -61,46 +61,48 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
   * AMM is a type of DEX protocol that relies on a mathematical formula that allows digital assets to be traded without permission, automatically by using liquidity pools instead of the traditional order book pricing model. This formula can vary with each protocol. For example, Uniswap uses the Constant Product AMM protocol which is as follows:-
     * Asset X quantity * Asset Y quantity = K (a constant)  simply  X*Y=K
       * Properties of popular Constant Product AMM protocol:
-        * Instant liquidity, irrespective of the trade size.
+        * Instant liquidity, irrespective of the trade size (assuming that trade size is always less than pool size).
         * Purchase of asset X increases the price of X and decreases the price of Y
         * The ratio of assets X and Y sets the price
     * Now, What is a Protocol?
       * Protocols are basic sets of rules that allow data and cryptocurrencies to be shared securely between different nodes (i.e computers) in the blockchain network.
     * Then, What is Liquidity Pool?
       * A Liquidity Pool is a collection of funds, funded by Liquidity Providers(LP) that are locked in a smart contract, to facilitate trading, borrowing, lending, yielding, etc.
-      * Types of rewards that Liquidity Providers get on funding Liquidity Pools are:
-        * Trading Fees: that are paid by traders on each trade( eg, 0.03% in Curve.fi )
-        - Liquidity Mining:
-          * It is an incentive/reward given to the Liquidity Providers(LP) proportional to the amount of liquidity provided by the LP
-          * It can also be provided to the LPs in terms of “Airdrops”.
-          * Airdrops are tokens that are given to the traders and LPs for free or in exchange for minimal promotional work.
-      - Types of losses for Liquidity Providers:
-        - Impermanent loss == Not Permanent Loss
-          * Loss generated due to price change of the asset which is realized upon withdrawal only!
-          * So, it can result in a total loss of value but:
-            * Trading fees taken from the traders may compensate for it.
-            * Liquidity mining reward may compensate for it. 
-        - Coin de-peg:
-          * De-pegging refers to the phenomenon of a stablecoin deviating or any asset deviating from its intended peg. For example: In the case of a stablecoin pegged to USD, if its value reduces below $1, then the coin is said to be “de-pegged” which indirectly reduces the valuation of investment to a Liquidity Pool by a Liquidity Provider.
-
-      * How traders are making profits using AMM?:-
-        - Arbitrage:
-          * It is an investment strategy in which an investor (a.k.a. Arbitrageurs) simultaneously buys and sells the same asset in different markets(either AMM or some other market) to profit from tiny differences in the asset's listed price.
-        - Flash Swaps or Capital Free Arbitrage (used in Uniswap):
-          * It allows us to withdraw up to the full reserves of any ERC20 token on Uniswap and execute arbitrary logic at no upfront cost, provided that by the end of the transaction you either:
-            * Pay for the withdrawn ERC20 tokens with the corresponding pair tokens
-            * Return the withdrawn ERC20 tokens along with a small fee
-
-
-      * One thing that causes the most loss to traders:-
-        - Slippage:
-          * It is the difference between the expected price of an order and the price when the order executes. ( due to the volatility of cryptocurrency prices )
-      - Pros of an AMM:
+    - Pros of an AMM:
         * No Order Book Maintenance for traders but arbitrage is required for them.
         * A simple implementation of Constant Product AMM causes less computation which results in Low gas costs.
-      - Cons of an AMM:
+    - Cons of an AMM:
         * The danger of Impermanent loss/Coin De-Pegg may cause a total possible loss of funds in Liquidity Pools.
         * High slippage for low liquidity markets. So, please do observe and set your slippage tolerance threshold level while trading.
+ 
+ **Profit and Loss incurr by Liquidity Providers(LP) on AMM DEXs**        
+- Types of rewards that Liquidity Providers get on funding Liquidity Pools are:
+  - Trading Fees reward: that are paid by traders on each trade( eg, 0.03% in Curve.fi )
+  - Liquidity Mining reward:
+    * It is an incentive/reward given to the Liquidity Providers(LP) proportional to the amount of liquidity provided by the LP
+    * It can also be provided to the LPs in terms of “Airdrops”.
+    * Airdrops are tokens that are given to the traders and LPs for free or in exchange for minimal promotional work.
+- Types of losses for Liquidity Providers:
+  - Impermanent loss == Not Permanent Loss
+    * Loss generated due to price change of the asset which is realized upon withdrawal only!
+    * So, it can result in a total loss of value but:
+      * Trading fees taken from the traders may compensate for it.
+      * Liquidity mining reward may compensate for it. 
+  - Coin de-peg:
+    * De-pegging refers to the phenomenon of a stablecoin deviating or any asset deviating from its intended peg. For example: In the case of a stablecoin pegged to USD, if its value reduces below $1, then the coin is said to be “de-pegged” which indirectly reduces the valuation of investment to a Liquidity Pool by a Liquidity Provider.
+ 
+ **Profit and Loss incurr by Traders on AMM DEXs**        
+* How traders are making profits using AMM?
+  - Arbitrage:
+    * It is an investment strategy in which an investor (a.k.a. Arbitrageurs) simultaneously buys and sells the same asset in different markets(either AMM or some other market) to profit from tiny differences in the asset's listed price.
+  - Flash Swaps or Capital Free Arbitrage (used in Uniswap):
+    * It allows us to withdraw up to the full reserves of any ERC20 token on Uniswap and execute arbitrary logic at no upfront cost, provided that by the end of the transaction you either:
+      * Pay for the withdrawn ERC20 tokens with the corresponding pair tokens
+      * Return the withdrawn ERC20 tokens along with a small fee
+* One thing that causes the most loss to traders:-
+  - Slippage:
+    * It is the difference between the expected price of an order and the price when the order executes. ( due to the volatility of cryptocurrency prices )
+      
  
  **DEX Aggregator**        
 - DEX Aggregators:
