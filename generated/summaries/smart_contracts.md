@@ -12,15 +12,26 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
   * An Ethereum user can control addresses through an externally
   owned account (EOA) or by using smart contract code (contract
   account).
+  * An EOA is controlled using a private key. It has no code incorporated within and it enables user to send transactions.
   * When sending data to a contract account, the data are used to
   execute code in that contract.
-  * Transactions sent to an EOA can only transfer ETH.
+  * Transactions sent to an externally owned account (EOA) can only transfer ETH.
   * A single transaction starts with an end user from an EOA, but it can pass through many dApps (decentralised Applications) before completing.
   * Transaction begins with a single smart contract and continues to carry on all the intermediate steps within the contract body.
+
+- Blockchain Transactions and Blocks
+  * Whenever a transaction occurs it is stored as a "block" of data.
+  * These transactions show the movement of assets tangible (a product) or intangible (intellectual).
+  * These data blocks store a variety of information such as who, what, when, where and also conditions such as temperature.
+  * Each block is connected to one before and after it. The blocks represent the flow of ownership of some data.
+  * Each of these blocks have a hashed reference to the block before it so you can trace every transaction all the way back to genesis block.
+  * These block are securely linked to each other to prevent any block from being altered or a block being inserted between two existing blocks.
+  * Blockchain hashes are highly secure. They strengthen the verification of the previous block and hence the entire blockchain.
 
 - Atomicity
   * This is one of the most important property of Ethereum Transaction Mechanism which makes DeFi different from CeFi.
   * The transactions in Ethereum are atomic which means the clauses in a smart contract can lead to failure of transaction and thus all the steps of the transaction are reversed.
+  * Atomicity enables inter-contract and inter-blockchain function calls that are synchronous and atomic by nature. This idea spans over the clauses in a smart contract, failure in any of them results in discarding of the whole transaction.
   * Atomicity is a critical feature of transactions because funds can
   move between many contracts (i.e., “exchange hands”) with the
   knowledge and security that if one of the conditions is not met,
@@ -58,11 +69,13 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
   good example.
 
 - Gas 
+  * Gas is a unit that measures the amount of computational effort that it will take to execute certain operations.
   * Transactions have a gas fee that is the fee received by the miners for conducting transactions.
   * Transactions have a gas fee, which varies based on the complexity
   of the transaction. E.g., low gas fee is used to compensate a miner
   for including and executing a transaction, and high gas fee for
   more data-intensive transactions.
+  * There are two types of contract interactions : real transactions and local static calls (view or readonly operartion). For example, transfer of money is a real transaction whereas checking account balance is readonly operation.Real transactions always cost gas, local static calls do not cost gas. This occurs majorly because the transactions bring about a change in the whole ethereum blockchain whereas the read only functions are issued to the local node. The local node does the computation with its own resources and its copy of the blockchain.
   * If a transaction reverts due to any failure or runs out of gas the
   miner forfeits all gas used until that point. This helps miners earn even if large volumes of failed transactions occur.
 
@@ -82,6 +95,11 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
     * The gas limit is the maximum amount of gas a user is willing to use for a
     transaction. A transaction can include multiple operations.
     * If there is residual amount of gas after the transaction is complete, then the user gets back the remaining gas.
+  
+  - Mining
+    * Ethereum currently uses the proof of work consensus mechanism.
+    * Ethereum miners - computers running software - using their time and computation power to process transactions and produce blocks.
+    * Gas fees are used to compensate Ethereum miners for their work in verifying transactions and securing the network.
 
   - Turing Complete
     * Gas plays a very important role. If a malicious attack is planned then it would be extremely expensive to carry out.
@@ -131,6 +149,17 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
     * Any platform with admin-controlled functionality is not truly DeFi
     because of the admins’ centralized control. For this reason, many platforms strive for a decentralized upgrade process, often mediated by a governance token.
     * UNI token introduced by Uniswap DEX, is a type of governance token which used, as voting rights whenever there is a need to incorporate an upgrade in the existing mechanism of exchange.
+
+- ERC-721 (Ethereum Request for Comment 721)
+  * ERC-721 defines the non-fungible standard. It is similar to ERC-20 except that each unit has its own unique ID.
+  * NFTs act as a  representation for unique ownership of unitary assets.
+  * NFTs canbe used to represent collectibles (eg. onwership of a piece of art).
+
+- ERC 1155
+  * ERC-20 and ERC-721 tokens require an individual contract and address deployed to the blockchain.
+  * Due to different requirements of fungible and non fungible tokens it can be cumbersome for system.
+  * ERC-1155 resolves this complexity by defining a multi-token model in which the contract holds balances for a variable number of tokens, which can be fungible or nonfungible.
+
   
  
  **Decentralised Applications**        
@@ -142,7 +171,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
   them.
   * A decentralized autonomous organization (DAO) has its rules of operation
   encoded in smart contracts that determine who can execute what behavior
-  or upgrade.   
+  or upgrade. 
   * It is common for a DAO to have some kind of governance token, which gives
   an owner some percentage of the vote on future outcomes.
  
