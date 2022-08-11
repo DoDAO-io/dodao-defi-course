@@ -39,7 +39,6 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
       * Miner/Trader/Exchange Operator can front-run users.
  
  **Decentralized Exchange (DEX)**        
-
 - Decentralized Exchange (DEX)
   * A peer-to-peer marketplace where transactions between crypto traders are done mostly using Automated Market Maker (AMM) without banks, brokers, or any other intermediary intervention.
   * Customer, transactional, and all other forms of data are stored on Blockchain. 
@@ -84,10 +83,13 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
     * Airdrops are tokens that are given to the traders and LPs for free or in exchange for minimal promotional work.
 - Types of losses for Liquidity Providers:
   - Impermanent loss == Not Permanent Loss
-    * Loss generated due to price change of the asset which is realized upon withdrawal only!
-    * So, it can result in a total loss of value but:
-      * Trading fees taken from the traders may compensate for it.
-      * Liquidity mining reward may compensate for it. 
+    * Impermanent Loss arises when the price ratio of an asset and liquidity pool changes. So, Liquidity Providers (LPs) who have deposited funds in affected pools automatically incur this loss. The larger the shift in the price ratio the larger the loss.
+    * However, this loss is called impermanent for a reason as long as we do not withdraw deposited tokens at a time that the pool is experiencing a shift in price ratio it is still possible to mitigate the loss.
+    * This loss disappears when the prices of the tokens revert to the original value at which they were deposited.
+    * Those who withdraw funds before the prices revert suffer permanent losses.
+    - Nonetheless, it is possible to negate the losses through income received by liquidity providers via:
+      * Trading fees (i.e fees taken from traders during each trading transaction).
+      * Liquidity mining reward (i.e reward given by the DEX in the form of its governance tokens or some other asset as interests).
   - Coin de-peg:
     * De-pegging refers to the phenomenon of a stablecoin deviating or any asset deviating from its intended peg. For example: In the case of a stablecoin pegged to USD, if its value reduces below $1, then the coin is said to be “de-pegged” which indirectly reduces the valuation of investment to a Liquidity Pool by a Liquidity Provider.
  
@@ -101,7 +103,10 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
       * Return the withdrawn ERC20 tokens along with a small fee
 * One thing that causes the most loss to traders:-
   - Slippage:
-    * It is the difference between the expected price of an order and the price when the order executes. ( due to the volatility of cryptocurrency prices )
+    * The featured price of a cryptocurrency on a marketplace is the most recent price at which that cryptocurrency was bought by the buyer or sold by the seller. So in some cases where there are not enough counter-parties to trade with, then the market is said to be illiquid or prone to slippage.
+    * It occurs when the processing of large order volumes drives the prices of an asset up or down to mitigate this occurrence and this fluctuation of price is called volatility.
+    * In other words, Slippage is the difference between the expected price of an order and the price when the order executes. (due to the volatility of cryptocurrency prices)
+    * For solving this illiquidity or slippage problem of the market we need liquidity which is provided by Liquidity Providers (or Market Makers) to make Liquidity Pools liquid again and this whole process is called Market Making.
       
  
  **DEX Aggregator**        

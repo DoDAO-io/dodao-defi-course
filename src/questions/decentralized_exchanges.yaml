@@ -529,7 +529,7 @@
   answerKeys:
     - C
   subTopics:
-    - traders
+    - dex-traders
   difficultyLevel: Low
   choices:
     - content: The expected decrease in price is based on the trading volume and available liquidity.
@@ -586,7 +586,7 @@
   answerKeys:
     - B
   subTopics:
-    - traders
+    - dex-traders
   difficultyLevel: Medium
   choices:
     - content: Repayment to be done with different asset
@@ -605,7 +605,7 @@
   answerKeys:
     - B
   subTopics:
-    - traders
+    - dex-traders
   difficultyLevel: Low
   choices:
     - content: True
@@ -639,7 +639,7 @@
   answerKeys:
     - C
   subTopics:
-    - traders
+    - dex-traders
   difficultyLevel: Low
   choices:
     - content: De-peg
