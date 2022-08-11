@@ -18,6 +18,6 @@ Details
 ## Links
 [Reading List](./../../generated/readings/blockchain_basics.md)
 
-[Summary](./../../generated/summaries/blockchain_basics.md)
+[Summary](./../../generated/summaries/smart_contracts.md)
 
 [Questions](./../../generated/questions/blockchain_basics.md)
