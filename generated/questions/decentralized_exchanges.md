@@ -543,11 +543,7 @@ Hint: NoHint
          
 Explanation: Slippage is the difference between the expected price of an order and the price when the order executes (due to the volatility of cryptocurrency prices).
 
-<<<<<<< HEAD
-Sub Topics: traders
-=======
 Sub Topics: dex-traders
->>>>>>> 465c47b7a8257d7c6d0dd5ba7c4fe87c4008552c
  
 
 ---
@@ -645,7 +641,6 @@ Explanation: Impermanent Loss arises when the price ratio of an asset and liquid
 
 Sub Topics: liquidity-providers
  
-<<<<<<< HEAD
 
 ---
 
@@ -662,5 +657,3 @@ Explanation: A Liquidity Pool is a collection of two asset pairs X and Y (Let’
 
 Sub Topics: liquidity-providers
  
-=======
->>>>>>> 465c47b7a8257d7c6d0dd5ba7c4fe87c4008552c

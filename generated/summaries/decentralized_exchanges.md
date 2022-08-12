@@ -111,11 +111,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
   - Slippage:
     * The featured price of a cryptocurrency on a marketplace is the most recent price at which that cryptocurrency was bought by the buyer or sold by the seller. So in some cases where there are not enough counter-parties to trade with, then the market is said to be illiquid or prone to slippage.
     * It occurs when the processing of large order volumes drives the prices of an asset up or down to mitigate this occurrence and this fluctuation of price is called volatility.
-<<<<<<< HEAD
     * In other words, Slippage is the difference between the expected price of an order and the price when the order executes. ( due to the volatility of cryptocurrency prices )
-=======
-    * In other words, Slippage is the difference between the expected price of an order and the price when the order executes. (due to the volatility of cryptocurrency prices)
->>>>>>> 465c47b7a8257d7c6d0dd5ba7c4fe87c4008552c
     * For solving this illiquidity or slippage problem of the market we need liquidity which is provided by Liquidity Providers (or Market Makers) to make Liquidity Pools liquid again and this whole process is called Market Making.
       
  

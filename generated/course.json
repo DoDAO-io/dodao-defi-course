@@ -8030,7 +8030,6 @@
               "key": "D"
             }
           ]
-<<<<<<< HEAD
         },
         {
           "uuid": "729011f5-d0ba-4a55-a868-844fd42d17d9",
@@ -8065,8 +8064,6 @@
               "key": "D"
             }
           ]
-=======
->>>>>>> 465c47b7a8257d7c6d0dd5ba7c4fe87c4008552c
         }
       ],
       "readings": [
@@ -8132,15 +8129,9 @@
         },
         {
           "title": "Profit and Loss incurr by Traders on AMM DEXs",
-<<<<<<< HEAD
-          "shortTitle": "Traders",
-          "key": "traders",
-          "details": "* How traders are making profits using AMM?\n  - Arbitrage:\n    * It is an investment strategy in which an investor (a.k.a. Arbitrageurs) simultaneously buys and sells the same asset in different markets(either AMM or some other market) to profit from tiny differences in the asset's listed price.\n  - Flash Swaps or Capital Free Arbitrage (used in Uniswap):\n    * It allows us to withdraw up to the full reserves of any ERC20 token on Uniswap and execute arbitrary logic at no upfront cost, provided that by the end of the transaction you either:\n      * Pay for the withdrawn ERC20 tokens with the corresponding pair tokens\n      * Return the withdrawn ERC20 tokens along with a small fee\n* One thing that causes the most loss to traders:-\n  - Slippage:\n    * The featured price of a cryptocurrency on a marketplace is the most recent price at which that cryptocurrency was bought by the buyer or sold by the seller. So in some cases where there are not enough counter-parties to trade with, then the market is said to be illiquid or prone to slippage.\n    * It occurs when the processing of large order volumes drives the prices of an asset up or down to mitigate this occurrence and this fluctuation of price is called volatility.\n    * In other words, Slippage is the difference between the expected price of an order and the price when the order executes. ( due to the volatility of cryptocurrency prices )\n    * For solving this illiquidity or slippage problem of the market we need liquidity which is provided by Liquidity Providers (or Market Makers) to make Liquidity Pools liquid again and this whole process is called Market Making.\n      \n"
-=======
           "shortTitle": "DEX Traders",
           "key": "dex-traders",
-          "details": "* How traders are making profits using AMM?\n  - Arbitrage:\n    * It is an investment strategy in which an investor (a.k.a. Arbitrageurs) simultaneously buys and sells the same asset in different markets(either AMM or some other market) to profit from tiny differences in the asset's listed price.\n  - Flash Swaps or Capital Free Arbitrage (used in Uniswap):\n    * It allows us to withdraw up to the full reserves of any ERC20 token on Uniswap and execute arbitrary logic at no upfront cost, provided that by the end of the transaction you either:\n      * Pay for the withdrawn ERC20 tokens with the corresponding pair tokens\n      * Return the withdrawn ERC20 tokens along with a small fee\n* One thing that causes the most loss to traders:-\n  - Slippage:\n    * The featured price of a cryptocurrency on a marketplace is the most recent price at which that cryptocurrency was bought by the buyer or sold by the seller. So in some cases where there are not enough counter-parties to trade with, then the market is said to be illiquid or prone to slippage.\n    * It occurs when the processing of large order volumes drives the prices of an asset up or down to mitigate this occurrence and this fluctuation of price is called volatility.\n    * In other words, Slippage is the difference between the expected price of an order and the price when the order executes. (due to the volatility of cryptocurrency prices)\n    * For solving this illiquidity or slippage problem of the market we need liquidity which is provided by Liquidity Providers (or Market Makers) to make Liquidity Pools liquid again and this whole process is called Market Making.\n      \n"
->>>>>>> 465c47b7a8257d7c6d0dd5ba7c4fe87c4008552c
+          "details": "* How traders are making profits using AMM?\n  - Arbitrage:\n    * It is an investment strategy in which an investor (a.k.a. Arbitrageurs) simultaneously buys and sells the same asset in different markets(either AMM or some other market) to profit from tiny differences in the asset's listed price.\n  - Flash Swaps or Capital Free Arbitrage (used in Uniswap):\n    * It allows us to withdraw up to the full reserves of any ERC20 token on Uniswap and execute arbitrary logic at no upfront cost, provided that by the end of the transaction you either:\n      * Pay for the withdrawn ERC20 tokens with the corresponding pair tokens\n      * Return the withdrawn ERC20 tokens along with a small fee\n* One thing that causes the most loss to traders:-\n  - Slippage:\n    * The featured price of a cryptocurrency on a marketplace is the most recent price at which that cryptocurrency was bought by the buyer or sold by the seller. So in some cases where there are not enough counter-parties to trade with, then the market is said to be illiquid or prone to slippage.\n    * It occurs when the processing of large order volumes drives the prices of an asset up or down to mitigate this occurrence and this fluctuation of price is called volatility.\n    * In other words, Slippage is the difference between the expected price of an order and the price when the order executes. ( due to the volatility of cryptocurrency prices )\n    * For solving this illiquidity or slippage problem of the market we need liquidity which is provided by Liquidity Providers (or Market Makers) to make Liquidity Pools liquid again and this whole process is called Market Making.\n      \n"
         },
         {
           "title": "DEX Aggregator",

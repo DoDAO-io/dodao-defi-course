@@ -771,7 +771,6 @@
       key: C
     - content: Those who withdraw funds before the prices revert suffer permanent losses.
       key: D
-<<<<<<< HEAD
 - uuid: 729011f5-d0ba-4a55-a868-844fd42d17d9
   type: MultipleChoice
   content: Which of the following statements about Liquidity Pools are valid?
@@ -793,5 +792,3 @@
       key: C
     - content: A Liquidity Pool is funded by Liquidity Providers(LP).
       key: D
-=======
->>>>>>> 465c47b7a8257d7c6d0dd5ba7c4fe87c4008552c
