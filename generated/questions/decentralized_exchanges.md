@@ -40,16 +40,16 @@ Sub Topics: intro
 
 ---
 
-##### What is a Centralized Exchange?  
+##### Which of the following describes a Centralized Exchange?  
 
-- [ ]  A peer-exchange-peer marketplace for crypto traders without any intermediary intervention
-- [x]  A peer-to-exchange-to-peer marketplace where transactions between crypto traders are done using traditional “Order Book” models that are officiated by banks, brokers, or any other intermediary.
-- [ ]  A marketplace where securities, commodities, derivatives, and other financial instruments are traded
-- [ ]  A peer-to-peer marketplace for crypto traders without any intermediary intervention
+- [x]  A centralized crypto exchange is one that's created and run by a company.
+- [x]  Transactions are done using traditional “Order Book” models that are officiated by banks, brokers, or any other intermediary.
+- [ ]  A peer-to-peer marketplace for crypto traders without any intermediary intervention.
+- [x]  One company oversees all the transactions and sets the exchange's rules and fees.
   
 Hint: Buyer-Exchange platform/marketplace-Seller
          
-Explanation: A centralized exchange is a platform/marketplace where buyer and seller come together to buy and sell an asset.
+Explanation: A centralized crypto exchange is one that's created and run by a company. These exchanges are considered centralized because one company oversees all the transactions and sets the exchange's rules and fees.
 
 Sub Topics: intro
  
@@ -125,7 +125,7 @@ Sub Topics: crypto-exchange
 - [x]  Liquidity Pools
 - [x]  Protocol
 - [x]  Order Book
-- [x]  Exchanges
+- [ ]  None of the above
   
 Hint: NoHint
          
@@ -152,12 +152,12 @@ Sub Topics: dex-definition
 
 ---
 
-##### What is a Decentralized Exchange?  
+##### Which of the following points describe a Decentralized Exchange?  
 
-- [ ]  A peer-exchange-peer marketplace for crypto traders without any third-party intervention
-- [x]  A peer-to-peer marketplace for crypto traders without any third-party intervention
-- [ ]  A peer-exchange-peer marketplace for crypto traders with third-party interventions
-- [ ]  A peer-to-peer marketplace for crypto traders with some third-party intervention
+- [ ]  A marketplace where one company oversees all the transactions and sets the exchange's rules and fees.
+- [x]  A peer-to-peer marketplace for crypto traders without any third-party intervention.
+- [ ]  A marketplace where transactions are done using traditional “Order Book” models.
+- [ ]  A peer-to-peer marketplace for crypto traders with some third-party interventions.
   
 Hint: Buyer-Seller
          
@@ -173,7 +173,7 @@ Sub Topics: dex-definition
 - [ ]  Users own their private keys
 - [ ]  Increased privacy due to the lack of knowing your customer (KYC) controls
 - [ ]  None of the above
-- [x]  All of the above
+- [x]  Both A & B
   
 Hint: Ownership of account and data with no fees to be paid.
          
@@ -548,22 +548,6 @@ Sub Topics: traders
 
 ---
 
-##### How traders make profit using AMM?  
-
-- [ ]  Flash swap
-- [ ]  Arbitrage
-- [ ]  None of these
-- [x]  Both of these
-  
-Hint: Two ways
-         
-Explanation: Traders use Arbitrage and Flash Swaps or Capital Free Arbitrage to make profits.
-
-Sub Topics: traders
- 
-
----
-
 ##### Two types of dex aggregators are  
 
 - [x]  On-Chain DEX Aggregator
@@ -640,4 +624,36 @@ Hint: NoHint
 Explanation: 1inch and paraswap are popular On-chain DEX Aggregators.
 
 Sub Topics: dex-aggregators
+ 
+
+---
+
+##### Which of the following statements about Impermanent Loss are valid?  
+
+- [x]  Impermanent Loss arises when the price ratio of an asset and liquidity pool changes.
+- [ ]  This loss does not disappear when the prices of the tokens revert to the original value at which they were deposited.
+- [x]  This loss disappears when the prices of the tokens revert to the original value at which they were deposited.
+- [x]  Those who withdraw funds before the prices revert suffer permanent losses.
+  
+Hint: NoHint
+         
+Explanation: Impermanent Loss arises when the price ratio of an asset and liquidity pool changes. So, Liquidity Providers (LPs) who have deposited funds in affected pools automatically incur this loss. The larger the shift in the price ratio the larger the loss. However, this loss is called impermanent for a reason as long as we do not withdraw deposited tokens at a time that the pool is experiencing a shift in price ratio it is still possible to mitigate the loss. This loss disappears when the prices of the tokens revert to the original value at which they were deposited. Those who withdraw funds before the prices revert suffer permanent losses.
+
+Sub Topics: liquidity-providers
+ 
+
+---
+
+##### Which of the following statements about Liquidity Pools are valid?  
+
+- [x]  A Liquidity Pool is a collection of two asset pairs that are locked in a smart contract, to facilitate trading, borrowing, lending, yielding, etc.
+- [x]  It ensures that buy and sell orders are carried out no matter the time of the day.
+- [ ]  A Liquidity Pool is not funded by Liquidity Providers(LP).
+- [x]  A Liquidity Pool is funded by Liquidity Providers(LP).
+  
+Hint: NoHint
+         
+Explanation: A Liquidity Pool is a collection of two asset pairs X and Y (Let’s say for example in the case of Constant Product AMM), funded by Liquidity Providers(LP), that are locked in a smart contract, to facilitate trading, borrowing, lending, yielding, etc. It ensures that buy and sell orders are carried out no matter the time of the day and at whatever price you want to trade without looking for any direct counterpart(as in the case of Order Book) as AMM ensures this. Hence, we won’t need to find a seller to buy a token. All that is needed is sufficient liquidity in the pool.
+
+Sub Topics: liquidity-providers
  

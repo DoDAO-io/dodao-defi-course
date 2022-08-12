@@ -6567,12 +6567,14 @@
         },
         {
           "uuid": "6cb19075-8295-424d-893b-e1900b42ed1b",
-          "type": "SingleChoice",
-          "content": "What is a Centralized Exchange?",
+          "type": "MultipleChoice",
+          "content": "Which of the following describes a Centralized Exchange?",
           "hint": "Buyer-Exchange platform/marketplace-Seller",
-          "explanation": "A centralized exchange is a platform/marketplace where buyer and seller come together to buy and sell an asset.",
+          "explanation": "A centralized crypto exchange is one that's created and run by a company. These exchanges are considered centralized because one company oversees all the transactions and sets the exchange's rules and fees.",
           "answerKeys": [
-            "B"
+            "A",
+            "B",
+            "D"
           ],
           "subTopics": [
             "intro"
@@ -6580,19 +6582,19 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "A peer-exchange-peer marketplace for crypto traders without any intermediary intervention",
+              "content": "A centralized crypto exchange is one that's created and run by a company.",
               "key": "A"
             },
             {
-              "content": "A peer-to-exchange-to-peer marketplace where transactions between crypto traders are done using traditional “Order Book” models that are officiated by banks, brokers, or any other intermediary.",
+              "content": "Transactions are done using traditional “Order Book” models that are officiated by banks, brokers, or any other intermediary.",
               "key": "B"
             },
             {
-              "content": "A marketplace where securities, commodities, derivatives, and other financial instruments are traded",
+              "content": "A peer-to-peer marketplace for crypto traders without any intermediary intervention.",
               "key": "C"
             },
             {
-              "content": "A peer-to-peer marketplace for crypto traders without any intermediary intervention",
+              "content": "One company oversees all the transactions and sets the exchange's rules and fees.",
               "key": "D"
             }
           ]
@@ -6738,8 +6740,7 @@
           "answerKeys": [
             "A",
             "B",
-            "C",
-            "D"
+            "C"
           ],
           "subTopics": [
             "crypto-exchange"
@@ -6759,7 +6760,7 @@
               "key": "C"
             },
             {
-              "content": "Exchanges",
+              "content": "None of the above",
               "key": "D"
             }
           ]
@@ -6799,7 +6800,7 @@
         {
           "uuid": "4b669837-4d58-4ca9-abfc-4dc7378116d8",
           "type": "SingleChoice",
-          "content": "What is a Decentralized Exchange?",
+          "content": "Which of the following points describe a Decentralized Exchange?",
           "hint": "Buyer-Seller",
           "explanation": "A platform/marketplace where buyer and seller trade crypto assets without the involvement of exchange as well as any third-party intermediary.",
           "answerKeys": [
@@ -6811,19 +6812,19 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "A peer-exchange-peer marketplace for crypto traders without any third-party intervention",
+              "content": "A marketplace where one company oversees all the transactions and sets the exchange's rules and fees.",
               "key": "A"
             },
             {
-              "content": "A peer-to-peer marketplace for crypto traders without any third-party intervention",
+              "content": "A peer-to-peer marketplace for crypto traders without any third-party intervention.",
               "key": "B"
             },
             {
-              "content": "A peer-exchange-peer marketplace for crypto traders with third-party interventions",
+              "content": "A marketplace where transactions are done using traditional “Order Book” models.",
               "key": "C"
             },
             {
-              "content": "A peer-to-peer marketplace for crypto traders with some third-party intervention",
+              "content": "A peer-to-peer marketplace for crypto traders with some third-party interventions.",
               "key": "D"
             }
           ]
@@ -6855,7 +6856,7 @@
               "key": "C"
             },
             {
-              "content": "All of the above",
+              "content": "Both A & B",
               "key": "D"
             }
           ]
@@ -7586,38 +7587,6 @@
           ]
         },
         {
-          "uuid": "2ddc6bd5-b036-48a2-b8af-6a1d5dbd5c57",
-          "type": "SingeChoice",
-          "content": "How traders make profit using AMM?",
-          "hint": "Two ways",
-          "explanation": "Traders use Arbitrage and Flash Swaps or Capital Free Arbitrage to make profits.",
-          "answerKeys": [
-            "D"
-          ],
-          "subTopics": [
-            "traders"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "Flash swap",
-              "key": "A"
-            },
-            {
-              "content": "Arbitrage",
-              "key": "B"
-            },
-            {
-              "content": "None of these",
-              "key": "C"
-            },
-            {
-              "content": "Both of these",
-              "key": "D"
-            }
-          ]
-        },
-        {
           "uuid": "33af5875-1049-4656-b9ba-803a5e55bd0a",
           "type": "MultipleChoice",
           "content": "Two types of dex aggregators are",
@@ -7780,6 +7749,74 @@
               "key": "D"
             }
           ]
+        },
+        {
+          "uuid": "e83760e2-fdee-413a-bf4b-a89d0ef901a3",
+          "type": "MultipleChoice",
+          "content": "Which of the following statements about Impermanent Loss are valid?",
+          "hint": "NoHint",
+          "explanation": "Impermanent Loss arises when the price ratio of an asset and liquidity pool changes. So, Liquidity Providers (LPs) who have deposited funds in affected pools automatically incur this loss. The larger the shift in the price ratio the larger the loss. However, this loss is called impermanent for a reason as long as we do not withdraw deposited tokens at a time that the pool is experiencing a shift in price ratio it is still possible to mitigate the loss. This loss disappears when the prices of the tokens revert to the original value at which they were deposited. Those who withdraw funds before the prices revert suffer permanent losses.",
+          "answerKeys": [
+            "A",
+            "C",
+            "D"
+          ],
+          "subTopics": [
+            "liquidity-providers"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Impermanent Loss arises when the price ratio of an asset and liquidity pool changes.",
+              "key": "A"
+            },
+            {
+              "content": "This loss does not disappear when the prices of the tokens revert to the original value at which they were deposited.",
+              "key": "B"
+            },
+            {
+              "content": "This loss disappears when the prices of the tokens revert to the original value at which they were deposited.",
+              "key": "C"
+            },
+            {
+              "content": "Those who withdraw funds before the prices revert suffer permanent losses.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "729011f5-d0ba-4a55-a868-844fd42d17d9",
+          "type": "MultipleChoice",
+          "content": "Which of the following statements about Liquidity Pools are valid?",
+          "hint": "NoHint",
+          "explanation": "A Liquidity Pool is a collection of two asset pairs X and Y (Let’s say for example in the case of Constant Product AMM), funded by Liquidity Providers(LP), that are locked in a smart contract, to facilitate trading, borrowing, lending, yielding, etc. It ensures that buy and sell orders are carried out no matter the time of the day and at whatever price you want to trade without looking for any direct counterpart(as in the case of Order Book) as AMM ensures this. Hence, we won’t need to find a seller to buy a token. All that is needed is sufficient liquidity in the pool.",
+          "answerKeys": [
+            "A",
+            "B",
+            "D"
+          ],
+          "subTopics": [
+            "liquidity-providers"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "A Liquidity Pool is a collection of two asset pairs that are locked in a smart contract, to facilitate trading, borrowing, lending, yielding, etc.",
+              "key": "A"
+            },
+            {
+              "content": "It ensures that buy and sell orders are carried out no matter the time of the day.",
+              "key": "B"
+            },
+            {
+              "content": "A Liquidity Pool is not funded by Liquidity Providers(LP).",
+              "key": "C"
+            },
+            {
+              "content": "A Liquidity Pool is funded by Liquidity Providers(LP).",
+              "key": "D"
+            }
+          ]
         }
       ],
       "readings": [
@@ -7817,31 +7854,37 @@
           "title": "Types of Crypto Exchange",
           "shortTitle": "Crypto Exchange Type",
           "key": "crypto-exchange",
-          "details": "- Traditional or Centralized Exchange (CEX):\n  * A peer-to-exchange-to-peer marketplace where transactions between crypto traders are done using traditional “Order Book” models that are officiated by banks, brokers, or any other intermediary.\n  * Customer data(such as KYC) and transactional data are stored by a company.\n  * Exchange rules and fees are also set by a company. Eg: Coinbase, Crypto.com, FTX\n  * Now, What is an “Order Book”?\n    * An order book is a list of orders that presents different offers from buyers and sellers for a specific security.\n    * It also shows the prices and volumes that people in the market are willing to buy and sell the security for.\n  * There are two types of CEX based on the order book model:\n    - CEX with Server Order Book model:\n      * All the customers’ trading data, prices, and volumes of securities are stored in a Centralized Server.\n      * Trade matching and settlement are faster.\n      * No fees are deducted for canceled orders.\n      * No censorship resistance as all data are stored on a centralized server.\n      * Exchange operators can front-run customers.\n\n    - CEX with Onchain Order Book model\n      * All the customers’ trading data, prices, and volumes of securities are stored on a Blockchain.\n      * Provide censorship resistance, as all data are stored on a distributed, and decentralized ledger in the form of immutable data blocks on the blockchain which are publicly shared among all its network nodes.\n      * Trade matching and settlement might be slow due to blockchain scalability issues.\n      * Fees are deducted in the form of Gas Fees for both successful and canceled orders.\n      * Miner/Trader/Exchange Operator can front-run users.\n"
+          "details": "- Traditional or Centralized Exchange (CEX):\n  * A centralized crypto exchange is one that's created and run by a company. These exchanges are considered centralized because one company oversees all the transactions and sets the exchange's rules and fees.\n  * Transactions are done using traditional “Order Book” models that are officiated by banks, brokers, or any other intermediary.\n  * Customer data(such as KYC) and transactional data are stored by a company.\n  * For example, Coinbase, Crypto.com and FTX create and run popular CEXes for a profit.\n  * Now, What is an “Order Book”?\n    * An order book is a list of orders that presents different offers from buyers and sellers for a specific security.\n    * It also shows the prices and volumes that people in the market are willing to buy and sell the security for.\n  * There are two types of CEX based on the order book model:\n    - CEX with Server Order Book model:\n      * All the customers’ trading data, prices, and volumes of securities are stored in a Centralized Server.\n      * Trade matching and settlement are faster.\n      * No fees are deducted for canceled orders.\n      * No censorship resistance as all data are stored on a centralized server.\n      * Exchange operators can front-run customers.\n\n    - CEX with Onchain Order Book model\n      * All the customers’ trading data, prices, and volumes of securities are stored on a Blockchain.\n      * Provide censorship resistance, as all data are stored on a distributed, and decentralized ledger in the form of immutable data blocks on the blockchain which are publicly shared among all its network nodes.\n      * Trade matching and settlement might be slow due to blockchain scalability issues.\n      * Fees are deducted in the form of Gas Fees for both successful and canceled orders.\n      * Miner/Trader/Exchange Operator can front-run users.\n"
         },
         {
           "title": "Decentralized Exchange (DEX)",
           "shortTitle": "DEX definition",
           "key": "dex-definition",
-          "details": "\n- Decentralized Exchange (DEX)\n  * A peer-to-peer marketplace where transactions between crypto traders are done mostly using Automated Market Maker (AMM) without banks, brokers, or any other intermediary intervention.\n  * Customer, transactional, and all other forms of data are stored on Blockchain. \n  * Eg: Uniswap, dYdX (which runs on Ethereum Blockchain)\n\n  - Pros\n    * No KYC is required as trades are done in terms of account address \n    * No fees are paid to the exchange.\n    * No impermanent loss (this will be discussed later in this course)\n    * Censorship resistance is governed by Smart Contracts and not by any central authority\n\n  - Cons\n    * Fees (i.e Gas Fee) are deducted as an additional charge for a deposit, withdrawal, or trade creation/cancelation.\n    * Trade settlement might be slow due to blockchain scalability issues. \n    * Sometimes, not fully decentralized due to mediating server for speeding the process of trade execution.\n"
+          "details": "- Decentralized Exchange (DEX)\n  * A peer-to-peer marketplace where transactions between crypto traders are done mostly using Automated Market Maker (AMM) without banks, brokers, or any other intermediary intervention.\n  * Customer, transactional, and all other forms of data are stored on Blockchain. \n  * Eg: Uniswap, dYdX (which runs on Ethereum Blockchain)\n\n  - Pros\n    * No KYC is required as trades are done in terms of account address \n    * No fees are paid to the exchange.\n    * No impermanent loss (this will be discussed later in this course)\n    * Censorship resistance is governed by Smart Contracts and not by any central authority\n\n  - Cons\n    * Fees (i.e Gas Fee) are deducted as an additional charge for a deposit, withdrawal, or trade creation/cancelation.\n    * Trade settlement might be slow due to blockchain scalability issues. \n    * Sometimes, not fully decentralized due to mediating server for speeding the process of trade execution.\n"
         },
         {
           "title": "Automated Market Maker (AMM)",
           "shortTitle": "AMM",
           "key": "amm",
-          "details": "- Automated Market Maker (AMM):\n  * AMM is a type of DEX protocol that relies on a mathematical formula that allows digital assets to be traded without permission, automatically by using liquidity pools instead of the traditional order book pricing model. This formula can vary with each protocol. For example, Uniswap uses the Constant Product AMM protocol which is as follows:-\n    * Asset X quantity * Asset Y quantity = K (a constant)  simply  X*Y=K\n      * Properties of popular Constant Product AMM protocol:\n        * Instant liquidity, irrespective of the trade size (assuming that trade size is always less than pool size).\n        * Purchase of asset X increases the price of X and decreases the price of Y\n        * The ratio of assets X and Y sets the price\n    * Now, What is a Protocol?\n      * Protocols are basic sets of rules that allow data and cryptocurrencies to be shared securely between different nodes (i.e computers) in the blockchain network.\n    * Then, What is Liquidity Pool?\n      * A Liquidity Pool is a collection of funds, funded by Liquidity Providers(LP) that are locked in a smart contract, to facilitate trading, borrowing, lending, yielding, etc.\n    - Pros of an AMM:\n        * No Order Book Maintenance for traders but arbitrage is required for them.\n        * A simple implementation of Constant Product AMM causes less computation which results in Low gas costs.\n    - Cons of an AMM:\n        * The danger of Impermanent loss/Coin De-Pegg may cause a total possible loss of funds in Liquidity Pools.\n        * High slippage for low liquidity markets. So, please do observe and set your slippage tolerance threshold level while trading.\n"
+          "details": "- Automated Market Maker (AMM):\n  * AMM is a type of DEX protocol that relies on a mathematical formula that allows digital assets to be traded without permission, automatically by using liquidity pools instead of the traditional order book pricing model. This formula can vary with each protocol. For example, Uniswap uses the Constant Product AMM protocol which is as follows:-\n    * Asset X quantity * Asset Y quantity = K (a constant)  simply  X*Y=K\n      * Properties of popular Constant Product AMM protocol:\n        * Instant liquidity, irrespective of the trade size (assuming that trade size is always less than pool size).\n        * Purchase of asset X increases the price of X and decreases the price of Y\n        * The ratio of assets X and Y sets the price\n    * Now, What is a Protocol?\n      * Protocols are basic sets of rules that allow data and cryptocurrencies to be shared securely between different nodes (i.e computers) in the blockchain network.\n    - Pros of an AMM:\n        * No Order Book Maintenance for traders but arbitrage is required for them.\n        * A simple implementation of Constant Product AMM causes less computation which results in Low gas costs.\n    - Cons of an AMM:\n        * The danger of Impermanent loss/Coin De-Pegg may cause a total possible loss of funds in Liquidity Pools.\n        * High slippage for low liquidity markets. So, please do observe and set your slippage tolerance threshold level while trading.\n"
+        },
+        {
+          "title": "Liquidity Pool",
+          "shortTitle": "Liquidity Pool",
+          "key": "liquidity-pool",
+          "details": "- Liquidity Pool and its Working:-\n  * A Liquidity Pool is a collection of two asset pairs X and Y (Let’s say for example in the case of Constant Product AMM), funded by Liquidity Providers(LP), that are locked in a smart contract, to facilitate trading, borrowing, lending, yielding, etc.\n  * It ensures that buy and sell orders are carried out no matter the time of the day and at whatever price you want to trade without looking for any direct counterpart(as in the case of Order Book) as AMM ensures this. Hence, we won’t need to find a seller to buy a token. All that is needed is sufficient liquidity in the pool.\n  * When a token swap occurs, the AMM ensures that the price adjusts based on its algorithm. The algorithm ensures that there is always liquidity in the pool, no matter the trade size. \n  * For eg., A liquidity pool is, by default, a 50:50 ratio of 2 coins. Let's say 50% dai (DAI) and 50% ether (ETH). When you buy DAI with ETH, the pools will start to lose DAI and get more ETH. The algorithm increases the price of dai and lowers the price of ether to keep the ratio regulated. The process is a self-regulated automated reaction to the market's needs.  \n"
         },
         {
           "title": "Profit and Loss incurr by Liquidity Providers(LP) on AMM DEXs",
           "shortTitle": "Liquidity Providers",
           "key": "liquidity-providers",
-          "details": "- Types of rewards that Liquidity Providers get on funding Liquidity Pools are:\n  - Trading Fees reward: that are paid by traders on each trade( eg, 0.03% in Curve.fi )\n  - Liquidity Mining reward:\n    * It is an incentive/reward given to the Liquidity Providers(LP) proportional to the amount of liquidity provided by the LP\n    * It can also be provided to the LPs in terms of “Airdrops”.\n    * Airdrops are tokens that are given to the traders and LPs for free or in exchange for minimal promotional work.\n- Types of losses for Liquidity Providers:\n  - Impermanent loss == Not Permanent Loss\n    * Loss generated due to price change of the asset which is realized upon withdrawal only!\n    * So, it can result in a total loss of value but:\n      * Trading fees taken from the traders may compensate for it.\n      * Liquidity mining reward may compensate for it. \n  - Coin de-peg:\n    * De-pegging refers to the phenomenon of a stablecoin deviating or any asset deviating from its intended peg. For example: In the case of a stablecoin pegged to USD, if its value reduces below $1, then the coin is said to be “de-pegged” which indirectly reduces the valuation of investment to a Liquidity Pool by a Liquidity Provider.\n"
+          "details": "- Types of rewards that Liquidity Providers get on funding Liquidity Pools are:\n  - Trading Fees reward: that are paid by traders on each trade( eg, 0.03% in Curve.fi )\n  - Liquidity Mining reward:\n    * It is an incentive/reward given to the Liquidity Providers(LP) proportional to the amount of liquidity provided by the LP\n    * It can also be provided to the LPs in terms of “Airdrops”.\n    * Airdrops are tokens that are given to the traders and LPs for free or in exchange for minimal promotional work.\n- Types of losses for Liquidity Providers:\n  - Impermanent loss == Not Permanent Loss\n    * Impermanent Loss arises when the price ratio of an asset and liquidity pool changes. So, Liquidity Providers (LPs) who have deposited funds in affected pools automatically incur this loss. The larger the shift in the price ratio the larger the loss.\n    * However, this loss is called impermanent for a reason as long as we do not withdraw deposited tokens at a time that the pool is experiencing a shift in price ratio it is still possible to mitigate the loss.\n    * This loss disappears when the prices of the tokens revert to the original value at which they were deposited.\n    * Those who withdraw funds before the prices revert suffer permanent losses.\n    - Nonetheless, it is possible to negate the losses through income received by liquidity providers via:\n      * Trading fees (i.e fees taken from traders during each trading transaction).\n      * Liquidity mining reward (i.e reward given by the DEX in the form of its governance tokens or some other asset as interests).\n  - Coin de-peg:\n    * De-pegging refers to the phenomenon of a stablecoin deviating or any asset deviating from its intended peg. For example: In the case of a stablecoin pegged to USD, if its value reduces below $1, then the coin is said to be “de-pegged” which indirectly reduces the valuation of investment to a Liquidity Pool by a Liquidity Provider.\n"
         },
         {
           "title": "Profit and Loss incurr by Traders on AMM DEXs",
           "shortTitle": "Traders",
           "key": "traders",
-          "details": "* How traders are making profits using AMM?\n  - Arbitrage:\n    * It is an investment strategy in which an investor (a.k.a. Arbitrageurs) simultaneously buys and sells the same asset in different markets(either AMM or some other market) to profit from tiny differences in the asset's listed price.\n  - Flash Swaps or Capital Free Arbitrage (used in Uniswap):\n    * It allows us to withdraw up to the full reserves of any ERC20 token on Uniswap and execute arbitrary logic at no upfront cost, provided that by the end of the transaction you either:\n      * Pay for the withdrawn ERC20 tokens with the corresponding pair tokens\n      * Return the withdrawn ERC20 tokens along with a small fee\n* One thing that causes the most loss to traders:-\n  - Slippage:\n    * It is the difference between the expected price of an order and the price when the order executes. ( due to the volatility of cryptocurrency prices )\n      \n"
+          "details": "* How traders are making profits using AMM?\n  - Arbitrage:\n    * It is an investment strategy in which an investor (a.k.a. Arbitrageurs) simultaneously buys and sells the same asset in different markets(either AMM or some other market) to profit from tiny differences in the asset's listed price.\n  - Flash Swaps or Capital Free Arbitrage (used in Uniswap):\n    * It allows us to withdraw up to the full reserves of any ERC20 token on Uniswap and execute arbitrary logic at no upfront cost, provided that by the end of the transaction you either:\n      * Pay for the withdrawn ERC20 tokens with the corresponding pair tokens\n      * Return the withdrawn ERC20 tokens along with a small fee\n* One thing that causes the most loss to traders:-\n  - Slippage:\n    * The featured price of a cryptocurrency on a marketplace is the most recent price at which that cryptocurrency was bought by the buyer or sold by the seller. So in some cases where there are not enough counter-parties to trade with, then the market is said to be illiquid or prone to slippage.\n    * It occurs when the processing of large order volumes drives the prices of an asset up or down to mitigate this occurrence and this fluctuation of price is called volatility.\n    * In other words, Slippage is the difference between the expected price of an order and the price when the order executes. ( due to the volatility of cryptocurrency prices )\n    * For solving this illiquidity or slippage problem of the market we need liquidity which is provided by Liquidity Providers (or Market Makers) to make Liquidity Pools liquid again and this whole process is called Market Making.\n      \n"
         },
         {
           "title": "DEX Aggregator",
