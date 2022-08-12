@@ -449,7 +449,7 @@ Hint: Price change
          
 Explanation: Slippage is the difference between the expected price of an order and the price when the order executes. (due to the volatility of cryptocurrency prices)
 
-Sub Topics: traders
+Sub Topics: dex-traders
  
 
 ---
@@ -497,7 +497,7 @@ Hint: Same Asset
          
 Explanation: Arbitrage is an investment strategy in which an investor (a.k.a. Arbitrageurs) simultaneously buys and sells the same asset in different markets(either AMM or some other market) to profit from tiny differences in the asset's listed price.
 
-Sub Topics: traders
+Sub Topics: dex-traders
  
 
 ---
@@ -511,7 +511,7 @@ Hint: One is Loan and other is Exchanged value
          
 Explanation: Flash Swaps allows us to withdraw up to the full reserves of any ERC20 token on Uniswap and execute arbitrary logic at no upfront cost, provided that by the end of the transaction you either- 1) Pay for the withdrawn ERC20 tokens with the corresponding pair tokens, 2) Return the withdrawn ERC20 tokens along with a small fee. Whereas th Flash Loan is a loan which we have to take and repay back in one transaction.
 
-Sub Topics: traders
+Sub Topics: dex-traders
  
 
 ---
@@ -543,7 +543,11 @@ Hint: NoHint
          
 Explanation: Slippage is the difference between the expected price of an order and the price when the order executes (due to the volatility of cryptocurrency prices).
 
+<<<<<<< HEAD
 Sub Topics: traders
+=======
+Sub Topics: dex-traders
+>>>>>>> 465c47b7a8257d7c6d0dd5ba7c4fe87c4008552c
  
 
 ---
@@ -641,6 +645,7 @@ Explanation: Impermanent Loss arises when the price ratio of an asset and liquid
 
 Sub Topics: liquidity-providers
  
+<<<<<<< HEAD
 
 ---
 
@@ -657,3 +662,5 @@ Explanation: A Liquidity Pool is a collection of two asset pairs X and Y (Let’
 
 Sub Topics: liquidity-providers
  
+=======
+>>>>>>> 465c47b7a8257d7c6d0dd5ba7c4fe87c4008552c

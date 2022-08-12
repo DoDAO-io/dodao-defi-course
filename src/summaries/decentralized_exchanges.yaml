@@ -111,8 +111,8 @@
         * De-pegging refers to the phenomenon of a stablecoin deviating or any asset deviating from its intended peg. For example: In the case of a stablecoin pegged to USD, if its value reduces below $1, then the coin is said to be “de-pegged” which indirectly reduces the valuation of investment to a Liquidity Pool by a Liquidity Provider.
 
 - title: Profit and Loss incurr by Traders on AMM DEXs
-  shortTitle: Traders
-  key: traders
+  shortTitle: DEX Traders
+  key: dex-traders
   details: |
     * How traders are making profits using AMM?
       - Arbitrage:

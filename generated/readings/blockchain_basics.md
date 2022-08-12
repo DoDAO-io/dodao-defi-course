@@ -11,7 +11,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  
  This video enables learners to know about
   * Decentralised opportunities
-  * Bascis of Cryptocurrency      
+  * Basics of Cryptocurrency      
   * Blockchain network types
     
  
