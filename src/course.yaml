@@ -57,7 +57,7 @@ topics:
       * dApps
     readings: blockchain_basics.yaml
     summaries: smart_contracts.yaml
-    questions: blockchain_basics.yaml
+    questions: smart_contracts.yaml
     status: In Progress
     completionWeek: July 18
   - title: Lending and Credit

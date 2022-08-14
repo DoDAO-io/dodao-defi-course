@@ -20,4 +20,4 @@ Details
 
 [Summary](./../../generated/summaries/smart_contracts.md)
 
-[Questions](./../../generated/questions/blockchain_basics.md)
+[Questions](./../../generated/questions/smart_contracts.md)
