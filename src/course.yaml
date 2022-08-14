@@ -120,11 +120,11 @@ topics:
   - title: Stable Coins
     key: tokenization
     details: |
-      Why Stable Coins, Different Type of stabe coins
+      Why Stable Coins, Different Types of stable coins
       
       Details 
       * Why Stable Coins 
-      * Different Type of stabe coins
+      * Different Type of stable coins
     readings: blockchain_basics.yaml
     summaries: blockchain_basics.yaml
     questions: blockchain_basics.yaml

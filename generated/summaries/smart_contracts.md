@@ -32,11 +32,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
   * This is one of the most important property of Ethereum Transaction Mechanism which makes DeFi different from CeFi.
   * The transactions in Ethereum are atomic which means the clauses in a smart contract can lead to failure of transaction and thus all the steps of the transaction are reversed.
   * Atomicity enables inter-contract and inter-blockchain function calls that are synchronous and atomic by nature. This idea spans over the clauses in a smart contract, failure in any of them results in discarding of the whole transaction.
-  * Atomicity is a critical feature of transactions because funds can
-  move between many contracts (i.e., “exchange hands”) with the
-  knowledge and security that if one of the conditions is not met,
-  the contract terms reset as if the money never left the starting
-  point.
+  * Atomicity is a critical feature of transactions because funds can move between many contracts (i.e., “exchange hands”) with the knowledge and security that if one of the conditions is not met, the contract terms reset as if the money never left the starting point.
  
  **Miner Extractable Value**        
 - Mempool
@@ -47,12 +43,9 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
   included in the next available block.
 
 - Miner Extractable Value
-  * Any actor can see transactions in the mempool by running or
-  communicating with mining nodes.
-  * This observation allows for front-running (legal in the DeFi space) to miners. If miner encounters a large order, they can plave their order before that, hence the miners are incentivised to do so.
-  * Miner extractable value (MEV) is a measure of the profit that the
-  miner could make by including, excluding or re-ordering
-  transactions. 
+  * Any actor can see transactions in the mempool by running or communicating with mining nodes.
+  * This observation allows for front-running (legal in the DeFi space) to miners. If miner encounters a large order, they can plan their order before that, hence the miners are incentivised to do so.
+  * Miner extractable value (MEV) is a measure of the profit that the miner could make by including, excluding or re-ordering transactions. 
   * This is one of the drawback of the Proof of work consensus mechanism. Obfuscating transactions can mitigate MEV, thus hiding from miners how they might profit from transactions.
  
  **Smart Contracts, Gas and Oracles**        
@@ -61,12 +54,9 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
   * A smart contract is code that can create and transform arbitrary data or
   tokens on top of the blockchain of which it is a part.
   * These are extremely powerful because it allows users to trustlessly encode
-  rules for any type of transaction and even create scarce assets with
-  specialized functionality.
-  * Many standard business contracts can be algorithmically encoded and
-  algorithmically enforced. These contracts run on the Ethereum blockchain and are run on every node.
-  * This is not just useful for finance. For example, supply chains are another
-  good example.
+  rules for any type of transaction and even create scarce assets with specialized functionality.
+  * Many standard business contracts can be algorithmically encoded and algorithmically enforced. These contracts run on the Ethereum blockchain and are run on every node.
+  * This is not just useful for finance. For example, supply chains are another good example.
 
 - Gas 
   * Gas is a unit that measures the amount of computational effort that it will take to execute certain operations.
@@ -153,7 +143,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 - ERC-721 (Ethereum Request for Comment 721)
   * ERC-721 defines the non-fungible standard. It is similar to ERC-20 except that each unit has its own unique ID.
   * NFTs act as a  representation for unique ownership of unitary assets.
-  * NFTs canbe used to represent collectibles (eg. onwership of a piece of art).
+  * NFTs can be used to represent collectibles (eg. onwership of a piece of art).
 
 - ERC 1155
   * ERC-20 and ERC-721 tokens require an individual contract and address deployed to the blockchain.
