@@ -17,9 +17,10 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  
  **Types of Crypto Exchange**        
 - Traditional or Centralized Exchange (CEX):
-  * A peer-to-exchange-to-peer marketplace where transactions between crypto traders are done using traditional “Order Book” models that are officiated by banks, brokers, or any other intermediary.
+  * A centralized crypto exchange is one that's created and run by a company. These exchanges are considered centralized because one company oversees all the transactions and sets the exchange's rules and fees.
+  * Transactions are done using traditional “Order Book” models that are officiated by banks, brokers, or any other intermediary.
   * Customer data(such as KYC) and transactional data are stored by a company.
-  * Exchange rules and fees are also set by a company. Eg: Coinbase, Crypto.com, FTX
+  * For example, Coinbase, Crypto.com and FTX create and run popular CEXes for a profit.
   * Now, What is an “Order Book”?
     * An order book is a list of orders that presents different offers from buyers and sellers for a specific security.
     * It also shows the prices and volumes that people in the market are willing to buy and sell the security for.
@@ -65,14 +66,19 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
         * The ratio of assets X and Y sets the price
     * Now, What is a Protocol?
       * Protocols are basic sets of rules that allow data and cryptocurrencies to be shared securely between different nodes (i.e computers) in the blockchain network.
-    * Then, What is Liquidity Pool?
-      * A Liquidity Pool is a collection of funds, funded by Liquidity Providers(LP) that are locked in a smart contract, to facilitate trading, borrowing, lending, yielding, etc.
     - Pros of an AMM:
         * No Order Book Maintenance for traders but arbitrage is required for them.
         * A simple implementation of Constant Product AMM causes less computation which results in Low gas costs.
     - Cons of an AMM:
         * The danger of Impermanent loss/Coin De-Pegg may cause a total possible loss of funds in Liquidity Pools.
         * High slippage for low liquidity markets. So, please do observe and set your slippage tolerance threshold level while trading.
+ 
+ **Liquidity Pool**        
+- Liquidity Pool and its Working:-
+  * A Liquidity Pool is a collection of two asset pairs X and Y (Let’s say for example in the case of Constant Product AMM), funded by Liquidity Providers(LP), that are locked in a smart contract, to facilitate trading, borrowing, lending, yielding, etc.
+  * It ensures that buy and sell orders are carried out no matter the time of the day and at whatever price you want to trade without looking for any direct counterpart(as in the case of Order Book) as AMM ensures this. Hence, we won’t need to find a seller to buy a token. All that is needed is sufficient liquidity in the pool.
+  * When a token swap occurs, the AMM ensures that the price adjusts based on its algorithm. The algorithm ensures that there is always liquidity in the pool, no matter the trade size. 
+  * For eg., A liquidity pool is, by default, a 50:50 ratio of 2 coins. Let's say 50% dai (DAI) and 50% ether (ETH). When you buy DAI with ETH, the pools will start to lose DAI and get more ETH. The algorithm increases the price of dai and lowers the price of ether to keep the ratio regulated. The process is a self-regulated automated reaction to the market's needs.  
  
  **Profit and Loss incurr by Liquidity Providers(LP) on AMM DEXs**        
 - Types of rewards that Liquidity Providers get on funding Liquidity Pools are:
@@ -105,7 +111,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
   - Slippage:
     * The featured price of a cryptocurrency on a marketplace is the most recent price at which that cryptocurrency was bought by the buyer or sold by the seller. So in some cases where there are not enough counter-parties to trade with, then the market is said to be illiquid or prone to slippage.
     * It occurs when the processing of large order volumes drives the prices of an asset up or down to mitigate this occurrence and this fluctuation of price is called volatility.
-    * In other words, Slippage is the difference between the expected price of an order and the price when the order executes. (due to the volatility of cryptocurrency prices)
+    * In other words, Slippage is the difference between the expected price of an order and the price when the order executes. ( due to the volatility of cryptocurrency prices )
     * For solving this illiquidity or slippage problem of the market we need liquidity which is provided by Liquidity Providers (or Market Makers) to make Liquidity Pools liquid again and this whole process is called Market Making.
       
  

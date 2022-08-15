@@ -38,23 +38,25 @@
     - content: None of these
       key: D
 - uuid: 6cb19075-8295-424d-893b-e1900b42ed1b
-  type: SingleChoice
-  content: What is a Centralized Exchange?
+  type: MultipleChoice
+  content: Which of the following describes a Centralized Exchange?
   hint: Buyer-Exchange platform/marketplace-Seller
-  explanation: A centralized exchange is a platform/marketplace where buyer and seller come together to buy and sell an asset.
+  explanation: A centralized crypto exchange is one that's created and run by a company. These exchanges are considered centralized because one company oversees all the transactions and sets the exchange's rules and fees.
   answerKeys:
+    - A
     - B
+    - D
   subTopics:
     - intro
   difficultyLevel: Low
   choices:
-    - content: A peer-exchange-peer marketplace for crypto traders without any intermediary intervention
+    - content: A centralized crypto exchange is one that's created and run by a company.
       key: A
-    - content: A peer-to-exchange-to-peer marketplace where transactions between crypto traders are done using traditional “Order Book” models that are officiated by banks, brokers, or any other intermediary.
+    - content: Transactions are done using traditional “Order Book” models that are officiated by banks, brokers, or any other intermediary.
       key: B
-    - content: A marketplace where securities, commodities, derivatives, and other financial instruments are traded
+    - content: A peer-to-peer marketplace for crypto traders without any intermediary intervention.
       key: C
-    - content: A peer-to-peer marketplace for crypto traders without any intermediary intervention
+    - content: One company oversees all the transactions and sets the exchange's rules and fees.
       key: D
 - uuid: 1ed8c43c-ca15-4a4d-9260-4a004db1b663
   type: MultipleChoice
@@ -145,7 +147,6 @@
     - A
     - B
     - C
-    - D
   subTopics:
     - crypto-exchange
   difficultyLevel: Low
@@ -156,7 +157,7 @@
       key: B
     - content: Order Book
       key: C
-    - content: Exchanges
+    - content: None of the above
       key: D
 
 - uuid: 4f6e29dd-b146-4601-85b9-92c648310b15
@@ -180,7 +181,7 @@
       key: D
 - uuid: 4b669837-4d58-4ca9-abfc-4dc7378116d8
   type: SingleChoice
-  content: What is a Decentralized Exchange?
+  content: Which of the following points describe a Decentralized Exchange?
   hint: Buyer-Seller
   explanation: A platform/marketplace where buyer and seller trade crypto assets without the involvement of exchange as well as any third-party intermediary.
   answerKeys:
@@ -189,13 +190,13 @@
     - dex-definition
   difficultyLevel: Low
   choices:
-    - content: A peer-exchange-peer marketplace for crypto traders without any third-party intervention
+    - content: A marketplace where one company oversees all the transactions and sets the exchange's rules and fees.
       key: A
-    - content: A peer-to-peer marketplace for crypto traders without any third-party intervention
+    - content: A peer-to-peer marketplace for crypto traders without any third-party intervention.
       key: B
-    - content: A peer-exchange-peer marketplace for crypto traders with third-party interventions
+    - content: A marketplace where transactions are done using traditional “Order Book” models.
       key: C
-    - content: A peer-to-peer marketplace for crypto traders with some third-party intervention
+    - content: A peer-to-peer marketplace for crypto traders with some third-party interventions.
       key: D
 - uuid: 6c0e0592-9318-4ba8-863a-a83327b3ee5b
   type: SingleChoice
@@ -214,7 +215,7 @@
       key: B
     - content: None of the above
       key: C
-    - content: All of the above
+    - content: Both A & B
       key: D
 - uuid: bc4b0aef-bf74-4b0b-bdab-0bbbb744a3ca
   type: SingleChoice
@@ -769,4 +770,25 @@
     - content: This loss disappears when the prices of the tokens revert to the original value at which they were deposited.
       key: C
     - content: Those who withdraw funds before the prices revert suffer permanent losses.
+      key: D
+- uuid: 729011f5-d0ba-4a55-a868-844fd42d17d9
+  type: MultipleChoice
+  content: Which of the following statements about Liquidity Pools are valid?
+  hint: NoHint
+  explanation: A Liquidity Pool is a collection of two asset pairs X and Y (Let’s say for example in the case of Constant Product AMM), funded by Liquidity Providers(LP), that are locked in a smart contract, to facilitate trading, borrowing, lending, yielding, etc. It ensures that buy and sell orders are carried out no matter the time of the day and at whatever price you want to trade without looking for any direct counterpart(as in the case of Order Book) as AMM ensures this. Hence, we won’t need to find a seller to buy a token. All that is needed is sufficient liquidity in the pool.
+  answerKeys:
+    - A
+    - B
+    - D
+  subTopics:
+    - liquidity-providers
+  difficultyLevel: Low
+  choices:
+    - content: A Liquidity Pool is a collection of two asset pairs that are locked in a smart contract, to facilitate trading, borrowing, lending, yielding, etc.
+      key: A
+    - content: It ensures that buy and sell orders are carried out no matter the time of the day.
+      key: B
+    - content: A Liquidity Pool is not funded by Liquidity Providers(LP).
+      key: C
+    - content: A Liquidity Pool is funded by Liquidity Providers(LP).
       key: D
