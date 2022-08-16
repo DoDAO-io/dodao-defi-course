@@ -6405,68 +6405,70 @@
       ],
       "readings": [
         {
-          "uuid": "020f238c-96f2-4613-aca1-4ebba06395c5",
-          "title": "Introduction to Blockchain Technology",
-          "shortTitle": "Intro to Blockchain",
+          "uuid": "6590dd86-b54a-4d8c-8d98-f6c98c15c753",
+          "title": "How DeFi Lending works?",
+          "shortTitle": "Lending",
           "type": "YoutubeVideo",
-          "url": "https://www.youtube.com/watch?v=2yJqjTiwpxM",
+          "url": "https://youtu.be/rcLlamPNvrA",
           "subTopics": [
-            "introduction-to-blockchain"
+            "terminology"
           ],
-          "details": "This video enables learners to know about\n  * Decentralised opportunities\n  * Bascis of Cryptocurrency      \n  * Blockchain network types\n"
+          "details": "This video explains\n  - Lending\n  - Collateral\n  - Over-collateralization\n  - Under-collateralization\n  - Liquidation\n  - Health Factor\n"
         },
         {
-          "uuid": "0c7eaedf-b949-4da3-bdc5-fb21f3633311",
-          "title": "Working of Blockchain Technology",
-          "shortTitle": "Blockchain Working",
+          "uuid": "292aadbc-bd81-4104-8e5d-df9395c1b78a",
+          "title": "Flash Loans",
+          "shortTitle": "Flash Loans",
           "type": "YoutubeVideo",
-          "url": "https://www.youtube.com/watch?v=bBC-nXj3Ng4",
+          "url": "https://youtu.be/mCJUhnXQ76s",
           "subTopics": [
-            "working-of-blockchain"
+            "flash-loans"
           ],
-          "details": "This video illustrates \n  * Blockchain ledger\n  * Working of Blockchain Technology  \n"
-        },
-        {
-          "uuid": "e5747299-9764-4598-ac7b-ca3933bc96ba",
-          "title": "Types of Blockchain Networks",
-          "shortTitle": "Blockchain Networks",
-          "type": "WebArticle",
-          "url": "https://www.techtarget.com/searchcio/feature/What-are-the-4-different-types-of-blockchain-technology",
-          "subTopics": [
-            "blockchain-networks"
-          ],
-          "details": "This video illustrates \n  * 4 different types of Blockchain Networks\n  * Each network has been explained with examples from real life\n"
-        },
-        {
-          "uuid": "0f2ca5cf-12f4-42a7-8c7b-d42212964991",
-          "title": "Cryptographic Hashing",
-          "shortTitle": "Hashing",
-          "type": "YoutubeVideo",
-          "url": "https://www.youtube.com/watch?v=gTfNtop9vzM",
-          "subTopics": [
-            "hashing"
-          ],
-          "details": "This video explains\n  * Blockchain Hashing in detail\n  * Funtioning of a hash function\n  * Examples such as SHA-256\n"
+          "details": "This video explains flash loans and its functioning.\n"
         }
       ],
       "summaries": [
         {
           "title": "Lending",
           "shortTitle": "Lending Intro",
-          "key": "lending",
-          "details": "- What is Lending(also known as “financing”)?\n  * Lending occurs when someone(here lender) allows another person to borrow something (such as Money, property, or another asset) with the expectation that the borrower will either return the asset or repay the lender with some interest.\n  * We all currently learning Decentralized Finance i.e Finance on a distributed, decentralized, and immutable ledger or data block. So, let's discuss On-Chain or Blockchain-based Lending and Borrowing:-\n  - Entities of Lending and Borrowing:-\n    * Lender: Deposit Principal in the Liquidity Pool(or Vault) and gets back Principal with interest.\n    * Borrower: Collateralize Assets and get the back borrowed amount\n    * Liquidator: Liquidates the Liquidity pool\n    * Price Oracle: Report prices or send exact prices of assets from different sources(either centralized or decentralized) to the Protocol.\n"
+          "key": "lending-intro",
+          "details": "- What is Lending(also known as “financing”)?\n  * Lending occurs when someone(here lender) allows another person to borrow something (such as Money, property, or another asset) with the expectation that the borrower will either return the asset or repay the lender with some interest.\n  * We all are currently learning DeFi, so let’s see On-Chain Lending and Borrowing(i.e Credit):-      \n  - Entities of Lending and Borrowing:-\n    * Lender: Deposit Principal in the Liquidity Pool(or Vault) and gets back Principal with interest.\n    * Borrower: Collateralize Assets and get the back borrowed amount\n    * Liquidator: Liquidates the Liquidity pool\n    * Price Oracle: Report prices or send exact prices of assets from different sources(either centralized or decentralized) to the Protocol.\n"
         },
         {
           "title": "Lending Terminology",
           "shortTitle": "Terminology",
           "key": "terminology",
-          "details": "\n- Collateral: \n  * An asset that serves as a security deposit on the debt taken.\n\n- Over-collateralization: \n  - The borrower has to provide\n    * value(collateral assets) > value(granted loan) \n    * It means they allow to borrow less than the collateralize amount\n    * But allows the borrower to freely use their funds which they get as a loan\n    - Let's say a borrower collateralizes ETH and borrows DAI\n      * The value of ETH (collateral) exceeds the value of DAI (debt)\n      * Now, the borrower can use the borrowed DAI arbitrarily/freely\n\n- Under-collateralization:\n  - The borrower has to provide\n    * value(collateral) < value(debt)\n    * It means they allow to borrow more than the collateralize amount\n    * But they highly restrict the borrower to use their funds as they don’t get their borrowed funds immediately as smart contracts manage how a borrower can use money\n    - Let's say a borrower collateralizes ETH and borrows DAI\n      * The value of DAI (debt) can exceed the value of ETH (collateral)\n      * The collateralized ETH and borrowed DAI are restricted to be used with pre-designed smart contracts. Those are typically farming contracts.\n      * The vault remains in control of all assets.\n\n\n- Liquidation: \n  * Liquidation == Selling collateral from the borrower\n  * Liquidators/Anyone can liquidate the collateralized asset in return for an incentive (in the form of an opportunity to purchase the collateralize asset at a lower value than the market)\n    * If value(collateral) <= 150% * value(debt)   (...for example)\n  * There may also be auctions for liquidating the collateralized asset whose value degraded.\n  - Liquidation Insights:\n    - Health Factor:\n      * A Fixed Spread liquidation does not necessarily increase the health factor\n    - Over-liquidation:\n      * Liquidations sell excessive amounts of borrower’s collateral\n    - Optimal Liquidation Strategy:\n      * Liquidating up to the close factor is not necessarily the best strategy.\n      * Instead, two successive liquidations might offer more profits.\n    - Data suggests:\n      * Auction liquidations might be more borrower-friendly\n\n\n- Health Factor (In detail):\n  * Health Factor = Borrowing Capacity / Total Value of Debts\n  * Borrowing is the summation of all the values of the collateral we have, times a `liquidation threshold`\n    0 < liquidation threshold < 1 (Range)\n  * The liquidation threshold provides a “secure” margin\n  * When the health factor declines below 1, a borrowing position becomes liquidatable\n\n- Liquidation Spread (LS): bonus, or discount, that a liquidator can collect when liquidating collateral.\n  * Value of Collateral to Claim = Value of Debt to Repay * (1 + LS)\n  * Two types of Liquidation based on Liquidation Spread:-\n  - Fixed Spread:\n    * In this, the Liquidator does both settlements in one Blockchain transaction such as:\n      * Repays the debt of a borrowing position to Vault\n      * And Acquires the collateral at a discounted price from the position in return. \n        * Eg. Typical discounts can lie between 5-15% in the case of Aave.\n  - Variable (or Auction Based) Spread:\n    * In this, various liquidators bid over time until the auction terminates and this process requires multiple blockchain transactions.\n    * Types of Auction Liquidation:\n      - English Auction:\n        * In this, Bidders outbid each other increasingly\n      - Dutch Auction:\n        * This, Auction begins with a high asking price and the price lowers until the auction terminates \n        * Eg, MakerDAO Dutch Auction:-\n          - Instant Settlement:\n            * Unlike the English auction which is operated in multiple transactions, the MAkerDAO Dutch auction is settled instantly in one atomic transaction.\n          - Flash Lending of Collateral:\n            * No upfront DAI (i.e, the debt) is required (i.e., a flash loan used specifically for MakerDAO liquidations).\n          - Price as a Function of Time:\n            * Collateral price decreases over time and nobody can get the collateral for free by accident.\n\n\n- Close Factor (CF): the maximum proportion of the debt that is allowed to be repaid in a fixed spread liquidation\n  * Value of Debt to Repay < CF * Total Value of Debt\n"
+          "details": "- Collateral: \n  * An asset that serves as a security deposit on the debt taken.\n\n- Over-collateralization:\n  * When the value of collateral assets exceeds the value of the granted loan then it is called an Over-collateralized loan. \n\n- Under-collateralization:\n  * When the value of collateral assets is below the value of the granted loan then it is called an Under-collateralized loan.\n\n- Liquidation: \n  * Selling collateral assets of a borrower is called Liquidation.\n  \n- Health Factor (In detail):\n  * Health Factor = Borrowing Capacity / Total Value of Debts\n  * Borrowing is the summation of all the values of the collateral we have, times a `liquidation threshold`\n    0 < liquidation threshold < 1 (Range)\n  * The liquidation threshold provides a “secure” margin\n  * When the health factor declines below 1, a borrowing position becomes liquidatable\n"
+        },
+        {
+          "title": "Collateralization",
+          "shortTitle": "collateralization",
+          "key": "collateralization",
+          "details": "- Collateralization:\n  * It is the process of securing a loan with a valuable asset(a.k.a Collateral) by the loan borrower. There are two types of Collateraliztion:-\n\n  - Over-collateralization:\n    - In this, the borrower has to provide:\n      * value(collateral assets) > value(debt or granted loan) \n      * It means they allow to borrow less than the collateralize amount\n      * But allows the borrower to freely use their funds which they get as a loan\n    - Let's say a borrower collateralizes ETH and borrows DAI\n      * The value of ETH (collateral) exceeds the value of DAI (debt)\n      * Now, the borrower can use the borrowed DAI arbitrarily/freely\n\n  - Under-collateralization:\n    - In this, the borrower has to provide\n      * value(collateral assests) < value(debt or granted loan)\n      * It means they allow to borrow more than the collateralize amount\n      * But they highly restrict the borrower to use their funds as they don’t get their borrowed funds immediately as smart contracts manage how a borrower can use money\n    - Let's say a borrower collateralizes ETH and borrows DAI\n      * The value of DAI (debt) can exceed the value of ETH (collateral)\n      * The collateralized ETH and borrowed DAI are restricted to be used with pre-designed smart contracts. Those are typically farming contracts.\n      * The vault remains in control of all assets.\n"
+        },
+        {
+          "title": "Liquidation",
+          "shortTitle": "liquidation",
+          "key": "liquidation",
+          "details": "-Liquidation:\n  * Liquidation == Selling collateral from the borrower\n  * Liquidators/Anyone can liquidate the collateralized asset in return for an incentive (in the form of an opportunity to purchase the collateralize asset at a lower value than the market)\n    * If value(collateral assets) <= 150% * value(debt or granted loan)   (...for example)\n  * There may also be auctions for liquidating the collateralized asset whose value degraded.\n  - Liquidation Insights:\n    - Health Factor:\n      * A Fixed Spread liquidation does not necessarily increase the health factor\n    - Close Factor (CF): \n      * The maximum proportion of the debt that is allowed to be repaid in a fixed spread liquidation\n      * Value of Debt to Repay < ( Close Factor * Total Value of Debt )\n    - Over-liquidation:\n      * Liquidations sell excessive amounts of borrower’s collateral\n    - Optimal Liquidation Strategy:\n      * Liquidating up to the close factor is not necessarily the best strategy.\n      * Instead, two successive liquidations might offer more profits.\n    - Data suggests:\n      * Auction liquidations might be more borrower-friendly\n"
+        },
+        {
+          "title": "Liquidation Spread (LS)",
+          "shortTitle": "liquidation spread",
+          "key": "liquidation-spread",
+          "details": "- Liquidation Spread (LS):\n  * It is the spread/range of bonus, or discount, that a liquidator can collect when liquidating collateral.\n  * Value of Collateral to Claim = Value of Debt to Repay * (1 + LS)\n  * Two types of Liquidation based on Liquidation Spread:-\n  - Fixed Spread:\n    * In this, the Liquidator does both settlements in one Blockchain transaction such as:\n      * Repays the debt of a borrowing position to Vault\n      * And Acquires the collateral at a discounted price from the position in return. \n        * Eg. Typical discounts can lie between 5-15% in the case of Aave.\n  - Variable (or Auction Based) Spread:\n    * In this, various liquidators bid over time until the auction terminates and this process requires multiple blockchain transactions.\n    * Types of Auction Liquidation:\n      - English Auction:\n        * In this, Bidders outbid each other increasingly\n      - Dutch Auction:\n        * This, Auction begins with a high asking price and the price lowers until the auction terminates \n        * Eg, MakerDAO Dutch Auction:-\n          - Instant Settlement:\n            * Unlike the English auction which is operated in multiple transactions, the MAkerDAO Dutch auction is settled instantly in one atomic transaction.\n          - Flash Lending of Collateral:\n            * No upfront DAI (i.e, the debt or granted loan) is required (i.e., a flash loan used specifically for MakerDAO liquidations).\n          - Price as a Function of Time:\n            * Collateral price decreases over time and nobody can get the collateral for free by accident.\n"
         },
         {
           "title": "Flash Loans",
           "shortTitle": "Flash Loans",
           "key": "flash-loans",
           "details": "- Definition:\n  * Take loans(in a flash)—> Use them—> Repay loan + interest all in one single atomic blockchain transaction(eg, It takes 12-14 sec in the case of Ethereum Blockchain).\n- Flash Loan Use Cases:\n  * DeFi attacks\n  * Price Oracle Manipulation\n  * Pump and Dump\n  * (Risk-free) Arbitrage\n  * Wash-trading\n  * Flash Minting\n  * Collateral swapping\n- Flash Loan Based Liquidation works:\n  * When a liquidator does not have the cryptocurrency upfront to repay and has to complete liquidation in one transaction.\n"
+        },
+        {
+          "title": "Lending And Borrowing(a.k.a Credit) use cases",
+          "shortTitle": "use cases",
+          "key": "use-cases",
+          "details": "- Lending And Borrowing(a.k.a Credit) use cases:-\n  * here we will basically focus on Over-collateralization use cases in various DeFi platforms: \n    - Compound:\n      * In the case of DAI and ETH Compound has a Collateral Factor(a.k.a loan-to-value ratio) of 75%  which means only the 75% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.\n    - Aave:\n      * In the case of DAI and ETH Aave has a Collateral Factor(a.k.a loan-to-value ratio) of 80%  which means only the 80% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.\n    - Alchemix:\n      * In the case of DAI and ETH Alchemix has a Collateral Factor(a.k.a loan-to-value ratio) of 50%  which means only the 50% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.\n    - Maker:\n      * In the case of DAI and ETH Maker has a Collateral Factor(a.k.a loan-to-value ratio) of 66.7%  which means only the 66.7% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.\n"
         }
       ]
     },

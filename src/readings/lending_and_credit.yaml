@@ -1,0 +1,25 @@
+- uuid: 6590dd86-b54a-4d8c-8d98-f6c98c15c753
+  title: How DeFi Lending works?
+  shortTitle: Lending
+  type: YoutubeVideo
+  url: https://youtu.be/rcLlamPNvrA
+  subTopics:
+    - "terminology"
+  details: |
+    This video explains
+      - Lending
+      - Collateral
+      - Over-collateralization
+      - Under-collateralization
+      - Liquidation
+      - Health Factor
+
+- uuid: 292aadbc-bd81-4104-8e5d-df9395c1b78a
+  title: Flash Loans
+  shortTitle: Flash Loans
+  type: YoutubeVideo
+  url: https://youtu.be/mCJUhnXQ76s
+  subTopics:
+    - "flash-loans"
+  details: |
+    This video explains flash loans and its functioning.

@@ -69,7 +69,7 @@ topics:
       * MakerDAO stablecoin
       * Compound
       * Aave
-    readings: blockchain_basics.yaml
+    readings: lending_and_credit.yaml
     summaries: lending_and_credit.yaml
     questions: blockchain_basics.yaml
     status: In Progress

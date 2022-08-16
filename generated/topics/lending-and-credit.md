@@ -14,7 +14,7 @@ Details
 
 
 ## Links
-[Reading List](./../../generated/readings/blockchain_basics.md)
+[Reading List](./../../generated/readings/lending_and_credit.md)
 
 [Summary](./../../generated/summaries/lending_and_credit.md)
 
