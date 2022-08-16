@@ -55,9 +55,9 @@ topics:
       * Smart contracts / Gas / Oracles
       * Fungible and non-fungible (NFT) tokens 
       * dApps
-    readings: blockchain_basics.yaml
+    readings: smart_contracts.yaml
     summaries: smart_contracts.yaml
-    questions: blockchain_basics.yaml
+    questions: smart_contracts.yaml
     status: In Progress
     completionWeek: July 18
   - title: Lending and Credit
@@ -120,11 +120,11 @@ topics:
   - title: Stable Coins
     key: tokenization
     details: |
-      Why Stable Coins, Different Type of stabe coins
+      Why Stable Coins, Different Types of stable coins
       
       Details 
       * Why Stable Coins 
-      * Different Type of stabe coins
+      * Different Type of stable coins
     readings: blockchain_basics.yaml
     summaries: blockchain_basics.yaml
     questions: blockchain_basics.yaml

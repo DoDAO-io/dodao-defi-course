@@ -5,11 +5,11 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 
 ## Stable Coins
  
-Why Stable Coins, Different Type of stabe coins
+Why Stable Coins, Different Types of stable coins
 
 Details 
 * Why Stable Coins 
-* Different Type of stabe coins
+* Different Type of stable coins
 
 
 ## Links

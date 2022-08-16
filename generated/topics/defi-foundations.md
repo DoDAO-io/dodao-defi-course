@@ -16,8 +16,8 @@ Details
 
 
 ## Links
-[Reading List](./../../generated/readings/blockchain_basics.md)
+[Reading List](./../../generated/readings/smart_contracts.md)
 
 [Summary](./../../generated/summaries/smart_contracts.md)
 
-[Questions](./../../generated/questions/blockchain_basics.md)
+[Questions](./../../generated/questions/smart_contracts.md)
