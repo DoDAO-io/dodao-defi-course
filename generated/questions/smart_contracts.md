@@ -12,12 +12,12 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 
 - [ ]  Transferring tokens via courier.
 - [ ]  Transferring fiat currency from one crypto wallet to another.
-- [x]  Transferring tokens from one crypto wallet to another.
+- [x]  Transactions are an action initiated by an externally owned account.
 - [ ]  Transferring tokens from one bank account to another.
   
-Hint: DeFi allows trabsferring of cryptocurrency
+Hint: NoHint
          
-Explanation: A transaction in DeFi refers to transferring of tokens from one crypto wallet to another.
+Explanation: A transaction in DeFi refers to any action initiated by an externally owned account that brings about a change in the state of blockchain.
 
 Sub Topics: ethereum-transactions-working
  
@@ -58,9 +58,9 @@ Sub Topics: ethereum-transactions-working
 
 ##### How does a transaction occur in a Smart Contract Account?  
 
-- [ ]  Ethereum is sent from one user to another directly.
-- [x]  Execution of a code in the smart contract helps in transactions.
 - [ ]  The transaction involves interaction with many dApps during execution.
+- [x]  Execution of a code in the smart contract helps in transactions.
+- [ ]  Smart contracts cannot be used to conduct transaction.
   
 Hint: Smart Contracts have clauses written in code.
          
@@ -76,11 +76,11 @@ Sub Topics: ethereum-transactions-working
 - [ ]  Transaction steps occur one by one in a sequence.
 - [ ]  Transactions need to be of a small amount.
 - [x]  Transactions are reversed if a clause fails in a smart contract.
-- [ ]  Transactions take very less time in the Ethereum network.
+- [x]  Transactions cannot overlapp, divide or interrupt.
   
 Hint: NoHint
          
-Explanation: Atomicity is a property of Ethereum transaction which means that when a clause in a smart contract is not met or remains uunsatisfied then the transaction fails and returns to the pre-transaction stage.
+Explanation: Atomicity is a property of Ethereum transaction which means that when a clause in a smart contract is not met or remains unsatisfied then the transaction fails and returns to the pre-transaction stage. These transactions cannot divide into smaller units. Moreover, they cannot overlapp or interrupt other transactions.
 
 Sub Topics: ethereum-transactions-working
  
@@ -90,7 +90,7 @@ Sub Topics: ethereum-transactions-working
 ##### What are the properties of  Ethereum Transactions?  
 
 - [x]  Peer to Peer
-- [x]  Irreversible
+- [x]  Irreversible once executed
 - [x]  Atomic
 - [ ]  Involves middlemen
   
@@ -119,12 +119,12 @@ Sub Topics: ethereum-transactions-working
 
 ---
 
-##### An Ethereum account consists of how many fields?  
+##### Which of the following is not part of account field?  
 
-- [ ]  5
-- [x]  4
-- [ ]  3
-- [ ]  6
+- [ ]  nonce
+- [x]  wallet address
+- [ ]  codeHash
+- [ ]  storageRoot
   
 Hint: NoHint
          
@@ -151,12 +151,12 @@ Sub Topics: ethereum-transactions-working
 
 ---
 
-##### Ethereum accommodates how many types of transactions?  
+##### Ethereum accommodates which of the below types of transactions?  
 
-- [ ]  4
-- [ ]  6
-- [x]  3
-- [ ]  5
+- [ ]  Regular Transactions
+- [ ]  Contract Deployment Transactions
+- [ ]  Execution of a contract
+- [x]  All of the above
   
 Hint: NoHint
          
@@ -202,13 +202,13 @@ Sub Topics: miner-extractable-value
 ##### What users can do if there is an overload in the mempool?  
 
 - [ ]  Cancel the transaction
-- [x]  Switch to lightning network
+- [x]  Switch to paid speed network
 - [x]  Pay more transaction fees
 - [x]  Wait for confirmation
   
 Hint: NoHint
          
-Explanation: When there is too much traffic in the mempool, users might switch to a lightning network which would lead to more transaction fees. Otherwise users can just wait to get a confirmation.
+Explanation: When there is too much traffic in the mempool, users might switch to a paid speed network which would lead to more transaction fees. Otherwise users can just wait to get a confirmation.
 
 Sub Topics: miner-extractable-value
  
@@ -236,9 +236,9 @@ Sub Topics: miner-extractable-value
 - [ ]  Standard block reward
 - [ ]  Gas fees
 - [ ]  Interest on large order
-- [x]  None of the above
+- [x]  Extra source of income from transactions
   
-Hint: Extra Income for miners
+Hint: NoHint
          
 Explanation: Miner Extractable Value is the extra income other than standard block reward and gas fees which the miners get by tampering with the transaction orders (front-running).
 
@@ -284,7 +284,7 @@ Sub Topics: miner-extractable-value
 - [ ]  Miners get more money-minded
 - [ ]  More transactions occur on blockchain creating traffic.
 - [x]  High gas fees
-- [x]  MEV becomes greater than the standard block reward
+- [x]  Reduction in the number of transactions on the blockchain.
   
 Hint: Effets of MEV crowding
          
@@ -327,23 +327,23 @@ Sub Topics: miner-extractable-value
 
 ---
 
-##### Smart contracts are deployed over which of the following coin network?  
+##### What is a famous example of a non-fungible token?  
 
-- [ ]  Bitcoin
-- [ ]  DAOs
-- [x]  Ethereum
-- [ ]  DogeCoin
+- [ ]  Cryptokitties
+- [ ]  Zcash
+- [x]  Augur
+- [ ]  US Dollar
   
 Hint: NoHint
          
-Explanation: Smart contracts are deployed over Ethereum network created by Vitalik Buterin.
+Explanation: Cryptokitties is a famous non-fungible token.
 
-Sub Topics: smartcontracts-gas-oracles
+Sub Topics: fungible-non-fungible-tokens
  
 
 ---
 
-##### Which of the following are two most important languages for coding the smart contract?  
+##### Which of the following are two most important languages for coding the smart contract on ethereum?  
 
 - [ ]  Rust and Solidity
 - [ ]  Python and Rust
@@ -375,11 +375,11 @@ Sub Topics: smartcontracts-gas-oracles
 
 ---
 
-##### What is the maximum limit of the size of smart contract?  
+##### What is the maximum limit of the size of smart contract on ethereum?  
 
-- [ ]  1.2 Gb
-- [ ]  30 Mb
-- [x]  24 Kb
+- [ ]  ~1.2 Gb
+- [ ]  ~30 Mb
+- [x]  ~24 Kb
 - [ ]  No such fixed limit
   
 Hint: NoHint
@@ -571,7 +571,7 @@ Sub Topics: smartcontracts-gas-oracles
 
 - [ ]  People who update network about real-world
 - [x]  On-chain APIs
-- [ ]  A bot which communicates real-world events to the network
+- [ ]  To check if a smart contract is mined and confirmed
 - [ ]  None of the above
   
 Hint: NoHint

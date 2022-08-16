@@ -3511,8 +3511,8 @@
           "uuid": "9e14dba0-44e4-4292-bf7c-bdf42fdc064b",
           "type": "SingleChoice",
           "content": "What does a Transaction mean in DeFi?",
-          "hint": "DeFi allows trabsferring of cryptocurrency",
-          "explanation": "A transaction in DeFi refers to transferring of tokens from one crypto wallet to another.",
+          "hint": "NoHint",
+          "explanation": "A transaction in DeFi refers to any action initiated by an externally owned account that brings about a change in the state of blockchain.",
           "answerKeys": [
             "C"
           ],
@@ -3530,7 +3530,7 @@
               "key": "B"
             },
             {
-              "content": "Transferring tokens from one crypto wallet to another.",
+              "content": "Transactions are an action initiated by an externally owned account.",
               "key": "C"
             },
             {
@@ -3619,7 +3619,7 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "Ethereum is sent from one user to another directly.",
+              "content": "The transaction involves interaction with many dApps during execution.",
               "key": "A"
             },
             {
@@ -3627,19 +3627,20 @@
               "key": "B"
             },
             {
-              "content": "The transaction involves interaction with many dApps during execution.",
+              "content": "Smart contracts cannot be used to conduct transaction.",
               "key": "C"
             }
           ]
         },
         {
           "uuid": "20695748-d2f7-489a-9b95-4f25a765179d",
-          "type": "SingleChoice",
+          "type": "MultipleChoice",
           "content": "What does it mean by Atomicity of Ethereum transaction?",
           "hint": "NoHint",
-          "explanation": "Atomicity is a property of Ethereum transaction which means that when a clause in a smart contract is not met or remains uunsatisfied then the transaction fails and returns to the pre-transaction stage.",
+          "explanation": "Atomicity is a property of Ethereum transaction which means that when a clause in a smart contract is not met or remains unsatisfied then the transaction fails and returns to the pre-transaction stage. These transactions cannot divide into smaller units. Moreover, they cannot overlapp or interrupt other transactions.",
           "answerKeys": [
-            "C"
+            "C",
+            "D"
           ],
           "subTopics": [
             "ethereum-transactions-working"
@@ -3659,7 +3660,7 @@
               "key": "C"
             },
             {
-              "content": "Transactions take very less time in the Ethereum network.",
+              "content": "Transactions cannot overlapp, divide or interrupt.",
               "key": "D"
             }
           ]
@@ -3685,7 +3686,7 @@
               "key": "A"
             },
             {
-              "content": "Irreversible",
+              "content": "Irreversible once executed",
               "key": "B"
             },
             {
@@ -3733,7 +3734,7 @@
         {
           "uuid": "137cc95f-6c71-4ad6-83d9-1ec774488135",
           "type": "SingleChoice",
-          "content": "An Ethereum account consists of how many fields?",
+          "content": "Which of the following is not part of account field?",
           "hint": "NoHint",
           "explanation": "An Ethereum account composes of majorly 4 fields. Those are nonce, balance, codeHash and storageRoot.",
           "answerKeys": [
@@ -3745,19 +3746,19 @@
           "difficultyLevel": "High",
           "choices": [
             {
-              "content": "5",
+              "content": "nonce",
               "key": "A"
             },
             {
-              "content": "4",
+              "content": "wallet address",
               "key": "B"
             },
             {
-              "content": "3",
+              "content": "codeHash",
               "key": "C"
             },
             {
-              "content": "6",
+              "content": "storageRoot",
               "key": "D"
             }
           ]
@@ -3797,11 +3798,11 @@
         {
           "uuid": "3730622f-41b5-43ba-9b13-fbc0fc601b43",
           "type": "SingleChoice",
-          "content": "Ethereum accommodates how many types of transactions?",
+          "content": "Ethereum accommodates which of the below types of transactions?",
           "hint": "NoHint",
           "explanation": "The 3 types of Ethereum Transactions are - Regular Transactions, Contract Deployment Transactions, Execution of a contract.",
           "answerKeys": [
-            "C"
+            "D"
           ],
           "subTopics": [
             "ethereum-transactions-working"
@@ -3809,19 +3810,19 @@
           "difficultyLevel": "High",
           "choices": [
             {
-              "content": "4",
+              "content": "Regular Transactions",
               "key": "A"
             },
             {
-              "content": "6",
+              "content": "Contract Deployment Transactions",
               "key": "B"
             },
             {
-              "content": "3",
+              "content": "Execution of a contract",
               "key": "C"
             },
             {
-              "content": "5",
+              "content": "All of the above",
               "key": "D"
             }
           ]
@@ -3896,7 +3897,7 @@
           "type": "MultipleChoice",
           "content": "What users can do if there is an overload in the mempool?",
           "hint": "NoHint",
-          "explanation": "When there is too much traffic in the mempool, users might switch to a lightning network which would lead to more transaction fees. Otherwise users can just wait to get a confirmation.",
+          "explanation": "When there is too much traffic in the mempool, users might switch to a paid speed network which would lead to more transaction fees. Otherwise users can just wait to get a confirmation.",
           "answerKeys": [
             "B",
             "C",
@@ -3912,7 +3913,7 @@
               "key": "A"
             },
             {
-              "content": "Switch to lightning network",
+              "content": "Switch to paid speed network",
               "key": "B"
             },
             {
@@ -3961,7 +3962,7 @@
           "uuid": "8aeae442-78fd-4e64-98e7-859b6231c143",
           "type": "SingleChoice",
           "content": "What does Miners Extractable Value refer to?",
-          "hint": "Extra Income for miners",
+          "hint": "NoHint",
           "explanation": "Miner Extractable Value is the extra income other than standard block reward and gas fees which the miners get by tampering with the transaction orders (front-running).",
           "answerKeys": [
             "D"
@@ -3984,7 +3985,7 @@
               "key": "C"
             },
             {
-              "content": "None of the above",
+              "content": "Extra source of income from transactions",
               "key": "D"
             }
           ]
@@ -4083,7 +4084,7 @@
               "key": "C"
             },
             {
-              "content": "MEV becomes greater than the standard block reward",
+              "content": "Reduction in the number of transactions on the blockchain.",
               "key": "D"
             }
           ]
@@ -4156,31 +4157,31 @@
         {
           "uuid": "fbcfe72b-2cda-4f6c-ad38-1bfd5606d6ec",
           "type": "SingleChoice",
-          "content": "Smart contracts are deployed over which of the following coin network?",
+          "content": "What is a famous example of a non-fungible token?",
           "hint": "NoHint",
-          "explanation": "Smart contracts are deployed over Ethereum network created by Vitalik Buterin.",
+          "explanation": "Cryptokitties is a famous non-fungible token.",
           "answerKeys": [
             "C"
           ],
           "subTopics": [
-            "smartcontracts-gas-oracles"
+            "fungible-non-fungible-tokens"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Bitcoin",
+              "content": "Cryptokitties",
               "key": "A"
             },
             {
-              "content": "DAOs",
+              "content": "Zcash",
               "key": "B"
             },
             {
-              "content": "Ethereum",
+              "content": "Augur",
               "key": "C"
             },
             {
-              "content": "DogeCoin",
+              "content": "US Dollar",
               "key": "D"
             }
           ]
@@ -4188,7 +4189,7 @@
         {
           "uuid": "096ce605-8947-43a9-92ed-4a387a5b99f3",
           "type": "SingleChoice",
-          "content": "Which of the following are two most important languages for coding the smart contract?",
+          "content": "Which of the following are two most important languages for coding the smart contract on ethereum?",
           "hint": "NoHint",
           "explanation": "Solidity and Vyper are the coding languages used for coding the smart contract.",
           "answerKeys": [
@@ -4252,7 +4253,7 @@
         {
           "uuid": "50e567ce-e76b-4bb4-9d8c-0ed12e39a18f",
           "type": "SingleChoice",
-          "content": "What is the maximum limit of the size of smart contract?",
+          "content": "What is the maximum limit of the size of smart contract on ethereum?",
           "hint": "NoHint",
           "explanation": "The current maximum limit of the amount of data that can be stored by a smart contractis 24 Kb.",
           "answerKeys": [
@@ -4264,15 +4265,15 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "1.2 Gb",
+              "content": "~1.2 Gb",
               "key": "A"
             },
             {
-              "content": "30 Mb",
+              "content": "~30 Mb",
               "key": "B"
             },
             {
-              "content": "24 Kb",
+              "content": "~24 Kb",
               "key": "C"
             },
             {
@@ -4661,7 +4662,7 @@
               "key": "B"
             },
             {
-              "content": "A bot which communicates real-world events to the network",
+              "content": "To check if a smart contract is mined and confirmed",
               "key": "C"
             },
             {
