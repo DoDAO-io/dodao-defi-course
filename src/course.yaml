@@ -25,9 +25,9 @@ topics:
         * What is DeFi 
         * CeFi vs DeFi
         * Use cases of DeFi
-    readings: blockchain_basics.yaml
+    readings: introduction_to_defi.yaml
     summaries: introduction_to_defi.yaml
-    questions: blockchain_basics.yaml
+    questions: introduction_to_defi.yaml
     status: In Progress
     completionWeek:  July 18
   - title: Blockchain Basics
@@ -50,14 +50,14 @@ topics:
       Explain on a high level what are smart contract, and where do they run
       
       Details 
-      * How Ethereum transactions
-      * miner extractable value.
+      * How Ethereum transactions work
+      * Miner extractable value (MEV)
       * Smart contracts / Gas / Oracles
       * Fungible and non-fungible (NFT) tokens 
       * dApps
-    readings: blockchain_basics.yaml
-    summaries: blockchain_basics.yaml
-    questions: blockchain_basics.yaml
+    readings: smart_contracts.yaml
+    summaries: smart_contracts.yaml
+    questions: smart_contracts.yaml
     status: In Progress
     completionWeek: July 18
   - title: Lending and Credit
@@ -84,9 +84,9 @@ topics:
       * Swaps
       * Automated Market Makers
       * Loans
-    readings: blockchain_basics.yaml
-    summaries: blockchain_basics.yaml
-    questions: blockchain_basics.yaml
+    readings: decentralized_exchanges.yaml
+    summaries: decentralized_exchanges.yaml
+    questions: decentralized_exchanges.yaml
     status: In Progress
     completionWeek: July 18
   - title: Derivatives
@@ -120,11 +120,11 @@ topics:
   - title: Stable Coins
     key: tokenization
     details: |
-      Why Stable Coins, Different Type of stabe coins
+      Why Stable Coins, Different Types of stable coins
       
       Details 
       * Why Stable Coins 
-      * Different Type of stabe coins
+      * Different Type of stable coins
     readings: blockchain_basics.yaml
     summaries: blockchain_basics.yaml
     questions: blockchain_basics.yaml

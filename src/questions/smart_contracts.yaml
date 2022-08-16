@@ -1,0 +1,967 @@
+- uuid: 9e14dba0-44e4-4292-bf7c-bdf42fdc064b
+  type: SingleChoice
+  content: What does a Transaction mean in DeFi?
+  hint: NoHint
+  explanation: A transaction in DeFi refers to any action initiated by an externally owned account that brings about a change in the state of blockchain.
+  answerKeys:
+    - C
+  subTopics:
+    - "ethereum-transactions-working"
+  difficultyLevel: "Low"
+  choices:
+    - content: Transferring tokens via courier.
+      key: A
+    - content: Transferring fiat currency from one crypto wallet to another.
+      key: B
+    - content: Transactions are an action initiated by an externally owned account.
+      key: C
+    - content: Transferring tokens from one bank account to another.
+      key: D
+- uuid: 75405343-ac16-4a1d-bf40-3930d0a92ee7
+  type: MultipleChoice
+  content: What are the different types of accounts owned by Ethereum users?
+  hint: NoHint 
+  explanation: Externally owned accounts (EOA) and Smart Contract account are the two types of accounts owned by Ethereum users.
+  answerKeys:
+    - B
+    - D
+  subTopics:
+    - "ethereum-transactions-working"
+  difficultyLevel: "Low"
+  choices:
+    - content: Ethereum Trading account
+      key: A
+    - content: Externally owned account
+      key: B
+    - content: Ethereum Transfer account
+      key: C
+    - content: Smart Contract account
+      key: D
+- uuid: 7f9214d5-f788-4380-a70a-99190e77688d
+  type: SingleChoice
+  content: Which of the following accounts have no code associated with them?
+  hint: NoHint
+  explanation: Externally owned accounts have no code associated with them.
+  answerKeys:
+    - B
+  subTopics:
+    - "ethereum-transactions-working"
+  difficultyLevel: "Low"
+  choices:
+    - content: Smart Contract account
+      key: A
+    - content: Externally owned account
+      key: B
+    - content: Ethereum Transfer account
+      key: C
+    - content: Ethereum Trading account
+      key: D
+- uuid: 1e1f5d15-9ac0-4118-8d65-5088d06e924a
+  type: SingleChoice
+  content: How does a transaction occur in a Smart Contract Account?
+  hint: Smart Contracts have clauses written in code.
+  explanation: Transaction in smart contracts are executed when the code in them runs successfully.
+  answerKeys:
+    - B
+  subTopics:
+    - "ethereum-transactions-working"
+  difficultyLevel: "Medium"
+  choices:
+    - content: The transaction involves interaction with many dApps during execution.
+      key: A
+    - content: Execution of a code in the smart contract helps in transactions.
+      key: B
+    - content: Smart contracts cannot be used to conduct transaction.
+      key: C  
+- uuid: 20695748-d2f7-489a-9b95-4f25a765179d
+  type: MultipleChoice
+  content: What does it mean by Atomicity of Ethereum transaction?
+  hint: NoHint
+  explanation: Atomicity is a property of Ethereum transaction which means that when a clause in a smart contract is not met or remains unsatisfied then the transaction fails and returns to the pre-transaction stage. These transactions cannot divide into smaller units. Moreover, they cannot overlapp or interrupt other transactions.
+  answerKeys:
+    - C
+    - D
+  subTopics:
+    - "ethereum-transactions-working"
+  difficultyLevel: "Low"
+  choices:
+    - content: Transaction steps occur one by one in a sequence.
+      key: A
+    - content: Transactions need to be of a small amount.
+      key: B
+    - content: Transactions are reversed if a clause fails in a smart contract.
+      key: C
+    - content: Transactions cannot overlapp, divide or interrupt.
+      key: D
+- uuid: b5c5ce04-ae7d-4c57-9071-119565bf5bcb
+  type: MultipleChoice
+  content: What are the properties of  Ethereum Transactions?
+  hint: NoHint
+  explanation: Ethereum transactions occur on P2P (Peer-to-Peer) basis. These transactions are irreversible once executed and they are atomic in nature.
+  answerKeys:
+    - A
+    - B
+    - C 
+  subTopics:
+    - "ethereum-transactions-working"
+  difficultyLevel: "Low"
+  choices:
+    - content: Peer to Peer
+      key: A
+    - content: Irreversible once executed
+      key: B
+    - content: Atomic
+      key: C
+    - content: Involves middlemen
+      key: D
+- uuid: 98216c77-af95-40ce-b52f-a9853d96be88
+  type: SingleChoice
+  content: An Externally owned account can be used to transfer......
+  hint: NoHint
+  explanation: An EOA can be used to send any tokens within the Ethereum Network.
+  answerKeys:
+    - D
+  subTopics:
+    - "ethereum-transactions-working"
+  difficultyLevel: "Low"
+  choices:
+    - content: Bitcoin
+      key: A
+    - content: Ethereum
+      key: B
+    - content: DogeCoin
+      key: C
+    - content: All of the above
+      key: D
+- uuid: 137cc95f-6c71-4ad6-83d9-1ec774488135
+  type: SingleChoice
+  content: Which of the following is not part of account field?
+  hint: NoHint
+  explanation: An Ethereum account composes of majorly 4 fields. Those are nonce, balance, codeHash and storageRoot.
+  answerKeys:
+    - B
+  subTopics:
+    - "ethereum-transactions-working"
+  difficultyLevel: "High"
+  choices:
+    - content: nonce
+      key: A
+    - content: wallet address
+      key: B
+    - content: codeHash
+      key: C
+    - content: storageRoot
+      key: D
+- uuid: 63dd8506-1b0a-4b7e-8151-9e5973833231
+  type: SingleChoice
+  content: How is the transaction data stored in the blockchain?
+  hint: Working of transactions in the blockchain
+  explanation: The transaction data is stored in the form of a block in the blockchain.
+  answerKeys:
+    - A
+  subTopics:
+    - "ethereum-transactions-working"
+  difficultyLevel: "Low"
+  choices:
+    - content: Blocks
+      key: A
+    - content: Smart contracts
+      key: B
+    - content: Cryptographic hashes
+      key: C
+    - content: None of the above
+      key: D
+- uuid: 3730622f-41b5-43ba-9b13-fbc0fc601b43
+  type: SingleChoice
+  content: Ethereum accommodates which of the below types of transactions?
+  hint: NoHint
+  explanation: The 3 types of Ethereum Transactions are - Regular Transactions, Contract Deployment Transactions, Execution of a contract.
+  answerKeys:
+    - D
+  subTopics:
+    - "ethereum-transactions-working"
+  difficultyLevel: "High"
+  choices:
+    - content: Regular Transactions
+      key: A
+    - content: Contract Deployment Transactions
+      key: B
+    - content: Execution of a contract
+      key: C
+    - content: All of the above
+      key: D
+- uuid: c92051e6-fe23-424e-a22d-46b705445131
+  type: SingleChoice
+  content: Where are pending and unconfirmed transactions stored?
+  hint: NoHint
+  explanation: The place where pending or unconfirmed transactions are stored is known as mempool.
+  answerKeys:
+    - C
+  subTopics:
+    - "miner-extractable-value"
+  difficultyLevel: "Low"
+  choices:
+    - content: Blocks
+      key: A
+    - content: Sender’s Wallet
+      key: B
+    - content: Mempool
+      key: C
+    - content: Miner’s Wallet
+      key: D
+- uuid: e9e60193-bd9e-4855-9a18-dc4cb2ea2508
+  type: MultipleChoice
+  content: What happens when mempool is overloaded with transactions?
+  hint: Overcrowded Mempool creates more time in successful transaction.
+  explanation: When the mempool becomes overloaded with transactions, it resutls in delayed confirmations of these transactions and increase in the gas fees as well.
+  answerKeys:
+    - A
+    - C
+  subTopics:
+    - "miner-extractable-value"
+  difficultyLevel: "Medium"
+  choices:
+    - content: Delayed confirmation of transactions
+      key: A
+    - content: Reduction in backlog.
+      key: B
+    - content: Increase in transaction fees.
+      key: C
+    - content: Low traffic in the pool
+      key: D
+- uuid: 7c548058-2294-4443-9ee6-61e8525246e9
+  type: MultipleChoice
+  content: What users can do if there is an overload in the mempool?
+  hint: NoHint
+  explanation: When there is too much traffic in the mempool, users might switch to a paid speed network which would lead to more transaction fees. Otherwise users can just wait to get a confirmation.
+  answerKeys:
+    - B
+    - C
+    - D
+  subTopics:
+    - "miner-extractable-value"
+  difficultyLevel: "High"
+  choices:
+    - content: Cancel the transaction
+      key: A
+    - content: Switch to paid speed network
+      key: B
+    - content: Pay more transaction fees
+      key: C
+    - content: Wait for confirmation
+      key: D
+- uuid: db87beb8-09d7-42f4-8858-fa436bb01344
+  type: SingleChoice
+  content: How can miners tamper the blockchain?
+  hint: NoHint
+  explanation: Miners have access to the mempool. So, they can exclude a transaction, include a transaction or re-ordering any transaction in the pool.
+  answerKeys:
+    - D
+  subTopics:
+    - "miner-extractable-value"
+  difficultyLevel: "Low"
+  choices:
+    - content: Excluding transaction
+      key: A
+    - content: Including transaction
+      key: B
+    - content: Re-ordering transactions
+      key: C
+    - content: All of the above
+      key: D
+- uuid: 8aeae442-78fd-4e64-98e7-859b6231c143
+  type: SingleChoice
+  content: What does Miners Extractable Value refer to?
+  hint: NoHint
+  explanation: Miner Extractable Value is the extra income other than standard block reward and gas fees which the miners get by tampering with the transaction orders (front-running).
+  answerKeys:
+    - D
+  subTopics:
+    - "miner-extractable-value"
+  difficultyLevel: "Medium"
+  choices:
+    - content: Standard block reward
+      key: A
+    - content: Gas fees
+      key: B
+    - content: Interest on large order
+      key: C
+    - content: Extra source of income from transactions
+      key: D
+- uuid: aa22fc95-3f12-4ff7-938b-5414e70a1370
+  type: MultipleChoice
+  content: How do “searchers” execute gas golfing? Gas golfing refers to programming transactions using the least amount of gas.
+  hint: Decrease the storage of a block
+  explanation: Addresses which have a long string of zeros reduce the size of the block and hence the gas required to mine it. Moreover, the contract must not be kept empty it should have some amount of ERC-20 to remove the gas required for initialising the contract.
+  answerKeys:
+    - A
+    - B
+  subTopics:
+    - "miner-extractable-value"
+  difficultyLevel: "High"
+  choices:
+    - content: Using addresses which have long string of zeros.
+      key: A
+    - content: Leaving some amount of ERC-20 tokens in contracts.
+      key: B
+    - content: Reducing transactions into smaller parts.
+      key: C
+    - content: Use more efficient systems to execute transactions.
+      key: D
+- uuid: c646d255-f94f-43a4-89fd-54fa744001d3
+  type: MultipleChoice
+  content: Which of the following are examples of MEV?
+  hint: NoHint
+  explanation: DEX Arbitrage and Sandwich trading are the examples of MEV.
+  answerKeys:
+    - A
+    - C
+  subTopics:
+    - "miner-extractable-value"
+  difficultyLevel: "High"
+  choices:
+    - content: DEX Arbitrage
+      key: A
+    - content: Selling of NFTs
+      key: B
+    - content: Sandwich trading
+      key: C
+    - content: None of the above
+      key: D
+- uuid: a97965ce-77f6-438d-8206-584ccd52ce49
+  type: MultipleChoice
+  content: What are the ill-effects of increasing MEV?
+  hint: Effets of MEV crowding
+  explanation: The ill-effects of MEV include increase in the gas fees and high MEV compared to standard block reward which would directly effect to the end user.
+  answerKeys:
+    - C
+    - D
+  subTopics:
+    - "miner-extractable-value"
+  difficultyLevel: "Medium"
+  choices:
+    - content: Miners get more money-minded
+      key: A
+    - content: More transactions occur on blockchain creating traffic.
+      key: B
+    - content: High gas fees
+      key: C
+    - content: Reduction in the number of transactions on the blockchain.
+      key: D
+- uuid: 8ea66582-4e5e-42bd-b413-8e8fe2f2acb4
+  type: MultipleChoice
+  content: What are the benefits of MEV?
+  hint: Miner Extractabe Value benefits
+  explanation: DEX arbitrage helps the user get competitive pricing for a coin and speedy liquidation help lenders get paid back.
+  answerKeys:
+    - A
+    - B
+  subTopics:
+    - "miner-extractable-value"
+  difficultyLevel: "Medium"
+  choices:
+    - content: DEX arbitrage offers competitive pricing to users.
+      key: A
+    - content: Speedy liquidations help lenders get paid back
+      key: B
+    - content: Increase in the rate of transaction
+      key: C
+    - content: None of the above
+      key: D
+- uuid: 8c6ec222-acdc-48f6-ad22-a95724d82ba3
+  type: SingleChoice
+  content: What was the amount collected (in million $) via MEV in 2021?
+  hint: NoHint
+  explanation: The amount collected via MEV in 2021 is around $780 Million.
+  answerKeys:
+    - B
+  subTopics:
+    - "miner-extractable-value"
+  difficultyLevel: "Low"
+  choices:
+    - content: 500
+      key: A
+    - content: 780
+      key: B
+    - content: 650
+      key: C
+    - content: 200
+      key: D
+- uuid: fbcfe72b-2cda-4f6c-ad38-1bfd5606d6ec
+  type: SingleChoice
+  content: What is a famous example of a non-fungible token?
+  hint: NoHint
+  explanation: Cryptokitties is a famous non-fungible token.
+  answerKeys:
+    - C
+  subTopics:
+    - "fungible-non-fungible-tokens"
+  difficultyLevel: "Low"
+  choices:
+    - content: Cryptokitties
+      key: A
+    - content: Zcash
+      key: B
+    - content: Augur
+      key: C
+    - content: US Dollar
+      key: D
+- uuid: 096ce605-8947-43a9-92ed-4a387a5b99f3
+  type: SingleChoice
+  content: Which of the following are two most important languages for coding the smart contract on ethereum?
+  hint: NoHint
+  explanation: Solidity and Vyper are the coding languages used for coding the smart contract.
+  answerKeys:
+    - C
+  subTopics:
+    - "smartcontracts-gas-oracles"
+  difficultyLevel: "Medium"
+  choices:
+    - content: Rust and Solidity
+      key: A
+    - content: Python and Rust
+      key: B
+    - content: Solidity and Vyper
+      key: C
+    - content: Solidity and Python
+      key: D
+- uuid: 37d531eb-dcfb-4bfa-9591-c4be502c90bc
+  type: SingleChoice
+  content: A smart contract can be used in which of the following fields?
+  hint: Functions of Smart Contracts
+  explanation: Smart contracts can be used in any field which uses the interpretation and transfer of data. 
+  answerKeys:
+    - D
+  subTopics:
+    - "smartcontracts-gas-oracles"
+  difficultyLevel: "Low"
+  choices:
+    - content: Trading
+      key: A
+    - content: Real Estate
+      key: B
+    - content: Supply chain management
+      key: C
+    - content: All of the above
+      key: D
+- uuid: 50e567ce-e76b-4bb4-9d8c-0ed12e39a18f
+  type: SingleChoice
+  content: What is the maximum limit of the size of smart contract on ethereum?
+  hint: NoHint
+  explanation: The current maximum limit of the amount of data that can be stored by a smart contractis 24 Kb.
+  answerKeys:
+    - C
+  subTopics:
+    - "smartcontracts-gas-oracles"
+  difficultyLevel: "Medium"
+  choices:
+    - content: ~1.2 Gb
+      key: A
+    - content: ~30 Mb
+      key: B
+    - content: ~24 Kb
+      key: C
+    - content: No such fixed limit
+      key: D
+- uuid: 2370cb1c-2c32-4c61-ab3d-a5e87554a431
+  type: MultipleChoice
+  content: What are the features of smart contracts?
+  hint: Features of Blockchain combined with smart contracts
+  explanation: Smart contracts are composable, the clauses are irreversible and they do not require any permission to be executed.
+  answerKeys:
+    - A
+    - B
+    - C
+  subTopics:
+    - "smartcontracts-gas-oracles"
+  difficultyLevel: "Low"
+  choices:
+    - content: Composability
+      key: A
+    - content: Irreversible
+      key: B
+    - content: Permissionless
+      key: C
+    - content: Easily Editable
+      key: D
+- uuid: 1d253351-c421-47a2-847f-b6c6140fbcab
+  type: SingleChoice
+  content: Why smart contracts cannot interact with “real–world” events?
+  hint: Smart contract is plane code of agreements
+  explanation: Smart contract are not capable enough to send HTTP Requests such as GET, POST etc.
+  answerKeys:
+    - C
+  subTopics:
+    - "smartcontracts-gas-oracles"
+  difficultyLevel: "High"
+  choices:
+    - content: When needed, these details can be coded in the contract.
+      key: A
+    - content: The information is already coded
+      key: B
+    - content: They cannot send HTTP requests
+      key: C
+    - content: They do not need external information
+      key: D
+- uuid: c57aafed-27fd-4ea8-b52d-d8fa9345ed2b
+  type: MultipleChoice
+  content: What are the benefits of Multisig contracts over regular contracts?
+  hint: Multisig contracts have many validators
+  explanation: Multisig contracts have many validators, this prevents single point of failue. Moreover, responsibilty for contract execution and management is distributed. Many contributors help in preventing the loss of funds due to a single private key.
+  answerKeys:
+    - A
+    - B
+    - C
+  subTopics:
+    - "smartcontracts-gas-oracles"
+  difficultyLevel: "High"
+  choices:
+    - content: Avoid single point of failure
+      key: A
+    - content: Divide responsibility for contract execution and management
+      key: B
+    - content: Prevents loss of funds due to a single private key
+      key: C
+    - content: Defaulters can be caught easily
+      key: D
+- uuid: dac690ac-546b-4e5f-90a2-660cded2bdaf
+  type: SingleChoice
+  content: What is the unit to measure the amount of computational effort in Ethereum?
+  hint: NoHint
+  explanation: Gas is the unit to measure the amount of computational effort in Ethereum.
+  answerKeys:
+    - B
+  subTopics:
+    - "smartcontracts-gas-oracles"
+  difficultyLevel: "Low"
+  choices:
+    - content: Ethereum Energy
+      key: A
+    - content: Gas
+      key: B
+    - content: Coal
+      key: C
+    - content: Fuel
+      key: D
+- uuid: 51473a21-33a7-409a-9086-07389f7502b4
+  type: SingleChoice
+  content:  Suppose Ga is the gas required to include a regular transaction and Gb is the gas required to execute a smart contract the which of the following will be true?
+  hint: Complexity of a transaction
+  explanation: Gb will be greater than Ga because regular transactions consume less gas compared to a smart contract which is far more complex during execution .
+  answerKeys:
+    - B
+  subTopics:
+    - "smartcontracts-gas-oracles"
+  difficultyLevel: "Medium"
+  choices:
+    - content: Ga = Gb
+      key: A
+    - content: Ga < Gb
+      key: B
+    - content: Ga > Gb
+      key: C
+    - content: Data insufficient to determine a relation
+      key: D
+- uuid: a05109ee-3816-4358-a925-fa221947f09b
+  type: SingleChoice
+  content: How are gas prices denoted?
+  hint: NoHint
+  explanation: gwei is the unit used to denote gas price. 1 gwei = one billionth of an ETH. 
+  answerKeys:
+    - A
+  subTopics:
+    - "smartcontracts-gas-oracles"
+  difficultyLevel: "Low"
+  choices:
+    - content: Gwei
+      key: A
+    - content: Bitcoin
+      key: B
+    - content: DAOs
+      key: C
+    - content: None of the above
+      key: D
+- uuid: 3f707c2e-3719-467b-9089-ec314ec93216
+  type: SingleChoice
+  content: ___A___ requires gas whereas ___B___  requires no gas.
+  hint: Regular Transaction and read only functions
+  explanation: Regular transaction requires gas whereas checking balance (read-only) requires no gas.
+  answerKeys:
+    - B
+  subTopics:
+    - "smartcontracts-gas-oracles"
+  difficultyLevel: "Low"
+  choices:
+    - content: A = Transaction  B= Smart Contract
+      key: A
+    - content: A = Transaction  B= Check Balance
+      key: B
+    - content: A = Smart Contract  B = Transaction
+      key: C
+    - content: A =  Check Balance  B = Transaction
+      key: D
+- uuid: 588f17d8-c6c2-42ca-af23-4ede736ab26a
+  type: SingleChoice
+  content: Determine what happens - You execute a transaction which requires 21 units of gas but you supplied only 20 units of gas.
+  hint: Consumption of gas 
+  explanation: Transaction is unsuccessful and the gas has already been consumed and provided to the miner who processed the transaction.
+  answerKeys:
+    - B
+  subTopics:
+    - "smartcontracts-gas-oracles"
+  difficultyLevel: "Low"
+  choices:
+    - content: Transaction is successful and 1 unit of gas added as a debt
+      key: A
+    - content: Transaction unsuccessful and gas consumed
+      key: B
+    - content: Transaction unsuccessful and gas returned
+      key: C
+    - content: Transaction waits for the addition of 1 unit of gas.
+      key: D
+- uuid: 56f0d1a0-9e64-412f-ac46-cb129b8c84d3
+  type: SingleChoice
+  content: 1 gwei represents......
+  hint: NoHint
+  explanation: 1 gwei represents one billionth of a ETH.
+  answerKeys:
+    - B
+  subTopics:
+    - "smartcontracts-gas-oracles"
+  difficultyLevel: "Low"
+  choices:
+    - content: 10-6  of ETH
+      key: A
+    - content: 10-9  of ETH
+      key: B
+    - content: 10-7  of ETH
+      key: C
+    - content: 10-8  of ETH
+      key: D
+- uuid: 83ee79ad-7687-4311-bc51-5175f7603224
+  type: MultipleChoice
+  content: Why is gas necessary in the Ethereum network?
+  hint: Features of Gas
+  explanation: High Gas prevents spamming in the network and smart contract having an infinite loop will terminate when it runs out of gas.
+  answerKeys:
+    - B
+    - C
+  subTopics:
+    - "smartcontracts-gas-oracles"
+  difficultyLevel: "Medium"
+  choices:
+    - content: Reward the miners
+      key: A
+    - content: Prevent spamming in the network
+      key: B
+    - content: Avoid infinite loop
+      key: C
+    - content: Gas can be removed to make network better
+      key: D
+- uuid: 312884fb-dac2-4326-a671-616e9220b5b9
+  type: SingleChoice
+  content: What are the reasons behind high gas fees?
+  hint: Increasing gas demand
+  explanation: All the three listed reasons are responsible for high gas fees.
+  answerKeys:
+    - D
+  subTopics:
+    - "smartcontracts-gas-oracles"
+  difficultyLevel: "High"
+  choices:
+    - content: Increasing popularity of the Ethereum network.
+      key: A
+    - content: Higher tip to outbid other transactions
+      key: B
+    - content: Smart contracts consume a lot of gas
+      key: C
+    - content: All of the above
+      key: D
+- uuid: 4f9b4021-4c26-41f8-8cfa-2a9766673e3a
+  type: SingleChoice
+  content: What are Oracles?
+  hint: NoHint
+  explanation: Oracles are on-chain APIs which help a smart contract get realtime data.
+  answerKeys:
+    - B
+  subTopics:
+    - "smartcontracts-gas-oracles"
+  difficultyLevel: "Low"
+  choices:
+    - content: People who update network about real-world
+      key: A
+    - content: On-chain APIs
+      key: B
+    - content: To check if a smart contract is mined and confirmed
+      key: C
+    - content: None of the above
+      key: D
+- uuid: 7e650062-f994-4943-8aae-fd77c7481b11
+  type: SingleChoice
+  content: What is/are the oracle problem?
+  hint: Trust issues on single oracle
+  explanation: A single oracle cannot be relied upon for accurate and trustworthy information. In DeFi there can be many oracle which would have been programmed to interfere wrongly with the smart contract.
+  answerKeys:
+    - B
+  subTopics:
+    - "smartcontracts-gas-oracles"
+  difficultyLevel: "Medium"
+  choices:
+    - content: Oracle does not interact effectively with smart contract
+      key: A
+    - content: A single source of truth is unreliable and insecure
+      key: B
+    - content: Oracles fail during the time of congestion
+      key: C
+    - content: All of the above
+      key: D
+- uuid: e9be5c07-386a-49a6-83e6-7760ccab4c36
+  type: SingleChoice
+  content: Who introduced ERC 20? 
+  hint: NoHint
+  explanation: Fabian Vogelstellar introduced ERC-20 for fungible tokens.
+  answerKeys:
+    - B
+  subTopics:
+    - "fungible-non-fungible-tokens"
+  difficultyLevel: "Medium"
+  choices:
+    - content: Vitalik Buterin
+      key: A
+    - content: Fabian Vogelstellar
+      key: B
+    - content: option 3
+      key: C
+    - content: option 4
+      key: D
+- uuid: 420c6da3-c5d7-4927-afe0-1a5a2aece569
+  type: SingleChoice
+  content: How does ERC 20 empower DeFi?
+  hint: Advantages of ERC-20
+  explanation: ERC-20 enbales transferring of tokens, get current token balance and also get the total supply of token that is available in the market.
+  answerKeys:
+    - A
+    - B
+    - D
+  subTopics:
+    - "fungible-non-fungible-tokens"
+  difficultyLevel: "High"
+  choices:
+    - content: Transfer tokens from one account to another
+      key: A
+    - content: Get the current token balance of an account
+      key: B
+    - content: Forgery of assets increases.
+      key: C
+    - content: Get the total supply of token available in the network
+      key: D
+- uuid: 1ed736c9-2bd2-460c-bd6d-5a786fe13cad
+  type: SingleChoice
+  content: Which of the following token is used to represent the ownership of an asset?
+  hint: NoHint
+  explanation: Equity token which is a type of Fungible token is used to represent the ownership of an asset or in a pool.
+  answerKeys:
+    - B
+  subTopics:
+    - "fungible-non-fungible-tokens"
+  difficultyLevel: "Low"
+  choices:
+    - content: Utility Tokens
+      key: A
+    - content: Equity Token
+      key: B
+    - content: Governance token
+      key: C
+    - content: None of the above
+      key: D
+- uuid: b354a4cc-a0f4-4379-a905-a7b9ffa81f6e
+  type: SingleChoice
+  content: Which of the following tokens have an intrinsic value proposition?
+  hint: NoHint
+  explanation: Utility tokens have an intrinsic value proposition.
+  answerKeys:
+    - B
+  subTopics:
+    - "fungible-non-fungible-tokens"
+  difficultyLevel: "Low"
+  choices:
+    - content: Equity Token
+      key: A
+    - content: Utility Tokens
+      key: B
+    - content: Governance token
+      key: C
+    - content: None of the above
+      key: D
+- uuid: 5b801238-fcc0-4472-a150-958dbc013a45
+  type: SingleChoice
+  content: Which of the following acts as a governance token?
+  hint: NoHint
+  explanation: UNI token acts as a governance token for the UNISWAP decentralised exchange.
+  answerKeys:
+    - A
+  subTopics:
+    - "fungible-non-fungible-tokens"
+  difficultyLevel: "Low"
+  choices:
+    - content: UNI token
+      key: A
+    - content: Bitcoin
+      key: B
+    - content: Ethereum
+      key: C
+    - content: SHIBA coin
+      key: D
+- uuid: d81bc545-a1ca-41bf-a1c3-48f2b0ff6c51
+  type: SingleChoice
+  content: Who introduced ERC -721?
+  hint: NoHint
+  explanation: Dieter Shirley along with her team was responsible for introduction of ERC-721.
+  answerKeys:
+    - B
+  subTopics:
+    - "fungible-non-fungible-tokens"
+  difficultyLevel: "Low"
+  choices:
+    - content: Vitalik Buterin
+      key: A
+    - content: Dieter Shirley
+      key: B
+    - content: Fabian Vogelstellar
+      key: C
+    - content: Changpen Zao
+      key: D
+- uuid: ae1cb663-fe96-41f9-a018-24121a39bdf5
+  type: SingleChoice
+  content: What differentiates ERC 721 (NFTs) from ERC 20 (FTs)?
+  hint: NoHint
+  explanation: ERC-721 (NFTs) are unique tokens that is no two NFTs can have the same token id whereas Fungible tokens are not unique.
+  answerKeys:
+    - B
+  subTopics:
+    - "fungible-non-fungible-tokens"
+  difficultyLevel: "Medium"
+  choices:
+    - content: Deployment on the Ethereum network
+      key: A
+    - content: Unique Identity to each token
+      key: B
+    - content: Size of the token
+      key: C
+    - content: They are identical
+      key: D
+- uuid: 80c32b64-d5f4-4690-a926-c2c6fca3f0f9
+  type: SingleChoice
+  content: Which of the following is a multi-token standard?
+  hint: NoHint
+  explanation: ERC-1155 is a multitoken standard which is used to handle Fungible and Non-fungible tokens simultaneously.
+  answerKeys:
+    - C
+  subTopics:
+    - "fungible-non-fungible-tokens"
+  difficultyLevel: "High"
+  choices:
+    - content: ERC 20
+      key: A
+    - content: ERC 721
+      key: B
+    - content: ERC 1155
+      key: C
+    - content: option 4
+      key: D
+- uuid: 480f4908-472b-4290-b946-619ca725693d
+  type: SingleChoice
+  content: For a web application we use web server, for mobile application we use mobile server, so for the decentralised applications we use......
+  hint: NoHint
+  explanation: A blockchain server is used to handle decentralised applications.
+  answerKeys:
+    - B
+  subTopics:
+    - "dapps"
+  difficultyLevel: "Low"
+  choices:
+    - content: Distributed communication server
+      key: A
+    - content: Blockchain server
+      key: B
+    - content: Distributed application server
+      key: C
+    - content: Centralised server
+      key: D
+- uuid: ae3e60d4-98f2-4b4c-8b34-63fe71ed8948
+  type: SingleChoice
+  content: What does the web3 library do to help dApps communicate with the Ethereum Network?
+  hint: NoHint
+  explanation: web3 enables REST requests in the Ethereum Network.
+  answerKeys:
+    - C
+  subTopics:
+    - "dapps"
+  difficultyLevel: "High"
+  choices:
+    - content: Soap Requests
+      key: A
+    - content: RPC calls
+      key: B
+    - content: REST requests
+      key: C
+    - content: POST Requests
+      key: D
+- uuid: 7d05c674-c187-4092-a089-ae4312b9fb0d
+  type: SingleChoice
+  content: What does ERC stand for?
+  hint: NoHint
+  explanation: ERC stands for Ethereum Request for Comments
+  answerKeys:
+    - C
+  subTopics:
+    - "fungible-non-fungible-tokens"
+  difficultyLevel: "Low"
+  choices:
+    - content: Ethereum Replacement of code
+      key: A
+    - content: Ethereum Requisite for code
+      key: B
+    - content: Ethereum Request for Comments
+      key: C
+    - content: Ethereum Revision Comments
+      key: D
+- uuid: 354f1ac9-65af-4bb7-9355-01898b02b8bf
+  type: MultipleChoice
+  content: Explain the importance of standardization to dApps?
+  hint: Features of dapps
+  explanation: dApps are standardised so that they can follow certain conventions and all follow certain common methods.
+  answerKeys:
+    - A
+    - B
+  subTopics:
+    - "dapps"
+  difficultyLevel: "High"
+  choices:
+    - content: So that they follow certain convention
+      key: A
+    - content: So that they can implement certain methods
+      key: B
+    - content: So that they all can be the same
+      key: C
+    - content: All of the above
+      key: D
+- uuid: 0e70ad7c-356c-4793-a461-cb03520755cb
+  type: SingleChoice
+  content: What kind of dApp did bitcoin enable?
+  hint: NoHint
+  explanation: Bitcoin works on the P2P payment system.
+  answerKeys:
+    - A
+  subTopics:
+    - "dapps"
+  difficultyLevel: "Medium"
+  choices:
+    - content: P2P payment system
+      key: A
+    - content: Anonymous Payment system
+      key: B
+    - content: Private Payment system
+      key: C
+    - content: Dysfunctional payment system
+      key: D
