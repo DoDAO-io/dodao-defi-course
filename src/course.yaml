@@ -55,7 +55,7 @@ topics:
       * Smart contracts / Gas / Oracles
       * Fungible and non-fungible (NFT) tokens 
       * dApps
-    readings: blockchain_basics.yaml
+    readings: smart_contracts.yaml
     summaries: smart_contracts.yaml
     questions: smart_contracts.yaml
     status: In Progress
