@@ -117,16 +117,24 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 - Flash Loan Based Liquidation works:
   * When a liquidator does not have the cryptocurrency upfront to repay and has to complete liquidation in one transaction.
  
- **Lending And Borrowing(a.k.a Credit) use cases**        
-- Lending And Borrowing(a.k.a Credit) use cases:-
-  * here we will basically focus on Over-collateralization use cases in various DeFi platforms: 
-    - Compound:
-      * In the case of DAI and ETH Compound has a Collateral Factor(a.k.a loan-to-value ratio) of 75%  which means only the 75% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.
-    - Aave:
-      * In the case of DAI and ETH Aave has a Collateral Factor(a.k.a loan-to-value ratio) of 80%  which means only the 80% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.
-    - Alchemix:
-      * In the case of DAI and ETH Alchemix has a Collateral Factor(a.k.a loan-to-value ratio) of 50%  which means only the 50% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.
-    - Maker:
-      * In the case of DAI and ETH Maker has a Collateral Factor(a.k.a loan-to-value ratio) of 66.7%  which means only the 66.7% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.
+ **Over-colleteralized borrowing use cases**        
+- Over-colleteralized borrowing seems to be not relevant initially as the amount of collateral needed to borrow the 
+  tokens can be quite high. But thee are many user cases for it.
+  * **Yield Farming** - The process involves leveraging DeFi protocols to lend cryptocurrencies for high returns that can 
+    go up to 100% in annualized yields. Yield farming originates from banks’ process in lending your deposits; the difference 
+    is that DeFi yield farming compounds the interest earned.
+  * **Arbitrage** - Arbitrage takes advantage of the fact that an asset may be worth more in one market than another. While 
+    this usually happens because of market inefficiencies, it can also be used to exploit differences in rates between 
+    different platforms.
+  * **Margin Trading (Leverage)** - Taking out a loan with extra collateral can help you gain leverage, and you can repeat 
+    the process until you reach the limit.
+  * **Liquidation** - Liquidations can be quite profitable, especially for tech-savvy traders. Usually, a liquidator has to 
+    compete against other people for the same job, so he uses bots. They work by "sniping" the loans that are under the 
+    collateralization ratio. This way, they can liquidate the collateral and reimburse the lender. In turn, the liquidator 
+    receives a reward fee for his services.
+  * **Risk-reduction/Hedging** - No matter how well you think you know the markets, there will always be bumps in the road. As 
+    a trader, you need to find ways to protect your investment from risk, and this is where crypto hedging strategies come in. 
+    Hedging encompasses opening positions in opposing market directions to reduce the risks and impacts of market swings. By doing this, 
+    you can help to offset any potential losses that might occur.
  
  
