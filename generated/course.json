@@ -6311,12 +6311,14 @@
         },
         {
           "uuid": "68019502-571b-4033-b2d8-5cefd51e6299",
-          "type": "SingleChoice",
-          "content": "In the case of DAI and ETH, Compound has a Collateral Factor of 75%. What does it mean?",
-          "hint": "loan-to-value ratio",
-          "explanation": "In the case of DAI and ETH, Compound has a Collateral Factor(a.k.a loan-to-value ratio) of 75% which means only the 75% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.",
+          "type": "MultipleChoice",
+          "content": "What do you mean by Hedging?",
+          "hint": "Risk reduction",
+          "explanation": "As a trader, you need to find ways to protect your investment from risk, and this is where crypto hedging strategies come in. Hedging encompasses opening positions in opposing market directions to reduce the risks and impacts of market swings. By doing this, you can help to offset any potential losses that might occur.",
           "answerKeys": [
-            "A"
+            "B",
+            "C",
+            "D"
           ],
           "subTopics": [
             "borrowing-use-cases"
@@ -6324,19 +6326,19 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Only the 75% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.",
+              "content": "Hedging encompasses opening positions in current market directions",
               "key": "A"
             },
             {
-              "content": "Only the 25% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.",
+              "content": "Hedging encompasses opening positions in opposing market directions",
               "key": "B"
             },
             {
-              "content": "100% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.",
+              "content": "It is used to reduce the risks and impacts of market swings",
               "key": "C"
             },
             {
-              "content": "Only the 7.5% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.",
+              "content": "It helps to offset any potential losses that might occur",
               "key": "D"
             }
           ]
@@ -6344,9 +6346,9 @@
         {
           "uuid": "d72eac84-d505-4ce0-b52f-442685ea5644",
           "type": "MultipleChoice",
-          "content": "Which of the following DeFi platforms have a use case for Over-collateralization?",
+          "content": "Which of the following DeFi are use case for Over-collateralization borrowing?",
           "hint": "Over-collateralization use cases",
-          "explanation": "All the following platforms use Over-collateralization.",
+          "explanation": "All the following are use cases for Over-collateralization borrowing.",
           "answerKeys": [
             "A",
             "B",
@@ -6358,15 +6360,15 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Compound",
+              "content": "CompoundYield Farming",
               "key": "A"
             },
             {
-              "content": "Alchemix",
+              "content": "Margin Trading (Leverage)",
               "key": "B"
             },
             {
-              "content": "Aave",
+              "content": "Risk-reduction/Hedging",
               "key": "C"
             },
             {
@@ -6409,12 +6411,13 @@
         },
         {
           "uuid": "45ec13d9-95ea-4ebc-aea8-35148ef4ad9b",
-          "type": "SingleChoice",
-          "content": "Which of the following DeFi platforms have a collateral factor of 50%?",
+          "type": "MultipleChoice",
+          "content": "What do you mean by Yield Farming?",
           "hint": "Borrowing use case",
-          "explanation": "Alchemix has a Collateral Factor(a.k.a loan-to-value ratio) of 50%  which means only the 50% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.",
+          "explanation": "The process involves leveraging DeFi protocols to lend cryptocurrencies for high returns that can go up to 100% in annualized yields. Yield farming originates from banks’ process in lending your deposits; the difference is that DeFi yield farming compounds the interest earned.",
           "answerKeys": [
-            "B"
+            "A",
+            "C"
           ],
           "subTopics": [
             "borrowing-use-cases"
@@ -6422,19 +6425,19 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Compound",
+              "content": "The process involves leveraging DeFi protocols to lend cryptocurrencies for high returns",
               "key": "A"
             },
             {
-              "content": "Alchemix",
+              "content": "The process involves leveraging cryptocurrencies to lend DeFi protocols for high returns",
               "key": "B"
             },
             {
-              "content": "Aave",
+              "content": "Returns can go up to 100% in annualized yields",
               "key": "C"
             },
             {
-              "content": "Maker",
+              "content": "Returns do not go above 10% in annualized yields",
               "key": "D"
             }
           ]
@@ -6630,7 +6633,7 @@
           "type": "MultipleChoice",
           "content": "What do you mean by Flash Minting?",
           "hint": "NoHint",
-          "explanation": "In Flash Minting, attackers can mint an arbitrary number of new Flash-mintable tokens (a.k.a FMTs or ERC20-compliant tokens) into their account, as long as they also burn the same number of tokens from their account before the end of the same transaction to generate profits.",
+          "explanation": "In Flash Minting, attackers can mint an arbitrary number of new Flash-mintable tokens into their account, as long as they also burn the same number of tokens from their account before the end of the same transaction to generate profits.",
           "answerKeys": [
             "A",
             "C"
@@ -6654,6 +6657,39 @@
             },
             {
               "content": "It can be completed using multiple transactions",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "f742cb12-a200-4241-94cf-5e589e8cfe65",
+          "type": "MultipleChoice",
+          "content": "Pick the incorrect statements.",
+          "hint": "Over-collateralized borrowing use cases",
+          "explanation": "Yield Farming involves leveraging DeFi protocols to lend cryptocurrencies for high returns that can go up to 100% in annualized yields. Margin Trading is taking out a loan with extra collateral can help you gain leverage. Hedging encompasses opening positions in opposing market directions to reduce the risks and impacts of market swings. By doing this, you can help to offset any potential losses that might occur. Arbitrage takes advantage of the fact that an asset may be worth more in one market than another.",
+          "answerKeys": [
+            "A",
+            "B"
+          ],
+          "subTopics": [
+            "borrowing-use-cases"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Margin Trading involves leveraging DeFi protocols to lend cryptocurrencies for high returns",
+              "key": "A"
+            },
+            {
+              "content": "Hedging involves taking out a loan with extra collateral can help you gain leverage",
+              "key": "B"
+            },
+            {
+              "content": "Hedging encompasses opening positions in opposing market directions to reduce any potential losses",
+              "key": "C"
+            },
+            {
+              "content": "Arbitrage takes advantage of the fact that an asset may be worth more in one market than another",
               "key": "D"
             }
           ]
@@ -6724,7 +6760,7 @@
           "title": "Over-colleteralized borrowing use cases",
           "shortTitle": "use cases",
           "key": "borrowing-use-cases",
-          "details": "- Over-colleteralized borrowing seems to be not relevant initially as the amount of collateral needed to borrow the \n  tokens can be quite high. But thee are many user cases for it.\n  * **Yield Farming** - The process involves leveraging DeFi protocols to lend cryptocurrencies for high returns that can \n    go up to 100% in annualized yields. Yield farming originates from banks’ process in lending your deposits; the difference \n    is that DeFi yield farming compounds the interest earned.\n  * **Arbitrage** - Arbitrage takes advantage of the fact that an asset may be worth more in one market than another. While \n    this usually happens because of market inefficiencies, it can also be used to exploit differences in rates between \n    different platforms.\n  * **Margin Trading (Leverage)** - Taking out a loan with extra collateral can help you gain leverage, and you can repeat \n    the process until you reach the limit.\n  * **Liquidation** - Liquidations can be quite profitable, especially for tech-savvy traders. Usually, a liquidator has to \n    compete against other people for the same job, so he uses bots. They work by \"sniping\" the loans that are under the \n    collateralization ratio. This way, they can liquidate the collateral and reimburse the lender. In turn, the liquidator \n    receives a reward fee for his services.\n  * **Risk-reduction/Hedging** - No matter how well you think you know the markets, there will always be bumps in the road. As \n    a trader, you need to find ways to protect your investment from risk, and this is where crypto hedging strategies come in. \n    Hedging encompasses opening positions in opposing market directions to reduce the risks and impacts of market swings. By doing this, \n    you can help to offset any potential losses that might occur.\n"
+          "details": "- Over-colleteralized borrowing seems to be not relevant initially as the amount of collateral needed to borrow the \n  tokens can be quite high. But there are many use cases for it.\n  * **Yield Farming** - The process involves leveraging DeFi protocols to lend cryptocurrencies for high returns that can \n    go up to 100% in annualized yields. Yield farming originates from banks’ process in lending your deposits; the difference \n    is that DeFi yield farming compounds the interest earned.\n  * **Arbitrage** - Arbitrage takes advantage of the fact that an asset may be worth more in one market than another. While \n    this usually happens because of market inefficiencies, it can also be used to exploit differences in rates between \n    different platforms.\n  * **Margin Trading (Leverage)** - Taking out a loan with extra collateral can help you gain leverage, and you can repeat \n    the process until you reach the limit.\n  * **Liquidation** - Liquidations can be quite profitable, especially for tech-savvy traders. Usually, a liquidator has to \n    compete against other people for the same job, so he uses bots. They work by \"sniping\" the loans that are under the \n    collateralization ratio. This way, they can liquidate the collateral and reimburse the lender. In turn, the liquidator \n    receives a reward fee for his services.\n  * **Risk-reduction/Hedging** - No matter how well you think you know the markets, there will always be bumps in the road. As \n    a trader, you need to find ways to protect your investment from risk, and this is where crypto hedging strategies come in. \n    Hedging encompasses opening positions in opposing market directions to reduce the risks and impacts of market swings. By doing this, \n    you can help to offset any potential losses that might occur.\n"
         }
       ]
     },

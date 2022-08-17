@@ -534,32 +534,32 @@ Sub Topics: borrowing-use-cases
 
 ---
 
-##### In the case of DAI and ETH, Compound has a Collateral Factor of 75%. What does it mean?  
+##### What do you mean by Hedging?  
 
-- [x]  Only the 75% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.
-- [ ]  Only the 25% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.
-- [ ]  100% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.
-- [ ]  Only the 7.5% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.
+- [ ]  Hedging encompasses opening positions in current market directions
+- [x]  Hedging encompasses opening positions in opposing market directions
+- [x]  It is used to reduce the risks and impacts of market swings
+- [x]  It helps to offset any potential losses that might occur
   
-Hint: loan-to-value ratio
+Hint: Risk reduction
          
-Explanation: In the case of DAI and ETH, Compound has a Collateral Factor(a.k.a loan-to-value ratio) of 75% which means only the 75% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.
+Explanation: As a trader, you need to find ways to protect your investment from risk, and this is where crypto hedging strategies come in. Hedging encompasses opening positions in opposing market directions to reduce the risks and impacts of market swings. By doing this, you can help to offset any potential losses that might occur.
 
 Sub Topics: borrowing-use-cases
  
 
 ---
 
-##### Which of the following DeFi platforms have a use case for Over-collateralization?  
+##### Which of the following DeFi are use case for Over-collateralization borrowing?  
 
-- [x]  Compound
-- [x]  Alchemix
-- [x]  Aave
+- [x]  CompoundYield Farming
+- [x]  Margin Trading (Leverage)
+- [x]  Risk-reduction/Hedging
 - [ ]  None of the above
   
 Hint: Over-collateralization use cases
          
-Explanation: All the following platforms use Over-collateralization.
+Explanation: All the following are use cases for Over-collateralization borrowing.
 
 Sub Topics: borrowing-use-cases
  
@@ -582,16 +582,16 @@ Sub Topics: flash-loans
 
 ---
 
-##### Which of the following DeFi platforms have a collateral factor of 50%?  
+##### What do you mean by Yield Farming?  
 
-- [ ]  Compound
-- [x]  Alchemix
-- [ ]  Aave
-- [ ]  Maker
+- [x]  The process involves leveraging DeFi protocols to lend cryptocurrencies for high returns
+- [ ]  The process involves leveraging cryptocurrencies to lend DeFi protocols for high returns
+- [x]  Returns can go up to 100% in annualized yields
+- [ ]  Returns do not go above 10% in annualized yields
   
 Hint: Borrowing use case
          
-Explanation: Alchemix has a Collateral Factor(a.k.a loan-to-value ratio) of 50%  which means only the 50% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.
+Explanation: The process involves leveraging DeFi protocols to lend cryptocurrencies for high returns that can go up to 100% in annualized yields. Yield farming originates from banks’ process in lending your deposits; the difference is that DeFi yield farming compounds the interest earned.
 
 Sub Topics: borrowing-use-cases
  
@@ -701,7 +701,23 @@ Sub Topics: flash-loans
   
 Hint: NoHint
          
-Explanation: In Flash Minting, attackers can mint an arbitrary number of new Flash-mintable tokens (a.k.a FMTs or ERC20-compliant tokens) into their account, as long as they also burn the same number of tokens from their account before the end of the same transaction to generate profits.
+Explanation: In Flash Minting, attackers can mint an arbitrary number of new Flash-mintable tokens into their account, as long as they also burn the same number of tokens from their account before the end of the same transaction to generate profits.
 
 Sub Topics: flash-loans
+ 
+
+---
+
+##### Pick the incorrect statements.  
+
+- [x]  Margin Trading involves leveraging DeFi protocols to lend cryptocurrencies for high returns
+- [x]  Hedging involves taking out a loan with extra collateral can help you gain leverage
+- [ ]  Hedging encompasses opening positions in opposing market directions to reduce any potential losses
+- [ ]  Arbitrage takes advantage of the fact that an asset may be worth more in one market than another
+  
+Hint: Over-collateralized borrowing use cases
+         
+Explanation: Yield Farming involves leveraging DeFi protocols to lend cryptocurrencies for high returns that can go up to 100% in annualized yields. Margin Trading is taking out a loan with extra collateral can help you gain leverage. Hedging encompasses opening positions in opposing market directions to reduce the risks and impacts of market swings. By doing this, you can help to offset any potential losses that might occur. Arbitrage takes advantage of the fact that an asset may be worth more in one market than another.
+
+Sub Topics: borrowing-use-cases
  

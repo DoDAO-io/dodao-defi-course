@@ -124,7 +124,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  
  **Over-colleteralized borrowing use cases**        
 - Over-colleteralized borrowing seems to be not relevant initially as the amount of collateral needed to borrow the 
-  tokens can be quite high. But thee are many user cases for it.
+  tokens can be quite high. But there are many use cases for it.
   * **Yield Farming** - The process involves leveraging DeFi protocols to lend cryptocurrencies for high returns that can 
     go up to 100% in annualized yields. Yield farming originates from banks’ process in lending your deposits; the difference 
     is that DeFi yield farming compounds the interest earned.

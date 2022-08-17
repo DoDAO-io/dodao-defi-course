@@ -230,7 +230,8 @@
   type: MultipleChoice
   content: Let's suppose a borrower collateralizes ETH and borrows DAI. Which of the following statements is true for Over-collateralization?
   hint: Not strict
-  explanation: In Over-collateralization, the borrower has to provide value(collateral assets) > value(debt or granted loan). It means they allow to borrow less than the collateralize amount. But allows the borrower to freely use their funds which they get as a loan
+  explanation: In Over-collateralization, the borrower has to provide value(collateral assets) > value(debt or granted loan). 
+        It means they allow to borrow less than the collateralize amount. But allows the borrower to freely use their funds which they get as a loan
   answerKeys:
     - A
     - C
@@ -438,7 +439,8 @@
   type: SingleChoice
   content: Liquidator does both settlements in one Blockchain transaction. This refers to which of the following Liquidation spread? 
   hint: Auction or Variable spread are the same
-  explanation: In Fixed Spread, the Liquidator does both settlements in one Blockchain transaction such as, repays the debt of a borrowing position to Vault and acquires the collateral at a discounted price from the position in return.
+  explanation: In Fixed Spread, the Liquidator does both settlements in one Blockchain transaction such as, 
+        repays the debt of a borrowing position to Vault and acquires the collateral at a discounted price from the position in return.
   answerKeys:
     - A
   subTopics:
@@ -516,7 +518,8 @@
   type: MultipleChoice
   content: What are the properties of MakerDAO Dutch Auction?
   hint: Instant Settlement
-  explanation: MakerDAO Dutch Auction comprises of Instant Settlement, Flash Lending of Collateral and the Collateral price decreases over time and nobody can get the collateral for free by accident.
+  explanation: MakerDAO Dutch Auction comprises of Instant Settlement, Flash Lending of Collateral 
+        and the Collateral price decreases over time and nobody can get the collateral for free by accident.
   answerKeys:
     - A
     - C
@@ -631,29 +634,33 @@
     - content: value ratio
       key: D
 - uuid: 68019502-571b-4033-b2d8-5cefd51e6299
-  type: SingleChoice
-  content: In the case of DAI and ETH, Compound has a Collateral Factor of 75%. What does it mean?
-  hint: loan-to-value ratio
-  explanation: In the case of DAI and ETH, Compound has a Collateral Factor(a.k.a loan-to-value ratio) of 75% which means only the 75% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.
+  type: MultipleChoice
+  content: What do you mean by Hedging?
+  hint: Risk reduction
+  explanation: As a trader, you need to find ways to protect your investment from risk, and this is where crypto hedging strategies come in. 
+        Hedging encompasses opening positions in opposing market directions to reduce the risks and impacts of market swings. 
+        By doing this, you can help to offset any potential losses that might occur.
   answerKeys:
-    - A
+    - B
+    - C
+    - D
   subTopics:
     - "borrowing-use-cases"
   difficultyLevel: Low
   choices:
-    - content: Only the 75% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.
+    - content: Hedging encompasses opening positions in current market directions
       key: A
-    - content: Only the 25% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.
+    - content: Hedging encompasses opening positions in opposing market directions
       key: B
-    - content: 100% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.
+    - content: It is used to reduce the risks and impacts of market swings
       key: C
-    - content: Only the 7.5% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.
+    - content: It helps to offset any potential losses that might occur
       key: D
 - uuid: d72eac84-d505-4ce0-b52f-442685ea5644
   type: MultipleChoice
-  content: Which of the following DeFi platforms have a use case for Over-collateralization?
+  content: Which of the following DeFi are use case for Over-collateralization borrowing?
   hint: Over-collateralization use cases
-  explanation: All the following platforms use Over-collateralization.
+  explanation: All the following are use cases for Over-collateralization borrowing.
   answerKeys:
     - A
     - B
@@ -662,11 +669,11 @@
     - "borrowing-use-cases"
   difficultyLevel: Low
   choices:
-    - content: Compound
+    - content: CompoundYield Farming
       key: A
-    - content: Alchemix
+    - content: Margin Trading (Leverage)
       key: B
-    - content: Aave
+    - content: Risk-reduction/Hedging
       key: C
     - content: None of the above
       key: D
@@ -690,27 +697,30 @@
     - content: When a liquidator has the cryptocurrency upfront to repay and does not have to complete liquidation in one transaction
       key: D
 - uuid: 45ec13d9-95ea-4ebc-aea8-35148ef4ad9b
-  type: SingleChoice
-  content: Which of the following DeFi platforms have a collateral factor of 50%?
+  type: MultipleChoice
+  content: What do you mean by Yield Farming?
   hint: Borrowing use case
-  explanation: Alchemix has a Collateral Factor(a.k.a loan-to-value ratio) of 50%  which means only the 50% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.
+  explanation: The process involves leveraging DeFi protocols to lend cryptocurrencies for high returns that can go up to 100% in annualized yields. 
+        Yield farming originates from banks’ process in lending your deposits; the difference is that DeFi yield farming compounds the interest earned.
   answerKeys:
-    - B
+    - A
+    - C
   subTopics:
     - "borrowing-use-cases"
   difficultyLevel: Low
   choices:
-    - content: Compound
+    - content: The process involves leveraging DeFi protocols to lend cryptocurrencies for high returns
       key: A
-    - content: Alchemix
+    - content: The process involves leveraging cryptocurrencies to lend DeFi protocols for high returns
       key: B
-    - content: Aave
+    - content: Returns can go up to 100% in annualized yields
       key: C
-    - content: Maker
+    - content: Returns do not go above 10% in annualized yields
       key: D
 - uuid: 9748cdc1-c71f-4898-a45f-da1b46b2b7d1
   type: SingleChoice
-  content: In case of MakerDAO Dutch Auction, Collateral price decreases over time and anybody can get the collateral for free by accident. True of False?
+  content: In case of MakerDAO Dutch Auction, Collateral price decreases over time and anybody can get the collateral for free by accident. 
+      True of False?
   hint: liquidation spread
   explanation: Collateral price decreases over time but nobody can get the collateral for free by accident.
   answerKeys:
@@ -746,7 +756,10 @@
   type: MultipleChoice
   content: Choose the correct statements.
   hint: Liquidation
-  explanation: Value of Debt to Repay > (Close Factor * Total Value of Debt). A Fixed Spread liquidation does not necessarily increase the health factor. Over-liquidation is when liquidations sell excessive amounts of borrower's collateral. There may be auctions for liquidating the collateralized asset whose value is degraded.
+  explanation: Value of Debt to Repay > (Close Factor * Total Value of Debt). 
+        A Fixed Spread liquidation does not necessarily increase the health factor. 
+        Over-liquidation is when liquidations sell excessive amounts of borrower's collateral. 
+        There may be auctions for liquidating the collateralized asset whose value is degraded.
   answerKeys:
     - A
     - B
@@ -824,7 +837,8 @@
   type: MultipleChoice
   content: What do you mean by Flash Minting?
   hint: NoHint
-  explanation: In Flash Minting, attackers can mint an arbitrary number of new Flash-mintable tokens (a.k.a FMTs or ERC20-compliant tokens) into their account, as long as they also burn the same number of tokens from their account before the end of the same transaction to generate profits.
+  explanation: In Flash Minting, attackers can mint an arbitrary number of new Flash-mintable tokens into their account,
+        as long as they also burn the same number of tokens from their account before the end of the same transaction to generate profits.
   answerKeys:
     - A
     - C
@@ -839,4 +853,29 @@
     - content: It is completed in a single transaction
       key: C
     - content: It can be completed using multiple transactions
+      key: D
+- uuid: f742cb12-a200-4241-94cf-5e589e8cfe65
+  type: MultipleChoice
+  content: Pick the incorrect statements.
+  hint: Over-collateralized borrowing use cases
+  explanation: Yield Farming involves leveraging DeFi protocols to lend cryptocurrencies for high returns that can 
+        go up to 100% in annualized yields. 
+        Margin Trading is taking out a loan with extra collateral can help you gain leverage. 
+        Hedging encompasses opening positions in opposing market directions to reduce the risks and impacts of market swings. By doing this, 
+        you can help to offset any potential losses that might occur. 
+        Arbitrage takes advantage of the fact that an asset may be worth more in one market than another.
+  answerKeys:
+    - A
+    - B
+  subTopics:
+    - "borrowing-use-cases"
+  difficultyLevel: Low
+  choices:
+    - content: Margin Trading involves leveraging DeFi protocols to lend cryptocurrencies for high returns
+      key: A
+    - content: Hedging involves taking out a loan with extra collateral can help you gain leverage
+      key: B
+    - content: Hedging encompasses opening positions in opposing market directions to reduce any potential losses
+      key: C
+    - content: Arbitrage takes advantage of the fact that an asset may be worth more in one market than another
       key: D
