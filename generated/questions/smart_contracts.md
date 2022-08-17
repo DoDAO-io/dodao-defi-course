@@ -283,12 +283,12 @@ Sub Topics: miner-extractable-value
 
 - [ ]  Miners get more money-minded
 - [ ]  More transactions occur on blockchain creating traffic.
-- [x]  High gas fees
-- [x]  Reduction in the number of transactions on the blockchain.
+- [ ]  High gas fees
+- [x]  Alteration in exchange rates
   
 Hint: Effets of MEV crowding
          
-Explanation: The ill-effects of MEV include increase in the gas fees and high MEV compared to standard block reward which would directly effect to the end user.
+Explanation: Increase in the MEV can result in alteration in exchange rates due to front-running.
 
 Sub Topics: miner-extractable-value
  
@@ -329,9 +329,9 @@ Sub Topics: miner-extractable-value
 
 ##### What is a famous example of a non-fungible token?  
 
-- [ ]  Cryptokitties
+- [x]  Cryptokitties
 - [ ]  Zcash
-- [x]  Augur
+- [ ]  Augur
 - [ ]  US Dollar
   
 Hint: NoHint
