@@ -1,0 +1,842 @@
+- uuid: cc56a659-9949-45d1-9953-e57d9a555e8c
+  type: SingleChoice
+  content: Who deposits Principal in the Liquidity Pool(or Vault) to get back the Principal with interest as profit?
+  hint: Lending
+  explanation: Lender deposits Principal in the Liquidity Pool(or Vault) and gets back Principal with interest.
+  answerKeys:
+    - A
+  subTopics:
+    - "lending-intro"
+  difficultyLevel: Low
+  choices:
+    - content: Lender
+      key: A
+    - content: Borrower
+      key: B
+    - content: Liquidator
+      key: C
+    - content: Price Oracle
+      key: D
+- uuid: cbe64a72-c0c7-4011-b378-204b5467cc66
+  type: SingleChoice
+  content: What is the role of Price Oracle?
+  hint: Reports the prices
+  explanation: Price Oracle reports the prices or send exact prices of assets from different sources(either centralized or decentralized) to the Protocol.
+  answerKeys:
+    - C
+  subTopics:
+    - "lending-intro"
+  difficultyLevel: Medium
+  choices:
+    - content: Change prices of assets from different sources(only decentralized) to the Protocol.
+      key: A
+    - content: Report prices of assets from different sources(only decentralized) to the Protocol.
+      key: B
+    - content: Report prices of assets from different sources(either centralized or decentralized) to the Protocol.
+      key: C
+    - content: Change prices of assets from different sources(either centralized or decentralized) to the Protocol.
+      key: D
+- uuid: ff4a29cb-cfb2-408e-9e7b-a342ad90e1fb
+  type: SingleChoice
+  content: Who liquidates the Liquidity pool?
+  hint: NoHint
+  explanation: Liquidator liquidates the Liquidity pool
+  answerKeys:
+    - C
+  subTopics:
+    - "lending-intro"
+  difficultyLevel: Low
+  choices:
+    - content: Lender
+      key: A
+    - content: Borrower
+      key: B
+    - content: Liquidator
+      key: C
+    - content: Price Oracle
+      key: D
+- uuid: fc5c80ba-a1da-4641-9e69-5566d7677207
+  type: SingleChoice
+  content: Lending is also known as?
+  hint: NoHint
+  explanation: explanation
+  answerKeys:
+    - B
+  subTopics:
+    - "lending-intro"
+  difficultyLevel: Low
+  choices:
+    - content: Liquidation
+      key: A
+    - content: Financing
+      key: B
+    - content: Price Oracle
+      key: C
+    - content: Vaulting
+      key: D
+- uuid: 751387e0-9e37-49d9-a461-faa069e24e2e
+  type: SingleChoice
+  content: What is a collateral?
+  hint: Asset
+  explanation: Collateral is an asset that serves as a security deposit on the debt taken.
+  answerKeys:
+    - B
+  subTopics:
+    - "terminology"
+  difficultyLevel: Low
+  choices:
+    - content: Reported price of an asset
+      key: A
+    - content: An asset that serves as a security deposit on the debt taken
+      key: B
+    - content: Interest amount gained on the Principal
+      key: C
+    - content: Total value of debts
+      key: D
+- uuid: 7bab7116-d99e-4b1a-bb93-7e920bfd9d65
+  type: SingleChoice
+  content: Selling collateral assets of a borrower is known as?
+  hint: NoHint
+  explanation: Selling collateral assets of a borrower is called Liquidation.
+  answerKeys:
+    - D
+  subTopics:
+    - "terminology"
+  difficultyLevel: Low
+  choices:
+    - content: Collateralization
+      key: A
+    - content: Under-collateralization
+      key: B
+    - content: Over-collateralization
+      key: C
+    - content: Liquidation
+      key: D
+- uuid: 598771f1-b36b-4ffa-9e55-708049cfff3d
+  type: SingleChoice
+  content: When is a loan considered Under-collateralized?
+  hint: Under is similar to ...
+  explanation: When the value of collateral assets is below the value of the granted loan then it is called an Under-collateralized loan.
+  answerKeys:
+    - B
+  subTopics:
+    - "terminology"
+  difficultyLevel: Low
+  choices:
+    - content: When the value of collateral assets exceeds the value of the granted loan
+      key: A
+    - content: When the value of collateral assets is below the value of the granted loan
+      key: B
+    - content: When the value of collateral assets is equal to the value of the granted loan
+      key: C
+    - content: When the value of collateral assets is double the value of the granted loan
+      key: D
+- uuid: 3dacceae-1235-4014-b37d-147ad8126be4
+  type: SingleChoice
+  content: Which of the following is equal to Health Factor?
+  hint: NoHint
+  explanation: Health Factor = Borrowing Capacity / Total Value of Debts
+  answerKeys:
+    - A
+  subTopics:
+    - "terminology"
+  difficultyLevel: Medium
+  choices:
+    - content: Borrowing Capacity / Total Value of Debts
+      key: A
+    - content: Borrowing Capacity * Total Value of Debts
+      key: B
+    - content: Borrowing Capacity + Total Value of Debts
+      key: C
+    - content: Borrowing Capacity - Total Value of Debts
+      key: D
+- uuid: c006e8f6-e153-4fa9-8e1e-592c4e91c9b7
+  type: SingleChoice
+  content: Which of the following is the correct range of liquidation threshold?
+  hint: Can not be negative
+  explanation: Range of Liquidation threshold is (0,1).
+  answerKeys:
+    - D
+  subTopics:
+    - "terminology"
+  difficultyLevel: Low
+  choices:
+    - content: 0 < Liquidation Threshold < 10
+      key: A
+    - content: -1 < Liquidation Threshold < 1
+      key: B
+    - content: -1 < Liquidation Threshold < 0
+      key: C
+    - content: 0 < Liquidation Threshold < 1
+      key: D
+- uuid: 9d2cc9aa-3ec7-40fb-bb50-d82339ce86c6
+  type: SingleChoice
+  content: When does a borrowing position become liquidatable?
+  hint: Health Factor
+  explanation: When the health factor declines below 1, a borrowing position becomes liquidatable
+  answerKeys:
+    - A
+  subTopics:
+    - "terminology"
+  difficultyLevel: Medium
+  choices:
+    - content: When the health factor declines below 1
+      key: A
+    - content: When the health factor increases above 1
+      key: B
+    - content: When the liquidation threshold declines below 1
+      key: C
+    - content: When the liquidation threshold increase above 1
+      key: D
+- uuid: a2569760-4eb4-4901-bc39-67de8e3340e1
+  type: SingleChoice
+  content: The process of securing a loan with a valuable asset by the loan borrower is known as
+  hint: NoHint
+  explanation: Collateralization is the process of securing a loan with a valuable asset (a.k.a Collateral) by the loan borrower
+  answerKeys:
+    - B
+  subTopics:
+    - "collateralization"
+  difficultyLevel: Low
+  choices:
+    - content: Under-collateralization
+      key: A
+    - content: Collateralization
+      key: B
+    - content: Over-collateralization
+      key: C
+    - content: Liquidation
+      key: D
+- uuid: 8707ae89-60b6-449c-889e-83b08712545a
+  type: SingleChoice
+  content: The summation of all the values of the collateral we have, times a `liquidation threshold` is known as?
+  hint: NoHint
+  explanation: Borrowing capacity is the summation of all the values of the collateral we have, times a `liquidation threshold`.
+  answerKeys:
+    - C
+  subTopics:
+    - "terminology"
+  difficultyLevel: Low
+  choices:
+    - content: Liquidation
+      key: A
+    - content: Collateralization
+      key: B
+    - content: Borrowing capacity
+      key: C
+    - content: Health Factor
+      key: D
+- uuid: ee52cae3-6da7-4a60-ae90-ddb2e1fd727f
+  type: MultipleChoice
+  content: Let's suppose a borrower collateralizes ETH and borrows DAI. Which of the following statements is true for Over-collateralization?
+  hint: Not strict
+  explanation: In Over-collateralization, the borrower has to provide value(collateral assets) > value(debt or granted loan). It means they allow to borrow less than the collateralize amount. But allows the borrower to freely use their funds which they get as a loan
+  answerKeys:
+    - A
+    - C
+  subTopics:
+    - "collateralization"
+  difficultyLevel: Medium
+  choices:
+    - content: The value of ETH (collateral) exceeds the value of DAI (debt)
+      key: A
+    - content: The value of DAI (debt) can exceed the value of ETH (collateral)
+      key: B
+    - content: The borrower can use the borrowed DAI arbitrarily/freely
+      key: C
+    - content: The borrower can not use the borrowed DAI arbitrarily/freely
+      key: D
+- uuid: 97653515-217c-4358-aab2-970ec54001e3
+  type: SingleChoice
+  content: The vault remains in control of all assets in case of
+  hint: Restricted
+  explanation: In Under-collateralization, the borrower is highly restricted to use their funds. The vault remains in control of all assets.
+  answerKeys:
+    - D
+  subTopics:
+    - "collateralization"
+  difficultyLevel: Low
+  choices:
+    - content: Over-collateralization
+      key: A
+    - content: Over-Liquidation
+      key: B
+    - content: Under-Liquidation
+      key: C
+    - content: Under-collateralization
+      key: D
+- uuid: 6fdba653-20c3-4b20-8912-7979f38d4f2f
+  type: SingleChoice
+  content: Pick the correct statement.
+  hint: NoHint
+  explanation: Value of Debt to Repay is always less than the product of Close Factor and Total Value of Debt.
+  answerKeys:
+    - B
+  subTopics:
+    - "collateralization"
+  difficultyLevel: Medium
+  choices:
+    - content: Value of Debt to Repay = (Close Factor * Total Value of Debt)
+      key: A
+    - content: Value of Debt to Repay < (Close Factor * Total Value of Debt)
+      key: B
+    - content: Value of Debt to Repay > (Close Factor * Total Value of Debt)
+      key: C
+    - content: Value of Debt to Repay >= (Close Factor * Total Value of Debt)
+      key: D
+- uuid: 6af3e08b-33cb-4bea-9354-e8c1000176a7
+  type: SingleChoice
+  content: What do you mean by Close Factor?
+  hint: Maximum
+  explanation: The maximum proportion of the debt that is allowed to be repaid in a fixed spread liquidation.
+  answerKeys:
+    - D
+  subTopics:
+    - "liquidation"
+  difficultyLevel: Medium
+  choices:
+    - content: The minimum proportion of the debt that is allowed to be repaid in a fixed spread liquidation
+      key: A
+    - content: The minimum proportion of the debt that does not need to be repaid.
+      key: B
+    - content: The maximum proportion of the debt that does not need to be repaid.
+      key: C
+    - content: The maximum proportion of the debt that is allowed to be repaid in a fixed spread liquidation
+      key: D
+- uuid: 988bbe3e-1697-4595-ae72-24f4df6dc03a
+  type: SingleChoice
+  content: Choose the Optimal Liquidation Strategy.
+  hint: NoHint
+  explanation: Liquidating up to the close factor is not necessarily the best strategy. Instead, two successive liquidations might offer more profits.
+  answerKeys:
+    - B
+  subTopics:
+    - "liquidation"
+  difficultyLevel: Medium
+  choices:
+    - content: Liquidating up to the close factor
+      key: A
+    - content: Two successive liquidations
+      key: B
+    - content: Both of the above
+      key: C
+    - content: None of the above
+      key: D
+- uuid: 8578aa8e-1e9d-492a-85b8-56cfc64fc553
+  type: SingleChoice
+  content: Select the one word substitute for - "Selling collateral from the borrower"
+  hint: NoHint
+  explanation: Liquidation == Selling collateral from the borrower
+  answerKeys:
+    - A
+  subTopics:
+    - "liquidation"
+  difficultyLevel: Low
+  choices:
+    - content: Liquidation
+      key: A
+    - content: Collateralization
+      key: B
+    - content: Lending
+      key: C
+    - content: Factorization
+      key: D
+- uuid: 0a3ac288-0da4-4a8f-b164-42abf0761b6f
+  type: SingleChoice
+  content: Select the correct option.
+  hint: NoHint
+  explanation: A Fixed Spread liquidation does not necessarily increase the health factor.
+  answerKeys:
+    - B
+  subTopics:
+    - "liquidation"
+  difficultyLevel: Medium
+  choices:
+    - content: A Fixed Spread liquidation necessarily increases the health factor
+      key: A
+    - content: A Fixed Spread liquidation does not necessarily increase the health factor
+      key: B
+    - content: A Fixed Spread liquidation necessarily decreases the health factor
+      key: C
+    - content: A Fixed Spread liquidation doubles the health factor
+      key: D
+- uuid: 24d1add3-53d0-4f79-864a-b55478a7c386
+  type: SingleChoice
+  content: Data suggests that Auction liquidations might be more lender-friendly. True or False?
+  hint: Borrower
+  explanation: Data suggests that Auction liquidations might be more borrower-friendly.
+  answerKeys:
+    - B
+  subTopics:
+    - "liquidation"
+  difficultyLevel: Low
+  choices:
+    - content: True
+      key: A
+    - content: False
+      key: B
+- uuid: 9205de45-66c4-4455-8d3a-63718403d151
+  type: SingleChoice
+  content: What is Liquidation Spread?
+  hint: Definition of Liquidation Spread
+  explanation: Liquidation Spread (LS) is the spread/range of bonus, or discount, that a liquidator can collect when liquidating collateral.
+  answerKeys:
+    - C
+  subTopics:
+    - "liquidation-spread"
+  difficultyLevel: Low
+  choices:
+    - content: It is the process of securing a loan with a valuable asset by the loan borrower
+      key: A
+    - content: It is the process of selling collateral assets of a borrower
+      key: B
+    - content: It is the spread/range of bonus, or discount, that a liquidator can collect when liquidating collateral
+      key: C
+    - content: It is the spread/range of bonus, or discount, that a liquidator can not collect when liquidating collateral
+      key: D
+- uuid: 010ad28f-0e62-4d4a-871f-a3f0f2b14e01
+  type: MultipleChoice
+  content: Select the incorrect option(s).
+  hint: NoHint
+  explanation: Value of Collateral to Claim = Value of Debt to Repay * (1 + LS).
+  answerKeys:
+    - A
+    - D
+  subTopics:
+    - "liquidation-spread"
+  difficultyLevel: Medium
+  choices:
+    - content: Value of Collateral to Claim = Value of Debt to Repay * (1 - LS)
+      key: A
+    - content: Value of Collateral to Claim = Value of Debt to Repay * (1 + LS)
+      key: B
+    - content: Value of Debt to Repay = Value of Collateral to Claim / (1 + LS)
+      key: C
+    - content: Value of Debt to Repay = Value of Collateral to Claim * (1 + LS)
+      key: D
+- uuid: 997990dc-c03f-42ec-a9d7-cbaff33252ec
+  type: MultipleChoice
+  content: Two types of Liquidation based on Liquidation Spread are-
+  hint: NoHint
+  explanation: Fixed Spread and Variable Spread are the two types of Liquidation based on Liquidation spread.
+  answerKeys:
+    - A
+    - D
+  subTopics:
+    - "liquidation-spread"
+  difficultyLevel: Low
+  choices:
+    - content: Fixed Spread
+      key: A
+    - content: Over Spread
+      key: B
+    - content: Under Spread
+      key: C
+    - content: Variable Spread
+      key: D
+- uuid: b24a674f-8fbc-42c7-bb84-1ec7671eb56b
+  type: SingleChoice
+  content: Liquidator does both settlements in one Blockchain transaction. This refers to which of the following Liquidation spread? 
+  hint: Auction or Variable spread are the same
+  explanation: In Fixed Spread, the Liquidator does both settlements in one Blockchain transaction such as, repays the debt of a borrowing position to Vault and acquires the collateral at a discounted price from the position in return.
+  answerKeys:
+    - A
+  subTopics:
+    - "liquidation-spread"
+  difficultyLevel: Low
+  choices:
+    - content: Fixed Spread
+      key: A
+    - content: Variable Spread
+      key: B
+    - content: Auction Spread
+      key: C
+    - content: Dutch Spread
+      key: D
+- uuid: 76f7377d-5e8d-4c4a-ae66-31ffc0140071
+  type: MultipleChoice
+  content: Which of the following is not a type of Auction Liquidation?
+  hint: Languages
+  explanation: English Auction and Dutch Auction are the two types of Auction Liquidation.
+  answerKeys:
+    - A
+    - B
+  subTopics:
+    - "liquidation-spread"
+  difficultyLevel: Low
+  choices:
+    - content: Fixed Auction
+      key: A
+    - content: Variable Auction
+      key: B
+    - content: English Auction
+      key: C
+    - content: Dutch Auction
+      key: D
+- uuid: cbcebc87-1ae0-4a8f-aa9c-fe1859d42dfb
+  type: SingleChoice
+  content: Bidders outbid each other increasingly in which type of Auction Liquidation?
+  hint: NoHint
+  explanation: Bidders outbid each other increasingly in English Auction
+  answerKeys:
+    - C
+  subTopics:
+    - "liquidation-spread"
+  difficultyLevel: Low
+  choices:
+    - content: Fixed Auction
+      key: A
+    - content: Variable Auction
+      key: B
+    - content: English Auction
+      key: C
+    - content: Dutch Auction
+      key: D
+- uuid: 1d9889fb-69f8-439f-8be6-45c017a01eaf
+  type: MultipleChoice
+  content: What happens in Dutch Auction Liquidation?
+  hint: NoHint
+  explanation: In Dutch Auction, Auction begins with a high asking price and the price lowers until the auction terminates
+  answerKeys:
+    - B
+    - C
+  subTopics:
+    - "liquidation-spread"
+  difficultyLevel: Low
+  choices:
+    - content: Bidders outbid each other increasingly
+      key: A
+    - content: Auction begins with a high asking price
+      key: B
+    - content: The price lowers until the auction terminates
+      key: C
+    - content: The price keeps increasing until the auction terminates
+      key: D
+- uuid: 64af57a4-458d-4db5-b2d1-40ea3f26a015
+  type: MultipleChoice
+  content: What are the properties of MakerDAO Dutch Auction?
+  hint: Instant Settlement
+  explanation: MakerDAO Dutch Auction comprises of Instant Settlement, Flash Lending of Collateral and the Collateral price decreases over time and nobody can get the collateral for free by accident.
+  answerKeys:
+    - A
+    - C
+  subTopics:
+    - "liquidation-spread"
+  difficultyLevel: Medium
+  choices:
+    - content: It is settled instantly in one atomic transaction
+      key: A
+    - content: It is operated in multiple transactions
+      key: B
+    - content: Collateral price decreases over time
+      key: C
+    - content: Collateral price increases over time
+      key: D
+- uuid: 5709a4b8-a212-4c61-a725-d9bb0c5a5c10
+  type: MultipleChoice
+  content: What do you mean by Flash Loans?
+  hint: Instant processing
+  explanation: Take loans(in a flash)—> Use them—> Repay loan + interest all in one single atomic blockchain transaction
+  answerKeys:
+    - B
+    - C
+  subTopics:
+    - "flash-loans"
+  difficultyLevel: Low
+  choices:
+    - content: Borrow and settle loans instantaneously in multiple transactions
+      key: A
+    - content: Borrow and settle loans instantaneously in a single transaction
+      key: B
+    - content: No collateral required
+      key: C
+    - content: Collateral is required
+      key: D
+- uuid: 2f4613d8-f8fe-4e69-9eec-4c13e1071aaa
+  type: SingleChoice
+  content: Approximate average time required for flash loans on Ethereum Blockchain?
+  hint: Instant processing
+  explanation: It takes 12-14 sec in the case of Ethereum Blockchain.
+  answerKeys:
+    - A
+  subTopics:
+    - "flash-loans"
+  difficultyLevel: Low
+  choices:
+    - content: 12-14 secs
+      key: A
+    - content: 12-14 hours
+      key: B
+    - content: 12-14 days
+      key: C
+    - content: 12-14 weeks
+      key: D
+- uuid: e68626ab-ada1-429e-b962-f6ed1fa0a3ad
+  type: MultipleChoice
+  content: Some use cases of Flash Loans are-
+  hint: all 
+  explanation: Price Oracle Manipulation, Pump and Dump, Flash Minting are some of the use cases of flash loans.
+  answerKeys:
+    - A
+    - B
+    - C
+  subTopics:
+    - "flash-loans"
+  difficultyLevel: Low
+  choices:
+    - content: Price Oracle Manipulation
+      key: A
+    - content: Pump and Dump
+      key: B
+    - content: Flash Minting
+      key: C
+    - content: None of the above
+      key: D
+- uuid: 9a12e218-a356-4953-acad-57689e723186
+  type: SingleChoice
+  content: Pick the odd one out.
+  hint: Others are use cases of Flash Loans
+  explanation: Collateral swapping, Wash-trading, Flash Minting are some of the use cases of flash loans.
+  answerKeys:
+    - C
+  subTopics:
+    - "flash-loans"
+  difficultyLevel: Low
+  choices:
+    - content: Flash Minting
+      key: A
+    - content: Collateral swapping
+      key: B
+    - content: Slow loan processing
+      key: C
+    - content: Wash-trading
+      key: D
+- uuid: 761041ba-7612-46f8-9cd2-a56cf2844a92
+  type: SingleChoice
+  content: Collateral Factor is also know as?
+  hint: NoHint
+  explanation: Collateral Factor is also know as loan-to-value ratio.
+  answerKeys:
+    - A
+  subTopics:
+    - "use-cases"
+  difficultyLevel: Low
+  choices:
+    - content: loan-to-value ratio
+      key: A
+    - content: value-to-loan ratio
+      key: B
+    - content: loan ratio
+      key: C
+    - content: value ratio
+      key: D
+- uuid: 68019502-571b-4033-b2d8-5cefd51e6299
+  type: SingleChoice
+  content: In the case of DAI and ETH, Compound has a Collateral Factor of 75%. What does it mean?
+  hint: loan-to-value ratio
+  explanation: In the case of DAI and ETH, Compound has a Collateral Factor(a.k.a loan-to-value ratio) of 75% which means only the 75% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.
+  answerKeys:
+    - A
+  subTopics:
+    - "use-cases"
+  difficultyLevel: Low
+  choices:
+    - content: Only the 75% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.
+      key: A
+    - content: Only the 25% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.
+      key: B
+    - content: 100% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.
+      key: C
+    - content: Only the 7.5% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.
+      key: D
+- uuid: d72eac84-d505-4ce0-b52f-442685ea5644
+  type: MultipleChoice
+  content: Which of the following DeFi platforms have a use case for Over-collateralization?
+  hint: Over-collateralization use cases
+  explanation: All the following platforms use Over-collateralization.
+  answerKeys:
+    - A
+    - B
+    - C
+  subTopics:
+    - "use-cases"
+  difficultyLevel: Low
+  choices:
+    - content: Compound
+      key: A
+    - content: Alchemix
+      key: B
+    - content: Aave
+      key: C
+    - content: None of the above
+      key: D
+- uuid: 8c56cf9b-7b0b-4d45-8f75-3045ddaf5ea9
+  type: SingleChoice
+  content: When does the Flash Loan based liquidation work?
+  hint: Instant processing
+  explanation: Flash Loan Based Liquidation works When a liquidator does not have the cryptocurrency upfront to repay and has to complete liquidation in one transaction.
+  answerKeys:
+    - A
+  subTopics:
+    - "flash-loans"
+  difficultyLevel: Low
+  choices:
+    - content: When a liquidator does not have the cryptocurrency upfront to repay and has to complete liquidation in one transaction
+      key: A
+    - content: When a liquidator does not have the cryptocurrency upfront to repay and does not have to complete liquidation in one transaction
+      key: B
+    - content: When a liquidator has the cryptocurrency upfront to repay and has to complete liquidation in one transaction
+      key: C
+    - content: When a liquidator has the cryptocurrency upfront to repay and does not have to complete liquidation in one transaction
+      key: D
+- uuid: 45ec13d9-95ea-4ebc-aea8-35148ef4ad9b
+  type: SingleChoice
+  content: Which of the following DeFi platforms have a collateral factor of 50%?
+  hint: Borrowing use case
+  explanation: Alchemix has a Collateral Factor(a.k.a loan-to-value ratio) of 50%  which means only the 50% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.
+  answerKeys:
+    - B
+  subTopics:
+    - "use-cases"
+  difficultyLevel: Low
+  choices:
+    - content: Compound
+      key: A
+    - content: Alchemix
+      key: B
+    - content: Aave
+      key: C
+    - content: Maker
+      key: D
+- uuid: 9748cdc1-c71f-4898-a45f-da1b46b2b7d1
+  type: SingleChoice
+  content: In case of MakerDAO Dutch Auction, Collateral price decreases over time and anybody can get the collateral for free by accident. True of False?
+  hint: liquidation spread
+  explanation: Collateral price decreases over time but nobody can get the collateral for free by accident.
+  answerKeys:
+    - B
+  subTopics:
+    - "liquidation-spread"
+  difficultyLevel: Low
+  choices:
+    - content: True
+      key: A
+    - content: False
+      key: B
+- uuid: cb76de3a-c5ce-4de5-99d3-d9cb96b73d64
+  type: SingleChoice
+  content: Range of typical discounts in the case of Aave when the Liquidator does both settlements in one Blockchain transaction?
+  hint: Close to 5%
+  explanation: Typical discounts can lie between 5-15% in the case of Aave.
+  answerKeys:
+    - D
+  subTopics:
+    - "liquidation-spread"
+  difficultyLevel: Low
+  choices:
+    - content: 50-55%
+      key: A
+    - content: 0.5-0.15%
+      key: B
+    - content: 15-50%
+      key: C
+    - content: 5-15%
+      key: D
+- uuid: 67e6d0c3-80b6-43d5-b383-4178158bc057
+  type: MultipleChoice
+  content: Choose the correct statements.
+  hint: Liquidation
+  explanation: Value of Debt to Repay > (Close Factor * Total Value of Debt). A Fixed Spread liquidation does not necessarily increase the health factor. Over-liquidation is when liquidations sell excessive amounts of borrower's collateral. There may be auctions for liquidating the collateralized asset whose value is degraded.
+  answerKeys:
+    - A
+    - B
+  subTopics:
+    - "liquidation"
+  difficultyLevel: Low
+  choices:
+    - content: There may be auctions for liquidating the collateralized asset whose value is degraded.
+      key: A
+    - content: Over-liquidation is when liquidations sell excessive amounts of borrower's collateral
+      key: B
+    - content: A Fixed Spread liquidation necessarily increases the health factor
+      key: C
+    - content: Value of Debt to Repay > (Close Factor * Total Value of Debt)
+      key: D
+- uuid: 1d65fe03-3ecb-420c-a1b3-ea241a0a398a
+  type: SingleChoice
+  content: Which use case of flash loans enables DeFi users to switch the collateral asset that they used to take out a flash loan on a lending app?
+  hint: switch or swap
+  explanation: Collateral swapping enables DeFi users to swap or switch the collateral asset that they used to take out a flash loan on a lending app
+  answerKeys:
+    - C
+  subTopics:
+    - "flash-loans"
+  difficultyLevel: Low
+  choices:
+    - content: Price Oracle Manipulation
+      key: A
+    - content: Flash Minting
+      key: B
+    - content: Collateral swapping
+      key: C
+    - content: Wash-trading
+      key: D
+- uuid: de27955f-6213-457c-be7c-5bf3801ff68e
+  type: SingleChoice
+  content: Which of the following flash loan use cases are DeFi attacks?
+  hint: NoHint
+  explanation: Price Oracle Manipulation & Pump and Dump both are DeFi attacks.
+  answerKeys:
+    - C
+  subTopics:
+    - "flash-loans"
+  difficultyLevel: Low
+  choices:
+    - content: Price Oracle Manipulation
+      key: A
+    - content: Pump and Dump
+      key: B
+    - content: Both A and B
+      key: C
+    - content: None of the above
+      key: D
+- uuid: f7b124da-24dd-4cd7-9087-e1e350768d12
+  type: MultipleChoice
+  content: What happens when a borrower takes out a flash loan of Y tokens on DEX A, then execute two trades by swapping Y tokens for Z tokens on DEX B and vice-versa again on DEX B?
+  hint: Wash-trading
+  explanation: This is a scenario for Wash-trading. In such a case the trading volume for the Y tokens increases, creating an artificial level of interest and opportunity for profit.
+  answerKeys:
+    - A
+    - C
+  subTopics:
+    - "flash-loans"
+  difficultyLevel: Medium
+  choices:
+    - content: An artificial level of interest is generated which creates an opportunity for profit.
+      key: A
+    - content: Profit opportunity is not created in such a case
+      key: B
+    - content: The trading volume for the Y tokens increases
+      key: C
+    - content: The trading volume for the Y tokens decreases
+      key: D
+- uuid: 1d37f699-32d7-4c89-8f37-524d170800d0
+  type: MultipleChoice
+  content: What do you mean by Flash Minting?
+  hint: NoHint
+  explanation: In Flash Minting, attackers can mint an arbitrary number of new Flash-mintable tokens (a.k.a FMTs or ERC20-compliant tokens) into their account, as long as they also burn the same number of tokens from their account before the end of the same transaction to generate profits.
+  answerKeys:
+    - A
+    - C
+  subTopics:
+    - "flash-loans"
+  difficultyLevel: Low
+  choices:
+    - content: Attackers can mint an arbitrary number of new Flash-mintable tokens into their account, as long as they also burn the same number of tokens from their account
+      key: A
+    - content: Attackers can only mint a pre-decided number of new Flash-mintable tokens into their account
+      key: B
+    - content: It is completed in a single transaction
+      key: C
+    - content: It can be completed using multiple transactions
+      key: D
