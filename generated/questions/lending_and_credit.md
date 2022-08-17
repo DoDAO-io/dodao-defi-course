@@ -529,7 +529,7 @@ Hint: NoHint
          
 Explanation: Collateral Factor is also know as loan-to-value ratio.
 
-Sub Topics: use-cases
+Sub Topics: borrowing-use-cases
  
 
 ---
@@ -545,7 +545,7 @@ Hint: loan-to-value ratio
          
 Explanation: In the case of DAI and ETH, Compound has a Collateral Factor(a.k.a loan-to-value ratio) of 75% which means only the 75% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.
 
-Sub Topics: use-cases
+Sub Topics: borrowing-use-cases
  
 
 ---
@@ -561,7 +561,7 @@ Hint: Over-collateralization use cases
          
 Explanation: All the following platforms use Over-collateralization.
 
-Sub Topics: use-cases
+Sub Topics: borrowing-use-cases
  
 
 ---
@@ -593,7 +593,7 @@ Hint: Borrowing use case
          
 Explanation: Alchemix has a Collateral Factor(a.k.a loan-to-value ratio) of 50%  which means only the 50% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.
 
-Sub Topics: use-cases
+Sub Topics: borrowing-use-cases
  
 
 ---

@@ -619,7 +619,7 @@
   answerKeys:
     - A
   subTopics:
-    - "use-cases"
+    - "borrowing-use-cases"
   difficultyLevel: Low
   choices:
     - content: loan-to-value ratio
@@ -638,7 +638,7 @@
   answerKeys:
     - A
   subTopics:
-    - "use-cases"
+    - "borrowing-use-cases"
   difficultyLevel: Low
   choices:
     - content: Only the 75% of supplied(or collateralized valued) DAI or ETH can be used to borrow other tokens.
@@ -659,7 +659,7 @@
     - B
     - C
   subTopics:
-    - "use-cases"
+    - "borrowing-use-cases"
   difficultyLevel: Low
   choices:
     - content: Compound
@@ -697,7 +697,7 @@
   answerKeys:
     - B
   subTopics:
-    - "use-cases"
+    - "borrowing-use-cases"
   difficultyLevel: Low
   choices:
     - content: Compound

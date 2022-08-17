@@ -1,0 +1,104 @@
+- uuid: 4e34758a-5063-4139-8c79-b2da48ef16b0
+  title: Introduction to Ethereum Transaction
+  shortTitle: Intro to Transaction
+  type: YoutubeVideo
+  url: https://www.youtube.com/watch?v=qLZ1IoezucE
+  subTopics:
+    - "ethereum-transactions-working"
+  details: |
+    This video enables learners to know about
+      * Ethereum Accounts
+      * Transactions in Ethereum      
+      * Basics of Gas and Smart Contracts    
+
+- uuid: 51ff9b66-647a-4588-8f89-0307df6e37cd
+  title: Miner Extractable Value
+  shortTitle: MEV
+  type: YoutubeVideo
+  url: https://www.youtube.com/watch?v=XbMtIg5OgCc
+  subTopics:
+    - "miner-extractable-value"
+  details: |
+    This video enables learners to know about
+      * Miner Extractable Value in detail
+
+- uuid: b8627d1c-76ce-4a0a-a438-4bbf41f6d4ea
+  title: Miner Extractable Value
+  shortTitle: MEV
+  type: YoutubeVideo
+  url: https://www.youtube.com/watch?v=lfO5deaBWCY
+  subTopics:
+    - "miner-extractable-value"
+  details: |
+    This video enables learners to know about
+      * Risks associated with MEV
+      * How Co-founder of Ethereum plans to mitigate this risk     
+
+  
+- uuid: d44422d4-82ea-4128-8a92-6b86754434f4
+  title: Smart Contracts
+  shortTitle: Smart Contracts
+  type: YoutubeVideo
+  url: https://www.youtube.com/watch?v=pyaIppMhuic
+  subTopics:
+    - "smartcontracts-gas-oracles"
+  details: |
+    This video enables learners to know about
+      * Need of Smart contracts
+      * Utility of smart contracts
+      * Working of smart contracts
+
+- uuid: c82e26a3-8dcc-4109-8380-8d914154cb1f
+  title: Gas
+  shortTitle: Gas
+  type: YoutubeVideo
+  url: https://www.youtube.com/watch?v=Yh8cHUB-KoU
+  subTopics:
+    - "smartcontracts-gas-oracles"
+  details: |
+    This video enables learners to know about
+      * Ethereum Gas Fees
+      * Reasons behind high gas fees
+      * Ways to reduce transaction cost
+
+- uuid: 39c69328-4d91-4eca-8d45-ab8575bd2b32
+  title: Oracle
+  shortTitle: Oracle
+  type: YoutubeVideo
+  url: https://www.youtube.com/watch?v=ZJfkNzyO7-U
+  subTopics:
+    - "smartcontracts-gas-oracles"
+  details: |
+    This video enables learners to know about
+      * Need of Oracle
+      * Oracle Problem
+
+- uuid: c4b4cf01-a225-42e2-a379-a0d4e5177c03
+  title: Fungible and Non-fungible Tokens
+  shortTitle: FT vs NFTs
+  type: YoutubeVideo
+  url: https://www.youtube.com/watch?v=1tJjA5sCuv0
+  subTopics:
+    - "fungible-non-fungible-tokens"
+  details: |
+    This video enables learners to know about
+      * Fungible and Non-Fungible Tokens
+      * High popularity behind NFTs
+
+- uuid: a91a1c75-a92c-47e2-a4a1-40174045d115
+  title: Decentralised Applications
+  shortTitle: dApps
+  type: YoutubeVideo
+  url: https://www.youtube.com/watch?v=oPIupbsVimc
+  subTopics:
+    - "dapps"
+  details: |
+    This video enables learners to know about
+      * Benefits of dApps
+      * Types of dApps
+
+
+
+
+     
+      
