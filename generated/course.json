@@ -4061,9 +4061,8 @@
           "type": "MultipleChoice",
           "content": "What are the ill-effects of increasing MEV?",
           "hint": "Effets of MEV crowding",
-          "explanation": "The ill-effects of MEV include increase in the gas fees and high MEV compared to standard block reward which would directly effect to the end user.",
+          "explanation": "Increase in the MEV can result in alteration in exchange rates due to front-running.",
           "answerKeys": [
-            "C",
             "D"
           ],
           "subTopics": [
@@ -4084,7 +4083,7 @@
               "key": "C"
             },
             {
-              "content": "Reduction in the number of transactions on the blockchain.",
+              "content": "Alteration in exchange rates",
               "key": "D"
             }
           ]
@@ -4161,7 +4160,7 @@
           "hint": "NoHint",
           "explanation": "Cryptokitties is a famous non-fungible token.",
           "answerKeys": [
-            "C"
+            "A"
           ],
           "subTopics": [
             "fungible-non-fungible-tokens"
