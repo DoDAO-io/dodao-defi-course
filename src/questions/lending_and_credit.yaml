@@ -38,9 +38,9 @@
       key: D
 - uuid: ff4a29cb-cfb2-408e-9e7b-a342ad90e1fb
   type: SingleChoice
-  content: Who liquidates the Liquidity pool?
+  content: Who liquidates the he crypto collateral assets when the Loans become unsafe due to the volatility in token prices?
   hint: NoHint
-  explanation: Liquidator liquidates the Liquidity pool
+  explanation: Liquidator liquidates the crypto collateral assets when a borrower defaults or when the Loans become unsafe due to the volatility in token prices.
   answerKeys:
     - C
   subTopics:
@@ -399,7 +399,7 @@
   type: MultipleChoice
   content: Select the incorrect option(s).
   hint: NoHint
-  explanation: Value of Collateral to Claim = Value of Debt to Repay * (1 + LS).
+  explanation: Value of Collateral to Claim = Value of Debt to Repay * (1 + Liquidation Spread).
   answerKeys:
     - A
     - D
@@ -407,13 +407,13 @@
     - "liquidation-spread"
   difficultyLevel: Medium
   choices:
-    - content: Value of Collateral to Claim = Value of Debt to Repay * (1 - LS)
+    - content: Value of Collateral to Claim = Value of Debt to Repay * (1 - Liquidation Spread)
       key: A
-    - content: Value of Collateral to Claim = Value of Debt to Repay * (1 + LS)
+    - content: Value of Collateral to Claim = Value of Debt to Repay * (1 + Liquidation Spread)
       key: B
-    - content: Value of Debt to Repay = Value of Collateral to Claim / (1 + LS)
+    - content: Value of Debt to Repay = Value of Collateral to Claim / (1 + Liquidation Spread)
       key: C
-    - content: Value of Debt to Repay = Value of Collateral to Claim * (1 + LS)
+    - content: Value of Debt to Repay = Value of Collateral to Claim * (1 + Liquidation Spread)
       key: D
 - uuid: 997990dc-c03f-42ec-a9d7-cbaff33252ec
   type: MultipleChoice
@@ -557,7 +557,7 @@
       key: D
 - uuid: 2f4613d8-f8fe-4e69-9eec-4c13e1071aaa
   type: SingleChoice
-  content: Approximate average time required for flash loans on Ethereum Blockchain?
+  content: What is the average block time for executing flash loans on Ethereum Blockchain?
   hint: Instant processing
   explanation: It takes 12-14 sec in the case of Ethereum Blockchain.
   answerKeys:
@@ -700,7 +700,7 @@
   type: MultipleChoice
   content: What do you mean by Yield Farming?
   hint: Borrowing use case
-  explanation: The process involves leveraging DeFi protocols to lend cryptocurrencies for high returns that can go up to 100% in annualized yields. 
+  explanation: The process involves leveraging DeFi protocols to lend cryptocurrencies for high returns that can go up to 100% APY (Annual Percentage Yield). 
         Yield farming originates from banks’ process in lending your deposits; the difference is that DeFi yield farming compounds the interest earned.
   answerKeys:
     - A
@@ -711,11 +711,11 @@
   choices:
     - content: The process involves leveraging DeFi protocols to lend cryptocurrencies for high returns
       key: A
-    - content: The process involves leveraging cryptocurrencies to lend DeFi protocols for high returns
+    - content: It encompasses opening positions in opposing market directions to reduce the risks
       key: B
-    - content: Returns can go up to 100% in annualized yields
+    - content: Returns can go up to 100% APY (Annual Percentage Yield) 
       key: C
-    - content: Returns do not go above 10% in annualized yields
+    - content: Returns do not go above 10% APY (Annual Percentage Yield)
       key: D
 - uuid: 9748cdc1-c71f-4898-a45f-da1b46b2b7d1
   type: SingleChoice
@@ -751,29 +751,6 @@
     - content: 15-50%
       key: C
     - content: 5-15%
-      key: D
-- uuid: 67e6d0c3-80b6-43d5-b383-4178158bc057
-  type: MultipleChoice
-  content: Choose the correct statements.
-  hint: Liquidation
-  explanation: Value of Debt to Repay > (Close Factor * Total Value of Debt). 
-        A Fixed Spread liquidation does not necessarily increase the health factor. 
-        Over-liquidation is when liquidations sell excessive amounts of borrower's collateral. 
-        There may be auctions for liquidating the collateralized asset whose value is degraded.
-  answerKeys:
-    - A
-    - B
-  subTopics:
-    - "liquidation"
-  difficultyLevel: Low
-  choices:
-    - content: There may be auctions for liquidating the collateralized asset whose value is degraded.
-      key: A
-    - content: Over-liquidation is when liquidations sell excessive amounts of borrower's collateral
-      key: B
-    - content: A Fixed Spread liquidation necessarily increases the health factor
-      key: C
-    - content: Value of Debt to Repay > (Close Factor * Total Value of Debt)
       key: D
 - uuid: 1d65fe03-3ecb-420c-a1b3-ea241a0a398a
   type: SingleChoice

@@ -40,7 +40,7 @@ Sub Topics: lending-intro
 
 ---
 
-##### Who liquidates the Liquidity pool?  
+##### Who liquidates the he crypto collateral assets when the Loans become unsafe due to the volatility in token prices?  
 
 - [ ]  Lender
 - [ ]  Borrower
@@ -49,7 +49,7 @@ Sub Topics: lending-intro
   
 Hint: NoHint
          
-Explanation: Liquidator liquidates the Liquidity pool
+Explanation: Liquidator liquidates the crypto collateral assets when a borrower defaults or when the Loans become unsafe due to the volatility in token prices.
 
 Sub Topics: lending-intro
  
@@ -344,14 +344,14 @@ Sub Topics: liquidation-spread
 
 ##### Select the incorrect option(s).  
 
-- [x]  Value of Collateral to Claim = Value of Debt to Repay * (1 - LS)
-- [ ]  Value of Collateral to Claim = Value of Debt to Repay * (1 + LS)
-- [ ]  Value of Debt to Repay = Value of Collateral to Claim / (1 + LS)
-- [x]  Value of Debt to Repay = Value of Collateral to Claim * (1 + LS)
+- [x]  Value of Collateral to Claim = Value of Debt to Repay * (1 - Liquidation Spread)
+- [ ]  Value of Collateral to Claim = Value of Debt to Repay * (1 + Liquidation Spread)
+- [ ]  Value of Debt to Repay = Value of Collateral to Claim / (1 + Liquidation Spread)
+- [x]  Value of Debt to Repay = Value of Collateral to Claim * (1 + Liquidation Spread)
   
 Hint: NoHint
          
-Explanation: Value of Collateral to Claim = Value of Debt to Repay * (1 + LS).
+Explanation: Value of Collateral to Claim = Value of Debt to Repay * (1 + Liquidation Spread).
 
 Sub Topics: liquidation-spread
  
@@ -470,7 +470,7 @@ Sub Topics: flash-loans
 
 ---
 
-##### Approximate average time required for flash loans on Ethereum Blockchain?  
+##### What is the average block time for executing flash loans on Ethereum Blockchain?  
 
 - [x]  12-14 secs
 - [ ]  12-14 hours
@@ -585,13 +585,13 @@ Sub Topics: flash-loans
 ##### What do you mean by Yield Farming?  
 
 - [x]  The process involves leveraging DeFi protocols to lend cryptocurrencies for high returns
-- [ ]  The process involves leveraging cryptocurrencies to lend DeFi protocols for high returns
-- [x]  Returns can go up to 100% in annualized yields
-- [ ]  Returns do not go above 10% in annualized yields
+- [ ]  It encompasses opening positions in opposing market directions to reduce the risks
+- [x]  Returns can go up to 100% APY (Annual Percentage Yield)
+- [ ]  Returns do not go above 10% APY (Annual Percentage Yield)
   
 Hint: Borrowing use case
          
-Explanation: The process involves leveraging DeFi protocols to lend cryptocurrencies for high returns that can go up to 100% in annualized yields. Yield farming originates from banks’ process in lending your deposits; the difference is that DeFi yield farming compounds the interest earned.
+Explanation: The process involves leveraging DeFi protocols to lend cryptocurrencies for high returns that can go up to 100% APY (Annual Percentage Yield). Yield farming originates from banks’ process in lending your deposits; the difference is that DeFi yield farming compounds the interest earned.
 
 Sub Topics: borrowing-use-cases
  
@@ -624,22 +624,6 @@ Hint: Close to 5%
 Explanation: Typical discounts can lie between 5-15% in the case of Aave.
 
 Sub Topics: liquidation-spread
- 
-
----
-
-##### Choose the correct statements.  
-
-- [x]  There may be auctions for liquidating the collateralized asset whose value is degraded.
-- [x]  Over-liquidation is when liquidations sell excessive amounts of borrower's collateral
-- [ ]  A Fixed Spread liquidation necessarily increases the health factor
-- [ ]  Value of Debt to Repay > (Close Factor * Total Value of Debt)
-  
-Hint: Liquidation
-         
-Explanation: Value of Debt to Repay > (Close Factor * Total Value of Debt). A Fixed Spread liquidation does not necessarily increase the health factor. Over-liquidation is when liquidations sell excessive amounts of borrower's collateral. There may be auctions for liquidating the collateralized asset whose value is degraded.
-
-Sub Topics: liquidation
  
 
 ---

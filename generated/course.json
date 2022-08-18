@@ -5319,9 +5319,9 @@
         {
           "uuid": "ff4a29cb-cfb2-408e-9e7b-a342ad90e1fb",
           "type": "SingleChoice",
-          "content": "Who liquidates the Liquidity pool?",
+          "content": "Who liquidates the he crypto collateral assets when the Loans become unsafe due to the volatility in token prices?",
           "hint": "NoHint",
-          "explanation": "Liquidator liquidates the Liquidity pool",
+          "explanation": "Liquidator liquidates the crypto collateral assets when a borrower defaults or when the Loans become unsafe due to the volatility in token prices.",
           "answerKeys": [
             "C"
           ],
@@ -5922,7 +5922,7 @@
           "type": "MultipleChoice",
           "content": "Select the incorrect option(s).",
           "hint": "NoHint",
-          "explanation": "Value of Collateral to Claim = Value of Debt to Repay * (1 + LS).",
+          "explanation": "Value of Collateral to Claim = Value of Debt to Repay * (1 + Liquidation Spread).",
           "answerKeys": [
             "A",
             "D"
@@ -5933,19 +5933,19 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "Value of Collateral to Claim = Value of Debt to Repay * (1 - LS)",
+              "content": "Value of Collateral to Claim = Value of Debt to Repay * (1 - Liquidation Spread)",
               "key": "A"
             },
             {
-              "content": "Value of Collateral to Claim = Value of Debt to Repay * (1 + LS)",
+              "content": "Value of Collateral to Claim = Value of Debt to Repay * (1 + Liquidation Spread)",
               "key": "B"
             },
             {
-              "content": "Value of Debt to Repay = Value of Collateral to Claim / (1 + LS)",
+              "content": "Value of Debt to Repay = Value of Collateral to Claim / (1 + Liquidation Spread)",
               "key": "C"
             },
             {
-              "content": "Value of Debt to Repay = Value of Collateral to Claim * (1 + LS)",
+              "content": "Value of Debt to Repay = Value of Collateral to Claim * (1 + Liquidation Spread)",
               "key": "D"
             }
           ]
@@ -6182,7 +6182,7 @@
         {
           "uuid": "2f4613d8-f8fe-4e69-9eec-4c13e1071aaa",
           "type": "SingleChoice",
-          "content": "Approximate average time required for flash loans on Ethereum Blockchain?",
+          "content": "What is the average block time for executing flash loans on Ethereum Blockchain?",
           "hint": "Instant processing",
           "explanation": "It takes 12-14 sec in the case of Ethereum Blockchain.",
           "answerKeys": [
@@ -6414,7 +6414,7 @@
           "type": "MultipleChoice",
           "content": "What do you mean by Yield Farming?",
           "hint": "Borrowing use case",
-          "explanation": "The process involves leveraging DeFi protocols to lend cryptocurrencies for high returns that can go up to 100% in annualized yields. Yield farming originates from banks’ process in lending your deposits; the difference is that DeFi yield farming compounds the interest earned.",
+          "explanation": "The process involves leveraging DeFi protocols to lend cryptocurrencies for high returns that can go up to 100% APY (Annual Percentage Yield). Yield farming originates from banks’ process in lending your deposits; the difference is that DeFi yield farming compounds the interest earned.",
           "answerKeys": [
             "A",
             "C"
@@ -6429,15 +6429,15 @@
               "key": "A"
             },
             {
-              "content": "The process involves leveraging cryptocurrencies to lend DeFi protocols for high returns",
+              "content": "It encompasses opening positions in opposing market directions to reduce the risks",
               "key": "B"
             },
             {
-              "content": "Returns can go up to 100% in annualized yields",
+              "content": "Returns can go up to 100% APY (Annual Percentage Yield)",
               "key": "C"
             },
             {
-              "content": "Returns do not go above 10% in annualized yields",
+              "content": "Returns do not go above 10% APY (Annual Percentage Yield)",
               "key": "D"
             }
           ]
@@ -6494,39 +6494,6 @@
             },
             {
               "content": "5-15%",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "67e6d0c3-80b6-43d5-b383-4178158bc057",
-          "type": "MultipleChoice",
-          "content": "Choose the correct statements.",
-          "hint": "Liquidation",
-          "explanation": "Value of Debt to Repay > (Close Factor * Total Value of Debt). A Fixed Spread liquidation does not necessarily increase the health factor. Over-liquidation is when liquidations sell excessive amounts of borrower's collateral. There may be auctions for liquidating the collateralized asset whose value is degraded.",
-          "answerKeys": [
-            "A",
-            "B"
-          ],
-          "subTopics": [
-            "liquidation"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "There may be auctions for liquidating the collateralized asset whose value is degraded.",
-              "key": "A"
-            },
-            {
-              "content": "Over-liquidation is when liquidations sell excessive amounts of borrower's collateral",
-              "key": "B"
-            },
-            {
-              "content": "A Fixed Spread liquidation necessarily increases the health factor",
-              "key": "C"
-            },
-            {
-              "content": "Value of Debt to Repay > (Close Factor * Total Value of Debt)",
               "key": "D"
             }
           ]
@@ -6724,7 +6691,7 @@
           "title": "Lending",
           "shortTitle": "Lending Intro",
           "key": "lending-intro",
-          "details": "- What is Lending(also known as “financing”)?\n  * Lending occurs when someone(here lender) allows another person to borrow something (such as Money, property, or another asset) with the expectation that the borrower will either return the asset or repay the lender with some interest.\n  * We all are currently learning DeFi, so let’s see On-Chain Lending and Borrowing(i.e Credit):-      \n  - Entities of Lending and Borrowing:-\n    * Lender: Deposit Principal in the Liquidity Pool(or Vault) and gets back Principal with interest.\n    * Borrower: Collateralize Assets and get back the borrowed amount\n    * Liquidator: Liquidates the Liquidity pool\n    * Price Oracle: Report prices or send exact prices of assets from different sources(either centralized or decentralized) to the Protocol.\n"
+          "details": "- What is Lending(also known as “financing”)?\n  * Lending occurs when someone(here lender) allows another person to borrow something (such as Money, property, or another asset) with the expectation that the borrower will either return the asset or repay the lender with some interest.\n  * We all are currently learning DeFi, so let’s see On-Chain Lending and Borrowing(i.e Credit):-      \n  - Entities of Lending and Borrowing:-\n    * Lender: Deposit Principal in the Liquidity Pool(or Vault) and gets back Principal with interest.\n    * Borrower: Collateralize Assets and get back the borrowed amount\n    * Liquidator: Liquidates the crypto collateral assets when a borrower defaults or when the Loans become unsafe due to the volatility in token prices.\n    * Price Oracle: Report prices or send exact prices of assets from different sources(either centralized or decentralized) to the Protocol.\n"
         },
         {
           "title": "Lending Terminology",
@@ -6760,7 +6727,7 @@
           "title": "Over-colleteralized borrowing use cases",
           "shortTitle": "use cases",
           "key": "borrowing-use-cases",
-          "details": "- Over-colleteralized borrowing seems to be not relevant initially as the amount of collateral needed to borrow the \n  tokens can be quite high. But there are many use cases for it.\n  * **Yield Farming** - The process involves leveraging DeFi protocols to lend cryptocurrencies for high returns that can \n    go up to 100% in annualized yields. Yield farming originates from banks’ process in lending your deposits; the difference \n    is that DeFi yield farming compounds the interest earned.\n  * **Arbitrage** - Arbitrage takes advantage of the fact that an asset may be worth more in one market than another. While \n    this usually happens because of market inefficiencies, it can also be used to exploit differences in rates between \n    different platforms.\n  * **Margin Trading (Leverage)** - Taking out a loan with extra collateral can help you gain leverage, and you can repeat \n    the process until you reach the limit.\n  * **Liquidation** - Liquidations can be quite profitable, especially for tech-savvy traders. Usually, a liquidator has to \n    compete against other people for the same job, so he uses bots. They work by \"sniping\" the loans that are under the \n    collateralization ratio. This way, they can liquidate the collateral and reimburse the lender. In turn, the liquidator \n    receives a reward fee for his services.\n  * **Risk-reduction/Hedging** - No matter how well you think you know the markets, there will always be bumps in the road. As \n    a trader, you need to find ways to protect your investment from risk, and this is where crypto hedging strategies come in. \n    Hedging encompasses opening positions in opposing market directions to reduce the risks and impacts of market swings. By doing this, \n    you can help to offset any potential losses that might occur.\n"
+          "details": "- Over-colleteralized borrowing seems to be not relevant initially as the amount of collateral needed to borrow the \n  tokens can be quite high. But there are many use cases for it.\n  * **Yield Farming** - The process involves leveraging DeFi protocols to lend cryptocurrencies for high returns that can \n    go up to 100% APY (Annual Percentage Yield). Yield farming originates from banks’ process in lending your deposits; the difference \n    is that DeFi yield farming compounds the interest earned.\n  * **Arbitrage** - Arbitrage takes advantage of the fact that an asset may be worth more in one market than another. While \n    this usually happens because of market inefficiencies, it can also be used to exploit differences in rates between \n    different platforms.\n  * **Margin Trading (Leverage)** - Taking out a loan with extra collateral can help you gain leverage, and you can repeat \n    the process until you reach the limit.\n  * **Liquidation** - Liquidations can be quite profitable, especially for tech-savvy traders. Usually, a liquidator has to \n    compete against other people for the same job, so he uses bots. They work by \"sniping\" the loans that are under the \n    collateralization ratio. This way, they can liquidate the collateral and reimburse the lender. In turn, the liquidator \n    receives a reward fee for his services.\n  * **Risk-reduction/Hedging** - No matter how well you think you know the markets, there will always be bumps in the road. As \n    a trader, you need to find ways to protect your investment from risk, and this is where crypto hedging strategies come in. \n    Hedging encompasses opening positions in opposing market directions to reduce the risks and impacts of market swings. By doing this, \n    you can help to offset any potential losses that might occur.\n"
         }
       ]
     },

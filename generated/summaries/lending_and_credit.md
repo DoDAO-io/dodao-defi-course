@@ -12,7 +12,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
   - Entities of Lending and Borrowing:-
     * Lender: Deposit Principal in the Liquidity Pool(or Vault) and gets back Principal with interest.
     * Borrower: Collateralize Assets and get back the borrowed amount
-    * Liquidator: Liquidates the Liquidity pool
+    * Liquidator: Liquidates the crypto collateral assets when a borrower defaults or when the Loans become unsafe due to the volatility in token prices.
     * Price Oracle: Report prices or send exact prices of assets from different sources(either centralized or decentralized) to the Protocol.
  
  **Lending Terminology**        
@@ -126,7 +126,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 - Over-colleteralized borrowing seems to be not relevant initially as the amount of collateral needed to borrow the 
   tokens can be quite high. But there are many use cases for it.
   * **Yield Farming** - The process involves leveraging DeFi protocols to lend cryptocurrencies for high returns that can 
-    go up to 100% in annualized yields. Yield farming originates from banks’ process in lending your deposits; the difference 
+    go up to 100% APY (Annual Percentage Yield). Yield farming originates from banks’ process in lending your deposits; the difference 
     is that DeFi yield farming compounds the interest earned.
   * **Arbitrage** - Arbitrage takes advantage of the fact that an asset may be worth more in one market than another. While 
     this usually happens because of market inefficiencies, it can also be used to exploit differences in rates between 
