@@ -5298,7 +5298,7 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "Change prices of assets from different sources(only decentralized) to the Protocol.",
+              "content": "Changes prices of assets from different sources(only decentralized) in the Protocol.",
               "key": "A"
             },
             {
@@ -5310,7 +5310,7 @@
               "key": "C"
             },
             {
-              "content": "Change prices of assets from different sources(either centralized or decentralized) to the Protocol.",
+              "content": "Changes prices of assets from different sources(either centralized or decentralized) in the Protocol.",
               "key": "D"
             }
           ]
@@ -5318,7 +5318,7 @@
         {
           "uuid": "ff4a29cb-cfb2-408e-9e7b-a342ad90e1fb",
           "type": "SingleChoice",
-          "content": "Who liquidates the he crypto collateral assets when the Loans become unsafe due to the volatility in token prices?",
+          "content": "Who liquidates the crypto collateral assets when the Loans become unsafe due to the volatility in token prices?",
           "hint": "NoHint",
           "explanation": "Liquidator liquidates the crypto collateral assets when a borrower defaults or when the Loans become unsafe due to the volatility in token prices.",
           "answerKeys": [
@@ -5470,7 +5470,7 @@
               "key": "C"
             },
             {
-              "content": "When the value of collateral assets is double the value of the granted loan",
+              "content": "When the value of collateral assets is exactly double the value of the granted loan",
               "key": "D"
             }
           ]
@@ -6247,7 +6247,7 @@
         {
           "uuid": "9a12e218-a356-4953-acad-57689e723186",
           "type": "SingleChoice",
-          "content": "Pick the odd one out.",
+          "content": "Which one is not a use case of Flash Loan?",
           "hint": "Others are use cases of Flash Loans",
           "explanation": "Collateral swapping, Wash-trading, Flash Minting are some of the use cases of flash loans.",
           "answerKeys": [
@@ -6667,7 +6667,7 @@
           "title": "How DeFi Lending works?",
           "shortTitle": "Lending",
           "type": "YoutubeVideo",
-          "url": "https://youtu.be/rcLlamPNvrA",
+          "url": "https://www.youtube.com/watch?v=rcLlamPNvrA",
           "subTopics": [
             "terminology"
           ],
@@ -6678,7 +6678,7 @@
           "title": "Flash Loans",
           "shortTitle": "Flash Loans",
           "type": "YoutubeVideo",
-          "url": "https://youtu.be/mCJUhnXQ76s",
+          "url": "https://www.youtube.com/watch?v=mCJUhnXQ76s",
           "subTopics": [
             "flash-loans"
           ],

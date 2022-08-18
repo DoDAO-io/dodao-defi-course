@@ -26,10 +26,10 @@ Sub Topics: lending-intro
 
 ##### What is the role of Price Oracle?  
 
-- [ ]  Change prices of assets from different sources(only decentralized) to the Protocol.
+- [ ]  Changes prices of assets from different sources(only decentralized) in the Protocol.
 - [ ]  Report prices of assets from different sources(only decentralized) to the Protocol.
 - [x]  Report prices of assets from different sources(either centralized or decentralized) to the Protocol.
-- [ ]  Change prices of assets from different sources(either centralized or decentralized) to the Protocol.
+- [ ]  Changes prices of assets from different sources(either centralized or decentralized) in the Protocol.
   
 Hint: Reports the prices
          
@@ -40,7 +40,7 @@ Sub Topics: lending-intro
 
 ---
 
-##### Who liquidates the he crypto collateral assets when the Loans become unsafe due to the volatility in token prices?  
+##### Who liquidates the crypto collateral assets when the Loans become unsafe due to the volatility in token prices?  
 
 - [ ]  Lender
 - [ ]  Borrower
@@ -109,7 +109,7 @@ Sub Topics: terminology
 - [ ]  When the value of collateral assets exceeds the value of the granted loan
 - [x]  When the value of collateral assets is below the value of the granted loan
 - [ ]  When the value of collateral assets is equal to the value of the granted loan
-- [ ]  When the value of collateral assets is double the value of the granted loan
+- [ ]  When the value of collateral assets is exactly double the value of the granted loan
   
 Hint: Under is similar to ...
          
@@ -502,7 +502,7 @@ Sub Topics: flash-loans
 
 ---
 
-##### Pick the odd one out.  
+##### Which one is not a use case of Flash Loan?  
 
 - [ ]  Flash Minting
 - [ ]  Collateral swapping
