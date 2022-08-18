@@ -28,7 +28,7 @@
     - "lending-intro"
   difficultyLevel: Medium
   choices:
-    - content: Change prices of assets from different sources(only decentralized) to the Protocol.
+    - content: Changes prices of assets from different sources(only decentralized) in the Protocol.
       key: A
     - content: Report prices of assets from different sources(only decentralized) to the Protocol.
       key: B
