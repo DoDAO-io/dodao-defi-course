@@ -597,7 +597,7 @@
       key: D
 - uuid: 9a12e218-a356-4953-acad-57689e723186
   type: SingleChoice
-  content: Pick the odd one out.
+  content: Which one is not a use case of Flash Loan?
   hint: Others are use cases of Flash Loans
   explanation: Collateral swapping, Wash-trading, Flash Minting are some of the use cases of flash loans.
   answerKeys:
