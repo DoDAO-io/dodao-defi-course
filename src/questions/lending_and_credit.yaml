@@ -129,7 +129,7 @@
       key: B
     - content: When the value of collateral assets is equal to the value of the granted loan
       key: C
-    - content: When the value of collateral assets is double the value of the granted loan
+    - content: When the value of collateral assets is exactly double the value of the granted loan
       key: D
 - uuid: 3dacceae-1235-4014-b37d-147ad8126be4
   type: SingleChoice
