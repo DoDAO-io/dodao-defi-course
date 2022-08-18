@@ -34,7 +34,7 @@
       key: B
     - content: Report prices of assets from different sources(either centralized or decentralized) to the Protocol.
       key: C
-    - content: Change prices of assets from different sources(either centralized or decentralized) to the Protocol.
+    - content: Changes prices of assets from different sources(either centralized or decentralized) in the Protocol.
       key: D
 - uuid: ff4a29cb-cfb2-408e-9e7b-a342ad90e1fb
   type: SingleChoice
