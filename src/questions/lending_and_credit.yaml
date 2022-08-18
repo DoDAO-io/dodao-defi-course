@@ -38,7 +38,7 @@
       key: D
 - uuid: ff4a29cb-cfb2-408e-9e7b-a342ad90e1fb
   type: SingleChoice
-  content: Who liquidates the he crypto collateral assets when the Loans become unsafe due to the volatility in token prices?
+  content: Who liquidates the crypto collateral assets when the Loans become unsafe due to the volatility in token prices?
   hint: NoHint
   explanation: Liquidator liquidates the crypto collateral assets when a borrower defaults or when the Loans become unsafe due to the volatility in token prices.
   answerKeys:
