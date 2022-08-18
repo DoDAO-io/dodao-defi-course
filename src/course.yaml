@@ -71,7 +71,7 @@ topics:
       * Aave
     readings: lending_and_credit.yaml
     summaries: lending_and_credit.yaml
-    questions: blockchain_basics.yaml
+    questions: lending_and_credit.yaml
     status: In Progress
     completionWeek: July 18
   - title: Decentralised Exchanges

@@ -18,4 +18,4 @@ Details
 
 [Summary](./../../generated/summaries/lending_and_credit.md)
 
-[Questions](./../../generated/questions/blockchain_basics.md)
+[Questions](./../../generated/questions/lending_and_credit.md)

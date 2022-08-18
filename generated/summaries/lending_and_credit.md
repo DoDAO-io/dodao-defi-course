@@ -11,8 +11,8 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
   * We all are currently learning DeFi, so let’s see On-Chain Lending and Borrowing(i.e Credit):-      
   - Entities of Lending and Borrowing:-
     * Lender: Deposit Principal in the Liquidity Pool(or Vault) and gets back Principal with interest.
-    * Borrower: Collateralize Assets and get the back borrowed amount
-    * Liquidator: Liquidates the Liquidity pool
+    * Borrower: Collateralize Assets and get back the borrowed amount
+    * Liquidator: Liquidates the crypto collateral assets when a borrower defaults or when the Loans become unsafe due to the volatility in token prices.
     * Price Oracle: Report prices or send exact prices of assets from different sources(either centralized or decentralized) to the Protocol.
  
  **Lending Terminology**        
@@ -30,7 +30,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
   
 - Health Factor (In detail):
   * Health Factor = Borrowing Capacity / Total Value of Debts
-  * Borrowing is the summation of all the values of the collateral we have, times a `liquidation threshold`
+  * Borrowing capacity is the summation of all the values of the collateral we have, times a `liquidation threshold`
     0 < liquidation threshold < 1 (Range)
   * The liquidation threshold provides a “secure” margin
   * When the health factor declines below 1, a borrowing position becomes liquidatable
@@ -52,7 +52,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
     - In this, the borrower has to provide
       * value(collateral assests) < value(debt or granted loan)
       * It means they allow to borrow more than the collateralize amount
-      * But they highly restrict the borrower to use their funds as they don’t get their borrowed funds immediately as smart contracts manage how a borrower can use money
+      * But they highly restrict the borrower to use their funds as they don't get their borrowed funds immediately as smart contracts manage how a borrower can use money
     - Let's say a borrower collateralizes ETH and borrows DAI
       * The value of DAI (debt) can exceed the value of ETH (collateral)
       * The collateralized ETH and borrowed DAI are restricted to be used with pre-designed smart contracts. Those are typically farming contracts.
@@ -63,7 +63,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
   * Liquidation == Selling collateral from the borrower
   * Liquidators/Anyone can liquidate the collateralized asset in return for an incentive (in the form of an opportunity to purchase the collateralize asset at a lower value than the market)
     * If value(collateral assets) <= 150% * value(debt or granted loan)   (...for example)
-  * There may also be auctions for liquidating the collateralized asset whose value degraded.
+  * There may also be auctions for liquidating the collateralized asset whose value is degraded.
   - Liquidation Insights:
     - Health Factor:
       * A Fixed Spread liquidation does not necessarily increase the health factor
@@ -71,7 +71,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
       * The maximum proportion of the debt that is allowed to be repaid in a fixed spread liquidation
       * Value of Debt to Repay < ( Close Factor * Total Value of Debt )
     - Over-liquidation:
-      * Liquidations sell excessive amounts of borrower’s collateral
+      * Liquidations sell excessive amounts of borrower's collateral
     - Optimal Liquidation Strategy:
       * Liquidating up to the close factor is not necessarily the best strategy.
       * Instead, two successive liquidations might offer more profits.
@@ -105,23 +105,28 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  
  **Flash Loans**        
 - Definition:
-  * Take loans(in a flash)—> Use them—> Repay loan + interest all in one single atomic blockchain transaction(eg, It takes 12-14 sec in the case of Ethereum Blockchain).
+  * Take loans(in a flash) —> Use them —> Repay loan + interest all in one single atomic blockchain transaction(eg, It takes 12-14 sec in the case of Ethereum Blockchain).
 - Flash Loan Use Cases:
-  * DeFi attacks
-  * Price Oracle Manipulation
-  * Pump and Dump
-  * (Risk-free) Arbitrage
-  * Wash-trading
-  * Flash Minting
-  * Collateral swapping
+  - DeFi attacks:
+    - Price Oracle Manipulation using an example:
+      * Let's say an attacker takes out a flash loan on the incoming asset A and the relevant Uniswap pool, swap asset A for asset B with a large volume. Then, this trade will increase the price of asset B (increased demand) and reduce the cost of asset A (increased supply).
+    - Pump and Dump: 
+      * In this, an attacker takes a flash loan from one platform to split the loan between the other two lending platforms to pump the price of an asset in one and dump the price of an asset in another before returning the loan to the first lending platform in a single transaction.
+  - (Risk-free) Arbitrage using flash loans.
+  - Wash-trading:
+    * In this, the borrower takes out a flash loan of Y tokens on DEX A, then execute two trades by swapping Y tokens for Z tokens on DEX B and vice-versa again on DEX B. This increases the trading volume for the Y tokens, creating an artificial level of interest and opportunity for profit. 
+  - Flash Minting:
+    * In this, attackers can mint an arbitrary number of new Flash-mintable tokens (a.k.a FMTs or ERC20-compliant tokens) into their account, as long as they also burn the same number of tokens from their account before the end of the same transaction to generate profits.
+  - Collateral swapping:
+    * It enables DeFi users to swap or switch the collateral asset that they used to take out a flash loan on a lending app. 
 - Flash Loan Based Liquidation works:
   * When a liquidator does not have the cryptocurrency upfront to repay and has to complete liquidation in one transaction.
  
  **Over-colleteralized borrowing use cases**        
 - Over-colleteralized borrowing seems to be not relevant initially as the amount of collateral needed to borrow the 
-  tokens can be quite high. But thee are many user cases for it.
+  tokens can be quite high. But there are many use cases for it.
   * **Yield Farming** - The process involves leveraging DeFi protocols to lend cryptocurrencies for high returns that can 
-    go up to 100% in annualized yields. Yield farming originates from banks’ process in lending your deposits; the difference 
+    go up to 100% APY (Annual Percentage Yield). Yield farming originates from banks’ process in lending your deposits; the difference 
     is that DeFi yield farming compounds the interest earned.
   * **Arbitrage** - Arbitrage takes advantage of the fact that an asset may be worth more in one market than another. While 
     this usually happens because of market inefficiencies, it can also be used to exploit differences in rates between 
