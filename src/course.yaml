@@ -28,8 +28,8 @@ topics:
     readings: introduction_to_defi.yaml
     summaries: introduction_to_defi.yaml
     questions: introduction_to_defi.yaml
-    status: In Progress
-    completionWeek:  July 18
+    status: Done
+    completionWeek: Done
   - title: Blockchain Basics
     key: blockchain-basics
     details: |
@@ -42,8 +42,8 @@ topics:
     readings: blockchain_basics.yaml
     summaries: blockchain_basics.yaml
     questions: blockchain_basics.yaml
-    status: In Progress
-    completionWeek:  July 18
+    status: Done
+    completionWeek: Done
   - title: Smart Contratcs
     key: defi-foundations
     details: |
@@ -58,8 +58,8 @@ topics:
     readings: smart_contracts.yaml
     summaries: smart_contracts.yaml
     questions: smart_contracts.yaml
-    status: In Progress
-    completionWeek: July 18
+    status: Done
+    completionWeek: Done
   - title: Lending and Credit
     key: lending-and-credit
     details: |
@@ -72,8 +72,8 @@ topics:
     readings: lending_and_credit.yaml
     summaries: lending_and_credit.yaml
     questions: lending_and_credit.yaml
-    status: In Progress
-    completionWeek: July 18
+    status: Done
+    completionWeek: Done
   - title: Decentralised Exchanges
     key: decentralised-exchanges
     details: |
@@ -87,8 +87,8 @@ topics:
     readings: decentralized_exchanges.yaml
     summaries: decentralized_exchanges.yaml
     questions: decentralized_exchanges.yaml
-    status: In Progress
-    completionWeek: July 18
+    status: Done
+    completionWeek: Done
   - title: Derivatives
     key: derivatives
     details: |
@@ -100,8 +100,8 @@ topics:
     readings: blockchain_basics.yaml
     summaries: blockchain_basics.yaml
     questions: blockchain_basics.yaml
-    status: In Progress
-    completionWeek: July 18
+    status: To Do
+    completionWeek: First Week September
   - title: Tokenization
     key: tokenization
     details: |
@@ -115,8 +115,8 @@ topics:
     readings: blockchain_basics.yaml
     summaries: blockchain_basics.yaml
     questions: blockchain_basics.yaml
-    status: In Progress
-    completionWeek: July 18
+    status: To Do
+    completionWeek: First Week September
   - title: Stable Coins
     key: tokenization
     details: |
@@ -139,5 +139,5 @@ topics:
     readings: blockchain_basics.yaml
     summaries: blockchain_basics.yaml
     questions: blockchain_basics.yaml
-    status: In Progress
-    completionWeek: July 18
+    status: To Do
+    completionWeek: Second Week September
