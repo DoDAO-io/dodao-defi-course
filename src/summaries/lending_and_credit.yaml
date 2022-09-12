@@ -92,6 +92,11 @@
       * Value of Collateral to Claim = Value of Debt to Repay * (1 + LS)
       * Two types of Liquidation based on Liquidation Spread:-
       - Fixed Spread:
+        * With fixed spread liquidation, a liquidatable loan can be instantly liquidated at a pre-determined discount.
+        * This discount, or liquidation spread incase of Fixed Spread model, is known upfront, which allows liquidators 
+          to locally decide whether to engage in a liquidation opportunity.
+        * This avoids hour-long liquidation auctions, which cost time and transaction fees.
+        * Different protocols follow different liquidation models. MakerDAO, for example, uses an auction-based system, while Aave, Compound, and dYdX have fixed spread models.
         * In this, the Liquidator does both settlements in one Blockchain transaction such as:
           * Repays the debt of a borrowing position to Vault
           * And Acquires the collateral at a discounted price from the position in return. 
@@ -155,4 +160,3 @@
         a trader, you need to find ways to protect your investment from risk, and this is where crypto hedging strategies come in. 
         Hedging encompasses opening positions in opposing market directions to reduce the risks and impacts of market swings. By doing this, 
         you can help to offset any potential losses that might occur.
-    
