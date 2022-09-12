@@ -7,9 +7,8 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  
  **Lending**        
 - What is Lending(also known as “financing”)?
-  * Lending occurs when someone(here lender) allows another person to borrow something (such as Money, property, or 
-    another asset) with the expectation that the borrower will either return the asset or repay the lender with some interest.
-  * We all are currently learning DeFi, so let’s see On-Chain Lending and Borrowing(i.e. Credit):-      
+  * Lending occurs when someone(here lender) allows another person to borrow something (such as Money, property, or another asset) with the expectation that the borrower will either return the asset or repay the lender with some interest.
+  * We all are currently learning DeFi, so let’s see On-Chain Lending and Borrowing(i.e Credit):-      
   - Entities of Lending and Borrowing:-
     * Lender: Deposit Principal in the Liquidity Pool(or Vault) and gets back Principal with interest.
     * Borrower: Collateralize Assets and get back the borrowed amount
@@ -43,7 +42,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
   - Over-collateralization:
     - In this, the borrower has to provide:
       * value(collateral assets) > value(debt or granted loan) 
-      * It means they are allowed to borrow less than the collateralized amount
+      * It means they allow to borrow less than the collateralize amount
       * But allows the borrower to freely use their funds which they get as a loan
     - Let's say a borrower collateralizes ETH and borrows DAI
       * The value of ETH (collateral) exceeds the value of DAI (debt)
@@ -51,8 +50,8 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 
   - Under-collateralization:
     - In this, the borrower has to provide
-      * value(collateral assets) < value(debt or granted loan)
-      * It means they are allowed to borrow more than the collateralized amount
+      * value(collateral assests) < value(debt or granted loan)
+      * It means they allow to borrow more than the collateralize amount
       * But they highly restrict the borrower to use their funds as they don't get their borrowed funds immediately as smart contracts manage how a borrower can use money
     - Let's say a borrower collateralizes ETH and borrows DAI
       * The value of DAI (debt) can exceed the value of ETH (collateral)
@@ -85,6 +84,11 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
   * Value of Collateral to Claim = Value of Debt to Repay * (1 + LS)
   * Two types of Liquidation based on Liquidation Spread:-
   - Fixed Spread:
+    * With fixed spread liquidation, a liquidatable loan can be instantly liquidated at a pre-determined discount.
+    * This discount, or liquidation spread incase of Fixed Spread model, is known upfront, which allows liquidators 
+      to locally decide whether to engage in a liquidation opportunity.
+    * This avoids hour-long liquidation auctions, which cost time and transaction fees.
+    * Different protocols follow different liquidation models. MakerDAO, for example, uses an auction-based system, while Aave, Compound, and dYdX have fixed spread models.
     * In this, the Liquidator does both settlements in one Blockchain transaction such as:
       * Repays the debt of a borrowing position to Vault
       * And Acquires the collateral at a discounted price from the position in return. 
