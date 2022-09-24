@@ -1,0 +1,12 @@
+- uuid: 54f8acd7-3305-4e51-9a6f-8454bcba18e5
+  title: Introduction to Blockchain Technology
+  shortTitle: Intro to Blockchain
+  type: YoutubeVideo
+  url: https://www.youtube.com/watch?v=2yJqjTiwpxM
+  subTopics:
+    - "introduction-to-blockchain"
+  details: |
+    This video enables learners to know about
+      * Decentralised opportunities
+      * Basics of Cryptocurrency      
+      * Blockchain network types
