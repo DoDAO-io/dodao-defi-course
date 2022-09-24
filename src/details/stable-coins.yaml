@@ -31,7 +31,6 @@
     - Low-cost money transfer. Individuals have transferred as much as a million dollars in USDC for as little as a dollar in transfer fees.
     - Global processing. Stablecoins like USDC are a fantastic alternative for sending money anywhere in the world because of their fast processing and cheap transaction fees.
 
-
 - title: Why so many types of Stable Coins?
   shortTitle: Stablecoin Types
   key: types
@@ -40,13 +39,13 @@
     Newcomers to the space of decentralized finance and the stablecoin market might be perplexed as to why there are so many distinct stablecoins accessible to use when they all only offer the usefulness of being a cryptocurrency that is (relatively) stable.
 
     A stablecoin must now strike a balance between three major objectives, namely, price stability, decentralization, and capital efficiency. A stablecoin's principal objective and goal are to maintain a stable value correlated to the value of another asset, such as a fiat currency. Various price-stability mechanisms can be used to attain this price stability. The stablecoin's issuer frequently requests collateral, which may be in the form of real money or digital assets. The more effectively the stablecoin achieves its goal, the lower its achieved volatility. However, the majority of stablecoin designs trade off either the system's decentralization or its capital efficiency in order to attain great price stability.
+    ![Trilemma](https://raw.githubusercontent.com/DoDAO-io/dodao-defi-course/e84d2833e8d447fbd9bdca6dd26b4a1cacca5228/images/trilemma.png?raw=true)
 
     ### Tackling the Trillema
     A trilemma's inherent property is that none of the three objectives can ever be accomplished concurrently. The primary goal of stablecoins is still price stability. The peg has been held pretty successfully over the past few years by centralized fiat-backed & decentralized overcollateralized stablecoins. However, each makes a significant concession in one of the other two dimensions of the trilemma. So far, a wide range of design strategies has been used to address the trilemma and attain all three desired features. Some of these algorithmic stablecoins were able to solve the trilemma for a brief period of time until the market's workings once more exposed their weaknesses.
 
     ### Various Types Have Emerged
     Fiat-backed stablecoins, like USDT from Tether, were the first stablecoins to gain widespread use. As implied by the name, all stablecoins in this category are linked to the value of a fiat currency. Due to its status as the world's reserve currency, the USD is typically the preferred option. However, the stablecoin issuer needs a centralized banking system in order to back the token with real Fiat money, such as USD. The level of centralization that resulted, together with the fact that some fiat-backed stablecoins lacked information on the fiat reserves held in bank accounts, helped on-chain and crypto-backed stablecoins like MakerDAO's Dai to take off. In decentralized protocols, crypto-backed stablecoins are often only created if the value of the collateral is greater than the value of the stablecoins. In order to guarantee that the stablecoins are always fully backed by the value of the crypto assets, the protocol takes the volatility of the collateral into consideration. This technique achieves high stability, but capital efficiency is low. This inefficiency gave algorithmic stablecoins a chance to take off. UST is the most well-known illustration of an algorithmic stablecoin. In order to balance supply and demand and provide price stability, its peg was made using a mint and burn algorithm. However, in May of this year, UST suffered a significant crash. This has demonstrated that under hostile circumstances, its mechanism is unable to keep the peg in place.
-
 
 - title: Fiat-backed Stable Coins
   shortTitle: Fiat-backed
@@ -55,7 +54,7 @@
     Since their introduction eight years ago, fiat-backed stablecoins have grown in popularity and usage. They were the first stablecoins to appear. Each USD-pegged token issued by fiat-backed stablecoins is backed 1:1 by actual US dollars. Basically an IOU (I owe you) for a traditional fiat currency (usually dollars). Fiat-backed stablecoins must therefore be backed by bank accounts that contain USD. As a result, the old financial system's centralized structure and regulated institutions are used by fiat-backed stablecoin issuers. However, despite the unique properties of stablecoins and blockchain technology, the activity of producing stablecoins is not specifically regulated by any financial institution. Due to this, stablecoin issuers have poor levels of transparency, which makes it difficult for investors and consumers to put their trust in them.
     The most well-known fiat-backed stablecoin is Tether Holdings' USDT. In order to counteract the extreme volatility in the cryptocurrency markets, USDT is primarily utilized for trading on both centralized and decentralized exchanges as well as a store of wealth. USDT is one of the most reliable and durable stablecoins on the market, thanks to its direct backing with fiat money. Based on the success of USDT, other new fiat-backed stablecoins have entered the market, including USDC from Circle and BUSD from Binance. 
     Stablecoins backed by fiat have a high level of stability, but decentralization and capital efficiency suffer as a result.
-
+    ![Fiat-backed](https://github.com/DoDAO-io/dodao-defi-course/blob/e84d2833e8d447fbd9bdca6dd26b4a1cacca5228/images/fiat-backed.png?raw=true)
     - Pros
       * Safe against crypto volatility.
       * Changes in price are minimal i.e. high level of stability
@@ -76,7 +75,7 @@
     Because the underlying crypto's value can fluctuate, these stablecoins are overcollateralized to ensure the price stays as stable as possible. This makes it more accurate to state that a stablecoin with a crypto asset backing of $1 has an underlying asset worth at least $2. Therefore, if crypto prices fall, more crypto must be used to back the stablecoin; otherwise, the stablecoins' value would decrease.
     Some stablecoin protocols are accepting other stablecoins with deep liquidity, such as USDC, as on-chain collateral in order to reduce the necessary collateralization ratio without sacrificing price stability. As a result, the collateral has less volatility, which lowers the chance of a large decline in its value. Two excellent instances of this are DAI and FRAX.
     Take, for example, Dai (DAI). This stablecoin can be borrowed from the MakerDAO lending platform in exchange for some crypto collateral. Users can use Ethereum (ETH), Basic Attention Token (BAT), Compound Token (COMP), and USD Coin at the moment (USDC). Anyone who wants to borrow DAI must put up greater collateral than they are borrowing. Furthermore, if their collateral loses too much value while being placed, they may be forced to liquidate it and return the borrowed DAI.
-
+    ![Crypto-backed](https://github.com/DoDAO-io/dodao-defi-course/blob/e84d2833e8d447fbd9bdca6dd26b4a1cacca5228/images/crypto-backed.png?raw=true)
     - Pros
       * Transparent and fully decentralized.
       * Quick to turn into other crypto assets.
@@ -95,7 +94,7 @@
     Commodity-backed stablecoins are particularly useful for those who find it difficult to get their hands on literal precious materials but still want to invest in them. Investing in a commodity-backed stablecoin, say one that is backed by gold, gives an investor something that holds the same value as the collateral and can be liquidated when desired. And, because the value of these assets isn't nearly as volatile as that of fiat or cryptocurrencies, investing in commodity-backed stablecoins can be a safer route.
     Gold is generally the most popular collateral to use for commodity-backed stablecoins. Take Paxos Gold (PAXG), for example. The value of one PAXG is pegged 1:1 to the value of one fine troy ounce of a London Good Delivery gold bar.
     Tether Gold (XAUt) is another example of a gold-backed stablecoin. Like Paxos Gold, one XAUt token is pegged 1:1 to the value of one fine troy ounce of gold on a London Good Delivery bar.
-
+    ![Commodity-backed](https://github.com/DoDAO-io/dodao-defi-course/blob/e84d2833e8d447fbd9bdca6dd26b4a1cacca5228/images/commodity-backed.png?raw=true)
     - Pros
       * Safe against crypto volatility.
       * Digital representation of a real-world asset
@@ -109,7 +108,7 @@
   key: algorithmic
   details: |
     For a long time, algorithmic stablecoins have held out hope that they will help resolve the stablecoin trilemma. Algorithmic stablecoins have used an algorithm balancing the supply and demand of the stablecoin to preserve price stability rather than relying on fiat-backing or over-collateralized crypto-backing. On-chain collateral or conventional off-chain collateral are not used in this approach. Instead, the value of a second token serves as collateral for the stablecoin. Usually, a mint and burn mechanism for a second, price-floating token balances a two-token scheme with two tokens. Investors will always be able to exchange one stablecoin for one dollar of the price-floating token thanks to the protocol. Arbitrageurs are thus encouraged to purchase stablecoins on the open market and trade them for price-floating tokens if they are trading below the peg or vice versa. In the event that investors choose to exchange their stablecoins, the protocol creates a new price-floating token while the stablecoin supply fluctuates. Since there is no other asset backing these stablecoins, if the price drops below the targeted level, an algorithm will sell tokens, and if the price rises above the acceptable level, it will supply tokens. The number of these tokens you own will fluctuate, but it will always reflect your share because the quantity in circulation fluctuates frequently. DAI, FRAX, and Ampleforth are some of the well-known examples.
-
+    ![Algorithmic](https://github.com/DoDAO-io/dodao-defi-course/blob/e84d2833e8d447fbd9bdca6dd26b4a1cacca5228/images/algorithmic.png?raw=true)
     - Pros
       * No collateral is needed.
       * Controlled by a public algorithm.
@@ -122,6 +121,7 @@
   shortTitle: Top Stablecoins
   key: top-stablecoins
   details: |
+    ![Top Stablecoins]()
 
 - title: Collapse of Stablecoins
   shortTitle: Stablecoins Collapse
