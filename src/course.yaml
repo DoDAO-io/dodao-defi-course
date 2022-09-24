@@ -125,9 +125,9 @@ topics:
       Details 
       * Why Stable Coins 
       * Different Type of stable coins
-    readings: blockchain_basics.yaml
-    summaries: blockchain_basics.yaml
-    questions: blockchain_basics.yaml
+    readings: stable_coins.yaml
+    summaries: stable_coins.yaml
+    questions: stable_coins.yaml
     status: In Progress
     completionWeek: July 18
   - title: Security and Risks
