@@ -56,7 +56,7 @@
     The most well-known fiat-backed stablecoin is Tether Holdings' USDT. In order to counteract the extreme volatility in the cryptocurrency markets, USDT is primarily utilized for trading on both centralized and decentralized exchanges as well as a store of wealth. USDT is one of the most reliable and durable stablecoins on the market, thanks to its direct backing with fiat money. Based on the success of USDT, other new fiat-backed stablecoins have entered the market, including USDC from Circle and BUSD from Binance. 
     Stablecoins backed by fiat have a high level of stability, but decentralization and capital efficiency suffer as a result.
     ![Fiat-backed](https://github.com/DoDAO-io/dodao-defi-course/blob/e84d2833e8d447fbd9bdca6dd26b4a1cacca5228/images/fiat-backed.png?raw=true)
-    Reference: https://stablecoins.wtf/
+    `Reference: https://stablecoins.wtf/`
 
     - Pros
       * Safe against crypto volatility.
