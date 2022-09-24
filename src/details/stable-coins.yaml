@@ -79,7 +79,7 @@
     Some stablecoin protocols are accepting other stablecoins with deep liquidity, such as USDC, as on-chain collateral in order to reduce the necessary collateralization ratio without sacrificing price stability. As a result, the collateral has less volatility, which lowers the chance of a large decline in its value. Two excellent instances of this are DAI and FRAX.
     Take, for example, Dai (DAI). This stablecoin can be borrowed from the MakerDAO lending platform in exchange for some crypto collateral. Users can use Ethereum (ETH), Basic Attention Token (BAT), Compound Token (COMP), and USD Coin at the moment (USDC). Anyone who wants to borrow DAI must put up greater collateral than they are borrowing. Furthermore, if their collateral loses too much value while being placed, they may be forced to liquidate it and return the borrowed DAI.
     ![Crypto-backed](https://github.com/DoDAO-io/dodao-defi-course/blob/e84d2833e8d447fbd9bdca6dd26b4a1cacca5228/images/crypto-backed.png?raw=true)
-    Reference: https://stablecoins.wtf/
+    `Reference: https://stablecoins.wtf/`
 
     - Pros
       * Transparent and fully decentralized.
