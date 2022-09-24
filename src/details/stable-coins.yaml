@@ -40,6 +40,7 @@
 
     A stablecoin must now strike a balance between three major objectives, namely, price stability, decentralization, and capital efficiency. A stablecoin's principal objective and goal are to maintain a stable value correlated to the value of another asset, such as a fiat currency. Various price-stability mechanisms can be used to attain this price stability. The stablecoin's issuer frequently requests collateral, which may be in the form of real money or digital assets. The more effectively the stablecoin achieves its goal, the lower its achieved volatility. However, the majority of stablecoin designs trade off either the system's decentralization or its capital efficiency in order to attain great price stability.
     ![Trilemma](https://raw.githubusercontent.com/DoDAO-io/dodao-defi-course/e84d2833e8d447fbd9bdca6dd26b4a1cacca5228/images/trilemma.png?raw=true)
+    Reference: https://stablecoins.wtf/
 
     ### Tackling the Trillema
     A trilemma's inherent property is that none of the three objectives can ever be accomplished concurrently. The primary goal of stablecoins is still price stability. The peg has been held pretty successfully over the past few years by centralized fiat-backed & decentralized overcollateralized stablecoins. However, each makes a significant concession in one of the other two dimensions of the trilemma. So far, a wide range of design strategies has been used to address the trilemma and attain all three desired features. Some of these algorithmic stablecoins were able to solve the trilemma for a brief period of time until the market's workings once more exposed their weaknesses.
@@ -55,6 +56,8 @@
     The most well-known fiat-backed stablecoin is Tether Holdings' USDT. In order to counteract the extreme volatility in the cryptocurrency markets, USDT is primarily utilized for trading on both centralized and decentralized exchanges as well as a store of wealth. USDT is one of the most reliable and durable stablecoins on the market, thanks to its direct backing with fiat money. Based on the success of USDT, other new fiat-backed stablecoins have entered the market, including USDC from Circle and BUSD from Binance. 
     Stablecoins backed by fiat have a high level of stability, but decentralization and capital efficiency suffer as a result.
     ![Fiat-backed](https://github.com/DoDAO-io/dodao-defi-course/blob/e84d2833e8d447fbd9bdca6dd26b4a1cacca5228/images/fiat-backed.png?raw=true)
+    Reference: https://stablecoins.wtf/
+
     - Pros
       * Safe against crypto volatility.
       * Changes in price are minimal i.e. high level of stability
@@ -76,6 +79,8 @@
     Some stablecoin protocols are accepting other stablecoins with deep liquidity, such as USDC, as on-chain collateral in order to reduce the necessary collateralization ratio without sacrificing price stability. As a result, the collateral has less volatility, which lowers the chance of a large decline in its value. Two excellent instances of this are DAI and FRAX.
     Take, for example, Dai (DAI). This stablecoin can be borrowed from the MakerDAO lending platform in exchange for some crypto collateral. Users can use Ethereum (ETH), Basic Attention Token (BAT), Compound Token (COMP), and USD Coin at the moment (USDC). Anyone who wants to borrow DAI must put up greater collateral than they are borrowing. Furthermore, if their collateral loses too much value while being placed, they may be forced to liquidate it and return the borrowed DAI.
     ![Crypto-backed](https://github.com/DoDAO-io/dodao-defi-course/blob/e84d2833e8d447fbd9bdca6dd26b4a1cacca5228/images/crypto-backed.png?raw=true)
+    Reference: https://stablecoins.wtf/
+
     - Pros
       * Transparent and fully decentralized.
       * Quick to turn into other crypto assets.
@@ -95,6 +100,8 @@
     Gold is generally the most popular collateral to use for commodity-backed stablecoins. Take Paxos Gold (PAXG), for example. The value of one PAXG is pegged 1:1 to the value of one fine troy ounce of a London Good Delivery gold bar.
     Tether Gold (XAUt) is another example of a gold-backed stablecoin. Like Paxos Gold, one XAUt token is pegged 1:1 to the value of one fine troy ounce of gold on a London Good Delivery bar.
     ![Commodity-backed](https://github.com/DoDAO-io/dodao-defi-course/blob/e84d2833e8d447fbd9bdca6dd26b4a1cacca5228/images/commodity-backed.png?raw=true)
+    Reference: https://stablecoins.wtf/
+
     - Pros
       * Safe against crypto volatility.
       * Digital representation of a real-world asset
@@ -109,6 +116,8 @@
   details: |
     For a long time, algorithmic stablecoins have held out hope that they will help resolve the stablecoin trilemma. Algorithmic stablecoins have used an algorithm balancing the supply and demand of the stablecoin to preserve price stability rather than relying on fiat-backing or over-collateralized crypto-backing. On-chain collateral or conventional off-chain collateral are not used in this approach. Instead, the value of a second token serves as collateral for the stablecoin. Usually, a mint and burn mechanism for a second, price-floating token balances a two-token scheme with two tokens. Investors will always be able to exchange one stablecoin for one dollar of the price-floating token thanks to the protocol. Arbitrageurs are thus encouraged to purchase stablecoins on the open market and trade them for price-floating tokens if they are trading below the peg or vice versa. In the event that investors choose to exchange their stablecoins, the protocol creates a new price-floating token while the stablecoin supply fluctuates. Since there is no other asset backing these stablecoins, if the price drops below the targeted level, an algorithm will sell tokens, and if the price rises above the acceptable level, it will supply tokens. The number of these tokens you own will fluctuate, but it will always reflect your share because the quantity in circulation fluctuates frequently. DAI, FRAX, and Ampleforth are some of the well-known examples.
     ![Algorithmic](https://github.com/DoDAO-io/dodao-defi-course/blob/e84d2833e8d447fbd9bdca6dd26b4a1cacca5228/images/algorithmic.png?raw=true)
+    Reference: https://stablecoins.wtf/
+
     - Pros
       * No collateral is needed.
       * Controlled by a public algorithm.
@@ -122,6 +131,7 @@
   key: top-stablecoins
   details: |
     ![Top Stablecoins](https://github.com/DoDAO-io/dodao-defi-course/blob/56a02823bf722a12d42e2b981769677a6a01574d/images/top-stablecoins.png?raw=true)
+    Reference: https://ethereum.org/en/stablecoins/
 
 - title: Collapse of Stablecoins
   shortTitle: Stablecoins Collapse
