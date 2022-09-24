@@ -100,7 +100,7 @@
     Gold is generally the most popular collateral to use for commodity-backed stablecoins. Take Paxos Gold (PAXG), for example. The value of one PAXG is pegged 1:1 to the value of one fine troy ounce of a London Good Delivery gold bar.
     Tether Gold (XAUt) is another example of a gold-backed stablecoin. Like Paxos Gold, one XAUt token is pegged 1:1 to the value of one fine troy ounce of gold on a London Good Delivery bar.
     ![Commodity-backed](https://github.com/DoDAO-io/dodao-defi-course/blob/e84d2833e8d447fbd9bdca6dd26b4a1cacca5228/images/commodity-backed.png?raw=true)
-    Reference: https://stablecoins.wtf/
+    `Reference: https://stablecoins.wtf/`
 
     - Pros
       * Safe against crypto volatility.
