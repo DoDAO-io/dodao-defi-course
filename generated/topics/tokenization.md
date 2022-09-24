@@ -3,13 +3,15 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 
 ---
 
-## Stable Coins
+## Tokenization
  
-Why Stable Coins, Different Types of stable coins
+Set protocol and Index Coop
 
 Details 
-* Why Stable Coins 
-* Different Type of stable coins
+* Index Coop
+* Set Protocol provides a way to combine portfolios much like an ETF holds many traditional stocks. The Sets can be active or passive. The module ends with a discussion of the use in DeFi of both wrapped bitcoin and wrapped ethereum.
+* Wrapped bitcoin
+* Balancer
 
 
 ## Links

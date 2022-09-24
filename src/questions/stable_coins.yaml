@@ -1,0 +1,22 @@
+- uuid: 9ce49b70-e8f9-44c8-97d7-b7ec6fbd05ab
+  type: SingleChoice
+  content: Which of the following is not a characteristic of Blockchain Technology?
+  hint: Properties of Blockchain
+  explanation: Blockchain allows peer to peer transaction, it is decentrlised and permits efficient barter system.
+  answerKeys:
+    - D
+  subTopics:
+    - "introduction-to-blockchain"
+  difficultyLevel: "Low"
+  choices:
+    - content: Allows Peer to Peer transactions
+      key: A
+      
+    - content: Does not have a centralised authority
+      key: B
+      
+    - content: Allows for an efficient barter mechanism
+      key: C
+      
+    - content: None of the above
+      key: D

@@ -25,7 +25,7 @@
       * Low-cost money transfer. Individuals have transferred as much as a million dollars in USDC for as little as a dollar in transfer fees.
 
 - title: Why so many types of Stable Coins?
-  shortTitle: Types of Stable Coins
+  shortTitle: Stablecoin Types
   key: types
   details: |
     - The Stable Coin Trilemma 
@@ -48,7 +48,7 @@
       * This technique achieves high stability, but capital efficiency is low. This inefficiency gave algorithmic stablecoins a chance to take off.
 
 - title: Fiat-backed Stable Coins
-  shortTitle: Fiat-backed Stable Coins
+  shortTitle: Fiat-backed
   key: fiat-backed
   details: |
     * Since their introduction in 2014, fiat-backed stablecoins have grown in popularity and usage. 
@@ -78,7 +78,7 @@
       * Customers must go through an AML and KYC process in order to borrow stablecoins against USD
 
 - title: Crypto-backed Stable Coins
-  shortTitle: Crypto-backed Stable Coins
+  shortTitle: Crypto-backed
   key: crypto-backed
   details: |
     * The drawbacks and compromises of centralized fiat-backed stablecoins are addressed by crypto-backed stablecoins. 
@@ -104,7 +104,7 @@
       * Due to the volatility of the collateral, most crypto-backed stablecoins are over-collateralized in order to account for it
 
 - title: Commodity-backed Stable Coins
-  shortTitle: Commodity-backed Stable Coins
+  shortTitle: Commodity-backed
   key: commodity-backed
   details: |
     * Similar to fiat-backed stablecoins, stablecoin issuers hold equivalent values of physical commodities. 
@@ -127,7 +127,7 @@
       * You need to trust the token issuer and the precious metal reserves.
 
 - title: Algorithmic Stable Coins
-  shortTitle: Algorithmic Stable Coins
+  shortTitle: Algorithmic
   key: algorithmic
   details: |
     * For a long time, algorithmic stablecoins have held out hope that they will help resolve the stablecoin trilemma. 
@@ -156,7 +156,7 @@
   details: |
 
 - title: Collapse of Stablecoins
-  shortTitle: Collapse of Stablecoins
+  shortTitle: Stablecoins Collapse
   key: collapse
   details: |
     * Stable coins also possess many new risks and security challenges that need to be addressed and can lead to their collapse if left unchecked. 
