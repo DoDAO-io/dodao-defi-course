@@ -40,7 +40,7 @@
 
     A stablecoin must now strike a balance between three major objectives, namely, price stability, decentralization, and capital efficiency. A stablecoin's principal objective and goal are to maintain a stable value correlated to the value of another asset, such as a fiat currency. Various price-stability mechanisms can be used to attain this price stability. The stablecoin's issuer frequently requests collateral, which may be in the form of real money or digital assets. The more effectively the stablecoin achieves its goal, the lower its achieved volatility. However, the majority of stablecoin designs trade off either the system's decentralization or its capital efficiency in order to attain great price stability.
     ![Trilemma](https://raw.githubusercontent.com/DoDAO-io/dodao-defi-course/e84d2833e8d447fbd9bdca6dd26b4a1cacca5228/images/trilemma.png?raw=true)
-    Reference: https://stablecoins.wtf/
+    `Reference: https://stablecoins.wtf/`
 
     ### Tackling the Trillema
     A trilemma's inherent property is that none of the three objectives can ever be accomplished concurrently. The primary goal of stablecoins is still price stability. The peg has been held pretty successfully over the past few years by centralized fiat-backed & decentralized overcollateralized stablecoins. However, each makes a significant concession in one of the other two dimensions of the trilemma. So far, a wide range of design strategies has been used to address the trilemma and attain all three desired features. Some of these algorithmic stablecoins were able to solve the trilemma for a brief period of time until the market's workings once more exposed their weaknesses.
