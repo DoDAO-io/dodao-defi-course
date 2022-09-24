@@ -116,7 +116,7 @@
   details: |
     For a long time, algorithmic stablecoins have held out hope that they will help resolve the stablecoin trilemma. Algorithmic stablecoins have used an algorithm balancing the supply and demand of the stablecoin to preserve price stability rather than relying on fiat-backing or over-collateralized crypto-backing. On-chain collateral or conventional off-chain collateral are not used in this approach. Instead, the value of a second token serves as collateral for the stablecoin. Usually, a mint and burn mechanism for a second, price-floating token balances a two-token scheme with two tokens. Investors will always be able to exchange one stablecoin for one dollar of the price-floating token thanks to the protocol. Arbitrageurs are thus encouraged to purchase stablecoins on the open market and trade them for price-floating tokens if they are trading below the peg or vice versa. In the event that investors choose to exchange their stablecoins, the protocol creates a new price-floating token while the stablecoin supply fluctuates. Since there is no other asset backing these stablecoins, if the price drops below the targeted level, an algorithm will sell tokens, and if the price rises above the acceptable level, it will supply tokens. The number of these tokens you own will fluctuate, but it will always reflect your share because the quantity in circulation fluctuates frequently. DAI, FRAX, and Ampleforth are some of the well-known examples.
     ![Algorithmic](https://github.com/DoDAO-io/dodao-defi-course/blob/e84d2833e8d447fbd9bdca6dd26b4a1cacca5228/images/algorithmic.png?raw=true)
-    Reference: https://stablecoins.wtf/
+    `Reference: https://stablecoins.wtf/`
 
     - Pros
       * No collateral is needed.
