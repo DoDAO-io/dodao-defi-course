@@ -1,5 +1,171 @@
-- title: Introduction to Blockchain
-  shortTitle: Blockchain Intro
-  key: introduction-to-blockchain
+- title: Relevance of Stable Coins
+  shortTitle: Introduction
+  key: stablecoins-intro
   details: |
-    Details of the section
+    ### Introduction
+    Cryptocurrencies are still mostly utilized for speculation despite the growth in price and interest. Many people are hesitant to use digital currencies in regular transactions, such as purchasing products or services, because of frequent spikes and falls as well as daily changes.
+    Blockchain-based modern financial systems require a steady means of exchange and a currency that is actually stable.
+
+    Introducing the stablecoin, a completely new way to think about the concept of digital currency.
+
+    ### Stablecoins: Unlocking the Power of the Blockchain
+    Using the value of an underlying asset, such as the U.S. dollar, stablecoins are a type of cryptocurrency that aim to keep their price stable over time. Hence we can say, a cryptocurrency with a fixed price can be referred to as a stablecoin. 
+
+    A stablecoin is a digital currency that is pegged to a “stable” reserve asset like the U.S. dollar or gold. Stablecoins are designed to reduce volatility relative to unpegged cryptocurrencies like Bitcoin.
+
+    The daily swings of a cryptocurrency are no longer a factor in the decision to buy something. Stability enables people to transact in a practical fashion throughout the short and long term, and it also supports other crucial financial operations like loans and credit.
+
+    As stablecoins become more widely used, that will be the real key to releasing blockchain's tremendous potential.
+
+    ### Why StableCoins?
+    With the launch of stablecoins, the possibility to hold and use a cryptocurrency with a stable price was finally provided. Trading on centralized exchanges was the first important use case for stablecoins. Finally, traders could exchange assets against a token that is not volatile and has the ability to store value. The rise of defi has resulted in a surge in demand for cryptocurrencies that ensure price stability. 
+    Stablecoins lack the volatility of non-pegged cryptocurrencies while retaining some of their most potent features:
+    - Stablecoins are open, worldwide, and available to everyone on the internet at any time.
+    - They transmit quickly, cheaply, and securely.
+    - They are digitally native to the Internet and may be programmed.
+
+    ### What can you do with stablecoins?
+    - Reduce volatility. The value of cryptocurrencies such as Bitcoin and Ether changes dramatically, sometimes even by the minute. An asset linked to a more stable currency can provide buyers and sellers with confidence that the value of their tokens will neither surge nor fall unexpectedly in the near future.
+    - Sell or keep your assets. Stablecoins do not require a bank account to hold, and they are simple to transfer. The value of stablecoins can be easily transferred around the world, especially to regions where the US dollar is difficult to get or if the local currency is unstable.
+    - Profit from interest. There are simple ways to generate interest on a stablecoin investment that is often higher than what a bank would offer.
+    - Low-cost money transfer. Individuals have transferred as much as a million dollars in USDC for as little as a dollar in transfer fees.
+    - Global processing. Stablecoins like USDC are a fantastic alternative for sending money anywhere in the world because of their fast processing and cheap transaction fees.
+
+
+- title: Why so many types of Stable Coins?
+  shortTitle: Stablecoin Types
+  key: types
+  details: |
+    ### The StableCoin Trilemma
+    Newcomers to the space of decentralized finance and the stablecoin market might be perplexed as to why there are so many distinct stablecoins accessible to use when they all only offer the usefulness of being a cryptocurrency that is (relatively) stable.
+
+    A stablecoin must now strike a balance between three major objectives, namely, price stability, decentralization, and capital efficiency. A stablecoin's principal objective and goal are to maintain a stable value correlated to the value of another asset, such as a fiat currency. Various price-stability mechanisms can be used to attain this price stability. The stablecoin's issuer frequently requests collateral, which may be in the form of real money or digital assets. The more effectively the stablecoin achieves its goal, the lower its achieved volatility. However, the majority of stablecoin designs trade off either the system's decentralization or its capital efficiency in order to attain great price stability.
+
+    ### Tackling the Trillema
+    A trilemma's inherent property is that none of the three objectives can ever be accomplished concurrently. The primary goal of stablecoins is still price stability. The peg has been held pretty successfully over the past few years by centralized fiat-backed & decentralized overcollateralized stablecoins. However, each makes a significant concession in one of the other two dimensions of the trilemma. So far, a wide range of design strategies has been used to address the trilemma and attain all three desired features. Some of these algorithmic stablecoins were able to solve the trilemma for a brief period of time until the market's workings once more exposed their weaknesses.
+
+    ### Various Types Have Emerged
+    Fiat-backed stablecoins, like USDT from Tether, were the first stablecoins to gain widespread use. As implied by the name, all stablecoins in this category are linked to the value of a fiat currency. Due to its status as the world's reserve currency, the USD is typically the preferred option. However, the stablecoin issuer needs a centralized banking system in order to back the token with real Fiat money, such as USD. The level of centralization that resulted, together with the fact that some fiat-backed stablecoins lacked information on the fiat reserves held in bank accounts, helped on-chain and crypto-backed stablecoins like MakerDAO's Dai to take off. In decentralized protocols, crypto-backed stablecoins are often only created if the value of the collateral is greater than the value of the stablecoins. In order to guarantee that the stablecoins are always fully backed by the value of the crypto assets, the protocol takes the volatility of the collateral into consideration. This technique achieves high stability, but capital efficiency is low. This inefficiency gave algorithmic stablecoins a chance to take off. UST is the most well-known illustration of an algorithmic stablecoin. In order to balance supply and demand and provide price stability, its peg was made using a mint and burn algorithm. However, in May of this year, UST suffered a significant crash. This has demonstrated that under hostile circumstances, its mechanism is unable to keep the peg in place.
+
+
+- title: Fiat-backed Stable Coins
+  shortTitle: Fiat-backed
+  key: fiat-backed
+  details: |
+    Since their introduction eight years ago, fiat-backed stablecoins have grown in popularity and usage. They were the first stablecoins to appear. Each USD-pegged token issued by fiat-backed stablecoins is backed 1:1 by actual US dollars. Basically an IOU (I owe you) for a traditional fiat currency (usually dollars). Fiat-backed stablecoins must therefore be backed by bank accounts that contain USD. As a result, the old financial system's centralized structure and regulated institutions are used by fiat-backed stablecoin issuers. However, despite the unique properties of stablecoins and blockchain technology, the activity of producing stablecoins is not specifically regulated by any financial institution. Due to this, stablecoin issuers have poor levels of transparency, which makes it difficult for investors and consumers to put their trust in them.
+    The most well-known fiat-backed stablecoin is Tether Holdings' USDT. In order to counteract the extreme volatility in the cryptocurrency markets, USDT is primarily utilized for trading on both centralized and decentralized exchanges as well as a store of wealth. USDT is one of the most reliable and durable stablecoins on the market, thanks to its direct backing with fiat money. Based on the success of USDT, other new fiat-backed stablecoins have entered the market, including USDC from Circle and BUSD from Binance. 
+    Stablecoins backed by fiat have a high level of stability, but decentralization and capital efficiency suffer as a result.
+
+    - Pros
+      * Safe against crypto volatility.
+      * Changes in price are minimal i.e. high level of stability
+      * Ideal issuer for big and institutional investors entering the cryptocurrency markets since they can produce stablecoins based on actual USD
+      * Serve as a point of entry for professional capital and support future market expansion.
+
+    - Cons
+      * Centralized i.e. someone must issue the tokens.
+      * Requires auditing to ensure the company has sufficient reserves.
+      * Suppliers' lack of transparency and accountability.
+      * Customers must go through an AML and KYC process in order to borrow stablecoins against USD
+
+- title: Crypto-backed Stable Coins
+  shortTitle: Crypto-backed
+  key: crypto-backed
+  details: |
+    The drawbacks and compromises of centralized fiat-backed stablecoins are addressed by crypto-backed stablecoins. Decentralized on-chain stablecoin protocols had to be developed since trustless systems and decentralization are the foundations of the crypto ecosystem. These stablecoins are often generated using decentralized protocols to issue and redeem the tokens and are backed by other digital assets like BTC, ETH, other tokens, or any tokenized asset. In order to produce or mint new stablecoins, digital assets are thus locked as collateral in smart contracts. DAI from MakerDAO is a well-known illustration of a stablecoin backed by cryptocurrency. On-chain stablecoin methods use an open-source methodology, which has sped up innovation and increased competition in this market.
+    Because the underlying crypto's value can fluctuate, these stablecoins are overcollateralized to ensure the price stays as stable as possible. This makes it more accurate to state that a stablecoin with a crypto asset backing of $1 has an underlying asset worth at least $2. Therefore, if crypto prices fall, more crypto must be used to back the stablecoin; otherwise, the stablecoins' value would decrease.
+    Some stablecoin protocols are accepting other stablecoins with deep liquidity, such as USDC, as on-chain collateral in order to reduce the necessary collateralization ratio without sacrificing price stability. As a result, the collateral has less volatility, which lowers the chance of a large decline in its value. Two excellent instances of this are DAI and FRAX.
+    Take, for example, Dai (DAI). This stablecoin can be borrowed from the MakerDAO lending platform in exchange for some crypto collateral. Users can use Ethereum (ETH), Basic Attention Token (BAT), Compound Token (COMP), and USD Coin at the moment (USDC). Anyone who wants to borrow DAI must put up greater collateral than they are borrowing. Furthermore, if their collateral loses too much value while being placed, they may be forced to liquidate it and return the borrowed DAI.
+
+    - Pros
+      * Transparent and fully decentralized.
+      * Quick to turn into other crypto assets.
+      * No external custodians i.e. all assets are controlled by Ethereum accounts.
+
+    - Cons
+      * Less stable than fiat-backed stablecoins.
+      * Volatile, You need to keep an eye on the value of the crypto collateral.
+      * Due to the volatility of the collateral, most crypto-backed stablecoins are over-collateralized in order to account for it
+
+- title: Commodity-backed Stable Coins
+  shortTitle: Commodity-backed
+  key: commodity-backed
+  details: |
+    Similar to fiat-backed stablecoins, stablecoin issuers hold equivalent values of physical commodities. They are backed by commodities such as gold, silver, or oil. Even real estate can be used as collateral for this kind of stablecoin. The coins may or may not be redeemable for the physical asset. In a sense, commodity-backed stablecoins are a digital representation of a valuable real-world asset. But why would anyone need this?
+    Commodity-backed stablecoins are particularly useful for those who find it difficult to get their hands on literal precious materials but still want to invest in them. Investing in a commodity-backed stablecoin, say one that is backed by gold, gives an investor something that holds the same value as the collateral and can be liquidated when desired. And, because the value of these assets isn't nearly as volatile as that of fiat or cryptocurrencies, investing in commodity-backed stablecoins can be a safer route.
+    Gold is generally the most popular collateral to use for commodity-backed stablecoins. Take Paxos Gold (PAXG), for example. The value of one PAXG is pegged 1:1 to the value of one fine troy ounce of a London Good Delivery gold bar.
+    Tether Gold (XAUt) is another example of a gold-backed stablecoin. Like Paxos Gold, one XAUt token is pegged 1:1 to the value of one fine troy ounce of gold on a London Good Delivery bar.
+
+    - Pros
+      * Safe against crypto volatility.
+      * Digital representation of a real-world asset
+
+    - Cons
+      * Centralized i.e. someone must issue the tokens.
+      * You need to trust the token issuer and the precious metal reserves.
+
+- title: Algorithmic Stable Coins
+  shortTitle: Algorithmic
+  key: algorithmic
+  details: |
+    For a long time, algorithmic stablecoins have held out hope that they will help resolve the stablecoin trilemma. Algorithmic stablecoins have used an algorithm balancing the supply and demand of the stablecoin to preserve price stability rather than relying on fiat-backing or over-collateralized crypto-backing. On-chain collateral or conventional off-chain collateral are not used in this approach. Instead, the value of a second token serves as collateral for the stablecoin. Usually, a mint and burn mechanism for a second, price-floating token balances a two-token scheme with two tokens. Investors will always be able to exchange one stablecoin for one dollar of the price-floating token thanks to the protocol. Arbitrageurs are thus encouraged to purchase stablecoins on the open market and trade them for price-floating tokens if they are trading below the peg or vice versa. In the event that investors choose to exchange their stablecoins, the protocol creates a new price-floating token while the stablecoin supply fluctuates. Since there is no other asset backing these stablecoins, if the price drops below the targeted level, an algorithm will sell tokens, and if the price rises above the acceptable level, it will supply tokens. The number of these tokens you own will fluctuate, but it will always reflect your share because the quantity in circulation fluctuates frequently. DAI, FRAX, and Ampleforth are some of the well-known examples.
+
+    - Pros
+      * No collateral is needed.
+      * Controlled by a public algorithm.
+
+    - Cons
+      * You need to trust (or be able to read) the algorithm.
+      * Your balance of coins will change based on the total supply.
+
+- title: Top Stablecoins by Market Capitalization
+  shortTitle: Top Stablecoins
+  key: top-stablecoins
+  details: |
+
+- title: Collapse of Stablecoins
+  shortTitle: Stablecoins Collapse
+  key: collapse
+  details: |
+    Along with all the crucial advantages or benefits that stablecoins bring to the table, they also possess many new risks and security challenges that need to be addressed and can lead to their collapse if left unchecked. These show up as three fundamental design issues that affect defi as a whole. First, is technical security, which pertains to atomic or almost immediate risks-free exploits of technical structure. Second, there is the issue of economic security, which entails the risky manipulation of market equilibrium over time. Thirdly, the issue of economic stability asks whether stable outcomes are genuinely produced by incentives when a protocol is secure. 
+    Technical security entails exploits that are atomic and immediate in nature, and hence risk-free because the outcomes are binary for the attacker: either the attack is successful and the attacker profits or it does not occur at all. The transaction is reversed, and the attacker is merely required to pay the petrol fees. Examples include atomic mev, sandwich attacks, reentrancy, and logic bugs, which are fortunately fairly well studied at this point and can be best addressed using program analysis and formal models to just formally specify different protocols, and most attacks actually fit into this category, and there are many examples. Economic security leverages both technological structure and economic equilibrium over time, and they are not risk-free for an attacker because conducting this manipulation has actual upfront costs. There's a chance that the attack will fail and misestimate the market itself, and you won't be able to recover these upfront costs because the attack is not atomic in nature. These are less well studied and include things like governance extractable value, mev reorg attacks, and market manipulation exploits, and in order to address these, we need economic models of how these systems and agents work. A good example of the concept is when, in November 2020, the price of DAI on the Coinbase exchange spiked from its usual level of around $1 to $ 1.30 and held that position for only a few minutes. This price was then incorporated into the price of the Compound Protocol, which caused 88 million dollars in liquidations on Compound. It's possible that someone tried to manipulate the DAI market on Coinbase in order to cause and profit from these liquidations because these liquidations provide arbitrage opportunities.
+
+    ### Terra Luna Crash
+      The past meltdown of UST (an algorithmic stablecoin) highlighted the dangers of algorithmic stablecoins. Over $40 billion was lost as a result of the collapse in May 2022. Many retail investors, DAOs, and protocols experienced large losses, and the UST bubble brought down the whole crypto market. The entire chain of events has heightened regulators' and authorities' efforts to find a solution for stablecoin regulation. The stablecoin market will alter once genuine restrictions are implemented in large countries such as the United States or the European Union.
+      Not all recent market developments have been bad. Stablecoins backed by fiat have kept their peg and are regarded as safe havens, which is evidence of how well they were built.
+
+      So what really happened? Stablecoins were hit by a larger crypto sell-off that occurred shortly after the US Federal Reserve boosted interest rates. With rising economic uncertainty and greater inflation, investors switched their portfolios away from risky assets such as stablecoins and other cryptocurrencies. Then Luna's meltdown and UST de-pegging pulled down the broader crypto markets.
+      Terra, like Bitcoin and Ethereum, has its own blockchain. Its principal product is the UST, an algorithmic stablecoin tied to the dollar that is maintained by code, constant market activity, and conviction. The theoretical support for UST's peg was also provided by its computational link to Terra's basic currency, Luna.
+      Algorithmic stablecoins operate via an arbitrage-encouraging mechanism. It is essentially game theory. People can purchase 1 UST, for instance, at 98 cents and receive $1 worth of Luna, making a 2-cent profit. They can exchange $1 Luna for $1 UST and make a profit of 2 cents if 1 UST is up to $1.02.
+      The "value" of UST came from a lending platform called Anchor, which gave buyers of UST who lent it to the protocol a 19.5 percent yield. In addition, Terra had other defenses in place to protect its peg, such as a backup of billions of dollars worth of Bitcoin.
+
+      What transpired, then? a downward spiral
+      According to some experts, wealthy investors short-sold the Terra stablecoin in an effort to attack it. They borrowed large amounts of Bitcoin in order to purchase UST with the goal of making enormous profits when the value of UST fell after selling all of their Bitcoin to the market to cause a larger panic. Because of this, UST's peg to the dollar was broken, which resulted to a bank run as investors who had earned interest through Anchor rushed to cash out before the connected token Luna also plummeted.
+      After being worth as much as $116 in April, UST is now only worth 0.03 cents, while Luna is only worth a few hundredths of a penny.
+
+
+- title: What's next for Stable Coins?
+  shortTitle: Stablecoins future
+  key: future
+  details: |
+    Despite the recent downturn in the markets, stablecoins are still a promising, relatively low-risk, and legitimate way to gain cryptocurrency exposure. The UST crash demonstrated the significant danger involved with algorithmic stablecoins. Due to the meltdown, not only UST but also other algorithmic stablecoins lost their peg and suffered large market cap losses. Hybrid stablecoins acquire more traction as a response. These stablecoin systems combine on-chain crypto-based collateralization with an effective mint and burn mechanism. As a result, the dangers of a complete crash, such as in the case of UST, are diminished while the capital efficiency continues to be higher than for stablecoins that are only backed by cash and cryptocurrency. The hybrid-backed stablecoin FRAX from Frax Finance is an illustration of this. 
+
+    As stablecoin payment infrastructure spreads across continents and many governments have already started working toward some kind of regulation. It is anticipated that the impact of digital wallets will grow over time as they increase access to financial services for underbanked people.
+
+    ### Regulations ahead?
+    #### Regulation and central bank digital currencies will have a significant impact on the stablecoin landscape.
+      Stablecoins have been a major topic of discussion among US legislators as they consider measures to regulate the cryptocurrency market. A hard cap on the daily activity of huge stablecoins is something that the European Commission is considering doing across the pond.
+      Stablecoins require regulation as they are "backed by assets that may lose value or become illiquid during stress" and are "susceptible to runs," according to research by the US Federal Reserve.
+      According to US Treasury Secretary Janet Yellen, the de-pegging of the UST underscores the need for a stablecoin regulatory framework.
+      Instead, a lot of people think CBDCs (Central Bank Digital Currencies) will close the stablecoin market's gap. The Bank for International Settlements estimates that 90% of all central banks are actively investigating and testing CBDCs.
+      CBDCs will be completely convertible to other kinds of legal tender currency, unlike stablecoins, which will not have the same status as central bank money.
+
+      The majority of stablecoins are now issued by private enterprises, but this will change as central banks issue their own, known as CBDCs (central bank digital currencies).
+      In March 2022, US President Biden signed an executive order establishing a framework for regulators to follow in establishing a Federal Reserve (Fed) CBDC. The findings are due later this year.
+
+      The eurozone is slightly ahead, although it is still in the experimental stage. The European Central Bank has stated that smart contracts will almost certainly be incorporated into a digital euro. Since 2020, the Bank of England has been working with HM Treasury to develop a sterling CBDC. A consultation process is now underway to assess the primary issues. It is expected that the first sterling CBDC will appear in the middle of this decade.
+
+      Many countries are currently conducting research. In an ideal world, CBDCs would be able to communicate with one another. The Bank of International Settlements is currently testing this on a shared platform with four central banks. It is worth mentioning that, similar to how the Eurodollar banking system works, an offshore commercially-issued USD stablecoin can exist regardless of what US regulators decide. Eurodollar deposits are denominated in dollars and are not regulated in the United States. The choice is not binary, and the final question in terms of innovation is design. A CBDC and a commercial stablecoin can both be used to innovate.
+
+
+    
