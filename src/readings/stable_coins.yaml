@@ -1,12 +1,26 @@
-- uuid: 54f8acd7-3305-4e51-9a6f-8454bcba18e5
-  title: Introduction to Blockchain Technology
-  shortTitle: Intro to Blockchain
+- uuid: 923251e9-c593-4379-ab11-25fc8740a896
+  title: Introduction to Stablecoins
+  shortTitle: Intro to Stablecoins
   type: YoutubeVideo
-  url: https://www.youtube.com/watch?v=2yJqjTiwpxM
+  url: https://www.youtube.com/watch?v=G6fFHfhW2O0
   subTopics:
-    - "introduction-to-blockchain"
+    - "stablecoins-intro"
   details: |
     This video enables learners to know about
-      * Decentralised opportunities
-      * Basics of Cryptocurrency      
-      * Blockchain network types
+      * What are stablecoins?
+      * Types of stablecoins
+      * Uses of stablecoins
+      * Fundamental design risks
+
+- uuid: b2bc0919-4e25-4a2b-81c1-f2b97fdff2cc
+  title: StableCoins Risks and Opportunities
+  shortTitle: Stablecoins Future
+  type: YoutubeVideo
+  url: https://www.youtube.com/watch?v=1XEB3HWR294
+  subTopics:
+    - "future"
+  details: |
+    This video enables learners to know about
+      * How did stablecoins affect defi ecosystem's development? 
+      * What are the opportunities and risks of stablecoins? 
+      * If central banks were to allow CBDCs to be used in DeFi, what would be the potential challenges of a hybrid stablecoin/CBDC model? 
