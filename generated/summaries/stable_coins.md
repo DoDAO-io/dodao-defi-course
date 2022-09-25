@@ -140,6 +140,8 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
   * Your balance of coins will change based on the total supply.
  
  **Top Stablecoins by Market Capitalization**        
+![Top Stablecoins](https://github.com/DoDAO-io/dodao-defi-course/blob/56a02823bf722a12d42e2b981769677a6a01574d/images/top-stablecoins.png?raw=true)
+Reference: https://ethereum.org/en/stablecoins/
  
  **Collapse of Stablecoins**        
 * Stable coins also possess many new risks and security challenges that need to be addressed and can lead to their collapse if left unchecked. 
