@@ -94,7 +94,7 @@ topics:
     details: derivatives.yaml
     readings: blockchain_basics.yaml
     summaries: derivatives.yaml
-    questions: blockchain_basics.yaml
+    questions: derivatives.yaml
     status: To Do
     completionWeek: First Week September
   - title: Tokenization

@@ -12,4 +12,4 @@ derivatives.yaml
 
 [Summary](./../../generated/summaries/derivatives.md)
 
-[Questions](./../../generated/questions/blockchain_basics.md)
+[Questions](./../../generated/questions/derivatives.md)
