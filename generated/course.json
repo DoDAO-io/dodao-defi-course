@@ -11389,29 +11389,95 @@
       "order": 7,
       "questions": [
         {
-          "uuid": "9ce49b70-e8f9-44c8-97d7-b7ec6fbd05ab",
+          "uuid": "e6804a67-2486-4625-b016-523a9e365b53",
           "type": "SingleChoice",
-          "content": "Which of the following is not a characteristic of Blockchain Technology?",
-          "hint": "Properties of Blockchain",
-          "explanation": "Blockchain allows peer to peer transaction, it is decentrlised and permits efficient barter system.",
+          "content": "What is a stablecoin?",
+          "hint": "Stable cryptocurrency",
+          "explanation": "A stablecoin is a digital currency that is pegged to a “stable” reserve asset like the U.S. dollar or gold. Using the value of an underlying asset, such as the U.S. dollar, stablecoins are a type of cryptocurrency that aim to keep their price stable over time.",
           "answerKeys": [
-            "D"
+            "B"
           ],
           "subTopics": [
-            "introduction-to-blockchain"
+            "stablecoins-intro"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Allows Peer to Peer transactions",
+              "content": "A shared, immutable ledger that facilitates the process of recording transactions and tracking assets in a network.",
               "key": "A"
             },
             {
-              "content": "Does not have a centralised authority",
+              "content": "A stablecoin is a digital currency that is pegged to a stable reserve asset",
               "key": "B"
             },
             {
-              "content": "Allows for an efficient barter mechanism",
+              "content": "A generally accepted form of payment usually issued by a government and circulated within its jurisdiction.",
+              "key": "C"
+            },
+            {
+              "content": "A form of digital asset based on a network that is distributed across a large number of computers.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "9822ba94-35c5-484e-93b1-4de7400bef72",
+          "type": "MultipleChoice",
+          "content": "What are the advantages of stablecoins?",
+          "hint": "stable and decentralized",
+          "explanation": "A stablecoin is a digital currency that is pegged to a “stable” reserve asset like the U.S. dollar or gold. They are designed to reduce volatility relative to unpegged cryptocurrencies. They are open, worldwide, and available to everyone on the internet at any time.",
+          "answerKeys": [
+            "C",
+            "D"
+          ],
+          "subTopics": [
+            "stablecoins-intro"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "The daily swings of a cryptocurrency are same with stablecoins",
+              "key": "A"
+            },
+            {
+              "content": "They can not be transferred globally",
+              "key": "B"
+            },
+            {
+              "content": "They offer protection for traders and investors during market volatility",
+              "key": "C"
+            },
+            {
+              "content": "They are backed by real-world assets, like the US dollar, or commodities such as gold",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "3442f18e-822f-4b30-bae6-c7efe0b8fd29",
+          "type": "MultipleChoice",
+          "content": "Which of the following statements are valid for a stablecoin as well as any other cryptocurrency?",
+          "hint": "Stablecoins are stable relative to other cryptocurrencies",
+          "explanation": "Stablecoins are designed to reduce volatility relative to unpegged cryptocurrencies like Bitcoin. They are digitally native to the Internet and may be programmed.",
+          "answerKeys": [
+            "B",
+            "C"
+          ],
+          "subTopics": [
+            "stablecoins-intro"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "They are highly volatile",
+              "key": "A"
+            },
+            {
+              "content": "They do not require bank accounts for transaction",
+              "key": "B"
+            },
+            {
+              "content": "They are programmable",
               "key": "C"
             },
             {
@@ -11419,19 +11485,1530 @@
               "key": "D"
             }
           ]
+        },
+        {
+          "uuid": "f78c4b0c-30f7-4618-92c6-5dc7c1f8793f",
+          "type": "MultipleChoice",
+          "content": "Which of the following are valid points for money transfer using stablecoins?",
+          "hint": "quick and cheap",
+          "explanation": "Stablecoins are open, worldwide, and available to everyone on the internet at any time. They transmit quickly, cheaply, and securely.",
+          "answerKeys": [
+            "B",
+            "D"
+          ],
+          "subTopics": [
+            "stablecoins-intro"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Slow transfer speed",
+              "key": "A"
+            },
+            {
+              "content": "Low transaction fees",
+              "key": "B"
+            },
+            {
+              "content": "High transaction fees",
+              "key": "C"
+            },
+            {
+              "content": "Global processing",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "e924cbdc-d7d8-4639-a2af-9151d8bbabbe",
+          "type": "SingleChoice",
+          "content": "Which of the following are pillars of stablecoin trilemma?",
+          "hint": "NoHint",
+          "explanation": "A stablecoin must strike a balance between three major objectives, namely, price stability, decentralization, and capital efficiency.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [
+            "types"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Price stability, Centralization, and Capital efficiency.",
+              "key": "A"
+            },
+            {
+              "content": "Price volatility, Decentralization, and Capital inefficiency.",
+              "key": "B"
+            },
+            {
+              "content": "Price stability, Decentralization, and Capital efficiency.",
+              "key": "C"
+            },
+            {
+              "content": "Price stability, Decentralization, and Capital inefficiency.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "f6da6118-7fef-450d-b322-15cad727c0e6",
+          "type": "SingleChoice",
+          "content": "What is the principal objective of a stablecoin?",
+          "hint": "Stablecoins already inherit the properties of cryptocurrency",
+          "explanation": "A stablecoin's principal objective and goal are to maintain a stable value correlated to the value of another asset, such as a fiat currency.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "types"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Price stability",
+              "key": "A"
+            },
+            {
+              "content": "Decentralization",
+              "key": "B"
+            },
+            {
+              "content": "Low transfer fees",
+              "key": "C"
+            },
+            {
+              "content": "Quick transaction",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "5b76ff8f-d321-4eeb-b960-307d7219eb7d",
+          "type": "SingleChoice",
+          "content": "What is the inherent property of trilemma?",
+          "hint": "NoHint",
+          "explanation": "A trilemma's inherent property is that none of the three objectives can ever be accomplished concurrently. As the majority of stablecoin designs trade off either the system's decentralization or its capital efficiency in order to attain great price stability.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "types"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "All of the three objectives can be accomplished concurrently",
+              "key": "A"
+            },
+            {
+              "content": "None of the three objectives can ever be accomplished concurrently",
+              "key": "B"
+            },
+            {
+              "content": "Only one of the three objectives can ever be accomplished",
+              "key": "C"
+            },
+            {
+              "content": "None of the three objectives can ever be accomplished",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "306c67de-53c8-4b7f-85c5-032da85e969b",
+          "type": "MultipleChoice",
+          "content": "Pick the correct statement(s).",
+          "hint": "NoHint",
+          "explanation": "The peg has been held pretty successfully over the past few years by centralized fiat-backed & decentralized overcollateralized stablecoins. However, each makes a significant concession in one of the other two dimensions of the trilemma. So far, a wide range of design strategies has been used to address the trilemma and attain all three desired features but were unsuccessful.",
+          "answerKeys": [
+            "A",
+            "B"
+          ],
+          "subTopics": [
+            "types"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Each stablecoin makes a significant concession in one of the other two dimensions of the trilemma.",
+              "key": "A"
+            },
+            {
+              "content": "The peg has been held pretty successfully over the past few years by stablecoins.",
+              "key": "B"
+            },
+            {
+              "content": "The peg has been uncontrollable over the past few years by stablecoins.",
+              "key": "C"
+            },
+            {
+              "content": "Each stablecoin follows all the dimensions of the stablecoin trilemma.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "fd0f1b71-1bb6-46ef-9415-a9ed2aabf085",
+          "type": "SingleChoice",
+          "content": "Some of these algorithmic stablecoins were able to solve the trilemma. Do you agree with this statement?",
+          "hint": "NoHint",
+          "explanation": "explanation",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "types"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Yes, they have totally solved the stablecoin trilemma and continue to do so.",
+              "key": "A"
+            },
+            {
+              "content": "Yes, but only for a brief period of time until the market's workings once more exposed their weaknesses.",
+              "key": "B"
+            },
+            {
+              "content": "No, they were unable to solve the stablecoin trilemma.",
+              "key": "C"
+            },
+            {
+              "content": "Can not say anything.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "b308b2dd-a97a-4fa8-a965-535a0b950e59",
+          "type": "MultipleChoice",
+          "content": "What were the reasons that helped MakerDAO's DAI gain popularity?",
+          "hint": "centralization and nontransparent",
+          "explanation": "The stablecoin issuer needs a centralized banking system in order to back the token with real Fiat money, such as USD. The level of centralization that resulted, together with the fact that some fiat-backed stablecoins lacked information on the fiat reserves held in bank accounts, helped on-chain and crypto-backed stablecoins like MakerDAO's Dai to take off.",
+          "answerKeys": [
+            "A",
+            "C"
+          ],
+          "subTopics": [
+            "types"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Stablecoin issuer needs a centralized banking system in order to back the token with real Fiat money",
+              "key": "A"
+            },
+            {
+              "content": "The level of decentralization was high in fiat-backed stablecoins",
+              "key": "B"
+            },
+            {
+              "content": "Some fiat-backed stablecoins lacked information on the fiat reserves held in bank accounts",
+              "key": "C"
+            },
+            {
+              "content": "None of the above",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "9b1fadc3-5e05-49e6-941e-7f9d429a4bf7",
+          "type": "SingleChoice",
+          "content": "When were the fiat-backed stablecoins introduced?",
+          "hint": "NoHint",
+          "explanation": "Fiat-backed stablecoins were introduced in 2014.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "fiat-backed"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Year 2014",
+              "key": "A"
+            },
+            {
+              "content": "Year 2004",
+              "key": "B"
+            },
+            {
+              "content": "Year 1994",
+              "key": "C"
+            },
+            {
+              "content": "Year 2019",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "9a037b85-18ea-47cf-84d9-f34a47d8b5e2",
+          "type": "SingleChoice",
+          "content": "Which type of stablecoins were the first to appear?",
+          "hint": "NoHint",
+          "explanation": "Fiat-backed stablecoins were the first to appear.",
+          "answerKeys": [
+            "D"
+          ],
+          "subTopics": [
+            "fiat-backed"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Commodity-backed",
+              "key": "A"
+            },
+            {
+              "content": "Crypto-backed",
+              "key": "B"
+            },
+            {
+              "content": "Algorithmic",
+              "key": "C"
+            },
+            {
+              "content": "Fiat-backed",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "9058499e-a342-4233-abec-96771dea85ce",
+          "type": "SingleChoice",
+          "content": "Pick the correct statement.",
+          "hint": "equal ratio",
+          "explanation": "Each USD-pegged token issued by fiat-backed stablecoins is backed 1:1 by actual US dollars.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "fiat-backed"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Each USD-pegged token issued by fiat-backed stablecoins is backed 1:10 by actual US dollars",
+              "key": "A"
+            },
+            {
+              "content": "Each USD-pegged token issued by fiat-backed stablecoins is backed 1:1 by actual US dollars",
+              "key": "B"
+            },
+            {
+              "content": "Each USD-pegged token issued by fiat-backed stablecoins is backed 10:1 by actual US dollars",
+              "key": "C"
+            },
+            {
+              "content": "Each USD-pegged token issued by fiat-backed stablecoins is backed 1:2 by actual US dollars",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "d1dda8e6-0ed2-4bc3-95d4-49f94f2c98fd",
+          "type": "MultipleChoice",
+          "content": "Which of the following is/are fiat-backed stablecoins?",
+          "hint": "DAI is crypto-backed",
+          "explanation": "MakerDAO's DAI is crypto-backed stablecoin. All others are fiat-backed.",
+          "answerKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "subTopics": [
+            "fiat-backed"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "USDC from Circle",
+              "key": "A"
+            },
+            {
+              "content": "MakerDAO's DAI",
+              "key": "B"
+            },
+            {
+              "content": "Tether Holdings' USDT",
+              "key": "C"
+            },
+            {
+              "content": "BUSD from Binance",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "b36aeaeb-6c6c-46cf-8772-25d8ad87e771",
+          "type": "MultipleChoice",
+          "content": "What are the advantages of fiat-backed stablecoins?",
+          "hint": "NoHint",
+          "explanation": "Stablecoins are safe against crypto volatility. Changes in price are minimal i.e. high level of stability. They serve as a point of entry for professional capital and support future market expansion.",
+          "answerKeys": [
+            "A",
+            "C",
+            "D"
+          ],
+          "subTopics": [
+            "fiat-backed"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Centralized i.e. someone must issue the tokens.",
+              "key": "A"
+            },
+            {
+              "content": "Safe against crypto volatility.",
+              "key": "B"
+            },
+            {
+              "content": "Changes in price are minimal",
+              "key": "C"
+            },
+            {
+              "content": "Serve as a point of entry for professionals",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "773bd2e4-e559-4bec-a569-6324513c1084",
+          "type": "MultipleChoice",
+          "content": "What are some cons of fiat-backed stablecoins?",
+          "hint": "Disadvantages related to transparency and centralization",
+          "explanation": "Fiat-backed stablecoins are centralized i.e. someone must issue the tokens. Requires auditing to ensure the company has sufficient reserves. Suppliers' lack of transparency and accountability. Customers must go through an AML and KYC process in order to borrow stablecoins against USD",
+          "answerKeys": [
+            "A",
+            "B",
+            "D"
+          ],
+          "subTopics": [
+            "fiat-backed"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Suppliers' lack of transparency and accountability.",
+              "key": "A"
+            },
+            {
+              "content": "Customers must go through an AML and KYC process in order to borrow stablecoins against USD",
+              "key": "B"
+            },
+            {
+              "content": "Changes in price are minimal",
+              "key": "C"
+            },
+            {
+              "content": "Centralized i.e. someone must issue the tokens.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "349333e5-d30e-4751-8418-9168efe080dd",
+          "type": "MultipleChoice",
+          "content": "What are crypto-backed stablecoins?",
+          "hint": "NoHint",
+          "explanation": "These stablecoins are often generated using decentralized protocols to issue and redeem the tokens and are backed by other digital assets like BTC, ETH, other tokens, or any tokenized asset.",
+          "answerKeys": [
+            "A",
+            "B"
+          ],
+          "subTopics": [
+            "crypto-backed"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "These stablecoins are often generated using decentralized protocols to issue and redeem the tokens",
+              "key": "A"
+            },
+            {
+              "content": "In order to produce or mint new stablecoins, digital assets are locked as collateral in smart contracts",
+              "key": "B"
+            },
+            {
+              "content": "They are basically an IOU (I owe you) for a traditional fiat currency, usually dollars.",
+              "key": "C"
+            },
+            {
+              "content": "None of the above",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "563e560c-f086-4acc-b824-398b12c684b4",
+          "type": "SingleChoice",
+          "content": "Which of the following is a crypto-backed stablecoin?",
+          "hint": "Others are fiat-backed",
+          "explanation": "DAI and FRAX are two excellent examples of crypto-backed stablecoins",
+          "answerKeys": [
+            "D"
+          ],
+          "subTopics": [
+            "crypto-backed"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "USDT",
+              "key": "A"
+            },
+            {
+              "content": "BUSD",
+              "key": "B"
+            },
+            {
+              "content": "USDC",
+              "key": "C"
+            },
+            {
+              "content": "FRAX",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "749cc9ec-2a50-4b96-9149-3d3ab3e79542",
+          "type": "SingleChoice",
+          "content": "Which strategy is used to handle the fluctuations of underlying crypto in crypto-backed stablecoins?",
+          "hint": "NoHint",
+          "explanation": "Because the underlying crypto's value can fluctuate, these stablecoins are overcollateralized to ensure the price stays as stable as possible.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "crypto-backed"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Undercollateralization",
+              "key": "A"
+            },
+            {
+              "content": "Overcollateralization",
+              "key": "B"
+            },
+            {
+              "content": "Decentralization",
+              "key": "C"
+            },
+            {
+              "content": "Centralization",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "0cadaed1-edcc-4b52-9475-bb8cfebb4282",
+          "type": "SingleChoice",
+          "content": "Suppose a stablecoin with a crypto asset backing is around $1. What would be the value of underlying asset?",
+          "hint": "Overcollateralization",
+          "explanation": "Because the underlying crypto's value can fluctuate, these stablecoins are overcollateralized to ensure the price stays as stable as possible. This makes it more accurate to state that a stablecoin with a crypto asset backing of $1 has an underlying asset worth at least $2.",
+          "answerKeys": [
+            "D"
+          ],
+          "subTopics": [
+            "crypto-backed"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "$1",
+              "key": "A"
+            },
+            {
+              "content": "$0.1",
+              "key": "B"
+            },
+            {
+              "content": "$0.01",
+              "key": "C"
+            },
+            {
+              "content": "$2",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "753d2634-4696-4883-ace8-00d1e5538164",
+          "type": "SingleChoice",
+          "content": "If crypto prices fall, what should be done to ensure the stability crypto-backed stablecoin?",
+          "hint": "NoHint",
+          "explanation": "Because the underlying crypto's value can fluctuate, these stablecoins are overcollateralized to ensure the price stays as stable as possible. Therefore, if crypto prices fall, more crypto must be used to back the stablecoin, otherwise, the stablecoins' value would decrease.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "crypto-backed"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Less crypto must be used to back the stablecoin",
+              "key": "A"
+            },
+            {
+              "content": "More crypto must be used to back the stablecoin",
+              "key": "B"
+            },
+            {
+              "content": "Crypto amount used to back the stablecoin should remain same",
+              "key": "C"
+            },
+            {
+              "content": "Crypto amount used to back the stablecoin should be halfed",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "484387a5-6d68-4228-b0c1-0a5fba588c70",
+          "type": "MultipleChoice",
+          "content": "Select the correct statement(s).",
+          "hint": "NoHint",
+          "explanation": "On-chain stablecoin methods use an open-source methodology, which has sped up innovation and increased competition in this market. Some stablecoin protocols are accepting other stablecoins with deep liquidity, such as USDC, as on-chain collateral in order to reduce the necessary collateralization ratio without sacrificing price stability.",
+          "answerKeys": [
+            "A",
+            "C"
+          ],
+          "subTopics": [
+            "crypto-backed"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "On-chain stablecoin methods use an open-source methodology",
+              "key": "A"
+            },
+            {
+              "content": "On-chain stablecoin methods do not use an open-source methodology",
+              "key": "B"
+            },
+            {
+              "content": "Some stablecoin protocols accept other stablecoins with deep liquidity as on-chain collateral to reduce the necessary collateralization ratio",
+              "key": "C"
+            },
+            {
+              "content": "The drawbacks and compromises of centralized fiat-backed stablecoins are not addressed by crypto-backed stablecoins",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "0f42def0-fdb2-4641-97d1-9367b08e17f0",
+          "type": "MultipleChoice",
+          "content": "What are some advantages of crypto-backed stablecoins?",
+          "hint": "NoHint",
+          "explanation": "Crypto-backed stablecoins are transparent and fully decentralized. They do not require external custodians.",
+          "answerKeys": [
+            "A",
+            "C"
+          ],
+          "subTopics": [
+            "crypto-backed"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "No external custodians are involved",
+              "key": "A"
+            },
+            {
+              "content": "Undercollateralized",
+              "key": "B"
+            },
+            {
+              "content": "Transparent and fully decentralized",
+              "key": "C"
+            },
+            {
+              "content": "More stable than fiat-backed stablecoins",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "fdabcdd4-d768-465d-abf1-9c29c9ac5847",
+          "type": "MultipleChoice",
+          "content": "What are the cons of crypto-backed stablecoins?",
+          "hint": "NoHint",
+          "explanation": "Crypto-backed stablecoins are transparent and fully decentralized, which is an advantage. Rest are cons of crypto-backed stablecoins.",
+          "answerKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "subTopics": [
+            "crypto-backed"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Less stable than fiat-backed stablecoins",
+              "key": "A"
+            },
+            {
+              "content": "Volatile, You need to keep an eye on the value of the crypto collateral",
+              "key": "B"
+            },
+            {
+              "content": "Overcollateralized",
+              "key": "C"
+            },
+            {
+              "content": "Transparent and fully decentralized",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "a4067a1b-02e5-484c-b947-21203a15b277",
+          "type": "MultipleChoice",
+          "content": "Which of the following assets can be used to back commodity-based stablecoins?",
+          "hint": "commodities",
+          "explanation": "They are backed by commodities such as gold, silver, oil or real estate.",
+          "answerKeys": [
+            "B",
+            "C"
+          ],
+          "subTopics": [
+            "commodity-backed"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Crypto",
+              "key": "A"
+            },
+            {
+              "content": "Oil",
+              "key": "B"
+            },
+            {
+              "content": "Real estate",
+              "key": "C"
+            },
+            {
+              "content": "US Dollar",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "d4f9c781-e4bb-490f-977b-49a24738bf11",
+          "type": "SingleChoice",
+          "content": "Commodity-backed stablecoin issuers hold equivalent values of physical commodities. True or False",
+          "hint": "NoHint",
+          "explanation": "Similar to fiat-backed stablecoins, stablecoin issuers hold equivalent values of physical commodities.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "commodity-backed"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "true",
+              "key": "A"
+            },
+            {
+              "content": "false",
+              "key": "B"
+            }
+          ]
+        },
+        {
+          "uuid": "90b28758-cb10-443d-a74e-f6417eccb0ed",
+          "type": "SingleChoice",
+          "content": "Commodity-backed stablecoins may or may not be redeemable for the physical asset. What do you think?",
+          "hint": "NoHint",
+          "explanation": "Commodity-backed stablecoins may or may not be redeemable for the physical asset.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [
+            "commodity-backed"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Commodity-backed stablecoins are always redeemable for the physical asset",
+              "key": "A"
+            },
+            {
+              "content": "Commodity-backed stablecoins are never redeemable for the physical asset",
+              "key": "B"
+            },
+            {
+              "content": "Commodity-backed stablecoins may or may not be redeemable for the physical asset",
+              "key": "C"
+            },
+            {
+              "content": "Can not say anything",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "114eceae-c977-48d1-a60a-389c0b9f1e1d",
+          "type": "MultipleChoice",
+          "content": "Select the correct statement(s).",
+          "hint": "safer",
+          "explanation": "Commodity-backed stablecoins are a digital representation of a valuable real-world asset. Because the value of these assets isn't nearly as volatile as that of fiat or cryptocurrencies, investing in commodity-backed stablecoins can be a safer route.",
+          "answerKeys": [
+            "B",
+            "C"
+          ],
+          "subTopics": [
+            "commodity-backed"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Commodity-backed stablecoins are the most volatile stablecoin type",
+              "key": "A"
+            },
+            {
+              "content": "Commodity-backed stablecoins are not as volatile as fiat or crypto-backed",
+              "key": "B"
+            },
+            {
+              "content": "Commodity-backed stablecoins are a digital representation of a valuable real-world asset",
+              "key": "C"
+            },
+            {
+              "content": "Commodity-backed stablecoins are not a digital representation of any real-world asset",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "760b71d6-c0d1-44d1-bdf0-1a23ec904b68",
+          "type": "MultipleChoice",
+          "content": "Which of these are commodity-backed stablecoins?",
+          "hint": "NoHint",
+          "explanation": "BUSD is a fiat-backed and FRAX is crypto-backed stablecoin.",
+          "answerKeys": [
+            "A",
+            "C"
+          ],
+          "subTopics": [
+            "commodity-backed"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "PAXG",
+              "key": "A"
+            },
+            {
+              "content": "BUSD",
+              "key": "B"
+            },
+            {
+              "content": "XAUT",
+              "key": "C"
+            },
+            {
+              "content": "FRAX",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "9ee8554b-d3ed-477a-8ea4-2de47e2f029f",
+          "type": "SingleChoice",
+          "content": "The value of one Paxos Gold (PAXG) is pegged to the value of which of the following?",
+          "hint": "NoHint",
+          "explanation": "The value of one PAXG is pegged 1:1 to the value of one fine troy ounce of a London Good Delivery gold bar.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "commodity-backed"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "One Troy Ounce of a London Good Delivery gold bar",
+              "key": "A"
+            },
+            {
+              "content": "One Troy Pound of a London Good Delivery gold bar",
+              "key": "B"
+            },
+            {
+              "content": "One Ounce of a London Good Delivery gold bar",
+              "key": "C"
+            },
+            {
+              "content": "One Pound of a London Good Delivery gold bar",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "8152931c-e79f-422f-80c3-6259c878257f",
+          "type": "SingleChoice",
+          "content": "What is the ratio in which one Tether Gold (XAUT) is pegged?",
+          "hint": "equal",
+          "explanation": "Like Paxos Gold, one XAUt token is pegged 1:1 to the value of one fine troy ounce of gold on a London Good Delivery bar.",
+          "answerKeys": [
+            "D"
+          ],
+          "subTopics": [
+            "commodity-backed"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "1:100",
+              "key": "A"
+            },
+            {
+              "content": "1:10",
+              "key": "B"
+            },
+            {
+              "content": "10:1",
+              "key": "C"
+            },
+            {
+              "content": "1:1",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "aaaeed74-6470-4f57-b28a-80fec5135d29",
+          "type": "SingleChoice",
+          "content": "Which of the following is used in Algorithmic Stablecoins?",
+          "hint": "NoHint",
+          "explanation": "On-chain collateral or conventional off-chain collateral are not used in this approach. Instead, the value of a second token serves as collateral for the stablecoin.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [
+            "algorithmic"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "On-chain collateral",
+              "key": "A"
+            },
+            {
+              "content": "Off-chain collateral",
+              "key": "B"
+            },
+            {
+              "content": "A Second token",
+              "key": "C"
+            },
+            {
+              "content": "No collateral is used",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "e272817a-a463-468c-a692-8bf9d1d66e13",
+          "type": "SingleChoice",
+          "content": "UST is an example of Algorithmic stablecoin. True or False?",
+          "hint": "NoHint",
+          "explanation": "UST is an example of Algorithmic stablecoin.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "algorithmic"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "true",
+              "key": "A"
+            },
+            {
+              "content": "false",
+              "key": "B"
+            }
+          ]
+        },
+        {
+          "uuid": "e8a9fcfd-5250-4d7b-8314-3e5e480fdf63",
+          "type": "MultipleChoice",
+          "content": "Choose the correct statement(s).",
+          "hint": "NoHint",
+          "explanation": "Since there is no other asset backing these stablecoins, if the price drops below the targeted level, an algorithm will sell tokens, and if the price rises above the acceptable level, it will supply tokens.",
+          "answerKeys": [
+            "A",
+            "C"
+          ],
+          "subTopics": [
+            "algorithmic"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "If the price drops below the targeted level, an algorithm will sell tokens",
+              "key": "A"
+            },
+            {
+              "content": "If the price drops below the targeted level, an algorithm will supply tokens",
+              "key": "B"
+            },
+            {
+              "content": "If the price rises above the acceptable level, an algorithm will supply tokens",
+              "key": "C"
+            },
+            {
+              "content": "If the price rises above the acceptable level, an algorithm will sell tokens",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "c6bf95c2-35c2-4b2a-b111-71b68a9d7198",
+          "type": "SingleChoice",
+          "content": "How does the algorithm balances a two-token model?",
+          "hint": "NoHint",
+          "explanation": "The value of a second token serves as collateral for the stablecoin. Usually, an algorithm balances this two-token model with a mint and burn mechanism for the second token.",
+          "answerKeys": [
+            "D"
+          ],
+          "subTopics": [
+            "algorithmic"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Using Overcollateralization",
+              "key": "A"
+            },
+            {
+              "content": "Using Undercollateralization",
+              "key": "B"
+            },
+            {
+              "content": "Using Off-chain collateral",
+              "key": "C"
+            },
+            {
+              "content": "Using Mint and Burn Mechanism",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "0fe90f99-400f-455c-8888-704dffc8db72",
+          "type": "SingleChoice",
+          "content": "The second token used as collateral in algorithmic stablecoins is also known as?",
+          "hint": "NoHint",
+          "explanation": "The second token used as collateral in algorithmic stablecoins is called Price-floating token.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "algorithmic"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Price-fluctuating token",
+              "key": "A"
+            },
+            {
+              "content": "Price-floating token",
+              "key": "B"
+            },
+            {
+              "content": "Price-volatality token",
+              "key": "C"
+            },
+            {
+              "content": "Price-stability token",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "7167c625-3662-4840-a829-fbc06f65db16",
+          "type": "SingleChoice",
+          "content": "In the event that investors choose to exchange their algorithmic stablecoins, what does the protocol do?",
+          "hint": "supplies more",
+          "explanation": "In the event that investors choose to exchange their stablecoins, the protocol creates a new price-floating token while the stablecoin supply fluctuates.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [
+            "algorithmic"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Sells existing price-floating token",
+              "key": "A"
+            },
+            {
+              "content": "Burns existing price-floating token",
+              "key": "B"
+            },
+            {
+              "content": "Creates new price-floating token",
+              "key": "C"
+            },
+            {
+              "content": "Does not do anything",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "1d72a6eb-0b1d-40b9-9b88-4cea33380e16",
+          "type": "SingleChoice",
+          "content": "The number of price-floating tokens you own is fixed. Do you agree?",
+          "hint": "NoHint",
+          "explanation": "The number of these tokens you own will fluctuate, but it will always reflect your share because the quantity in circulation fluctuates frequently.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "algorithmic"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Yes, the number of price-floating tokens owned is fixed",
+              "key": "A"
+            },
+            {
+              "content": "No, the number of price-floating tokens owned may vary",
+              "key": "B"
+            },
+            {
+              "content": "Yes, the number of price-floating tokens owned is always less than your share",
+              "key": "C"
+            },
+            {
+              "content": "Yes, the number of price-floating tokens owned is always more than your share",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "8cc9e1a1-85de-4e51-a74f-5be6167a2805",
+          "type": "MultipleChoice",
+          "content": "What are the advantages of algorithmic stablecoins?",
+          "hint": "NoHint",
+          "explanation": "No collateral is needed. Controlled by a public algorithm.",
+          "answerKeys": [
+            "A",
+            "B"
+          ],
+          "subTopics": [
+            "algorithmic"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "No collateral is needed",
+              "key": "A"
+            },
+            {
+              "content": "Controlled by a public algorithm",
+              "key": "B"
+            },
+            {
+              "content": "Lack of transparency",
+              "key": "C"
+            },
+            {
+              "content": "Centralization",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "96ec898b-ca74-4ffc-a0bd-5042b357d5f9",
+          "type": "SingleChoice",
+          "content": "Which of the following has the largest market capitalization?",
+          "hint": "NoHint",
+          "explanation": "USDT has the largest market capitalization among stablecoins.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "top-stablecoins"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "USDT",
+              "key": "A"
+            },
+            {
+              "content": "USDC",
+              "key": "B"
+            },
+            {
+              "content": "PAXG",
+              "key": "C"
+            },
+            {
+              "content": "DAI",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "a0cd8b95-fdde-4eca-9d4e-ffbb9c614275",
+          "type": "SingleChoice",
+          "content": "Which of these has the largest market capitalization among crypto-backed stablecoins?",
+          "hint": "NoHint",
+          "explanation": "DAI has the largest market capitalization among crypto-backed stablecoins",
+          "answerKeys": [
+            "D"
+          ],
+          "subTopics": [
+            "top-stablecoins"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "USDT",
+              "key": "A"
+            },
+            {
+              "content": "BUSD",
+              "key": "B"
+            },
+            {
+              "content": "PAXG",
+              "key": "C"
+            },
+            {
+              "content": "DAI",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "6d631464-38aa-4f87-bb7a-1ac4c154f4da",
+          "type": "SingleChoice",
+          "content": "What is Terra's basic staking token?",
+          "hint": "NoHint",
+          "explanation": "Luna is the Terra protocol's native staking token",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "collapse"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Binance",
+              "key": "A"
+            },
+            {
+              "content": "Luna",
+              "key": "B"
+            },
+            {
+              "content": "Anchor",
+              "key": "C"
+            },
+            {
+              "content": "Frax",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "af14698b-3373-4376-9715-21814e15b234",
+          "type": "SingleChoice",
+          "content": "Which of these is true about algorithmic stablecoins?",
+          "hint": "NoHint",
+          "explanation": "explanation",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [
+            "collapse"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "They are collateral-encouraging",
+              "key": "A"
+            },
+            {
+              "content": "They are arbitrage-discouraging",
+              "key": "B"
+            },
+            {
+              "content": "They are arbitrage-encouraging",
+              "key": "C"
+            },
+            {
+              "content": "None of the above",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "4efcc524-c85b-4ac0-9efa-8228ce0b0ec4",
+          "type": "SingleChoice",
+          "content": "What is the full form of CBDC?",
+          "hint": "NoHint",
+          "explanation": "Central Bank Digital Currency",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "future"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Central Bank Digital Currency",
+              "key": "A"
+            },
+            {
+              "content": "Collateral Based Digital Currency",
+              "key": "B"
+            },
+            {
+              "content": "Crypto Based Digital Currency",
+              "key": "C"
+            },
+            {
+              "content": "Commodity Backed Digital Currency",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "ab85cec6-ab58-407f-8ca1-1b248bd4942e",
+          "type": "SingleChoice",
+          "content": "Which of these is used to denominate Eurodollar deposits?",
+          "hint": "NoHint",
+          "explanation": "Eurodollar deposits are denominated in dollars",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [
+            "future"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Euro",
+              "key": "A"
+            },
+            {
+              "content": "INR",
+              "key": "B"
+            },
+            {
+              "content": "Dollar",
+              "key": "C"
+            },
+            {
+              "content": "Crypto",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "64f45c41-9016-40ef-ae84-6ffb4413bbb3",
+          "type": "SingleChoice",
+          "content": "Eurodollar deposits are regulated in the United States.",
+          "hint": "NoHint",
+          "explanation": "Eurodollar deposits are not regulated in the United States.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "future"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "true",
+              "key": "A"
+            },
+            {
+              "content": "false",
+              "key": "B"
+            }
+          ]
+        },
+        {
+          "uuid": "1db6ca66-0e1c-42fc-ab25-562b0383c885",
+          "type": "MultipleChoice",
+          "content": "What is a Central Bank Digital Currency (CBDC)?",
+          "hint": "central bank of a country",
+          "explanation": "Central bank digital currencies are digital tokens, similar to cryptocurrency, issued by a central bank. They are pegged to the value of that country's fiat currency.",
+          "answerKeys": [
+            "A",
+            "C"
+          ],
+          "subTopics": [
+            "stablecoins-intro"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Digital tokens, similar to cryptocurrency, issued by a central bank of any country",
+              "key": "A"
+            },
+            {
+              "content": "Digital tokens, similar to cryptocurrency, issued by the Bank of International Settlements",
+              "key": "B"
+            },
+            {
+              "content": "They are pegged to the value of that country's fiat currency",
+              "key": "C"
+            },
+            {
+              "content": "They are pegged to the value of USD.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "fae8a2df-29a5-411f-827c-8d517bd5f960",
+          "type": "MultipleChoice",
+          "content": "question",
+          "hint": "NoHint",
+          "explanation": "explanation",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "stablecoins-intro"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "option 1",
+              "key": "A"
+            },
+            {
+              "content": "option 2",
+              "key": "B"
+            },
+            {
+              "content": "option 3",
+              "key": "C"
+            },
+            {
+              "content": "option 4",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "faea80f6-686e-41a4-b364-41c07058bd3d",
+          "type": "MultipleChoice",
+          "content": "question",
+          "hint": "NoHint",
+          "explanation": "explanation",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "stablecoins-intro"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "option 1",
+              "key": "A"
+            },
+            {
+              "content": "option 2",
+              "key": "B"
+            },
+            {
+              "content": "option 3",
+              "key": "C"
+            },
+            {
+              "content": "option 4",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "2ee2566d-1d3a-470e-88e6-f88fec31935f",
+          "type": "MultipleChoice",
+          "content": "question",
+          "hint": "NoHint",
+          "explanation": "explanation",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "stablecoins-intro"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "option 1",
+              "key": "A"
+            },
+            {
+              "content": "option 2",
+              "key": "B"
+            },
+            {
+              "content": "option 3",
+              "key": "C"
+            },
+            {
+              "content": "option 4",
+              "key": "D"
+            }
+          ]
         }
       ],
       "readings": [
         {
-          "uuid": "54f8acd7-3305-4e51-9a6f-8454bcba18e5",
-          "title": "Introduction to Blockchain Technology",
-          "shortTitle": "Intro to Blockchain",
+          "uuid": "923251e9-c593-4379-ab11-25fc8740a896",
+          "title": "Introduction to Stablecoins",
+          "shortTitle": "Intro to Stablecoins",
           "type": "YoutubeVideo",
-          "url": "https://www.youtube.com/watch?v=2yJqjTiwpxM",
+          "url": "https://www.youtube.com/watch?v=G6fFHfhW2O0",
           "subTopics": [
-            "introduction-to-blockchain"
+            "stablecoins-intro"
           ],
-          "details": "This video enables learners to know about\n  * Decentralised opportunities\n  * Basics of Cryptocurrency      \n  * Blockchain network types\n"
+          "details": "This video enables learners to know about\n  * What are stablecoins?\n  * Types of stablecoins\n  * Uses of stablecoins\n  * Fundamental design risks\n"
+        },
+        {
+          "uuid": "b2bc0919-4e25-4a2b-81c1-f2b97fdff2cc",
+          "title": "StableCoins Risks and Opportunities",
+          "shortTitle": "Stablecoins Future",
+          "type": "YoutubeVideo",
+          "url": "https://www.youtube.com/watch?v=1XEB3HWR294",
+          "subTopics": [
+            "future"
+          ],
+          "details": "This video enables learners to know about\n  * How did stablecoins affect defi ecosystem's development? \n  * What are the opportunities and risks of stablecoins? \n  * If central banks were to allow CBDCs to be used in DeFi, what would be the potential challenges of a hybrid stablecoin/CBDC model? \n"
         }
       ],
       "summaries": [
@@ -11475,7 +13052,7 @@
           "title": "Top Stablecoins by Market Capitalization",
           "shortTitle": "Top Stablecoins",
           "key": "top-stablecoins",
-          "details": ""
+          "details": "![Top Stablecoins](https://github.com/DoDAO-io/dodao-defi-course/blob/56a02823bf722a12d42e2b981769677a6a01574d/images/top-stablecoins.png?raw=true)\nReference: https://ethereum.org/en/stablecoins/\n"
         },
         {
           "title": "Collapse of Stablecoins",
