@@ -119,8 +119,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
   * You need to trust the token issuer and the precious metal reserves.
  
  **Algorithmic Stable Coins**        
-* Algorithmic stablecoins have used an algorithm balancing the supply and demand of the stablecoin to preserve price stability rather than relying on fiat-backing or over-collateralized crypto-backing. 
-* On-chain collateral or conventional off-chain collateral are not used in this approach.
+* Algorithmic stablecoins do not use fiat or cryptocurrency as collateral. Instead, their price stability results from the use of specialized algorithms and smart contracts that manage the supply of tokens in circulation.
 * Algorithmic stablecoins differ from most stablecoins in that these processes are included in the protocol and made accessible to everyone on the blockchain.
 * Rebase. Stablecoins that use rebase algorithms to maintain the peg alter the base supply. 
 * In proportion to the coin's price deviation from the peg (the price of the fiat currency it follows), the protocol mints (additionally adds) or burns (removes) supply from circulation. 
