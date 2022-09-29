@@ -11448,7 +11448,7 @@
               "key": "C"
             },
             {
-              "content": "They are backed by real-world assets, like the US dollar, or commodities such as gold",
+              "content": "Many of the stable coins are backed by real-world assets, like the US dollar, or commodities such as gold",
               "key": "D"
             }
           ]
@@ -11494,7 +11494,7 @@
           "explanation": "Stablecoins are open, worldwide, and available to everyone on the internet at any time. They transmit quickly, cheaply, and securely.",
           "answerKeys": [
             "B",
-            "D"
+            "C"
           ],
           "subTopics": [
             "stablecoins-intro"
@@ -11506,15 +11506,15 @@
               "key": "A"
             },
             {
-              "content": "Low transaction fees",
+              "content": "Less volatility",
               "key": "B"
             },
             {
-              "content": "High transaction fees",
+              "content": "Global processing",
               "key": "C"
             },
             {
-              "content": "Global processing",
+              "content": "None of the above",
               "key": "D"
             }
           ]
@@ -11635,7 +11635,7 @@
               "key": "A"
             },
             {
-              "content": "The peg has been held pretty successfully over the past few years by stablecoins.",
+              "content": "The peg has been held pretty successfully over the past few years by some stablecoins like USDC, DAI, USDT etc.",
               "key": "B"
             },
             {
@@ -11685,7 +11685,7 @@
           "type": "MultipleChoice",
           "content": "What were the reasons that helped MakerDAO's DAI gain popularity?",
           "hint": "centralization and nontransparent",
-          "explanation": "The stablecoin issuer needs a centralized banking system in order to back the token with real Fiat money, such as USD. The level of centralization that resulted, together with the fact that some fiat-backed stablecoins lacked information on the fiat reserves held in bank accounts, helped on-chain and crypto-backed stablecoins like MakerDAO's Dai to take off.",
+          "explanation": "Conventional fiat-backed stablecoin issuer needs a centralized banking system in order to back the token with real Fiat money, such as USD. The level of centralization that resulted, together with the fact that some fiat-backed stablecoins lacked information on the fiat reserves held in bank accounts, helped on-chain and crypto-backed stablecoins like MakerDAO's Dai to take off.",
           "answerKeys": [
             "A",
             "C"
@@ -11696,7 +11696,7 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Stablecoin issuer needs a centralized banking system in order to back the token with real Fiat money",
+              "content": "Conventional fiat-backed stablecoin issuer needs a centralized banking system in order to back the token with real Fiat money",
               "key": "A"
             },
             {
@@ -11850,7 +11850,7 @@
           "hint": "NoHint",
           "explanation": "Stablecoins are safe against crypto volatility. Changes in price are minimal i.e. high level of stability. They serve as a point of entry for professional capital and support future market expansion.",
           "answerKeys": [
-            "A",
+            "B",
             "C",
             "D"
           ],
@@ -11860,11 +11860,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Centralized i.e. someone must issue the tokens.",
+              "content": "Centralized i.e. governments can interfere and seize the assets of fiat-backed stablecoin suppliers, in unprecedented situations.",
               "key": "A"
             },
             {
-              "content": "Safe against crypto volatility.",
+              "content": "Safe against crypto volatility",
               "key": "B"
             },
             {
@@ -11882,11 +11882,10 @@
           "type": "MultipleChoice",
           "content": "What are some cons of fiat-backed stablecoins?",
           "hint": "Disadvantages related to transparency and centralization",
-          "explanation": "Fiat-backed stablecoins are centralized i.e. someone must issue the tokens. Requires auditing to ensure the company has sufficient reserves. Suppliers' lack of transparency and accountability. Customers must go through an AML and KYC process in order to borrow stablecoins against USD",
+          "explanation": "Fiat-backed stablecoins are centralized i.e. governments can interfere and seize the assets of fiat-backed stablecoin suppliers, in unprecedented situations. Requires auditing to ensure the company has sufficient reserves. Suppliers' can have lack of transparency and accountability. Customers must go through an AML and KYC process in order to borrow stablecoins against USD",
           "answerKeys": [
             "A",
-            "B",
-            "D"
+            "B"
           ],
           "subTopics": [
             "fiat-backed"
@@ -11894,11 +11893,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Suppliers' lack of transparency and accountability.",
+              "content": "Suppliers' can have lack of transparency and accountability.",
               "key": "A"
             },
             {
-              "content": "Customers must go through an AML and KYC process in order to borrow stablecoins against USD",
+              "content": "Centralized i.e. governments can interfere and seize the assets of fiat-backed stablecoin suppliers, in unprecedented situations",
               "key": "B"
             },
             {
@@ -11906,7 +11905,7 @@
               "key": "C"
             },
             {
-              "content": "Centralized i.e. someone must issue the tokens.",
+              "content": "None of the above",
               "key": "D"
             }
           ]
@@ -12232,7 +12231,7 @@
         {
           "uuid": "90b28758-cb10-443d-a74e-f6417eccb0ed",
           "type": "SingleChoice",
-          "content": "Commodity-backed stablecoins may or may not be redeemable for the physical asset. What do you think?",
+          "content": "Commodity-backed stablecoins may or may not be redeemable for the physical asset. Do you agree?",
           "hint": "NoHint",
           "explanation": "Commodity-backed stablecoins may or may not be redeemable for the physical asset.",
           "answerKeys": [
@@ -12244,15 +12243,15 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Commodity-backed stablecoins are always redeemable for the physical asset",
+              "content": "No, Commodity-backed stablecoins are always redeemable for the physical asset",
               "key": "A"
             },
             {
-              "content": "Commodity-backed stablecoins are never redeemable for the physical asset",
+              "content": "No, Commodity-backed stablecoins are never redeemable for the physical asset",
               "key": "B"
             },
             {
-              "content": "Commodity-backed stablecoins may or may not be redeemable for the physical asset",
+              "content": "Yes, Commodity-backed stablecoins may or may not be redeemable for the physical asset",
               "key": "C"
             },
             {
@@ -12362,7 +12361,7 @@
         {
           "uuid": "8152931c-e79f-422f-80c3-6259c878257f",
           "type": "SingleChoice",
-          "content": "What is the ratio in which one Tether Gold (XAUT) is pegged?",
+          "content": "What is the ratio in which one Tether Gold (XAUT) is pegged to one fine troy ounce of gold on a London Good Delivery bar?",
           "hint": "equal",
           "explanation": "Like Paxos Gold, one XAUt token is pegged 1:1 to the value of one fine troy ounce of gold on a London Good Delivery bar.",
           "answerKeys": [
@@ -12450,7 +12449,7 @@
         {
           "uuid": "e8a9fcfd-5250-4d7b-8314-3e5e480fdf63",
           "type": "MultipleChoice",
-          "content": "Choose the correct statement(s).",
+          "content": "Choose the correct statement(s) about Rebase Algorithmic Stablecoins.",
           "hint": "NoHint",
           "explanation": "Since there is no other asset backing these stablecoins, if the price drops below the targeted level, an algorithm will sell tokens, and if the price rises above the acceptable level, it will supply tokens.",
           "answerKeys": [
@@ -12463,19 +12462,19 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "If the price drops below the targeted level, an algorithm will sell tokens",
+              "content": "If the token's price falls below the price of the fiat currency it follows, an algorithmic stablecoin system burns the supply in circulation.",
               "key": "A"
             },
             {
-              "content": "If the price drops below the targeted level, an algorithm will supply tokens",
+              "content": "If the token's price falls below the price of the fiat currency it follows, an algorithmic stablecoin system mints the supply in circulation.",
               "key": "B"
             },
             {
-              "content": "If the price rises above the acceptable level, an algorithm will supply tokens",
+              "content": "If the token's price exceeds the price of the fiat currency it follows, fresh tokens are added to the circulation to reduce the stablecoin's value.",
               "key": "C"
             },
             {
-              "content": "If the price rises above the acceptable level, an algorithm will sell tokens",
+              "content": "If the token's price exceeds the price of the fiat currency it follows, fresh tokens are burned from the circulation to reduce the stablecoin's value.",
               "key": "D"
             }
           ]
@@ -12547,9 +12546,9 @@
         {
           "uuid": "7167c625-3662-4840-a829-fbc06f65db16",
           "type": "SingleChoice",
-          "content": "In the event that investors choose to exchange their algorithmic stablecoins, what does the protocol do?",
+          "content": "In the event that investors choose to sell-off their algorithmic stablecoins, what does the protocol do?",
           "hint": "supplies more",
-          "explanation": "In the event that investors choose to exchange their stablecoins, the protocol creates a new price-floating token while the stablecoin supply fluctuates.",
+          "explanation": "In the event that investors choose to sell-off their stablecoins, the protocol creates a new price-floating token while the stablecoin supply fluctuates.",
           "answerKeys": [
             "C"
           ],
@@ -12708,9 +12707,9 @@
         {
           "uuid": "6d631464-38aa-4f87-bb7a-1ac4c154f4da",
           "type": "SingleChoice",
-          "content": "What is Terra's basic staking token?",
+          "content": "What was Terra's basic staking token?",
           "hint": "NoHint",
-          "explanation": "Luna is the Terra protocol's native staking token",
+          "explanation": "Luna was the Terra protocol's native staking token",
           "answerKeys": [
             "B"
           ],
@@ -12889,102 +12888,6 @@
               "key": "D"
             }
           ]
-        },
-        {
-          "uuid": "fae8a2df-29a5-411f-827c-8d517bd5f960",
-          "type": "MultipleChoice",
-          "content": "question",
-          "hint": "NoHint",
-          "explanation": "explanation",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [
-            "stablecoins-intro"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "option 1",
-              "key": "A"
-            },
-            {
-              "content": "option 2",
-              "key": "B"
-            },
-            {
-              "content": "option 3",
-              "key": "C"
-            },
-            {
-              "content": "option 4",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "faea80f6-686e-41a4-b364-41c07058bd3d",
-          "type": "MultipleChoice",
-          "content": "question",
-          "hint": "NoHint",
-          "explanation": "explanation",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [
-            "stablecoins-intro"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "option 1",
-              "key": "A"
-            },
-            {
-              "content": "option 2",
-              "key": "B"
-            },
-            {
-              "content": "option 3",
-              "key": "C"
-            },
-            {
-              "content": "option 4",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "2ee2566d-1d3a-470e-88e6-f88fec31935f",
-          "type": "MultipleChoice",
-          "content": "question",
-          "hint": "NoHint",
-          "explanation": "explanation",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [
-            "stablecoins-intro"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "option 1",
-              "key": "A"
-            },
-            {
-              "content": "option 2",
-              "key": "B"
-            },
-            {
-              "content": "option 3",
-              "key": "C"
-            },
-            {
-              "content": "option 4",
-              "key": "D"
-            }
-          ]
         }
       ],
       "readings": [
@@ -13046,7 +12949,7 @@
           "title": "Algorithmic Stable Coins",
           "shortTitle": "Algorithmic",
           "key": "algorithmic",
-          "details": "* For a long time, algorithmic stablecoins have held out hope that they will help resolve the stablecoin trilemma. \n* Algorithmic stablecoins have used an algorithm balancing the supply and demand of the stablecoin to preserve price stability rather than relying on fiat-backing or over-collateralized crypto-backing. \n* On-chain collateral or conventional off-chain collateral are not used in this approach. \n* Instead, the value of a second token serves as collateral for the stablecoin. \n* Usually, an algorithm balances a two-token model with a mint and burn mechanism for a second, price-floating token. \n* Investors will always be able to exchange one stablecoin for one dollar of the price-floating token thanks to the protocol. \n* Arbitrageurs are thus encouraged to purchase stablecoins on the open market and trade them for price-floating tokens if they are trading below the peg or vice versa. \n* In the event that investors choose to exchange their stablecoins, the protocol creates a new price-floating token while the stablecoin supply fluctuates. \n* Since there is no other asset backing these stablecoins, if the price drops below the targeted level, an algorithm will sell tokens, and if the price rises above the acceptable level, it will supply tokens. \n* The number of these tokens you own will fluctuate, but it will always reflect your share because the quantity in circulation fluctuates frequently. \n* DAI, FRAX, and Ampleforth are some of the well-known examples.\n\n- Pros\n  * No collateral is needed.\n  * Controlled by a public algorithm.\n\n- Cons\n  * You need to trust (or be able to read) the algorithm.\n  * Your balance of coins will change based on the total supply.\n"
+          "details": "* Algorithmic stablecoins have used an algorithm balancing the supply and demand of the stablecoin to preserve price stability rather than relying on fiat-backing or over-collateralized crypto-backing. \n* On-chain collateral or conventional off-chain collateral are not used in this approach.\n* Algorithmic stablecoins differ from most stablecoins in that these processes are included in the protocol and made accessible to everyone on the blockchain.\n* Rebase. Stablecoins that use rebase algorithms to maintain the peg alter the base supply. \n* In proportion to the coin's price deviation from the peg (the price of the fiat currency it follows), the protocol mints (additionally adds) or burns (removes) supply from circulation. \n* When the market price falls below the price of the fiat currency it follows, an algorithmic stablecoin system reduces the number of tokens in circulation. \n* If the token's price exceeds the price of the fiat currency it follows, fresh tokens enter the circulation to reduce the stablecoin's value. \n* Coins are minted into or destroyed from the wallets of coin holders. The number of these tokens a holder owns will fluctuate, but their wallet will always reflect the share because the quantity in circulation fluctuates frequently.\n\n* Seigniorage. Seigniorage algorithmic stablecoins employ a multi-coin system in which the price of one currency is designed to be stable and the price of at least one other coin is designed to promote that stability. \n* Seigniorage methods often use a combination of protocol-based mint-and-burn processes and free market mechanisms to incentivize market participants to buy or sell non-stablecoins in order to drive the stablecoin's price closer to its peg. \n* Usually, a mint and burn mechanism for a second, price-floating token balances a two-token scheme with two tokens. \n* Arbitrageurs are thus encouraged to purchase stablecoins on the open market and trade them for price-floating tokens if they are trading below the peg or vice versa. \n* In the event that investors choose to sell-off their stablecoins, the protocol creates new price-floating tokens while the stablecoin supply fluctuates.\n\n* A third type, fractional-algorithmic stablecoins, is gaining popularity. \n* Part seigniorage, part collateralized, fractional algorithmic stablecoins seek to hold their value by integrating the finest mechanisms from \"pure\" uncollateralized stablecoins and their collateralized equivalents. This model was pioneered by Frax Finance. \n* DAI, FRAX, and Ampleforth are some of the well-known examples.\n\n- Pros\n  * No collateral is needed.\n  * Controlled by a public algorithm.\n\n- Cons\n  * You need to trust (or be able to read) the algorithm.\n  * Your balance of coins will change based on the total supply.\n"
         },
         {
           "title": "Top Stablecoins by Market Capitalization",

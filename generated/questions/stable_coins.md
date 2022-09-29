@@ -29,7 +29,7 @@ Sub Topics: stablecoins-intro
 - [ ]  The daily swings of a cryptocurrency are same with stablecoins
 - [ ]  They can not be transferred globally
 - [x]  They offer protection for traders and investors during market volatility
-- [x]  They are backed by real-world assets, like the US dollar, or commodities such as gold
+- [x]  Many of the stable coins are backed by real-world assets, like the US dollar, or commodities such as gold
   
 Hint: stable and decentralized
          
@@ -59,9 +59,9 @@ Sub Topics: stablecoins-intro
 ##### Which of the following are valid points for money transfer using stablecoins?  
 
 - [ ]  Slow transfer speed
-- [x]  Low transaction fees
-- [ ]  High transaction fees
+- [x]  Less volatility
 - [x]  Global processing
+- [ ]  None of the above
   
 Hint: quick and cheap
          
@@ -123,7 +123,7 @@ Sub Topics: types
 ##### Pick the correct statement(s).  
 
 - [x]  Each stablecoin makes a significant concession in one of the other two dimensions of the trilemma.
-- [x]  The peg has been held pretty successfully over the past few years by stablecoins.
+- [x]  The peg has been held pretty successfully over the past few years by some stablecoins like USDC, DAI, USDT etc.
 - [ ]  The peg has been uncontrollable over the past few years by stablecoins.
 - [ ]  Each stablecoin follows all the dimensions of the stablecoin trilemma.
   
@@ -154,14 +154,14 @@ Sub Topics: types
 
 ##### What were the reasons that helped MakerDAO's DAI gain popularity?  
 
-- [x]  Stablecoin issuer needs a centralized banking system in order to back the token with real Fiat money
+- [x]  Conventional fiat-backed stablecoin issuer needs a centralized banking system in order to back the token with real Fiat money
 - [ ]  The level of decentralization was high in fiat-backed stablecoins
 - [x]  Some fiat-backed stablecoins lacked information on the fiat reserves held in bank accounts
 - [ ]  None of the above
   
 Hint: centralization and nontransparent
          
-Explanation: The stablecoin issuer needs a centralized banking system in order to back the token with real Fiat money, such as USD. The level of centralization that resulted, together with the fact that some fiat-backed stablecoins lacked information on the fiat reserves held in bank accounts, helped on-chain and crypto-backed stablecoins like MakerDAO's Dai to take off.
+Explanation: Conventional fiat-backed stablecoin issuer needs a centralized banking system in order to back the token with real Fiat money, such as USD. The level of centralization that resulted, together with the fact that some fiat-backed stablecoins lacked information on the fiat reserves held in bank accounts, helped on-chain and crypto-backed stablecoins like MakerDAO's Dai to take off.
 
 Sub Topics: types
  
@@ -234,8 +234,8 @@ Sub Topics: fiat-backed
 
 ##### What are the advantages of fiat-backed stablecoins?  
 
-- [x]  Centralized i.e. someone must issue the tokens.
-- [ ]  Safe against crypto volatility.
+- [ ]  Centralized i.e. governments can interfere and seize the assets of fiat-backed stablecoin suppliers, in unprecedented situations.
+- [x]  Safe against crypto volatility
 - [x]  Changes in price are minimal
 - [x]  Serve as a point of entry for professionals
   
@@ -250,14 +250,14 @@ Sub Topics: fiat-backed
 
 ##### What are some cons of fiat-backed stablecoins?  
 
-- [x]  Suppliers' lack of transparency and accountability.
-- [x]  Customers must go through an AML and KYC process in order to borrow stablecoins against USD
+- [x]  Suppliers' can have lack of transparency and accountability.
+- [x]  Centralized i.e. governments can interfere and seize the assets of fiat-backed stablecoin suppliers, in unprecedented situations
 - [ ]  Changes in price are minimal
-- [x]  Centralized i.e. someone must issue the tokens.
+- [ ]  None of the above
   
 Hint: Disadvantages related to transparency and centralization
          
-Explanation: Fiat-backed stablecoins are centralized i.e. someone must issue the tokens. Requires auditing to ensure the company has sufficient reserves. Suppliers' lack of transparency and accountability. Customers must go through an AML and KYC process in order to borrow stablecoins against USD
+Explanation: Fiat-backed stablecoins are centralized i.e. governments can interfere and seize the assets of fiat-backed stablecoin suppliers, in unprecedented situations. Requires auditing to ensure the company has sufficient reserves. Suppliers' can have lack of transparency and accountability. Customers must go through an AML and KYC process in order to borrow stablecoins against USD
 
 Sub Topics: fiat-backed
  
@@ -422,11 +422,11 @@ Sub Topics: commodity-backed
 
 ---
 
-##### Commodity-backed stablecoins may or may not be redeemable for the physical asset. What do you think?  
+##### Commodity-backed stablecoins may or may not be redeemable for the physical asset. Do you agree?  
 
-- [ ]  Commodity-backed stablecoins are always redeemable for the physical asset
-- [ ]  Commodity-backed stablecoins are never redeemable for the physical asset
-- [x]  Commodity-backed stablecoins may or may not be redeemable for the physical asset
+- [ ]  No, Commodity-backed stablecoins are always redeemable for the physical asset
+- [ ]  No, Commodity-backed stablecoins are never redeemable for the physical asset
+- [x]  Yes, Commodity-backed stablecoins may or may not be redeemable for the physical asset
 - [ ]  Can not say anything
   
 Hint: NoHint
@@ -486,7 +486,7 @@ Sub Topics: commodity-backed
 
 ---
 
-##### What is the ratio in which one Tether Gold (XAUT) is pegged?  
+##### What is the ratio in which one Tether Gold (XAUT) is pegged to one fine troy ounce of gold on a London Good Delivery bar?  
 
 - [ ]  1:100
 - [ ]  1:10
@@ -532,12 +532,12 @@ Sub Topics: algorithmic
 
 ---
 
-##### Choose the correct statement(s).  
+##### Choose the correct statement(s) about Rebase Algorithmic Stablecoins.  
 
-- [x]  If the price drops below the targeted level, an algorithm will sell tokens
-- [ ]  If the price drops below the targeted level, an algorithm will supply tokens
-- [x]  If the price rises above the acceptable level, an algorithm will supply tokens
-- [ ]  If the price rises above the acceptable level, an algorithm will sell tokens
+- [x]  If the token's price falls below the price of the fiat currency it follows, an algorithmic stablecoin system burns the supply in circulation.
+- [ ]  If the token's price falls below the price of the fiat currency it follows, an algorithmic stablecoin system mints the supply in circulation.
+- [x]  If the token's price exceeds the price of the fiat currency it follows, fresh tokens are added to the circulation to reduce the stablecoin's value.
+- [ ]  If the token's price exceeds the price of the fiat currency it follows, fresh tokens are burned from the circulation to reduce the stablecoin's value.
   
 Hint: NoHint
          
@@ -580,7 +580,7 @@ Sub Topics: algorithmic
 
 ---
 
-##### In the event that investors choose to exchange their algorithmic stablecoins, what does the protocol do?  
+##### In the event that investors choose to sell-off their algorithmic stablecoins, what does the protocol do?  
 
 - [ ]  Sells existing price-floating token
 - [ ]  Burns existing price-floating token
@@ -589,7 +589,7 @@ Sub Topics: algorithmic
   
 Hint: supplies more
          
-Explanation: In the event that investors choose to exchange their stablecoins, the protocol creates a new price-floating token while the stablecoin supply fluctuates.
+Explanation: In the event that investors choose to sell-off their stablecoins, the protocol creates a new price-floating token while the stablecoin supply fluctuates.
 
 Sub Topics: algorithmic
  
@@ -660,7 +660,7 @@ Sub Topics: top-stablecoins
 
 ---
 
-##### What is Terra's basic staking token?  
+##### What was Terra's basic staking token?  
 
 - [ ]  Binance
 - [x]  Luna
@@ -669,7 +669,7 @@ Sub Topics: top-stablecoins
   
 Hint: NoHint
          
-Explanation: Luna is the Terra protocol's native staking token
+Explanation: Luna was the Terra protocol's native staking token
 
 Sub Topics: collapse
  
@@ -748,54 +748,6 @@ Sub Topics: future
 Hint: central bank of a country
          
 Explanation: Central bank digital currencies are digital tokens, similar to cryptocurrency, issued by a central bank. They are pegged to the value of that country's fiat currency.
-
-Sub Topics: stablecoins-intro
- 
-
----
-
-##### question  
-
-- [x]  option 1
-- [ ]  option 2
-- [ ]  option 3
-- [ ]  option 4
-  
-Hint: NoHint
-         
-Explanation: explanation
-
-Sub Topics: stablecoins-intro
- 
-
----
-
-##### question  
-
-- [x]  option 1
-- [ ]  option 2
-- [ ]  option 3
-- [ ]  option 4
-  
-Hint: NoHint
-         
-Explanation: explanation
-
-Sub Topics: stablecoins-intro
- 
-
----
-
-##### question  
-
-- [x]  option 1
-- [ ]  option 2
-- [ ]  option 3
-- [ ]  option 4
-  
-Hint: NoHint
-         
-Explanation: explanation
 
 Sub Topics: stablecoins-intro
  
