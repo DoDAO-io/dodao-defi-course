@@ -119,16 +119,22 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
   * You need to trust the token issuer and the precious metal reserves.
  
  **Algorithmic Stable Coins**        
-* For a long time, algorithmic stablecoins have held out hope that they will help resolve the stablecoin trilemma. 
-* Algorithmic stablecoins have used an algorithm balancing the supply and demand of the stablecoin to preserve price stability rather than relying on fiat-backing or over-collateralized crypto-backing. 
-* On-chain collateral or conventional off-chain collateral are not used in this approach. 
-* Instead, the value of a second token serves as collateral for the stablecoin. 
-* Usually, an algorithm balances a two-token model with a mint and burn mechanism for a second, price-floating token. 
-* Investors will always be able to exchange one stablecoin for one dollar of the price-floating token thanks to the protocol. 
+* Algorithmic stablecoins do not use fiat or cryptocurrency as collateral. Instead, their price stability results from the use of specialized algorithms and smart contracts that manage the supply of tokens in circulation.
+* Algorithmic stablecoins differ from most stablecoins in that these processes are included in the protocol and made accessible to everyone on the blockchain.
+* Rebase. Stablecoins that use rebase algorithms to maintain the peg alter the base supply. 
+* In proportion to the coin's price deviation from the peg (the price of the fiat currency it follows), the protocol mints (additionally adds) or burns (removes) supply from circulation. 
+* When the market price falls below the price of the fiat currency it follows, an algorithmic stablecoin system reduces the number of tokens in circulation. 
+* If the token's price exceeds the price of the fiat currency it follows, fresh tokens enter the circulation to reduce the stablecoin's value. 
+* Coins are minted into or destroyed from the wallets of coin holders. The number of these tokens a holder owns will fluctuate, but their wallet will always reflect the share because the quantity in circulation fluctuates frequently.
+
+* Seigniorage. Seigniorage algorithmic stablecoins employ a multi-coin system in which the price of one currency is designed to be stable and the price of at least one other coin is designed to promote that stability. 
+* Seigniorage methods often use a combination of protocol-based mint-and-burn processes and free market mechanisms to incentivize market participants to buy or sell non-stablecoins in order to drive the stablecoin's price closer to its peg. 
+* Usually, a mint and burn mechanism for a second, price-floating token balances a two-token scheme with two tokens. 
 * Arbitrageurs are thus encouraged to purchase stablecoins on the open market and trade them for price-floating tokens if they are trading below the peg or vice versa. 
-* In the event that investors choose to exchange their stablecoins, the protocol creates a new price-floating token while the stablecoin supply fluctuates. 
-* Since there is no other asset backing these stablecoins, if the price drops below the targeted level, an algorithm will sell tokens, and if the price rises above the acceptable level, it will supply tokens. 
-* The number of these tokens you own will fluctuate, but it will always reflect your share because the quantity in circulation fluctuates frequently. 
+* In the event that investors choose to sell-off their stablecoins, the protocol creates new price-floating tokens while the stablecoin supply fluctuates.
+
+* A third type, fractional-algorithmic stablecoins, is gaining popularity. 
+* Part seigniorage, part collateralized, fractional algorithmic stablecoins seek to hold their value by integrating the finest mechanisms from "pure" uncollateralized stablecoins and their collateralized equivalents. This model was pioneered by Frax Finance. 
 * DAI, FRAX, and Ampleforth are some of the well-known examples.
 
 - Pros
