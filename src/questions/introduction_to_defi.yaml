@@ -11,16 +11,12 @@
   choices:
     - content: Provide banking facilties only to high worth individuals
       key: A
-      order: 0
     - content: Providing financial solutions on blockchain
       key: B
-      order: 1
     - content: Trade and earn more using cryptocurrency
       key: C
-      order: 2
     - content: Encourage money laundering.
       key: D
-      order: 3
 - uuid: 3677cbd2-5d77-4a56-b0b2-95c051df9a6d
   type: MultipleChoice
   content: What can DeFi be used for?
@@ -36,16 +32,12 @@
   choices:
     - content: For storing value on blockchain
       key: A
-      order: 0
     - content: For customised transactions
       key: B
-      order: 1
     - content: For yield farming and liquidity mining
       key: C
-      order: 2
     - content: For Securing money in vaults
       key: D
-      order: 3
 - uuid: 8ea2424d-3067-44d7-8233-2b3b40559781
   type: MultipleChoice
   content: What does decentralised finance involve?
@@ -61,16 +53,12 @@
   choices:
     - content: Lending and borrowing assets to and from users.
       key: A
-      order: 0
     - content: Decentralised exchanges
       key: B
-      order: 1
     - content: Executing smart contracts
       key: C
-      order: 2
     - content: An authority monitoring all transactions to avoid mishappenings
       key: D
-      order: 3
 - uuid: de547cb2-82cd-46e1-bae3-01253f9a41e2
   type: SingleChoice
   content: Which of the following is the earliest form of DeFi?
@@ -84,16 +72,12 @@
   choices:
     - content: Credit Cards
       key: A
-      order: 0
     - content: Bank Loans
       key: B
-      order: 1
     - content: Barter system
       key: C
-      order: 2
     - content: Bitcoin
       key: D
-      order: 3
 - uuid: 0c1e32f3-9d3b-43d8-b32f-ef3a46a514e9
   type: SingleChoice
   content: A centralised banking system is......
@@ -107,13 +91,10 @@
   choices:
     - content: Controlled by an authority
       key: A
-      order: 0
     - content: Open source
       key: B
-      order: 1
     - content: Transparent system
       key: C
-      order: 2
 - uuid: 1476e0b4-0a62-4aed-95e1-89f6f23d568b
   type: MultipleChoice
   content: What are the properties of  DeFi?
@@ -128,16 +109,12 @@
   choices:
     - content: Limited Access
       key: A
-      order: 0
     - content: Immutable
       key: B
-      order: 1
     - content: Highly interoperable
       key: C
-      order: 2
     - content: Opaque
       key: D
-      order: 3
 - uuid: 8f3f5fc2-869b-4040-9363-c95b49ed8a92
   type: SingleChoice
   content: In what form does DeFi transfer take place?
@@ -151,16 +128,12 @@
   choices:
     - content: Person to Person
       key: A
-      order: 0
     - content: Peer to Peer
       key: B
-      order: 1
     - content: Product to Product
       key: C
-      order: 2
     - content: None of these
       key: D
-      order: 3
 - uuid: 33f9f434-48ae-4940-9ee7-5dae700e3fc1
   type: MultipleChoice
   content: What are the inefficiencies of a centralised finance system? 
@@ -175,16 +148,12 @@
   choices:
     - content: Bank charges upto 3 % for credit card swipes.
       key: A
-      order: 0
     - content: It can take around 2 days to settle a stock transaction
       key: B
-      order: 1
     - content: Banks provide safe vaults for keeping valuable assets.
       key: C
-      order: 2
     - content: Banks provide control over the printing of currency to prevent inflation.
       key: D
-      order: 3
 - uuid: c01bebee-a35c-4435-b622-7688f80ce807
   type: SingleChoice
   content: What percentage of the world population is unbanked?
@@ -198,16 +167,12 @@
   choices:
     - content: 5%
       key: A
-      order: 0
     - content: 30%
       key: B
-      order: 1
     - content: 10%
       key: C
-      order: 2
     - content: 20%
       key: D
-      order: 3
 - uuid: 9f864936-5494-4771-bf6e-c744a9f18618
   type: SingleChoice
   content: What do you understand by Peer-to-peer lending?
@@ -221,16 +186,12 @@
   choices:
     - content: One bank account to another transaction.
       key: A
-      order: 0
     - content: One crypto wallet to another under a third party observation.
       key: B
-      order: 1
     - content: One email address to another.
       key: C
-      order: 2
     - content: One crypto wallet to another without a third party observation.
       key: D
-      order: 3
 - uuid: 93e24b6c-9a74-4bae-8c93-c439620fe67e
   type: SingleChoice
   content: What is the maximum Total value locked in DeFi as of November 2021?
@@ -244,16 +205,12 @@
   choices:
     - content: $20 Billion
       key: A
-      order: 0
     - content: $60 Billion
       key: B
-      order: 1
     - content: $30 Billion
       key: C
-      order: 2
     - content: $40 Billion
       key: D
-      order: 3
 - uuid: cd6b29cb-ad5a-4f1a-8d44-a780ae9c8bd9
   type: SingleChoice
   content: What do you understand by interoperability of DeFi?	
@@ -267,16 +224,12 @@
   choices:
     - content: DeFi is accessible from anywhere.
       key: A
-      order: 0
     - content: DeFi is free to use for everyone.
       key: B
-      order: 1
     - content: DeFi applications are interconnected.
       key: C
-      order: 2
     - content: None of the above
       key: D
-      order: 3
 - uuid: b7ffffa0-4478-40fb-8fbf-32463792876a
   type: SingleChoice
   content: How does DeFi solve the volatility of cryptocurrency?
@@ -290,16 +243,12 @@
   choices:
     - content: Using smart contracts
       key: A
-      order: 0
     - content: Using Stablecoins
       key: B
-      order: 1
     - content: Using Flash Loans
       key: C
-      order: 2
     - content: None of these
       key: D
-      order: 3
 - uuid: a63ed714-02dc-4f2c-956b-8dac94e583f9
   type: SingleChoice
   content: Centralised Finance provides a transparent system to its customers.
@@ -311,12 +260,10 @@
     - "centralised-vs-decentralised-finance"
   difficultyLevel: "Low"
   choices:
-    - content: True
+    - content: "True"
       key: A
-      order: 0
-    - content: False
+    - content: "False"
       key: B
-      order: 1
 - uuid: 2c93b4b7-d351-4a32-aaaa-5170524b04dc
   type: MultipleChoice
   content: How does DeFi help small scale businesses?
@@ -332,16 +279,12 @@
   choices:
     - content: No credit card swipe charges
       key: A
-      order: 0
     - content: Fast and affordable money transfer
       key: B
-      order: 1
     - content: Flash Loans
       key: C
-      order: 2
     - content: Easy money-making opportunity
       key: D
-      order: 3
 - uuid: 590b7500-5f8f-4f3b-8b4c-74a34ae88b95
   type: MultipleChoice
   content: Which of the following problems related to bank loans does DeFi solve?
@@ -356,16 +299,12 @@
   choices:
     - content: Unpaid Centralised loans lead to loss for banks
       key: A
-      order: 0
     - content: Bank loans are easy to get
       key: B
-      order: 1
     - content: Banks differentiate between potential borrowers
       key: C
-      order: 2
     - content: Banks charge low-interest rates
       key: D
-      order: 3
 - uuid: 8225cb91-1898-4dec-9c3c-ad1395cb2568
   type: SingleChoice
   content: How can someone access the world of DeFi?
@@ -379,16 +318,12 @@
   choices:
     - content: Using Bank accounts
       key: A
-      order: 0
     - content: Using Decentralised Applications
       key: B
-      order: 1
     - content: Using Email accounts
       key: C
-      order: 2
     - content: Currently it is inaccessible
       key: D
-      order: 3
 - uuid: 999e2228-4d0c-415a-b6e5-190b80318a12
   type: MultipleChoice
   content: Money transfer using banks is cumbersome because.....
@@ -404,16 +339,12 @@
   choices:
     - content: Fund transfer can take more than 2 days
       key: A
-      order: 0
     - content: Banks do not allow micro-transactions
       key: B
-      order: 1
     - content: Bank charges on fund transfer can be high
       key: C
-      order: 2
     - content: None of these
       key: D
-      order: 3
 - uuid: ea3013cc-512f-4e74-a748-18960bb4aedf
   type: SingleChoice
   content:  What is the current market penetration DeFi?
@@ -427,16 +358,12 @@
   choices:
     - content: 50 %
       key: A
-      order: 0
     - content: 10 %
       key: B
-      order: 1
     - content: 20 %
       key: C
-      order: 2
     - content: 5%
       key: D
-      order: 3
 - uuid: f6cd8990-9043-4554-9098-f2fab7ab1468
   type: SingleChoice
   content: When Decentralised finance came into existence?
@@ -448,18 +375,14 @@
     - "introduction-to-decentralised-finance"
   difficultyLevel: "Low"
   choices:
-    - content: 2004
+    - content: "2004"
       key: A
-      order: 0
-    - content: 2008
+    - content: "2008"
       key: B
-      order: 1
-    - content: 2010
+    - content: "2010"
       key: C
-      order: 2
-    - content: 2015
+    - content: "2015"
       key: D
-      order: 3
 - uuid: 7fcf3dfb-b72b-4c8c-b8fc-c629064c4827
   type: SingleChoice
   content: Majority of DeFi runs of which of the following?
@@ -473,16 +396,12 @@
   choices:
     - content: Bitcoin
       key: A
-      order: 0
     - content: DAOs
       key: B
-      order: 1
     - content: Ethereum
       key: C
-      order: 2
     - content: DogeCoin
       key: D
-      order: 3
 - uuid: 2ea36958-b3c0-42ed-b3a2-bbc90f430731
   type: MultipleChoice
   content: DeFi can replace which of the following traditional processes?
@@ -498,16 +417,12 @@
   choices:
     - content: Money Transfers
       key: A
-      order: 0
     - content: Lending and Borrowing
       key: B
-      order: 1
     - content: Trading insurances
       key: C
-      order: 2
     - content: None of the above
       key: D
-      order: 3
 - uuid: 180372da-370f-43f5-bf0e-900c45cc247f
   type: MultipleChoice
   content: Why many people around the globe are unbanked?
@@ -522,16 +437,12 @@
   choices:
     - content: Not Enough banks available
       key: A
-      order: 0
     - content: Bank activities are time-consuming.
       key: B
-      order: 1
     - content: Lack of financial knowledge
       key: C
-      order: 2
     - content: People have a lack of money
       key: D
-      order: 3
 - uuid: 06436ae9-003c-4ead-b27b-3b31d914b61a
   type: SingleChoice
   content: Who made the world of DeFi efficient by employing smart contracts?
@@ -545,16 +456,12 @@
   choices:
     - content: Pavel Durov
       key: A
-      order: 0
     - content: Vitalik Buterin
       key: B
-      order: 1
     - content: Changpen Zhao
       key: C
-      order: 2
     - content: Brian Armstrong
       key: D
-      order: 3
 - uuid: 7a8c2e54-9345-498a-97d0-ab40cc5b6ba3
   type: SingleChoice
   content: What do Flash loans mean?
@@ -568,16 +475,12 @@
   choices:
     - content: Slow loan processing without collateral.
       key: A
-      order: 0
     - content: Instant loan processing with collateral
       key: B
-      order: 1
     - content: Slow loan processing with collateral.
       key: C
-      order: 2
     - content: Instant loan processing without collateral.
       key: D
-      order: 3
 - uuid: ea19d2c8-e65e-42a6-bf28-695b63850d0d
   type: SingleChoice
   content: Which of the following is a stablecoin?
@@ -591,16 +494,12 @@
   choices:
     - content: Bitcoin
       key: A
-      order: 0
     - content: Ethereum
       key: B
-      order: 1
     - content: USDC
       key: C
-      order: 2
     - content: DogeCoin
       key: D
-      order: 3
 - uuid: ad2d08f3-db8d-476d-bfd4-871d89b9a091
   type: SingleChoice
   content: What are flash loans attacks?
@@ -614,16 +513,12 @@
   choices:
     - content: Loan not repaid
       key: A
-      order: 0
     - content: Loan not sent to correct borrower
       key: B
-      order: 1
     - content: Borrower uses the loan amount to stake in different liquidity pools to earn a profit.
       key: C
-      order: 2
     - content: Insufficient balance to grant loan.
       key: D
-      order: 3
 - uuid: 128f147b-ae14-4259-9ad7-ba9c0730c276
   type: SingleChoice
   content: What provides stability to stablecoins?
@@ -637,16 +532,12 @@
   choices:
     - content: No body buys stablecoins hence they are stable.
       key: A
-      order: 0
     - content: They are not valuable assets.
       key: B
-      order: 1
     - content: Backed by a stable asset such as gold, USd or an algorithm.
       key: C
-      order: 2
     - content: None of the above
       key: D
-      order: 3
 - uuid: 5f6bf697-94eb-49fe-afcd-2df022fdf887
   type: SingleChoice
   content: Using DeFi, collateral is automatically received by the lender if the loan is not repaid.
@@ -658,12 +549,10 @@
     - "uses-of-decentralised-finance"
   difficultyLevel: "Low"
   choices:
-    - content: True
+    - content: "True"
       key: A
-      order: 0
-    - content: False
+    - content: "False"
       key: B
-      order: 1
 - uuid: 6fdee867-4639-4719-9118-a61ed38b5f67
   type: SingleChoice
   content: What makes DeFi technology stay up to date?
@@ -677,16 +566,12 @@
   choices:
     - content: DeFi is not easy to understand.
       key: A
-      order: 0
     - content: Not many people know about it.
       key: B
-      order: 1
     - content: It is open source and developers can fork it.
       key: C
-      order: 2
     - content: It is a new technology.
       key: D
-      order: 3
 - uuid: fb0840cf-d345-4d26-b6fd-221e6c32348c
   type: MultipleChoice
   content:  DeFi transactions are....
@@ -701,16 +586,12 @@
   choices:
     - content: Realtime
       key: A
-      order: 0
     - content: Transparent
       key: B
-      order: 1
     - content: Hidden
       key: C
-      order: 2
     - content: None of the above
       key: D
-      order: 3
 - uuid: d1fd9e89-a269-47ce-aa53-effbc2f8551d
   type: SingleChoice
   content: What is an Automated Market Maker?
@@ -724,16 +605,12 @@
   choices:
     - content: A protocol that automatically makes trades for a user
       key: A
-      order: 0
     - content: A system that ensures there is always enough liquidity to make trades
       key: B
-      order: 1
     - content: A code function that automatically lists new markets on an exchange
       key: C
-      order: 2
     - content: All of the above
       key: D
-      order: 3
 - uuid: b051f367-1e09-433e-870e-875c0c9c8ab8
   type: SingleChoice
   content: Which DeFi component is used for swapping and buying tokens?
@@ -747,16 +624,12 @@
   choices:
     - content: Smart contracts
       key: A
-      order: 0
     - content: Decentralised Exchanges
       key: B
-      order: 1
     - content: Stablecoins
       key: C
-      order: 2
     - content: One cannot lend or borrow using DeFi
       key: D
-      order: 3
 - uuid: b9c8e61d-6b3c-4235-8b4c-3b67e28c10a2
   type: SingleChoice
   content: Which one of the following is most popular Decentralised Exchanges?
@@ -770,16 +643,12 @@
   choices:
     - content: Paraswap
       key: A
-      order: 0
     - content: Uniswap
       key: B
-      order: 1
     - content: QuickSwap
       key: C
-      order: 2
     - content: Aave
       key: D
-      order: 3
 - uuid: 3472f3c4-5ddb-4a61-8025-65d67ee4a771
   type: SingleChoice
   content: How does the transparency of DeFi helps its consumers?
@@ -793,16 +662,12 @@
   choices:
     - content: Better understanding of internal systems.
       key: A
-      order: 0
     - content: No hidden charges.
       key: B
-      order: 1
     - content: No space for frauds.
       key: C
-      order: 2
     - content: All of the above
       key: D
-      order: 3
 - uuid: 44ccbfeb-cea7-4db4-99dc-373d562b3008
   type: SingleChoice
   content: Why is the running cost of DeFi lower compared to centralised systems?
@@ -816,16 +681,12 @@
   choices:
     - content: DeFi employs less number of workers.
       key: A
-      order: 0
     - content: DeFi is internet based thus no institutional setup.
       key: B
-      order: 1
     - content: Not large machines are used to run DeFi technology.
       key: C
-      order: 2
     - content: All of the above
       key: D
-      order: 3
 - uuid: 47267ec4-ad3a-440d-b1ba-5353003a1d5e
   type: MultipleChoice
   content: Why centralised systems will get outdated?
@@ -840,16 +701,12 @@
   choices:
     - content: People do not trust centralised finance.
       key: A
-      order: 0
     - content: Developers are not allowed to build on top of them.
       key: B
-      order: 1
     - content: Complete control lies in the hand of a few authorities.
       key: C
-      order: 2
     - content: They will never get outdated.
       key: D
-      order: 3
 - uuid: db6081e9-bc7a-4430-af57-cccd291dec2d
   type: SingleChoice
   content: Conversion of material assets into digital assets using DeFi is known as.....
@@ -863,16 +720,12 @@
   choices:
     - content: Digitization
       key: A
-      order: 0
     - content: Tokenization
       key: B
-      order: 1
     - content: Consensus Mechanism
       key: C
-      order: 2
     - content: None of the these
       key: D
-      order: 3
 - uuid: 66f8098a-3b77-458f-a7f8-6c951bd19343
   type: MultipleChoice
   content: How does tokenization empower DeFi?
@@ -888,16 +741,12 @@
   choices:
     - content: Material assets could be converted.
       key: A
-      order: 0
     - content: Lending and borrowing become easy.
       key: B
-      order: 1
     - content: Forgery of assets increases.
       key: C
-      order: 2
     - content: Assets become more secured.
       key: D
-      order: 3
 - uuid: 945a2feb-81db-46bb-8e33-9dcf95ce7307
   type: SingleChoice
   content:  What is the major issue involved in Smart Contracts?
@@ -911,16 +760,12 @@
   choices:
     - content: Smart contracts are not trustworthy.
       key: A
-      order: 0
     - content: It is difficult to code smart contracts.
       key: B
-      order: 1
     - content: The slightest flaw in code can lead to a loss of funds.
       key: C
-      order: 2
     - content: They are easy to hack.
       key: D
-      order: 3
 - uuid: df4273d6-ea88-45b0-90f1-c28d496dbb6e
   type: SingleChoice
   content: What is the current number of transactions that Ethereum can process per second?
@@ -932,18 +777,14 @@
     - "uses-of-decentralised-finance"
   difficultyLevel: "Medium"
   choices:
-    - content: 1000
+    - content: "1000"
       key: A
-      order: 0
-    - content: 110
+    - content: "110"
       key: B
-      order: 1
-    - content: 10,000
+    - content: "10,000"
       key: C
-      order: 2
-    - content: 15
+    - content: "15"
       key: D
-      order: 3
 - uuid: 163f7e64-856c-4238-890a-93afe3e3481a
   type: MultipleChoice
   content: Which of the following applications are used for lending and borrowing in DeFi?
@@ -958,16 +799,12 @@
   choices:
     - content: Uniswap
       key: A
-      order: 0
     - content: Aave
       key: B
-      order: 1
     - content: Kraken
       key: C
-      order: 1
     - content: Compoud
-      key: D
-      order: 1  
+      key: D  
 - uuid: 6459ff5b-03ad-421a-9ebe-9e85a230a7b2
   type: MultipleChoice
   content: What are the problems regarding the scalability of DeFi currently in Ethereum?
@@ -982,16 +819,12 @@
   choices:
     - content: Transactions take a long time to execute.
       key: A
-      order: 0
     - content: Lack of trust towards DeFi.
       key: B
-      order: 1
     - content: Transactions are expensive during congestion.
       key: C
-      order: 2
     - content: Inaccesibilty to internet.
       key: D
-      order: 3
 - uuid: dc3f705a-6d05-4344-86a1-75a597d09589
   type: MultipleChoice
   content: How does DeFi enhance liquidity of an asset?
@@ -1007,16 +840,12 @@
   choices:
     - content: Tokenization
       key: A
-      order: 0
     - content: Efficient lending and borrowing
       key: B
-      order: 1
     - content: Transfer without intermediaries
       key: C
-      order: 2
     - content: Makes asset more valuable
       key: D
-      order: 3
 - uuid: 61a66b4e-6864-4c63-90b6-5e457f8d0c95
   type: SingleChoice
   content: Why there is lack of trust on DeFi in the current scenario?
@@ -1030,16 +859,12 @@
   choices:
     - content: High transaction fees
       key: A
-      order: 0
     - content: Lack of clarity
       key: B
-      order: 1
     - content: Lack of insurance schemes
       key: C
-      order: 2
     - content: Lack of popularity
       key: D
-      order: 3
 - uuid: 6da20796-863f-49e1-af0e-332ce62d41fa
   type: SingleChoice
   content: Centralised finance favours the high net-worth individuals and has a biased approach which creates an inequality in the system.
@@ -1051,12 +876,10 @@
     - "centralised-vs-decentralised-finance"
   difficultyLevel: "Low"
   choices:
-    - content: True
+    - content: "True"
       key: A
-      order: 0
-    - content: False
+    - content: "False"
       key: B
-      order: 1
 - uuid: 12d93c50-1c61-4f80-9ada-97f76b8eab1a
   type: SingleChoice
   content: What is the most popular use of DeFi? 
@@ -1070,16 +893,12 @@
   choices:
     - content: Decentralised Exchanges
       key: A
-      order: 0
     - content: Sending NFTs
       key: B
-      order: 1
     - content: Submitting job applications and rentals
       key: C
-      order: 2
     - content: None of the above
       key: D
-      order: 3
 - uuid: cd152168-7ad7-4d34-b6f0-0797682ee35c
   type: SingleChoice
   content: In DeFi, staking rewards are generally paid in?
@@ -1093,16 +912,12 @@
   choices:
     - content: USDC
       key: A
-      order: 0
     - content: USDT
       key: B
-      order: 1
     - content: The cryptocurrency you are staking
       key: C
-      order: 2
     - content: All of the above
       key: D
-      order: 3
 - uuid: 85139b5a-282f-4f88-b4f8-e9f80544019b
   type: SingleChoice
   content: The main advantage of Decentralised Exchanges are?
@@ -1116,16 +931,12 @@
   choices:
     - content: Users own their private keys
       key: A
-      order: 0
     - content: Increased privacy due to lack of KYC
       key: B
-      order: 1
     - content: Large range of low cap alt coins
       key: C
-      order: 2
     - content: All of the above
       key: D
-      order: 3
 - uuid: 360586a5-8a95-4566-a31e-caa447f78545
   type: MultipleChoice
   content: Which of the following are ways to earn returns on crypto assets?
@@ -1139,13 +950,9 @@
   choices:
     - content: Farming
       key: A
-      order: 0
     - content: Swapping
       key: B
-      order: 1
     - content: Staking
       key: C
-      order: 2
     - content: All of the above
       key: D
-      order: 3

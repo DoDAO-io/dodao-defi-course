@@ -282,14 +282,14 @@ Sub Topics: crypto-exchange
 
 ##### Centralized exchanges do the market making by creating liquidity pools.  
 
-- [ ]  true
-- [x]  false
+- [ ]  True
+- [x]  False
   
 Hint: Order Book Model
          
 Explanation: Centralized Exchange follows Order Book Model whereas the DEX follows protocols(such as AMM) for creating the liquidity pools.
 
-Sub Topics: amm
+Sub Topics: automated-market-makers
  
 
 ---
@@ -305,7 +305,7 @@ Hint: NoHint
          
 Explanation: Liquidity Pools are created using a protocol(such as AMM) in DEX where liquidity providers come to fund the pools.
 
-Sub Topics: amm
+Sub Topics: automated-market-makers
  
 
 ---
@@ -321,7 +321,7 @@ Hint: NoHint
          
 Explanation: Automated Market Maker(AMM) is a protocol that creates the marketplace for buyers and sellers on its own.
 
-Sub Topics: amm
+Sub Topics: automated-market-makers
  
 
 ---
@@ -337,7 +337,7 @@ Hint: Protocol, Liquidity and Automated
          
 Explanation: AMM is a type of DEX protocol that relies on a mathematical formula that allows digital assets to be traded without permission, automatically by using liquidity pools instead of the traditional order book pricing model.
 
-Sub Topics: amm
+Sub Topics: automated-market-makers
  
 
 ---
@@ -353,7 +353,7 @@ Hint: X = K/Y
          
 Explanation: The ratio of assets X and Y set the price of the pool as the purchase of asset X increases the price of X and decreases the price of Y and vice-versa.
 
-Sub Topics: amm
+Sub Topics: automated-market-makers
  
 
 ---
@@ -369,7 +369,7 @@ Hint: Quick Liquidity, Ratio of X and Y set price and purchase of one affect oth
          
 Explanation: Asset X quantity * Asset Y quantity = K (a constant) or simply  X*Y=K. Hence, provides:- 1) Instant liquidity, irrespective of the trade size. 2) Purchase of asset X increases the price of X and decreases the price of Y. 3) The ratio of assets X and Y sets the price
 
-Sub Topics: amm
+Sub Topics: automated-market-makers
  
 
 ---
@@ -385,7 +385,7 @@ Hint: Impermanent Loss, High Slippage, Total fund loss
          
 Explanation: Cons as are:- 1) The danger of impermanent loss/coin De-Pegg may cause a total possible loss of funds in Liquidity Pools. 2) High slippage for low liquidity markets. So, please do observe and set your slippage tolerance threshold level while trading.
 
-Sub Topics: amm
+Sub Topics: automated-market-makers
  
 
 ---
@@ -401,7 +401,7 @@ Hint: No Order-Book, Less Gas fees
          
 Explanation: Pros of an AMM:-1) No Order Book Maintenance for traders but arbitrage is required for them. 2)A simple implementation of Constant Product AMM causes less computation which results in Low gas costs.
 
-Sub Topics: amm
+Sub Topics: automated-market-makers
  
 
 ---
@@ -413,11 +413,11 @@ Sub Topics: amm
 - [ ]  Exponential Product Automated Market Maker
 - [ ]  Linear Product Automated Market Maker
   
-Hint: CP
+Hint: The product should be the same
          
 Explanation: Uniswap uses the Constant Product AMM protocol which is as follows:- Asset `X` quantity * Asset `Y` quantity = `K` (a constant)  or simply as `X*Y=K`.
 
-Sub Topics: amm
+Sub Topics: automated-market-makers
  
 
 ---
@@ -433,7 +433,7 @@ Hint: Arbitrage
          
 Explanation: Arbitrage is an investment strategy in which an investor (a.k.a. Arbitrageurs) simultaneously buys and sells the same asset in different markets(either AMM or some other market) to profit from tiny differences in the asset's listed price
 
-Sub Topics: amm
+Sub Topics: automated-market-makers
  
 
 ---
@@ -504,8 +504,8 @@ Sub Topics: dex-traders
 
 ##### Flash loan and flash swap are the same  
 
-- [ ]  true
-- [x]  false
+- [ ]  True
+- [x]  False
   
 Hint: One is Loan and other is Exchanged value
          

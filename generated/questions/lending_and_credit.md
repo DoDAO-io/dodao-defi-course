@@ -79,7 +79,7 @@ Sub Topics: lending-intro
 - [ ]  Interest amount gained on the Principal
 - [ ]  Total value of debts
   
-Hint: Asset
+Hint: Asset for safety of bank
          
 Explanation: Collateral is an asset that serves as a security deposit on the debt taken.
 
@@ -314,8 +314,8 @@ Sub Topics: liquidation
 
 ##### Data suggests that Auction liquidations might be more lender-friendly. True or False?  
 
-- [ ]  true
-- [x]  false
+- [ ]  True
+- [x]  False
   
 Hint: Borrower
          
@@ -486,14 +486,14 @@ Sub Topics: flash-loans
 
 ---
 
-##### Some use cases of Flash Loans are-  
+##### Some use cases of Flash Loans are -  
 
 - [x]  Price Oracle Manipulation
 - [x]  Pump and Dump
 - [x]  Flash Minting
 - [ ]  None of the above
   
-Hint: all
+Hint: All seems to be valid
          
 Explanation: Price Oracle Manipulation, Pump and Dump, Flash Minting are some of the use cases of flash loans.
 
@@ -600,8 +600,8 @@ Sub Topics: borrowing-use-cases
 
 ##### In case of MakerDAO Dutch Auction, Collateral price decreases over time and anybody can get the collateral for free by accident. True of False?  
 
-- [ ]  true
-- [x]  false
+- [ ]  True
+- [x]  False
   
 Hint: liquidation spread
          

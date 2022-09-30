@@ -159,7 +159,6 @@
       key: C
     - content: None of the above
       key: D
-
 - uuid: 4f6e29dd-b146-4601-85b9-92c648310b15
   type: SingleChoice
   content: DEX stands for
@@ -341,12 +340,12 @@
   answerKeys:
     - B
   subTopics:
-    - amm
+    - automated-market-makers
   difficultyLevel: Low
   choices:
-    - content: True
+    - content: "True"
       key: A
-    - content: False
+    - content: "False"
       key: B
 - uuid: 8d588484-6241-4f3f-b72c-1fc53bf11cd3
   type: SingleChoice
@@ -356,7 +355,7 @@
   answerKeys:
     - A
   subTopics:
-    - amm
+    - automated-market-makers
   difficultyLevel: Low
   choices:
     - content: Liquidity Pools
@@ -375,7 +374,7 @@
   answerKeys:
     - B
   subTopics:
-    - amm
+    - automated-market-makers
   difficultyLevel: Low
   choices:
     - content: Automated Market Mover
@@ -394,7 +393,7 @@
   answerKeys:
     - D
   subTopics:
-    - amm
+    - automated-market-makers
   difficultyLevel: Medium
   choices:
     - content: A type of decentralized exchange protocol
@@ -413,7 +412,7 @@
   answerKeys:
     - A
   subTopics:
-    - amm
+    - automated-market-makers
   difficultyLevel: Low
   choices:
     - content: Purchase of asset X increases the price of X and decreases the price of Y
@@ -432,7 +431,7 @@
   answerKeys:
     - D
   subTopics:
-    - amm
+    - automated-market-makers
   difficultyLevel: Low
   choices:
     - content: Instant liquidity, irrespective of the trade size (assuming that trade size is always less than pool size).
@@ -453,7 +452,7 @@
     - C
     - D
   subTopics:
-    - amm
+    - automated-market-makers
   difficultyLevel: Low
   choices:
     - content: High slippage for low liquidity markets
@@ -473,7 +472,7 @@
     - A
     - D
   subTopics:
-    - amm
+    - automated-market-makers
   difficultyLevel: Low
   choices:
     - content: No Order Book Maintenance
@@ -487,12 +486,12 @@
 - uuid: 2b52089f-3e36-43a8-8244-a1f6547c8ef4
   type: SingleChoice
   content: Uniswap uses which of the following strategy?
-  hint: CP
+  hint: The product should be the same
   explanation: Uniswap uses the Constant Product AMM protocol which is as follows:- Asset `X` quantity * Asset `Y` quantity = `K` (a constant)  or simply as `X*Y=K`. 
   answerKeys:
     - B
   subTopics:
-    - amm
+    - automated-market-makers
   difficultyLevel: Low
   choices:
     - content: Positive Product Automated Market Maker
@@ -511,7 +510,7 @@
   answerKeys:
     - A
   subTopics:
-    - amm
+    - automated-market-makers
   difficultyLevel: Medium
   choices:
     - content: From the price difference of the same assets, let's say X and Y on different markets
@@ -609,9 +608,9 @@
     - dex-traders
   difficultyLevel: Low
   choices:
-    - content: True
+    - content: "True"
       key: A
-    - content: False
+    - content: "False"
       key: B
 - uuid: a7535235-ca11-4311-9a03-551c8d3dddf3
   type: SingleChoice
