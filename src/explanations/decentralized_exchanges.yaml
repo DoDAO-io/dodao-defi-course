@@ -53,7 +53,6 @@
       Naturally, for any blockchain transaction, you must pay a fee, even if you just want to cancel your order. Thus, fees are deducted in the form of Gas Fees for both successful and canceled orders so you might end up paying double the fees in case of cancellation (once for creating the order and again for canceling it).
       Even in this model, there is a slight risk of front-running the users by miner/trader/exchange operator.
 
-
 - title: Decentralized Exchange (DEX)
   shortTitle: DEX definition
   key: dex-definition
