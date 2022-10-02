@@ -37,6 +37,8 @@
       Almost every exchange uses order books to list orders for various assets such as equities, bonds, currencies, and even cryptocurrencies such as Bitcoin. These orders might be either manual or digital in nature.
       Some exchanges, called dark pools, have order books that aren't visible to the public.
 
+      ![Order Book](https://github.com/DoDAO-io/dodao-defi-course/blob/89865af46df4e3e877a8c216dd04b63c48ba23a2/images/1inch.png?raw=true)
+      `Reference: https://medium.com/stabletrade/understanding-order-books-orders-b297ea51acff`
       There are two types of CEX based on the order book model, there might be further ones but let's just discuss the two basic components here:
 
     ### Server Order Book model
@@ -83,14 +85,16 @@
       * Instant liquidity, irrespective of the trade size (assuming that trade size is always less than pool size).
       * Purchase of asset X increases the price of X and decreases the price of Y
       * The ratio of assets X and Y sets the price
+    ![Automated Market Maker](https://github.com/DoDAO-io/dodao-defi-course/blob/89865af46df4e3e877a8c216dd04b63c48ba23a2/images/amm.png?raw=true)
+    `Reference: https://berkeley-defi.github.io/assets/material/Updated%20Lecture%205%20Slides.pdf`
     Now, What is a Protocol?
     Protocols are basic sets of rules that allow data and cryptocurrencies to be shared securely between different nodes (i.e computers) in the blockchain network.
     - Pros of an AMM:
-        * No Order Book Maintenance for traders but arbitrage is required for them.
-        * A simple implementation of Constant Product AMM causes less computation which results in Low gas costs.
+      * No Order Book Maintenance for traders but arbitrage is required for them.
+      * A simple implementation of Constant Product AMM causes less computation which results in Low gas costs.
     - Cons of an AMM:
-        * The danger of Impermanent loss/Coin De-Pegg may cause a total possible loss of funds in Liquidity Pools.
-        * High slippage for low liquidity markets. So, please do observe and set your slippage tolerance threshold level while trading.
+      * The danger of Impermanent loss/Coin De-Pegg may cause a total possible loss of funds in Liquidity Pools.
+      * High slippage for low liquidity markets. So, please do observe and set your slippage tolerance threshold level while trading.
 
 - title: Liquidity Pool
   shortTitle: Liquidity Pool
@@ -100,6 +104,9 @@
     It ensures that buy and sell orders are carried out no matter the time of the day and at whatever price you want to trade without looking for any direct counterparty(as in the case of Order Book) as AMM ensures this. Hence, we won’t need to find a seller to buy a token. All that is needed is sufficient liquidity in the pool.
     When a token swap occurs, the AMM ensures that the price adjusts based on its algorithm. The algorithm ensures that there is always liquidity in the pool, no matter the trade size. 
     For eg: A liquidity pool is, by default, a 50:50 ratio of 2 coins. Let's say 50% dai (DAI) and 50% ether (ETH). When you buy DAI with ETH, the pools will start to lose DAI and get more ETH. The algorithm increases the price of dai and lowers the price of ether to keep the ratio regulated. The process is a self-regulated automated reaction to the market's needs.
+
+    ![Liquidity Pool](https://github.com/DoDAO-io/dodao-defi-course/blob/89865af46df4e3e877a8c216dd04b63c48ba23a2/images/liquidity-pool.png?raw=true)
+    `Reference: https://berkeley-defi.github.io/assets/material/Updated%20Lecture%205%20Slides.pdf`
 
 - title: Profit and Loss incurr by Liquidity Providers(LP) on AMM DEXs
   shortTitle: Liquidity Providers
@@ -120,6 +127,8 @@
     Impermanent loss basically means Not Permanent Loss. Impermanent Loss arises when the price ratio of an asset and liquidity pool changes. So, Liquidity Providers (LPs) who have deposited funds in affected pools automatically incur this loss. The larger the shift in the price ratio the larger the loss. However, this loss is called impermanent for a reason. As long as we do not withdraw deposited tokens at a time that the pool is experiencing a shift in price ratio it is still possible to mitigate the loss. This loss disappears when the prices of the tokens revert to the original value at which they were deposited. Those who withdraw funds before the prices revert suffer permanent losses. Nonetheless, it is possible to compensate the losses through income received by liquidity providers via Trading fees (i.e fees taken from traders during each trading transaction) and Liquidity mining reward (i.e reward given by the DEX in the form of its governance tokens or some other asset as interests).
     Finding a solution to impermanent loss is not simple but quite challenging. A potential solution is to change to bonding cuve (the curve that governs the amm liquidity).
     The image below provides an example of impermanent loss.
+    ![Impermanent Loss](https://github.com/DoDAO-io/dodao-defi-course/blob/89865af46df4e3e877a8c216dd04b63c48ba23a2/images/impermanent-loss.png?raw=true)
+    `Reference: https://berkeley-defi.github.io/assets/material/Updated%20Lecture%205%20Slides.pdf`
 
     ### Coin de-peg:
     De-pegging refers to the phenomenon of a stablecoin deviating or any asset deviating from its intended peg. For example: In the case of a stablecoin pegged to USD, if its value reduces below $1, then the coin is said to be “de-pegged” which indirectly reduces the valuation of investment to a Liquidity Pool by a Liquidity Provider.
@@ -134,7 +143,8 @@
     Naturally this requires to perform at least one transaction. So either you could only want to perform an arbitrage transaction on a single market but this is under the assumption that you already own some of the coins (Let’s say x and y) which you will swap and maybe you want to replenish your portfolio. But typically an arbitrage is done by having one transaction that either purchases an asset on one market and other sells the asset on another. These two actions are swap actions and they can be all done in a single transaction ideally. 
 
     Below is an pictorial example of arbitrage.
-
+    ![Arbitrage](https://github.com/DoDAO-io/dodao-defi-course/blob/89865af46df4e3e877a8c216dd04b63c48ba23a2/images/arbitrage.png?raw=true)
+    `Reference: https://berkeley-defi.github.io/assets/material/Updated%20Lecture%205%20Slides.pdf`
     ### Flash Swaps or Capital Free Arbitrage 
     Used in Uniswap, It allows us to withdraw up to the full reserves of any ERC20 token on Uniswap and execute arbitrary logic at no upfront cost, provided that by the end of the transaction you either:
     * Pay for the withdrawn ERC20 tokens with the corresponding pair tokens
@@ -146,7 +156,8 @@
     It occurs when the processing of large order volumes drives the prices of an asset up or down to mitigate this occurrence and this fluctuation of price is called volatility.
     In other words, Slippage is the difference between the expected price of an order and the price when the order executes. ( due to the volatility of cryptocurrency prices )
     For solving this illiquidity or slippage problem of the market we need liquidity which is provided by Liquidity Providers (or Market Makers) to make Liquidity Pools liquid again and this whole process is called Market Making.
-
+    ![Slippage](https://github.com/DoDAO-io/dodao-defi-course/blob/89865af46df4e3e877a8c216dd04b63c48ba23a2/images/slippage.png?raw=true)
+    `Reference: https://berkeley-defi.github.io/assets/material/Updated%20Lecture%205%20Slides.pdf`
           
 - title: DEX Aggregator
   shortTitle: Aggregator
@@ -160,11 +171,14 @@
     Off-chain Aggregators like 1inch, paraswap are websites where you can go and you have your browser wallet or your crypto wallet activated perform trades. They are quite flexible, that means you can perform trades across multiple chains efficiently instead of just a single chain. They are also very quick in determining the optimal trade. The disadvantage of such aggregators is that operators can front run users because the operator is a trusted third person here which is in the middle between the exchange and the user. The off chain aggregation is typically performed off-chain as the name suggests so the computation of the trait with the optimal parameters is not performed on chain and can therefore not always be optimal.
 
     Let's discuss about 1inch. The UI of of one inch is really beautifully verbose, you can see a lot of data, you can analyze which markets might be better, also choose to go directly to these websites right if you want to pay a less gas price for instance. So it's quite intuitive and flexible. For example to exchange Ether and DAI you input the amount that you would like to exchange so it will also show you a list of the various exchanges where you can perform this trade right. It actually explains you which route is taken for your swap. There might be more complicated routes that emerge depending on the swap that you're enacting. Your trade might also open up an arbitrage opportunity since you're you're swapping assets and you're changing liquidity on one exchange so there will be another market where there's an arbitrage opportunity created due to your swap.
-
+    ![1inch](https://github.com/DoDAO-io/dodao-defi-course/blob/89865af46df4e3e877a8c216dd04b63c48ba23a2/images/1inch.png?raw=true)
+    `Reference: https://berkeley-defi.github.io/assets/material/Updated%20Lecture%205%20Slides.pdf`
     ### On-chain Aggregators
     Then there are on-chain aggregators like swapswap is an example of this. They are much less famous at the moment than than off-chain aggregators but they do have some key advantages, for example, they allow you to perform atomic routing and arbitrage which is provably optimal on-chain. The smart contract basically does everything for the user and there is no middleman. There is basically a very small likelihood of being front run so it's technically a little bit safer however they don't scale as much as the off-chain variants so they're unlikely to efficiently cover many more exchanges in parallel like the off-chain aggregators.
 
     SwapSwap is a recent emerging on-chain aggregator which aggregates two DEXs so that's not much but it's a beginning so you have UniSwap and SushiSwap that's being aggregated. There's no particular UI change for the user so you have here a standard Uniswap UI. You do not really see at the moment like what financial advantages you get out of this aggregator but in theory you should get better prices than on Uniswap and Sushiswap since you're aggregating the liquidity together. The beautiful thing is that it basically routes a swap if the smart contract deems this to be profitable. So the smart contract will decide at execution time whether this should be now routed or not and it does perform arbitrage with flash loans so it does not leave money on the table. So if profitable it will create even a flash loan for you on the fly ,transparently, in the background and perform all this in the smart contract.
+    ![SwapSwap](https://github.com/DoDAO-io/dodao-defi-course/blob/89865af46df4e3e877a8c216dd04b63c48ba23a2/images/swapswap.png?raw=true)
+    `Reference: https://berkeley-defi.github.io/assets/material/Updated%20Lecture%205%20Slides.pdf`
 
     So next time you hit an exchange think about maybe visiting some aggregators, checking the prices there maybe they are cheaper maybe not and just try around a little bit too especially if you want to exchange larger amounts.
 
