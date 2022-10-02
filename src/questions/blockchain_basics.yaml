@@ -78,10 +78,10 @@
     - "introduction-to-blockchain"
   difficultyLevel: "Low"
   choices:
-    - content: True
+    - content: "True"
       key: A
       
-    - content: False
+    - content: "False"
       key: B
           
 - uuid: 505ebda8-92ba-4922-bd0f-32ebd145b922
@@ -163,10 +163,10 @@
     - "hashing"
   difficultyLevel: "Low"
   choices:
-    - content: True
+    - content: "True"
       key: A
       
-    - content: False
+    - content: "False"
       key: B
       
 - uuid: 120f4e3b-7bb6-4ea0-b860-7e7bfdcf5baa
@@ -296,10 +296,10 @@
     - "introduction-to-blockchain"
   difficultyLevel: "Medium"
   choices:
-    - content: True
+    - content: "True"
       key: A
       
-    - content: False
+    - content: "False"
       key: B
       
 - uuid: 552462b9-be2a-4d45-b3fd-665c86c799bc
@@ -642,10 +642,10 @@
     - "hashing"
   difficultyLevel: "Low"
   choices:
-    - content: True
+    - content: "True"
       key: A
       
-    - content: False
+    - content: "False"
       key: B
       
 - uuid: 8bc6e329-f119-430c-84a0-01aaf01433fe
@@ -707,10 +707,10 @@
     - "hashing"
   difficultyLevel: "Low"
   choices:
-    - content: True
+    - content: "True"
       key: A
       
-    - content: False
+    - content: "False"
       key: B
       
 - uuid: 62931245-5ab0-4884-8693-bd7a940ad89a
@@ -793,10 +793,10 @@
     - "introduction-to-blockchain"
   difficultyLevel: "Medium"
   choices:
-    - content: True
+    - content: "True"
       key: A
       
-    - content: False
+    - content: "False"
       key: B
       
 - uuid: e4a7d15b-48c8-43ae-b539-44238e7b2bec
@@ -833,10 +833,10 @@
     - "introduction-to-blockchain"
   difficultyLevel: "Low"
   choices:
-    - content: True
+    - content: "True"
       key: A
       
-    - content: False
+    - content: "False"
       key: B
       
 - uuid: 38ec68b2-1939-4bbd-9edb-d946fa429184
@@ -850,10 +850,10 @@
     - "hashing"
   difficultyLevel: "Low"
   choices:
-    - content: True
+    - content: "True"
       key: A
       
-    - content: False
+    - content: "False"
       key: B
       
 - uuid: f87a42d7-c154-4aea-814f-ca2237609723
@@ -913,10 +913,10 @@
     - "introduction-to-blockchain"
   difficultyLevel: "Low"
   choices:
-    - content: True
+    - content: "True"
       key: A
       
-    - content: False
+    - content: "False"
       key: B
       
 - uuid: 60398304-0ecc-4ae2-b56d-55396e29f5ff
@@ -976,16 +976,16 @@
     - "hashing"
   difficultyLevel: "High"
   choices:
-    - content: 256
+    - content: "256"
       key: A
       
-    - content: 512
+    - content: "512"
       key: B
       
-    - content: 1024
+    - content: "1024"
       key: C
       
-    - content: 1248
+    - content: "1248"
       key: D
       
 - uuid: 4bb51750-3bca-4669-a88b-03ad26e72b16
@@ -999,10 +999,10 @@
     - "hashing"
   difficultyLevel: "Medium"
   choices:
-    - content: True
+    - content: "True"
       key: A
       
-    - content: False
+    - content: "False"
       key: B
       
 - uuid: 3b2f90b4-32f7-4b8d-a338-09997e5ee46c
@@ -1085,15 +1085,15 @@
     - "hashing"
   difficultyLevel: "Medium"
   choices:
-    - content: 1024
+    - content: "1024"
       key: A
       
-    - content: 256
+    - content: "256"
       key: B
       
-    - content: 64
+    - content: "64"
       key: C
       
-    - content: 512
+    - content: "512"
       key: D
       

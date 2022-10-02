@@ -500,9 +500,9 @@
     - commodity-backed
   difficultyLevel: Low
   choices:
-    - content: True
+    - content: "True"
       key: A
-    - content: False
+    - content: "False"
       key: B
 - uuid: 90b28758-cb10-443d-a74e-f6417eccb0ed
   type: SingleChoice
@@ -526,7 +526,7 @@
 - uuid: 114eceae-c977-48d1-a60a-389c0b9f1e1d
   type: MultipleChoice
   content: Select the correct statement(s).
-  hint: safer
+  hint: It is safer
   explanation: Commodity-backed stablecoins are a digital representation of a valuable real-world asset. Because the value of these assets isn't nearly as volatile as that of fiat or cryptocurrencies, investing in commodity-backed stablecoins can be a safer route.
   answerKeys:
     - B
@@ -585,7 +585,7 @@
 - uuid: 8152931c-e79f-422f-80c3-6259c878257f
   type: SingleChoice
   content: What is the ratio in which one Tether Gold (XAUT) is pegged to one fine troy ounce of gold on a London Good Delivery bar?
-  hint: equal
+  hint: equal ratio
   explanation: Like Paxos Gold, one XAUt token is pegged 1:1 to the value of one fine troy ounce of gold on a London Good Delivery bar.
   answerKeys:
     - D
@@ -631,9 +631,9 @@
     - algorithmic
   difficultyLevel: Low
   choices:
-    - content: True
+    - content: "True"
       key: A
-    - content: False
+    - content: "False"
       key: B
 - uuid: e8a9fcfd-5250-4d7b-8314-3e5e480fdf63
   type: MultipleChoice
@@ -876,9 +876,9 @@
     - future
   difficultyLevel: Low
   choices:
-    - content: True
+    - content: "True"
       key: A
-    - content: False
+    - content: "False"
       key: B
 - uuid: 1db6ca66-0e1c-42fc-ab25-562b0383c885
   type: MultipleChoice

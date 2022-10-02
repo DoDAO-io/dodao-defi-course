@@ -4,7 +4,7 @@
   type: YoutubeVideo
   url: https://www.youtube.com/watch?v=htXEEVkiIJ0
   subTopics:
-    - "amm"
+    - "automated-market-makers"
   details: |
     This video explains
       - Market Making (or Process Of Providing Liquidity)

@@ -378,13 +378,13 @@
     - "miner-extractable-value"
   difficultyLevel: "Low"
   choices:
-    - content: 500
+    - content: "500"
       key: A
-    - content: 780
+    - content: "780"
       key: B
-    - content: 650
+    - content: "650"
       key: C
-    - content: 200
+    - content: "200"
       key: D
 - uuid: fbcfe72b-2cda-4f6c-ad38-1bfd5606d6ec
   type: SingleChoice

@@ -19,7 +19,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
   - Loss incur by Liquidity Providers (Impermanent Loss)
     
  
- Sub Topics: amm    
+ Sub Topics: automated-market-makers    
   **DEX Aggregators**
  
  [![DEX Aggregators](https://img.youtube.com/vi/hSxf4jAN7YQ/0.jpg)](https://www.youtube.com/watch?v=hSxf4jAN7YQ)     

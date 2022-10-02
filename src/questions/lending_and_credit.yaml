@@ -77,7 +77,7 @@
 - uuid: 751387e0-9e37-49d9-a461-faa069e24e2e
   type: SingleChoice
   content: What is a collateral?
-  hint: Asset
+  hint: Asset for safety of bank
   explanation: Collateral is an asset that serves as a security deposit on the debt taken.
   answerKeys:
     - B
@@ -372,9 +372,9 @@
     - "liquidation"
   difficultyLevel: Low
   choices:
-    - content: True
+    - content: "True"
       key: A
-    - content: False
+    - content: "False"
       key: B
 - uuid: 9205de45-66c4-4455-8d3a-63718403d151
   type: SingleChoice
@@ -576,8 +576,8 @@
       key: D
 - uuid: e68626ab-ada1-429e-b962-f6ed1fa0a3ad
   type: MultipleChoice
-  content: Some use cases of Flash Loans are-
-  hint: all 
+  content: Some use cases of Flash Loans are -
+  hint: All seems to be valid
   explanation: Price Oracle Manipulation, Pump and Dump, Flash Minting are some of the use cases of flash loans.
   answerKeys:
     - A
@@ -729,9 +729,9 @@
     - "liquidation-spread"
   difficultyLevel: Low
   choices:
-    - content: True
+    - content: "True"
       key: A
-    - content: False
+    - content: "False"
       key: B
 - uuid: cb76de3a-c5ce-4de5-99d3-d9cb96b73d64
   type: SingleChoice

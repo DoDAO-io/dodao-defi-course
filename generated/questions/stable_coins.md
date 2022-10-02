@@ -410,8 +410,8 @@ Sub Topics: commodity-backed
 
 ##### Commodity-backed stablecoin issuers hold equivalent values of physical commodities. True or False  
 
-- [x]  true
-- [ ]  false
+- [x]  True
+- [ ]  False
   
 Hint: NoHint
          
@@ -445,7 +445,7 @@ Sub Topics: commodity-backed
 - [x]  Commodity-backed stablecoins are a digital representation of a valuable real-world asset
 - [ ]  Commodity-backed stablecoins are not a digital representation of any real-world asset
   
-Hint: safer
+Hint: It is safer
          
 Explanation: Commodity-backed stablecoins are a digital representation of a valuable real-world asset. Because the value of these assets isn't nearly as volatile as that of fiat or cryptocurrencies, investing in commodity-backed stablecoins can be a safer route.
 
@@ -493,7 +493,7 @@ Sub Topics: commodity-backed
 - [ ]  10:1
 - [x]  1:1
   
-Hint: equal
+Hint: equal ratio
          
 Explanation: Like Paxos Gold, one XAUt token is pegged 1:1 to the value of one fine troy ounce of gold on a London Good Delivery bar.
 
@@ -520,8 +520,8 @@ Sub Topics: algorithmic
 
 ##### UST is an example of Algorithmic stablecoin. True or False?  
 
-- [x]  true
-- [ ]  false
+- [x]  True
+- [ ]  False
   
 Hint: NoHint
          
@@ -726,8 +726,8 @@ Sub Topics: future
 
 ##### Eurodollar deposits are regulated in the United States.  
 
-- [ ]  true
-- [x]  false
+- [ ]  True
+- [x]  False
   
 Hint: NoHint
          

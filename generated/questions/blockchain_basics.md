@@ -58,8 +58,8 @@ Sub Topics: introduction-to-blockchain
 
 ##### A block in Blockchain cannot have more than one parent block?  
 
-- [x]  true
-- [ ]  false
+- [x]  True
+- [ ]  False
   
 Hint: NoHint
          
@@ -119,8 +119,8 @@ Sub Topics: introduction-to-blockchain
 
 ##### Hashes can be used to make sure messages and files transmitted from sender to receiver are not tampered with during transit.  
 
-- [x]  true
-- [ ]  false
+- [x]  True
+- [ ]  False
   
 Hint: NoHint
          
@@ -213,8 +213,8 @@ Sub Topics: introduction-to-blockchain
 
 ##### Like every digital asset Bitcoin has the problem of “double spend”?  
 
-- [ ]  true
-- [x]  false
+- [ ]  True
+- [x]  False
   
 Hint: Double Spend means copying and reselling the same digital asset many number of times.
          
@@ -451,8 +451,8 @@ Sub Topics: introduction-to-blockchain
 
 ##### Cryptographic hashing can also be termed as encryption.  
 
-- [ ]  true
-- [x]  false
+- [ ]  True
+- [x]  False
   
 Hint: NoHint
          
@@ -497,8 +497,8 @@ Sub Topics: hashing
 
 ##### No matter how many times a data set (identical) is hashed the output remains the same.  
 
-- [x]  true
-- [ ]  false
+- [x]  True
+- [ ]  False
   
 Hint: NoHint
          
@@ -559,8 +559,8 @@ Sub Topics: hashing
 
 ##### Blockchains are called blockchains because the ledger is broken into smaller datasets or blocks. The last line of the block contains a cryptographic hash that is repeated as the first line of the next block thus serving as the “chain".  
 
-- [x]  true
-- [ ]  false
+- [x]  True
+- [ ]  False
   
 Hint: Basics of Blockchain
          
@@ -589,8 +589,8 @@ Sub Topics: hashing
 
 ##### Miners gather transactions, verify that the transactions are valid, hash the transactions (which happens very quickly) and post a new block.  
 
-- [x]  true
-- [ ]  false
+- [x]  True
+- [ ]  False
   
 Hint: NoHint
          
@@ -603,8 +603,8 @@ Sub Topics: introduction-to-blockchain
 
 ##### It is possible today, albeit very computationally challenging, to derive the private key associated with a public key.  
 
-- [ ]  true
-- [x]  false
+- [ ]  True
+- [x]  False
   
 Hint: NoHint
          
@@ -649,8 +649,8 @@ Sub Topics: hashing
 
 ##### Miners on the Ethereum blockchain can choose any transactions to add to their block. Thus, inevitably, they end up choosing those transactions that bid the highest fees.  
 
-- [x]  true
-- [ ]  false
+- [x]  True
+- [ ]  False
   
 Hint: Front Running
          
@@ -711,8 +711,8 @@ Sub Topics: hashing
 
 ##### A cryptographic hash function must be deterministic.  
 
-- [x]  true
-- [ ]  false
+- [x]  True
+- [ ]  False
   
 Hint: NoHint
          

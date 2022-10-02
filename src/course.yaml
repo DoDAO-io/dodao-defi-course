@@ -84,6 +84,7 @@ topics:
       * Swaps
       * Automated Market Makers
       * Loans
+    explanations: decentralized_exchanges.yaml
     readings: decentralized_exchanges.yaml
     summaries: decentralized_exchanges.yaml
     questions: decentralized_exchanges.yaml
@@ -125,6 +126,7 @@ topics:
       Details 
       * Why Stable Coins 
       * Different Type of stable coins
+    explanations: stable_coins.yaml
     readings: stable_coins.yaml
     summaries: stable_coins.yaml
     questions: stable_coins.yaml

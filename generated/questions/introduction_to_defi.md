@@ -217,8 +217,8 @@ Sub Topics: uses-of-decentralised-finance
 
 ##### Centralised Finance provides a transparent system to its customers.  
 
-- [ ]  true
-- [x]  false
+- [ ]  True
+- [x]  False
   
 Hint: Disadvantages of Centralised system
          
@@ -455,8 +455,8 @@ Sub Topics: uses-of-decentralised-finance
 
 ##### Using DeFi, collateral is automatically received by the lender if the loan is not repaid.  
 
-- [x]  true
-- [ ]  false
+- [x]  True
+- [ ]  False
   
 Hint: NoHint
          
@@ -725,8 +725,8 @@ Sub Topics: uses-of-decentralised-finance
 
 ##### Centralised finance favours the high net-worth individuals and has a biased approach which creates an inequality in the system.  
 
-- [x]  true
-- [ ]  false
+- [x]  True
+- [ ]  False
   
 Hint: NoHint
          

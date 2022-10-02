@@ -60,7 +60,7 @@
 
 - title: Automated Market Maker (AMM)
   shortTitle: AMM
-  key: amm
+  key: automated-market-makers
   details: |
     - Automated Market Maker (AMM):
       * AMM is a type of DEX protocol that relies on a mathematical formula that allows digital assets to be traded without permission, automatically by using liquidity pools instead of the traditional order book pricing model. This formula can vary with each protocol. For example, Uniswap uses the Constant Product AMM protocol which is as follows:-
