@@ -3,7 +3,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 
  ---
 
- ## DeFi 101 Course (work in progress)
+ ## DeFi 101 Course (In Progress)
  Decentralised Finance (DeFi) is the upcoming revolution in the world which would result in the complete transformation in the functioning of the finance sector using blockchain technology as its core.
 
  
