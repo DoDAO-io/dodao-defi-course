@@ -6,62 +6,155 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  ## Derivatives
  
  **Introduction to Derivatives**        
-- What are Derivatives ?
-  * Derivatives are one of the essential features of a mature financial system. As the name clearly suggests derivatives derive their value from something (asset).
-  * The price of the derivatives is the price of the underlying asset in the derivatives such as a stock, a bond, a commodity, an interest rate, a currency or a cryptocurrency.
-      
-- Uses of Derivatives
-  - Hedging
-    * A hedge is an investment that is made with the goal of lowering the risk of unfavourable changes in an asset's price. A hedge often entails taking an opposite or offsetting stake in a connected security.
-    * Hedging involves a trade-off between risk and reward; while it lowers possible danger, it also limits prospective gains.
-  
-  - Speculations
-    * Speculation, often known as speculative trading, is the act of engaging in a financial transaction that carries a considerable risk of losing value but also carries the hope of a sizable gain or other significant value. With speculation, the chance of a sizable gain or other form of compensation more than offsets the risk of loss.
-  
-  Hedging aims to lessen the risk, or volatility, associated with a security's price change as opposed to speculation, which entails seeking to profit from a security's price fluctuation.
-
-  By holding positions in an asset that are counter to those the investor currently has, hedging aims to reduce the volatility that is related to its price. Contrarily, the primary goal of speculating is to make money by placing bets on the future direction of an asset.
+- Derivatives are one of the essential features of a mature financial system. As the name clearly suggests derivatives derive their value from something (asset). The price of the derivatives is the price of the underlying asset in the derivatives such as a stock, a bond, a commodity, an interest rate, a currency or a cryptocurrency.
+- Some of the most common forms of derivatives that are present in the current financial system are forwards, futures, options and swaps. There are two main uses of derivatives: Hedging and Speculation.
+- Hedging
+  * Hedging allows the management of financial risks. To understand hedging consider an example of a farmer that primarily focuses on growing wheat. The wheat price can fluctuate throughout the year depending on the current demand and supply. As the farmer plant wheat, they are committed to it for the entire growing season which possesses a big risk in the case when the price of wheat is low when the harvest time comes. To accommodate this risk the farmer will sell short wheat futures contracts for the amount they predict to harvest. Gradually as the time of the harvest approaches the farmer will close their position and incur a profit or loss based on the current price of the wheat. If the price of wheat is lower compared to the anticipated price then the short position makes a profit that offsets the loss from selling the actual wheat whereas if the current price is higher then the short position will be at a loss but profit from selling the wheat offsets the loss. Thus it concludes that whatever the price of wheat the farmer could easily predict their payout.
+  * Yield farmers in the decentralised can also use hedging to offset a potential that can occur if the price of one of the tokens used for yield farming loses its value in relation to another token.
+- Speculations
+  * In a lot of financial instruments including derivatives, speculation can represent a significant amount of traded volume. This is because derivatives offer an easy exposure to particular assets that may be hard to access otherwise, for example, trading oil futures rather than oil barrels.
+  * Speculations can also provide easy access to leverage. A trader can purchase a call or a put option by providing only enough funds to cover the options premium and gain exposure to a significant amount of underlying assets. Speculators are important market participants as they provide liquidity to the market and allow people who actually need to buy a particular derivative to hedge the risk to easily enter and exit the market.
+  * Derivatives have a prolonged interesting history. From using clay tokens and fur letters to buy and sell agricultural commodities in medieval Europe to the establishment of the Chicago Board of Trade in 1848 -one of the world's oldest futures and options exchanges.
  
  **Derivatives Types**        
 Financial derivatives combine usually of 4 most important parameters - Futures, Options, Swaps and Forwards.
-
 - Forwards
-  * A forward contract is an agreement between two parties to buy or sell an asset at a predetermined price on a specific date in the future. It mostly serves hedging needs (insuring against price risk). 
-  *You could enter into a forward contract, for instance, if you are an onion farmer who is concerned about the volatility of onion prices. A contract to sell 100 kgs of onions to Arvind @ 40 per kg on 1/1/2018.
+  * An agreement to buy or sell an asset at a given price on a specific date in the future is known as a forward contract, which is frequently abbreviated to just "forward." In order to prevent price fluctuation, forward contracts can be utilised to lock in a set price. 
+  * A forward contract's buyer and seller each take on a position, with the buyer taking a long position and the seller taking a short position. The long position gains if the value of the underlying asset rises. The short position gains from a decline in the price of the underlying asset.
 
 - Futures
-  * A forward contract and futures are comparable. The distinction is that futures are standardised contracts to buy or sell an asset at a predetermined price in the future. Consequently, they are tradable on stock exchanges. 
-  * The cost of the underlying asset determines the futures' value. Futures can be used for speculation or hedging. Buying and selling an asset with the intention of making a profit is known as speculation.
-
+  *Futures are financial derivative contracts that bind parties to buy or sell an asset at a specified future time and price. Regardless of the market price at the date of expiration, the buyer or seller must buy or sell the underlying asset at the agreed-upon price. 
+  * A forward contract is an individual, flexible contract that settles at its conclusion and is traded over the counter. The parameters of a futures contract are standardised, and it is traded on an exchange where prices are settled every day until the contract's expiration.
 - Options
-  * Two different alternatives are available. The right to buy an asset at a predetermined price on or before a given date is provided by a call option. The exercise price is the agreed-upon amount. It should be mentioned that the holder has the choice not to purchase the asset. 
-  * The premium is what you pay to buy the option. It stands for the sum that the call option buyer must pay in exchange for the right, but not the responsibility, to exercise the option.
-
+  * Options are a type of derivative financial transaction in which two parties contractually agree to exchange an asset for cash at a given price ahead of a future date. An option grants its owner the choice to buy or sell a security at the exercise price, but the owner is not required to do so.
 - Swaps
-  * A contract known as a swap allows two parties to trade future cash flows for a specified period of time. An interest rate swap is the most typical kind of swap. Parties concur to trade interest rate payments in this. 
-  * Consider a loan that Bank A issued with a variable interest rate based on the market. Interest rates will change over time. A loan with a fixed interest rate has been made by Bank B. They are able to trade their interest payments through a contract.
+  * Through a derivative contract known as a swap, two parties can exchange the liabilities or cash flows from two various financial instruments. An interest rate swap is the most typical type of exchange. In general, swaps are not traded on exchanges or used by regular investors. Instead, swaps are specialised over-the-counter (OTC) contracts that are made to meet the interests of both parties and are typically made between businesses or financial organisations.
+
+Futures and Options are two most important type of financial derivatives because they are traded on exchange.
+ 
+ **Futures in Depth**        
+Futures are financial derivative contracts that bind parties to buy or sell an asset at a specified future date and price. Regardless of the market price at the date of expiration, the buyer or seller must buy or sell the underlying asset at the agreed-upon price.
+
+Physical commodities and financial instruments are examples of underlying assets. Futures contracts are standardised to make trading on a futures market easier and specify the quantity of the underlying asset. Futures can be utilised for trade speculation or hedging.
+
+Futures or Futures contracts have an expiration date and their price is known beforehand. These contracts are identified by their expiration month. For example, November futures will expire in the month of November.
+
+There are primarily 5 types of futures-
+
+1. `Commodity Futures` which consist of crude oil, wheat, natural gas etc.
+2. `Stock index future` with underlying assets such as the S&P 500 Index.
+3. `Currency futures` which represent British Pound and Euro
+4. `Precious Metals` such as gold or silver
+5. `U.S. treasury futures` with underlying bond and financial securities
+
+- Trading of Futures Contract  
+  Futures Contracts are a type of financial instrument through which a buyer can wager on the future price of a commodity or other security.
+
+  Futures contracts are created and regulated by exchanges. These exchanges are responsible for the standardisation of various parameters in these contracts. The Commodity Futures Trading Commission oversees futures markets (CFTC). In order to protect the integrity of futures market pricing, including prohibiting fraudulent activity and abusive trading methods, the CFTC is a government organisation that was established by Congress in 1974.
+
+
+- Hedging through futures
+  Futures can be used to hedge against price fluctuations in the underlying asset. In this instance, preventing losses from potentially negative price movements is the goal rather than engaging in speculation. Many businesses engage in hedging or, in certain situations, produce the underlying asset.
+
+
+- Speculation through futures
+  A trader can make predictions (speculate) about the course of a commodity's price using a futures contract. The trader would profit if a futures contract and the commodity's price rose to trade above the contract's starting price at expiration. The futures contract—the long position—would be sold at the current price before expiration, so completing the long position.
+
+- Buyer and Seller 
+
+  - Long Contract
+    Investors and businesses can also enter into long futures contracts to protect themselves against unfavourable price changes. A corporation can use a long hedge to fix the price at which it will buy a commodity in the future when it is required. They are required to carry out these tasks but are not given a choice.
+
+
+    Speculators buy futures when they anticipate price increases. They are just concerned with profiting from price fluctuations, therefore they don't necessarily need the actual commodity. A trader with a long futures contract may sell the contract in the market before it expires.
+
+
+    * `Prices rise`- The position holder is at a profit.
+    * `Prices fall`- The position holder is at a loss.
+
+  - Short Contract
+    When a trader first sells security with the purpose of later repurchasing or covering it at a lower price, they are creating a short, or short position. When a trader anticipates that the price of a security will drop in the near future, she may elect to short that security.
+
+
+    Only when the closing price is lower than the entry price is the short trade profitable. When the price rises above the price at which one has shorted, a loss would result. In a short trade, the stop loss is always set higher than the price at which the trade was initiated. In the futures market, the short position may be kept open overnight.
+
+
+    * `Prices rise`- The position holder is at a loss.
+    * `Prices fall`- The position holder is at a profit.  
+ 
+ **Options in Depth**        
+A derivative, or contract, is an option that grants the buyer the right , but not the obligation, to purchase or sell the underlying asset by a particular date (expiration date) at a particular price (strike price). Options can be classified in two types which are Call and Put Options.
+
+Options being as derivative are mostly used for hedging and speculations. It is very frequent that an investor who owns stocks buys or sells options on the exchange to hedge his investments in the underlying asset. Moreover options may be used as speculative investments.
+
+- Use Cases
+
+  - Hedging
+    An investor can purchase put options on a stock if they anticipate that specific equities in heir portfolio will lose value but do not want to permanently exit the trade. Profits from the put options will offset losses from the shares itself if the price of the stock does decrease.
+
+  - Speculation
+    An investor can buy calls or sell puts to profit from a gain in price if they anticipate the price of a security will increase. The investor's overall risk while purchasing call options is capped at the option premium. The amount of money they could make is theoretically limitless. It depends on how much the market price is higher than the option's strike price as well as the number of options the investor has.
+  
+  - Leverage
+    Options are essentially leveraged instruments since they enable investors to increase the possible upside profit by investing less money than would otherwise be necessary to trade the underlying asset. Therefore, you could theoretically spend $2,000 on a call contract with a strike price 10% higher than the current market price instead of spending $10,000 to acquire 100 shares of a $100 stock.
+
+  - Benefit from downside
+    In options market, a trader can benefit from the downside of the market by betting on “Put options” where the trader gets the right to sell (not obligation) the underlying asset.
+
+- Trading Options- Call Options
+
+  Option contracts are prepared by option writer known as granter or seller. An option writer is the one who sells an option and receives premium from the buyer in exchange, by opening a position. Options are of two types - “calls” and “puts”. With a “call” option the buyer gets the right to buy the underlying asset whereas from the “put” option the buyer gets the right to sell the underlying asset at a pre-decided price and on or before a pre-decided date.
+
+  - Buying Calls 
+    You can purchase a “call” option with less capital than the underlying asset if you believe the price of an asset will increase. In contrast, your losses are capped to the premium paid for the options and nothing more if the price instead declines. This strategy is adopted by traders who are bullish and confident about a particular stock, Exchange Traded Fund and want to minimise their risks.
+
+
+    A general equity option stock manages 100 shares of the underlying asset.
+
+  - Risk/Reward Analysis
+    In the view of a long call or call buying the trader has his/her losses limited only to the premium paid to the call seller. Whereas considering the profits , which can be unlimited because the underlying asset can rise upto any extent.
+
+- Trading Options- Put Options
+
+  - Buying Puts 
+    A put option gives the buyer the right to sell an underlying asset at a set price. This strategy is adopted by a trader who is bearish in nature and want to take less risk compared to short-selling.
+
+  - Risk/Reward Analysis
+    A long put's potential loss is capped at the premium for the options because the underlying price cannot go below zero, the position's potential profit is limited, but the put option amplifies the trader's return similarly to a long call option.
+
+
+- Buyer and seller
+
+  - Call Seller
+    A call seller is a person who executes the selling of a call option. This seller gets the premium paid by the call buyer during the betting on the contract. Call Seller receives this premium which is a fraction of the total lot size of the contract known as the token amount. The view of a call seller towards the market is not bullish i.e. they predict that the market stay stagnant or go bearish which means falls down the current level. For a call seller the profits are limited to the premium amount they received whereas the losses they might suffer are unlimited if the market rises above the exercise price. Moreover, they are obligated to sell the derivative in case the call buyer is willing to execute the option.
+
+  - Put Seller
+    A put seller is an individual who executes the buying of a put option. This seller , similar to previous , gets the premium by the put buyer during the betting of the contract. The view of a put seller towards the market is not bearish i.e. he/she wants that the market stays stagnant or go bullish which means rises above the current level. For a put seller the profits are limited to the premium amount they received from put buyer and the losses can maximise as the market prices soar above the exercise price. A put seller is obligated to buy when the put buyer wants to sell the derivative.
+
+  - Call Buyer
+    A call buyer is a person who executes the buying of a call option. This buyer has to pay the premium during the buying of a call contract.The motive behind buying a call option is that the buyer is bullish in nature i.e. he/she predicts that the market will rise in the upcoming time and his portfolio will gain profits. For a call buyer the profits are unlimited if the market keeps on rising above the exercise price whereas the losses only include the premium amount he paid to the call seller. A call buyer has the right to execute the buying but he/she is not obligated to do so.
+
+  - Put Buyer
+    A put buyer is the one who buys a put option to have the right to sell. This buyer pays a premium to the put seller during the buying of the contract. He/She buys a put option due to the bearish behaviour i.e. he/she predicts that the market wil fall in the upcoming times. For a put buyer the profits are unlimited because the rates may fall more than the exercise price but on the other hand the losses are limited to the premium he/she paid to the put seller for placing the contract. A put buyer has the right to sell the option but he/she is not obligated to do so.
  
  **Derivatives Protocols**        
-* Ever-expanding markets inevitably create their own derivatives markets, which may eventually grow to be orders of magnitude larger than their underlying markets.     
-*Due to the fact that, in contrast to traditional finance, decentralised derivatives can be generated by anybody in an entirely permissionless and open manner, many individuals in the decentralised finance field are quite optimistic about their potential.
-* There are various derivative protocols that are emerging in the decentralised finance space. Henceforth we are going to discuss Yield Protocol, Synthetix and others.
-
+- The total market of the derivatives is considered to be as high as one quadrillion dollars which is far more when compared stock market, bond markets or the merging cryptocurrency market. Ever-growing market naturally develops its own derivatives market that can end up being an order of magnitude bigger than its underlying market. This is the reason why many people in the decentralised finance space are extremely bullish on the potential of decentralised derivatives that in contrast to traditional finance can be created by anyone in a completely permissionless and open way. This in turn increases the rate of innovation that has been stagnating in traditional finance. There are various derivative protocols that are emerging in the decentralised finance space. Henceforth we are going to discuss Yield Protocol, Synthetix and others.
 - Yield Protocol
-  * A protocol for collateralized fixed-rate, fixed-term borrowing and lending called Yield Protocol is built on Ethereum. Yield employs a class of tokens known as fyTokens to accomplish its objectives (fixed yield tokens). 
-  * After a defined maturity date, fyTokens are Ethereum-based ERC-20 tokens that can be exchanged for an underlying asset. For instance, following the maturity date, you can exchange one fyDai token for one Dai.
-  * Yield is a crucial protocol that gives Ethereum access to fixed-rate goods. To build strong interest-bearing apps for investors, it can be strongly connected with protocols like MakerDAO and Compound. 
-  * As more traditional investors start using DeFi and their portfolios start to require these kinds of assets, the demand for fixed income components will increase.
+  * Yield Protocol proposes a derivative model for secured, zero-coupon bonds. This enables fixed-rate borrowing. Essentially, the protocol defines a yToken to be an ERC -20 (fungible) token that settles in some fixed quantity of a target asset at a specified date. The contract will specify that the tokens, which have the same expiry, target asset, collateral asset, and collateralization ratio, are fungible. 
+  * To understand the need for a fixed rate of borrowing let us consider an example.  Suppose you think that ETH is going to appreciate by 10% over the next year. So, what you can do is deposit your ETH into let's say maker and borrow DAI. and pay 3% in terms of an interest rate. So, if the ETH goes up by 10% you can do the mathematics that well. Your assets go up by 10%. You have borrowed and you need to pay 3%. So, you've got a profit of 7%. So that works so well the problem is that that rate that's 3% is not set in stone. They can change. And if that rate for example went to 10% then even if the maker goes up in value. You have to pay the 10% and you make nothing. Hence there is a need for a fixed rate of borrowing.
+  * The tokens are secured by the collateral asset and have a required maintenance collateralization ratio similar to, for example, MakerDAO and other DeFi platforms. If the collateral’s value dips below the maintenance requirement, the position can be liquidated by a keeper with some or all of the collateral sold to cover the debt.
+  * The Yield Protocol can be used to speculate on interest rates. There exist a few DAI derivative assets that represent a variable interest rate (Compound cDAI, Aave aDAI, Chai). One can imagine a seller of yDAI using one of these DAI derivative assets as collateral. The effect of this transaction is that the seller is paying the fixed rate on the yDAI while receiving the variable rate on the collateral. This is a bet that rates will increase. Likewise purchasing yDAI (of any collateral type) is a bet that variable rates will NOT increase beyond the fixed rate received.
+  * Yield is an important protocol that supplies fixed-rate products to Ethereum. It can be tightly integrated with protocols like MakerDAO and Compound to create robust interest-bearing applications for investors. Demand for fixed income components will grow as mainstream investors begin adopting DeFi with portfolios in need of these types of assets.
 
 - Synthetix
-  * On the Ethereum blockchain, synthetic assets can be issued via the Synthetix (SNX) protocol. Gold and silver-like synthetic commodities, synthetic cryptocurrencies, inverse synthetic cryptocurrencies, synthetic cryptocurrency indexes, and synthetic fiat currencies are all supported by Synthetix. The platform exposes non-blockchain-based assets to the cryptocurrency ecosystem, resulting in the development of a more developed financial market.
-  * A synthetic asset issuance protocol built on Ethereum is called Synthetix. Synthetic assets are financial instruments in the form of ERC-20 smart contracts known as "Synths," which track and give the returns of another asset without requiring you to retain that asset. 
-  * They are comparable to derivatives in traditional finance. On Kwenta, Synthetix's decentralised exchange, you can trade Synths, which include cryptocurrencies, indices, inverses, and physical assets like gold (DEX). The Synthetix Network Token (SNX), the company's native token, is utilised as collateral for issued Synths.
-
+  * Synthetix is one of the most important derivatives in the Defi space. Synthetix allows for the creating synthetix assets that track the price of their underlying assets. The protocol currently supports synthetic fiat currencies, cryptocurrencies and commodities that can be traded on trading platforms such as Kwenta, D hedge or paraswap.
+  * Synthetix model is based on a debt pool. In order to issue a particular synthetix asset, a user has to provide collateral in the form of the SNX token. The protocol is highly over collateralised at 500% this means that for each $500 SNX locked in the system only $100 worth synthetix assets can be issued. This is mainly to absorb any sharp price changes in the synthetix assets and the collateralization ratio will be most likely lowered in the future.
+  * Synthetix is one of the first DeFi projects leading the effort of moving to layer 2 in order to lower the gas fees and make the protocol more scalable. There is currently more than $1.8 Billion locked in the synthetix protocol, which is the biggest number across all the DeFi derivatives protocols by a wide margin.
 - UMA 
-  * A blockchain-based open-source protocol called UMA uses Ethereum (ETH). Anyone can create decentralised financial products—financial services that are available to everyone—using UMA. Also, the team's objective of establishing "universal market access" is where the protocol's name, UMA, originates.
-  * The UMA protocol, which is supported by the UMA token, enables users to create their own synthetic assets—digital tokens that simulate and track the value of any physical item. On the platform, these digital assets are also referred to as priceless financial contracts. According to the UMA protocol, decentralised financial contracts have the ability to remove all entry barriers for any financial market
+  * UMA is another protocol that enables the creation of synthetic assets. The main difference here is that UMA instead of highly overcollateralizing the protocol relies on the liquidators who are financially incentivized to find improperly collateralized positions and liquidate them.
+  * UMA’s model allows for creating priceless derivatives. This is because the model does not rely on price oracles. This in turn allows for adding a very long tail of synthetic assets that otherwise wouldn’t have a reliable price feed hence it wouldn’t be possible to create them in synthetix. There is currently over $63 Million of total value locked in UMA’s smart contracts.
   
 - Hegic
-  * In a trustless way, Hegic, a decentralised trading system built on the Ethereum blockchain, establishes, maintains, and settles Hedge contracts. The hedge contracts are on-chain contracts that resemble options and let traders sell their assets at a predetermined price at a later time. On the Hegic platform, option prices are automatically set lower than they are on centralised exchanges.
+  * Hegic is a relatively new DeFi project that allows for trading options in a non-custodial and permissionless way. Users can buy put or call options on ETH and BT. They can also become liquidity providers and sell ETH calls and put options. Three months after the launch Hegic had almost $100 million in total value locked in the protocol, a total cumulative options trading volume of around $168 million and generated over $3.5 Million in fees. Interestingly Hegic has been developed by a single anonymous developer which shows the power of DeFi whereas in contrast to traditional finance even a single person or a small group of people can build a useful financial product.
  
  
