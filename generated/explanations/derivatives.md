@@ -23,7 +23,7 @@ Financial derivatives combine usually of 4 most important parameters - Futures, 
   * A forward contract's buyer and seller each take on a position, with the buyer taking a long position and the seller taking a short position. The long position gains if the value of the underlying asset rises. The short position gains from a decline in the price of the underlying asset.
 
 - Futures
-  *Futures are financial derivative contracts that bind parties to buy or sell an asset at a specified future time and price. Regardless of the market price at the date of expiration, the buyer or seller must buy or sell the underlying asset at the agreed-upon price. 
+  * Futures are financial derivative contracts that bind parties to buy or sell an asset at a specified future time and price. Regardless of the market price at the date of expiration, the buyer or seller must buy or sell the underlying asset at the agreed-upon price. 
   * A forward contract is an individual, flexible contract that settles at its conclusion and is traded over the counter. The parameters of a futures contract are standardised, and it is traded on an exchange where prices are settled every day until the contract's expiration.
 - Options
   * Options are a type of derivative financial transaction in which two parties contractually agree to exchange an asset for cash at a given price ahead of a future date. An option grants its owner the choice to buy or sell a security at the exercise price, but the owner is not required to do so.
@@ -35,7 +35,9 @@ Futures and Options are two most important type of financial derivatives because
  **Futures in Depth**        
 Futures are financial derivative contracts that bind parties to buy or sell an asset at a specified future date and price. Regardless of the market price at the date of expiration, the buyer or seller must buy or sell the underlying asset at the agreed-upon price.
 
+
 Physical commodities and financial instruments are examples of underlying assets. Futures contracts are standardised to make trading on a futures market easier and specify the quantity of the underlying asset. Futures can be utilised for trade speculation or hedging.
+
 
 Futures or Futures contracts have an expiration date and their price is known beforehand. These contracts are identified by their expiration month. For example, November futures will expire in the month of November.
 
@@ -48,35 +50,35 @@ There are primarily 5 types of futures-
 5. `U.S. treasury futures` with underlying bond and financial securities
 
 - Trading of Futures Contract  
-  Futures Contracts are a type of financial instrument through which a buyer can wager on the future price of a commodity or other security.
+  * Futures Contracts are a type of financial instrument through which a buyer can wager on the future price of a commodity or other security.
 
-  Futures contracts are created and regulated by exchanges. These exchanges are responsible for the standardisation of various parameters in these contracts. The Commodity Futures Trading Commission oversees futures markets (CFTC). In order to protect the integrity of futures market pricing, including prohibiting fraudulent activity and abusive trading methods, the CFTC is a government organisation that was established by Congress in 1974.
+  * Futures contracts are created and regulated by exchanges. These exchanges are responsible for the standardisation of various parameters in these contracts. The Commodity Futures Trading Commission oversees futures markets (CFTC). In order to protect the integrity of futures market pricing, including prohibiting fraudulent activity and abusive trading methods, the CFTC is a government organisation that was established by Congress in 1974.
 
 
 - Hedging through futures
-  Futures can be used to hedge against price fluctuations in the underlying asset. In this instance, preventing losses from potentially negative price movements is the goal rather than engaging in speculation. Many businesses engage in hedging or, in certain situations, produce the underlying asset.
+  * Futures can be used to hedge against price fluctuations in the underlying asset. In this instance, preventing losses from potentially negative price movements is the goal rather than engaging in speculation. Many businesses engage in hedging or, in certain situations, produce the underlying asset.
 
 
 - Speculation through futures
-  A trader can make predictions (speculate) about the course of a commodity's price using a futures contract. The trader would profit if a futures contract and the commodity's price rose to trade above the contract's starting price at expiration. The futures contract—the long position—would be sold at the current price before expiration, so completing the long position.
+  * A trader can make predictions (speculate) about the course of a commodity's price using a futures contract. The trader would profit if a futures contract and the commodity's price rose to trade above the contract's starting price at expiration. The futures contract—the long position—would be sold at the current price before expiration, so completing the long position.
 
 - Buyer and Seller 
 
-  - Long Contract
-    Investors and businesses can also enter into long futures contracts to protect themselves against unfavourable price changes. A corporation can use a long hedge to fix the price at which it will buy a commodity in the future when it is required. They are required to carry out these tasks but are not given a choice.
+  - `Long Contract`
+    * Investors and businesses can also enter into long futures contracts to protect themselves against unfavourable price changes. A corporation can use a long hedge to fix the price at which it will buy a commodity in the future when it is required. They are required to carry out these tasks but are not given a choice.
 
 
-    Speculators buy futures when they anticipate price increases. They are just concerned with profiting from price fluctuations, therefore they don't necessarily need the actual commodity. A trader with a long futures contract may sell the contract in the market before it expires.
+    * Speculators buy futures when they anticipate price increases. They are just concerned with profiting from price fluctuations, therefore they don't necessarily need the actual commodity. A trader with a long futures contract may sell the contract in the market before it expires.
 
 
     * `Prices rise`- The position holder is at a profit.
     * `Prices fall`- The position holder is at a loss.
 
-  - Short Contract
-    When a trader first sells security with the purpose of later repurchasing or covering it at a lower price, they are creating a short, or short position. When a trader anticipates that the price of a security will drop in the near future, she may elect to short that security.
+  - `Short Contract`
+    * When a trader first sells security with the purpose of later repurchasing or covering it at a lower price, they are creating a short, or short position. When a trader anticipates that the price of a security will drop in the near future, she may elect to short that security.
 
 
-    Only when the closing price is lower than the entry price is the short trade profitable. When the price rises above the price at which one has shorted, a loss would result. In a short trade, the stop loss is always set higher than the price at which the trade was initiated. In the futures market, the short position may be kept open overnight.
+    * Only when the closing price is lower than the entry price is the short trade profitable. When the price rises above the price at which one has shorted, a loss would result. In a short trade, the stop loss is always set higher than the price at which the trade was initiated. In the futures market, the short position may be kept open overnight.
 
 
     * `Prices rise`- The position holder is at a loss.
@@ -85,57 +87,57 @@ There are primarily 5 types of futures-
  **Options in Depth**        
 A derivative, or contract, is an option that grants the buyer the right , but not the obligation, to purchase or sell the underlying asset by a particular date (expiration date) at a particular price (strike price). Options can be classified in two types which are Call and Put Options.
 
+
 Options being as derivative are mostly used for hedging and speculations. It is very frequent that an investor who owns stocks buys or sells options on the exchange to hedge his investments in the underlying asset. Moreover options may be used as speculative investments.
 
 - Use Cases
 
   - Hedging
-    An investor can purchase put options on a stock if they anticipate that specific equities in heir portfolio will lose value but do not want to permanently exit the trade. Profits from the put options will offset losses from the shares itself if the price of the stock does decrease.
+    * An investor can purchase put options on a stock if they anticipate that specific equities in heir portfolio will lose value but do not want to permanently exit the trade. Profits from the put options will offset losses from the shares itself if the price of the stock does decrease.
 
   - Speculation
-    An investor can buy calls or sell puts to profit from a gain in price if they anticipate the price of a security will increase. The investor's overall risk while purchasing call options is capped at the option premium. The amount of money they could make is theoretically limitless. It depends on how much the market price is higher than the option's strike price as well as the number of options the investor has.
+    * An investor can buy calls or sell puts to profit from a gain in price if they anticipate the price of a security will increase. The investor's overall risk while purchasing call options is capped at the option premium. The amount of money they could make is theoretically limitless. It depends on how much the market price is higher than the option's strike price as well as the number of options the investor has.
   
   - Leverage
-    Options are essentially leveraged instruments since they enable investors to increase the possible upside profit by investing less money than would otherwise be necessary to trade the underlying asset. Therefore, you could theoretically spend $2,000 on a call contract with a strike price 10% higher than the current market price instead of spending $10,000 to acquire 100 shares of a $100 stock.
+    * Options are essentially leveraged instruments since they enable investors to increase the possible upside profit by investing less money than would otherwise be necessary to trade the underlying asset. Therefore, you could theoretically spend $2,000 on a call contract with a strike price 10% higher than the current market price instead of spending $10,000 to acquire 100 shares of a $100 stock.
 
   - Benefit from downside
-    In options market, a trader can benefit from the downside of the market by betting on “Put options” where the trader gets the right to sell (not obligation) the underlying asset.
+    * In options market, a trader can benefit from the downside of the market by betting on “Put options” where the trader gets the right to sell (not obligation) the underlying asset.
 
 - Trading Options- Call Options
+  * Option contracts are prepared by option writer known as granter or seller. An option writer is the one who sells an option and receives premium from the buyer in exchange, by opening a position. Options are of two types - “calls” and “puts”. With a “call” option the buyer gets the right to buy the underlying asset whereas from the “put” option the buyer gets the right to sell the underlying asset at a pre-decided price and on or before a pre-decided date.
 
-  Option contracts are prepared by option writer known as granter or seller. An option writer is the one who sells an option and receives premium from the buyer in exchange, by opening a position. Options are of two types - “calls” and “puts”. With a “call” option the buyer gets the right to buy the underlying asset whereas from the “put” option the buyer gets the right to sell the underlying asset at a pre-decided price and on or before a pre-decided date.
-
-  - Buying Calls 
-    You can purchase a “call” option with less capital than the underlying asset if you believe the price of an asset will increase. In contrast, your losses are capped to the premium paid for the options and nothing more if the price instead declines. This strategy is adopted by traders who are bullish and confident about a particular stock, Exchange Traded Fund and want to minimise their risks.
+  - `Buying Calls` 
+    * You can purchase a “call” option with less capital than the underlying asset if you believe the price of an asset will increase. In contrast, your losses are capped to the premium paid for the options and nothing more if the price instead declines. This strategy is adopted by traders who are bullish and confident about a particular stock, Exchange Traded Fund and want to minimise their risks.
 
 
-    A general equity option stock manages 100 shares of the underlying asset.
+    * A general equity option stock manages 100 shares of the underlying asset.
 
-  - Risk/Reward Analysis
-    In the view of a long call or call buying the trader has his/her losses limited only to the premium paid to the call seller. Whereas considering the profits , which can be unlimited because the underlying asset can rise upto any extent.
+  - `Risk/Reward Analysis`
+    * In the view of a long call or call buying the trader has his/her losses limited only to the premium paid to the call seller. Whereas considering the profits , which can be unlimited because the underlying asset can rise upto any extent.
 
 - Trading Options- Put Options
 
-  - Buying Puts 
-    A put option gives the buyer the right to sell an underlying asset at a set price. This strategy is adopted by a trader who is bearish in nature and want to take less risk compared to short-selling.
+  - `Buying Puts` 
+    * A put option gives the buyer the right to sell an underlying asset at a set price. This strategy is adopted by a trader who is bearish in nature and want to take less risk compared to short-selling.
 
-  - Risk/Reward Analysis
-    A long put's potential loss is capped at the premium for the options because the underlying price cannot go below zero, the position's potential profit is limited, but the put option amplifies the trader's return similarly to a long call option.
+  - `Risk/Reward Analysis`
+    * A long put's potential loss is capped at the premium for the options because the underlying price cannot go below zero, the position's potential profit is limited, but the put option amplifies the trader's return similarly to a long call option.
 
 
 - Buyer and seller
 
-  - Call Seller
-    A call seller is a person who executes the selling of a call option. This seller gets the premium paid by the call buyer during the betting on the contract. Call Seller receives this premium which is a fraction of the total lot size of the contract known as the token amount. The view of a call seller towards the market is not bullish i.e. they predict that the market stay stagnant or go bearish which means falls down the current level. For a call seller the profits are limited to the premium amount they received whereas the losses they might suffer are unlimited if the market rises above the exercise price. Moreover, they are obligated to sell the derivative in case the call buyer is willing to execute the option.
+  - `Call Seller`
+    * A call seller is a person who executes the selling of a call option. This seller gets the premium paid by the call buyer during the betting on the contract. Call Seller receives this premium which is a fraction of the total lot size of the contract known as the token amount. The view of a call seller towards the market is not bullish i.e. they predict that the market stay stagnant or go bearish which means falls down the current level. For a call seller the profits are limited to the premium amount they received whereas the losses they might suffer are unlimited if the market rises above the exercise price. Moreover, they are obligated to sell the derivative in case the call buyer is willing to execute the option.
 
-  - Put Seller
-    A put seller is an individual who executes the buying of a put option. This seller , similar to previous , gets the premium by the put buyer during the betting of the contract. The view of a put seller towards the market is not bearish i.e. he/she wants that the market stays stagnant or go bullish which means rises above the current level. For a put seller the profits are limited to the premium amount they received from put buyer and the losses can maximise as the market prices soar above the exercise price. A put seller is obligated to buy when the put buyer wants to sell the derivative.
+  - `Put Seller`
+    * A put seller is an individual who executes the buying of a put option. This seller , similar to previous , gets the premium by the put buyer during the betting of the contract. The view of a put seller towards the market is not bearish i.e. he/she wants that the market stays stagnant or go bullish which means rises above the current level. For a put seller the profits are limited to the premium amount they received from put buyer and the losses can maximise as the market prices soar above the exercise price. A put seller is obligated to buy when the put buyer wants to sell the derivative.
 
-  - Call Buyer
-    A call buyer is a person who executes the buying of a call option. This buyer has to pay the premium during the buying of a call contract.The motive behind buying a call option is that the buyer is bullish in nature i.e. he/she predicts that the market will rise in the upcoming time and his portfolio will gain profits. For a call buyer the profits are unlimited if the market keeps on rising above the exercise price whereas the losses only include the premium amount he paid to the call seller. A call buyer has the right to execute the buying but he/she is not obligated to do so.
+  - `Call Buyer`
+    * A call buyer is a person who executes the buying of a call option. This buyer has to pay the premium during the buying of a call contract.The motive behind buying a call option is that the buyer is bullish in nature i.e. he/she predicts that the market will rise in the upcoming time and his portfolio will gain profits. For a call buyer the profits are unlimited if the market keeps on rising above the exercise price whereas the losses only include the premium amount he paid to the call seller. A call buyer has the right to execute the buying but he/she is not obligated to do so.
 
-  - Put Buyer
-    A put buyer is the one who buys a put option to have the right to sell. This buyer pays a premium to the put seller during the buying of the contract. He/She buys a put option due to the bearish behaviour i.e. he/she predicts that the market wil fall in the upcoming times. For a put buyer the profits are unlimited because the rates may fall more than the exercise price but on the other hand the losses are limited to the premium he/she paid to the put seller for placing the contract. A put buyer has the right to sell the option but he/she is not obligated to do so.
+  - `Put Buyer`
+    * A put buyer is the one who buys a put option to have the right to sell. This buyer pays a premium to the put seller during the buying of the contract. He/She buys a put option due to the bearish behaviour i.e. he/she predicts that the market wil fall in the upcoming times. For a put buyer the profits are unlimited because the rates may fall more than the exercise price but on the other hand the losses are limited to the premium he/she paid to the put seller for placing the contract. A put buyer has the right to sell the option but he/she is not obligated to do so.
  
  **Derivatives Protocols**        
 - The total market of the derivatives is considered to be as high as one quadrillion dollars which is far more when compared stock market, bond markets or the merging cryptocurrency market. Ever-growing market naturally develops its own derivatives market that can end up being an order of magnitude bigger than its underlying market. This is the reason why many people in the decentralised finance space are extremely bullish on the potential of decentralised derivatives that in contrast to traditional finance can be created by anyone in a completely permissionless and open way. This in turn increases the rate of innovation that has been stagnating in traditional finance. There are various derivative protocols that are emerging in the decentralised finance space. Henceforth we are going to discuss Yield Protocol, Synthetix and others.
