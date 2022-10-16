@@ -26,7 +26,7 @@
 
     - Forwards
       * A forward contract is an agreement between two parties to buy or sell an asset at a predetermined price on a specific date in the future. It mostly serves hedging needs (insuring against price risk). 
-      *You could enter into a forward contract, for instance, if you are an onion farmer who is concerned about the volatility of onion prices. A contract to sell 100 kgs of onions to Arvind @ 40 per kg on 1/1/2018.
+      * You could enter into a forward contract, for instance, if you are an onion farmer who is concerned about the volatility of onion prices. A contract to sell 100 kgs of onions to Arvind @ 40 per kg on 1/1/2018.
     
     - Futures
       * A forward contract and futures are comparable. The distinction is that futures are standardised contracts to buy or sell an asset at a predetermined price in the future. Consequently, they are tradable on stock exchanges. 
@@ -40,12 +40,116 @@
       * A contract known as a swap allows two parties to trade future cash flows for a specified period of time. An interest rate swap is the most typical kind of swap. Parties concur to trade interest rate payments in this. 
       * Consider a loan that Bank A issued with a variable interest rate based on the market. Interest rates will change over time. A loan with a fixed interest rate has been made by Bank B. They are able to trade their interest payments through a contract.
 
+    Futures and Options are two most important types of derivatives because they are traded on exchange.
+
+- title: Futures in Depth
+  shortTitle: Futures Detail
+  key: futures-depth
+  details: |
+    - Futures are financial derivative contracts that bind parties to buy or sell an asset at a specified future date and price. Regardless of the market price at the date of expiration, the buyer or seller must buy or sell the underlying asset at the agreed-upon price.
+
+    - Futures are of 5 types primarily- `Commodity Futures`, `Stock index future`, `Currency futures`, `Precious Metals`, `U.S. treasury futures`.
+
+    - Futures are traded through Futures contracts on exchanges.Futures Contracts are a type of financial instrument through which a buyer can wager on the future price of a commodity or other security.These exchanges are responsible for the standardisation of various parameters in these contracts. The Commodity Futures Trading Commission oversees futures markets (CFTC).
+
+    - Hedging through futures
+
+      * Futures can be used to hedge against price fluctuations in the underlying asset. This helps in lowering the risk of te investors.
+
+    - Speculation through futures
+
+      * A trader can make predictions (speculate) about the course of a commodity's price using a futures contract. The trader is at a profit position if the price of the contract rises above the contract price before expiration.
+    
+    - Buyer and Seller
+
+      - `Long Contract`
+        
+        * A trader buys a long contract (long position) with an prediction that the prices of the commodity rise above the current level and they are benefitted.
+
+        * `Prices rise`- The position holder is at a profit.
+
+        * `Prices fall`- The position holder is at a loss.
+      
+      - `Short Contract`
+
+        * A trader buys a short contract (long position) with an prediction that the prices of the commodity fall below the current level and they are benefitted.
+
+        * `Prices rise`- The position holder is at a loss.
+
+        * `Prices fall`- The position holder is at a profit.
+
+- title: Options in Depth
+  shortTitle: Options Detail
+  key: options-depth
+  details: |
+    - A derivative, or contract, is an option that grants the buyer the right , but not the obligation, to purchase or sell the underlying asset by a particular date (expiration date) at a particular price (strike price). Options can be classified in two types which are Call and Put Options.
+
+    - Use Cases
+      
+      - Hedging
+        
+        * An investor can purchase put options on a stock if they anticipate that specific equities in heir portfolio will lose value but do not want to permanently exit the trade.
+
+      - Speculation
+
+        * An investor can buy calls or sell puts to profit from a gain in price if they anticipate the price of a security will increase. The investor's overall risk while purchasing call options is capped at the option premium.
+
+      - Leverage
+
+        * Options are essentially leveraged instruments since they enable investors to increase the possible upside profit by investing less money than would otherwise be necessary to trade the underlying asset.
+
+      - Benefit from downside
+
+        * In options market, a trader can benefit from the downside of the market by betting on “Put options” where the trader gets the right to sell (not obligation) the underlying asset.
+
+    - Call Options
+
+      * You can purchase a “call” option with less capital than the underlying asset if you believe the price of an asset will increase.
+
+      * This strategy is adopted by traders who are bullish and confident about a particular stock, Exchange Traded Fund and want to minimise their risks.
+
+    - Put Options
+
+      * A put option gives the buyer the right to sell an underlying asset at a set price.
+
+      * This strategy is adopted by a trader who is bearish in nature and want to take less risk compared to short-selling.
+    
+    - Buyer and Seller
+
+      - Call Buyer
+
+        * Executes buying call option and pays the premium.
+        * These traders are bullish in nature.
+        * Profits are unlimited and losses are capped to the premium paid.
+        * A call buyer has the right to execute the buying but he/she is not obligated to do so.
+
+      - Call Seller
+
+        * Executes selling of call option and receives the premium.
+        * These traders are not bullish.
+        * Profits are limited to the premium and losses are unlimited.
+        * Moreover, they are obligated to sell the derivative in case the call buyer is willing to execute the option.
+
+      - Put Buyer
+
+        * Executes buying of a put option and pays the premium
+        * These traders are bearish.
+        * Profits are unlimited and losses are limited to the premium paid.
+        * A put buyer has the right to sell the option but he/she is not obligated to do so.
+
+      - Put Seller
+
+        * Executes selling of a put option and receives the premium
+        * These traders are not bearish.
+        * Profits are limited to the premium and losses are unlimited.
+        * A put seller is obligated to buy when the put buyer wants to sell the derivative.
+
 - title: Derivatives Protocols
   shortTitle: Derivatives Org
   key: protocols-in-derivatives
   details: |
     * Ever-expanding markets inevitably create their own derivatives markets, which may eventually grow to be orders of magnitude larger than their underlying markets.     
-    *Due to the fact that, in contrast to traditional finance, decentralised derivatives can be generated by anybody in an entirely permissionless and open manner, many individuals in the decentralised finance field are quite optimistic about their potential.
+    * Due to the fact that, in contrast to traditional finance, decentralised derivatives can be generated by anybody in an entirely permissionless and open manner, many individuals in the decentralised finance field are quite optimistic about their potential.
     * There are various derivative protocols that are emerging in the decentralised finance space. Henceforth we are going to discuss Yield Protocol, Synthetix and others.
 
     - Yield Protocol
