@@ -809,9 +809,9 @@
     - "protocols-in-derivatives"
   difficultyLevel: "Medium"
   choices:
-    - content: True
+    - content: "True"
       key: A
-    - content: False
+    - content: "False"
       key: B
 - uuid: e6eb31ec-766e-444e-9ca6-e4af43e239ef
   type: SingleChoice

@@ -681,8 +681,8 @@ Sub Topics: protocols-in-derivatives
 
 ##### Synthetix is over-collateralised to issue a synthetic asset.  
 
-- [x]  true
-- [ ]  false
+- [x]  True
+- [ ]  False
   
 Hint: NoHint
          
