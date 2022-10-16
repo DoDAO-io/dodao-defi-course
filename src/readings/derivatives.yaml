@@ -1,0 +1,67 @@
+- uuid: a33a6c0f-f82c-4f44-977f-062a7136758c
+  title: Introduction to Derivatives
+  shortTitle: Derivatives Intro
+  type: YoutubeVideo
+  url: https://www.youtube.com/watch?v=LRgWGsrzMAU&list=PL8uhW8cclMiMHOnFjx-k8ZneLuIDG2Rhc&index=3
+  subTopics:
+    - "introduction-to-derivatives"
+  details: |
+    This video enables learners to know about
+      * Definition of Derivatives
+      * Hedging and Speculation   
+      * Types of Derivatives
+
+- uuid: 4e602323-9e94-4213-9265-d4b5cb3914a2
+  title: Futures in Depth
+  shortTitle: Futures Detail
+  type: YoutubeVideo
+  url: https://www.youtube.com/watch?v=TC8b9bL0900
+  subTopics:
+    - "futures-depth"
+  details: |
+    This video enables learners to know about
+      * Futures Trading in deep 
+
+- uuid: b30ba14d-8b59-403b-8574-5120683435e8
+  title: Futures in Depth
+  shortTitle: Futures Detail
+  type: YoutubeVideo
+  url: https://www.youtube.com/watch?v=nNX51v-Ve5g
+  subTopics:
+    - "futures-depth"
+  details: |
+    This video enables learners to know about
+      * Basics of Futures 
+      * How does trade of futures happen on exchanges
+
+- uuid: 70323ff4-35eb-47f3-b8dc-56eeb9693398
+  title: Options in Depth
+  shortTitle: Options Detail
+  type: YoutubeVideo
+  url: https://www.youtube.com/watch?v=M86YwBWxygI&list=PL8uhW8cclMiMHOnFjx-k8ZneLuIDG2Rhc&index=2
+  subTopics:
+    - "options-depth"
+  details: |
+    This video enables learners to know about
+      * Basics of Options Trading 
+      * Call options
+
+- uuid: 3258fa00-9c66-4692-9a9c-4ab8be4d1148
+  title: Options in Depth
+  shortTitle: Options Detail
+  type: YoutubeVideo
+  url: https://www.youtube.com/watch?v=npjO-c4abBk&list=PL8uhW8cclMiMHOnFjx-k8ZneLuIDG2Rhc&index=5
+  subTopics:
+    - "options-depth"
+  details: |
+    This video enables learners to know about
+      * Put options Trading
+
+
+
+
+      
+
+   
+      
+
