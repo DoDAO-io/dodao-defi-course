@@ -98,9 +98,10 @@ topics:
       * Yield Protocol
       * dYdX
       * Synthetix
+    explanations: derivatives.yaml
     readings: blockchain_basics.yaml
-    summaries: blockchain_basics.yaml
-    questions: blockchain_basics.yaml
+    summaries: derivatives.yaml
+    questions: derivatives.yaml
     status: To Do
     completionWeek: First Week September
   - title: Tokenization

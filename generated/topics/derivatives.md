@@ -15,6 +15,6 @@ Details
 ## Links
 [Reading List](./../../generated/readings/blockchain_basics.md)
 
-[Summary](./../../generated/summaries/blockchain_basics.md)
+[Summary](./../../generated/summaries/derivatives.md)
 
-[Questions](./../../generated/questions/blockchain_basics.md)
+[Questions](./../../generated/questions/derivatives.md)
