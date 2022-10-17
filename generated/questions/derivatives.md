@@ -329,14 +329,14 @@ Sub Topics: types-of-derivatives
 
 ##### When a futures contract expires the price of the contract-  
 
-- [ ]  Equals to purchase price of contract
+- [x]  Equals to purchase price of contract
 - [ ]  Equals to mean price over the life of contract
-- [x]  Equals to the price of the underlying asset
+- [ ]  Equals to the price of the underlying asset
 - [ ]  None of the above
   
-Hint: Price of a derivative derives from its underlying asset
+Hint: Futures contract have a fixed price
          
-Explanation: When a futures contract expires its price equals to price of the underlying asset similar to any other derivative.
+Explanation: When a futures contract expires its price equals to price of contract that was agreed upon by the buyer and seller at the time of making of contract.
 
 Sub Topics: types-of-derivatives
  
@@ -352,7 +352,7 @@ Sub Topics: types-of-derivatives
   
 Hint: NoHint
          
-Explanation: Elimination of riskless profits opportunites in the futures marker is known as
+Explanation: Elimination of riskless profits opportunites in the futures marker is known as Arbitrage
 
 Sub Topics: types-of-derivatives
  

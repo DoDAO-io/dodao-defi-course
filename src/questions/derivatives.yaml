@@ -386,10 +386,10 @@
 - uuid: 8d57efe3-c473-4357-82de-7223db6cdb99
   type: SingleChoice
   content: When a futures contract expires the price of the contract-
-  hint: Price of a derivative derives from its underlying asset
-  explanation: When a futures contract expires its price equals to price of the underlying asset similar to any other derivative.
+  hint: Futures contract have a fixed price
+  explanation: When a futures contract expires its price equals to price of contract that was agreed upon by the buyer and seller at the time of making of contract.
   answerKeys:
-    - C
+    - A
   subTopics:
     - "types-of-derivatives"
   difficultyLevel: "Low"
@@ -406,7 +406,7 @@
   type: SingleChoice
   content: Removing any riskless profit opportunities in the futures market is known as-
   hint: NoHint
-  explanation: Elimination of riskless profits opportunites in the futures marker is known as 
+  explanation: Elimination of riskless profits opportunites in the futures marker is known as Arbitrage
   answerKeys:
     - B
   subTopics:
