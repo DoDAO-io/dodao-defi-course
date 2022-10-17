@@ -8,7 +8,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
  
 ---
 
-##### What determines the value of derivatives?  
+##### What primarily determines the value of derivatives?  
 
 - [ ]  Demand and Supply of derivative
 - [x]  An asset from which it derives its value
@@ -24,7 +24,7 @@ Sub Topics: introduction-to-derivatives
 
 ---
 
-##### Financial Derivatives consist of-  
+##### Which of the following is a financial derivative?  
 
 - [ ]  Stocks
 - [ ]  Bonds
@@ -40,7 +40,7 @@ Sub Topics: introduction-to-derivatives
 
 ---
 
-##### Porfolio Hedging is done by bank manager to-  
+##### Portfolio Hedging is done by bank manager to-  
 
 - [x]  Reduce interest rate risk.
 - [ ]  Increase reinvestment risk
@@ -49,7 +49,7 @@ Sub Topics: introduction-to-derivatives
   
 Hint: NoHint
          
-Explanation: Hedging is done primarily for reducing the interest rate risk.
+Explanation: Hedging is done for reducing the interest rate risk.
 
 Sub Topics: introduction-to-derivatives
  
@@ -81,7 +81,7 @@ Sub Topics: introduction-to-derivatives
   
 Hint: NoHint
          
-Explanation: Hedging risk for long position can be attained by taking a short position
+Explanation: Hedging risk for long position can be attained by taking a opposite position which reduces the exposure/risk. This opposite position can be a short position.
 
 Sub Topics: introduction-to-derivatives
  
@@ -92,7 +92,7 @@ Sub Topics: introduction-to-derivatives
 
 - [x]  Commodity
 - [x]  Bond
-- [ ]  IOU Document
+- [ ]  IOU (Investor Owned Utilities) Document
 - [x]  Stock
   
 Hint: NoHint
@@ -104,39 +104,39 @@ Sub Topics: introduction-to-derivatives
 
 ---
 
-##### When a bank manager hedges his portfolio by selling futures, he  
+##### When a bank manager hedges his portfolio in short position by selling futures, he  
 
-- [x]  losses his chances of gains
+- [ ]  losses his chances of gains
 - [x]  removes his loss chances
-- [ ]  increases his chances of gains
+- [x]  increases his chances of gains
 - [ ]  All of the above
   
 Hint: Hedging is used to reduce the risk of return
          
-Explanation: When someone hedges their portfolio by selling futures they remove up the opportunity for gains and the probability of loss.
+Explanation: When someone hedges their short position portfolio by selling futures they remove up the probability of loss and increase gain chances.
 
 Sub Topics: introduction-to-derivatives
  
 
 ---
 
-##### What are the advantages to hedge a portfolio?  
+##### In a Call option, the call buyer has scenario of ......... loss and ........ gains?  
 
-- [ ]  Maximise the gain chances
-- [x]  Minimise the risk chances
-- [ ]  Profit from capital gains
-- [ ]  All of the above
+- [ ]  Limited, Limited
+- [ ]  Unlimited, Unlimited
+- [ ]  Unlimited, Limited
+- [x]  Limited, Unlimited
   
 Hint: NoHint
          
-Explanation: Hedging is done to reduce the risk of a portfolio.
+Explanation: In a call buyer scenario, they have limited loss capped upto premium paid and unlimited profits depending upon how much the prices rise.
 
 Sub Topics: introduction-to-derivatives
  
 
 ---
 
-##### Which of the following contracts wants the investor to buy assets in future time period?  
+##### Which of the following contracts would the investor buy if he believes that the assets will increase in future time period?  
 
 - [ ]  Short
 - [ ]  Hedge
@@ -145,7 +145,7 @@ Sub Topics: introduction-to-derivatives
   
 Hint: NoHint
          
-Explanation: TO buy assets in future date the investor must use Long contracts.
+Explanation: To buy assets in future date the investor must use Long contracts.
 
 Sub Topics: introduction-to-derivatives
  
@@ -154,8 +154,8 @@ Sub Topics: introduction-to-derivatives
 
 ##### In a short contracts the investors  
 
-- [x]  Sell securities in future time
-- [ ]  Buy securities in future time
+- [x]  Predicts to sell securities in future time when prices go down
+- [ ]  Predicts to buy securities in future time when prices go up
 - [ ]  Future Hedge
 - [ ]  None of the above
   
@@ -170,14 +170,14 @@ Sub Topics: introduction-to-derivatives
 
 ##### What are Speculations in Derivative Market?  
 
-- [ ]  Choosing the best asset for investment
-- [ ]  Minimise risk by offsetting position
+- [x]  Choosing the best asset for investment
+- [x]  Minimise risk by choosing the best position to trade.
 - [x]  Use Market Fluctuations to gain profit
 - [ ]  None of the above
   
 Hint: NoHint
          
-Explanation: Speculations means using market fluctuations to gain profits in long term.
+Explanation: Speculation means choosing the best asset for investment by taking the accurate position in the market. These assets can be predicted by the fluctuations in the market.
 
 Sub Topics: introduction-to-derivatives
  
@@ -234,20 +234,20 @@ Sub Topics: types-of-derivatives
 ##### How are forward contracts better over futures?  
 
 - [ ]  They are standardised
-- [ ]  They have lower default risk
-- [ ]  They are more liquid
-- [x]  None of the above
+- [x]  They are private documents
+- [x]  They are customised documents
+- [ ]  None of the above
   
 Hint: Benefits of Forward and Futures contract
          
-Explanation: Forward and Futures contract are identical in temrns of standardisation, default risk and they are equally liquid as well.
+Explanation: Forward contracts are private and customised documents that are settled at the end of the contract. Whereas futures are traded on exchnages and they are fixed contracts once traded.
 
 Sub Topics: types-of-derivatives
  
 
 ---
 
-##### Futures are regularly traded on  
+##### Futures were firstly traded on-  
 
 - [x]  Chicago Board of Trade
 - [ ]  New York Stock Exchange
@@ -256,7 +256,7 @@ Sub Topics: types-of-derivatives
   
 Hint: NoHint
          
-Explanation: Chicago Board of Trade generally trades in futures contract.
+Explanation: Chicago Board of Trade was the first exchange where the futures contract were exchanged.
 
 Sub Topics: types-of-derivatives
  
@@ -279,7 +279,7 @@ Sub Topics: types-of-derivatives
 
 ---
 
-##### What happens to a bank that has perfectly hedged its portfolio during the time when interest rates fall in the futures market?  
+##### What happens to a bank that has perfectly hedged its portfolio during the time when contract prices fall in the futures market?  
 
 - [ ]  Gets a loss
 - [ ]  Gets a gain
@@ -288,7 +288,7 @@ Sub Topics: types-of-derivatives
   
 Hint: NoHint
          
-Explanation: During the time when interest rates fall in the futures market, perfectly hedged portfolios have no income change.
+Explanation: During the time when contractts prices fall in the futures market, perfectly hedged portfolios have no income change.
 
 Sub Topics: types-of-derivatives
  
@@ -311,7 +311,7 @@ Sub Topics: types-of-derivatives
 
 ---
 
-##### Parties who have bought a futures contract and thereby decided to ..... the bonds are said to have taken ....... position.?  
+##### Parties who have bought a futures contract and thereby decided to ..... (take delivery of ) the bonds are said to have taken ....... position.?  
 
 - [ ]  buy,short
 - [x]  buy,long

@@ -8032,7 +8032,7 @@
         {
           "uuid": "e0b6dff3-946e-4e8d-9f23-8728fbb37c2a",
           "type": "SingleChoice",
-          "content": "What determines the value of derivatives?",
+          "content": "What primarily determines the value of derivatives?",
           "hint": "NoHint",
           "explanation": "Derivatives derive their value from the underlying asset they are representing.",
           "answerKeys": [
@@ -8064,7 +8064,7 @@
         {
           "uuid": "ad7116fc-e76e-4e5b-b98f-55cea5c7e9e3",
           "type": "SingleChoice",
-          "content": "Financial Derivatives consist of-",
+          "content": "Which of the following is a financial derivative?",
           "hint": "NoHint",
           "explanation": "Financial Derivatives consist of Forwards, Futures, Options, Swaps",
           "answerKeys": [
@@ -8096,9 +8096,9 @@
         {
           "uuid": "16f39eef-f4d9-47dc-9c9d-2f3b34dea7f9",
           "type": "SingleChoice",
-          "content": "Porfolio Hedging is done by bank manager to-",
+          "content": "Portfolio Hedging is done by bank manager to-",
           "hint": "NoHint",
-          "explanation": "Hedging is done primarily for reducing the interest rate risk.",
+          "explanation": "Hedging is done for reducing the interest rate risk.",
           "answerKeys": [
             "A"
           ],
@@ -8162,7 +8162,7 @@
           "type": "SingleChoice",
           "content": "To hedge a risk for long position we should-",
           "hint": "NoHint",
-          "explanation": "Hedging risk for long position can be attained by taking a short position",
+          "explanation": "Hedging risk for long position can be attained by taking a opposite position which reduces the exposure/risk. This opposite position can be a short position.",
           "answerKeys": [
             "B"
           ],
@@ -8214,7 +8214,7 @@
               "key": "B"
             },
             {
-              "content": "IOU Document",
+              "content": "IOU (Investor Owned Utilities) Document",
               "key": "C"
             },
             {
@@ -8226,12 +8226,12 @@
         {
           "uuid": "84970ae5-4563-4404-9d8b-b59068386f25",
           "type": "MultipleChoice",
-          "content": "When a bank manager hedges his portfolio by selling futures, he",
+          "content": "When a bank manager hedges his portfolio in short position by selling futures, he",
           "hint": "Hedging is used to reduce the risk of return",
-          "explanation": "When someone hedges their portfolio by selling futures they remove up the opportunity for gains and the probability of loss.",
+          "explanation": "When someone hedges their short position portfolio by selling futures they remove up the probability of loss and increase gain chances.",
           "answerKeys": [
-            "A",
-            "B"
+            "B",
+            "C"
           ],
           "subTopics": [
             "introduction-to-derivatives"
@@ -8259,11 +8259,11 @@
         {
           "uuid": "3531d44a-67df-4956-98b3-72b99c02daad",
           "type": "SingleChoice",
-          "content": "What are the advantages to hedge a portfolio?",
+          "content": "In a Call option, the call buyer has scenario of ......... loss and ........ gains?",
           "hint": "NoHint",
-          "explanation": "Hedging is done to reduce the risk of a portfolio.",
+          "explanation": "In a call buyer scenario, they have limited loss capped upto premium paid and unlimited profits depending upon how much the prices rise.",
           "answerKeys": [
-            "B"
+            "D"
           ],
           "subTopics": [
             "introduction-to-derivatives"
@@ -8271,19 +8271,19 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Maximise the gain chances",
+              "content": "Limited, Limited",
               "key": "A"
             },
             {
-              "content": "Minimise the risk chances",
+              "content": "Unlimited, Unlimited",
               "key": "B"
             },
             {
-              "content": "Profit from capital gains",
+              "content": "Unlimited, Limited",
               "key": "C"
             },
             {
-              "content": "All of the above",
+              "content": "Limited, Unlimited",
               "key": "D"
             }
           ]
@@ -8291,9 +8291,9 @@
         {
           "uuid": "e43c62c2-5cf4-4e77-bbb3-8901d01a1263",
           "type": "SingleChoice",
-          "content": "Which of the following contracts wants the investor to buy assets in future time period?",
+          "content": "Which of the following contracts would the investor buy if he believes that the assets will increase in future time period?",
           "hint": "NoHint",
-          "explanation": "TO buy assets in future date the investor must use Long contracts.",
+          "explanation": "To buy assets in future date the investor must use Long contracts.",
           "answerKeys": [
             "C"
           ],
@@ -8335,11 +8335,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Sell securities in future time",
+              "content": "Predicts to sell securities in future time when prices go down",
               "key": "A"
             },
             {
-              "content": "Buy securities in future time",
+              "content": "Predicts to buy securities in future time when prices go up",
               "key": "B"
             },
             {
@@ -8357,8 +8357,10 @@
           "type": "SingleChoice",
           "content": "What are Speculations in Derivative Market?",
           "hint": "NoHint",
-          "explanation": "Speculations means using market fluctuations to gain profits in long term.",
+          "explanation": "Speculation means choosing the best asset for investment by taking the accurate position in the market. These assets can be predicted by the fluctuations in the market.",
           "answerKeys": [
+            "A",
+            "B",
             "C"
           ],
           "subTopics": [
@@ -8371,7 +8373,7 @@
               "key": "A"
             },
             {
-              "content": "Minimise risk by offsetting position",
+              "content": "Minimise risk by choosing the best position to trade.",
               "key": "B"
             },
             {
@@ -8481,9 +8483,10 @@
           "type": "SingleChoice",
           "content": "How are forward contracts better over futures?",
           "hint": "Benefits of Forward and Futures contract",
-          "explanation": "Forward and Futures contract are identical in temrns of standardisation, default risk and they are equally liquid as well.",
+          "explanation": "Forward contracts are private and customised documents that are settled at the end of the contract. Whereas futures are traded on exchnages and they are fixed contracts once traded.",
           "answerKeys": [
-            "D"
+            "B",
+            "C"
           ],
           "subTopics": [
             "types-of-derivatives"
@@ -8495,11 +8498,11 @@
               "key": "A"
             },
             {
-              "content": "They have lower default risk",
+              "content": "They are private documents",
               "key": "B"
             },
             {
-              "content": "They are more liquid",
+              "content": "They are customised documents",
               "key": "C"
             },
             {
@@ -8511,9 +8514,9 @@
         {
           "uuid": "f4abb691-9853-425c-b241-f72cfebfa277",
           "type": "SingleChoice",
-          "content": "Futures are regularly traded on",
+          "content": "Futures were firstly traded on-",
           "hint": "NoHint",
-          "explanation": "Chicago Board of Trade generally trades in futures contract.",
+          "explanation": "Chicago Board of Trade was the first exchange where the futures contract were exchanged.",
           "answerKeys": [
             "A"
           ],
@@ -8576,9 +8579,9 @@
         {
           "uuid": "051125c0-74d8-463e-a23c-79d251a58c5a",
           "type": "SingleChoice",
-          "content": "What happens to a bank that has perfectly hedged its portfolio during the time when interest rates fall in the futures market?",
+          "content": "What happens to a bank that has perfectly hedged its portfolio during the time when contract prices fall in the futures market?",
           "hint": "NoHint",
-          "explanation": "During the time when interest rates fall in the futures market, perfectly hedged portfolios have no income change.",
+          "explanation": "During the time when contractts prices fall in the futures market, perfectly hedged portfolios have no income change.",
           "answerKeys": [
             "C"
           ],
@@ -8640,7 +8643,7 @@
         {
           "uuid": "f5d9ea8c-5621-4780-bdcd-855729a100ea",
           "type": "SingleChoice",
-          "content": "Parties who have bought a futures contract and thereby decided to ..... the bonds are said to have taken ....... position.?",
+          "content": "Parties who have bought a futures contract and thereby decided to ..... (take delivery of ) the bonds are said to have taken ....... position.?",
           "hint": "Buyers and their position in futures market",
           "explanation": "Buyers in the futures market when agree to buy the contract are said to take a long position.",
           "answerKeys": [
