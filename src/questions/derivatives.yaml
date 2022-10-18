@@ -423,11 +423,11 @@
       key: D
 - uuid: 41bd187e-f268-4f13-99d6-4e2e07ea33a3
   type: SingleChoice
-  content: If one sold a short contract on financial futures, one hopes that interest rates might 
+  content: If one sold a short contract on financial futures, one hopes that price of underlying asset might 
   hint: NoHint
-  explanation: When someone sells a short contract on financial futures, he hopes that interest rates might rise.
+  explanation: When someone sells a short contract on financial futures, he hopes that price of the underlying asset might fall.
   answerKeys:
-    - A
+    - B
   subTopics:
     - "types-of-derivatives"
   difficultyLevel: "Low"
@@ -442,22 +442,22 @@
       key: D
 - uuid: f95ce961-26dd-4163-82f1-198073428d39
   type: SingleChoice
-  content: Assume you are holding securities and have sold future contracts to hedge against interest rate risk. If interest rates soar then 
+  content: What do you mean by "Points" in Future Contracts?
   hint: NoHint
-  explanation: When you are holding securities and have sold future contract to hedge against the interest rates and the interest rates rise then the decrease in the value of the securities equals the increase in the value of the futures contracts.
+  explanation: A "Point" represents the smallest whole number price increment in the value of a futures contract.
   answerKeys:
     - B
   subTopics:
     - "types-of-derivatives"
   difficultyLevel: "High"
   choices:
-    - content: the increase in the value of the securities equals the decrease in the value of the futures contracts.
+    - content: Total increment in the value of the futures contract
       key: A
-    - content: the decrease in the value of the securities equals the increase in the value of the futures contracts.
+    - content: Smallest increment in the value of the future contract
       key: B
-    - content: the decrease in the value of the securities equals the increase in the value of the futures contracts.
+    - content: Current value of the Futures Contract
       key: C
-    - content: the decrease in the value of the securities equals the increase in the value of the futures contracts.
+    - content: None of the these
       key: D
 - uuid: 3d36ce91-c16d-4328-ba90-5e2a7549a732
   type: SingleChoice
@@ -518,22 +518,22 @@
       key: D
 - uuid: 8a6263bd-d9c9-4d55-8a83-2f75af6e4f92
   type: SingleChoice
-  content: Which of the following properties of futures contract do not enchance the liquidity of a futures contract?
-  hint: Futures contract have high liquidity due to standardisation and non-specifity towards any bonds.
-  explanation: Futures contracts are marked to the market daily but this does not affect their liquidity.
+  content: A long call option represents ....... nature of the trader?
+  hint: NoHint
+  explanation: A long call option represent the bullish nature of the trader because they bet that the price of the option will rise in the future time period.
   answerKeys:
-    - D
+    - B
   subTopics:
     - "types-of-derivatives"
   difficultyLevel: "High"
   choices:
-    - content: Standardized contracts
+    - content: Bearish
       key: A
-    - content: Traded up until maturity
+    - content: Bullish
       key: B
-    - content: Not tied to one specific type of bon
+    - content: Not Bearish
       key: C
-    - content: Marked to market daily
+    - content: Not Bullish
       key: D
 - uuid: cb77019d-1358-420a-bad1-e966c7cfaf2f
   type: SingleChoice

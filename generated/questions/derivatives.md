@@ -359,32 +359,32 @@ Sub Topics: types-of-derivatives
 
 ---
 
-##### If one sold a short contract on financial futures, one hopes that interest rates might  
+##### If one sold a short contract on financial futures, one hopes that price of underlying asset might  
 
-- [x]  Rise
-- [ ]  Fall
+- [ ]  Rise
+- [x]  Fall
 - [ ]  Are Stable
 - [ ]  Fluctuate
   
 Hint: NoHint
          
-Explanation: When someone sells a short contract on financial futures, he hopes that interest rates might rise.
+Explanation: When someone sells a short contract on financial futures, he hopes that price of the underlying asset might fall.
 
 Sub Topics: types-of-derivatives
  
 
 ---
 
-##### Assume you are holding securities and have sold future contracts to hedge against interest rate risk. If interest rates soar then  
+##### What do you mean by "Points" in Future Contracts?  
 
-- [ ]  the increase in the value of the securities equals the decrease in the value of the futures contracts.
-- [x]  the decrease in the value of the securities equals the increase in the value of the futures contracts.
-- [ ]  the decrease in the value of the securities equals the increase in the value of the futures contracts.
-- [ ]  the decrease in the value of the securities equals the increase in the value of the futures contracts.
+- [ ]  Total increment in the value of the futures contract
+- [x]  Smallest increment in the value of the future contract
+- [ ]  Current value of the Futures Contract
+- [ ]  None of the these
   
 Hint: NoHint
          
-Explanation: When you are holding securities and have sold future contract to hedge against the interest rates and the interest rates rise then the decrease in the value of the securities equals the increase in the value of the futures contracts.
+Explanation: A "Point" represents the smallest whole number price increment in the value of a futures contract.
 
 Sub Topics: types-of-derivatives
  
@@ -439,16 +439,16 @@ Sub Topics: types-of-derivatives
 
 ---
 
-##### Which of the following properties of futures contract do not enchance the liquidity of a futures contract?  
+##### A long call option represents ....... nature of the trader?  
 
-- [ ]  Standardized contracts
-- [ ]  Traded up until maturity
-- [ ]  Not tied to one specific type of bon
-- [x]  Marked to market daily
+- [ ]  Bearish
+- [x]  Bullish
+- [ ]  Not Bearish
+- [ ]  Not Bullish
   
-Hint: Futures contract have high liquidity due to standardisation and non-specifity towards any bonds.
+Hint: NoHint
          
-Explanation: Futures contracts are marked to the market daily but this does not affect their liquidity.
+Explanation: A long call option represent the bullish nature of the trader because they bet that the price of the option will rise in the future time period.
 
 Sub Topics: types-of-derivatives
  
