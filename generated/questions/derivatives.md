@@ -42,30 +42,14 @@ Sub Topics: introduction-to-derivatives
 
 ##### Portfolio Hedging is done by bank manager to-  
 
-- [x]  Reduce interest rate risk.
-- [ ]  Increase reinvestment risk
-- [ ]  Increase exchange rate risk.
-- [ ]  Increase the probability of gains.
+- [x]  Reduce price fluctuation risk
+- [ ]  Increase price fluctuation risk
+- [ ]  Increase default party risk.
+- [ ]  Decrease the probability of gains.
   
 Hint: NoHint
          
-Explanation: Hedging is done for reducing the interest rate risk.
-
-Sub Topics: introduction-to-derivatives
- 
-
----
-
-##### Payoffs in financial derivatives are connected to-  
-
-- [ ]  Securities that will be issued in the future.
-- [ ]  The volatility of interest rates.
-- [x]  Previously issued securities.
-- [ ]  Government standardising the return rates.
-  
-Hint: Financial derivatives are issued on the assets previously they are derived from.
-         
-Explanation: explanation
+Explanation: Hedging is done for reducing the price fluctuation risk i.e. they try to hedge against opposite nature of market as per their prediction.
 
 Sub Topics: introduction-to-derivatives
  
@@ -104,16 +88,15 @@ Sub Topics: introduction-to-derivatives
 
 ---
 
-##### When a bank manager hedges his portfolio in short position by selling futures, he  
+##### An options seller  
 
-- [ ]  losses his chances of gains
-- [x]  removes his loss chances
-- [x]  increases his chances of gains
-- [ ]  All of the above
+- [ ]  Pays the premium
+- [x]  Receives the premium
+- [ ]  No premium transaction takes place
   
-Hint: Hedging is used to reduce the risk of return
+Hint: NoHint
          
-Explanation: When someone hedges their short position portfolio by selling futures they remove up the probability of loss and increase gain chances.
+Explanation: An options seller is bound to receive the premium from a call buyer or a put buyer as a toekn money.
 
 Sub Topics: introduction-to-derivatives
  
@@ -152,10 +135,10 @@ Sub Topics: introduction-to-derivatives
 
 ---
 
-##### In a short contracts the investors  
+##### In a short contract the investors  
 
-- [x]  Predicts to sell securities in future time when prices go down
-- [ ]  Predicts to buy securities in future time when prices go up
+- [x]  Predicts to sell now and buy when the prices go down
+- [ ]  Predicts to buy now and sell when the prices go up
 - [ ]  Future Hedge
 - [ ]  None of the above
   
@@ -265,8 +248,8 @@ Sub Topics: types-of-derivatives
 
 ##### What are the effects to hedge on futures market?  
 
-- [x]  Reduces the gain chnaces
-- [x]  Reduce the loss chances
+- [x]  Reduces the gain
+- [x]  Reduce the loss
 - [ ]  High portfolio earning
 - [ ]  All of the above
   
@@ -327,23 +310,23 @@ Sub Topics: types-of-derivatives
 
 ---
 
-##### When a futures contract expires the price of the contract-  
+##### When a futures contract expires then-  
 
-- [x]  Equals to purchase price of contract
-- [ ]  Equals to mean price over the life of contract
-- [ ]  Equals to the price of the underlying asset
+- [x]  The asset is bought or sold at the price mentioned in the contract
+- [ ]  The asset is bought or sold at the mean price over the life of contract
+- [ ]  The asset is bought or sold at its current price
 - [ ]  None of the above
   
-Hint: Futures contract have a fixed price
+Hint: NoHint
          
-Explanation: When a futures contract expires its price equals to price of contract that was agreed upon by the buyer and seller at the time of making of contract.
+Explanation: When a futures contract expires, then the asset is bought or sold at the price mentioned in the contract.
 
 Sub Topics: types-of-derivatives
  
 
 ---
 
-##### Removing any riskless profit opportunities in the futures market is known as-  
+##### Executing any riskless profit opportunities in the futures market is known as-  
 
 - [ ]  Hedging
 - [x]  Arbitrage
@@ -352,7 +335,7 @@ Sub Topics: types-of-derivatives
   
 Hint: NoHint
          
-Explanation: Elimination of riskless profits opportunites in the futures marker is known as Arbitrage
+Explanation: Execution of riskless profits opportunites in the futures marker is known as Arbitrage
 
 Sub Topics: types-of-derivatives
  
@@ -423,7 +406,7 @@ Sub Topics: types-of-derivatives
 
 ---
 
-##### The amount of outstanding futures contracts is known as-  
+##### The number of outstanding futures contracts is known as-  
 
 - [ ]  Liquidity
 - [ ]  Float
@@ -464,7 +447,7 @@ Sub Topics: types-of-derivatives
   
 Hint: NoHint
          
-Explanation: Option are contracts that give their purhasers the option to buy/sell the underlying asset.
+Explanation: Option are contracts that give their purchasers the option to buy/sell the underlying asset.
 
 Sub Topics: types-of-derivatives
  
@@ -503,7 +486,7 @@ Sub Topics: types-of-derivatives
 
 ---
 
-##### An option that allows the owner to sell an asset at a future time is a  
+##### An option that allows the owner to sell now and buy an asset later at a future time is a  
 
 - [x]  Put option
 - [ ]  Call Option
@@ -535,7 +518,7 @@ Sub Topics: types-of-derivatives
 
 ---
 
-##### An option that can be executed any time upto maturity is called  
+##### Type of option that can be executed any time upto maturity is called  
 
 - [ ]  Swap
 - [ ]  Stock Option
@@ -567,7 +550,7 @@ Sub Topics: types-of-derivatives
 
 ---
 
-##### Options that can only be executed on maturity is called-  
+##### Type of option that can only be executed on maturity is called-  
 
 - [ ]  Swap
 - [ ]  Stock Option
@@ -703,22 +686,6 @@ Sub Topics: protocols-in-derivatives
 Hint: NoHint
          
 Explanation: SNX token is used as collateral in the Synthetix protocol.
-
-Sub Topics: protocols-in-derivatives
- 
-
----
-
-##### What is the total value locked in Synthetix?  
-
-- [ ]  $ 350 Million
-- [x]  $ 240 Million
-- [ ]  $ 420 Million
-- [ ]  $ 200 Million
-  
-Hint: NoHint
-         
-Explanation: The TVL or total value locked in the Synthetix is ~ $ 240 Million.
 
 Sub Topics: protocols-in-derivatives
  

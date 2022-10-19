@@ -8098,7 +8098,7 @@
           "type": "SingleChoice",
           "content": "Portfolio Hedging is done by bank manager to-",
           "hint": "NoHint",
-          "explanation": "Hedging is done for reducing the interest rate risk.",
+          "explanation": "Hedging is done for reducing the price fluctuation risk i.e. they try to hedge against opposite nature of market as per their prediction.",
           "answerKeys": [
             "A"
           ],
@@ -8108,51 +8108,19 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "Reduce interest rate risk.",
+              "content": "Reduce price fluctuation risk",
               "key": "A"
             },
             {
-              "content": "Increase reinvestment risk",
+              "content": "Increase price fluctuation risk",
               "key": "B"
             },
             {
-              "content": "Increase exchange rate risk.",
+              "content": "Increase default party risk.",
               "key": "C"
             },
             {
-              "content": "Increase the probability of gains.",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "b59e8a13-3f22-4b14-9f27-c9050ce63a62",
-          "type": "SingleChoice",
-          "content": "Payoffs in financial derivatives are connected to-",
-          "hint": "Financial derivatives are issued on the assets previously they are derived from.",
-          "explanation": "explanation",
-          "answerKeys": [
-            "C"
-          ],
-          "subTopics": [
-            "introduction-to-derivatives"
-          ],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "Securities that will be issued in the future.",
-              "key": "A"
-            },
-            {
-              "content": "The volatility of interest rates.",
-              "key": "B"
-            },
-            {
-              "content": "Previously issued securities.",
-              "key": "C"
-            },
-            {
-              "content": "Government standardising the return rates.",
+              "content": "Decrease the probability of gains.",
               "key": "D"
             }
           ]
@@ -8225,34 +8193,29 @@
         },
         {
           "uuid": "84970ae5-4563-4404-9d8b-b59068386f25",
-          "type": "MultipleChoice",
-          "content": "When a bank manager hedges his portfolio in short position by selling futures, he",
-          "hint": "Hedging is used to reduce the risk of return",
-          "explanation": "When someone hedges their short position portfolio by selling futures they remove up the probability of loss and increase gain chances.",
+          "type": "SingleChoice",
+          "content": "An options seller",
+          "hint": "NoHint",
+          "explanation": "An options seller is bound to receive the premium from a call buyer or a put buyer as a toekn money.",
           "answerKeys": [
-            "B",
-            "C"
+            "B"
           ],
           "subTopics": [
             "introduction-to-derivatives"
           ],
-          "difficultyLevel": "Medium",
+          "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "losses his chances of gains",
+              "content": "Pays the premium",
               "key": "A"
             },
             {
-              "content": "removes his loss chances",
+              "content": "Receives the premium",
               "key": "B"
             },
             {
-              "content": "increases his chances of gains",
+              "content": "No premium transaction takes place",
               "key": "C"
-            },
-            {
-              "content": "All of the above",
-              "key": "D"
             }
           ]
         },
@@ -8323,7 +8286,7 @@
         {
           "uuid": "df6a9359-acee-47a6-b0ec-c0969da19a41",
           "type": "SingleChoice",
-          "content": "In a short contracts the investors",
+          "content": "In a short contract the investors",
           "hint": "NoHint",
           "explanation": "explanation",
           "answerKeys": [
@@ -8335,11 +8298,11 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Predicts to sell securities in future time when prices go down",
+              "content": "Predicts to sell now and buy when the prices go down",
               "key": "A"
             },
             {
-              "content": "Predicts to buy securities in future time when prices go up",
+              "content": "Predicts to buy now and sell when the prices go up",
               "key": "B"
             },
             {
@@ -8559,11 +8522,11 @@
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "Reduces the gain chnaces",
+              "content": "Reduces the gain",
               "key": "A"
             },
             {
-              "content": "Reduce the loss chances",
+              "content": "Reduce the loss",
               "key": "B"
             },
             {
@@ -8675,9 +8638,9 @@
         {
           "uuid": "8d57efe3-c473-4357-82de-7223db6cdb99",
           "type": "SingleChoice",
-          "content": "When a futures contract expires the price of the contract-",
-          "hint": "Futures contract have a fixed price",
-          "explanation": "When a futures contract expires its price equals to price of contract that was agreed upon by the buyer and seller at the time of making of contract.",
+          "content": "When a futures contract expires then-",
+          "hint": "NoHint",
+          "explanation": "When a futures contract expires, then the asset is bought or sold at the price mentioned in the contract.",
           "answerKeys": [
             "A"
           ],
@@ -8687,15 +8650,15 @@
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Equals to purchase price of contract",
+              "content": "The asset is bought or sold at the price mentioned in the contract",
               "key": "A"
             },
             {
-              "content": "Equals to mean price over the life of contract",
+              "content": "The asset is bought or sold at the mean price over the life of contract",
               "key": "B"
             },
             {
-              "content": "Equals to the price of the underlying asset",
+              "content": "The asset is bought or sold at its current price",
               "key": "C"
             },
             {
@@ -8707,9 +8670,9 @@
         {
           "uuid": "7e890197-fe94-4405-aadf-efcd102f94ff",
           "type": "SingleChoice",
-          "content": "Removing any riskless profit opportunities in the futures market is known as-",
+          "content": "Executing any riskless profit opportunities in the futures market is known as-",
           "hint": "NoHint",
-          "explanation": "Elimination of riskless profits opportunites in the futures marker is known as Arbitrage",
+          "explanation": "Execution of riskless profits opportunites in the futures marker is known as Arbitrage",
           "answerKeys": [
             "B"
           ],
@@ -8867,7 +8830,7 @@
         {
           "uuid": "490d9314-dc38-4d25-900e-36d1c52816fe",
           "type": "SingleChoice",
-          "content": "The amount of outstanding futures contracts is known as-",
+          "content": "The number of outstanding futures contracts is known as-",
           "hint": "NoHint",
           "explanation": "The number of outstanding futures contracts is known as open interest.",
           "answerKeys": [
@@ -8933,7 +8896,7 @@
           "type": "SingleChoice",
           "content": "Option contracts give the purchasers the-",
           "hint": "NoHint",
-          "explanation": "Option are contracts that give their purhasers the option to buy/sell the underlying asset.",
+          "explanation": "Option are contracts that give their purchasers the option to buy/sell the underlying asset.",
           "answerKeys": [
             "A"
           ],
@@ -9027,7 +8990,7 @@
         {
           "uuid": "f7b24b32-b7ef-4f2e-8b34-992d6690582c",
           "type": "SingleChoice",
-          "content": "An option that allows the owner to sell an asset at a future time is a",
+          "content": "An option that allows the owner to sell now and buy an asset later at a future time is a",
           "hint": "NoHint",
           "explanation": "Put Option allows the owner to sell an asset at a future date.",
           "answerKeys": [
@@ -9091,7 +9054,7 @@
         {
           "uuid": "663713ba-03af-4cf1-904b-7e3790289740",
           "type": "SingleChoice",
-          "content": "An option that can be executed any time upto maturity is called",
+          "content": "Type of option that can be executed any time upto maturity is called",
           "hint": "NoHint",
           "explanation": "American Option can be executed any time upto maturity.",
           "answerKeys": [
@@ -9155,7 +9118,7 @@
         {
           "uuid": "8bf31665-8afd-46de-af73-3d4755f90069",
           "type": "SingleChoice",
-          "content": "Options that can only be executed on maturity is called-",
+          "content": "Type of option that can only be executed on maturity is called-",
           "hint": "NoHint",
           "explanation": "European Option can be executed only at maturity.",
           "answerKeys": [
@@ -9428,38 +9391,6 @@
             },
             {
               "content": "SYX token",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "98dc4273-ede6-4a04-8a63-1adb4bf07436",
-          "type": "SingleChoice",
-          "content": "What is the total value locked in Synthetix?",
-          "hint": "NoHint",
-          "explanation": "The TVL or total value locked in the Synthetix is ~ $ 240 Million.",
-          "answerKeys": [
-            "B"
-          ],
-          "subTopics": [
-            "protocols-in-derivatives"
-          ],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "$ 350 Million",
-              "key": "A"
-            },
-            {
-              "content": "$ 240 Million",
-              "key": "B"
-            },
-            {
-              "content": "$ 420 Million",
-              "key": "C"
-            },
-            {
-              "content": "$ 200 Million",
               "key": "D"
             }
           ]
