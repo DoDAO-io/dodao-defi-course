@@ -7996,32 +7996,95 @@
       "key": "derivatives",
       "details": "This chapter explains the popular derivatives protocols and provides insights into Yield Protocol and Synthetix.\nDetails \n* Yield Protocol\n* dYdX\n* Synthetix\n",
       "order": 5,
-      "explanations": [],
+      "explanations": [
+        {
+          "title": "Introduction to Derivatives",
+          "shortTitle": "Derivatives Intro",
+          "key": "introduction-to-derivatives",
+          "details": "- Derivatives are one of the essential features of a mature financial system. As the name clearly suggests derivatives derive their value from something (asset). The price of the derivatives is the price of the underlying asset in the derivatives such as a stock, a bond, a commodity, an interest rate, a currency or a cryptocurrency.\n\n- Some of the most common forms of derivatives that are present in the current financial system are forwards, futures, options and swaps. There are two main uses of derivatives: Hedging and Speculation.\n\n- Hedging\n  * Hedging allows the management of financial risks. To understand hedging consider an example of a farmer that primarily focuses on growing wheat. The wheat price can fluctuate throughout the year depending on the current demand and supply. As the farmer plant wheat, they are committed to it for the entire growing season which possesses a big risk in the case when the price of wheat is low when the harvest time comes. To accommodate this risk the farmer will sell short wheat futures contracts for the amount they predict to harvest. Gradually as the time of the harvest approaches the farmer will close their position and incur a profit or loss based on the current price of the wheat. If the price of wheat is lower compared to the anticipated price then the short position makes a profit that offsets the loss from selling the actual wheat whereas if the current price is higher then the short position will be at a loss but profit from selling the wheat offsets the loss. Thus it concludes that whatever the price of wheat the farmer could easily predict their payout.\n\n  * Yield farmers in the decentralised can also use hedging to offset a potential that can occur if the price of one of the tokens used for yield farming loses its value in relation to another token.\n\n- Speculations\n  * In a lot of financial instruments including derivatives, speculation can represent a significant amount of traded volume. This is because derivatives offer an easy exposure to particular assets that may be hard to access otherwise, for example, trading oil futures rather than oil barrels.\n\n  * Speculations can also provide easy access to leverage. A trader can purchase a call or a put option by providing only enough funds to cover the options premium and gain exposure to a significant amount of underlying assets. Speculators are important market participants as they provide liquidity to the market and allow people who actually need to buy a particular derivative to hedge the risk to easily enter and exit the market.\n\n  * Derivatives have a prolonged interesting history. From using clay tokens and fur letters to buy and sell agricultural commodities in medieval Europe to the establishment of the Chicago Board of Trade in 1848 -one of the world's oldest futures and options exchanges.\n"
+        },
+        {
+          "title": "Derivatives Types",
+          "shortTitle": "Derivatives Types",
+          "key": "types-of-derivatives",
+          "details": "Financial derivatives combine usually of 4 most important parameters - Futures, Options, Swaps and Forwards.\n\n- Forwards\n\n  * An agreement to buy or sell an asset at a given price on a specific date in the future is known as a forward contract, which is frequently abbreviated to just \"forward.\" In order to prevent price fluctuation, forward contracts can be utilised to lock in a set price. \n\n  * A forward contract's buyer and seller each take on a position, with the buyer taking a long position and the seller taking a short position. The long position gains if the value of the underlying asset rises. The short position gains from a decline in the price of the underlying asset.\n\n- Futures\n  * Futures are financial derivative contracts that bind parties to buy or sell an asset at a specified future time and price. Regardless of the market price at the date of expiration, the buyer or seller must buy or sell the underlying asset at the agreed-upon price. \n\n  * A forward contract is an individual, flexible contract that settles at its conclusion and is traded over the counter. The parameters of a futures contract are standardised, and it is traded on an exchange where prices are settled every day until the contract's expiration.\n\n- Options\n\n  * Options are a type of derivative financial transaction in which two parties contractually agree to exchange an asset for cash at a given price ahead of a future date. An option grants its owner the choice to buy or sell a security at the exercise price, but the owner is not required to do so.\n\n- Swaps\n\n  * Through a derivative contract known as a swap, two parties can exchange the liabilities or cash flows from two various financial instruments. An interest rate swap is the most typical type of exchange. In general, swaps are not traded on exchanges or used by regular investors. Instead, swaps are specialised over-the-counter (OTC) contracts that are made to meet the interests of both parties and are typically made between businesses or financial organisations.\n\nFutures and Options are two most important type of financial derivatives because they are traded on exchange.\n"
+        },
+        {
+          "title": "Futures in Depth",
+          "shortTitle": "Futures Detail",
+          "key": "futures-depth",
+          "details": "- Futures are financial derivative contracts that bind parties to buy or sell an asset at a specified future date and price. Regardless of the market price at the date of expiration, the buyer or seller must buy or sell the underlying asset at the agreed-upon price.\n\n\n- Physical commodities and financial instruments are examples of underlying assets. Futures contracts are standardised to make trading on a futures market easier and specify the quantity of the underlying asset. Futures can be utilised for trade speculation or hedging.\n\n\n- Futures or Futures contracts have an expiration date and their price is known beforehand. These contracts are identified by their expiration month. For example, November futures will expire in the month of November.\n\n- There are primarily 5 types of futures-\n\n  1. `Commodity Futures` which consist of crude oil, wheat, natural gas etc.\n  2. `Stock index future` with underlying assets such as the S&P 500 Index.\n  3. `Currency futures` which represent British Pound and Euro\n  4. `Precious Metals` such as gold or silver\n  5. `U.S. treasury futures` with underlying bond and financial securities\n\n- Trading of Futures Contract  \n  * Futures Contracts are a type of financial instrument through which a buyer can wager on the future price of a commodity or other security.\n\n  * Futures contracts are created and regulated by exchanges. These exchanges are responsible for the standardisation of various parameters in these contracts. The Commodity Futures Trading Commission oversees futures markets (CFTC). In order to protect the integrity of futures market pricing, including prohibiting fraudulent activity and abusive trading methods, the CFTC is a government organisation that was established by Congress in 1974.\n\n\n- Hedging through futures\n\n  * Futures can be used to hedge against price fluctuations in the underlying asset. In this instance, preventing losses from potentially negative price movements is the goal rather than engaging in speculation. Many businesses engage in hedging or, in certain situations, produce the underlying asset.\n\n\n- Speculation through futures\n\n  * A trader can make predictions (speculate) about the course of a commodity's price using a futures contract. The trader would profit if a futures contract and the commodity's price rose to trade above the contract's starting price at expiration. The futures contract—the long position—would be sold at the current price before expiration, so completing the long position.\n\n- Buyer and Seller \n\n  - `Long Contract`\n    * Investors and businesses can also enter into long futures contracts to protect themselves against unfavourable price changes. A corporation can use a long hedge to fix the price at which it will buy a commodity in the future when it is required. They are required to carry out these tasks but are not given a choice.\n\n\n    * Speculators buy futures when they anticipate price increases. They are just concerned with profiting from price fluctuations, therefore they don't necessarily need the actual commodity. A trader with a long futures contract may sell the contract in the market before it expires.\n\n\n    * `Prices rise`- The position holder is at a profit.\n    * `Prices fall`- The position holder is at a loss.\n\n  - `Short Contract`\n    * When a trader first sells security with the purpose of later repurchasing or covering it at a lower price, they are creating a short, or short position. When a trader anticipates that the price of a security will drop in the near future, she may elect to short that security.\n\n\n    * Only when the closing price is lower than the entry price is the short trade profitable. When the price rises above the price at which one has shorted, a loss would result. In a short trade, the stop loss is always set higher than the price at which the trade was initiated. In the futures market, the short position may be kept open overnight.\n\n\n    * `Prices rise`- The position holder is at a loss.\n    * `Prices fall`- The position holder is at a profit.  \n"
+        },
+        {
+          "title": "Options in Depth",
+          "shortTitle": "Options Detail",
+          "key": "options-depth",
+          "details": "A derivative, or contract, is an option that grants the buyer the right , but not the obligation, to purchase or sell the underlying asset by a particular date (expiration date) at a particular price (strike price). Options can be classified in two types which are Call and Put Options.\n\n\nOptions being as derivative are mostly used for hedging and speculations. It is very frequent that an investor who owns stocks buys or sells options on the exchange to hedge his investments in the underlying asset. Moreover options may be used as speculative investments.\n\n- Use Cases\n\n  - Hedging\n    * An investor can purchase put options on a stock if they anticipate that specific equities in heir portfolio will lose value but do not want to permanently exit the trade. Profits from the put options will offset losses from the shares itself if the price of the stock does decrease.\n\n  - Speculation\n    * An investor can buy calls or sell puts to profit from a gain in price if they anticipate the price of a security will increase. The investor's overall risk while purchasing call options is capped at the option premium. The amount of money they could make is theoretically limitless. It depends on how much the market price is higher than the option's strike price as well as the number of options the investor has.\n  \n  - Leverage\n    * Options are essentially leveraged instruments since they enable investors to increase the possible upside profit by investing less money than would otherwise be necessary to trade the underlying asset. Therefore, you could theoretically spend $2,000 on a call contract with a strike price 10% higher than the current market price instead of spending $10,000 to acquire 100 shares of a $100 stock.\n\n  - Benefit from downside\n    * In options market, a trader can benefit from the downside of the market by betting on “Put options” where the trader gets the right to sell (not obligation) the underlying asset.\n\n- Trading Options- Call Options\n  * Option contracts are prepared by option writer known as granter or seller. An option writer is the one who sells an option and receives premium from the buyer in exchange, by opening a position. Options are of two types - “calls” and “puts”. With a “call” option the buyer gets the right to buy the underlying asset whereas from the “put” option the buyer gets the right to sell the underlying asset at a pre-decided price and on or before a pre-decided date.\n\n  - `Buying Calls` \n    * You can purchase a “call” option with less capital than the underlying asset if you believe the price of an asset will increase. In contrast, your losses are capped to the premium paid for the options and nothing more if the price instead declines. This strategy is adopted by traders who are bullish and confident about a particular stock, Exchange Traded Fund and want to minimise their risks.\n\n\n    * A general equity option stock manages 100 shares of the underlying asset.\n\n  - `Risk/Reward Analysis`\n    * In the view of a long call or call buying the trader has his/her losses limited only to the premium paid to the call seller. Whereas considering the profits , which can be unlimited because the underlying asset can rise upto any extent.\n\n- Trading Options- Put Options\n\n  - `Buying Puts` \n    * A put option gives the buyer the right to sell an underlying asset at a set price. This strategy is adopted by a trader who is bearish in nature and want to take less risk compared to short-selling.\n\n  - `Risk/Reward Analysis`\n    * A long put's potential loss is capped at the premium for the options because the underlying price cannot go below zero, the position's potential profit is limited, but the put option amplifies the trader's return similarly to a long call option.\n\n\n- Buyer and seller\n\n  - `Call Seller`\n    * A call seller is a person who executes the selling of a call option. This seller gets the premium paid by the call buyer during the betting on the contract. Call Seller receives this premium which is a fraction of the total lot size of the contract known as the token amount. The view of a call seller towards the market is not bullish i.e. they predict that the market stay stagnant or go bearish which means falls down the current level. For a call seller the profits are limited to the premium amount they received whereas the losses they might suffer are unlimited if the market rises above the exercise price. Moreover, they are obligated to sell the derivative in case the call buyer is willing to execute the option.\n\n  - `Put Seller`\n    * A put seller is an individual who executes the buying of a put option. This seller , similar to previous , gets the premium by the put buyer during the betting of the contract. The view of a put seller towards the market is not bearish i.e. he/she wants that the market stays stagnant or go bullish which means rises above the current level. For a put seller the profits are limited to the premium amount they received from put buyer and the losses can maximise as the market prices soar above the exercise price. A put seller is obligated to buy when the put buyer wants to sell the derivative.\n\n  - `Call Buyer`\n    * A call buyer is a person who executes the buying of a call option. This buyer has to pay the premium during the buying of a call contract.The motive behind buying a call option is that the buyer is bullish in nature i.e. he/she predicts that the market will rise in the upcoming time and his portfolio will gain profits. For a call buyer the profits are unlimited if the market keeps on rising above the exercise price whereas the losses only include the premium amount he paid to the call seller. A call buyer has the right to execute the buying but he/she is not obligated to do so.\n\n  - `Put Buyer`\n    * A put buyer is the one who buys a put option to have the right to sell. This buyer pays a premium to the put seller during the buying of the contract. He/She buys a put option due to the bearish behaviour i.e. he/she predicts that the market wil fall in the upcoming times. For a put buyer the profits are unlimited because the rates may fall more than the exercise price but on the other hand the losses are limited to the premium he/she paid to the put seller for placing the contract. A put buyer has the right to sell the option but he/she is not obligated to do so.\n"
+        },
+        {
+          "title": "Derivatives Protocols",
+          "shortTitle": "Derivatives Org",
+          "key": "protocols-in-derivatives",
+          "details": "- The total market of the derivatives is considered to be as high as one quadrillion dollars which is far more when compared stock market, bond markets or the merging cryptocurrency market. Ever-growing market naturally develops its own derivatives market that can end up being an order of magnitude bigger than its underlying market. This is the reason why many people in the decentralised finance space are extremely bullish on the potential of decentralised derivatives that in contrast to traditional finance can be created by anyone in a completely permissionless and open way. This in turn increases the rate of innovation that has been stagnating in traditional finance. There are various derivative protocols that are emerging in the decentralised finance space. Henceforth we are going to discuss Yield Protocol, Synthetix and others.\n- Yield Protocol\n  * Yield Protocol proposes a derivative model for secured, zero-coupon bonds. This enables fixed-rate borrowing. Essentially, the protocol defines a yToken to be an ERC -20 (fungible) token that settles in some fixed quantity of a target asset at a specified date. The contract will specify that the tokens, which have the same expiry, target asset, collateral asset, and collateralization ratio, are fungible. \n  * To understand the need for a fixed rate of borrowing let us consider an example.  Suppose you think that ETH is going to appreciate by 10% over the next year. So, what you can do is deposit your ETH into let's say maker and borrow DAI. and pay 3% in terms of an interest rate. So, if the ETH goes up by 10% you can do the mathematics that well. Your assets go up by 10%. You have borrowed and you need to pay 3%. So, you've got a profit of 7%. So that works so well the problem is that that rate that's 3% is not set in stone. They can change. And if that rate for example went to 10% then even if the maker goes up in value. You have to pay the 10% and you make nothing. Hence there is a need for a fixed rate of borrowing.\n  * The tokens are secured by the collateral asset and have a required maintenance collateralization ratio similar to, for example, MakerDAO and other DeFi platforms. If the collateral’s value dips below the maintenance requirement, the position can be liquidated by a keeper with some or all of the collateral sold to cover the debt.\n  * The Yield Protocol can be used to speculate on interest rates. There exist a few DAI derivative assets that represent a variable interest rate (Compound cDAI, Aave aDAI, Chai). One can imagine a seller of yDAI using one of these DAI derivative assets as collateral. The effect of this transaction is that the seller is paying the fixed rate on the yDAI while receiving the variable rate on the collateral. This is a bet that rates will increase. Likewise purchasing yDAI (of any collateral type) is a bet that variable rates will NOT increase beyond the fixed rate received.\n  * Yield is an important protocol that supplies fixed-rate products to Ethereum. It can be tightly integrated with protocols like MakerDAO and Compound to create robust interest-bearing applications for investors. Demand for fixed income components will grow as mainstream investors begin adopting DeFi with portfolios in need of these types of assets.\n\n- Synthetix\n  * Synthetix is one of the most important derivatives in the Defi space. Synthetix allows for the creating synthetix assets that track the price of their underlying assets. The protocol currently supports synthetic fiat currencies, cryptocurrencies and commodities that can be traded on trading platforms such as Kwenta, D hedge or paraswap.\n  * Synthetix model is based on a debt pool. In order to issue a particular synthetix asset, a user has to provide collateral in the form of the SNX token. The protocol is highly over collateralised at 500% this means that for each $500 SNX locked in the system only $100 worth synthetix assets can be issued. This is mainly to absorb any sharp price changes in the synthetix assets and the collateralization ratio will be most likely lowered in the future.\n  * Synthetix is one of the first DeFi projects leading the effort of moving to layer 2 in order to lower the gas fees and make the protocol more scalable. There is currently more than $1.8 Billion locked in the synthetix protocol, which is the biggest number across all the DeFi derivatives protocols by a wide margin.\n- UMA \n  * UMA is another protocol that enables the creation of synthetic assets. The main difference here is that UMA instead of highly overcollateralizing the protocol relies on the liquidators who are financially incentivized to find improperly collateralized positions and liquidate them.\n  * UMA’s model allows for creating priceless derivatives. This is because the model does not rely on price oracles. This in turn allows for adding a very long tail of synthetic assets that otherwise wouldn’t have a reliable price feed hence it wouldn’t be possible to create them in synthetix. There is currently over $63 Million of total value locked in UMA’s smart contracts.\n  \n- Hegic\n  * Hegic is a relatively new DeFi project that allows for trading options in a non-custodial and permissionless way. Users can buy put or call options on ETH and BT. They can also become liquidity providers and sell ETH calls and put options. Three months after the launch Hegic had almost $100 million in total value locked in the protocol, a total cumulative options trading volume of around $168 million and generated over $3.5 Million in fees. Interestingly Hegic has been developed by a single anonymous developer which shows the power of DeFi whereas in contrast to traditional finance even a single person or a small group of people can build a useful financial product.\n"
+        }
+      ],
       "questions": [
         {
-          "uuid": "617bfecc-f141-49c5-abdf-9716e8ea80d5",
+          "uuid": "e0b6dff3-946e-4e8d-9f23-8728fbb37c2a",
           "type": "SingleChoice",
-          "content": "Which of the following is not a characteristic of Blockchain Technology?",
-          "hint": "Properties of Blockchain",
-          "explanation": "Blockchain allows peer to peer transaction, it is decentrlised and permits efficient barter system.",
+          "content": "What primarily determines the value of derivatives?",
+          "hint": "NoHint",
+          "explanation": "Derivatives derive their value from the underlying asset they are representing.",
           "answerKeys": [
-            "D"
+            "B"
           ],
           "subTopics": [
-            "introduction-to-blockchain"
+            "introduction-to-derivatives"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Allows Peer to Peer transactions",
+              "content": "Demand and Supply of derivative",
               "key": "A"
             },
             {
-              "content": "Does not have a centralised authority",
+              "content": "An asset from which it derives its value",
               "key": "B"
             },
             {
-              "content": "Allows for an efficient barter mechanism",
+              "content": "Fixed Price set by the owner",
+              "key": "C"
+            },
+            {
+              "content": "Standardised Prices are set by the Government.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "ad7116fc-e76e-4e5b-b98f-55cea5c7e9e3",
+          "type": "SingleChoice",
+          "content": "Which of the following is a financial derivative?",
+          "hint": "NoHint",
+          "explanation": "Financial Derivatives consist of Forwards, Futures, Options, Swaps",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [
+            "introduction-to-derivatives"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Stocks",
+              "key": "A"
+            },
+            {
+              "content": "Bonds",
+              "key": "B"
+            },
+            {
+              "content": "Futures",
               "key": "C"
             },
             {
@@ -8031,29 +8094,345 @@
           ]
         },
         {
-          "uuid": "922879d6-4e38-4173-880e-94487624c4d0",
+          "uuid": "16f39eef-f4d9-47dc-9c9d-2f3b34dea7f9",
           "type": "SingleChoice",
-          "content": "Each Block of the Blockchain consists of which the following?",
-          "hint": "Consider the information that a transaction block needs to have so that it can give proper details about the transaction.",
-          "explanation": "Each Block contains a hash pointer to the next node, current transaction details, Timestamp.",
+          "content": "Portfolio Hedging is done by bank manager to-",
+          "hint": "NoHint",
+          "explanation": "Hedging is done for reducing the price fluctuation risk i.e. they try to hedge against opposite nature of market as per their prediction.",
           "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "introduction-to-derivatives"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Reduce price fluctuation risk",
+              "key": "A"
+            },
+            {
+              "content": "Increase price fluctuation risk",
+              "key": "B"
+            },
+            {
+              "content": "Increase default party risk.",
+              "key": "C"
+            },
+            {
+              "content": "Decrease the probability of gains.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "da5f00bd-a592-4463-9508-bdf2c85a9741",
+          "type": "SingleChoice",
+          "content": "To hedge a risk for long position we should-",
+          "hint": "NoHint",
+          "explanation": "Hedging risk for long position can be attained by taking a opposite position which reduces the exposure/risk. This opposite position can be a short position.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "introduction-to-derivatives"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Take a long position.",
+              "key": "A"
+            },
+            {
+              "content": "Take a short position.",
+              "key": "B"
+            },
+            {
+              "content": "Take alternate long and short positions",
+              "key": "C"
+            },
+            {
+              "content": "Take a neutral position.",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "82424bfc-264d-49e7-a0f7-26c9e78b516a",
+          "type": "MultipleChoice",
+          "content": "An asset in a derivative can represent?",
+          "hint": "NoHint",
+          "explanation": "An asset can represent a commodity, a bond, a stock, a cryptocurrency and many more.",
+          "answerKeys": [
+            "A",
+            "B",
             "D"
           ],
           "subTopics": [
-            "introduction-to-blockchain"
+            "introduction-to-derivatives"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "A hash Pointer",
+              "content": "Commodity",
               "key": "A"
             },
             {
-              "content": "Transaction Details",
+              "content": "Bond",
               "key": "B"
             },
             {
-              "content": "Timestamp",
+              "content": "IOU (Investor Owned Utilities) Document",
+              "key": "C"
+            },
+            {
+              "content": "Stock",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "84970ae5-4563-4404-9d8b-b59068386f25",
+          "type": "SingleChoice",
+          "content": "An options seller",
+          "hint": "NoHint",
+          "explanation": "An options seller is bound to receive the premium from a call buyer or a put buyer as a toekn money.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "introduction-to-derivatives"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Pays the premium",
+              "key": "A"
+            },
+            {
+              "content": "Receives the premium",
+              "key": "B"
+            },
+            {
+              "content": "No premium transaction takes place",
+              "key": "C"
+            }
+          ]
+        },
+        {
+          "uuid": "3531d44a-67df-4956-98b3-72b99c02daad",
+          "type": "SingleChoice",
+          "content": "In a Call option, the call buyer has scenario of ......... loss and ........ gains?",
+          "hint": "NoHint",
+          "explanation": "In a call buyer scenario, they have limited loss capped upto premium paid and unlimited profits depending upon how much the prices rise.",
+          "answerKeys": [
+            "D"
+          ],
+          "subTopics": [
+            "introduction-to-derivatives"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Limited, Limited",
+              "key": "A"
+            },
+            {
+              "content": "Unlimited, Unlimited",
+              "key": "B"
+            },
+            {
+              "content": "Unlimited, Limited",
+              "key": "C"
+            },
+            {
+              "content": "Limited, Unlimited",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "e43c62c2-5cf4-4e77-bbb3-8901d01a1263",
+          "type": "SingleChoice",
+          "content": "Which of the following contracts would the investor buy if he believes that the assets will increase in future time period?",
+          "hint": "NoHint",
+          "explanation": "To buy assets in future date the investor must use Long contracts.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [
+            "introduction-to-derivatives"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Short",
+              "key": "A"
+            },
+            {
+              "content": "Hedge",
+              "key": "B"
+            },
+            {
+              "content": "Long",
+              "key": "C"
+            },
+            {
+              "content": "Cross",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "df6a9359-acee-47a6-b0ec-c0969da19a41",
+          "type": "SingleChoice",
+          "content": "In a short contract the investors",
+          "hint": "NoHint",
+          "explanation": "explanation",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "introduction-to-derivatives"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Predicts to sell now and buy when the prices go down",
+              "key": "A"
+            },
+            {
+              "content": "Predicts to buy now and sell when the prices go up",
+              "key": "B"
+            },
+            {
+              "content": "Future Hedge",
+              "key": "C"
+            },
+            {
+              "content": "None of the above",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "f3e168ef-a8b3-432c-807b-135fd306335d",
+          "type": "SingleChoice",
+          "content": "What are Speculations in Derivative Market?",
+          "hint": "NoHint",
+          "explanation": "Speculation means choosing the best asset for investment by taking the accurate position in the market. These assets can be predicted by the fluctuations in the market.",
+          "answerKeys": [
+            "A",
+            "B",
+            "C"
+          ],
+          "subTopics": [
+            "introduction-to-derivatives"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Choosing the best asset for investment",
+              "key": "A"
+            },
+            {
+              "content": "Minimise risk by choosing the best position to trade.",
+              "key": "B"
+            },
+            {
+              "content": "Use Market Fluctuations to gain profit",
+              "key": "C"
+            },
+            {
+              "content": "None of the above",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "9649c307-a437-4480-9c50-9b2d523cc099",
+          "type": "SingleChoice",
+          "content": "Hedgers are ..... and Speculators are .....?",
+          "hint": "Benefits of hedging and Speculations",
+          "explanation": "Hedgers are risk averse and speculators are risk lovers.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "introduction-to-derivatives"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Risk Averse, Risk Lover",
+              "key": "A"
+            },
+            {
+              "content": "Risk Lovers, Risk Averse",
+              "key": "B"
+            },
+            {
+              "content": "Both are Risk Mitigators",
+              "key": "C"
+            }
+          ]
+        },
+        {
+          "uuid": "5e6065e3-bedb-4c91-b165-8ab1d0f467c5",
+          "type": "SingleChoice",
+          "content": "Low liquidity in forward markets means",
+          "hint": "NoHint",
+          "explanation": "Low liqiuidity in forward markets refers to difficulty while transaction are taking place.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [
+            "types-of-derivatives"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Investors face losses",
+              "key": "A"
+            },
+            {
+              "content": "Conversion to cash is difficult",
+              "key": "B"
+            },
+            {
+              "content": "Transactions are not carried out easily",
+              "key": "C"
+            },
+            {
+              "content": "None of the above",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "82d71f82-8e88-43ff-9d13-1e3cb371d286",
+          "type": "SingleChoice",
+          "content": "Which of the following are the disadvantages of forward contract?",
+          "hint": "NoHint",
+          "explanation": "All the reasons mentioned constitute to the disadvantges of a forward contract.",
+          "answerKeys": [
+            "D"
+          ],
+          "subTopics": [
+            "types-of-derivatives"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Finding a counterparty is difficult",
+              "key": "A"
+            },
+            {
+              "content": "Low liquidity",
+              "key": "B"
+            },
+            {
+              "content": "Default risk",
               "key": "C"
             },
             {
@@ -8063,29 +8442,30 @@
           ]
         },
         {
-          "uuid": "6d73bcc0-02da-4c65-9ff7-9b6571895fe2",
+          "uuid": "ad133f59-6685-42fe-b47f-d2d575140e1c",
           "type": "SingleChoice",
-          "content": "Blockchain can be stored as which of the following?",
-          "hint": "NoHint",
-          "explanation": "Blockchain details can be stored as a flat file and a database.",
+          "content": "How are forward contracts better over futures?",
+          "hint": "Benefits of Forward and Futures contract",
+          "explanation": "Forward contracts are private and customised documents that are settled at the end of the contract. Whereas futures are traded on exchnages and they are fixed contracts once traded.",
           "answerKeys": [
+            "B",
             "C"
           ],
           "subTopics": [
-            "introduction-to-blockchain"
+            "types-of-derivatives"
           ],
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "A flat file",
+              "content": "They are standardised",
               "key": "A"
             },
             {
-              "content": "A database",
+              "content": "They are private documents",
               "key": "B"
             },
             {
-              "content": "Both of the above",
+              "content": "They are customised documents",
               "key": "C"
             },
             {
@@ -8095,617 +8475,62 @@
           ]
         },
         {
-          "uuid": "f807265d-3208-4a67-8d77-a25bc4bd2596",
+          "uuid": "f4abb691-9853-425c-b241-f72cfebfa277",
           "type": "SingleChoice",
-          "content": "A block in Blockchain cannot have more than one parent block?",
+          "content": "Futures were firstly traded on-",
           "hint": "NoHint",
-          "explanation": "A block in blockchain cannot have more than one parent because they have unique hash pointer attached to it. Hence, two blocks cannot point to the same block.",
+          "explanation": "Chicago Board of Trade was the first exchange where the futures contract were exchanged.",
           "answerKeys": [
             "A"
           ],
           "subTopics": [
-            "introduction-to-blockchain"
+            "types-of-derivatives"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "True",
+              "content": "Chicago Board of Trade",
               "key": "A"
             },
             {
-              "content": "False",
-              "key": "B"
-            }
-          ]
-        },
-        {
-          "uuid": "505ebda8-92ba-4922-bd0f-32ebd145b922",
-          "type": "SingleChoice",
-          "content": "Blocks in Blockchain as linked to each other .......",
-          "hint": "Linking of the blockchain nodes",
-          "explanation": "The blocks in Blockchain are attached to each other in the backward fashion joining to the previous node and so on.",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "Backward direction",
-              "key": "A"
-            },
-            {
-              "content": "Forward direction",
+              "content": "New York Stock Exchange",
               "key": "B"
             },
             {
-              "content": "Not connected",
+              "content": "American Stock Exchange",
               "key": "C"
+            },
+            {
+              "content": "Chicago Board of Options Exchang",
+              "key": "D"
             }
           ]
         },
         {
-          "uuid": "a6ce806e-02dd-4195-b254-dfb5aa0092f3",
+          "uuid": "d21489fc-e65d-4bca-981b-d305bf208a22",
           "type": "MultipleChoice",
-          "content": "Identify Features of Blockchain?",
-          "hint": "NoHint",
-          "explanation": "Blockchain provides scalability, improved security to its users and they are immutable i.e. tamper proof.",
-          "answerKeys": [
-            "A",
-            "B",
-            "C"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "Scalability",
-              "key": "A"
-            },
-            {
-              "content": "Improved Security",
-              "key": "B"
-            },
-            {
-              "content": "Tamper Proof",
-              "key": "C"
-            },
-            {
-              "content": "Mutable",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "1f0ba670-bec3-4c83-aa0c-1ffb26177263",
-          "type": "SingleChoice",
-          "content": "What does P2P stand for?",
-          "hint": "NoHint",
-          "explanation": "P2P stands for peer-to-peer transaction which does not involve any centralised party.",
-          "answerKeys": [
-            "B"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "Password to Password",
-              "key": "A"
-            },
-            {
-              "content": "Peer to Peer",
-              "key": "B"
-            },
-            {
-              "content": "Product to Product",
-              "key": "C"
-            },
-            {
-              "content": "Public key to Private Key",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "284d96ab-0336-4c2f-81cf-d6afe087d987",
-          "type": "SingleChoice",
-          "content": "Hashes can be used to make sure messages and files transmitted from sender to receiver are not tampered with during transit.",
-          "hint": "NoHint",
-          "explanation": "Cryptographic hashes are used to provide security for the transaction between sender and the receiver.They are used to convert private key to public key and ensure proper security.",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [
-            "hashing"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "True",
-              "key": "A"
-            },
-            {
-              "content": "False",
-              "key": "B"
-            }
-          ]
-        },
-        {
-          "uuid": "120f4e3b-7bb6-4ea0-b860-7e7bfdcf5baa",
-          "type": "SingleChoice",
-          "content": "The term used for Blockchain splits? A split in Blockchain is when two versions have the same history upto a certain time frame and after which they start to differ.",
-          "hint": "NoHint",
-          "explanation": "A fork is the term used for creating a branch / split in the regular blockchain branch.",
-          "answerKeys": [
-            "B"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "High",
-          "choices": [
-            {
-              "content": "A Merger",
-              "key": "A"
-            },
-            {
-              "content": "A fork",
-              "key": "B"
-            },
-            {
-              "content": "A Division",
-              "key": "C"
-            },
-            {
-              "content": "None of the above",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "14443750-e46b-4c03-9c91-8434e55530dc",
-          "type": "SingleChoice",
-          "content": "Which of the following trees are used to store transactions in a block by producing a digital fingerprint?",
-          "hint": "NoHint",
-          "explanation": "Merkle trees are used to store transactions in a block by producing a digital fingerprint.",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "High",
-          "choices": [
-            {
-              "content": "Merkle",
-              "key": "A"
-            },
-            {
-              "content": "Binary",
-              "key": "B"
-            },
-            {
-              "content": "AVL",
-              "key": "C"
-            },
-            {
-              "content": "Red Black",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "b76d8440-cf60-4069-9931-4855bc39c960",
-          "type": "MultipleChoice",
-          "content": "Who introduced the idea of Blockchain?",
-          "hint": "NoHint",
-          "explanation": "Stuart Haber and Scoot Storneta introduced blockchain to timestamp their documents.",
+          "content": "What are the effects to hedge on futures market?",
+          "hint": "Hedging reduces the risk",
+          "explanation": "Hedging in futures market reduces the chances of gain and losses.",
           "answerKeys": [
             "A",
             "B"
           ],
           "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "Stuart Haber",
-              "key": "A"
-            },
-            {
-              "content": "Scoot Storneta",
-              "key": "B"
-            },
-            {
-              "content": "Satoshi Nakamoto",
-              "key": "C"
-            },
-            {
-              "content": "Adam Back",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "7e6aa6ff-d657-4d21-982e-fea86321c613",
-          "type": "SingleChoice",
-          "content": "Bitcoin is backed by which of the following assets?",
-          "hint": "NoHint",
-          "explanation": "Bitcoin does not have a tangible value and hence is not backed by any valueable asset.",
-          "answerKeys": [
-            "D"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
+            "types-of-derivatives"
           ],
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "Gold",
+              "content": "Reduces the gain",
               "key": "A"
             },
             {
-              "content": "USD",
+              "content": "Reduce the loss",
               "key": "B"
             },
             {
-              "content": "Silver",
-              "key": "C"
-            },
-            {
-              "content": "None of the above",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "1c490831-d92a-449f-b5a2-08b453cc357f",
-          "type": "SingleChoice",
-          "content": "Who is the creator of Bitcoin?",
-          "hint": "NoHint",
-          "explanation": "Bitcoin was created by Satoshi Nakamoto.",
-          "answerKeys": [
-            "D"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "Adam Back",
-              "key": "A"
-            },
-            {
-              "content": "Cynthia Dwork",
-              "key": "B"
-            },
-            {
-              "content": "Moni Naor",
-              "key": "C"
-            },
-            {
-              "content": "Satoshi Nakamoto",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "3110ead9-fde0-43c0-8007-b1ba3a6781fd",
-          "type": "SingleChoice",
-          "content": "Like every digital asset Bitcoin has the problem of “double spend”?",
-          "hint": "Double Spend means copying and reselling the same digital asset many number of times.",
-          "explanation": "The first transaction would be approved via the confirmation mechanism and then verified into the subsequent block. However, the second transaction would be recognized as invalid by the confirmation process and would not be verified. If both transactions are pulled from the pool for confirmation simultaneously, the transaction with the highest number of confirmations will be included in the blockchain, while the other one will be discarded.",
-          "answerKeys": [
-            "B"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "True",
-              "key": "A"
-            },
-            {
-              "content": "False",
-              "key": "B"
-            }
-          ]
-        },
-        {
-          "uuid": "552462b9-be2a-4d45-b3fd-665c86c799bc",
-          "type": "MultipleChoice",
-          "content": "What are the benefits of Bitcoin over fiat currency?",
-          "hint": "Benefits of blockchain",
-          "explanation": "Bitcoin has an immutable ledger, allows users ownership and is portable to carry.",
-          "answerKeys": [
-            "A",
-            "B",
-            "D"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "Immutable ledger",
-              "key": "A"
-            },
-            {
-              "content": "User sovereignty",
-              "key": "B"
-            },
-            {
-              "content": "High tangible value",
-              "key": "C"
-            },
-            {
-              "content": "Portability",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "99349427-2e10-4649-9962-6b26fac55f05",
-          "type": "MultipleChoice",
-          "content": "What are the benefits of Fiat currency over Bitcoin?",
-          "hint": "Benefits of centralised system",
-          "explanation": "Fiat currency has low transaction fees, most of them are backed by gold and thus possess a high tangible value.",
-          "answerKeys": [
-            "A",
-            "C",
-            "D"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "Very less transaction Fess",
-              "key": "A"
-            },
-            {
-              "content": "Extremely volatile nature",
-              "key": "B"
-            },
-            {
-              "content": "Strong backing asset",
-              "key": "C"
-            },
-            {
-              "content": "High tangible value",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "c12ae1b5-3940-496a-88fa-41be29142f44",
-          "type": "SingleChoice",
-          "content": "Where do you keep your cryptocurrency private key?",
-          "hint": "NoHint",
-          "explanation": "Cryptocurrency private key must be kept away from the internet.",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "Wallet",
-              "key": "A"
-            },
-            {
-              "content": "Bank Account",
-              "key": "B"
-            },
-            {
-              "content": "Floppy disk",
-              "key": "C"
-            },
-            {
-              "content": "Drive Storages",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "948746c7-237e-4e73-bc50-3b714ecb1ccf",
-          "type": "SingleChoice",
-          "content": "Bitcoin mining works on which of the principle?",
-          "hint": "NoHint",
-          "explanation": "Proof of Work consensus mechanism is used to mine Bitcoin.",
-          "answerKeys": [
-            "C"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "Proof of Authority",
-              "key": "A"
-            },
-            {
-              "content": "Proof of stake",
-              "key": "B"
-            },
-            {
-              "content": "Proof of work",
-              "key": "C"
-            },
-            {
-              "content": "Proof of History",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "e9b6538b-a132-468e-8728-0818b9b3acba",
-          "type": "SingleChoice",
-          "content": "Bitcoin has got unlimited supply.",
-          "hint": "NoHint",
-          "explanation": "Bitcoin works on Proof of work mechanism.The total supply of Bitcoin is considered to be 21 Million, which is assumed to be mined till the year 2140.",
-          "answerKeys": [
-            "B"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "True because it can be mined easily using a mathematical algorithm",
-              "key": "A"
-            },
-            {
-              "content": "False because returns of solving mathematical algorithms are decreasing",
-              "key": "B"
-            },
-            {
-              "content": "True because miners mine Bitcoin every 10 minutes.",
-              "key": "C"
-            },
-            {
-              "content": "False because bitcoin is a volatile asset.",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "46a8b293-9028-4240-adf7-5a31b39f5415",
-          "type": "SingleChoice",
-          "content": "Who is the Founder of Ethereum?",
-          "hint": "NoHint",
-          "explanation": "Vitalik Buterin is the founder of Ethereum.",
-          "answerKeys": [
-            "B"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "Pavel Durov",
-              "key": "A"
-            },
-            {
-              "content": "Vitalik Buterin",
-              "key": "B"
-            },
-            {
-              "content": "Changpen Zhao",
-              "key": "C"
-            },
-            {
-              "content": "Brian Armstrong",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "6c7083e5-ae8f-407d-bdbd-14f8b5327d95",
-          "type": "SingleChoice",
-          "content": "In future, the Ethereum mining will work on the principle of .......",
-          "hint": "NoHint",
-          "explanation": "Ethereum will work on proof of stake consensus mechanism. Currently it uses Proof of work mechanism.",
-          "answerKeys": [
-            "B"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "Proof of Authority",
-              "key": "A"
-            },
-            {
-              "content": "Proof of stake",
-              "key": "B"
-            },
-            {
-              "content": "Proof of work",
-              "key": "C"
-            },
-            {
-              "content": "Proof of History",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "84213ce3-d8b3-4012-a29d-70803f397db0",
-          "type": "MultipleChoice",
-          "content": "Which of the following differs Ethereum from Bitcoin?",
-          "hint": "Basics of Ethereum Blockchain",
-          "explanation": "Ethereum offers more than Bitcoin in the terms of Smart contracts, Oracles. Currently, they have the same consensus mechanism but in future Ethereum will migrate from Proof of work to proof of stake.",
-          "answerKeys": [
-            "B",
-            "C"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "Open source",
-              "key": "A"
-            },
-            {
-              "content": "Smart contracts",
-              "key": "B"
-            },
-            {
-              "content": "Oracles",
-              "key": "C"
-            },
-            {
-              "content": "Consensus Mechanism",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "f3341f2e-c404-4e6d-915f-748a3c145efc",
-          "type": "SingleChoice",
-          "content": "What does the term Ethereum refer to?",
-          "hint": "Properties of Ethereum Network",
-          "explanation": "Ethereum is also known for the functions it provides to its user . Thus Ethrereum Protocol, Network Protocol and Ethereum Project funding Development are all the functions and Properties of Ethereum.",
-          "answerKeys": [
-            "D"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "Ethereum Protocol",
-              "key": "A"
-            },
-            {
-              "content": "Ethereum Network created using Protocols",
-              "key": "B"
-            },
-            {
-              "content": "Ethereum Project funding development",
+              "content": "High portfolio earning",
               "key": "C"
             },
             {
@@ -8715,159 +8540,29 @@
           ]
         },
         {
-          "uuid": "6ca4dad2-87aa-4c7e-befc-7efc9a2ec7cd",
+          "uuid": "051125c0-74d8-463e-a23c-79d251a58c5a",
           "type": "SingleChoice",
-          "content": "What is the block time in Bitcoin?",
+          "content": "What happens to a bank that has perfectly hedged its portfolio during the time when contract prices fall in the futures market?",
           "hint": "NoHint",
-          "explanation": "Block time of Bitcoin is 10 minute.",
+          "explanation": "During the time when contractts prices fall in the futures market, perfectly hedged portfolios have no income change.",
           "answerKeys": [
-            "B"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "1 minute",
-              "key": "A"
-            },
-            {
-              "content": "10 minute",
-              "key": "B"
-            },
-            {
-              "content": "10 seconds",
-              "key": "C"
-            },
-            {
-              "content": "1 hour",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "127c9b9f-9c84-45bc-b4f9-79c25dae3dd9",
-          "type": "SingleChoice",
-          "content": "In which programming language is Ethereum Smart contracts written?",
-          "hint": "NoHint",
-          "explanation": "Solidity is used to write Ethereum Smart Contracts.",
-          "answerKeys": [
-            "D"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "Kotlin",
-              "key": "A"
-            },
-            {
-              "content": "tcl/tk",
-              "key": "B"
-            },
-            {
-              "content": "Python",
-              "key": "C"
-            },
-            {
-              "content": "Solidity",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "e599a418-f347-498a-bfed-ba546766a739",
-          "type": "MultipleChoice",
-          "content": "Which ideas were combined by Satoshi Nakamoto to introduce Bitcoin?",
-          "hint": "Properties of Bitcoin",
-          "explanation": "Bitcoin works on the principle of Proof of work and blockchain.",
-          "answerKeys": [
-            "A",
-            "B"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "Proof of work",
-              "key": "A"
-            },
-            {
-              "content": "Blockchain",
-              "key": "B"
-            },
-            {
-              "content": "Mining pools",
-              "key": "C"
-            },
-            {
-              "content": "Proof of stake",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "29994d40-0576-4bc1-ba4c-59cd4934a715",
-          "type": "SingleChoice",
-          "content": "Which of the following statements are false regarding Bitcoin blockchain?",
-          "hint": "Properties of Bitcoin and blockchain",
-          "explanation": "Mistakes cannot be edited on Bitcoin because these documents are immutable.",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "Mistakes can be edited and fixed",
-              "key": "A"
-            },
-            {
-              "content": "Censorship Resistant",
-              "key": "B"
-            },
-            {
-              "content": "Computational platform for smart contracts",
-              "key": "C"
-            },
-            {
-              "content": "Allows for portability of bitcoin",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "09516d24-7580-45e9-babd-58a9cf2bbc1a",
-          "type": "MultipleChoice",
-          "content": "Blockchain is a ...... system",
-          "hint": "Properties of Blockchain",
-          "explanation": "Blockchain system is decentralised and Distributed network.",
-          "answerKeys": [
-            "B",
             "C"
           ],
           "subTopics": [
-            "introduction-to-blockchain"
+            "types-of-derivatives"
           ],
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "Centralised",
+              "content": "Gets a loss",
               "key": "A"
             },
             {
-              "content": "Decentralised",
+              "content": "Gets a gain",
               "key": "B"
             },
             {
-              "content": "Distributed",
+              "content": "No income change",
               "key": "C"
             },
             {
@@ -8877,431 +8572,93 @@
           ]
         },
         {
-          "uuid": "72878ee1-93f4-4b5f-a72f-92410db73b80",
+          "uuid": "b9285f8c-0603-4d46-a50c-17cd7a6f4967",
           "type": "SingleChoice",
-          "content": "Cryptographic hashing can also be termed as encryption.",
+          "content": "In which parameter futures lag behind forward?",
           "hint": "NoHint",
-          "explanation": "Hashing is only one-way process that is private key can be converted to public key but vice versa not possible.",
+          "explanation": "Futures lag behind forward contracts in terms of flexibility because forward contracts are highly flexible and easy to make.",
           "answerKeys": [
-            "B"
-          ],
-          "subTopics": [
-            "hashing"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "True",
-              "key": "A"
-            },
-            {
-              "content": "False",
-              "key": "B"
-            }
-          ]
-        },
-        {
-          "uuid": "8bc6e329-f119-430c-84a0-01aaf01433fe",
-          "type": "MultipleChoice",
-          "content": "What is most common problem with simple hashes? Hashed which may provide same output for two different inputs are considered to be simple hashes.",
-          "hint": "Properties of Hashes",
-          "explanation": "Simple hashes are not efficient enough to provide unique output for every input. Hence they can collide and can be cracked easily.",
-          "answerKeys": [
-            "A",
-            "B",
             "C"
           ],
           "subTopics": [
-            "hashing"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "Can be easily cracked",
-              "key": "A"
-            },
-            {
-              "content": "Collison",
-              "key": "B"
-            },
-            {
-              "content": "Two way processing becomes easy",
-              "key": "C"
-            },
-            {
-              "content": "Large in size",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "36d5b35c-2064-44ea-9d81-a3f3dfd22e3f",
-          "type": "SingleChoice",
-          "content": "Cryptographic hashes are .....",
-          "hint": "NoHint",
-          "explanation": "Cryptographic hashes are hexadecimal numbers.",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [
-            "hashing"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "Hexadecimal",
-              "key": "A"
-            },
-            {
-              "content": "Binary",
-              "key": "B"
-            },
-            {
-              "content": "Numeric address",
-              "key": "C"
-            },
-            {
-              "content": "None of the above",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "c6cf372e-8cca-44f5-a837-0bc37c49d5a6",
-          "type": "SingleChoice",
-          "content": "No matter how many times a data set (identical) is hashed the output remains the same.",
-          "hint": "NoHint",
-          "explanation": "Identical data set should always result in the same hash output.",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [
-            "hashing"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "True",
-              "key": "A"
-            },
-            {
-              "content": "False",
-              "key": "B"
-            }
-          ]
-        },
-        {
-          "uuid": "62931245-5ab0-4884-8693-bd7a940ad89a",
-          "type": "SingleChoice",
-          "content": "Bitcoin uses which type of hashing algorithm?",
-          "hint": "NoHint",
-          "explanation": "Bitcoin uses SHA-256 hashing algorithm.",
-          "answerKeys": [
-            "D"
-          ],
-          "subTopics": [
-            "hashing"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "MD5",
-              "key": "A"
-            },
-            {
-              "content": "SHA-1",
-              "key": "B"
-            },
-            {
-              "content": "SHA-2",
-              "key": "C"
-            },
-            {
-              "content": "SHA-256",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "e017fb94-7138-4309-bd63-aa0aa86c4ad8",
-          "type": "SingleChoice",
-          "content": "Ethereum uses which type of hashing algorithm?",
-          "hint": "NoHint",
-          "explanation": "Ethereum uses Keccak-256 hashing algorithm.",
-          "answerKeys": [
-            "B"
-          ],
-          "subTopics": [
-            "hashing"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "MD5",
-              "key": "A"
-            },
-            {
-              "content": "Keccak 256",
-              "key": "B"
-            },
-            {
-              "content": "NTLM",
-              "key": "C"
-            },
-            {
-              "content": "SHA-256",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "18674636-602b-4993-ac9e-2d7ef579d2cd",
-          "type": "SingleChoice",
-          "content": "Which of the following is/are offered by hash functions?",
-          "hint": "Properties of hash functions",
-          "explanation": "Hash functions offers authentication, non-repudiation and data-integrity.",
-          "answerKeys": [
-            "D"
-          ],
-          "subTopics": [
-            "hashing"
+            "types-of-derivatives"
           ],
           "difficultyLevel": "High",
           "choices": [
             {
-              "content": "Authentication",
+              "content": "Standardisation",
               "key": "A"
             },
             {
-              "content": "Non-repudiation",
+              "content": "Lower Default Risk",
               "key": "B"
             },
             {
-              "content": "Data-integrity",
+              "content": "Flexibility",
               "key": "C"
             },
             {
-              "content": "All of the above",
+              "content": "Both A and B",
               "key": "D"
             }
           ]
         },
         {
-          "uuid": "51167a51-66d0-41ab-93e4-a17b693d1f8f",
+          "uuid": "f5d9ea8c-5621-4780-bdcd-855729a100ea",
           "type": "SingleChoice",
-          "content": "Blockchains are called blockchains because the ledger is broken into smaller datasets or blocks. The last line of the block contains a cryptographic hash that is repeated as the first line of the next block thus serving as the “chain\".",
-          "hint": "Basics of Blockchain",
-          "explanation": "Definition which clearly defines the blockchain and its structure.",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "True",
-              "key": "A"
-            },
-            {
-              "content": "False",
-              "key": "B"
-            }
-          ]
-        },
-        {
-          "uuid": "e4a7d15b-48c8-43ae-b539-44238e7b2bec",
-          "type": "SingleChoice",
-          "content": "Which of the following is not a property of hash functions?",
-          "hint": "Properties of Hash Functions",
-          "explanation": "All the first three options are the properties of the Hash function. None of the mentioned characteristic fall apart form them. Therefore, the correct answer is none of the above.",
-          "answerKeys": [
-            "D"
-          ],
-          "subTopics": [
-            "hashing"
-          ],
-          "difficultyLevel": "High",
-          "choices": [
-            {
-              "content": "Pre-Image Resistance",
-              "key": "A"
-            },
-            {
-              "content": "Compression",
-              "key": "B"
-            },
-            {
-              "content": "Fixed length output",
-              "key": "C"
-            },
-            {
-              "content": "None of the above",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "6d55c009-b9f7-4083-938f-67f0fcdc73c9",
-          "type": "SingleChoice",
-          "content": "Miners gather transactions, verify that the transactions are valid, hash the transactions (which happens very quickly) and post a new block.",
-          "hint": "NoHint",
-          "explanation": "This explains the functioning of blockchain mining.",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [
-            "introduction-to-blockchain"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "True",
-              "key": "A"
-            },
-            {
-              "content": "False",
-              "key": "B"
-            }
-          ]
-        },
-        {
-          "uuid": "38ec68b2-1939-4bbd-9edb-d946fa429184",
-          "type": "SingleeChoice",
-          "content": "It is possible today, albeit very computationally challenging, to derive the private key associated with a public key.",
-          "hint": "NoHint",
-          "explanation": "No its not possible to get the private key fro public key because the process the hashing is irreversible given any amount of computational power.",
+          "content": "Parties who have bought a futures contract and thereby decided to ..... (take delivery of ) the bonds are said to have taken ....... position.?",
+          "hint": "Buyers and their position in futures market",
+          "explanation": "Buyers in the futures market when agree to buy the contract are said to take a long position.",
           "answerKeys": [
             "B"
           ],
           "subTopics": [
-            "hashing"
+            "types-of-derivatives"
           ],
-          "difficultyLevel": "Low",
+          "difficultyLevel": "High",
           "choices": [
             {
-              "content": "True",
+              "content": "buy,short",
               "key": "A"
             },
             {
-              "content": "False",
-              "key": "B"
-            }
-          ]
-        },
-        {
-          "uuid": "f87a42d7-c154-4aea-814f-ca2237609723",
-          "type": "SingleChoice",
-          "content": "Which of the following is not possible using hash functions?",
-          "hint": "Properties of Hash functions",
-          "explanation": "Hash functions are one way process and cannot be used to get the data back in the original form.",
-          "answerKeys": [
-            "D"
-          ],
-          "subTopics": [
-            "hashing"
-          ],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "Password check",
-              "key": "A"
-            },
-            {
-              "content": "Data integrity check",
+              "content": "buy,long",
               "key": "B"
             },
             {
-              "content": "Digital Signatures",
+              "content": "sell,short",
               "key": "C"
             },
             {
-              "content": "Data retrieval in its original form.",
+              "content": "sell,long",
               "key": "D"
             }
           ]
         },
         {
-          "uuid": "36ca7a17-f474-48b8-b8d1-894808a21b25",
+          "uuid": "8d57efe3-c473-4357-82de-7223db6cdb99",
           "type": "SingleChoice",
-          "content": "Go to https://emn178.github.io/online-tools/sha256.html and enter the word DeFi (be careful of capitalization and no spaces). Which is the correct SHA-256 output (first six characters) ?",
-          "hint": "Proper hash functions output",
-          "explanation": "User based",
-          "answerKeys": [
-            "D"
-          ],
-          "subTopics": [
-            "hashing"
-          ],
-          "difficultyLevel": "Low",
-          "choices": [
-            {
-              "content": "340a4d",
-              "key": "A"
-            },
-            {
-              "content": "da9fa3",
-              "key": "B"
-            },
-            {
-              "content": "0000sn",
-              "key": "C"
-            },
-            {
-              "content": "3871f9",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "0381664e-3b18-4770-8b34-ed139e2b0a64",
-          "type": "SingleChoice",
-          "content": "Miners on the Ethereum blockchain can choose any transactions to add to their block. Thus, inevitably, they end up choosing those transactions that bid the highest fees.",
-          "hint": "Front Running",
-          "explanation": "Miners get themselves an earning other than mining by \"front-running\", where they put their buy before a big order.",
+          "content": "When a futures contract expires then-",
+          "hint": "NoHint",
+          "explanation": "When a futures contract expires, then the asset is bought or sold at the price mentioned in the contract.",
           "answerKeys": [
             "A"
           ],
           "subTopics": [
-            "introduction-to-blockchain"
+            "types-of-derivatives"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "True",
+              "content": "The asset is bought or sold at the price mentioned in the contract",
               "key": "A"
             },
             {
-              "content": "False",
-              "key": "B"
-            }
-          ]
-        },
-        {
-          "uuid": "60398304-0ecc-4ae2-b56d-55396e29f5ff",
-          "type": "SingleChoice",
-          "content": "A cryptographic hash is used to verify ....... of data.",
-          "hint": "Properties of Hash Functions",
-          "explanation": "A cryptographic hash is used to verify validity and authenticity of data.",
-          "answerKeys": [
-            "A"
-          ],
-          "subTopics": [
-            "hashing"
-          ],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "Validity",
-              "key": "A"
-            },
-            {
-              "content": "Veracity",
+              "content": "The asset is bought or sold at the mean price over the life of contract",
               "key": "B"
             },
             {
-              "content": "Variety",
+              "content": "The asset is bought or sold at its current price",
               "key": "C"
             },
             {
@@ -9311,29 +8668,253 @@
           ]
         },
         {
-          "uuid": "be30b978-625c-4642-bfaa-812eed97cf3b",
+          "uuid": "7e890197-fe94-4405-aadf-efcd102f94ff",
           "type": "SingleChoice",
-          "content": "Cryptographic hashes provide security against .....",
-          "hint": "Uses of Hashes",
-          "explanation": "Cryptographic hashes provide security against attackers.",
+          "content": "Executing any riskless profit opportunities in the futures market is known as-",
+          "hint": "NoHint",
+          "explanation": "Execution of riskless profits opportunites in the futures marker is known as Arbitrage",
           "answerKeys": [
-            "A"
+            "B"
           ],
           "subTopics": [
-            "hashing"
+            "types-of-derivatives"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Hedging",
+              "key": "A"
+            },
+            {
+              "content": "Arbitrage",
+              "key": "B"
+            },
+            {
+              "content": "Speculation",
+              "key": "C"
+            },
+            {
+              "content": "Underwriting",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "41bd187e-f268-4f13-99d6-4e2e07ea33a3",
+          "type": "SingleChoice",
+          "content": "If one sold a short contract on financial futures, one hopes that price of underlying asset might",
+          "hint": "NoHint",
+          "explanation": "When someone sells a short contract on financial futures, he hopes that price of the underlying asset might fall.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "types-of-derivatives"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Attackers",
+              "content": "Rise",
               "key": "A"
             },
             {
-              "content": "Sender",
+              "content": "Fall",
               "key": "B"
             },
             {
-              "content": "Receiver",
+              "content": "Are Stable",
+              "key": "C"
+            },
+            {
+              "content": "Fluctuate",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "f95ce961-26dd-4163-82f1-198073428d39",
+          "type": "SingleChoice",
+          "content": "What do you mean by \"Points\" in Future Contracts?",
+          "hint": "NoHint",
+          "explanation": "A \"Point\" represents the smallest whole number price increment in the value of a futures contract.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "types-of-derivatives"
+          ],
+          "difficultyLevel": "High",
+          "choices": [
+            {
+              "content": "Total increment in the value of the futures contract",
+              "key": "A"
+            },
+            {
+              "content": "Smallest increment in the value of the future contract",
+              "key": "B"
+            },
+            {
+              "content": "Current value of the Futures Contract",
+              "key": "C"
+            },
+            {
+              "content": "None of the these",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "3d36ce91-c16d-4328-ba90-5e2a7549a732",
+          "type": "SingleChoice",
+          "content": "When a financial institution is hedging for a specific asset, the hedge is called a",
+          "hint": "NoHint",
+          "explanation": "Micro Hedges are done for a specific asset whereas macro hedge is done for an overall portfolio.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "types-of-derivatives"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "macro hedge",
+              "key": "A"
+            },
+            {
+              "content": "micro hedge.",
+              "key": "B"
+            },
+            {
+              "content": "Cross Hedge",
+              "key": "C"
+            },
+            {
+              "content": "Futures Hedge",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "4e6a6824-2a49-4b55-b8c0-7afa441f959b",
+          "type": "SingleChoice",
+          "content": "When a financial institution is hedging for an overall portfolio, the hedge is called a",
+          "hint": "NoHint",
+          "explanation": "Micro Hedges are done for a specific asset whereas macro hedge is done for an overall portfolio.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "types-of-derivatives"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Macro Hedge",
+              "key": "A"
+            },
+            {
+              "content": "Micro Hedge",
+              "key": "B"
+            },
+            {
+              "content": "Cross Hedge",
+              "key": "C"
+            },
+            {
+              "content": "Futures Hedge",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "490d9314-dc38-4d25-900e-36d1c52816fe",
+          "type": "SingleChoice",
+          "content": "The number of outstanding futures contracts is known as-",
+          "hint": "NoHint",
+          "explanation": "The number of outstanding futures contracts is known as open interest.",
+          "answerKeys": [
+            "D"
+          ],
+          "subTopics": [
+            "types-of-derivatives"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Liquidity",
+              "key": "A"
+            },
+            {
+              "content": "Float",
+              "key": "B"
+            },
+            {
+              "content": "Volume",
+              "key": "C"
+            },
+            {
+              "content": "Open Interest",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "8a6263bd-d9c9-4d55-8a83-2f75af6e4f92",
+          "type": "SingleChoice",
+          "content": "A long call option represents ....... nature of the trader?",
+          "hint": "NoHint",
+          "explanation": "A long call option represent the bullish nature of the trader because they bet that the price of the option will rise in the future time period.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "types-of-derivatives"
+          ],
+          "difficultyLevel": "High",
+          "choices": [
+            {
+              "content": "Bearish",
+              "key": "A"
+            },
+            {
+              "content": "Bullish",
+              "key": "B"
+            },
+            {
+              "content": "Not Bearish",
+              "key": "C"
+            },
+            {
+              "content": "Not Bullish",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "cb77019d-1358-420a-bad1-e966c7cfaf2f",
+          "type": "SingleChoice",
+          "content": "Option contracts give the purchasers the-",
+          "hint": "NoHint",
+          "explanation": "Option are contracts that give their purchasers the option to buy/sell the underlying asset.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "types-of-derivatives"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "option to trade the deriving asset",
+              "key": "A"
+            },
+            {
+              "content": "obligation to trade deriving asset",
+              "key": "B"
+            },
+            {
+              "content": "right to hold the underlying asset",
               "key": "C"
             },
             {
@@ -9343,48 +8924,432 @@
           ]
         },
         {
-          "uuid": "c6a3e417-f8df-4276-9fe3-215e84d97dc0",
+          "uuid": "a7559b27-3037-4c0e-81cb-a7ecc78df937",
           "type": "SingleChoice",
-          "content": "Basically, in SHA-512, the message is divided into blocks of size ___ bits for the hash computation.",
+          "content": "Price mentioned on an option that the purchaser can trade is called the-",
           "hint": "NoHint",
-          "explanation": "The message is divided into blocks of size 1024 bits, and the output produced is a 512-bit message digest and uses the 512-bit buffer till 80 rounds.",
+          "explanation": "Price specified on an option that the holder can trade the deriving asset is called the Strike/Exercise Price.",
           "answerKeys": [
             "C"
           ],
           "subTopics": [
-            "hashing"
+            "types-of-derivatives"
           ],
-          "difficultyLevel": "High",
+          "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "256",
+              "content": "Premium",
               "key": "A"
             },
             {
-              "content": "512",
+              "content": "Call",
               "key": "B"
             },
             {
-              "content": "1024",
+              "content": "Strike/Exercise price",
               "key": "C"
             },
             {
-              "content": "1248",
+              "content": "Put",
               "key": "D"
             }
           ]
         },
         {
-          "uuid": "4bb51750-3bca-4669-a88b-03ad26e72b16",
+          "uuid": "8c6c6ab9-d1d7-4639-9145-7f233837697f",
           "type": "SingleChoice",
-          "content": "A cryptographic hash function must be deterministic.",
+          "content": "The seller of an option has the-",
           "hint": "NoHint",
-          "explanation": "Deterministic means one input one output without collision.",
+          "explanation": "The seller of an option has the obligation to buy/sell the underlying asset.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "types-of-derivatives"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Right to trade the underlying asset",
+              "key": "A"
+            },
+            {
+              "content": "Obligation to trade deriving asset",
+              "key": "B"
+            },
+            {
+              "content": "ability to minimise the transaction risk",
+              "key": "C"
+            },
+            {
+              "content": "None of the above",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "f7b24b32-b7ef-4f2e-8b34-992d6690582c",
+          "type": "SingleChoice",
+          "content": "An option that allows the owner to sell now and buy an asset later at a future time is a",
+          "hint": "NoHint",
+          "explanation": "Put Option allows the owner to sell an asset at a future date.",
           "answerKeys": [
             "A"
           ],
           "subTopics": [
-            "hashing"
+            "types-of-derivatives"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Put option",
+              "key": "A"
+            },
+            {
+              "content": "Call Option",
+              "key": "B"
+            },
+            {
+              "content": "Swap",
+              "key": "C"
+            },
+            {
+              "content": "None of the above",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "d8f4d21e-5f1c-4ec2-b503-6f78c6470bf6",
+          "type": "SingleChoice",
+          "content": "The amount paid for an option is the",
+          "hint": "NoHint",
+          "explanation": "Premium is the amount that must be paid for an option.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "types-of-derivatives"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Strike price",
+              "key": "A"
+            },
+            {
+              "content": "Premium",
+              "key": "B"
+            },
+            {
+              "content": "Yield",
+              "key": "C"
+            },
+            {
+              "content": "Commission",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "663713ba-03af-4cf1-904b-7e3790289740",
+          "type": "SingleChoice",
+          "content": "Type of option that can be executed any time upto maturity is called",
+          "hint": "NoHint",
+          "explanation": "American Option can be executed any time upto maturity.",
+          "answerKeys": [
+            "D"
+          ],
+          "subTopics": [
+            "types-of-derivatives"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Swap",
+              "key": "A"
+            },
+            {
+              "content": "Stock Option",
+              "key": "B"
+            },
+            {
+              "content": "European Option",
+              "key": "C"
+            },
+            {
+              "content": "American Option",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "c1ca8227-67e1-48b8-8a60-1cf70ad93a31",
+          "type": "SingleChoice",
+          "content": "Individual stock options are known as-",
+          "hint": "NoHint",
+          "explanation": "Options on individual stocks are known as stock options.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "types-of-derivatives"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Stock options",
+              "key": "A"
+            },
+            {
+              "content": "Futures options",
+              "key": "B"
+            },
+            {
+              "content": "American options",
+              "key": "C"
+            },
+            {
+              "content": "Individual options",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "8bf31665-8afd-46de-af73-3d4755f90069",
+          "type": "SingleChoice",
+          "content": "Type of option that can only be executed on maturity is called-",
+          "hint": "NoHint",
+          "explanation": "European Option can be executed only at maturity.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [
+            "types-of-derivatives"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Swap",
+              "key": "A"
+            },
+            {
+              "content": "Stock Option",
+              "key": "B"
+            },
+            {
+              "content": "European Option",
+              "key": "C"
+            },
+            {
+              "content": "American Option",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "8bf43610-6267-4b29-894e-12b392c60ee6",
+          "type": "SingleChoice",
+          "content": "Options on futures contracts are known as-",
+          "hint": "NoHint",
+          "explanation": "Options on future contracts are referred as futures options.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "types-of-derivatives"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "Swap",
+              "key": "A"
+            },
+            {
+              "content": "Futures Options",
+              "key": "B"
+            },
+            {
+              "content": "Stock Options",
+              "key": "C"
+            },
+            {
+              "content": "Individual Options",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "92fb85a6-f95d-4c30-ad38-01ca1bf64287",
+          "type": "SingleChoice",
+          "content": "Which of the following options gives the owner the right to buy a financial instrument at executed price within a specific duration of time?",
+          "hint": "NoHint",
+          "explanation": "A call option gives the owner the right to buy a financial instrument at the executed price within the specific duration of time.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "types-of-derivatives"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Call Option",
+              "key": "A"
+            },
+            {
+              "content": "American Option",
+              "key": "B"
+            },
+            {
+              "content": "Put Option",
+              "key": "C"
+            },
+            {
+              "content": "European Option",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "51c18412-5040-430e-8784-cfa083e56905",
+          "type": "SingleChoice",
+          "content": "A call option gives the seller",
+          "hint": "NoHint",
+          "explanation": "A call option gives the seller the obligation to sell the underlying security.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "types-of-derivatives"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Right to sell the deriving asset",
+              "key": "A"
+            },
+            {
+              "content": "Obligation to sell the underlying asset",
+              "key": "B"
+            },
+            {
+              "content": "Right to buy the underlying asset",
+              "key": "C"
+            },
+            {
+              "content": "Obligation to buy the underlying asset",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "3348dd96-a45c-4de1-9e35-95594c3f8ec3",
+          "type": "SingleChoice",
+          "content": "A put option gives the seller",
+          "hint": "NoHint",
+          "explanation": "A put option gives the seller the obligation to buy the underlying asset.",
+          "answerKeys": [
+            "D"
+          ],
+          "subTopics": [
+            "types-of-derivatives"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Right to sell the deriving asset",
+              "key": "A"
+            },
+            {
+              "content": "Obligation to sell the underlying asset",
+              "key": "B"
+            },
+            {
+              "content": "Right to buy the underlying asset",
+              "key": "C"
+            },
+            {
+              "content": "Obligation to buy the underlying asset",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "71318b46-07b4-4c62-95b7-79b3804c09ab",
+          "type": "SingleChoice",
+          "content": "What is Yield Protocol?",
+          "hint": "Borrowing lending Platfrom",
+          "explanation": "Yield Protocol is an Ethereum Based Fixed rate borrowing and lending platform.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "protocols-in-derivatives"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Doge Coin Based Fixed Rate Lending Borrowing Protocol",
+              "key": "A"
+            },
+            {
+              "content": "Ethereum-Based Fixed Rate Lending Borrowing Protocol",
+              "key": "B"
+            },
+            {
+              "content": "Bitcoin Based Variable Rate Lending Borrowing Protocol",
+              "key": "C"
+            },
+            {
+              "content": "Bitcoin-Based Fixed Rate Lending Borrowing Protocol",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "de5e4f04-0ff8-4b2b-9fba-23edbf27723b",
+          "type": "SingleChoice",
+          "content": "Yield Protocol uses which of the following type of token?",
+          "hint": "NoHint",
+          "explanation": "Fixed Yeild Token or Fy token is used in Yeild Protocol.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [
+            "protocols-in-derivatives"
+          ],
+          "difficultyLevel": "Low",
+          "choices": [
+            {
+              "content": "UNI token",
+              "key": "A"
+            },
+            {
+              "content": "DAI token",
+              "key": "B"
+            },
+            {
+              "content": "Fy token",
+              "key": "C"
+            },
+            {
+              "content": "None of the above",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "5332214a-6ec1-4117-bb7a-c4aff07fb3b4",
+          "type": "SingleChoice",
+          "content": "Synthetix is over-collateralised to issue a synthetic asset.",
+          "hint": "NoHint",
+          "explanation": "Synthetix is over-collateralised which is more than 500% of collateral to security ratio.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "protocols-in-derivatives"
           ],
           "difficultyLevel": "Medium",
           "choices": [
@@ -9399,129 +9364,193 @@
           ]
         },
         {
-          "uuid": "3b2f90b4-32f7-4b8d-a338-09997e5ee46c",
+          "uuid": "e6eb31ec-766e-444e-9ca6-e4af43e239ef",
           "type": "SingleChoice",
-          "content": "Which of the following hash values will be accepted?",
+          "content": "Synthetix model deals with which of the following token?",
           "hint": "NoHint",
-          "explanation": "The hash functions with maximum number of zeros in the starting is the best because this combination is near to impossible to crack and provides the best security.",
+          "explanation": "SNX token is used as collateral in the Synthetix protocol.",
           "answerKeys": [
             "C"
           ],
           "subTopics": [
-            "hashing"
-          ],
-          "difficultyLevel": "Medium",
-          "choices": [
-            {
-              "content": "354604d",
-              "key": "A"
-            },
-            {
-              "content": "ef9f8a3g",
-              "key": "B"
-            },
-            {
-              "content": "00000sn",
-              "key": "C"
-            },
-            {
-              "content": "3e8t71f9",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "025f78df-6f2c-4130-9c00-fefb3a6155b8",
-          "type": "SingleChoice",
-          "content": "Which of the following consensus mechanisms require hash functions?",
-          "hint": "NoHint",
-          "explanation": "Proof of work mechanism requires hash funtions.",
-          "answerKeys": [
-            "C"
-          ],
-          "subTopics": [
-            "hashing"
+            "protocols-in-derivatives"
           ],
           "difficultyLevel": "Low",
           "choices": [
             {
-              "content": "Proof of stake",
+              "content": "SNT token",
               "key": "A"
             },
             {
-              "content": "Proof of Authority",
+              "content": "STX token",
               "key": "B"
             },
             {
-              "content": "Proof of work",
+              "content": "SNX token",
               "key": "C"
             },
             {
-              "content": "Proof of history",
+              "content": "SYX token",
               "key": "D"
             }
           ]
         },
         {
-          "uuid": "d9735064-39cf-48e5-a7be-1c9c8ffa5e74",
+          "uuid": "0593130d-4a56-42b1-911e-c925b8b37aea",
           "type": "SingleChoice",
-          "content": "Which of the following is not an application of hash-functions?",
-          "hint": "Properties of hash fucntions",
-          "explanation": "Key wrapping is a separate algorithm and not an application of hash fuctions.",
+          "content": "What does UMA stand for (in crypto)?",
+          "hint": "UMA is market for access across the world.",
+          "explanation": "UMA stands for Universal Market Access.",
           "answerKeys": [
-            "C"
+            "D"
           ],
           "subTopics": [
-            "hashing"
-          ],
-          "difficultyLevel": "High",
-          "choices": [
-            {
-              "content": "One way password file",
-              "key": "A"
-            },
-            {
-              "content": "Virus detection",
-              "key": "B"
-            },
-            {
-              "content": "Key wrapping",
-              "key": "C"
-            },
-            {
-              "content": "Intrusion detection",
-              "key": "D"
-            }
-          ]
-        },
-        {
-          "uuid": "1c8044ac-3357-4ec5-8e80-8004448b6fc9",
-          "type": "SingleChoice",
-          "content": "What is the length of SHA-256 output ?",
-          "hint": "NoHint",
-          "explanation": "SHA-256 gives output of length 64 hexadecimal number.",
-          "answerKeys": [
-            "C"
-          ],
-          "subTopics": [
-            "hashing"
+            "protocols-in-derivatives"
           ],
           "difficultyLevel": "Medium",
           "choices": [
             {
-              "content": "1024",
+              "content": "User Market Account",
               "key": "A"
             },
             {
-              "content": "256",
+              "content": "Uniswap Market Account",
               "key": "B"
             },
             {
-              "content": "64",
+              "content": "Unified Maker Access",
               "key": "C"
             },
             {
-              "content": "512",
+              "content": "Universal Market Access",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "14293e7c-8170-4316-bb00-fd40d5fd5394",
+          "type": "SingleChoice",
+          "content": "Which of the following protocols allows for the creation of priceless synthetic assets?",
+          "hint": "NoHint",
+          "explanation": "UMA allows for the creation of priceless synthetic assets.",
+          "answerKeys": [
+            "C"
+          ],
+          "subTopics": [
+            "protocols-in-derivatives"
+          ],
+          "difficultyLevel": "High",
+          "choices": [
+            {
+              "content": "dYdX",
+              "key": "A"
+            },
+            {
+              "content": "Hegic",
+              "key": "B"
+            },
+            {
+              "content": "UMA",
+              "key": "C"
+            },
+            {
+              "content": "None of the above",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "1c9b1006-59d5-4259-90e6-72333dbf833f",
+          "type": "SingleChoice",
+          "content": "New UMA coins can be created by which technique?",
+          "hint": "Coin Mining is done to generate new coins",
+          "explanation": "Developer mining was introduced by UMA to create new coins.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "protocols-in-derivatives"
+          ],
+          "difficultyLevel": "High",
+          "choices": [
+            {
+              "content": "Coin Farming",
+              "key": "A"
+            },
+            {
+              "content": "Developer Mining",
+              "key": "B"
+            },
+            {
+              "content": "Coin Yeilding",
+              "key": "C"
+            },
+            {
+              "content": "None of the above",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "ae337771-d424-47bc-8aeb-0558491ab282",
+          "type": "SingleChoice",
+          "content": "Hegic deals with the trade of-",
+          "hint": "NoHint",
+          "explanation": "Hegic generally deals with options trading.",
+          "answerKeys": [
+            "B"
+          ],
+          "subTopics": [
+            "protocols-in-derivatives"
+          ],
+          "difficultyLevel": "Medium",
+          "choices": [
+            {
+              "content": "Futures",
+              "key": "A"
+            },
+            {
+              "content": "Options",
+              "key": "B"
+            },
+            {
+              "content": "Forwards",
+              "key": "C"
+            },
+            {
+              "content": "Swaps",
+              "key": "D"
+            }
+          ]
+        },
+        {
+          "uuid": "267ffa48-161b-4b2f-8014-38831924d28c",
+          "type": "SingleChoice",
+          "content": "Who founded Hegic?",
+          "hint": "NoHint",
+          "explanation": "Molly Wintermute was the founder of Hegic Protocol.",
+          "answerKeys": [
+            "A"
+          ],
+          "subTopics": [
+            "protocols-in-derivatives"
+          ],
+          "difficultyLevel": "High",
+          "choices": [
+            {
+              "content": "Molly Wintermute",
+              "key": "A"
+            },
+            {
+              "content": "Hart Lambur",
+              "key": "B"
+            },
+            {
+              "content": "Allison Lu",
+              "key": "C"
+            },
+            {
+              "content": "Kain Warwick",
               "key": "D"
             }
           ]
@@ -9575,46 +9604,34 @@
       ],
       "summaries": [
         {
-          "title": "Introduction to Blockchain",
-          "shortTitle": "Blockchain Intro",
-          "key": "introduction-to-blockchain",
-          "details": "- What is Blockhain ?\n  * Blockchain are basically software protocols that help multiple parties to work under a set of shared data without trusting each other.\n  * These data can be of any form that one can consider.For examples, location destination account information, transaction history of a particular token.\n  * The term blockchain emerges from the \"chaining\" of \"blocks\" of data crytographically and allowing the audit of prior history.\n\n- Early days of blockchain\n  * Blockchain was born 20 years before the world was introduced to Bitcoin.\n  * The blockchain technology was introduced by Haber and Stornetta in the year 1991. They invented this technique for efficient time-stamping of digital documents.\n  * Adam Back in 2002 invents the idea of Proof of Work idea.\n  * Proof of Work was based on the paper work by Cynthia Dwork and Moni Naor (1992) that was aimed at eliminating junk mail.\n  * The sender needs to do some computational task before sending the mail. This was easy to do when done once but becomes infeasible to do for millions of recipients.\n  * Moreover, Blockchain is not Bitcoin rather Bitcoin employs the technology of Blockchain.  \n"
+          "title": "Introduction to Derivatives",
+          "shortTitle": "Derivatives Intro",
+          "key": "introduction-to-derivatives",
+          "details": "- What are Derivatives ?\n  * Derivatives are one of the essential features of a mature financial system. As the name clearly suggests derivatives derive their value from something (asset).\n  * The price of the derivatives is the price of the underlying asset in the derivatives such as a stock, a bond, a commodity, an interest rate, a currency or a cryptocurrency.\n      \n- Uses of Derivatives\n  - Hedging\n    * A hedge is an investment that is made with the goal of lowering the risk of unfavourable changes in an asset's price. A hedge often entails taking an opposite or offsetting stake in a connected security.\n    * Hedging involves a trade-off between risk and reward; while it lowers possible danger, it also limits prospective gains.\n  \n  - Speculations\n    * Speculation, often known as speculative trading, is the act of engaging in a financial transaction that carries a considerable risk of losing value but also carries the hope of a sizable gain or other significant value. With speculation, the chance of a sizable gain or other form of compensation more than offsets the risk of loss.\n  \n  Hedging aims to lessen the risk, or volatility, associated with a security's price change as opposed to speculation, which entails seeking to profit from a security's price fluctuation.\n\n  By holding positions in an asset that are counter to those the investor currently has, hedging aims to reduce the volatility that is related to its price. Contrarily, the primary goal of speculating is to make money by placing bets on the future direction of an asset.\n"
         },
         {
-          "title": "Working of Blockchain",
-          "shortTitle": "Blockchain Working",
-          "key": "working-of-blockchain",
-          "details": "- Blockchain ledger\n  * The ledger which is present in blockchain is more than a simple ledger. This ledger is quickly and easily accessbile by anyone and further shared by many which explains its distributive nature.\n  * These ledgers are responsible for process of recording transactions and tracking assets in a business network.\n  * These are responsible for storing data and assets such as tangible (a house, car, cash, land) or intangible (intellectual property, patents, copyrights, branding).\n  * Blockchain ledger is distributed. All network participants have access to the distributed ledger and its immutable record of transactions.\n  * Due to this distributed mechanism the transactions are recorded only for once, eliminating the duplication of data something which is very frequent in traditional business mechanisms.\n  * Tampering or changing these transactions in the ledger is impossible for a particiapnt to do so.\n  * Thus, these records ensure proper immutability.\n\n- Blockchain Transactions and Blocks\n  * Whenever a transaction occurs it is stored as a \"block\" of data.\n  * These transactions show the movement of assets tangible (a product) or intangible (intellectual).\n  * These data blocks store a variety of information such as who, what, when, where and also conditions such as temperature.\n  * Each block is connected to one before and after it. The blocks represent the flow of ownership of some data.\n  * Each of these blocks have a hashed reference to the block before it so you can trace every transaction all the way back to genesis block.\n  * These block are securely linked to each other to prevent any block from being altered or a block being inserted between two existing blocks.\n  * Blockchain hashes are highly secure. They strengthen the verification of the previous block and hence the entire blockchain.\n"
+          "title": "Derivatives Types",
+          "shortTitle": "Derivatives Types",
+          "key": "types-of-derivatives",
+          "details": "Financial derivatives combine usually of 4 most important parameters - Futures, Options, Swaps and Forwards.\n\n- Forwards\n  * A forward contract is an agreement between two parties to buy or sell an asset at a predetermined price on a specific date in the future. It mostly serves hedging needs (insuring against price risk). \n  * You could enter into a forward contract, for instance, if you are an onion farmer who is concerned about the volatility of onion prices. A contract to sell 100 kgs of onions to Arvind @ 40 per kg on 1/1/2018.\n\n- Futures\n  * A forward contract and futures are comparable. The distinction is that futures are standardised contracts to buy or sell an asset at a predetermined price in the future. Consequently, they are tradable on stock exchanges. \n  * The cost of the underlying asset determines the futures' value. Futures can be used for speculation or hedging. Buying and selling an asset with the intention of making a profit is known as speculation.\n\n- Options\n  * Two different alternatives are available. The right to buy an asset at a predetermined price on or before a given date is provided by a call option. The exercise price is the agreed-upon amount. It should be mentioned that the holder has the choice not to purchase the asset. \n  * The premium is what you pay to buy the option. It stands for the sum that the call option buyer must pay in exchange for the right, but not the responsibility, to exercise the option.\n\n- Swaps\n  * A contract known as a swap allows two parties to trade future cash flows for a specified period of time. An interest rate swap is the most typical kind of swap. Parties concur to trade interest rate payments in this. \n  * Consider a loan that Bank A issued with a variable interest rate based on the market. Interest rates will change over time. A loan with a fixed interest rate has been made by Bank B. They are able to trade their interest payments through a contract.\n\nFutures and Options are two most important types of derivatives because they are traded on exchange.\n"
         },
         {
-          "title": "Types of Blockchain Networks",
-          "shortTitle": "Blockchain Networks",
-          "key": "blockchain-networks",
-          "details": "These blockhain networks can be primarily of `four` types : `Public`, `Private` , `Permissioned` and `Consortium`.\n\n- Public Blockchain Network\n  * A network where anyone can join and participate in such as Bitcoin.\n  * This network needs a lot of computational power.\n  * Little or no privacy for transactions and weak security.\n  * Generally used by enterprise blockchain.\n\n- Private Blockchain Network\n  * Similar to Private, it is a decentralised peer-to-peer to network.\n  * One organisation governs the network and controls who is permitted to participate in the network.\n  * This organisation provides consensus protocol and maintain the shared ledger.\n  * A private blockchain can be run behind a corporate firewall and even be hosted on premises.\n\n- Permissioned (Hybrid) Blockchain Network\n  * Businesses who setup private Network also setup a permissioned blockchain network.\n  * Public blockchain can be permissioned.\n  * Sets up restrictions on who is allowed to participate in the network and in what transactions.\n  * Participants need to obtain an invitation or permission to join.\n\n- Consortium Blockchain Network\n  * Multiple organisations can share the responsibilities to share the blockchain.\n  * These pre-selected organizations determine who may submit transactions or access the data.\n  * A consortium blockchain is ideal for business when all participants need to be permissioned.\n"
+          "title": "Futures in Depth",
+          "shortTitle": "Futures Detail",
+          "key": "futures-depth",
+          "details": "- Futures are financial derivative contracts that bind parties to buy or sell an asset at a specified future date and price. Regardless of the market price at the date of expiration, the buyer or seller must buy or sell the underlying asset at the agreed-upon price.\n\n- Futures are of 5 types primarily- `Commodity Futures`, `Stock index future`, `Currency futures`, `Precious Metals`, `U.S. treasury futures`.\n\n- Futures are traded through Futures contracts on exchanges.Futures Contracts are a type of financial instrument through which a buyer can wager on the future price of a commodity or other security.These exchanges are responsible for the standardisation of various parameters in these contracts. The Commodity Futures Trading Commission oversees futures markets (CFTC).\n\n- Hedging through futures\n\n  * Futures can be used to hedge against price fluctuations in the underlying asset. This helps in lowering the risk of te investors.\n\n- Speculation through futures\n\n  * A trader can make predictions (speculate) about the course of a commodity's price using a futures contract. The trader is at a profit position if the price of the contract rises above the contract price before expiration.\n\n- Buyer and Seller\n\n  - `Long Contract`\n    \n    * A trader buys a long contract (long position) with an prediction that the prices of the commodity rise above the current level and they are benefitted.\n\n    * `Prices rise`- The position holder is at a profit.\n\n    * `Prices fall`- The position holder is at a loss.\n  \n  - `Short Contract`\n\n    * A trader buys a short contract (long position) with an prediction that the prices of the commodity fall below the current level and they are benefitted.\n\n    * `Prices rise`- The position holder is at a loss.\n\n    * `Prices fall`- The position holder is at a profit.\n"
         },
         {
-          "title": "Hashing",
-          "shortTitle": "Hashing",
-          "key": "hashing",
-          "details": "- What is Hashing ?\n  * A cryptographic hash function is an computational algorithm that takes an arbitrary amount of data input—a credential—and produces a fixed-size output of enciphered text called a hash value, or just hash.\n  * The process of creating this hash value is known as Hashing. \n  * That enciphered text can then be stored instead of the password itself, and later used to verify the user.\n"
+          "title": "Options in Depth",
+          "shortTitle": "Options Detail",
+          "key": "options-depth",
+          "details": "- A derivative, or contract, is an option that grants the buyer the right , but not the obligation, to purchase or sell the underlying asset by a particular date (expiration date) at a particular price (strike price). Options can be classified in two types which are Call and Put Options.\n\n- Use Cases\n  \n  - Hedging\n    \n    * An investor can purchase put options on a stock if they anticipate that specific equities in heir portfolio will lose value but do not want to permanently exit the trade.\n\n  - Speculation\n\n    * An investor can buy calls or sell puts to profit from a gain in price if they anticipate the price of a security will increase. The investor's overall risk while purchasing call options is capped at the option premium.\n\n  - Leverage\n\n    * Options are essentially leveraged instruments since they enable investors to increase the possible upside profit by investing less money than would otherwise be necessary to trade the underlying asset.\n\n  - Benefit from downside\n\n    * In options market, a trader can benefit from the downside of the market by betting on “Put options” where the trader gets the right to sell (not obligation) the underlying asset.\n\n- Call Options\n\n  * You can purchase a “call” option with less capital than the underlying asset if you believe the price of an asset will increase.\n\n  * This strategy is adopted by traders who are bullish and confident about a particular stock, Exchange Traded Fund and want to minimise their risks.\n\n- Put Options\n\n  * A put option gives the buyer the right to sell an underlying asset at a set price.\n\n  * This strategy is adopted by a trader who is bearish in nature and want to take less risk compared to short-selling.\n\n- Buyer and Seller\n\n  - Call Buyer\n\n    * Executes buying call option and pays the premium.\n    * These traders are bullish in nature.\n    * Profits are unlimited and losses are capped to the premium paid.\n    * A call buyer has the right to execute the buying but he/she is not obligated to do so.\n\n  - Call Seller\n\n    * Executes selling of call option and receives the premium.\n    * These traders are not bullish.\n    * Profits are limited to the premium and losses are unlimited.\n    * Moreover, they are obligated to sell the derivative in case the call buyer is willing to execute the option.\n\n  - Put Buyer\n\n    * Executes buying of a put option and pays the premium\n    * These traders are bearish.\n    * Profits are unlimited and losses are limited to the premium paid.\n    * A put buyer has the right to sell the option but he/she is not obligated to do so.\n\n  - Put Seller\n\n    * Executes selling of a put option and receives the premium\n    * These traders are not bearish.\n    * Profits are limited to the premium and losses are unlimited.\n    * A put seller is obligated to buy when the put buyer wants to sell the derivative.\n"
         },
         {
-          "title": "Properties of Hashing",
-          "shortTitle": "Hashing Properties",
-          "key": "properties-of-hashing",
-          "details": "- Non Reversibility - One way functions\n  * A good hash makes it impossible to crack the original password from the output or hash.\n\n- Diffusion or Avalanche Effect\n  * If there is a change in one bit of the original password then it should result change in half of the bits of its hash.\n  * This means even the smallest change in the original text brings about significant and unpredictable changes.\n\n- Deterministic \n  * A given password must generate the same hash value or enciphered text whenever the same input is being passed to it.\n\n- Collision Resistance\n  * When two different inputs give the same hash value it is known as collision.\n  * It should be hard to find two different passwords that hash to the same enciphered text. \n  * A good hash is considered to have a lot of zeros as the starting of the hash.\n\n- Non-predictable\n  * It should not be obvious enough to derive original text from the hash value. \n  * Hence the original text must be unpredictable. \n"
-        },
-        {
-          "title": "Merits and Demerits of Hashing",
-          "shortTitle": "Hashing Effects",
-          "key": "merits-and-demerits-of-hashing",
-          "details": "- The Good Effects\n  * Cryptographic hashes take in clear and simple text passwords and convert them into enciphered text for storage.\n  * It becomes difficult for Attackers to decipher original text from the hash value if they wish to exploit that information. Thus hashing creates great deal of security. \n\n- The Bad Effects\n  * Attackers who have fast hardware can easily \"crack\" hash values to original text.\n  * Good hash alogrithms are made to be collission resistant. But it is impossible to eliminate collissions completely. Algorithms like MD5 , SHA-1 are known to contain collsions-produce same hash value for two different input credentials.\n  * Rainbow tables are “optimized lookup tables” that can be used to reverse-engineer one-way hash functions. A rainbow table is basically a pre-computed set of plaintext strings and their corresponding hashes.\n  *  Large rainbow tables are publicly available, and attackers can use one of these tables to retrieve cleartext data that has been hashed.\n"
-        },
-        {
-          "title": "Popular Hashing Algorithms",
-          "shortTitle": "Popular Hashes",
-          "key": "Popular Hashing Algorithms",
-          "details": "- SHA-256 \n  * SHA stands for Secure Hashing Algorithm. It is one of the most secured hashing algorithm currently available.\n  * SHA-256 is a successor SHA-2, which was created by National Security Agency in 2001.\n  * SHA-256 is a patented cryptographic hash function that outputs a value that is 256 bits long.\n  * It is built with a Merkle-Damgard structure.\n  * Bitcoin employs SHA-256 as its hashing algorithm.\n\n- Keccak-256 (SHA-3 Family)\n  * Keccak has arbitrary input and infinite input space.\n  * Employed to create hashes for very big files.\n  * Results in 32 bytes data type as the result.\n  * Ethereum uses Keccak-256 as its hashing algorithm.\n"
+          "title": "Derivatives Protocols",
+          "shortTitle": "Derivatives Org",
+          "key": "protocols-in-derivatives",
+          "details": "* Ever-expanding markets inevitably create their own derivatives markets, which may eventually grow to be orders of magnitude larger than their underlying markets.     \n* Due to the fact that, in contrast to traditional finance, decentralised derivatives can be generated by anybody in an entirely permissionless and open manner, many individuals in the decentralised finance field are quite optimistic about their potential.\n* There are various derivative protocols that are emerging in the decentralised finance space. Henceforth we are going to discuss Yield Protocol, Synthetix and others.\n\n- Yield Protocol\n  * A protocol for collateralized fixed-rate, fixed-term borrowing and lending called Yield Protocol is built on Ethereum. Yield employs a class of tokens known as fyTokens to accomplish its objectives (fixed yield tokens). \n  * After a defined maturity date, fyTokens are Ethereum-based ERC-20 tokens that can be exchanged for an underlying asset. For instance, following the maturity date, you can exchange one fyDai token for one Dai.\n  * Yield is a crucial protocol that gives Ethereum access to fixed-rate goods. To build strong interest-bearing apps for investors, it can be strongly connected with protocols like MakerDAO and Compound. \n  * As more traditional investors start using DeFi and their portfolios start to require these kinds of assets, the demand for fixed income components will increase.\n\n- Synthetix\n  * On the Ethereum blockchain, synthetic assets can be issued via the Synthetix (SNX) protocol. Gold and silver-like synthetic commodities, synthetic cryptocurrencies, inverse synthetic cryptocurrencies, synthetic cryptocurrency indexes, and synthetic fiat currencies are all supported by Synthetix. The platform exposes non-blockchain-based assets to the cryptocurrency ecosystem, resulting in the development of a more developed financial market.\n  * A synthetic asset issuance protocol built on Ethereum is called Synthetix. Synthetic assets are financial instruments in the form of ERC-20 smart contracts known as \"Synths,\" which track and give the returns of another asset without requiring you to retain that asset. \n  * They are comparable to derivatives in traditional finance. On Kwenta, Synthetix's decentralised exchange, you can trade Synths, which include cryptocurrencies, indices, inverses, and physical assets like gold (DEX). The Synthetix Network Token (SNX), the company's native token, is utilised as collateral for issued Synths.\n\n- UMA \n  * A blockchain-based open-source protocol called UMA uses Ethereum (ETH). Anyone can create decentralised financial products—financial services that are available to everyone—using UMA. Also, the team's objective of establishing \"universal market access\" is where the protocol's name, UMA, originates.\n  * The UMA protocol, which is supported by the UMA token, enables users to create their own synthetic assets—digital tokens that simulate and track the value of any physical item. On the platform, these digital assets are also referred to as priceless financial contracts. According to the UMA protocol, decentralised financial contracts have the ability to remove all entry barriers for any financial market\n  \n- Hegic\n  * In a trustless way, Hegic, a decentralised trading system built on the Ethereum blockchain, establishes, maintains, and settles Hedge contracts. The hedge contracts are on-chain contracts that resemble options and let traders sell their assets at a predetermined price at a later time. On the Hegic platform, option prices are automatically set lower than they are on centralised exchanges.\n"
         }
       ]
     },
