@@ -99,7 +99,7 @@ topics:
       * dYdX
       * Synthetix
     explanations: derivatives.yaml
-    readings: blockchain_basics.yaml
+    readings: derivatives.yaml
     summaries: derivatives.yaml
     questions: derivatives.yaml
     status: To Do

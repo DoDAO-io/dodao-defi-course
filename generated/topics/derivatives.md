@@ -13,7 +13,7 @@ Details
 
 
 ## Links
-[Reading List](./../../generated/readings/blockchain_basics.md)
+[Reading List](./../../generated/readings/derivatives.md)
 
 [Summary](./../../generated/summaries/derivatives.md)
 

@@ -2,21 +2,28 @@
   shortTitle: Derivatives Intro
   key: introduction-to-derivatives
   details: |
+    ### Introduction
     - Derivatives are one of the essential features of a mature financial system. As the name clearly suggests derivatives derive their value from something (asset). The price of the derivatives is the price of the underlying asset in the derivatives such as a stock, a bond, a commodity, an interest rate, a currency or a cryptocurrency.
 
     - Some of the most common forms of derivatives that are present in the current financial system are forwards, futures, options and swaps. There are two main uses of derivatives: Hedging and Speculation.
 
-    - Hedging
-      * Hedging allows the management of financial risks. To understand hedging consider an example of a farmer that primarily focuses on growing wheat. The wheat price can fluctuate throughout the year depending on the current demand and supply. As the farmer plant wheat, they are committed to it for the entire growing season which possesses a big risk in the case when the price of wheat is low when the harvest time comes. To accommodate this risk the farmer will sell short wheat futures contracts for the amount they predict to harvest. Gradually as the time of the harvest approaches the farmer will close their position and incur a profit or loss based on the current price of the wheat. If the price of wheat is lower compared to the anticipated price then the short position makes a profit that offsets the loss from selling the actual wheat whereas if the current price is higher then the short position will be at a loss but profit from selling the wheat offsets the loss. Thus it concludes that whatever the price of wheat the farmer could easily predict their payout.
+    ### Hedging
+    * Hedging allows the management of financial risks. To understand hedging consider an example of a farmer that 
+    primarily focuses on growing wheat. The wheat price can fluctuate throughout the year depending on the current demand 
+    and supply. As the farmer plant wheat, they are committed to it for the entire growing season which possesses a big 
+    risk in the case when the price of wheat is low when the harvest time comes. To accommodate this risk the farmer will 
+    sell short wheat futures contracts for the amount they predict to harvest. Gradually as the time of the harvest approaches 
+    the farmer will close their position and incur a profit or loss based on the current price of the wheat. If the price of wheat is lower compared to the anticipated price then the short position makes a profit that offsets the loss from selling the actual wheat whereas if the current price is higher then the short position will be at a loss but profit from selling the wheat offsets the loss. Thus it concludes that whatever the price of wheat the farmer could easily predict their payout.
+    
+    * Yield farmers in the decentralised can also use hedging to offset a potential that can occur if the price of one 
+    of the tokens used for yield farming loses its value in relation to another token.
 
-      * Yield farmers in the decentralised can also use hedging to offset a potential that can occur if the price of one of the tokens used for yield farming loses its value in relation to another token.
+    ### Speculations
+    * In a lot of financial instruments including derivatives, speculation can represent a significant amount of traded volume. This is because derivatives offer an easy exposure to particular assets that may be hard to access otherwise, for example, trading oil futures rather than oil barrels.
 
-    - Speculations
-      * In a lot of financial instruments including derivatives, speculation can represent a significant amount of traded volume. This is because derivatives offer an easy exposure to particular assets that may be hard to access otherwise, for example, trading oil futures rather than oil barrels.
+    * Speculations can also provide easy access to leverage. A trader can purchase a call or a put option by providing only enough funds to cover the options premium and gain exposure to a significant amount of underlying assets. Speculators are important market participants as they provide liquidity to the market and allow people who actually need to buy a particular derivative to hedge the risk to easily enter and exit the market.
 
-      * Speculations can also provide easy access to leverage. A trader can purchase a call or a put option by providing only enough funds to cover the options premium and gain exposure to a significant amount of underlying assets. Speculators are important market participants as they provide liquidity to the market and allow people who actually need to buy a particular derivative to hedge the risk to easily enter and exit the market.
-
-      * Derivatives have a prolonged interesting history. From using clay tokens and fur letters to buy and sell agricultural commodities in medieval Europe to the establishment of the Chicago Board of Trade in 1848 -one of the world's oldest futures and options exchanges.
+    * Derivatives have a prolonged interesting history. From using clay tokens and fur letters to buy and sell agricultural commodities in medieval Europe to the establishment of the Chicago Board of Trade in 1848 -one of the world's oldest futures and options exchanges.
 - title: Derivatives Types
   shortTitle: Derivatives Types
   key: types-of-derivatives
