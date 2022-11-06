@@ -104,21 +104,21 @@ topics:
     questions: derivatives.yaml
     status: To Do
     completionWeek: First Week September
-  - title: Tokenization
-    key: tokenization
-    details: |
-      Set protocol and Index Coop
-      
-      Details 
-      * Index Coop
-      * Set Protocol provides a way to combine portfolios much like an ETF holds many traditional stocks. The Sets can be active or passive. The module ends with a discussion of the use in DeFi of both wrapped bitcoin and wrapped ethereum.
-      * Wrapped bitcoin
-      * Balancer
-    readings: blockchain_basics.yaml
-    summaries: blockchain_basics.yaml
-    questions: blockchain_basics.yaml
-    status: To Do
-    completionWeek: First Week September
+#  - title: Tokenization
+#    key: tokenization
+#    details: |
+#      Set protocol and Index Coop
+#
+#      Details
+#      * Index Coop
+#      * Set Protocol provides a way to combine portfolios much like an ETF holds many traditional stocks. The Sets can be active or passive. The module ends with a discussion of the use in DeFi of both wrapped bitcoin and wrapped ethereum.
+#      * Wrapped bitcoin
+#      * Balancer
+#    readings: blockchain_basics.yaml
+#    summaries: blockchain_basics.yaml
+#    questions: blockchain_basics.yaml
+#    status: To Do
+#    completionWeek: First Week September
   - title: Stable Coins
     key: stable-coins
     details: |
@@ -133,14 +133,14 @@ topics:
     questions: stable_coins.yaml
     status: In Progress
     completionWeek: July 18
-  - title: Security and Risks
-    key: security-and-risks
-    details: |
-      This chapter explains 
-      * Security Considerations 
-      * Protocol and Smart Contract Risks
-    readings: blockchain_basics.yaml
-    summaries: blockchain_basics.yaml
-    questions: blockchain_basics.yaml
-    status: To Do
-    completionWeek: Second Week September
+#  - title: Security and Risks
+#    key: security-and-risks
+#    details: |
+#      This chapter explains
+#      * Security Considerations
+#      * Protocol and Smart Contract Risks
+#    readings: blockchain_basics.yaml
+#    summaries: blockchain_basics.yaml
+#    questions: blockchain_basics.yaml
+#    status: To Do
+#    completionWeek: Second Week September
