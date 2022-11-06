@@ -3,10 +3,10 @@ Other chapters
 2) Insurance
 3) Payments - proposals & superfluid, stream flow, vesting
 4) Giving Funds - Yield Farming, Liquidity Mining
-5) Investing - Staking, Yield Aggregation
+5) Investing/Putting Cryto to Work - Staking, Yield Aggregation, Liquidity Mining - https://www.blockchain-council.org/defi/staking-vs-yield-farming-vs-liquidity-mining/
 6)
 
-https://wazirx.com/blog/yield-farming-vs-staking-vs-liquidity-mining-what-will-be-your-secret-to-success-in-defi/#:~:text=Liquidity%20mining%20helps%20the%20DeFi,security%20of%20a%20blockchain%20network.
+
 
 ## Defi Areas
 1. Decentralized Exchanges
