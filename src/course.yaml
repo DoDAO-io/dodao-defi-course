@@ -1,7 +1,9 @@
 title: DeFi 101 Course (In Progress)
 key: defi-course
-summary: |
-  Decentralised Finance (DeFi) is the upcoming revolution in the world which would result in the complete transformation in the functioning of the finance sector using blockchain technology as its core.
+summary: >
+  Decentralised Finance (DeFi) is the upcoming revolution in the world which
+  would result in the complete transformation in the functioning of the finance
+  sector using blockchain technology as its core.
 highlights:
   - Intro to Decentralized Finance
   - DeFi vs CeFi
@@ -10,17 +12,28 @@ highlights:
   - Summaries and questions for each chapter
 publishStatus: Live
 thumbnail: https://d31h13bdjwgzxs.cloudfront.net/courses/DoDAO/DeFi/defi_logo.jpeg
-details:  | 
-  Decentralised Finance (DeFi) is the upcoming revolution in the world which would result in the complete transformation in the functioning of the finance sector using blockchain technology as its core.  
-  This course, DeFi 101, will introduce the learners to the world of blockchain and how it can be incorporated into the current financial system making it more efficient and secure than before. 
-  During the course, learners will be upskilled in the fields of Cryptography, Smart Contracts, Decentralised Protocols, Ethereum networks, Consensus Mechanisms (PoW & PoS), Flash loans, Digital signatures, Tokenization and many more! So, fasten your seat belts to know the future of finance.
+details: >
+  Decentralised Finance (DeFi) is the upcoming revolution in the world which
+  would result in the complete transformation in the functioning of the finance
+  sector using blockchain technology as its core.  
+
+  This course, DeFi 101, will introduce the learners to the world of blockchain
+  and how it can be incorporated into the current financial system making it
+  more efficient and secure than before. 
+
+  During the course, learners will be upskilled in the fields of Cryptography,
+  Smart Contracts, Decentralised Protocols, Ethereum networks, Consensus
+  Mechanisms (PoW & PoS), Flash loans, Digital signatures, Tokenization and many
+  more! So, fasten your seat belts to know the future of finance.
 duration: 4 - 8 hours
 topics:
   - title: What is DeFi and Use Cases
     key: what-is-defi
-    details: |
-      This chapter explains basics of DeFi, How its different from Traditional Finance, and Use Cases
-      
+    details: >
+      This chapter explains basics of DeFi, How its different from Traditional
+      Finance, and Use Cases
+
+
       Details
         * What is DeFi 
         * CeFi vs DeFi
@@ -34,7 +47,7 @@ topics:
     key: blockchain-basics
     details: |
       This chapter explains the basics of blockchain and cryptocurrency.
-      
+
       Detials
         * What is Blockchain 
         * Crypto Origins
@@ -48,7 +61,7 @@ topics:
     key: defi-foundations
     details: |
       Explain on a high level what are smart contract, and where do they run
-      
+
       Details 
       * How Ethereum transactions work
       * Miner extractable value (MEV)
@@ -64,7 +77,7 @@ topics:
     key: lending-and-credit
     details: |
       Functioning of the MakerDAO stablecoin and examining Compound and Aave.
-      
+
       Details 
       * MakerDAO stablecoin
       * Compound
@@ -76,13 +89,19 @@ topics:
     completionWeek: Done
   - title: Decentralised Exchanges
     key: decentralised-exchanges
-    details: |
-      Focusses on one of the pillars of DeFi - Decentralised Exchanges and their Functioning.
-      
+    details: >
+      Focusses on one of the pillars of DeFi - Decentralised Exchanges and their
+      Functioning.
+
+
       Details 
+
       * Working of Decentralised Exchanges
+
       * Swaps
+
       * Automated Market Makers
+
       * Loans
     explanations: decentralized_exchanges.yaml
     readings: decentralized_exchanges.yaml
@@ -92,11 +111,16 @@ topics:
     completionWeek: Done
   - title: Derivatives
     key: derivatives
-    details: |
-      This chapter explains the popular derivatives protocols and provides insights into Yield Protocol and Synthetix.
+    details: >
+      This chapter explains the popular derivatives protocols and provides
+      insights into Yield Protocol and Synthetix.
+
       Details 
+
       * Yield Protocol
+
       * dYdX
+
       * Synthetix
     explanations: derivatives.yaml
     readings: derivatives.yaml
@@ -104,26 +128,11 @@ topics:
     questions: derivatives.yaml
     status: To Do
     completionWeek: First Week September
-#  - title: Tokenization
-#    key: tokenization
-#    details: |
-#      Set protocol and Index Coop
-#
-#      Details
-#      * Index Coop
-#      * Set Protocol provides a way to combine portfolios much like an ETF holds many traditional stocks. The Sets can be active or passive. The module ends with a discussion of the use in DeFi of both wrapped bitcoin and wrapped ethereum.
-#      * Wrapped bitcoin
-#      * Balancer
-#    readings: blockchain_basics.yaml
-#    summaries: blockchain_basics.yaml
-#    questions: blockchain_basics.yaml
-#    status: To Do
-#    completionWeek: First Week September
   - title: Stable Coins
     key: stable-coins
     details: |
       Why Stable Coins, Different Types of stable coins
-      
+
       Details 
       * Why Stable Coins 
       * Different Type of stable coins
@@ -133,14 +142,9 @@ topics:
     questions: stable_coins.yaml
     status: In Progress
     completionWeek: July 18
-#  - title: Security and Risks
-#    key: security-and-risks
-#    details: |
-#      This chapter explains
-#      * Security Considerations
-#      * Protocol and Smart Contract Risks
-#    readings: blockchain_basics.yaml
-#    summaries: blockchain_basics.yaml
-#    questions: blockchain_basics.yaml
-#    status: To Do
-#    completionWeek: Second Week September
+  - key: tokenization
+    title: Tokenization
+    details: |-
+      This chapter explains
+      1) Different types of tokes
+      2) Advantages of Tokenization

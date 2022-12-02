@@ -11290,6 +11290,16 @@
           "details": "* Despite the recent downturn in the markets, stablecoins are still a promising, relatively low-risk, and legitimate way to gain cryptocurrency exposure.\n* The dangers of a complete crash, such as in the case of UST, are diminished while the capital efficiency continues to be higher than for stablecoins that are only backed by cash and cryptocurrency. \n* The hybrid-backed stablecoin FRAX from Frax Finance is an illustration of this.\n* As stablecoin payment infrastructure spreads across continents and many governments have already started working toward some kind of regulation.\n\n- Regulations ahead\n  * Regulation and central bank digital currencies will have a significant impact on the stablecoin landscape.\n  * US legislators consider measures to regulate the cryptocurrency market. \n  * A hard cap on the daily activity of huge stablecoins is something that the European Commission is considering doing across the pond.\n  * Stablecoins require regulation as they are \"backed by assets that may lose value or become illiquid during stress\" and are \"susceptible to runs,\" according to research by the US Federal Reserve.\n  * It is believed that CBDCs (Central Bank Digital Currencies) will close the stablecoin market's gap. \n  * CBDCs will be completely convertible to other kinds of legal tender currency, unlike stablecoins, which will not have the same status as central bank money.\n  * The majority of stablecoins are now issued by private enterprises, but this will change as central banks issue their own, known as CBDCs (central bank digital currencies).\n  * In March 2022, US President Biden signed an executive order establishing a framework for regulators to follow in establishing a Federal Reserve (Fed) CBDC.\n  * The European Central Bank has stated that smart contracts will almost certainly be incorporated into a digital euro. Since 2020, the Bank of England has been working with HM Treasury to develop a sterling CBDC.\n  * It is expected that the first sterling CBDC will appear in the middle of this decade.\n  * Many countries are currently conducting research. In an ideal world, CBDCs would be able to communicate with one another. \n  * The Bank of International Settlements is currently testing this on a shared platform with four central banks. \n  * It is worth mentioning that, similar to how the Eurodollar banking system works, an offshore commercially-issued USD stablecoin can exist regardless of what US regulators decide.\n  * Eurodollar deposits are denominated in dollars and are not regulated in the United States.\n"
         }
       ]
+    },
+    {
+      "key": "tokenization",
+      "title": "Tokenization",
+      "details": "This chapter explains\n1) Different types of tokes\n2) Advantages of Tokenization",
+      "explanations": [],
+      "readings": [],
+      "summaries": [],
+      "questions": []
     }
-  ]
+  ],
+  "uuid": "defi-course"
 }
