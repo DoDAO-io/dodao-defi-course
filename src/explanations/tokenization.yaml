@@ -1,0 +1,45 @@
+- key: token-types
+  title: Token Types
+  shortTitle: Token Types
+  details: >
+    A Token can be thought of as a representation of value that can be exchanged
+    or traded in most cases.
+
+
+    There are many different types of tokens:
+
+    1) Coins/AltCoins - These are native to blockchain and can be used for
+    payments or to power transactions. The most 
+       famous type of coins are Bitcoin(BTC) and Ethereum(ETH). These are normally awarded to the validators of the 
+       transaction, but can also be bought and exchanged.
+    2) Security tokens are digital assets that represent some type of underlying
+    asset, equity, or commodity. There are many different types of security
+    tokens, including:
+
+       1) Stocks or Bonds - These tokens represent an underlying stock or bond. They help investors from any country gain exposure to one of the most famous stocks or bonds.
+
+       2) Commodities - These tokens represent a commodity, such as gold or oil. They help investors from any country gain exposure to the commodity market.
+
+       3) Real Estate - These tokens represent a piece of property. They help investors from any country gain exposure to the real estate market.
+    3) Protocol/product tokens - these tokens are issued by a protocol and may
+    or may not have any utility or governance power related to them. Examples of
+    these tokens include MKR, AAVE and COMP. 
+
+    4) Utility tokens - they can serve any purpose that a developer wants them
+    to. In general, utility tokens provide access to a specific service or
+    product within a blockchain ecosystem. They can often be the same as the
+    protocol token or can be different. 
+
+    5) Governance Tokens - Governance tokens are primarily used for voting and
+    decision-making within a protocol or organization. They may also offer some
+    financial incentives, but their main purpose is to give token holders a say
+    in how the protocol or organization is run.
+
+    6) Cause-based Tokens - they are designed to support a specific cause or
+    charity. They typically don't offer any financial incentives or utility, but
+    are meant to show support for the cause they represent. 
+
+    7) NFTs - NFTs, or non-fungible tokens, are a type of cryptocurrency that is
+    limited in supply and has a unique identity. NFTs are difficult to copy or
+    replicate, making them ideal for representing digital or real-world assets
+    such as paintings, photographs, or other materials.

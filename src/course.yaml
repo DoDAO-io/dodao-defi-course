@@ -79,6 +79,7 @@ topics:
       This chapter explains
       1) Different types of tokes
       2) Advantages of Tokenization
+    explanations: tokenization.yaml
   - title: Lending and Credit
     key: lending-and-credit
     details: |
