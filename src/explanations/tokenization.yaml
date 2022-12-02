@@ -200,4 +200,15 @@
     This, in turn, can lead to more informed decision-making when it comes to
     compliance and interactions with those behind the project.
 
-    6) 
+    6) **Settlement and Clearing** - Settlement and clearing can be complex
+    processes, especially in traditional financial markets. In these markets,
+    central clearing houses act as central counterparties (CCPs) to both sides
+    of a trade. This ensures that the trade is matched and executed even if one
+    of the parties defaults, which reduces counterparty risk. Clearing houses
+    confirm trade data and use central securities depositories (CSDs) to record
+    transactions. Custodians holding investor assets work with CSDs to ensure
+    the safe delivery/transfer of assets and funds to each of the respective
+    transacting parties, and they handle the settlement of transactions.
+    Blockchain technology can greatly improve efficiency in the settlement
+    process by reducing complexity and shortening the settlement cycle to near
+    real-time.
