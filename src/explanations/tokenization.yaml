@@ -50,14 +50,11 @@
     stock, assets or commodities. The institution buys the underlying stock and
     deposits it with the custodian. Based on the number of shares that the
     custodian holds in reserve, tokens are issued on a blockchain. The price of
-    each token is pegged to the value of the shares.
-
-
-    This process allows for a more efficient way of buying and selling stocks or
-    assets, as well as a more secure way of storing them. By using a blockchain,
-    there is no need for a third party to keep track of ownership or
-    transactions. This makes the process more transparent and less susceptible
-    to fraud.
+    each token is pegged to the value of the shares.This process allows for a
+    more efficient way of buying and selling stocks or assets, as well as a more
+    secure way of storing them. By using a blockchain, there is no need for a
+    third party to keep track of ownership or transactions. This makes the
+    process more transparent and less susceptible to fraud.
 
 
     In 2022, many cryptocurrency exchanges went bankrupt because the tokens they
