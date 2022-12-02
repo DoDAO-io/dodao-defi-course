@@ -109,6 +109,12 @@ topics:
     questions: decentralized_exchanges.yaml
     status: Done
     completionWeek: Done
+  - key: tokenization
+    title: Tokenization
+    details: |-
+      This chapter explains
+      1) Different types of tokes
+      2) Advantages of Tokenization
   - title: Derivatives
     key: derivatives
     details: >
@@ -128,12 +134,6 @@ topics:
     questions: derivatives.yaml
     status: To Do
     completionWeek: First Week September
-  - key: tokenization
-    title: Tokenization
-    details: |-
-      This chapter explains
-      1) Different types of tokes
-      2) Advantages of Tokenization
   - title: Stable Coins
     key: stable-coins
     details: |
