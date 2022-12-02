@@ -64,16 +64,14 @@
     educated blockchain user, we should be aware whenever we are depositing
     custody of our assets or tokens to anyone else.
 - key: need-for-tokenization
+  title: 'Need for Tokenization '
   shortTitle: Background
   details: >-
-    Traditional finance models and tools work well for developed nations, but
-    they leave a lot to be desired when it comes 
-
-    to offering compensation for new ways of collaboration or providing access
-    to a global financial system for everyone. 
-
-    Let's take a look at some of the areas where traditional finance falls
-    short:
+    Traditional finance models and tools have worked well until the last few
+    years, but they leave a lot to be desired when it comes to offering
+    compensation for new ways of collaboration or providing access to a global
+    financial system for everyone. Let's take a look at some of the areas where
+    traditional finance falls short:
 
 
     Compensation - With the traditional ways of compensating employees through
@@ -84,4 +82,3 @@
     of cryptocurrency, one can simply write a few lines of code to create and
     distribute tokens based on whatever rules they want. This flexibility has
     already led to some incredible changes in the way we compensate team members
-  title: 'Need for Tokenization '
