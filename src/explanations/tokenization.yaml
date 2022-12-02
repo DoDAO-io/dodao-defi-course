@@ -1,7 +1,7 @@
 - key: token-types
   title: Token Types
   shortTitle: Token Types
-  details: >
+  details: >-
     A Token can be thought of as a representation of value that can be exchanged
     or traded in most cases.
 
@@ -43,3 +43,26 @@
     that is limited in supply and has a unique identity. NFTs are difficult to
     copy or replicate, making them ideal for representing digital or real-world
     assets such as paintings, photographs, or other materials.
+
+
+    For asset or equity-backed tokens, there is usually a custodian and an
+    investment institution involved in the process of creating a tokenized
+    stock, assets or commodities. The institution buys the underlying stock and
+    deposits it with the custodian. Based on the number of shares that the
+    custodian holds in reserve, tokens are issued on a blockchain. The price of
+    each token is pegged to the value of the shares.
+
+
+    This process allows for a more efficient way of buying and selling stocks or
+    assets, as well as a more secure way of storing them. By using a blockchain,
+    there is no need for a third party to keep track of ownership or
+    transactions. This makes the process more transparent and less susceptible
+    to fraud.
+
+
+    In 2022, many cryptocurrency exchanges went bankrupt because the tokens they
+    were holding were not kept isolated. These exchanges were centralized
+    entities that were built on top of decentralized technology, and they didn't
+    disclose whether or not users' funds were backed 1:1 at all times. As an
+    educated blockchain user, we should be aware whenever we are depositing
+    custody of our assets or tokens to anyone else.
