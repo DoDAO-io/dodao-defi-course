@@ -73,6 +73,12 @@ topics:
     questions: smart_contracts.yaml
     status: Done
     completionWeek: Done
+  - key: tokenization
+    title: Tokenization
+    details: |-
+      This chapter explains
+      1) Different types of tokes
+      2) Advantages of Tokenization
   - title: Lending and Credit
     key: lending-and-credit
     details: |
@@ -87,12 +93,6 @@ topics:
     questions: lending_and_credit.yaml
     status: Done
     completionWeek: Done
-  - key: tokenization
-    title: Tokenization
-    details: |-
-      This chapter explains
-      1) Different types of tokes
-      2) Advantages of Tokenization
   - title: Decentralised Exchanges
     key: decentralised-exchanges
     details: >

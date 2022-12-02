@@ -5056,6 +5056,15 @@
       ]
     },
     {
+      "key": "tokenization",
+      "title": "Tokenization",
+      "details": "This chapter explains\n1) Different types of tokes\n2) Advantages of Tokenization",
+      "explanations": [],
+      "readings": [],
+      "summaries": [],
+      "questions": []
+    },
+    {
       "title": "Lending and Credit",
       "key": "lending-and-credit",
       "details": "Functioning of the MakerDAO stablecoin and examining Compound and Aave.\n\nDetails \n* MakerDAO stablecoin\n* Compound\n* Aave\n",
@@ -6540,15 +6549,6 @@
           "details": "- Over-colleteralized borrowing seems to be not relevant initially as the amount of collateral needed to borrow the \n  tokens can be quite high. But there are many use cases for it.\n  * **Yield Farming** - The process involves leveraging DeFi protocols to lend cryptocurrencies for high returns that can \n    go up to 100% APY (Annual Percentage Yield). Yield farming originates from banks’ process in lending your deposits; the difference \n    is that DeFi yield farming compounds the interest earned.\n  * **Arbitrage** - Arbitrage takes advantage of the fact that an asset may be worth more in one market than another. While \n    this usually happens because of market inefficiencies, it can also be used to exploit differences in rates between \n    different platforms.\n  * **Margin Trading (Leverage)** - Taking out a loan with extra collateral can help you gain leverage, and you can repeat \n    the process until you reach the limit.\n  * **Liquidation** - Liquidations can be quite profitable, especially for tech-savvy traders. Usually, a liquidator has to \n    compete against other people for the same job, so he uses bots. They work by \"sniping\" the loans that are under the \n    collateralization ratio. This way, they can liquidate the collateral and reimburse the lender. In turn, the liquidator \n    receives a reward fee for his services.\n  * **Risk-reduction/Hedging** - No matter how well you think you know the markets, there will always be bumps in the road. As \n    a trader, you need to find ways to protect your investment from risk, and this is where crypto hedging strategies come in. \n    Hedging encompasses opening positions in opposing market directions to reduce the risks and impacts of market swings. By doing this, \n    you can help to offset any potential losses that might occur.\n"
         }
       ]
-    },
-    {
-      "key": "tokenization",
-      "title": "Tokenization",
-      "details": "This chapter explains\n1) Different types of tokes\n2) Advantages of Tokenization",
-      "explanations": [],
-      "readings": [],
-      "summaries": [],
-      "questions": []
     },
     {
       "title": "Decentralised Exchanges",
