@@ -6542,6 +6542,15 @@
       ]
     },
     {
+      "key": "tokenization",
+      "title": "Tokenization",
+      "details": "This chapter explains\n1) Different types of tokes\n2) Advantages of Tokenization",
+      "explanations": [],
+      "readings": [],
+      "summaries": [],
+      "questions": []
+    },
+    {
       "title": "Decentralised Exchanges",
       "key": "decentralised-exchanges",
       "details": "Focusses on one of the pillars of DeFi - Decentralised Exchanges and their Functioning.\n\nDetails \n* Working of Decentralised Exchanges\n* Swaps\n* Automated Market Makers\n* Loans\n",
@@ -7990,15 +7999,6 @@
           "details": "- DEX Aggregators:\n  DEX Aggregators are financial protocols that enable cryptocurrency traders to access a range of trading pools from a single dashboard (i.e Aggregates different Liquidity Pool prices at one Place).\n  - Types of Aggregators:-\n    - Off-chain Aggregator ( like 1inch, paraswap )\n      * (+) Can swap multiple chains flexibly present over 4+ exchanges\n      * (-) An operator can front-run users\n    - On-chain Aggregator ( like swapswap )\n      * (+) used for arbitrage findings\n      * (-) unlikely to efficiently cover 4+ exchanges\n"
         }
       ]
-    },
-    {
-      "key": "tokenization",
-      "title": "Tokenization",
-      "details": "This chapter explains\n1) Different types of tokes\n2) Advantages of Tokenization",
-      "explanations": [],
-      "readings": [],
-      "summaries": [],
-      "questions": []
     },
     {
       "title": "Derivatives",

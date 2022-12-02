@@ -87,6 +87,12 @@ topics:
     questions: lending_and_credit.yaml
     status: Done
     completionWeek: Done
+  - key: tokenization
+    title: Tokenization
+    details: |-
+      This chapter explains
+      1) Different types of tokes
+      2) Advantages of Tokenization
   - title: Decentralised Exchanges
     key: decentralised-exchanges
     details: >
@@ -109,12 +115,6 @@ topics:
     questions: decentralized_exchanges.yaml
     status: Done
     completionWeek: Done
-  - key: tokenization
-    title: Tokenization
-    details: |-
-      This chapter explains
-      1) Different types of tokes
-      2) Advantages of Tokenization
   - title: Derivatives
     key: derivatives
     details: >
