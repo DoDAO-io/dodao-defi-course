@@ -260,6 +260,15 @@
 
     A schedule for the release of tokens over time, which can be used to
     incentivize certain behaviours or reward certain contributions to a project.
+
+
+    ### Token Lock Schedule
+
+    A token lock schedule is a schedule for the release of tokens over time,
+    often as part of a token sale or initial coin offering (ICO). For example, a
+    token lock schedule might specify that 25% of the tokens will be released
+    immediately, 25% will be released after six months, 25% will be released
+    after one year, and the remaining 25% will be released after two years.
 - key: benefits-of-tokenization
   title: Benefits of Tokenization
   shortTitle: Benefits
