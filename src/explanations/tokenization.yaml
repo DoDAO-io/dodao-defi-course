@@ -247,3 +247,41 @@
     Blockchain technology can greatly improve efficiency in the settlement
     process by reducing complexity and shortening the settlement cycle to near
     real-time.
+- key: downsides-of-tokenization
+  shortTitle: Downsides
+  details: >
+    While tokenization has many potential benefits, including innovation,
+    efficiency, security and enhanced liquidity, it also has some potential
+    downsides.
+
+
+    * **Complexity**: Tokenization can be a complex process, requiring technical
+    expertise and specialized knowledge of blockchain technology. There is a
+    steep learning curve on both the token issuer and the user side. The first
+    step of getting started with  blockchain is setting up a wallet and getting
+    some funds in, which in itself can be a very complex task for non technical
+    users.
+
+
+    * **Security risks**: Your tokens are always at risk of being lost if you
+    forget your private key or if someone gets access to it. Since the
+    cryptocurrency industry is not regulated, there are no checks by any
+    government authority. In 2022, we saw many customers lose their funds as
+    many exchanges were using customer's tokens for riskier bets without their
+    consent.
+
+
+    * **Regulation**: Tokenization is a new and unregulated area, which can
+    create uncertainty and potential legal issues. Until the technology and
+    tokens themselves are regulated, it cannot get investment from some of the
+    biggest institutions like pension funds etc.
+
+
+    * **High transaction fees**: Tokenization can be a great way for fractional
+    ownership or getting liquidity, but it's important to be aware of the
+    potential fees involved. When transacting on Bitcoin or Ethereum, for
+    example, you may have to pay transaction fees. In contrast, many simple
+    transactions made through centralized banks are free of charge.
+    Additionally, banks often profit from hidden fees - which is not typically
+    the case in decentralized finance.
+  title: Downsides of Tokenization
