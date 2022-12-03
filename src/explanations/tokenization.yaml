@@ -191,22 +191,18 @@
 
     #### Deflation
 
-    Deflation in the world of cryptocurrency refers to the phenomenon of the
-    supply of tokens decreasing over time, which can lead to an increase in the
-    value of each individual token. Deflation can occur for a variety of reasons
-    in the crypto world, including:
+    Deflation in the cryptocurrency world happens when there are fewer tokens
+    available and the demand for them is still high. This drives the prices up
+    because there's more competition for each token. Deflation can occur for
+    many reasons, such as:
 
-    1. Token burns: some cryptocurrency projects may implement a token burn, in
-    which a certain number of tokens are permanently destroyed. This can reduce
-    the overall supply of tokens and lead to deflation.
+    1. Token burns: some projects might eliminate a certain number of tokens to
+    reduce supply and create artificial scarcity.
 
-    2. Decreased issuance: some cryptocurrency projects may decrease the rate at
-    which new tokens are created and issued over time. This can reduce the
-    overall supply of tokens and lead to deflation.
+    2. Decreased issuance: some projects may cut back on the rate that new
+    tokens are created and issued.
 
-
-    Similar to inflation, deflation is also contextual. 
-
+    Like inflation, deflation's effects are also contextual.
 
 
     #### Bonding Curve
