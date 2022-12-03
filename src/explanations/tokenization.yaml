@@ -162,6 +162,18 @@
     disclose whether or not users' funds were backed 1:1 at all times. As an
     educated blockchain user, we should be aware whenever we are depositing
     custody of our assets or tokens to anyone else.
+- key: common-terms-related-to-tokenization
+  shortTitle: Common Terms
+  details: >+
+    ### Bonding Curve
+
+    A bonding curve is a type of pricing mechanism that is commonly used in the
+    world of cryptocurrency and decentralized finance (DeFi). It is a
+    mathematical formula that describes the relationship between the supply and
+    demand of a particular token, and determines the price at which that token
+    can be bought or sold.
+
+  title: Common Terms related to Tokenization
 - key: benefits-of-tokenization
   title: Benefits of Tokenization
   shortTitle: Benefits
@@ -250,18 +262,6 @@
     Blockchain technology can greatly improve efficiency in the settlement
     process by reducing complexity and shortening the settlement cycle to near
     real-time.
-- key: common-terms-related-to-tokenization
-  shortTitle: Common Terms
-  details: >+
-    ### Bonding Curve
-
-    A bonding curve is a type of pricing mechanism that is commonly used in the
-    world of cryptocurrency and decentralized finance (DeFi). It is a
-    mathematical formula that describes the relationship between the supply and
-    demand of a particular token, and determines the price at which that token
-    can be bought or sold.
-
-  title: Common Terms related to Tokenization
 - key: downsides-of-tokenization
   shortTitle: Downsides
   details: >
