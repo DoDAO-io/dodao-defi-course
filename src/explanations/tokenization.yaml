@@ -166,15 +166,25 @@
   title: Common Terms related to Tokenization
   shortTitle: Common Terms
   details: >
-    ## Related to Token Creation
-
-    ### Inflation
-
-
-    ### Deflation
+    The creation of asset-backed tokens is a bit more straightforward as it
+    relies on the asset's valuation. The most important things to consider will
+    be the amount of tokens and the initial price. 
 
 
-    ### Bonding Curve
+    Creating tokens for protocols offers a lot of flexibility but it can be
+    difficult for someone new to understand all the different terms used while
+    creating a design. This article covers some of the most important terms.
+
+
+    ### Related to Token Creation
+
+    #### Inflation
+
+
+    #### Deflation
+
+
+    #### Bonding Curve
 
     A bonding curve is a type of pricing mechanism that is commonly used in the
     world of cryptocurrency and decentralized finance (DeFi). It is a
@@ -197,39 +207,38 @@
     opportunities that were previously difficult or impossible to manage.
 
 
-    ## Terms that show the current state of the token
+    ### Terms that show the current state of the token
 
 
-    Total supply: the total number of tokens that have been created or issued by
-    a particular cryptocurrency project.
+    #### Total supply
+
+    The total number of tokens that have been created or issued by a particular
+    cryptocurrency project.
 
 
-    Circulating supply: the number of tokens that are currently in circulation
-    and available for trading on the market.
+    #### Circulating supply
+
+    The number of tokens that are currently in circulation and available for
+    trading on the market.
 
 
-    Market capitalization (market cap): the total value of all the tokens in
-    circulation, calculated by multiplying the circulating supply of the token
-    by its current market price.
+    #### Market capitalization (market cap)
+
+    The total value of all the tokens in circulation, calculated by multiplying
+    the circulating supply of the token by its current market price.
 
 
-    Token burn: the process of permanently destroying a certain number of
-    tokens, which can be used to reduce the total supply and potentially
-    increase the value of the remaining tokens.
+    #### Token burn
+
+    The process of permanently destroying a certain number of tokens, which can
+    be used to reduce the total supply and potentially increase the value of the
+    remaining tokens.
 
 
-    Token vesting: a schedule for the release of tokens over time, which can be
-    used to incentivize certain behaviours or reward certain contributions to a
-    project.
+    #### Token vesting
 
-
-    ### Total Supply
-
-
-    ### Circulating Supply
-
-
-    ### Market Cap
+    A schedule for the release of tokens over time, which can be used to
+    incentivize certain behaviours or reward certain contributions to a project.
 - key: benefits-of-tokenization
   title: Benefits of Tokenization
   shortTitle: Benefits
