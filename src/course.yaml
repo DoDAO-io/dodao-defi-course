@@ -94,7 +94,7 @@ topics:
 
       5) Downsides of Tokenization
     explanations: tokenization.yaml
-  - title: Lending and Credit
+  - title: Lending and Borrowing
     key: lending-and-credit
     details: |
       Functioning of the MakerDAO stablecoin and examining Compound and Aave.

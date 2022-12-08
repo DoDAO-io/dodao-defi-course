@@ -5096,7 +5096,7 @@
       "questions": []
     },
     {
-      "title": "Lending and Credit",
+      "title": "Lending and Borrowing",
       "key": "lending-and-credit",
       "details": "Functioning of the MakerDAO stablecoin and examining Compound and Aave.\n\nDetails \n* MakerDAO stablecoin\n* Compound\n* Aave\n",
       "order": 3,
