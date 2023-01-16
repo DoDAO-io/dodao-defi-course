@@ -3,7 +3,7 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 
 ---
 
-## Lending and Credit
+## Lending and Borrowing
  
 Functioning of the MakerDAO stablecoin and examining Compound and Aave.
 

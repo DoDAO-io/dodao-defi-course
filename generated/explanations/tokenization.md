@@ -1,0 +1,127 @@
+## Header
+This is the course header. This will be added on top of every page. Go to [DoDAO.io](https://www.dodao.io) to know more.
+
+ ---
+ 
+ ## Tokenization
+ 
+ **Need for Tokenization **        
+Traditional finance models and tools have worked well until the last few years, but they leave a lot to be desired when it comes to offering compensation for new ways of collaboration or providing access to a global financial system for everyone. Let's take a look at some of the areas where traditional finance falls short:
+
+### Compensation
+With the traditional ways of compensating employees through salaries or stocks, many organizations are now finding it difficult to keep up with the changing demands of the workforce. With more people working remotely and for fewer hours each week, the rigid financial structures of traditional companies are no longer able to keep up. However, in the world of cryptocurrency, one can simply write a few lines of code to create and distribute tokens based on whatever rules they want. This flexibility has already led to some incredible changes in the way we compensate team members. Compensation by traditional finance fails in the following scenarios
+1) **Global Projects/Companies** - With the rise of globalization, we now have teams of individuals who work together across timezones and may never meet or talk to one another in person. In many cases, these types of remote communities or projects are the most effective ones. For these projects, local compensation rules are outdated and they want new and flexible ways of compensating the project members.
+2) **Open Source Projects** - Open source projects can reach a great level of success, but the people who put work into them often don't reap any benefits when the project does well. The reason is that it's tricky to come up with a standard business model for open source projects. If you're thinking of contributing to an open source project, it's crucial to think about how you can monetize it. Financially stable projects can allow team members to work on things they're passionate about full time with like-minded people - which sounds amazing, right?
+3) **Flexible Roles and Responsibilities** - With organizations' outcomes in terms of revenue and profits becoming more unpredictable than ever, it's important that compensation models and software can adapt to assign equity to all contributors in a flexible way based on the work they actually perform. This allows for a more accurate division of rewards and motivates people to continue putting in their best effort even when things are tough.
+
+### Global Financial System
+Developed countries offer residents more reliable financial opportunities than many other parts of the world. For example, people in developing countries may not have access to reliable investing tools that can protect their money from things like hyper inflation. Traditional Finance doesn't provide the following investment tools to everyone globally
+1) **Stock Investing** - When it comes to investing, some of the most stable companies to put your money into are ones like Google, Apple, Amazon, and Tesla. Even with Tesla's stock prices rising by over 10,000%, many people have held onto their shares - but not everyone has that opportunity. There are plenty of people globally who don't have access to these modern growth stocks.
+2) **Vesture Investing** - Venture investing opportunities have been mostly limited to people with a net worth of a million dollars or earning upwards of $200,000 per year. Traditional investing offers no opportunity for small retail investors to get in on the action. Public companies have mostly gone through their exponential growth lifecycle, so retail investors get access to opportunities that have normalized growth.
+3) **Commodity investing** - investing in commodities like gold, silver, and copper - should be available to everyone. However, many countries lack the financial infrastructure needed for citizens to invest in these commodities. In addition, inflation rates in some countries can be as high as 200%, which reduces the purchasing power of citizens by half each year.
+
+### Business to Business Partnerships
+B2B partnerships can be very complex, involving legal contracts that can take months to finalize. Even the simplest contract can cost a business upwards of $10,000. This can make it very difficult for small businesses to collaborate and work towards common goals.
+
+In the crypto world, however, you often see projects arranging token swaps. This creates a common financial interest for both parties, making it much easier to work together.
+
+### Lack of Liquidity
+Lack of liquidity is a significant challenge for retail investors when it comes to investing in items such as real estate or small businesses. However, tokenization helps to overcome this by fractionalizing ownership and providing innovative ways to create liquidity. Some participants of the industry estimate that tokenization could lead to unlocking trillions of euros that are currently in illiquid assets, which would vastly increase the volumes of trade. 
+ **Token Types**        
+A Token can be thought of as a representation of value that can be exchanged or traded in most cases.
+
+There are many different types of tokens:
+1) **Coins/AltCoins** - These are native to blockchain and can be used for payments or to power transactions. The most 
+   famous type of coins are Bitcoin(BTC) and Ethereum(ETH). These are normally awarded to the validators of the 
+   transaction, but can also be bought and exchanged.
+2) **Security tokens** -  are digital assets that represent some type of underlying asset, equity, or commodity. There are many different types of security tokens, including:
+
+   1) **Stocks or Bonds** - These tokens represent an underlying stock or bond. They help investors from any country gain exposure to one of the most famous stocks or bonds.
+
+   2) **Commodities** - These tokens represent a commodity, such as gold or oil. They help investors from any country gain exposure to the commodity market.
+
+   3) **Real Estate** - These tokens represent a piece of property. They help investors from any country gain exposure to the real estate market.
+3) **Protocol/product tokens** - these tokens are issued by a protocol and may or may not have any utility or governance power related to them. Examples of these tokens include MKR, AAVE and COMP. 
+4) **Utility Tokens** - they can serve any purpose that a developer wants them to. In general, utility tokens provide access to a specific service or product within a blockchain ecosystem. They can often be the same as the protocol token or can be different. 
+5) **Governance Tokens** - Governance tokens are primarily used for voting and decision-making within a protocol or organization. They may also offer some financial incentives, but their main purpose is to give token holders a say in how the protocol or organization is run.
+6) **Cause-Based Tokens** - they are designed to support a specific cause or charity. They typically don't offer any financial incentives or utility, but are meant to show support for the cause they represent. 
+7) **NFTs** - NFTs, or non-fungible tokens, are a type of cryptocurrency that is limited in supply and has a unique identity. NFTs are difficult to copy or replicate, making them ideal for representing digital or real-world assets such as paintings, photographs, or other materials.
+
+For asset or equity-backed tokens, there is usually a custodian and an investment institution involved in the process of creating a tokenized stock, assets or commodities. The institution buys the underlying stock and deposits it with the custodian. Based on the number of shares that the custodian holds in reserve, tokens are issued on a blockchain. The price of each token is pegged to the value of the shares.This process allows for a more efficient way of buying and selling stocks or assets, as well as a more secure way of storing them. By using a blockchain, there is no need for a third party to keep track of ownership or transactions. This makes the process more transparent and less susceptible to fraud.
+
+In 2022, many cryptocurrency exchanges went bankrupt because the tokens they were holding were not kept isolated. These exchanges were centralized entities that were built on top of decentralized technology, and they didn't disclose whether or not users' funds were backed 1:1 at all times. As an educated blockchain user, we should be aware whenever we are depositing custody of our assets or tokens to anyone else. 
+ **Common Terms related to Tokenization**        
+The creation of asset-backed tokens is a bit more straightforward as it relies on the asset's valuation. The most important things to consider will be the amount of tokens and the initial price. 
+
+Creating tokens for protocols offers a lot of flexibility but it can be difficult for someone new to understand all the different terms used while creating a design. This article covers some of the most important terms.
+
+### Terms related to token creation
+#### Inflation
+Inflation in the cryptocurrency world simply refers to the increase in the supply of tokens over time. When the supply of tokens goes up, the value of each individual token can sometimes go down as a result. However, inflation can also provide the funding needed during a project's growth stage, which can lead to a healthy overall state for the project. So inflation is contextual and might not always lead to a lower price for individual tokens. What matters most is how the inflation is being used?
+
+#### Deflation
+Deflation in the cryptocurrency world happens when there are fewer tokens available and the demand for them is still high. This drives the prices up because there's more competition for each token. Deflation can occur for many reasons, such as:
+1. Token burns: some projects might eliminate a certain number of tokens to reduce supply and create artificial scarcity.
+2. Decreased issuance: some projects may cut back on the rate that new tokens are created and issued.
+Like inflation, deflation's effects are also contextual.
+
+#### Bonding Curve
+A bonding curve is a type of pricing mechanism that is commonly used in the world of cryptocurrency and decentralized finance (DeFi). It is a mathematical formula that describes the relationship between the supply and demand of a particular token, and determines the price at which that token can be bought or sold.
+
+Some benefits of bonding curves in the world of cryptocurrency and decentralized finance (DeFi) include:
+1) They provide a transparent and predictable mechanism for determining the price of a token, which can help to promote fair and efficient markets.
+2) They can be used to incentivize certain behaviours or reward certain contributions to the network, which can help to align the interests of different users and promote the long-term growth and success of the project.
+3) They can enable the creation of new financial instruments and investment opportunities that were previously difficult or impossible to manage.
+
+### Terms used to understand current token price
+
+#### Total supply
+The total number of tokens that have been created or issued by a particular cryptocurrency project.
+
+#### Circulating supply
+The number of tokens that are currently in circulation and available for trading on the market.
+
+#### Market capitalization (market cap)
+The total value of all the tokens in circulation, calculated by multiplying the circulating supply of the token by its current market price.
+
+#### Token burn
+The process of permanently destroying a certain number of tokens, which can be used to reduce the total supply and potentially increase the value of the remaining tokens.
+
+#### Token vesting
+A schedule for the release of tokens over time, which can be used to incentivize certain behaviours or reward certain contributions to a project.
+
+### Token Lock Schedule
+A token lock schedule is a schedule for the release of tokens over time, often as part of a token sale or initial coin offering (ICO). For example, a token lock schedule might specify that 25% of the tokens will be released immediately, 25% will be released after six months, 25% will be released after one year, and the remaining 25% will be released after two years.
+ 
+ **Benefits of Tokenization**        
+Some benefits of tokenization include:
+
+### Innovation for Today's Needs
+1) **Compensation** - Tokens offer a more flexible way of compensating team members than was previously available. For example, you can compensate team members in tokens based on the amount of their contribution and the criticality of their work. This allows the project to focus on developing the business rather than on fundraising. Also, everyone who receives tokens is now a shareholder and is aligned with the same goals.
+
+2) **Rewards** - Tokenization provides a more innovative way to compensate members or users who believe in a project's long-term success by distribute tokens based on bonding curves. This system would favour early adopters. Another example of this could be seen with Vote Escrowed Tokenomics where members who have locked their tokens away can earn boosted rewards because they believe in the project's longevity.
+
+3) **User Acquisition** - Startups typically spend a lot of money on marketing to acquire new customers through big advertizing companies like Google, Apple, Facebook, etc. However, this doesn't provide much help to the founders or to the end users. A better form of customer acquisition is through air drops. Air drops are one of the most innovative ways of acquiring new users as they reward the end user and also reduce the cost and the risk to the startup, as they are paying the acquired users in the form of tokens. This method is more beneficial to everyone involved - the founders, the end users, and even the startup itself!
+
+### More power to Retail Investor
+1) **More Opportunities for Investors** - Fractional ownership of assets provides many benefits to investors, including the ability to hold claims that are smaller than what is typically seen in stocks and bonds. This type of ownership also allows for the tokenization of assets, which can help investors gain access to asset classes and risks that they may not have otherwise had the ability to invest in.
+
+2) **Increased Liquidity** - The tokenization of assets can provide increased liquidity for otherwise illiquid assets. This can in turn help finance small and medium enterprises (SMEs) and the real economy. This can make markets more efficient and help diversify investor risks.
+
+### Improved Financial System 
+1) **Increased Speed and Lower Cost** - With automation in the issuance, distribution, and management of securities, as well as securities servicing and corporate actions, the entire securities transaction process becomes more efficient and cost-effective for both issuers and investors. Additionally, the distributed nature of the network with no single point of failure, the immutability of the ledger, and the application of cryptography make the infrastructure more resilient and safe.
+2) **Transparency**  - Transparency is one of the key benefits that blockchain technology can bring to the financial markets. By enhancing information recording and sharing, blockchain can help create a more transparent market environment, with data that is more accurate and reliable. This in turn can help boost investor confidence and make the markets more efficient. Additionally, the decentralized nature of blockchain can help reduce the risks of fraud and corruption, as well as improve auditability.
+3) **Better Regulation** - real-time information about on-chain events can help regulators better understand what's happening with specific projects. This, in turn, can lead to more informed decision-making when it comes to compliance and interactions with those behind the project.
+4) **Settlement and Clearing** - Settlement and clearing can be complex processes, especially in traditional financial markets. In these markets, central clearing houses act as central counterparties (CCPs) to both sides of a trade. This ensures that the trade is matched and executed even if one of the parties defaults, which reduces counterparty risk. Clearing houses confirm trade data and use central securities depositories (CSDs) to record transactions. Custodians holding investor assets work with CSDs to ensure the safe delivery/transfer of assets and funds to each of the respective transacting parties, and they handle the settlement of transactions. Blockchain technology can greatly improve efficiency in the settlement process by reducing complexity and shortening the settlement cycle to near real-time. 
+ **Downsides of Tokenization**        
+While tokenization has many potential benefits, including innovation, efficiency, security and enhanced liquidity, it also has some potential downsides.
+
+* **Complexity**: Tokenization can be a complex process, requiring technical expertise and specialized knowledge of blockchain technology. There is a steep learning curve on both the token issuer and the user side. The first step of getting started with  blockchain is setting up a wallet and getting some funds in, which in itself can be a very complex task for non technical users.
+
+* **Security risks**: Your tokens are always at risk of being lost if you forget your private key or if someone gets access to it. Since the cryptocurrency industry is not regulated, there are no checks by any government authority. In 2022, we saw many customers lose their funds as many exchanges were using customer's tokens for riskier bets without their consent.
+
+* **Regulation**: Tokenization is a new and unregulated area, which can create uncertainty and potential legal issues. Until the technology and tokens themselves are regulated, it cannot get investment from some of the biggest institutions like pension funds etc.
+
+* **High transaction fees**: Tokenization can be a great way for fractional ownership or getting liquidity, but it's important to be aware of the potential fees involved. When transacting on Bitcoin or Ethereum, for example, you may have to pay transaction fees. In contrast, many simple transactions made through centralized banks are free of charge. Additionally, banks often profit from hidden fees - which is not typically the case in decentralized finance.
+ 
+ 

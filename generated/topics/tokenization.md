@@ -5,18 +5,17 @@ This is the course header. This will be added on top of every page. Go to [DoDAO
 
 ## Tokenization
  
-Set protocol and Index Coop
+Tokenization is a way of raising funds, paying team members, improving customer acquisition, and giving rewards using tokens. It is a relatively new method and not as well-known as other methods. Tokenization is an important topic in the crypto world. 
 
-Details 
-* Index Coop
-* Set Protocol provides a way to combine portfolios much like an ETF holds many traditional stocks. The Sets can be active or passive. The module ends with a discussion of the use in DeFi of both wrapped bitcoin and wrapped ethereum.
-* Wrapped bitcoin
-* Balancer
-
+This chapter will explain: 
+1) Why tokenization is needed
+2) Types of tokens
+3) Most important terms
+4) Advantages of Tokenization
+5) Downsides of Tokenization
 
 ## Links
-[Reading List](./../../generated/readings/blockchain_basics.md)
 
-[Summary](./../../generated/summaries/blockchain_basics.md)
 
-[Questions](./../../generated/questions/blockchain_basics.md)
+
+
