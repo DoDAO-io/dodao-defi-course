@@ -10,8 +10,9 @@ highlights:
   - Blockchain history and basics
   - All DeFi building blocks
   - Summaries and questions for each chapter
-publishStatus: Live
-thumbnail: https://d31h13bdjwgzxs.cloudfront.net/courses/DoDAO/CourseIcons/defi_course.png
+publishStatus: Draft
+thumbnail: >-
+  https://d31h13bdjwgzxs.cloudfront.net/courses/DoDAO/CourseIcons/defi_course.png
 details: >
   This course, DeFi 101, will introduce the learners to the world of blockchain
   and how it can be incorporated into the current financial system making it
@@ -159,3 +160,7 @@ topics:
     questions: stable_coins.yaml
     status: In Progress
     completionWeek: July 18
+courseAdmins: []
+topicConfig:
+  showExplanations: false
+  showHints: false

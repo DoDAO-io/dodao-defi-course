@@ -11,7 +11,7 @@
     "All DeFi building blocks",
     "Summaries and questions for each chapter"
   ],
-  "publishStatus": "Live",
+  "publishStatus": "Draft",
   "thumbnail": "https://d31h13bdjwgzxs.cloudfront.net/courses/DoDAO/CourseIcons/defi_course.png",
   "courseAdmins": [],
   "topics": [
@@ -11333,5 +11333,9 @@
         }
       ]
     }
-  ]
+  ],
+  "topicConfig": {
+    "showExplanations": false,
+    "showHints": false
+  }
 }
